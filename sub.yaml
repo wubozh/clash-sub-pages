@@ -4,272 +4,207 @@ socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
-external-controller: 0.0.0.0:9090
 
-proxies:
-dm1lc3M6Ly9leUoySWpvZ0lqSWlMQ0FpY0hNaU9pQWlYSFUyTm1ZMFhIVTJOV0l3WEhVMFpUaGxPakF5TFRBM0lEQTBPakF3SUMxaWVTQkNkVXhwYm1zdWVIbDZMU0JjZFRSbFpUVmNkVFJsTUdKY2RUZ3lPREpjZFRjd1lqbGNkVFJsTUdSY2RUaGlZVEZjZFRaa05ERmNkVGt4WTJZaUxDQWlZV1JrSWpvZ0lseDFOR1kzWmx4MU56VXlPRngxTlRJMFpGeDFPR0ppTUZ4MU5XWTVOMXgxTmpabU5GeDFOalZpTUZ4MU9HSmhNbHgxT1RZd05TSXNJQ0p3YjNKMElqb2dJakFpTENBaWFXUWlPaUFpTm1FelltTmpNRGd0T1dNM055MDBZekF5TFRnME5HSXROR0UyT1RSak5HWXlabVZoSWl3Z0ltRnBaQ0k2SUNJd0lpd2dJbTVsZENJNklDSjBZM0FpTENBaWRIbHdaU0k2SUNKdWIyNWxJaXdnSW1odmMzUWlPaUFpSWl3Z0luQmhkR2dpT2lBaUlpd2dJblJzY3lJNklDSWlmUT09CnNzOi8vWTJoaFkyaGhNakF0YVdWMFppMXdiMng1TVRNd05Ub3pObHBEU0dWaFlsVlRaa3RxWmxGRmRrbzBTRVJXQDE4NS4yNDIuODYuMTU2OjU0MTcwI2dpdGh1Yi5jb20vZnJlZWZxJTIwLSUyMCVFNCVCRiU4NCVFNyVCRCU5NyVFNiU5NiVBRiUyMCUyMDEKdm1lc3M6Ly9leUpoWkdRaU9pQWlNakF5TGpjNExqRTJNaTQxSWl3Z0ltRnBaQ0k2SURBc0lDSm9iM04wSWpvZ0ltbHljMjltZEM1emVYUmxjeTV1WlhRaUxDQWlhV1FpT2lBaU1tWm1PVGRqTm1RdE9EVTFOeTAwTW1FMExXSTBNMll0TVRsak56ZGpOVGsxT1dWaElpd2dJbTVsZENJNklDSjNjeUlzSUNKd1lYUm9Jam9nSWk5QVptOXlkMkZ5WkhZeWNtRjVJaXdnSW5CdmNuUWlPaUEwTkRNc0lDSndjeUk2SUNKbmFYUm9kV0l1WTI5dEwyWnlaV1ZtY1NBdElGeDFOVE0zTUZ4MU5XVmhOaUFnTWlJc0lDSjBiSE1pT2lBaWRHeHpJaXdnSW5SNWNHVWlPaUFpWVhWMGJ5SXNJQ0p6WldOMWNtbDBlU0k2SUNKaGRYUnZJaXdnSW5OcmFYQXRZMlZ5ZEMxMlpYSnBabmtpT2lCMGNuVmxMQ0FpYzI1cElqb2dJaUo5CnZtZXNzOi8vZXlKaFpHUWlPaUFpTWpBeUxqYzRMakUyTWk0MUlpd2dJbUZwWkNJNklEQXNJQ0pvYjNOMElqb2dJbk5oYUdGdVpDNXpaWEoyWlcxcGJtVmpjbUZtZEM1dVpYUWlMQ0FpYVdRaU9pQWlNVEU0TWpnM1pESXRaVGsyT0MwME1tVXhMVGd3WkRBdE1USm1ZVEptTldRek9HUTJJaXdnSW01bGRDSTZJQ0ozY3lJc0lDSndZWFJvSWpvZ0lpOUFabTl5ZDJGeVpIWXljbUY1SWl3Z0luQnZjblFpT2lBME5ETXNJQ0p3Y3lJNklDSm5hWFJvZFdJdVkyOXRMMlp5WldWbWNTQXRJRngxTlRNM01GeDFOV1ZoTmlBZ015SXNJQ0owYkhNaU9pQWlkR3h6SWl3Z0luUjVjR1VpT2lBaVlYVjBieUlzSUNKelpXTjFjbWwwZVNJNklDSmhkWFJ2SWl3Z0luTnJhWEF0WTJWeWRDMTJaWEpwWm5raU9pQjBjblZsTENBaWMyNXBJam9nSWlKOQp2bWVzczovL2V5SjJJam9nSWpJaUxDQWljSE1pT2lBaVoybDBhSFZpTG1OdmJTOW1jbVZsWm5FZ0xTQmNkVGRtT0dWY2RUVTJabVJEYkc5MVpFWnNZWEpsWEhVMU1UWmpYSFUxTTJZNFEwUk9YSFU0TWpneVhIVTNNR0k1SURRaUxDQWlZV1JrSWpvZ0luZDNkeTVrWVhKcmNtOXZiUzVzYjJ3aUxDQWljRzl5ZENJNklEZ3dPREFzSUNKcFpDSTZJQ0l5TWpneU5tSTBOQzAxWXpGaExUUmlOR0l0WkdKaFlTMDRNMkV5WlRoaVpEazFaakFpTENBaVlXbGtJam9nTUN3Z0luTmplU0k2SUNKaGRYUnZJaXdnSW01bGRDSTZJQ0ozY3lJc0lDSm9iM04wSWpvZ0luZDNkeTVrWVhKcmNtOXZiUzVzYjJ3aUxDQWljR0YwYUNJNklDSXZJaXdnSW5Sc2N5STZJQ0lpZlE9PQpzczovL1lXVnpMVEkxTmkxblkyMDZOMEpqVEdSelR6RlhkMlZ2UjBRd1dBQDE5My4yNDMuMTQ3LjEyODo0MDM2OCNnaXRodWIuY29tL2ZyZWVmcSUyMC0lMjAlRTYlQjMlQTIlRTUlODUlQjAlMjAlMjA1CnZtZXNzOi8vZXlKaFpHUWlPaUFpYzJWeWRtVnlNekV1WW1Wb1pYTm9kR0poYm1Wb0xtTnZiU0lzSUNKaGFXUWlPaUF3TENBaWFHOXpkQ0k2SUNKelpYSjJaWEl6TVM1aVpXaGxjMmgwWW1GdVpXZ3VZMjl0SWl3Z0ltbGtJam9nSWpReE5UUXhORE5qTFdKaVltRXRORGRoTkMwNVpqYzVMV015WldRd09EZGpZbU5qT1NJc0lDSnVaWFFpT2lBaWQzTWlMQ0FpY0dGMGFDSTZJQ0l2SWl3Z0luQnZjblFpT2lBNE9EZ3dMQ0FpY0hNaU9pQWlaMmwwYUhWaUxtTnZiUzltY21WbFpuRWdMU0JjZFRkbU9HVmNkVFUyWm1SRGJHOTFaRVpzWVhKbFhIVTFNVFpqWEhVMU0yWTRRMFJPWEhVNE1qZ3lYSFUzTUdJNUlEWWlMQ0FpZEd4eklqb2dJaUlzSUNKMGVYQmxJam9nSW1GMWRHOGlMQ0FpYzJWamRYSnBkSGtpT2lBaVlYVjBieUlzSUNKemEybHdMV05sY25RdGRtVnlhV1o1SWpvZ2RISjFaU3dnSW5OdWFTSTZJQ0lpZlE9PQp2bWVzczovL2V5SjJJam9nSWpJaUxDQWljSE1pT2lBaVoybDBhSFZpTG1OdmJTOW1jbVZsWm5FZ0xTQmNkVFZsTjJaY2RUUmxNV05jZFRjM01ERmNkVGM1Wm1KY2RUVXlZVGdnTnlJc0lDSmhaR1FpT2lBaVpHRjBZUzExY3kxMk1TNXphSGRxWm10M0xtTnVJaXdnSW5CdmNuUWlPaUFpTWpBME1ERWlMQ0FpWVdsa0lqb2dNQ3dnSW5OamVTSTZJQ0poZFhSdklpd2dJbTVsZENJNklDSjNjeUlzSUNKMGVYQmxJam9nSW01dmJtVWlMQ0FpZEd4eklqb2dJaUlzSUNKcFpDSTZJQ0ppTVRRM09HVXlOQzAwT1RFMkxUTmhZbVV0T0dZeE55MHhOVGt6TVRBeE1tVmpZbVVpTENBaWMyNXBJam9nSWlJc0lDSm9iM04wSWpvZ0ltUmhkR0V0ZFhNdGRqRXVjMmgzYW1acmR5NWpiaUlzSUNKd1lYUm9Jam9nSWk5a1pXSnBZVzRpZlE9PQpzczovL1kyaGhZMmhoTWpBdGFXVjBaaTF3YjJ4NU1UTXdOVHBrTmpFd05XSmlaQzFpWlRCa0xUUTFZakl0T0RKaFpDMHpNV1prTVRBM01XTXhaRElAc2VydmljZS5vdWx1eXVuOTgwMy5jb206MjAwMDMjZ2l0aHViLmNvbS9mcmVlZnElMjAtJTIwJUU1JUI5JUJGJUU0JUI4JTlDJUU3JTlDJTgxJUU2JUIxJTlGJUU5JTk3JUE4JUU1JUI4JTgyJUU3JUE3JUJCJUU1JThBJUE4JTIwOAp2bWVzczovL2V5SmhaR1FpT2lBaU1UQTBMakl4TGpneUxqRTRNeUlzSUNKaGFXUWlPaUF3TENBaWFHOXpkQ0k2SUNKelpYSjJaWEl5Tmk1aVpXaGxjMmgwWW1GdVpXZ3VZMjl0SWl3Z0ltbGtJam9nSWpWaE56QXlNV1V3TFRJMllqUXRORFZrTmkxaU1UYzFMV1psTlRVeE5qQXhZMkU1TnlJc0lDSnVaWFFpT2lBaWQzTWlMQ0FpY0dGMGFDSTZJQ0l2SWl3Z0luQnZjblFpT2lBNE9EZ3dMQ0FpY0hNaU9pQWlaMmwwYUhWaUxtTnZiUzltY21WbFpuRWdMU0JjZFRkbU9HVmNkVFUyWm1SRGJHOTFaRVpzWVhKbFhIVTFNVFpqWEhVMU0yWTRRMFJPWEhVNE1qZ3lYSFUzTUdJNUlEa2lMQ0FpZEd4eklqb2dJaUlzSUNKMGVYQmxJam9nSW1GMWRHOGlMQ0FpYzJWamRYSnBkSGtpT2lBaVlYVjBieUlzSUNKemEybHdMV05sY25RdGRtVnlhV1o1SWpvZ2RISjFaU3dnSW5OdWFTSTZJQ0lpZlE9PQp2bWVzczovL2V5SmhaR1FpT2lBaU1qQXlMamM0TGpFMk1pNDFJaXdnSW1GcFpDSTZJREFzSUNKb2IzTjBJam9nSW5CbGJtUmhjaTV2Ym5Sb1pYZHBabWt1WTI5dElpd2dJbWxrSWpvZ0lqY3hObVZrWldRMkxUSXlNREV0TkdSaVpDMDVaRFl6TFRFMk16aGpPV1U0WlRZM055SXNJQ0p1WlhRaU9pQWlkM01pTENBaWNHRjBhQ0k2SUNJdlFHWnZjbmRoY21SMk1uSmhlU0lzSUNKd2IzSjBJam9nTkRRekxDQWljSE1pT2lBaVoybDBhSFZpTG1OdmJTOW1jbVZsWm5FZ0xTQmNkVFV6TnpCY2RUVmxZVFlnSURFd0lpd2dJblJzY3lJNklDSjBiSE1pTENBaWRIbHdaU0k2SUNKaGRYUnZJaXdnSW5ObFkzVnlhWFI1SWpvZ0ltRjFkRzhpTENBaWMydHBjQzFqWlhKMExYWmxjbWxtZVNJNklIUnlkV1VzSUNKemJta2lPaUFpSW4wPQpzczovL1kyaGhZMmhoTWpBdGFXVjBaaTF3YjJ4NU1UTXdOVHBrTmpFd05XSmlaQzFpWlRCa0xUUTFZakl0T0RKaFpDMHpNV1prTVRBM01XTXhaRElAc2VydmljZS5vdWx1eXVuOTgwMy5jb206MjY2NjcjZ2l0aHViLmNvbS9mcmVlZnElMjAtJTIwJUU1JUI5JUJGJUU0JUI4JTlDJUU3JTlDJTgxJUU2JUIxJTlGJUU5JTk3JUE4JUU1JUI4JTgyJUU3JUE3JUJCJUU1JThBJUE4JTIwMTEKc3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwa05qRXdOV0ppWkMxaVpUQmtMVFExWWpJdE9ESmhaQzB6TVdaa01UQTNNV014WkRJQHNlcnZpY2Uub3VsdXl1bjk4MDMuY29tOjIwMDA1I2dpdGh1Yi5jb20vZnJlZWZxJTIwLSUyMCVFNSVCOSVCRiVFNCVCOCU5QyVFNyU5QyU4MSVFNiVCMSU5RiVFOSU5NyVBOCVFNSVCOCU4MiVFNyVBNyVCQiVFNSU4QSVBOCUyMDEyCnZtZXNzOi8vZXlKaFpHUWlPaUFpWjI5MkxuVnJJaXdnSW5ZaU9pQWlNaUlzSUNKd2N5STZJQ0puYVhSb2RXSXVZMjl0TDJaeVpXVm1jU0F0SUZ4MU4yWTRaVngxTlRabVpFWmhjM1JzZVZ4MU5URTJPRngxTnpRd00wRnVlV05oYzNSY2RUZ3lPREpjZFRjd1lqa2dNVE1pTENBaWNHOXlkQ0k2SURRME15d2dJbWxrSWpvZ0lqYzNPRFE0T0RJMExUa3pZamN0TkdJNE9TMW1abVF3TFdVNU1XRm1abVkwTURaalpTSXNJQ0poYVdRaU9pQWlNQ0lzSUNKdVpYUWlPaUFpZDNNaUxDQWlkSGx3WlNJNklDSWlMQ0FpYUc5emRDSTZJQ0o2YUdWemFHbHpZM0F1WTI5dElpd2dJbkJoZEdnaU9pQWlMemMzT0RRNE9ESTBJaXdnSW5Sc2N5STZJQ0owYkhNaWZRPT0Kdm1lc3M6Ly9leUpoWkdRaU9pQWljMlZ5ZG1WeU16SXVZbVZvWlhOb2RHSmhibVZvTG1OdmJTSXNJQ0poYVdRaU9pQXdMQ0FpYUc5emRDSTZJQ0p6WlhKMlpYSXpNaTVpWldobGMyaDBZbUZ1WldndVkyOXRJaXdnSW1sa0lqb2dJakEwTkdKaE9HVmtMVGN5T0RVdE5EY3lZUzFpWXpFMExXWmlPVEZrWXpaaVpUUmpPU0lzSUNKdVpYUWlPaUFpZDNNaUxDQWljR0YwYUNJNklDSXZJaXdnSW5CdmNuUWlPaUE0T0Rnd0xDQWljSE1pT2lBaVoybDBhSFZpTG1OdmJTOW1jbVZsWm5FZ0xTQmNkVGRtT0dWY2RUVTJabVJEYkc5MVpFWnNZWEpsWEhVNE1qZ3lYSFUzTUdJNUlERTBJaXdnSW5Sc2N5STZJQ0lpTENBaWRIbHdaU0k2SUNKaGRYUnZJaXdnSW5ObFkzVnlhWFI1SWpvZ0ltRjFkRzhpTENBaWMydHBjQzFqWlhKMExYWmxjbWxtZVNJNklIUnlkV1VzSUNKemJta2lPaUFpSW4wPQo=
-# 创建者：v2rayse.com 自动创建
-# 创建时间：2025-10-22 08:00:00
-# 节点类型：trojan, vmess, ss
----
-mixed-port: 7890
-allow-lan: false
-mode: "rule"
-log-level: "info"
-external-controller: "127.0.0.1:9999"
-dns:
-  enable: true
-  listen: "0.0.0.0:53"
-  ipv6: false
-  default-nameserver:
-  - "223.5.5.5"
-  - "114.114.114.114"
-  nameserver:
-  - "223.5.5.5"
-  - "114.114.114.114"
-  - "119.29.29.29"
-  - "180.76.76.76"
-  enhanced-mode: "fake-ip"
-  fake-ip-range: "198.18.0.1/16"
-  fake-ip-filter:
-  - "*.lan"
-  - "*.localdomain"
-  - "*.example"
-  - "*.invalid"
-  - "*.localhost"
-  - "*.test"
-  - "*.local"
-  - "*.home.arpa"
-  - "router.asus.com"
-  - "localhost.sec.qq.com"
-  - "localhost.ptlogin2.qq.com"
-  - "+.msftconnecttest.com"
-tun:
-  enable: true
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-  - "114.114.114.114"
-  - "180.76.76.76"
-  - "119.29.29.29"
-  - "223.5.5.5"
-  - "8.8.8.8"
-  - "8.8.4.4"
-  - "1.1.1.1"
-  - "1.0.0.1"
 proxies:
 - name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  type: "trojan"
-  server: "36.156.102.115"
-  port: 26876
-  password: "BxceQaOe"
-  skip-cert-verify: true
 - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-  type: "vmess"
-  server: "v29.heduian.link"
-  port: 30829
-  sni: ""
-  uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/oooo"
-    headers:
-      host: "ocbc.com"
-  alterId: 2
 - name: "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-  type: "ss"
-  server: "185.153.197.5"
-  port: 989
-  cipher: "aes-256-cfb"
-  password: "f8f7aCzcPKbsF8p3"
-proxy-groups:
-- name: "🚀 节点选择"
-  type: "select"
-  proxies:
-  - "♻️ 自动选择"
-  - "DIRECT"
-  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-- name: "♻️ 自动选择"
-  type: "url-test"
-  url: "http://www.gstatic.com/generate_204"
-  interval: 300
-  tolerance: 50
-  proxies:
-  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-- name: "🌍 国外媒体"
-  type: "select"
-  proxies:
-  - "🚀 节点选择"
-  - "♻️ 自动选择"
-  - "🎯 全球直连"
-  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-- name: "📲 电报信息"
-  type: "select"
-  proxies:
-  - "🚀 节点选择"
-  - "🎯 全球直连"
-  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-- name: "Ⓜ️ 微软服务"
-  type: "select"
-  proxies:
-  - "🎯 全球直连"
-  - "🚀 节点选择"
-  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-- name: "🍎 苹果服务"
-  type: "select"
-  proxies:
-  - "🚀 节点选择"
-  - "🎯 全球直连"
-  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-- name: "🎯 全球直连"
-  type: "select"
-  proxies:
-  - "DIRECT"
-  - "🚀 节点选择"
-  - "♻️ 自动选择"
-- name: "🛑 全球拦截"
-  type: "select"
-  proxies:
-  - "REJECT"
-  - "DIRECT"
-- name: "🍃 应用净化"
-  type: "select"
-  proxies:
-  - "REJECT"
-  - "DIRECT"
-- name: "🐟 漏网之鱼"
-  type: "select"
-  proxies:
-  - "🚀 节点选择"
-  - "🎯 全球直连"
-  - "♻️ 自动选择"
-  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-rule-providers:
-  Apple:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/Apple.list"
-  Telegram:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/Telegram.list"
-  ProxyLite:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ProxyLite.list"
-  ChinaDomain:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ChinaDomain.list"
-  ChinaCompanyIp:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ChinaCompanyIp.list"
-  ProxyMedia:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ProxyMedia.list"
-  LocalAreaNetwork:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/LocalAreaNetwork.list"
-  Microsoft:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/Microsoft.list"
-  GoogleCN:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/GoogleCN.list"
-  BanAD:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/BanAD.list"
-  BanProgramAD:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/BanProgramAD.list"
-  SteamCN:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/SteamCN.list"
-rules:
-- "RULE-SET,LocalAreaNetwork,🎯 全球直连"
-- "RULE-SET,BanAD,🛑 全球拦截"
-- "RULE-SET,BanProgramAD,🍃 应用净化"
-- "RULE-SET,GoogleCN,🎯 全球直连"
-- "RULE-SET,SteamCN,🎯 全球直连"
-- "RULE-SET,Microsoft,Ⓜ️ 微软服务"
-- "RULE-SET,Apple,🍎 苹果服务"
-- "RULE-SET,ProxyMedia,🌍 国外媒体"
-- "RULE-SET,Telegram,📲 电报信息"
-- "RULE-SET,ProxyLite,🚀 节点选择"
-- "RULE-SET,ChinaDomain,🎯 全球直连"
-- "RULE-SET,ChinaCompanyIp,🎯 全球直连"
-- "GEOIP,CN,🎯 全球直连"
-- "MATCH,🐟 漏网之鱼"
-
-404: Not Found
+- name: SELECT
+- name: LOAD-BALANCE
+- name: FALLBACK
+- name: FINAL
+- name: JP21｜机房｜低风险
+- name: HK20｜家宽｜非常安全
+- name: HK2｜家宽｜非常安全
+- name: HK3｜家宽｜非常安全
+- name: HK4｜家宽｜非常安全
+- name: HK24｜家宽｜非常安全
+- name: HK10｜家宽｜非常安全
+- name: US4｜机房｜低风险
+- name: US5｜机房｜低风险
+- name: HK11｜原生/疑似家宽｜非常安全
+- name: HK12｜原生/疑似家宽｜非常安全
+- name: HK13｜原生/疑似家宽｜非常安全
+- name: HK14｜原生/疑似家宽｜非常安全
+- name: HK16｜原生/疑似家宽｜非常安全
+- name: HK17｜原生/疑似家宽｜非常安全
+- name: HK18｜原生/疑似家宽｜非常安全
+- name: US16｜机房｜低风险
+- name: US9｜机房｜低风险
+- name: US10｜家宽｜非常安全
+- name: US12｜机房｜低风险
+- name: US13｜机房｜低风险
+- name: DE24｜机房｜低风险
+- name: CA1｜机房｜低风险
+- name: US15｜机房｜低风险
+- name: US17｜机房｜低风险
+- name: DE27｜机房｜低风险
+- name: 香港3|@ripaojiedian
+- name: 香港4|@ripaojiedian
+- name: 香港5|@ripaojiedian
+- name: 日本|@ripaojiedian
+- name: 日本2|@ripaojiedian
+- name: 日本3|@ripaojiedian
+- name: 新加坡|@ripaojiedian
+- name: 新加坡2|@ripaojiedian
+- name: 新加坡3|@ripaojiedian
+- name: 美国|@ripaojiedian
+- name: 美国2|@ripaojiedian
+- name: 美国3|@ripaojiedian
 
 proxy-groups:
+  - name: "Proxy"
+    type: select
+    proxies:
+      - DIRECT
+      - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
+      - "SELECT"
+      - "LOAD-BALANCE"
+      - "FALLBACK"
+      - "FINAL"
+      - "JP21｜机房｜低风险"
+      - "HK20｜家宽｜非常安全"
+      - "HK2｜家宽｜非常安全"
+      - "HK3｜家宽｜非常安全"
+      - "HK4｜家宽｜非常安全"
+      - "HK24｜家宽｜非常安全"
+      - "HK10｜家宽｜非常安全"
+      - "US4｜机房｜低风险"
+      - "US5｜机房｜低风险"
+      - "HK11｜原生/疑似家宽｜非常安全"
+      - "HK12｜原生/疑似家宽｜非常安全"
+      - "HK13｜原生/疑似家宽｜非常安全"
+      - "HK14｜原生/疑似家宽｜非常安全"
+      - "HK16｜原生/疑似家宽｜非常安全"
+      - "HK17｜原生/疑似家宽｜非常安全"
+      - "HK18｜原生/疑似家宽｜非常安全"
+      - "US16｜机房｜低风险"
+      - "US9｜机房｜低风险"
+      - "US10｜家宽｜非常安全"
+      - "US12｜机房｜低风险"
+      - "US13｜机房｜低风险"
+      - "DE24｜机房｜低风险"
+      - "CA1｜机房｜低风险"
+      - "US15｜机房｜低风险"
+      - "US17｜机房｜低风险"
+      - "DE27｜机房｜低风险"
+      - "香港3|@ripaojiedian"
+      - "香港4|@ripaojiedian"
+      - "香港5|@ripaojiedian"
+      - "日本|@ripaojiedian"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
+      - "新加坡|@ripaojiedian"
+      - "新加坡2|@ripaojiedian"
+      - "新加坡3|@ripaojiedian"
+      - "美国|@ripaojiedian"
+      - "美国2|@ripaojiedian"
+      - "美国3|@ripaojiedian"
+
   - name: "Auto"
     type: url-test
     proxies:
-      - DIRECT
+      - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
+      - "SELECT"
+      - "LOAD-BALANCE"
+      - "FALLBACK"
+      - "FINAL"
+      - "JP21｜机房｜低风险"
+      - "HK20｜家宽｜非常安全"
+      - "HK2｜家宽｜非常安全"
+      - "HK3｜家宽｜非常安全"
+      - "HK4｜家宽｜非常安全"
+      - "HK24｜家宽｜非常安全"
+      - "HK10｜家宽｜非常安全"
+      - "US4｜机房｜低风险"
+      - "US5｜机房｜低风险"
+      - "HK11｜原生/疑似家宽｜非常安全"
+      - "HK12｜原生/疑似家宽｜非常安全"
+      - "HK13｜原生/疑似家宽｜非常安全"
+      - "HK14｜原生/疑似家宽｜非常安全"
+      - "HK16｜原生/疑似家宽｜非常安全"
+      - "HK17｜原生/疑似家宽｜非常安全"
+      - "HK18｜原生/疑似家宽｜非常安全"
+      - "US16｜机房｜低风险"
+      - "US9｜机房｜低风险"
+      - "US10｜家宽｜非常安全"
+      - "US12｜机房｜低风险"
+      - "US13｜机房｜低风险"
+      - "DE24｜机房｜低风险"
+      - "CA1｜机房｜低风险"
+      - "US15｜机房｜低风险"
+      - "US17｜机房｜低风险"
+      - "DE27｜机房｜低风险"
+      - "香港3|@ripaojiedian"
+      - "香港4|@ripaojiedian"
+      - "香港5|@ripaojiedian"
+      - "日本|@ripaojiedian"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
+      - "新加坡|@ripaojiedian"
+      - "新加坡2|@ripaojiedian"
+      - "新加坡3|@ripaojiedian"
+      - "美国|@ripaojiedian"
+      - "美国2|@ripaojiedian"
+      - "美国3|@ripaojiedian"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "Fallback"
+    type: fallback
+    proxies:
+      - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国"
+      - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
+      - "SELECT"
+      - "LOAD-BALANCE"
+      - "FALLBACK"
+      - "FINAL"
+      - "JP21｜机房｜低风险"
+      - "HK20｜家宽｜非常安全"
+      - "HK2｜家宽｜非常安全"
+      - "HK3｜家宽｜非常安全"
+      - "HK4｜家宽｜非常安全"
+      - "HK24｜家宽｜非常安全"
+      - "HK10｜家宽｜非常安全"
+      - "US4｜机房｜低风险"
+      - "US5｜机房｜低风险"
+      - "HK11｜原生/疑似家宽｜非常安全"
+      - "HK12｜原生/疑似家宽｜非常安全"
+      - "HK13｜原生/疑似家宽｜非常安全"
+      - "HK14｜原生/疑似家宽｜非常安全"
+      - "HK16｜原生/疑似家宽｜非常安全"
+      - "HK17｜原生/疑似家宽｜非常安全"
+      - "HK18｜原生/疑似家宽｜非常安全"
+      - "US16｜机房｜低风险"
+      - "US9｜机房｜低风险"
+      - "US10｜家宽｜非常安全"
+      - "US12｜机房｜低风险"
+      - "US13｜机房｜低风险"
+      - "DE24｜机房｜低风险"
+      - "CA1｜机房｜低风险"
+      - "US15｜机房｜低风险"
+      - "US17｜机房｜低风险"
+      - "DE27｜机房｜低风险"
+      - "香港3|@ripaojiedian"
+      - "香港4|@ripaojiedian"
+      - "香港5|@ripaojiedian"
+      - "日本|@ripaojiedian"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
+      - "新加坡|@ripaojiedian"
+      - "新加坡2|@ripaojiedian"
+      - "新加坡3|@ripaojiedian"
+      - "美国|@ripaojiedian"
+      - "美国2|@ripaojiedian"
+      - "美国3|@ripaojiedian"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
 rules:
   - GEOIP,CN,DIRECT
-  - MATCH,Auto
+  - MATCH,Proxy

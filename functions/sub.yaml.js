@@ -1,26 +1,52 @@
 export async function onRequest(context) {
-  try {
-    // 从你的 Worker 地址获取最新的 sub.yaml
-    const res = await fetch("https://clash.wubozh.workers.dev/sub.yaml");
+  const urls = [
+    "https://raw.githubusercontent.com/freefq/free/master/v2",
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+    "https://raw.githubusercontent.com/openitvn/freevpn/main/clash.yml"
+  ];
 
-    if (!res.ok) {
-      throw new Error(`Upstream returned ${res.status}`);
+  let nodes = [];
+
+  for (const url of urls) {
+    try {
+      const res = await fetch(url);
+      const text = await res.text();
+      nodes.push(text);
+    } catch (e) {
+      // 可以加日志或忽略错误
     }
-
-    const body = await res.text();
-
-    // 返回 YAML 内容，带上正确的响应头
-    return new Response(body, {
-      headers: {
-        "Content-Type": "text/yaml",
-        "Cache-Control": "no-cache"
-      }
-    });
-  } catch (err) {
-    // 出错时返回提示信息
-    return new Response("Upstream fetch failed: " + err.message, {
-      status: 502,
-      headers: { "Content-Type": "text/plain" }
-    });
   }
+
+  const merged = nodes.join("\n");
+
+  const clashConfig = `
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+
+proxies:
+${merged}
+
+proxy-groups:
+  - name: "Auto"
+    type: url-test
+    proxies:
+      - DIRECT
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,Auto
+`;
+
+  return new Response(clashConfig, {
+    headers: {
+      "Content-Type": "text/yaml",
+      "Cache-Control": "no-cache"
+    }
+  });
 }

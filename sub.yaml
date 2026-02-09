@@ -49,42 +49,6 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-    type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
-  - name: "github.com/freefq - 美国CloudFlare节点 14"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
   - name: "新加坡-007 |3.5MB/s|YT-SG|NF|D+|GM|0%"
     type: ss
     server: 103.36.91.32
@@ -120,27 +84,6 @@ proxies:
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-004 |0.5MB/s|GPT⁺|X"
-    type: ss
-    server: 103.186.154.225
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-005 |1.9MB/s|GPT⁺|X|History"
-    type: ss
-    server: 103.186.154.243
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-006 |1.4MB/s|GPT⁺|X"
-    type: ss
-    server: 103.186.154.41
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -150,17 +93,11 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 印度  2"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "github.com/freefq - 美国CloudFlare节点 14"
       - "新加坡-007 |3.5MB/s|YT-SG|NF|D+|GM|0%"
       - "荷兰-016 |5.0MB/s|GPT⁺|YT-NL|NF"
       - "越南-001 |1.9MB/s|GPT⁺|X|History"
       - "越南-002 |1.9MB/s|GPT⁺|X"
       - "越南-003 |1.6MB/s|GPT⁺|X|History|[原生|机房]"
-      - "越南-004 |0.5MB/s|GPT⁺|X"
-      - "越南-005 |1.9MB/s|GPT⁺|X|History"
-      - "越南-006 |1.4MB/s|GPT⁺|X"
 
   - name: Auto
     type: url-test
@@ -172,17 +109,11 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 印度  2"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "github.com/freefq - 美国CloudFlare节点 14"
       - "新加坡-007 |3.5MB/s|YT-SG|NF|D+|GM|0%"
       - "荷兰-016 |5.0MB/s|GPT⁺|YT-NL|NF"
       - "越南-001 |1.9MB/s|GPT⁺|X|History"
       - "越南-002 |1.9MB/s|GPT⁺|X"
       - "越南-003 |1.6MB/s|GPT⁺|X|History|[原生|机房]"
-      - "越南-004 |0.5MB/s|GPT⁺|X"
-      - "越南-005 |1.9MB/s|GPT⁺|X|History"
-      - "越南-006 |1.4MB/s|GPT⁺|X"
 
   - name: Fallback
     type: fallback
@@ -194,17 +125,11 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 印度  2"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "github.com/freefq - 美国CloudFlare节点 14"
       - "新加坡-007 |3.5MB/s|YT-SG|NF|D+|GM|0%"
       - "荷兰-016 |5.0MB/s|GPT⁺|YT-NL|NF"
       - "越南-001 |1.9MB/s|GPT⁺|X|History"
       - "越南-002 |1.9MB/s|GPT⁺|X"
       - "越南-003 |1.6MB/s|GPT⁺|X|History|[原生|机房]"
-      - "越南-004 |0.5MB/s|GPT⁺|X"
-      - "越南-005 |1.9MB/s|GPT⁺|X|History"
-      - "越南-006 |1.4MB/s|GPT⁺|X"
 
 rules:
   - GEOIP,CN,DIRECT

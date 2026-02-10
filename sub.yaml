@@ -13,18 +13,18 @@ proxies:
     password: "iwangjie"
     sni: "141.94.68.216"
 
-  - name: "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
-    type: trojan
-    server: 15.224.3.139
-    port: 22222
-    password: "telegram-id-privatevpns"
-    sni: "15.224.3.139"
-
   - name: "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
     type: trojan
     server: 15.224.3.139
     port: 22223
     password: "telegram-id-directvpn"
+    sni: "15.224.3.139"
+
+  - name: "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+    type: trojan
+    server: 15.224.3.139
+    port: 22222
+    password: "telegram-id-privatevpns"
     sni: "15.224.3.139"
 
   - name: "github.com/freefq - 美国Fastly全球Anycast节点 13"
@@ -51,9 +51,9 @@ proxies:
     ws-opts:
       path: "/@forwardv2ray"
 
-  - name: "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+  - name: "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
     type: ss
-    server: 103.186.155.67
+    server: 103.186.155.204
     port: 38388
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -65,9 +65,16 @@ proxies:
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
+  - name: "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
     type: ss
-    server: 103.186.155.66
+    server: 103.186.155.114
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+    type: ss
+    server: 103.186.155.67
     port: 38388
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -79,30 +86,9 @@ proxies:
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
+  - name: "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
     type: ss
-    server: 103.186.155.204
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-    type: ss
-    server: 103.186.155.114
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-    type: ss
-    server: 103.186.154.211
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-016 |0.6MB/s|GPT|X"
-    type: ss
-    server: 103.186.155.129
+    server: 103.186.155.66
     port: 38388
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -114,31 +100,38 @@ proxies:
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-004 |1.4MB/s|GPT|X|Succeed"
+  - name: "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
     type: ss
-    server: 103.186.155.60
+    server: 103.186.154.243
     port: 38388
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+  - name: "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
+    type: ss
+    server: 103.186.155.149
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+    type: ss
+    server: 103.186.155.57
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 4"
     type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
       path: "/"
-
-  - name: "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
-    type: ss
-    server: 77.246.97.187
-    port: 7749
-    cipher: chacha20-ietf-poly1305
-    password: "7kJQs2RYHhViTYWaf1RobB"
 
   - name: "github.com/freefq - 美国CloudFlare节点 14"
     type: vmess
@@ -159,6 +152,18 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL"
 
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/"
+
   - name: "github.com/freefq - 美国CloudFlare公司CDN节点 6"
     type: vmess
     server: server31.beheshtbaneh.com
@@ -171,17 +176,12 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
+  - name: "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+    type: ss
+    server: 77.246.97.187
+    port: 7749
+    cipher: chacha20-ietf-poly1305
+    password: "7kJQs2RYHhViTYWaf1RobB"
 
   - name: "github.com/freefq - 广东省移动 7"
     type: vmess
@@ -195,19 +195,19 @@ proxies:
     ws-opts:
       path: "/debian"
 
-  - name: "github.com/freefq - 俄罗斯  1"
-    type: ss
-    server: 185.242.86.156
-    port: 54170
-    cipher: chacha20-ietf-poly1305
-    password: "36ZCHeabUSfKjfQEvJ4HDV"
-
   - name: "github.com/freefq - 广东省江门市移动 8"
     type: ss
     server: service.ouluyun9803.com
     port: 20003
     cipher: chacha20-ietf-poly1305
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
+
+  - name: "github.com/freefq - 波兰  5"
+    type: ss
+    server: 193.243.147.128
+    port: 40368
+    cipher: aes-256-gcm
+    password: "7BcLdsO1WweoGD0X"
 
   - name: "github.com/freefq - 广东省江门市移动 12"
     type: ss
@@ -222,29 +222,29 @@ proxy-groups:
     proxies:
       - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 印度  2"
-      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
       - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
       - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-016 |0.6MB/s|GPT|X"
+      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
       - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-004 |1.4MB/s|GPT|X|Succeed"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
       - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 俄罗斯  1"
       - "github.com/freefq - 广东省江门市移动 8"
+      - "github.com/freefq - 波兰  5"
       - "github.com/freefq - 广东省江门市移动 12"
 
   - name: Auto
@@ -254,29 +254,29 @@ proxy-groups:
     proxies:
       - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 印度  2"
-      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
       - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
       - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-016 |0.6MB/s|GPT|X"
+      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
       - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-004 |1.4MB/s|GPT|X|Succeed"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
       - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 俄罗斯  1"
       - "github.com/freefq - 广东省江门市移动 8"
+      - "github.com/freefq - 波兰  5"
       - "github.com/freefq - 广东省江门市移动 12"
 
   - name: Fallback
@@ -286,29 +286,29 @@ proxy-groups:
     proxies:
       - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 印度  2"
-      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
       - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
       - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-016 |0.6MB/s|GPT|X"
+      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
       - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-004 |1.4MB/s|GPT|X|Succeed"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
       - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 俄罗斯  1"
       - "github.com/freefq - 广东省江门市移动 8"
+      - "github.com/freefq - 波兰  5"
       - "github.com/freefq - 广东省江门市移动 12"
 
 rules:

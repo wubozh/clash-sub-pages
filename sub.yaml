@@ -1,10 +1,38 @@
 proxies:
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: mkouy.99890604.xyz
+    port: 443
+    password: "5196aae7-1479-4f3c-978b-68e74977b509"
+    sni: "mkouy.99890604.xyz"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: ggbnh.7777198.xyz
+    port: 443
+    password: "4115f84d-3b03-4b03-babf-21b36b2f9c03"
+    sni: "ggbnh.7777198.xyz"
+
   - name: "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
     type: trojan
     server: 104.11.86.252
     port: 443
     password: "hSA6YXe15O"
     sni: "104.11.86.252"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: vvvbbbnhj.taipei102.indevs.in
+    port: 443
+    password: "2bfe58f7-da1d-45df-ab43-7c665b20ee29"
+    sni: "vvvbbbnhj.taipei102.indevs.in"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: gbnh.7777112.xyz
+    port: 443
+    password: "2bfe58f7-da1d-45df-ab43-7c665b20ee29"
+    sni: "gbnh.7777112.xyz"
 
   - name: "法国-001 |6.9MB/s|YT-FR|NF|D+"
     type: trojan
@@ -13,18 +41,54 @@ proxies:
     password: "iwangjie"
     sni: "141.94.68.216"
 
-  - name: "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
-    type: trojan
-    server: 15.224.3.139
-    port: 22222
-    password: "telegram-id-privatevpns"
-    sni: "15.224.3.139"
+  - name: "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: mmki9.kk1.ccwu.cc
+    port: 443
+    uuid: 9d24b07c-71f4-4aa5-95ac-3307c6995619
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: "/FlydU79Rnu0lNhu1YZc7zZ"
+
+  - name: "[mibei] DEå¾·å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: "/"
+
+  - name: "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: nextmi.hajmyab.ir
+    port: 2053
+    uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: "/"
 
   - name: "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
     type: trojan
     server: 15.224.3.139
     port: 22223
     password: "telegram-id-directvpn"
+    sni: "15.224.3.139"
+
+  - name: "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+    type: trojan
+    server: 15.224.3.139
+    port: 22222
+    password: "telegram-id-privatevpns"
     sni: "15.224.3.139"
 
   - name: "github.com/freefq - 美国Fastly全球Anycast节点 13"
@@ -39,6 +103,37 @@ proxies:
     ws-opts:
       path: "/77848824"
 
+  - name: "[mibei] GB英国(mibei77.com 米贝节点分享)"
+    type: ss
+    server: admin.c2.havij.co
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "kaQH3hGdcP80XEDI"
+
+  - name: "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
+
+  - name: "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560"
+
   - name: "github.com/freefq - 印度  2"
     type: vmess
     server: 202.78.162.5
@@ -50,6 +145,93 @@ proxies:
     network: ws
     ws-opts:
       path: "/@forwardv2ray"
+
+  - name: "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
+
+  - name: "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+
+  - name: "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: nju.bb4.indevs.in
+    port: 80
+    uuid: b020865b-7404-4894-ba65-a7414b10cda3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/boWUVaU0sxrNtFSdOPjqSc7fzeJr"
+
+  - name: "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: 2001:bc8:32d7:302::15
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
+
+  - name: "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: 2001:bc8:32d7:302::14
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560"
+
+  - name: "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+
+  - name: "[mibei] CAå æ¿å¤§(mibei77.com ç±³è´èç¹åäº«)"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"
+
+  - name: "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
+    type: ss
+    server: 103.186.154.213
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
   - name: "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
     type: ss
@@ -65,46 +247,6 @@ proxies:
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-    type: ss
-    server: 103.186.155.66
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-    type: ss
-    server: 103.186.154.245
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-    type: ss
-    server: 103.186.155.27
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github.com/freefq - 美国CloudFlare节点 14"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
-  - name: "越南-023 |0.7MB/s|GPT⁺|X"
-    type: ss
-    server: 103.186.155.133
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
   - name: "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
     type: ss
     server: 103.186.155.67
@@ -112,57 +254,12 @@ proxies:
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
+  - name: "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
     type: ss
-    server: 103.186.154.46
+    server: 103.186.155.66
     port: 38388
     cipher: aes-256-cfb
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-    type: ss
-    server: 103.186.154.211
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-    type: ss
-    server: 103.186.154.213
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-    type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
-  - name: "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
-    type: ss
-    server: 89.44.197.181
-    port: 31348
-    cipher: chacha20-ietf-poly1305
-    password: "zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL"
 
   - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
     type: vmess
@@ -176,140 +273,119 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+  - name: "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
     type: ss
-    server: 77.246.97.187
-    port: 7749
-    cipher: chacha20-ietf-poly1305
-    password: "7kJQs2RYHhViTYWaf1RobB"
-
-  - name: "github.com/freefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/debian"
-
-  - name: "github.com/freefq - 广东省江门市移动 11"
-    type: ss
-    server: service.ouluyun9803.com
-    port: 26667
-    cipher: chacha20-ietf-poly1305
-    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
-
-  - name: "github.com/freefq - 广东省江门市移动 8"
-    type: ss
-    server: service.ouluyun9803.com
-    port: 20003
-    cipher: chacha20-ietf-poly1305
-    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
-
-  - name: "github.com/freefq - 俄罗斯  1"
-    type: ss
-    server: 185.242.86.156
-    port: 54170
-    cipher: chacha20-ietf-poly1305
-    password: "36ZCHeabUSfKjfQEvJ4HDV"
+    server: 103.186.155.57
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] DEå¾·å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
       - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
       - "github.com/freefq - 印度  2"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] CAå æ¿å¤§(mibei77.com ç±³è´èç¹åäº«)"
+      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
       - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
       - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-      - "github.com/freefq - 美国CloudFlare节点 14"
-      - "越南-023 |0.7MB/s|GPT⁺|X"
       - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
-      - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 广东省江门市移动 11"
-      - "github.com/freefq - 广东省江门市移动 8"
-      - "github.com/freefq - 俄罗斯  1"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] DEå¾·å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
       - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
       - "github.com/freefq - 印度  2"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] CAå æ¿å¤§(mibei77.com ç±³è´èç¹åäº«)"
+      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
       - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
       - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-      - "github.com/freefq - 美国CloudFlare节点 14"
-      - "越南-023 |0.7MB/s|GPT⁺|X"
       - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
-      - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 广东省江门市移动 11"
-      - "github.com/freefq - 广东省江门市移动 8"
-      - "github.com/freefq - 俄罗斯  1"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] DEå¾·å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
       - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
       - "github.com/freefq - 印度  2"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] USç¾å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] GBè±å½(mibei77.com ç±³è´èç¹åäº«)"
+      - "[mibei] CAå æ¿å¤§(mibei77.com ç±³è´èç¹åäº«)"
+      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
       - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
       - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-      - "github.com/freefq - 美国CloudFlare节点 14"
-      - "越南-023 |0.7MB/s|GPT⁺|X"
       - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
-      - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
-      - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 广东省江门市移动 11"
-      - "github.com/freefq - 广东省江门市移动 8"
-      - "github.com/freefq - 俄罗斯  1"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
 
 rules:
   - GEOIP,CN,DIRECT

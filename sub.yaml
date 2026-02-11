@@ -1,18 +1,4 @@
 proxies:
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 9"
-    type: trojan
-    server: gbnh.7777112.xyz
-    port: 443
-    password: "2bfe58f7-da1d-45df-ab43-7c665b20ee29"
-    sni: "gbnh.7777112.xyz"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 19"
-    type: trojan
-    server: ggbnh.7777198.xyz
-    port: 443
-    password: "4115f84d-3b03-4b03-babf-21b36b2f9c03"
-    sni: "ggbnh.7777198.xyz"
-
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 17"
     type: trojan
     server: mkouy.99890604.xyz
@@ -20,12 +6,26 @@ proxies:
     password: "5196aae7-1479-4f3c-978b-68e74977b509"
     sni: "mkouy.99890604.xyz"
 
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 9"
+    type: trojan
+    server: gbnh.7777112.xyz
+    port: 443
+    password: "2bfe58f7-da1d-45df-ab43-7c665b20ee29"
+    sni: "gbnh.7777112.xyz"
+
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 12"
     type: trojan
     server: vvvbbbnhj.taipei102.indevs.in
     port: 443
     password: "2bfe58f7-da1d-45df-ab43-7c665b20ee29"
     sni: "vvvbbbnhj.taipei102.indevs.in"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 19"
+    type: trojan
+    server: ggbnh.7777198.xyz
+    port: 443
+    password: "4115f84d-3b03-4b03-babf-21b36b2f9c03"
+    sni: "ggbnh.7777198.xyz"
 
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 8"
     type: vmess
@@ -57,13 +57,6 @@ proxies:
     tls: true
     network: ws
 
-  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
-    type: ss
-    server: admin.c2.havij.co
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "kaQH3hGdcP80XEDI"
-
   - name: "github.com/freefq - 美国Fastly全球Anycast节点 13"
     type: vmess
     server: gov.uk
@@ -76,6 +69,13 @@ proxies:
     ws-opts:
       path: "/77848824"
 
+  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
+    type: ss
+    server: admin.c2.havij.co
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "kaQH3hGdcP80XEDI"
+
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 15"
     type: vmess
     server: nju.bb4.indevs.in
@@ -86,9 +86,9 @@ proxies:
     tls: false
     network: ws
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 10"
     type: vmess
-    server: 2001:bc8:32d7:302::15
+    server: 2001:bc8:32d7:302::17
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -99,6 +99,16 @@ proxies:
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 5"
     type: vmess
     server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
+    type: vmess
+    server: 2001:bc8:32d7:302::15
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -118,9 +128,9 @@ proxies:
     ws-opts:
       path: "/@forwardv2ray"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 10"
+  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
     type: vmess
-    server: 2001:bc8:32d7:302::17
+    server: 2001:bc8:32d7:302::14
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -138,16 +148,6 @@ proxies:
     tls: false
     network: ws
 
-  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
-    type: vmess
-    server: 2001:bc8:32d7:302::14
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-
   - name: "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -158,35 +158,23 @@ proxies:
     tls: false
     network: ws
 
-  - name: "github.com/freefq - 美国CloudFlare节点 14"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/"
-
   - name: "github.com/freefq - 美国CloudFlare公司CDN节点 4"
     type: vmess
     server: www.darkroom.lol
     port: 8080
     uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/"
+
+  - name: "github.com/freefq - 美国CloudFlare节点 14"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     tls: false
@@ -206,6 +194,18 @@ proxies:
     ws-opts:
       path: "/"
 
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/"
+
   - name: "github.com/freefq - 广东省移动 7"
     type: vmess
     server: data-us-v1.shwjfkw.cn
@@ -218,13 +218,6 @@ proxies:
     ws-opts:
       path: "/debian"
 
-  - name: "github.com/freefq - 广东省江门市移动 8"
-    type: ss
-    server: service.ouluyun9803.com
-    port: 20003
-    cipher: chacha20-ietf-poly1305
-    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
-
   - name: "github.com/freefq - 广东省江门市移动 12"
     type: ss
     server: service.ouluyun9803.com
@@ -232,104 +225,111 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
-  - name: "github.com/freefq - 波兰  5"
+  - name: "github.com/freefq - 广东省江门市移动 11"
     type: ss
-    server: 193.243.147.128
-    port: 40368
-    cipher: aes-256-gcm
-    password: "7BcLdsO1WweoGD0X"
+    server: service.ouluyun9803.com
+    port: 26667
+    cipher: chacha20-ietf-poly1305
+    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
+
+  - name: "github.com/freefq - 广东省江门市移动 8"
+    type: ss
+    server: service.ouluyun9803.com
+    port: 20003
+    cipher: chacha20-ietf-poly1305
+    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 17"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
       - "[mibei] DE德国(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
-      - "[mibei] US美国(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
-      - "github.com/freefq - 印度  2"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 6"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "github.com/freefq - 印度  2"
       - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 6"
       - "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
-      - "github.com/freefq - 美国CloudFlare节点 14"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "github.com/freefq - 美国CloudFlare节点 14"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 广东省江门市移动 8"
       - "github.com/freefq - 广东省江门市移动 12"
-      - "github.com/freefq - 波兰  5"
+      - "github.com/freefq - 广东省江门市移动 11"
+      - "github.com/freefq - 广东省江门市移动 8"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 17"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
       - "[mibei] DE德国(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
-      - "[mibei] US美国(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
-      - "github.com/freefq - 印度  2"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 6"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "github.com/freefq - 印度  2"
       - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 6"
       - "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
-      - "github.com/freefq - 美国CloudFlare节点 14"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "github.com/freefq - 美国CloudFlare节点 14"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 广东省江门市移动 8"
       - "github.com/freefq - 广东省江门市移动 12"
-      - "github.com/freefq - 波兰  5"
+      - "github.com/freefq - 广东省江门市移动 11"
+      - "github.com/freefq - 广东省江门市移动 8"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 17"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
       - "[mibei] DE德国(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
-      - "[mibei] US美国(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
-      - "github.com/freefq - 印度  2"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 6"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "github.com/freefq - 印度  2"
       - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 6"
       - "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
-      - "github.com/freefq - 美国CloudFlare节点 14"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "github.com/freefq - 美国CloudFlare节点 14"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
       - "github.com/freefq - 广东省移动 7"
-      - "github.com/freefq - 广东省江门市移动 8"
       - "github.com/freefq - 广东省江门市移动 12"
-      - "github.com/freefq - 波兰  5"
+      - "github.com/freefq - 广东省江门市移动 11"
+      - "github.com/freefq - 广东省江门市移动 8"
 
 rules:
   - GEOIP,CN,DIRECT

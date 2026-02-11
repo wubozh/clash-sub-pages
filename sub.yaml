@@ -1,73 +1,13 @@
 proxies:
-  - name: "HK30｜家宽｜非常安全"
-    type: trojan
-    server: 219.76.135.98
+  - name: "[nodefree] 🇸🇬_SG_新加坡"
+    type: vmess
+    server: 128.199.128.117
     port: 443
-    password: "BxceQaOe"
-    sni: "t.me%2Fripaojiedian"
-
-  - name: "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-    type: trojan
-    server: 104.11.86.252
-    port: 443
-    password: "hSA6YXe15O"
-    sni: "Telegram @WangCai2"
-
-  - name: "美国|@ripaojiedian"
-    type: trojan
-    server: 38.180.193.227
-    port: 443
-    password: "5fb072e0ddd631cf66cf752b09210480"
-    sni: "www.nintendogames.net"
-
-  - name: "美国2|@ripaojiedian"
-    type: trojan
-    server: 38.180.193.206
-    port: 443
-    password: "5fb072e0ddd631cf66cf752b09210480"
-    sni: "www.nintendogames.net"
-
-  - name: "US108｜机房｜低风险"
-    type: trojan
-    server: bestcdn0.868863.xyz
-    port: 8443
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072628740.682637.xyz"
-
-  - name: "US119｜机房｜低风险"
-    type: trojan
-    server: bestcdn5.868863.xyz
-    port: 8443
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072625014.206352.xyz"
-
-  - name: "香港3|@ripaojiedian"
-    type: trojan
-    server: 35.77.81.137
-    port: 4486
-    password: "5fb072e0ddd631cf66cf752b09210480"
-    sni: "www.nintendogames.net"
-
-  - name: "香港4|@ripaojiedian"
-    type: trojan
-    server: 18.183.242.254
-    port: 2826
-    password: "BxceQaOe"
-    sni: "t.me%2Fripaojiedian"
-
-  - name: "HK11｜原生/疑似家宽｜非常安全"
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: "91cec748-2bd4-4608-89a3-09220e1599f9"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "ID_speednode_0019"
-    type: trojan
-    server: qfdfsg.wsone.icu
-    port: 443
-    password: "M7v%w11Se*"
-    sni: "qfdfsg.wsone.icu"
+    uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
 
   - name: "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
     type: vmess
@@ -79,50 +19,107 @@ proxies:
     tls: true
     network: ws
 
-  - name: "香港5|@ripaojiedian"
+  - name: "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
     type: trojan
-    server: 13.114.141.67
-    port: 38301
-    password: "BxceQaOe"
-    sni: "t.me%2Fripaojiedian"
+    server: 52.195.8.127
+    port: 3373
+    password: "5fb072e0ddd631cf66cf752b09210480"
+    sni: "www.nintendogames.net"
 
-  - name: "[nodefree] 🇸🇬_SG_新加坡"
+  - name: "github.com/freefq - 俄罗斯  1"
+    type: ss
+    server: 185.242.86.156
+    port: 54170
+    cipher: chacha20-ietf-poly1305
+    password: "36ZCHeabUSfKjfQEvJ4HDV"
+
+  - name: "github.com/freefq - 印度  2"
     type: vmess
-    server: 128.199.128.117
+    server: 202.78.162.5
     port: 443
-    uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
     alterId: 0
     cipher: auto
     tls: true
     network: ws
+    ws-opts:
+      path: "/@forwardv2ray"
 
-  - name: "HK39｜原生/疑似家宽｜非常安全"
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31103
-    password: "155bc127-485a-44b2-8e38-3fbf711a6e25"
-    sni: "green2.cdntencentmusic.com"
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/"
 
-  - name: "HK15｜原生/疑似家宽｜非常安全"
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31101
-    password: "155bc127-485a-44b2-8e38-3fbf711a6e25"
-    sni: "green2.cdntencentmusic.com"
+  - name: "github.com/freefq - 波兰  5"
+    type: ss
+    server: 193.243.147.128
+    port: 40368
+    cipher: aes-256-gcm
+    password: "7BcLdsO1WweoGD0X"
 
-  - name: "US110｜机房｜低风险"
-    type: trojan
-    server: bestcdn0.868863.xyz
-    port: 2053
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072626229.682637.xyz"
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 6"
+    type: vmess
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/"
 
-  - name: "US111｜机房｜低风险"
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2053
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072625537.206352.xyz"
+  - name: "github.com/freefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/debian"
+
+  - name: "github.com/freefq - 广东省江门市移动 8"
+    type: ss
+    server: service.ouluyun9803.com
+    port: 20003
+    cipher: chacha20-ietf-poly1305
+    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
+
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/"
+
+  - name: "github.com/freefq - 广东省江门市移动 11"
+    type: ss
+    server: service.ouluyun9803.com
+    port: 26667
+    cipher: chacha20-ietf-poly1305
+    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
+
+  - name: "github.com/freefq - 广东省江门市移动 12"
+    type: ss
+    server: service.ouluyun9803.com
+    port: 20005
+    cipher: chacha20-ietf-poly1305
+    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
   - name: ""🇨🇳_CN_中国->🇯🇵_JP_日本""
     type: trojan
@@ -131,61 +128,19 @@ proxies:
     password: "BxceQaOe"
     sni: "36.156.102.115"
 
-  - name: "US116｜机房｜低风险"
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2053
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072624113.206355.xyz"
+  - name: ""🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯""
+    type: ss
+    server: 185.153.197.5
+    port: 989
+    cipher: aes-256-cfb
+    password: "f8f7aCzcPKbsF8p3"
 
-  - name: "新加坡3|@ripaojiedian"
+  - name: "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
     type: trojan
-    server: 18.183.242.254
-    port: 1196
-    password: "BxceQaOe"
-    sni: "t.me%252Fripaojiedian"
-
-  - name: "新加坡|@ripaojiedian"
-    type: trojan
-    server: 160.16.72.205
-    port: 3901
-    password: "5fb072e0ddd631cf66cf752b09210480"
-    sni: "www.nintendogames.net"
-
-  - name: "日本|@ripaojiedian"
-    type: trojan
-    server: 18.183.242.254
-    port: 3760
-    password: "BxceQaOe"
-    sni: "t.me%252Fripaojiedian"
-
-  - name: "新加坡2|@ripaojiedian"
-    type: trojan
-    server: 160.16.150.76
-    port: 3901
-    password: "5fb072e0ddd631cf66cf752b09210480"
-    sni: "www.nintendogames.net"
-
-  - name: "DE142｜机房｜低风险"
-    type: trojan
-    server: bestcdn4.868863.xyz
-    port: 8443
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072622231.206353.xyz"
-
-  - name: "日本3|@ripaojiedian"
-    type: trojan
-    server: 54.199.40.252
-    port: 1933
-    password: "5fb072e0ddd631cf66cf752b09210480"
-    sni: "www.nintendogames.net"
-
-  - name: "日本2|@ripaojiedian"
-    type: trojan
-    server: 160.16.150.76
-    port: 3423
-    password: "5fb072e0ddd631cf66cf752b09210480"
-    sni: "www.nintendogames.net"
+    server: 104.11.86.252
+    port: 443
+    password: "hSA6YXe15O"
+    sni: "Telegram @WangCai2"
 
   - name: "法国-001 |6.9MB/s|YT-FR|NF|D+"
     type: trojan
@@ -194,133 +149,206 @@ proxies:
     password: "iwangjie"
     sni: "nodes.830901.xyz"
 
-  - name: "US107｜机房｜低风险"
+  - name: "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
     type: trojan
-    server: bestcdn0.868863.xyz
-    port: 2096
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072626709.682637.xyz"
+    server: 15.224.3.139
+    port: 22223
+    password: "telegram-id-directvpn"
+    sni: "trojan.burgerip.co.uk"
 
-  - name: "US114｜机房｜低风险"
+  - name: "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
     type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2096
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072629929.206355.xyz"
+    server: 15.224.3.139
+    port: 22222
+    password: "telegram-id-privatevpns"
+    sni: "trojan.burgerip.co.uk"
 
-  - name: "US117｜机房｜低风险"
+  - name: "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+    type: ss
+    server: 77.246.97.187
+    port: 7749
+    cipher: chacha20-ietf-poly1305
+    password: "7kJQs2RYHhViTYWaf1RobB"
+
+  - name: "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
+    type: ss
+    server: 103.186.155.56
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
+    type: ss
+    server: 103.186.155.229
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+    type: ss
+    server: 103.186.154.243
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-004 |1.4MB/s|GPT|X|Succeed"
+    type: ss
+    server: 103.186.155.60
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
+    type: ss
+    server: 103.186.154.4
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+    type: ss
+    server: 103.186.155.57
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
+    type: ss
+    server: 103.186.155.66
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
+    type: ss
+    server: 103.186.154.211
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+
+  - name: "HK39｜原生/疑似家宽｜非常安全"
     type: trojan
-    server: bestcdn4.868863.xyz
-    port: 2096
-    password: "5d21ca08-7d16-4230-a20b-01edd62751f4"
-    sni: "17707072628352.206352.xyz"
+    server: green2.cdntencentmusic.com
+    port: 31103
+    password: "155bc127-485a-44b2-8e38-3fbf711a6e25"
+    sni: "green2.cdntencentmusic.com"
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "HK30｜家宽｜非常安全"
-      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-      - "美国|@ripaojiedian"
-      - "美国2|@ripaojiedian"
-      - "US108｜机房｜低风险"
-      - "US119｜机房｜低风险"
-      - "香港3|@ripaojiedian"
-      - "香港4|@ripaojiedian"
-      - "HK11｜原生/疑似家宽｜非常安全"
-      - "ID_speednode_0019"
-      - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - "香港5|@ripaojiedian"
       - "[nodefree] 🇸🇬_SG_新加坡"
-      - "HK39｜原生/疑似家宽｜非常安全"
-      - "HK15｜原生/疑似家宽｜非常安全"
-      - "US110｜机房｜低风险"
-      - "US111｜机房｜低风险"
+      - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
+      - "github.com/freefq - 俄罗斯  1"
+      - "github.com/freefq - 印度  2"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "github.com/freefq - 波兰  5"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
+      - "github.com/freefq - 广东省移动 7"
+      - "github.com/freefq - 广东省江门市移动 8"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+      - "github.com/freefq - 广东省江门市移动 11"
+      - "github.com/freefq - 广东省江门市移动 12"
       - ""🇨🇳_CN_中国->🇯🇵_JP_日本""
-      - "US116｜机房｜低风险"
-      - "新加坡3|@ripaojiedian"
-      - "新加坡|@ripaojiedian"
-      - "日本|@ripaojiedian"
-      - "新加坡2|@ripaojiedian"
-      - "DE142｜机房｜低风险"
-      - "日本3|@ripaojiedian"
-      - "日本2|@ripaojiedian"
+      - ""🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯""
+      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "US107｜机房｜低风险"
-      - "US114｜机房｜低风险"
-      - "US117｜机房｜低风险"
+      - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+      - "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
+      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-004 |1.4MB/s|GPT|X|Succeed"
+      - "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
+      - "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
+      - "HK39｜原生/疑似家宽｜非常安全"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "HK30｜家宽｜非常安全"
-      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-      - "美国|@ripaojiedian"
-      - "美国2|@ripaojiedian"
-      - "US108｜机房｜低风险"
-      - "US119｜机房｜低风险"
-      - "香港3|@ripaojiedian"
-      - "香港4|@ripaojiedian"
-      - "HK11｜原生/疑似家宽｜非常安全"
-      - "ID_speednode_0019"
-      - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - "香港5|@ripaojiedian"
       - "[nodefree] 🇸🇬_SG_新加坡"
-      - "HK39｜原生/疑似家宽｜非常安全"
-      - "HK15｜原生/疑似家宽｜非常安全"
-      - "US110｜机房｜低风险"
-      - "US111｜机房｜低风险"
+      - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
+      - "github.com/freefq - 俄罗斯  1"
+      - "github.com/freefq - 印度  2"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "github.com/freefq - 波兰  5"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
+      - "github.com/freefq - 广东省移动 7"
+      - "github.com/freefq - 广东省江门市移动 8"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+      - "github.com/freefq - 广东省江门市移动 11"
+      - "github.com/freefq - 广东省江门市移动 12"
       - ""🇨🇳_CN_中国->🇯🇵_JP_日本""
-      - "US116｜机房｜低风险"
-      - "新加坡3|@ripaojiedian"
-      - "新加坡|@ripaojiedian"
-      - "日本|@ripaojiedian"
-      - "新加坡2|@ripaojiedian"
-      - "DE142｜机房｜低风险"
-      - "日本3|@ripaojiedian"
-      - "日本2|@ripaojiedian"
+      - ""🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯""
+      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "US107｜机房｜低风险"
-      - "US114｜机房｜低风险"
-      - "US117｜机房｜低风险"
+      - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+      - "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
+      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-004 |1.4MB/s|GPT|X|Succeed"
+      - "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
+      - "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
+      - "HK39｜原生/疑似家宽｜非常安全"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "HK30｜家宽｜非常安全"
-      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-      - "美国|@ripaojiedian"
-      - "美国2|@ripaojiedian"
-      - "US108｜机房｜低风险"
-      - "US119｜机房｜低风险"
-      - "香港3|@ripaojiedian"
-      - "香港4|@ripaojiedian"
-      - "HK11｜原生/疑似家宽｜非常安全"
-      - "ID_speednode_0019"
-      - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - "香港5|@ripaojiedian"
       - "[nodefree] 🇸🇬_SG_新加坡"
-      - "HK39｜原生/疑似家宽｜非常安全"
-      - "HK15｜原生/疑似家宽｜非常安全"
-      - "US110｜机房｜低风险"
-      - "US111｜机房｜低风险"
+      - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
+      - "github.com/freefq - 俄罗斯  1"
+      - "github.com/freefq - 印度  2"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4"
+      - "github.com/freefq - 波兰  5"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 6"
+      - "github.com/freefq - 广东省移动 7"
+      - "github.com/freefq - 广东省江门市移动 8"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+      - "github.com/freefq - 广东省江门市移动 11"
+      - "github.com/freefq - 广东省江门市移动 12"
       - ""🇨🇳_CN_中国->🇯🇵_JP_日本""
-      - "US116｜机房｜低风险"
-      - "新加坡3|@ripaojiedian"
-      - "新加坡|@ripaojiedian"
-      - "日本|@ripaojiedian"
-      - "新加坡2|@ripaojiedian"
-      - "DE142｜机房｜低风险"
-      - "日本3|@ripaojiedian"
-      - "日本2|@ripaojiedian"
+      - ""🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯""
+      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
       - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "US107｜机房｜低风险"
-      - "US114｜机房｜低风险"
-      - "US117｜机房｜低风险"
+      - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+      - "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
+      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+      - "越南-004 |1.4MB/s|GPT|X|Succeed"
+      - "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
+      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
+      - "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
+      - "HK39｜原生/疑似家宽｜非常安全"
 
 rules:
   - GEOIP,CN,DIRECT

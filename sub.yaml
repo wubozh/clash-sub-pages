@@ -1,27 +1,84 @@
 proxies:
-  - name: "[mibei] HK香港(mibei77.com 米贝节点分享)"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
     type: "vmess"
-    server: "nnmk.bb5.indevs.in"
-    port: 80
-    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
+    server: "2001:bc8:32d7:302::10"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
     alterId: 0
     cipher: "auto"
     tls: false
     network: "ws"
 
-  - name: "[mibei] HK香港(mibei77.com 米贝节点分享) 2"
-    type: "trojan"
-    server: "uu.852224.xyz"
+  - name: "[mibei] GB英国(mibei77.com 米贝节点分享)"
+    type: "ss"
+    server: "admin.c2.havij.co"
     port: 443
-    password: "b020865b-7404-4894-ba65-a7414b10cda3"
-    sni: "uu.852224.xyz"
+    cipher: "chacha20-ietf-poly1305"
+    password: "kaQH3hGdcP80XEDI"
 
-  - name: "[mibei] HK香港(mibei77.com 米贝节点分享) 3"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 4"
+    type: "vmess"
+    server: "2001:bc8:32d7:302::14"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] 西班牙(mibei77.com 米贝节点分享)"
+    type: "vmess"
+    server: "vc.fly.dev"
+    port: 443
+    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
+    alterId: 32
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] HK香港(mibei77.com 米贝节点分享)"
     type: "trojan"
     server: "ttt6.006660666.xyz"
     port: 443
     password: "795ef99b-3260-4d18-ac98-5130bba9f168"
     sni: "ttt6.006660666.xyz"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 7"
+    type: "vmess"
+    server: "nextmi.hajmyab.ir"
+    port: 2053
+    uuid: "9585636a-54bc-419a-90a1-76c5c6ec74df"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 8"
+    type: "vmess"
+    server: "2001:bc8:32d7:302::11"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 10"
+    type: "vmess"
+    server: "mmko.tt0.ccwu.cc"
+    port: 80
+    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 2087
+    password: "trojan"
+    sni: "109.234.211.66"
 
   - name: "[mibei] DE德国(mibei77.com 米贝节点分享)"
     type: "vmess"
@@ -33,71 +90,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] GB英国(mibei77.com 米贝节点分享)"
-    type: "vmess"
-    server: "94.247.142.199"
-    port: 443
-    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
-    type: "vmess"
-    server: "gtm1.ktmwan.net"
-    port: 12883
-    uuid: "3ac9d436-f213-421d-9644-a94686ee9fba"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 3"
-    type: "ss"
-    server: "admin.c2.havij.co"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "kaQH3hGdcP80XEDI"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
-    type: "vmess"
-    server: "gnj.222560.xyz"
-    port: 443
-    uuid: "603f6524-7a34-473c-94fe-a967b6b25095"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 2"
-    type: "ss"
-    server: "chengbai02.ascwt179.com"
-    port: 13223
-    cipher: "aes-128-gcm"
-    password: "JVrsLLN1tkN8oXZO"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 3"
-    type: "vmess"
-    server: "yhj.tc1.ccwu.cc"
-    port: 80
-    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 4"
-    type: "vmess"
-    server: "nmj.wc8.ccwu.cc"
-    port: 80
-    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 5"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 12"
     type: "vmess"
     server: "mmkio.wc5.ccwu.cc"
     port: 80
@@ -107,26 +100,9 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 6"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 13"
     type: "vmess"
-    server: "nextmi.hajmyab.ir"
-    port: 2053
-    uuid: "9585636a-54bc-419a-90a1-76c5c6ec74df"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] FR法国(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "www.calmlunch.com"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 7"
-    type: "vmess"
-    server: "mmkio.tc6.ccwu.cc"
+    server: "nmj.wc8.ccwu.cc"
     port: 80
     uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
     alterId: 0
@@ -134,7 +110,17 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 8"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 14"
+    type: "vmess"
+    server: "nnmk.bb5.indevs.in"
+    port: 80
+    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 15"
     type: "vmess"
     server: "bbbnmki.kk7.ccwu.cc"
     port: 80
@@ -144,77 +130,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 9"
-    type: "vmess"
-    server: "mmko.tt0.ccwu.cc"
-    port: 80
-    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-    type: "vmess"
-    server: "bbnj.wc9.ccwu.cc"
-    port: 80
-    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 11"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::10"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 14"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::17"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 16"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::11"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 19"
-    type: "vmess"
-    server: "nju.bb4.indevs.in"
-    port: 80
-    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 27"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::14"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 35"
     type: "vmess"
     server: "2001:bc8:32d7:302::15"
     port: 44579
@@ -224,7 +140,61 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 56"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 20"
+    type: "ss"
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 21"
+    type: "vmess"
+    server: "yhj.tc1.ccwu.cc"
+    port: 80
+    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 22"
+    type: "vmess"
+    server: "bbnj.wc9.ccwu.cc"
+    port: 80
+    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 24"
+    type: "vmess"
+    server: "nju.bb4.indevs.in"
+    port: 80
+    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
+    type: "vmess"
+    server: "gtm1.ktmwan.net"
+    port: 12883
+    uuid: "3ac9d436-f213-421d-9644-a94686ee9fba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 8443
+    password: "trojan"
+    sni: "109.234.211.66"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 28"
     type: "vmess"
     server: "2001:bc8:32d7:302::16"
     port: 44579
@@ -234,21 +204,24 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "109.234.211.66"
-    port: 2087
-    password: "trojan"
-    sni: "109.234.211.66"
-
-  - name: "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 32"
     type: "vmess"
-    server: "vc.fly.dev"
-    port: 443
-    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
-    alterId: 32
+    server: "2001:bc8:32d7:302::17"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
     cipher: "auto"
-    tls: true
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 50"
+    type: "vmess"
+    server: "mmkio.tc6.ccwu.cc"
+    port: 80
+    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
     network: "ws"
 
   - name: "[nodefree] 🇸🇬_SG_新加坡"
@@ -411,203 +384,150 @@ proxies:
     cipher: "aes-256-cfb"
     password: "f8f7aCzcPKbsF8p3"
 
-  - name: "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
+  - name: "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
     type: "trojan"
-    server: "104.11.86.252"
-    port: 443
-    password: "hSA6YXe15O"
-    sni: "Telegram @WangCai2"
+    server: "160.16.57.238"
+    port: 400
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
 
-  - name: "法国-001 |6.9MB/s|YT-FR|NF|D+"
+  - name: "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%"
+    type: "trojan"
+    server: "160.16.144.208"
+    port: 3423
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
+
+  - name: "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
+    type: "trojan"
+    server: "57.180.14.50"
+    port: 2890
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
+
+  - name: "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
+    type: "ss"
+    server: "57.131.42.19"
+    port: 8389
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54="
+
+  - name: "法国-002 |605KB/s|YT-FR|NF|D+"
     type: "trojan"
     server: "141.94.68.216"
     port: 2053
     password: "iwangjie"
     sni: "nodes.830901.xyz"
 
-  - name: "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
+  - name: "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
     type: "trojan"
-    server: "15.224.3.139"
-    port: 22223
-    password: "telegram-id-directvpn"
-    sni: "trojan.burgerip.co.uk"
+    server: "43.207.89.113"
+    port: 3159
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
 
-  - name: "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
+  - name: "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9005
+    cipher: "aes-256-cfb"
+    password: "ZET59LF6DvCC8KVt"
+
+  - name: "日本-005 |2.0MB/s|26%|GPT⁺|X"
     type: "trojan"
-    server: "15.224.3.139"
-    port: 22222
-    password: "telegram-id-privatevpns"
-    sni: "trojan.burgerip.co.uk"
+    server: "160.16.57.238"
+    port: 40548
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
 
-  - name: "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
+  - name: "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "77.246.97.187"
-    port: 7749
-    cipher: "chacha20-ietf-poly1305"
-    password: "7kJQs2RYHhViTYWaf1RobB"
-
-  - name: "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-    type: "ss"
-    server: "103.186.155.56"
+    server: "103.186.154.166"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
+  - name: "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "103.186.155.229"
+    server: "103.186.154.216"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
+  - name: "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
     type: "ss"
-    server: "103.186.154.243"
+    server: "103.186.154.215"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-004 |1.4MB/s|GPT|X|Succeed"
+  - name: "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "103.186.155.60"
+    server: "103.186.154.47"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
+  - name: "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "103.186.154.4"
+    server: "103.186.154.19"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
+  - name: "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "103.186.155.57"
+    server: "103.186.154.223"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
+  - name: "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "103.186.155.66"
+    server: "103.186.154.13"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
+  - name: "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "103.186.154.211"
+    server: "103.186.154.176"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-009 |2.0MB/s|GPT⁺|GM|YT|X|History"
+  - name: "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
-    server: "103.186.155.22"
+    server: "103.186.155.120"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
+  - name: "美国-018 |1.8MB/s|GPT⁺|YT-US|NF|39%"
+    type: "vmess"
+    server: "192.200.160.173"
+    port: 2053
+    uuid: "9585636a-54bc-419a-90a1-76c5c6ec74df"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
     type: "ss"
-    server: "103.186.155.149"
+    server: "103.186.155.150"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-011 |1.7MB/s|GPT⁺|X|[原生|机房]"
-    type: "ss"
-    server: "103.186.155.85"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  - name: "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF"
+    type: "trojan"
+    server: "153.121.39.240"
+    port: 3901
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
 
-  - name: "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-    type: "ss"
-    server: "103.186.155.114"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-013 |2.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-    type: "ss"
-    server: "103.186.155.131"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-    type: "ss"
-    server: "103.186.154.213"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-015 |1.5MB/s|GPT⁺|GM|X|History|[原生|机房]"
-    type: "ss"
-    server: "103.186.154.249"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-016 |0.6MB/s|GPT|X"
-    type: "ss"
-    server: "103.186.155.129"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-017 |1.2MB/s|GPT⁺|X|Succeed"
-    type: "ss"
-    server: "103.186.155.116"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
-    type: "ss"
-    server: "103.186.155.204"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-019 |1.4MB/s|GPT⁺|X|Succeed|[原生|机房]"
-    type: "ss"
-    server: "103.186.155.8"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-    type: "ss"
-    server: "103.186.155.27"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-021 |2.2MB/s|GPT⁺|GM|X"
-    type: "ss"
-    server: "103.186.154.226"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-022 |1.6MB/s|GPT|X|History|[原生|机房]"
-    type: "ss"
-    server: "103.186.155.226"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "越南-023 |0.7MB/s|GPT⁺|X"
-    type: "ss"
-    server: "103.186.155.133"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
+  - name: "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
     type: "vmess"
     server: "82.198.246.97"
     port: 180
@@ -617,30 +537,30 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
+  - name: "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
     type: "ss"
-    server: "103.186.154.245"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
-    type: "ss"
-    server: "89.44.197.181"
-    port: 31348
+    server: "83.217.9.140"
+    port: 1381
     cipher: "chacha20-ietf-poly1305"
-    password: "zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL"
+    password: "JHqptZxDVsnQf0wL2EgNuo"
 
-  - name: "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
+  - name: "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
     type: "ss"
-    server: "103.186.154.46"
+    server: "57.131.42.19"
+    port: 8390
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54="
+
+  - name: "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
+    type: "ss"
+    server: "103.186.154.11"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+  - name: "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
     type: "ss"
-    server: "103.186.155.67"
+    server: "103.186.154.66"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -838,38 +758,24 @@ proxies:
 
   - name: "香港4|@ripaojiedian"
     type: "trojan"
-    server: "43.199.205.175"
-    port: 2826
+    server: "43.207.171.246"
+    port: 1820
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
   - name: "香港5|@ripaojiedian"
     type: "trojan"
-    server: "13.231.159.122"
+    server: "95.40.55.141"
     port: 2826
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
   - name: "日本|@ripaojiedian"
     type: "trojan"
-    server: "54.248.12.71"
+    server: "13.113.192.229"
     port: 2595
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
-
-  - name: "日本2|@ripaojiedian"
-    type: "trojan"
-    server: "160.16.117.182"
-    port: 193
-    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
-    sni: "www.nintendogames.net"
-
-  - name: "日本3|@ripaojiedian"
-    type: "trojan"
-    server: "160.16.105.192"
-    port: 400
-    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
-    sni: "www.nintendogames.net"
 
   - name: "新加坡|@ripaojiedian"
     type: "trojan"
@@ -878,65 +784,41 @@ proxies:
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "新加坡2|@ripaojiedian"
-    type: "trojan"
-    server: "160.16.144.208"
-    port: 3901
-    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
-    sni: "www.nintendogames.net"
-
   - name: "新加坡3|@ripaojiedian"
     type: "trojan"
-    server: "95.40.77.248"
-    port: 1196
+    server: "95.40.55.141"
+    port: 3579
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
-
-  - name: "美国|@ripaojiedian"
-    type: "trojan"
-    server: "52.194.245.221"
-    port: 1281
-    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
-    sni: "www.nintendogames.net"
-
-  - name: "美国2|@ripaojiedian"
-    type: "trojan"
-    server: "153.121.65.107"
-    port: 1281
-    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
-    sni: "www.nintendogames.net"
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享) 2"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享) 3"
-      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 3"
       - "[mibei] US美国(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 2"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 3"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 6"
-      - "[mibei] FR法国(mibei77.com 米贝节点分享)"
+      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
+      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 7"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 11"
+      - "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
+      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 13"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 16"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 27"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 35"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 56"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-      - "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 20"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 21"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 22"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 24"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
+      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 28"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 32"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 50"
       - "[nodefree] 🇸🇬_SG_新加坡"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
@@ -954,39 +836,31 @@ proxy-groups:
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
       - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-      - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
-      - "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
-      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-004 |1.4MB/s|GPT|X|Succeed"
-      - "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
-      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-009 |2.0MB/s|GPT⁺|GM|YT|X|History"
-      - "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
-      - "越南-011 |1.7MB/s|GPT⁺|X|[原生|机房]"
-      - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-      - "越南-013 |2.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "越南-015 |1.5MB/s|GPT⁺|GM|X|History|[原生|机房]"
-      - "越南-016 |0.6MB/s|GPT|X"
-      - "越南-017 |1.2MB/s|GPT⁺|X|Succeed"
-      - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-019 |1.4MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-      - "越南-021 |2.2MB/s|GPT⁺|GM|X"
-      - "越南-022 |1.6MB/s|GPT|X|History|[原生|机房]"
-      - "越南-023 |0.7MB/s|GPT⁺|X"
-      - "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
-      - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
-      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+      - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
+      - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%"
+      - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
+      - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
+      - "法国-002 |605KB/s|YT-FR|NF|D+"
+      - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
+      - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
+      - "日本-005 |2.0MB/s|26%|GPT⁺|X"
+      - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
+      - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM"
+      - "美国-018 |1.8MB/s|GPT⁺|YT-US|NF|39%"
+      - "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
+      - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF"
+      - "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
+      - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
+      - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
+      - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
+      - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
       - "HK23｜家宽｜非常安全"
       - "IN1｜家宽｜非常安全"
       - "HK9｜原生/疑似家宽｜非常安全"
@@ -1016,46 +890,38 @@ proxy-groups:
       - "香港4|@ripaojiedian"
       - "香港5|@ripaojiedian"
       - "日本|@ripaojiedian"
-      - "日本2|@ripaojiedian"
-      - "日本3|@ripaojiedian"
       - "新加坡|@ripaojiedian"
-      - "新加坡2|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
-      - "美国|@ripaojiedian"
-      - "美国2|@ripaojiedian"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享) 2"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享) 3"
-      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 3"
       - "[mibei] US美国(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 2"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 3"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 6"
-      - "[mibei] FR法国(mibei77.com 米贝节点分享)"
+      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
+      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 7"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 11"
+      - "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
+      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 13"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 16"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 27"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 35"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 56"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-      - "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 20"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 21"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 22"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 24"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
+      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 28"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 32"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 50"
       - "[nodefree] 🇸🇬_SG_新加坡"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
@@ -1073,39 +939,31 @@ proxy-groups:
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
       - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-      - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
-      - "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
-      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-004 |1.4MB/s|GPT|X|Succeed"
-      - "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
-      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-009 |2.0MB/s|GPT⁺|GM|YT|X|History"
-      - "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
-      - "越南-011 |1.7MB/s|GPT⁺|X|[原生|机房]"
-      - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-      - "越南-013 |2.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "越南-015 |1.5MB/s|GPT⁺|GM|X|History|[原生|机房]"
-      - "越南-016 |0.6MB/s|GPT|X"
-      - "越南-017 |1.2MB/s|GPT⁺|X|Succeed"
-      - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-019 |1.4MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-      - "越南-021 |2.2MB/s|GPT⁺|GM|X"
-      - "越南-022 |1.6MB/s|GPT|X|History|[原生|机房]"
-      - "越南-023 |0.7MB/s|GPT⁺|X"
-      - "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
-      - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
-      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+      - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
+      - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%"
+      - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
+      - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
+      - "法国-002 |605KB/s|YT-FR|NF|D+"
+      - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
+      - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
+      - "日本-005 |2.0MB/s|26%|GPT⁺|X"
+      - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
+      - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM"
+      - "美国-018 |1.8MB/s|GPT⁺|YT-US|NF|39%"
+      - "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
+      - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF"
+      - "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
+      - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
+      - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
+      - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
+      - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
       - "HK23｜家宽｜非常安全"
       - "IN1｜家宽｜非常安全"
       - "HK9｜原生/疑似家宽｜非常安全"
@@ -1135,46 +993,38 @@ proxy-groups:
       - "香港4|@ripaojiedian"
       - "香港5|@ripaojiedian"
       - "日本|@ripaojiedian"
-      - "日本2|@ripaojiedian"
-      - "日本3|@ripaojiedian"
       - "新加坡|@ripaojiedian"
-      - "新加坡2|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
-      - "美国|@ripaojiedian"
-      - "美国2|@ripaojiedian"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享) 2"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享) 3"
-      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 3"
       - "[mibei] US美国(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 2"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 3"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 6"
-      - "[mibei] FR法国(mibei77.com 米贝节点分享)"
+      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
+      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 7"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 11"
+      - "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
+      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 13"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 16"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 19"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 27"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 35"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 56"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-      - "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 20"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 21"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 22"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 24"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
+      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 28"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 32"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 50"
       - "[nodefree] 🇸🇬_SG_新加坡"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
@@ -1192,39 +1042,31 @@ proxy-groups:
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
       - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
-      - "美国-003 |743KB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-      - "法国-001 |6.9MB/s|YT-FR|NF|D+"
-      - "法国-002 |1.9MB/s|1%|GPT⁺|X|History|[广播|机房]"
-      - "法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|机房]"
-      - "荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|1%"
-      - "越南-001 |3.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-002 |1.6MB/s|GPT⁺|YT|X|Succeed"
-      - "越南-003 |2.6MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-004 |1.4MB/s|GPT|X|Succeed"
-      - "越南-005 |755KB/s|GPT⁺|YT-VN|NF|GM"
-      - "越南-006 |1.1MB/s|GPT⁺|X|History|[原生|机房]"
-      - "越南-007 |2.0MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-008 |2.1MB/s|GPT⁺|GM|X|Succeed|[原生|机房]"
-      - "越南-009 |2.0MB/s|GPT⁺|GM|YT|X|History"
-      - "越南-010 |0.7MB/s|GPT⁺|X|Succeed"
-      - "越南-011 |1.7MB/s|GPT⁺|X|[原生|机房]"
-      - "越南-012 |2.4MB/s|GPT⁺|YT-US|X|History"
-      - "越南-013 |2.1MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-014 |2.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]"
-      - "越南-015 |1.5MB/s|GPT⁺|GM|X|History|[原生|机房]"
-      - "越南-016 |0.6MB/s|GPT|X"
-      - "越南-017 |1.2MB/s|GPT⁺|X|Succeed"
-      - "越南-018 |1.7MB/s|GPT⁺|YT-US|NF|GM"
-      - "越南-019 |1.4MB/s|GPT⁺|X|Succeed|[原生|机房]"
-      - "越南-020 |1.1MB/s|GPT⁺|GM|X|Succeed"
-      - "越南-021 |2.2MB/s|GPT⁺|GM|X"
-      - "越南-022 |1.6MB/s|GPT|X|History|[原生|机房]"
-      - "越南-023 |0.7MB/s|GPT⁺|X"
-      - "德国-009 |2.1MB/s|25%|TK-US|YT-CN|GPT⁺"
-      - "越南-024 |610KB/s|GPT⁺|YT-US|NF|GM"
-      - "保加利亚-001 |3.3MB/s|GPT⁺|YT-BG|NF|36%"
-      - "越南-025 |2.1MB/s|GPT⁺|GM|YT-US|X|Succeed"
-      - "越南-026 |995KB/s|GPT⁺|YT-US|NF|GM"
+      - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
+      - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%"
+      - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
+      - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
+      - "法国-002 |605KB/s|YT-FR|NF|D+"
+      - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
+      - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
+      - "日本-005 |2.0MB/s|26%|GPT⁺|X"
+      - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
+      - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM"
+      - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM"
+      - "美国-018 |1.8MB/s|GPT⁺|YT-US|NF|39%"
+      - "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
+      - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF"
+      - "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
+      - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
+      - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
+      - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
+      - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
       - "HK23｜家宽｜非常安全"
       - "IN1｜家宽｜非常安全"
       - "HK9｜原生/疑似家宽｜非常安全"
@@ -1254,13 +1096,8 @@ proxy-groups:
       - "香港4|@ripaojiedian"
       - "香港5|@ripaojiedian"
       - "日本|@ripaojiedian"
-      - "日本2|@ripaojiedian"
-      - "日本3|@ripaojiedian"
       - "新加坡|@ripaojiedian"
-      - "新加坡2|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
-      - "美国|@ripaojiedian"
-      - "美国2|@ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT

@@ -1,49 +1,64 @@
 proxies:
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::10"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
   - name: "[mibei] GB英国(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "bgty6.852224.xyz"
+    port: 443
+    password: "c52d2de2-fc6d-490c-8421-132f87615736"
+    sni: "bgty6.852224.xyz"
+
+  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
+    type: "trojan"
+    server: "ilop.uk2033.ccwu.cc"
+    port: 443
+    password: "1338f666-2fcc-4538-bc29-1ebf89624383"
+    sni: "ilop.uk2033.ccwu.cc"
+
+  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 5"
     type: "ss"
     server: "admin.c2.havij.co"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "kaQH3hGdcP80XEDI"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 4"
+  - name: "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 8443
+    password: "trojan"
+    sni: "109.234.211.66"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "ghj.ok7.ccwu.cc"
+    port: 443
+    password: "1338f666-2fcc-4538-bc29-1ebf89624383"
+    sni: "ghj.ok7.ccwu.cc"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 2"
     type: "vmess"
-    server: "2001:bc8:32d7:302::14"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    server: "lop.bb3.indevs.in"
+    port: 80
+    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
     alterId: 0
     cipher: "auto"
     tls: false
     network: "ws"
 
-  - name: "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-    type: "vmess"
-    server: "vc.fly.dev"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 3"
+    type: "trojan"
+    server: "u8.ok8.ccwu.cc"
     port: 443
-    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
-    alterId: 32
-    cipher: "auto"
-    tls: true
-    network: "ws"
+    password: "1338f666-2fcc-4538-bc29-1ebf89624383"
+    sni: "u8.ok8.ccwu.cc"
 
-  - name: "[mibei] HK香港(mibei77.com 米贝节点分享)"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 4"
     type: "trojan"
     server: "ttt6.006660666.xyz"
     port: 443
     password: "795ef99b-3260-4d18-ac98-5130bba9f168"
     sni: "ttt6.006660666.xyz"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 7"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 5"
     type: "vmess"
     server: "nextmi.hajmyab.ir"
     port: 2053
@@ -53,19 +68,26 @@ proxies:
     tls: true
     network: "ws"
 
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 6"
+    type: "ss"
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
+
+  - name: "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
+    type: "vmess"
+    server: "mko.bb1.indevs.in"
+    port: 80
+    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 8"
     type: "vmess"
-    server: "2001:bc8:32d7:302::11"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-    type: "vmess"
-    server: "mmko.tt0.ccwu.cc"
+    server: "nnmk.tt7.ccwu.cc"
     port: 80
     uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
     alterId: 0
@@ -73,22 +95,22 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
-    type: "trojan"
-    server: "109.234.211.66"
-    port: 2087
-    password: "trojan"
-    sni: "109.234.211.66"
-
-  - name: "[mibei] DE德国(mibei77.com 米贝节点分享)"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 9"
     type: "vmess"
-    server: "bnmj.wc6.ccwu.cc"
+    server: "jjmk.wc2.ccwu.cc"
     port: 80
     uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
     alterId: 0
     cipher: "auto"
     tls: false
     network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 11"
+    type: "ss"
+    server: "178.17.61.67"
+    port: 5790
+    cipher: "chacha20-ietf-poly1305"
+    password: "qS3skwmolrQ70q842irQD0"
 
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 12"
     type: "vmess"
@@ -102,7 +124,7 @@ proxies:
 
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 13"
     type: "vmess"
-    server: "nmj.wc8.ccwu.cc"
+    server: "bnmj.wc6.ccwu.cc"
     port: 80
     uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
     alterId: 0
@@ -112,43 +134,6 @@ proxies:
 
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 14"
     type: "vmess"
-    server: "nnmk.bb5.indevs.in"
-    port: 80
-    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 15"
-    type: "vmess"
-    server: "bbbnmki.kk7.ccwu.cc"
-    port: 80
-    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 16"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::15"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 20"
-    type: "ss"
-    server: "chengbai02.ascwt179.com"
-    port: 13223
-    cipher: "aes-128-gcm"
-    password: "JVrsLLN1tkN8oXZO"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 21"
-    type: "vmess"
     server: "yhj.tc1.ccwu.cc"
     port: 80
     uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
@@ -157,7 +142,34 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 22"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 15"
+    type: "vmess"
+    server: "nmj.wc8.ccwu.cc"
+    port: 80
+    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 16"
+    type: "trojan"
+    server: "uu.852224.xyz"
+    port: 443
+    password: "b020865b-7404-4894-ba65-a7414b10cda3"
+    sni: "uu.852224.xyz"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 17"
+    type: "vmess"
+    server: "nnmk.bb5.indevs.in"
+    port: 80
+    uuid: "b020865b-7404-4894-ba65-a7414b10cda3"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 18"
     type: "vmess"
     server: "bbnj.wc9.ccwu.cc"
     port: 80
@@ -167,7 +179,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 24"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 20"
     type: "vmess"
     server: "nju.bb4.indevs.in"
     port: 80
@@ -177,26 +189,9 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 21"
     type: "vmess"
-    server: "gtm1.ktmwan.net"
-    port: 12883
-    uuid: "3ac9d436-f213-421d-9644-a94686ee9fba"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "109.234.211.66"
-    port: 8443
-    password: "trojan"
-    sni: "109.234.211.66"
-
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 28"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::16"
+    server: "2001:bc8:32d7:302::10"
     port: 44579
     uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
     alterId: 0
@@ -204,7 +199,37 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 32"
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 22"
+    type: "vmess"
+    server: "bbbnmki.kk7.ccwu.cc"
+    port: 80
+    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 34"
+    type: "vmess"
+    server: "mmkio.tc6.ccwu.cc"
+    port: 80
+    uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 40"
+    type: "vmess"
+    server: "2001:bc8:32d7:302::11"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 46"
     type: "vmess"
     server: "2001:bc8:32d7:302::17"
     port: 44579
@@ -214,11 +239,61 @@ proxies:
     tls: false
     network: "ws"
 
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 49"
+    type: "vmess"
+    server: "2001:bc8:32d7:302::14"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
   - name: "[mibei] US美国(mibei77.com 米贝节点分享) 50"
     type: "vmess"
-    server: "mmkio.tc6.ccwu.cc"
+    server: "2001:bc8:32d7:302::15"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 53"
+    type: "vmess"
+    server: "mmko.tt0.ccwu.cc"
     port: 80
     uuid: "1798b14b-aee0-4008-ba9a-2e53877761b4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 63"
+    type: "vmess"
+    server: "2001:bc8:32d7:302::16"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+    type: "vmess"
+    server: "vc.fly.dev"
+    port: 443
+    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
+    alterId: 32
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US美国(mibei77.com 米贝节点分享) 68"
+    type: "vmess"
+    server: "gtm1.ktmwan.net"
+    port: 12883
+    uuid: "3ac9d436-f213-421d-9644-a94686ee9fba"
     alterId: 0
     cipher: "auto"
     tls: false
@@ -751,74 +826,111 @@ proxies:
 
   - name: "香港3|@ripaojiedian"
     type: "trojan"
-    server: "153.121.65.107"
+    server: "13.231.95.79"
     port: 3373
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
   - name: "香港4|@ripaojiedian"
     type: "trojan"
-    server: "43.207.171.246"
-    port: 1820
+    server: "112.120.31.135"
+    port: 443
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
   - name: "香港5|@ripaojiedian"
     type: "trojan"
-    server: "95.40.55.141"
-    port: 2826
+    server: "58.152.25.208"
+    port: 443
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
   - name: "日本|@ripaojiedian"
     type: "trojan"
-    server: "13.113.192.229"
-    port: 2595
+    server: "54.92.111.249"
+    port: 2762
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
 
+  - name: "日本2|@ripaojiedian"
+    type: "trojan"
+    server: "57.180.43.205"
+    port: 3423
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
+
+  - name: "日本3|@ripaojiedian"
+    type: "trojan"
+    server: "160.16.132.38"
+    port: 193
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
+
   - name: "新加坡|@ripaojiedian"
     type: "trojan"
-    server: "43.207.73.82"
+    server: "160.16.89.176"
     port: 3901
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
   - name: "新加坡3|@ripaojiedian"
     type: "trojan"
-    server: "95.40.55.141"
-    port: 3579
+    server: "43.207.67.101"
+    port: 3127
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
+
+  - name: "美国|@ripaojiedian"
+    type: "trojan"
+    server: "54.64.61.41"
+    port: 2890
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
+
+  - name: "美国2|@ripaojiedian"
+    type: "trojan"
+    server: "160.16.236.32"
+    port: 1281
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "www.nintendogames.net"
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "[mibei] GB英国(mibei77.com 米贝节点分享)"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 3"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 7"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 6"
+      - "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
-      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 11"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 13"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 16"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 17"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 18"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 20"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 21"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 22"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 24"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 28"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 32"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 34"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 40"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 46"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 49"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 50"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 53"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 63"
+      - "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 68"
       - "[nodefree] 🇸🇬_SG_新加坡"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
@@ -890,38 +1002,51 @@ proxy-groups:
       - "香港4|@ripaojiedian"
       - "香港5|@ripaojiedian"
       - "日本|@ripaojiedian"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
       - "新加坡|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
+      - "美国|@ripaojiedian"
+      - "美国2|@ripaojiedian"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "[mibei] GB英国(mibei77.com 米贝节点分享)"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 3"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 7"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 6"
+      - "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
-      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 11"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 13"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 16"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 17"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 18"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 20"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 21"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 22"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 24"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 28"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 32"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 34"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 40"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 46"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 49"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 50"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 53"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 63"
+      - "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 68"
       - "[nodefree] 🇸🇬_SG_新加坡"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
@@ -993,38 +1118,51 @@ proxy-groups:
       - "香港4|@ripaojiedian"
       - "香港5|@ripaojiedian"
       - "日本|@ripaojiedian"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
       - "新加坡|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
+      - "美国|@ripaojiedian"
+      - "美国2|@ripaojiedian"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] US美国(mibei77.com 米贝节点分享)"
       - "[mibei] GB英国(mibei77.com 米贝节点分享)"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] GB英国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 2"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 3"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享)"
-      - "[mibei] HK香港(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 7"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 5"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 6"
+      - "[mibei] CA加拿大(mibei77.com 米贝节点分享)"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 8"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 10"
-      - "[mibei] 西班牙(mibei77.com 米贝节点分享) 2"
-      - "[mibei] DE德国(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 9"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 11"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 12"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 13"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 14"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 15"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 16"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 17"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 18"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 20"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 21"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 22"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 24"
-      - "[mibei] GB英国(mibei77.com 米贝节点分享) 4"
-      - "[mibei] RU俄罗斯(mibei77.com 米贝节点分享)"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 28"
-      - "[mibei] US美国(mibei77.com 米贝节点分享) 32"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 34"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 40"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 46"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 49"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 50"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 53"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 63"
+      - "[mibei] SG新加坡(mibei77.com 米贝节点分享)"
+      - "[mibei] US美国(mibei77.com 米贝节点分享) 68"
       - "[nodefree] 🇸🇬_SG_新加坡"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
@@ -1096,8 +1234,12 @@ proxy-groups:
       - "香港4|@ripaojiedian"
       - "香港5|@ripaojiedian"
       - "日本|@ripaojiedian"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
       - "新加坡|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
+      - "美国|@ripaojiedian"
+      - "美国2|@ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT

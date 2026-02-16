@@ -345,6 +345,14 @@ proxies:
     tls: false
     network: "ws"
 
+  - name: "[nodefree] 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚"
+    type: "vless"
+    server: "46.32.184.75"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+
   - name: "[nodefree] 🇸🇬_SG_新加坡"
     type: "vmess"
     server: "128.199.128.117"
@@ -352,6 +360,22 @@ proxies:
     uuid: "a88a71fa-ed7c-48d3-89e0-74a00d605d88"
     alterId: 0
     cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[nodefree] 🇮🇷_IR_伊朗->🏳️_unKnow_未知"
+    type: "vless"
+    server: "ger4.azadrah.drpingi.shop"
+    port: 443
+    uuid: "743a3bc7-ff11-4be5-8eed-0da3d7ccdeda"
+    tls: false
+    network: ""
+
+  - name: "[nodefree] 🇧🇪_BE_比利时->🇺🇸_US_美国"
+    type: "vless"
+    server: "143.20.213.206"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: true
     network: "ws"
 
@@ -365,12 +389,146 @@ proxies:
     tls: true
     network: "ws"
 
+  - name: "[nodefree] 🇺🇸_US_美国"
+    type: "vless"
+    server: "104.18.151.172"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    tls: true
+    network: "ws"
+
+  - name: "[nodefree] 🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "nl.mobilezahra.lat"
+    port: 443
+    uuid: "325a32a1-d88d-4f97-67ed-504eed5d6ec0"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇩🇪_DE_德国"
+    type: "vless"
+    server: "37.120.167.164"
+    port: 443
+    uuid: "aec54bed-2384-4b85-8372-432597aa5518"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇺🇸_US_美国_1"
+    type: "vless"
+    server: "142.93.101.216"
+    port: 7008
+    uuid: "a3ea154c-2827-4ceb-aae7-0fe743ce9f73"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇨🇳_CN_中国->🏳️_unKnow_未知"
+    type: "vless"
+    server: "62.60.229.32"
+    port: 443
+    uuid: "e3379093-7c89-4c8a-be1f-abb92a3305a1"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇺🇸_US_美国_2"
+    type: "vless"
+    server: "172.67.153.156"
+    port: 8443
+    uuid: "57ba2ab1-a283-42eb-82ee-dc3561a805b8"
+    tls: true
+    network: "ws"
+
+  - name: "[nodefree] 🇺🇸_US_美国->🇳🇱_NL_荷兰"
+    type: "vless"
+    server: "vip3.kaixincloud.top"
+    port: 2053
+    uuid: "e5f8a9f6-f164-479b-b3b5-b90f213c7145"
+    tls: true
+    network: "ws"
+
+  - name: "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国"
+    type: "vless"
+    server: "de.griffon-guard.com"
+    port: 8443
+    uuid: "e6ec1d89-17fc-4de7-af89-81cd51022526"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇺🇸_US_美国_3"
+    type: "vless"
+    server: "172.66.128.70"
+    port: 2052
+    uuid: "f8ae018b-b84d-4c9b-b03b-4642c3a25977"
+    tls: false
+    network: "ws"
+
   - name: "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
     type: "trojan"
     server: "52.195.8.127"
     port: 3373
     password: "5fb072e0ddd631cf66cf752b09210480"
     sni: "www.nintendogames.net"
+
+  - name: "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国_1"
+    type: "vless"
+    server: "192.200.160.228"
+    port: 2083
+    uuid: "9f846e5c-56f9-4670-8be2-5b00d2a107c0"
+    tls: true
+    network: "ws"
+
+  - name: "[nodefree] 🇺🇸_US_美国_4"
+    type: "vless"
+    server: "vip2.kaixincloud.top"
+    port: 443
+    uuid: "d89d6641-3b1a-4f51-a194-9c9109fd21b6"
+    tls: true
+    network: "ws"
+
+  - name: "[nodefree] 🇮🇪_IE_爱尔兰->🇬🇧_GB_英国"
+    type: "vless"
+    server: "nl-2.griffon-guard.com"
+    port: 443
+    uuid: "e6ec1d89-17fc-4de7-af89-81cd51022526"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇺🇸_US_美国->🇬🇧_GB_英国"
+    type: "vless"
+    server: "144.31.92.240"
+    port: 8443
+    uuid: "e6ec1d89-17fc-4de7-af89-81cd51022526"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇧🇪_BE_比利时"
+    type: "vless"
+    server: "fr.locations-service.com"
+    port: 3032
+    uuid: "e59083aa-d933-4952-8cf0-eec74f718705"
+    tls: true
+    network: ""
+
+  - name: "[nodefree] 🇺🇸_US_美国_5"
+    type: "vless"
+    server: "103.21.244.201"
+    port: 2087
+    uuid: "22fbfcae-8207-475a-8c25-f59d4423546a"
+    tls: true
+    network: "ws"
+
+  - name: "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知"
+    type: "vless"
+    server: "185.18.250.252"
+    port: 443
+    uuid: "fef4a93d-eb4f-4657-b56b-32a0dc060045"
+    tls: true
+    network: "ws"
 
   - name: "github.com/freefq - 俄罗斯  1"
     type: "ss"
@@ -529,6 +687,46 @@ proxies:
     cipher: "aes-256-cfb"
     password: "f8f7aCzcPKbsF8p3"
 
+  - name: "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    type: "vless"
+    server: "212.22.76.17"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    type: "vless"
+    server: "212.22.76.18"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-002 |3.1MB/s"
+    type: "vless"
+    server: "208.103.161.228"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-003 |4.0MB/s"
+    type: "vless"
+    server: "208.103.161.109"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-004 |5.6MB/s"
+    type: "vless"
+    server: "208.103.161.122"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
   - name: "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
     type: "trojan"
     server: "160.16.57.238"
@@ -543,12 +741,52 @@ proxies:
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
+  - name: "美国-005 |4.0MB/s|GPT⁺"
+    type: "vless"
+    server: "208.103.161.220"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-006 |4.0MB/s"
+    type: "vless"
+    server: "208.103.161.161"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-007 |4.5MB/s"
+    type: "vless"
+    server: "208.103.161.12"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
   - name: "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
     type: "trojan"
     server: "57.180.14.50"
     port: 2890
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
+
+  - name: "美国-008 |4.5MB/s"
+    type: "vless"
+    server: "208.103.161.113"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%"
+    type: "vless"
+    server: "14.102.228.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
 
   - name: "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
     type: "ss"
@@ -557,12 +795,70 @@ proxies:
     cipher: "2022-blake3-aes-256-gcm"
     password: "et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54="
 
+  - name: "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    type: "vless"
+    server: "212.22.76.20"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%"
+    type: "vless"
+    server: "46.4.60.21"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-011 |3.2MB/s"
+    type: "vless"
+    server: "208.103.161.89"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%"
+    type: "vless"
+    server: "91.218.122.10"
+    port: 8443
+    uuid: "c10999b4-7f93-5a50-3908-1467b1e52ae2"
+    tls: true
+    network: "grpc"
+
   - name: "法国-002 |605KB/s|YT-FR|NF|D+"
     type: "trojan"
     server: "141.94.68.216"
     port: 2053
     password: "iwangjie"
     sni: "nodes.830901.xyz"
+
+  - name: "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%"
+    type: "vless"
+    server: "104.167.197.27"
+    port: 443
+    uuid: "c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "德国-002 |1.5MB/s|GPT⁺|NF|0%"
+    type: "vless"
+    server: "20.79.160.49"
+    port: 443
+    uuid: "jina"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    type: "vless"
+    server: "212.22.76.14"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
 
   - name: "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
     type: "trojan"
@@ -571,6 +867,14 @@ proxies:
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
+  - name: "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%"
+    type: "vless"
+    server: "143.20.213.205"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
   - name: "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
     type: "ss"
     server: "5.188.181.201"
@@ -578,12 +882,106 @@ proxies:
     cipher: "aes-256-cfb"
     password: "ZET59LF6DvCC8KVt"
 
+  - name: "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%"
+    type: "vless"
+    server: "143.20.236.130"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+"
+    type: "vless"
+    server: "143.20.236.186"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "德国-003 |4.0MB/s|GPT|YT-DE|NF"
+    type: "vless"
+    server: "20.218.137.249"
+    port: 443
+    uuid: "jina"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
   - name: "日本-005 |2.0MB/s|26%|GPT⁺|X"
     type: "trojan"
     server: "160.16.57.238"
     port: 40548
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
+
+  - name: "俄罗斯联邦-005 |2.8MB/s|YT-RU"
+    type: "vless"
+    server: "176.109.106.241"
+    port: 443
+    uuid: "07cd9dbe-21ac-4871-817d-c772687e4b7c"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%"
+    type: "vless"
+    server: "143.20.213.234"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "俄罗斯联邦-006 |3.7MB/s|YT-RU"
+    type: "vless"
+    server: "212.113.123.230"
+    port: 443
+    uuid: "e4f5077b-3628-450c-92f9-b129b8a641a7"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "荷兰-002 |752KB/s|GPT⁺|5%"
+    type: "vless"
+    server: "103.74.92.89"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%"
+    type: "vless"
+    server: "158.160.221.132"
+    port: 51102
+    uuid: "e8accc46-c511-42fb-919b-9283799a88a1"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%"
+    type: "vless"
+    server: "143.20.213.195"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
+  - name: "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%"
+    type: "vless"
+    server: "158.160.221.132"
+    port: 443
+    uuid: "e8accc46-c511-42fb-919b-9283799a88a1"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%"
+    type: "vless"
+    server: "89.169.128.105"
+    port: 8443
+    uuid: "3c5c4ccc-b502-42cb-8c42-cfa714db4767"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
 
   - name: "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
     type: "ss"
@@ -598,6 +996,14 @@ proxies:
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%"
+    type: "vless"
+    server: "5.231.56.174"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
 
   - name: "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
     type: "ss"
@@ -658,6 +1064,24 @@ proxies:
     tls: true
     network: "ws"
 
+  - name: "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%"
+    type: "vless"
+    server: "155.212.37.10"
+    port: 993
+    uuid: "c10999b4-7f93-5a50-3908-1467b1e52ae2"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: ""
+
+  - name: "德国-005 |1.6MB/s|GPT⁺|NF|79%"
+    type: "vless"
+    server: "150.241.90.13"
+    port: 443
+    uuid: "ad961404-6249-4a11-9577-d1e81f6b198f"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
   - name: "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
     type: "ss"
     server: "103.186.155.150"
@@ -672,6 +1096,23 @@ proxies:
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
+  - name: "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM"
+    type: "vless"
+    server: "146.190.89.69"
+    port: 25863
+    uuid: "58f206da-752d-4750-a2ac-b72d0cab8032"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%"
+    type: "vless"
+    server: "143.20.236.180"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: true
+    network: "ws"
+
   - name: "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
     type: "vmess"
     server: "82.198.246.97"
@@ -682,12 +1123,81 @@ proxies:
     tls: false
     network: "tcp"
 
+  - name: "美国-021"
+    type: "vless"
+    server: "159.223.205.136"
+    port: 42356
+    uuid: "3c28c3cf-85ef-4a8a-a475-3a8585d563fe"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%"
+    type: "vless"
+    server: "2.59.162.100"
+    port: 443
+    uuid: "Bober_497332"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%"
+    type: "vless"
+    server: "20.79.162.37"
+    port: 443
+    uuid: "jina"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "德国-008 |6.4MB/s|YT-DE|NF|D+"
+    type: "vless"
+    server: "5.178.110.39"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+
   - name: "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
     type: "ss"
     server: "83.217.9.140"
     port: 1381
     cipher: "chacha20-ietf-poly1305"
     password: "JHqptZxDVsnQf0wL2EgNuo"
+
+  - name: "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]"
+    type: "vless"
+    server: "193.163.203.36"
+    port: 10001
+    uuid: "6a3f4da1-687a-4bde-9943-df057315857c"
+    tls: true
+    network: "tcp"
+
+  - name: "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+"
+    type: "vless"
+    server: "213.165.54.4"
+    port: 443
+    uuid: "c2d09c1c-7d4d-46c4-838f-ad263b93c4e1"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%"
+    type: "vless"
+    server: "158.160.223.36"
+    port: 443
+    uuid: "11e41a32-6672-48a0-b9cb-c8694242ecff"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]"
+    type: "vless"
+    server: "185.86.144.32"
+    port: 443
+    uuid: "895f94cb-5567-4731-bc2c-2f89a54bafe4"
+    tls: true
+    network: "grpc"
 
   - name: "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
     type: "ss"
@@ -696,6 +1206,48 @@ proxies:
     cipher: "2022-blake3-aes-256-gcm"
     password: "et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54="
 
+  - name: "俄罗斯联邦-015 |2.3MB/s|YT-RU"
+    type: "vless"
+    server: "87.239.111.227"
+    port: 443
+    uuid: "895f94cb-5567-4731-bc2c-2f89a54bafe4"
+    tls: true
+    network: "grpc"
+
+  - name: "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    type: "vless"
+    server: "27.50.48.8"
+    port: 443
+    uuid: "15235ce9-4cd2-4483-b6b6-7fc4a3f44735"
+    tls: true
+    network: "ws"
+
+  - name: "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%"
+    type: "vless"
+    server: "25.129.198.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+
+  - name: "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%"
+    type: "vless"
+    server: "176.125.240.166"
+    port: 443
+    uuid: "002accb526534fcab24a72b0ea1cff59"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "俄罗斯联邦-017 |2.3MB/s"
+    type: "vless"
+    server: "45.139.26.152"
+    port: 7443
+    uuid: "7fc953d6-ae75-46fb-a970-10b57d513487"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
   - name: "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
     type: "ss"
     server: "103.186.154.11"
@@ -703,12 +1255,37 @@ proxies:
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
+  - name: "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%"
+    type: "vless"
+    server: "159.195.26.28"
+    port: 443
+    uuid: "84f66368-8a37-468e-ae95-5622255fd4db"
+    flow: "xtls-rprx-vision"
+    tls: true
+    network: "tcp"
+
+  - name: "芬兰-001 |854KB/s"
+    type: "vless"
+    server: "178.17.53.28"
+    port: 47539
+    uuid: "447c45cd-ade0-4bfe-90a0-3e581829f741"
+    tls: true
+    network: "tcp"
+
   - name: "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
     type: "ss"
     server: "103.186.154.66"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%"
+    type: "vless"
+    server: "151.101.9.80"
+    port: 80
+    uuid: "5a1d2c0c-abfa-4050-918f-bfab3eaee62a"
+    tls: false
+    network: "ws"
 
   - name: "US13｜机房｜低风险"
     type: "trojan"
@@ -979,6 +1556,14 @@ proxies:
     cipher: "aes-256-cfb"
     password: "f8f7aCzcPKbsF8p3"
 
+  - name: "美国 - 洛杉矶 - GSL Networks Pty LTD - 10"
+    type: "vless"
+    server: "104.18.126.69"
+    port: 443
+    uuid: "9264c736-5315-473e-b60d-3586a31714bf"
+    tls: true
+    network: "ws"
+
   - name: "美国 - 紐約 - Massivegrid LTD - 8"
     type: "vmess"
     server: "nju.bb4.indevs.in"
@@ -1023,6 +1608,14 @@ proxies:
     cipher: "rc4-md5"
     password: "f433ac2b27fd694f"
 
+  - name: "美国 - Ashburn - Oracle Corporation - 11"
+    type: "vless"
+    server: "69.84.182.108"
+    port: 443
+    uuid: "9264c736-5315-473e-b60d-3586a31714bf"
+    tls: true
+    network: "ws"
+
   - name: "美国 - Piscataway - The Constant Company, LLC - 7"
     type: "ss"
     server: "64.176.215.70"
@@ -1060,6 +1653,22 @@ proxies:
     port: 6688
     password: "1a17b19d-4896-4531-af79-6e91d8ef8228"
     sni: "baidu.com"
+
+  - name: "日本 - 东京 - GSL Networks Pty LTD - 6"
+    type: "vless"
+    server: "unamecf.xn--ghqu5fm27b67w.com"
+    port: 443
+    uuid: "9264c736-5315-473e-b60d-3586a31714bf"
+    tls: true
+    network: "ws"
+
+  - name: "日本 - 东京 - GSL Networks Pty LTD - 7"
+    type: "vless"
+    server: "104.18.125.69"
+    port: 443
+    uuid: "9264c736-5315-473e-b60d-3586a31714bf"
+    tls: true
+    network: "ws"
 
   - name: "日本 - 横滨市 - InfoSphere - 3"
     type: "trojan"
@@ -1105,6 +1714,14 @@ proxies:
     port: 3579
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
+
+  - name: "印度 - 海得拉巴 - Oracle Corporation - 1"
+    type: "vless"
+    server: "104.18.126.50"
+    port: 443
+    uuid: "9264c736-5315-473e-b60d-3586a31714bf"
+    tls: true
+    network: "ws"
 
   - name: "印度尼西亚 - 雅加达 - Google LLC - 1"
     type: "trojan"
@@ -1311,9 +1928,28 @@ proxy-groups:
       - "[mibei] US美国(mibei77.com 米贝节点分享) 83"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 85"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 87"
+      - "[nodefree] 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚"
       - "[nodefree] 🇸🇬_SG_新加坡"
+      - "[nodefree] 🇮🇷_IR_伊朗->🏳️_unKnow_未知"
+      - "[nodefree] 🇧🇪_BE_比利时->🇺🇸_US_美国"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - "[nodefree] 🇺🇸_US_美国"
+      - "[nodefree] 🇳🇱_NL_荷兰"
+      - "[nodefree] 🇩🇪_DE_德国"
+      - "[nodefree] 🇺🇸_US_美国_1"
+      - "[nodefree] 🇨🇳_CN_中国->🏳️_unKnow_未知"
+      - "[nodefree] 🇺🇸_US_美国_2"
+      - "[nodefree] 🇺🇸_US_美国->🇳🇱_NL_荷兰"
+      - "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国"
+      - "[nodefree] 🇺🇸_US_美国_3"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
+      - "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国_1"
+      - "[nodefree] 🇺🇸_US_美国_4"
+      - "[nodefree] 🇮🇪_IE_爱尔兰->🇬🇧_GB_英国"
+      - "[nodefree] 🇺🇸_US_美国->🇬🇧_GB_英国"
+      - "[nodefree] 🇧🇪_BE_比利时"
+      - "[nodefree] 🇺🇸_US_美国_5"
+      - "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知"
       - "github.com/freefq - 俄罗斯  1"
       - "github.com/freefq - 印度  2"
       - "github.com/freefq - 印度  3"
@@ -1330,16 +1966,46 @@ proxy-groups:
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
       - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
+      - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "美国-002 |3.1MB/s"
+      - "美国-003 |4.0MB/s"
+      - "美国-004 |5.6MB/s"
       - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
       - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%"
+      - "美国-005 |4.0MB/s|GPT⁺"
+      - "美国-006 |4.0MB/s"
+      - "美国-007 |4.5MB/s"
       - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
+      - "美国-008 |4.5MB/s"
+      - "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%"
       - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
+      - "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%"
+      - "美国-011 |3.2MB/s"
+      - "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%"
       - "法国-002 |605KB/s|YT-FR|NF|D+"
+      - "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%"
+      - "德国-002 |1.5MB/s|GPT⁺|NF|0%"
+      - "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
       - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
+      - "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%"
       - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
+      - "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%"
+      - "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+"
+      - "德国-003 |4.0MB/s|GPT|YT-DE|NF"
       - "日本-005 |2.0MB/s|26%|GPT⁺|X"
+      - "俄罗斯联邦-005 |2.8MB/s|YT-RU"
+      - "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%"
+      - "俄罗斯联邦-006 |3.7MB/s|YT-RU"
+      - "荷兰-002 |752KB/s|GPT⁺|5%"
+      - "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%"
+      - "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%"
+      - "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%"
+      - "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%"
       - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM"
+      - "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%"
       - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
       - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM"
@@ -1348,13 +2014,33 @@ proxy-groups:
       - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM"
       - "美国-018 |1.8MB/s|GPT⁺|YT-US|NF|39%"
+      - "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%"
+      - "德国-005 |1.6MB/s|GPT⁺|NF|79%"
       - "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
       - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF"
+      - "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM"
+      - "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%"
       - "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
+      - "美国-021"
+      - "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%"
+      - "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%"
+      - "德国-008 |6.4MB/s|YT-DE|NF|D+"
       - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
+      - "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]"
+      - "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+"
+      - "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%"
+      - "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]"
       - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
+      - "俄罗斯联邦-015 |2.3MB/s|YT-RU"
+      - "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%"
+      - "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%"
+      - "俄罗斯联邦-017 |2.3MB/s"
       - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
+      - "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%"
+      - "芬兰-001 |854KB/s"
       - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
+      - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%"
       - "US13｜机房｜低风险"
       - "US17｜机房｜低风险"
       - "US18｜机房｜低风险"
@@ -1393,22 +2079,27 @@ proxy-groups:
       - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3"
       - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4"
       - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2"
+      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10"
       - "美国 - 紐約 - Massivegrid LTD - 8"
       - "美国 - 紐約 - Massivegrid LTD - 9"
       - "美国 - 圣路易斯 - Contabo Inc. - 4"
       - "美国 - 聖荷西 - Eons Data Communications Limited - 6"
       - "美国 - 聖荷西 - Meteverse Limited. - 3"
+      - "美国 - Ashburn - Oracle Corporation - 11"
       - "美国 - Piscataway - The Constant Company, LLC - 7"
       - "美国 - San Jose - Oracle Corporation - 5"
       - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1"
       - "日本 - 东京 - Amazon Technologies Inc. - 4"
       - "日本 - 东京 - Amazon Technologies Inc. - 5"
+      - "日本 - 东京 - GSL Networks Pty LTD - 6"
+      - "日本 - 东京 - GSL Networks Pty LTD - 7"
       - "日本 - 横滨市 - InfoSphere - 3"
       - ">-"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4"
       - "新加坡 - 新加坡 - M247 Europe SRL - 2"
+      - "印度 - 海得拉巴 - Oracle Corporation - 1"
       - "印度尼西亚 - 雅加达 - Google LLC - 1"
       - "越南 - Hải Dương - FASTLY - 12"
       - "越南 - Hải Dương - FASTLY - 13"
@@ -1478,9 +2169,28 @@ proxy-groups:
       - "[mibei] US美国(mibei77.com 米贝节点分享) 83"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 85"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 87"
+      - "[nodefree] 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚"
       - "[nodefree] 🇸🇬_SG_新加坡"
+      - "[nodefree] 🇮🇷_IR_伊朗->🏳️_unKnow_未知"
+      - "[nodefree] 🇧🇪_BE_比利时->🇺🇸_US_美国"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - "[nodefree] 🇺🇸_US_美国"
+      - "[nodefree] 🇳🇱_NL_荷兰"
+      - "[nodefree] 🇩🇪_DE_德国"
+      - "[nodefree] 🇺🇸_US_美国_1"
+      - "[nodefree] 🇨🇳_CN_中国->🏳️_unKnow_未知"
+      - "[nodefree] 🇺🇸_US_美国_2"
+      - "[nodefree] 🇺🇸_US_美国->🇳🇱_NL_荷兰"
+      - "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国"
+      - "[nodefree] 🇺🇸_US_美国_3"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
+      - "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国_1"
+      - "[nodefree] 🇺🇸_US_美国_4"
+      - "[nodefree] 🇮🇪_IE_爱尔兰->🇬🇧_GB_英国"
+      - "[nodefree] 🇺🇸_US_美国->🇬🇧_GB_英国"
+      - "[nodefree] 🇧🇪_BE_比利时"
+      - "[nodefree] 🇺🇸_US_美国_5"
+      - "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知"
       - "github.com/freefq - 俄罗斯  1"
       - "github.com/freefq - 印度  2"
       - "github.com/freefq - 印度  3"
@@ -1497,16 +2207,46 @@ proxy-groups:
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
       - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
+      - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "美国-002 |3.1MB/s"
+      - "美国-003 |4.0MB/s"
+      - "美国-004 |5.6MB/s"
       - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
       - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%"
+      - "美国-005 |4.0MB/s|GPT⁺"
+      - "美国-006 |4.0MB/s"
+      - "美国-007 |4.5MB/s"
       - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
+      - "美国-008 |4.5MB/s"
+      - "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%"
       - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
+      - "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%"
+      - "美国-011 |3.2MB/s"
+      - "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%"
       - "法国-002 |605KB/s|YT-FR|NF|D+"
+      - "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%"
+      - "德国-002 |1.5MB/s|GPT⁺|NF|0%"
+      - "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
       - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
+      - "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%"
       - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
+      - "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%"
+      - "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+"
+      - "德国-003 |4.0MB/s|GPT|YT-DE|NF"
       - "日本-005 |2.0MB/s|26%|GPT⁺|X"
+      - "俄罗斯联邦-005 |2.8MB/s|YT-RU"
+      - "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%"
+      - "俄罗斯联邦-006 |3.7MB/s|YT-RU"
+      - "荷兰-002 |752KB/s|GPT⁺|5%"
+      - "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%"
+      - "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%"
+      - "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%"
+      - "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%"
       - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM"
+      - "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%"
       - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
       - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM"
@@ -1515,13 +2255,33 @@ proxy-groups:
       - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM"
       - "美国-018 |1.8MB/s|GPT⁺|YT-US|NF|39%"
+      - "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%"
+      - "德国-005 |1.6MB/s|GPT⁺|NF|79%"
       - "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
       - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF"
+      - "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM"
+      - "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%"
       - "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
+      - "美国-021"
+      - "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%"
+      - "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%"
+      - "德国-008 |6.4MB/s|YT-DE|NF|D+"
       - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
+      - "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]"
+      - "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+"
+      - "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%"
+      - "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]"
       - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
+      - "俄罗斯联邦-015 |2.3MB/s|YT-RU"
+      - "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%"
+      - "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%"
+      - "俄罗斯联邦-017 |2.3MB/s"
       - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
+      - "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%"
+      - "芬兰-001 |854KB/s"
       - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
+      - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%"
       - "US13｜机房｜低风险"
       - "US17｜机房｜低风险"
       - "US18｜机房｜低风险"
@@ -1560,22 +2320,27 @@ proxy-groups:
       - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3"
       - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4"
       - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2"
+      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10"
       - "美国 - 紐約 - Massivegrid LTD - 8"
       - "美国 - 紐約 - Massivegrid LTD - 9"
       - "美国 - 圣路易斯 - Contabo Inc. - 4"
       - "美国 - 聖荷西 - Eons Data Communications Limited - 6"
       - "美国 - 聖荷西 - Meteverse Limited. - 3"
+      - "美国 - Ashburn - Oracle Corporation - 11"
       - "美国 - Piscataway - The Constant Company, LLC - 7"
       - "美国 - San Jose - Oracle Corporation - 5"
       - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1"
       - "日本 - 东京 - Amazon Technologies Inc. - 4"
       - "日本 - 东京 - Amazon Technologies Inc. - 5"
+      - "日本 - 东京 - GSL Networks Pty LTD - 6"
+      - "日本 - 东京 - GSL Networks Pty LTD - 7"
       - "日本 - 横滨市 - InfoSphere - 3"
       - ">-"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4"
       - "新加坡 - 新加坡 - M247 Europe SRL - 2"
+      - "印度 - 海得拉巴 - Oracle Corporation - 1"
       - "印度尼西亚 - 雅加达 - Google LLC - 1"
       - "越南 - Hải Dương - FASTLY - 12"
       - "越南 - Hải Dương - FASTLY - 13"
@@ -1645,9 +2410,28 @@ proxy-groups:
       - "[mibei] US美国(mibei77.com 米贝节点分享) 83"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 85"
       - "[mibei] US美国(mibei77.com 米贝节点分享) 87"
+      - "[nodefree] 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚"
       - "[nodefree] 🇸🇬_SG_新加坡"
+      - "[nodefree] 🇮🇷_IR_伊朗->🏳️_unKnow_未知"
+      - "[nodefree] 🇧🇪_BE_比利时->🇺🇸_US_美国"
       - "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - "[nodefree] 🇺🇸_US_美国"
+      - "[nodefree] 🇳🇱_NL_荷兰"
+      - "[nodefree] 🇩🇪_DE_德国"
+      - "[nodefree] 🇺🇸_US_美国_1"
+      - "[nodefree] 🇨🇳_CN_中国->🏳️_unKnow_未知"
+      - "[nodefree] 🇺🇸_US_美国_2"
+      - "[nodefree] 🇺🇸_US_美国->🇳🇱_NL_荷兰"
+      - "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国"
+      - "[nodefree] 🇺🇸_US_美国_3"
       - "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国"
+      - "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国_1"
+      - "[nodefree] 🇺🇸_US_美国_4"
+      - "[nodefree] 🇮🇪_IE_爱尔兰->🇬🇧_GB_英国"
+      - "[nodefree] 🇺🇸_US_美国->🇬🇧_GB_英国"
+      - "[nodefree] 🇧🇪_BE_比利时"
+      - "[nodefree] 🇺🇸_US_美国_5"
+      - "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知"
       - "github.com/freefq - 俄罗斯  1"
       - "github.com/freefq - 印度  2"
       - "github.com/freefq - 印度  3"
@@ -1664,16 +2448,46 @@ proxy-groups:
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
       - "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯"
+      - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "美国-002 |3.1MB/s"
+      - "美国-003 |4.0MB/s"
+      - "美国-004 |5.6MB/s"
       - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]"
       - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%"
+      - "美国-005 |4.0MB/s|GPT⁺"
+      - "美国-006 |4.0MB/s"
+      - "美国-007 |4.5MB/s"
       - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]"
+      - "美国-008 |4.5MB/s"
+      - "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%"
       - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%"
+      - "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%"
+      - "美国-011 |3.2MB/s"
+      - "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%"
       - "法国-002 |605KB/s|YT-FR|NF|D+"
+      - "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%"
+      - "德国-002 |1.5MB/s|GPT⁺|NF|0%"
+      - "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
       - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%"
+      - "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%"
       - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%"
+      - "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%"
+      - "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+"
+      - "德国-003 |4.0MB/s|GPT|YT-DE|NF"
       - "日本-005 |2.0MB/s|26%|GPT⁺|X"
+      - "俄罗斯联邦-005 |2.8MB/s|YT-RU"
+      - "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%"
+      - "俄罗斯联邦-006 |3.7MB/s|YT-RU"
+      - "荷兰-002 |752KB/s|GPT⁺|5%"
+      - "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%"
+      - "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%"
+      - "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%"
+      - "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%"
       - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM"
+      - "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%"
       - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF"
       - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM"
@@ -1682,13 +2496,33 @@ proxy-groups:
       - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM"
       - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM"
       - "美国-018 |1.8MB/s|GPT⁺|YT-US|NF|39%"
+      - "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%"
+      - "德国-005 |1.6MB/s|GPT⁺|NF|79%"
       - "越南-010 |1.0MB/s|GPT⁺|GM|X|History"
       - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF"
+      - "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM"
+      - "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%"
       - "德国-006 |GB英国(mibei77.com 米贝节点分享) 7"
+      - "美国-021"
+      - "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%"
+      - "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%"
+      - "德国-008 |6.4MB/s|YT-DE|NF|D+"
       - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]"
+      - "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]"
+      - "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+"
+      - "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%"
+      - "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]"
       - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
+      - "俄罗斯联邦-015 |2.3MB/s|YT-RU"
+      - "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+      - "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%"
+      - "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%"
+      - "俄罗斯联邦-017 |2.3MB/s"
       - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed"
+      - "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%"
+      - "芬兰-001 |854KB/s"
       - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺"
+      - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%"
       - "US13｜机房｜低风险"
       - "US17｜机房｜低风险"
       - "US18｜机房｜低风险"
@@ -1727,22 +2561,27 @@ proxy-groups:
       - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3"
       - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4"
       - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2"
+      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10"
       - "美国 - 紐約 - Massivegrid LTD - 8"
       - "美国 - 紐約 - Massivegrid LTD - 9"
       - "美国 - 圣路易斯 - Contabo Inc. - 4"
       - "美国 - 聖荷西 - Eons Data Communications Limited - 6"
       - "美国 - 聖荷西 - Meteverse Limited. - 3"
+      - "美国 - Ashburn - Oracle Corporation - 11"
       - "美国 - Piscataway - The Constant Company, LLC - 7"
       - "美国 - San Jose - Oracle Corporation - 5"
       - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1"
       - "日本 - 东京 - Amazon Technologies Inc. - 4"
       - "日本 - 东京 - Amazon Technologies Inc. - 5"
+      - "日本 - 东京 - GSL Networks Pty LTD - 6"
+      - "日本 - 东京 - GSL Networks Pty LTD - 7"
       - "日本 - 横滨市 - InfoSphere - 3"
       - ">-"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3"
       - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4"
       - "新加坡 - 新加坡 - M247 Europe SRL - 2"
+      - "印度 - 海得拉巴 - Oracle Corporation - 1"
       - "印度尼西亚 - 雅加达 - Google LLC - 1"
       - "越南 - Hải Dương - FASTLY - 12"
       - "越南 - Hải Dương - FASTLY - 13"

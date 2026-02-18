@@ -533,6 +533,8 @@ proxies:
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳@@jdfxq"
 
   - name: "[nodefree] 🇸🇬_SG_新加坡-174"
     type: "vmess"
@@ -543,6 +545,8 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm"
 
   - name: "[nodefree] 🇮🇷_IR_伊朗->🏳️_unKnow_未知-175"
     type: "vless"
@@ -559,6 +563,8 @@ proxies:
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "[nodefree] 🇺🇸_US_美国->🇸🇬_SG_新加坡-177"
     type: "vmess"
@@ -569,6 +575,8 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm"
 
   - name: "[nodefree] 🇺🇸_US_美国-178"
     type: "vless"
@@ -577,6 +585,8 @@ proxies:
     uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/pyip=proxyip.cmliussss.net"
 
   - name: "[nodefree] 🇳🇱_NL_荷兰-179"
     type: "vless"
@@ -617,6 +627,8 @@ proxies:
     uuid: "57ba2ab1-a283-42eb-82ee-dc3561a805b8"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/57ba2ab1"
 
   - name: "[nodefree] 🇺🇸_US_美国->🇳🇱_NL_荷兰-184"
     type: "vless"
@@ -625,6 +637,8 @@ proxies:
     uuid: "e5f8a9f6-f164-479b-b3b5-b90f213c7145"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/"
 
   - name: "[nodefree] 🇺🇸_US_美国->🇩🇪_DE_德国-185"
     type: "vless"
@@ -641,6 +655,8 @@ proxies:
     uuid: "f8ae018b-b84d-4c9b-b03b-4642c3a25977"
     tls: false
     network: "ws"
+    ws-opts:
+      path: "/?ed"
 
   - name: "[nodefree] 🇯🇵_JP_日本->🇨🇳_CN_中国-187"
     type: "trojan"
@@ -656,6 +672,8 @@ proxies:
     uuid: "9f846e5c-56f9-4670-8be2-5b00d2a107c0"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/api03"
 
   - name: "[nodefree] 🇺🇸_US_美国_4-189"
     type: "vless"
@@ -664,6 +682,8 @@ proxies:
     uuid: "d89d6641-3b1a-4f51-a194-9c9109fd21b6"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/assets"
 
   - name: "[nodefree] 🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-190"
     type: "vless"
@@ -696,6 +716,8 @@ proxies:
     uuid: "22fbfcae-8207-475a-8c25-f59d4423546a"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/"
 
   - name: "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知-194"
     type: "vless"
@@ -704,15 +726,17 @@ proxies:
     uuid: "fef4a93d-eb4f-4657-b56b-32a0dc060045"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/"
 
-  - name: "github.com/freefq - 俄罗斯  1-2-206"
+  - name: "github.com/freefq - 俄罗斯  1-206"
     type: "ss"
     server: "185.242.86.156"
     port: 54170
     cipher: "chacha20-ietf-poly1305"
     password: "36ZCHeabUSfKjfQEvJ4HDV"
 
-  - name: "github.com/freefq - 印度  2-3-207"
+  - name: "github.com/freefq - 印度  2-207"
     type: "vmess"
     server: "202.78.162.5"
     port: 443
@@ -721,10 +745,8 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
-    ws-opts:
-      path: "/@forwardv2ray"
 
-  - name: "github.com/freefq - 印度  3-4-208"
+  - name: "github.com/freefq - 印度  3-208"
     type: "vmess"
     server: "202.78.162.5"
     port: 443
@@ -733,10 +755,8 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
-    ws-opts:
-      path: "/@forwardv2ray"
 
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 4-5-209"
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 4-209"
     type: "vmess"
     server: "www.darkroom.lol"
     port: 8080
@@ -745,17 +765,15 @@ proxies:
     cipher: "auto"
     tls: false
     network: "ws"
-    ws-opts:
-      path: "/"
 
-  - name: "github.com/freefq - 波兰  5-6-210"
+  - name: "github.com/freefq - 波兰  5-210"
     type: "ss"
     server: "193.243.147.128"
     port: 40368
     cipher: "aes-256-gcm"
     password: "7BcLdsO1WweoGD0X"
 
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 6-7-211"
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 6-211"
     type: "vmess"
     server: "server31.beheshtbaneh.com"
     port: 8880
@@ -764,10 +782,8 @@ proxies:
     cipher: "auto"
     tls: false
     network: "ws"
-    ws-opts:
-      path: "/"
 
-  - name: "github.com/freefq - 广东省移动 7-8-212"
+  - name: "github.com/freefq - 广东省移动 7-212"
     type: "vmess"
     server: "data-us-v1.shwjfkw.cn"
     port: 20401
@@ -776,17 +792,15 @@ proxies:
     cipher: "auto"
     tls: false
     network: "ws"
-    ws-opts:
-      path: "/debian"
 
-  - name: "github.com/freefq - 广东省江门市移动 8-9-213"
+  - name: "github.com/freefq - 广东省江门市移动 8-213"
     type: "ss"
     server: "service.ouluyun9803.com"
     port: 20003
     cipher: "chacha20-ietf-poly1305"
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9-10-214"
+  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9-214"
     type: "vmess"
     server: "104.21.82.183"
     port: 8880
@@ -795,10 +809,8 @@ proxies:
     cipher: "auto"
     tls: false
     network: "ws"
-    ws-opts:
-      path: "/"
 
-  - name: "github.com/freefq - 印度  10-11-215"
+  - name: "github.com/freefq - 印度  10-215"
     type: "vmess"
     server: "202.78.162.5"
     port: 443
@@ -807,24 +819,22 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
-    ws-opts:
-      path: "/@forwardv2ray"
 
-  - name: "github.com/freefq - 广东省江门市移动 11-12-216"
+  - name: "github.com/freefq - 广东省江门市移动 11-216"
     type: "ss"
     server: "service.ouluyun9803.com"
     port: 26667
     cipher: "chacha20-ietf-poly1305"
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
-  - name: "github.com/freefq - 广东省江门市移动 12-13-217"
+  - name: "github.com/freefq - 广东省江门市移动 12-217"
     type: "ss"
     server: "service.ouluyun9803.com"
     port: 20005
     cipher: "chacha20-ietf-poly1305"
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
-  - name: "github.com/freefq - 美国Fastly全球Anycast节点 13-14-218"
+  - name: "github.com/freefq - 美国Fastly全球Anycast节点 13-218"
     type: "vmess"
     server: "gov.uk"
     port: 443
@@ -833,10 +843,8 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
-    ws-opts:
-      path: "/77848824"
 
-  - name: "github.com/freefq - 美国CloudFlare节点 14-15-219"
+  - name: "github.com/freefq - 美国CloudFlare节点 14-219"
     type: "vmess"
     server: "server32.beheshtbaneh.com"
     port: 8880
@@ -845,22 +853,6 @@ proxies:
     cipher: "auto"
     tls: false
     network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "\"🇨🇳_CN_中国->🇯🇵_JP_日本\"-220"
-    type: "trojan"
-    server: "36.156.102.115"
-    port: 26876
-    password: "BxceQaOe"
-    sni: "36.156.102.115"
-
-  - name: "\"🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯\"-222"
-    type: "ss"
-    server: "185.153.197.5"
-    port: 989
-    cipher: "aes-256-cfb"
-    password: "f8f7aCzcPKbsF8p3"
 
   - name: "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-235"
     type: "vless"
@@ -869,6 +861,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-236"
     type: "vless"
@@ -877,6 +871,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-002 |3.1MB/s-237"
     type: "vless"
@@ -885,6 +881,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-003 |4.0MB/s-238"
     type: "vless"
@@ -893,6 +891,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-004 |5.6MB/s-239"
     type: "vless"
@@ -901,6 +901,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]-240"
     type: "trojan"
@@ -923,6 +925,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-006 |4.0MB/s-243"
     type: "vless"
@@ -931,6 +935,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-007 |4.5MB/s-244"
     type: "vless"
@@ -939,6 +945,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]-245"
     type: "trojan"
@@ -954,6 +962,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%-248"
     type: "vless"
@@ -962,6 +972,8 @@ proxies:
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
 
   - name: "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%-249"
     type: "ss"
@@ -977,6 +989,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%-251"
     type: "vless"
@@ -985,6 +999,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-011 |3.2MB/s-252"
     type: "vless"
@@ -993,6 +1009,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%-253"
     type: "vless"
@@ -1032,6 +1050,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%-259"
     type: "trojan"
@@ -1047,6 +1067,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%-261"
     type: "ss"
@@ -1062,6 +1084,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+-264"
     type: "vless"
@@ -1070,6 +1094,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "德国-003 |4.0MB/s|GPT|YT-DE|NF-265"
     type: "vless"
@@ -1101,6 +1127,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "俄罗斯联邦-006 |3.7MB/s|YT-RU-269"
     type: "vless"
@@ -1117,6 +1145,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%-271"
     type: "vless"
@@ -1133,6 +1163,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%-273"
     type: "vless"
@@ -1171,6 +1203,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF-278"
     type: "ss"
@@ -1230,6 +1264,8 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/"
 
   - name: "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%-287"
     type: "vless"
@@ -1276,6 +1312,8 @@ proxies:
     uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "德国-006 |GB英国(mibei77.com 米贝节点分享) 7-294"
     type: "vmess"
@@ -1318,6 +1356,8 @@ proxies:
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]-300"
     type: "ss"
@@ -1380,6 +1420,8 @@ proxies:
     uuid: "15235ce9-4cd2-4483-b6b6-7fc4a3f44735"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
 
   - name: "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%-309"
     type: "vless"
@@ -1388,6 +1430,8 @@ proxies:
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳@WangCai2"
 
   - name: "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%-316"
     type: "vless"
@@ -1442,6 +1486,8 @@ proxies:
     uuid: "5a1d2c0c-abfa-4050-918f-bfab3eaee62a"
     tls: false
     network: "ws"
+    ws-opts:
+      path: "/?ed=1049"
 
   - name: "NL6｜机房｜低风险-326"
     type: "trojan"
@@ -1450,7 +1496,7 @@ proxies:
     password: "humanity"
     sni: "www.multiplydose.com"
 
-  - name: "香港2|@ripaojiedian-327"
+  - name: "SE1｜机房｜低风险-327"
     type: "ss"
     server: "assets-cfnode67.cloudflarecdn-edge.rfsconfig.com"
     port: 10015
@@ -1513,7 +1559,7 @@ proxies:
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "新加坡4|@ripaojiedian-337"
+  - name: "新加坡3|@ripaojiedian-337"
     type: "ss"
     server: "assets-cfnode67.cloudflarecdn-edge.rfsconfig.com"
     port: 22350
@@ -1534,7 +1580,345 @@ proxies:
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "香港|@ripaojiedian-340"
+  - name: "vmess-5-397"
+    type: "vmess"
+    server: "xt.ylks01.eu.org"
+    port: 2095
+    uuid: "b710770a-fdaf-41fb-bbe4-68a6c41e2605"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "vmess-6-398"
+    type: "vmess"
+    server: "aaaa.wxx.gay"
+    port: 443
+    uuid: "8237ec34-143a-11ee-8019-000017022008"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "vmess-7-399"
+    type: "vmess"
+    server: "159.223.94.156"
+    port: 80
+    uuid: "533724ad-58ef-4147-88dc-9da523c15fc4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "vmess-8-400"
+    type: "vmess"
+    server: "hkd1.quickerlink.xyz"
+    port: 443
+    uuid: "3853a2ab-6bec-4503-89b9-d3cbcc6b69c9"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "官网地址https://kelayun.notepin.co-401"
+    type: "hysteria2"
+    server: "208.87.242.77"
+    port: 35000
+    password: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
+    udp: true
+
+  - name: "新年6折优惠码：克拉云-402"
+    type: "vless"
+    server: "104.19.58.118"
+    port: 443
+    uuid: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/kbjc/us1"
+
+  - name: "最高200元终身无限流量-404"
+    type: "vless"
+    server: "69.84.182.13"
+    port: 443
+    uuid: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/kbjc/jp1"
+
+  - name: "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-410"
+    type: "ss"
+    server: "144.217.164.29"
+    port: 12000
+    cipher: "aes-256-gcm"
+    password: "8JCsPssfgS8tiRwiMlhARg=="
+
+  - name: "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-411"
+    type: "vmess"
+    server: "547.rtxconfigz.shop"
+    port: 8080
+    uuid: "44e57485-eccc-46ef-808f-cd17ac810018"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-412"
+    type: "vmess"
+    server: "t1.620720.xyz"
+    port: 8443
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-413"
+    type: "ss"
+    server: "45.154.204.7"
+    port: 990
+    cipher: "chacha20-ietf-poly1305"
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+
+  - name: "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-414"
+    type: "ss"
+    server: "146.19.49.251"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6"
+
+  - name: "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-415"
+    type: "vmess"
+    server: "15.235.41.200"
+    port: 80
+    uuid: "58fe1542-5290-40ad-815a-77707a81afe5"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-416"
+    type: "ss"
+    server: "71.19.148.143"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "p78naCf2EfOlRSLTX0wFVx"
+
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-417"
+    type: "vmess"
+    server: "38.92.10.226"
+    port: 45979
+    uuid: "23bdf6df-c482-46d0-c0f4-5a98d534ea11"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-418"
+    type: "ss"
+    server: "23.95.76.59"
+    port: 990
+    cipher: "chacha20-ietf-poly1305"
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+
+  - name: "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-419"
+    type: "vmess"
+    server: "51.79.102.253"
+    port: 80
+    uuid: "58fe1542-5290-40ad-815a-77707a81afe5"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-421"
+    type: "ss"
+    server: "92.118.112.101"
+    port: 9483
+    cipher: "chacha20-ietf-poly1305"
+    password: "qFvn2fNEvBgM5knffrN96q"
+
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-422"
+    type: "ss"
+    server: "15.204.247.49"
+    port: 12000
+    cipher: "aes-256-gcm"
+    password: "8JCsPssfgS8tiRwiMlhARg=="
+
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-423"
+    type: "ss"
+    server: "pupas-shirting-unsung.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "p78naCf2EfOlRSLTX0wFVx"
+
+  - name: "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-424"
+    type: "ss"
+    server: "79.127.233.170"
+    port: 990
+    cipher: "chacha20-ietf-poly1305"
+    password: "f8f7aCzcPKbsF8p3"
+
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-425"
+    type: "vmess"
+    server: "v2ray.codefyinc.com"
+    port: 443
+    uuid: "2c981164-9b93-4bca-94ff-b78d3f8498d7"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-426"
+    type: "ss"
+    server: "23.95.75.146"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "NDRySIABARbErNIVsCNVkyYAHiBzhveT"
+
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-427"
+    type: "vmess"
+    server: "198.23.174.168"
+    port: 20086
+    uuid: "2b36304b-4f88-4ff5-9033-f4d57dbb5490"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-429"
+    type: "vmess"
+    server: "cg1c07.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-430"
+    type: "vmess"
+    server: "support.zoom.us"
+    port: 8080
+    uuid: "44e57485-eccc-46ef-808f-cd17ac810018"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-431"
+    type: "vmess"
+    server: "209.126.84.189"
+    port: 443
+    uuid: "2c981164-9b93-4bca-94ff-b78d3f8498d7"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-432"
+    type: "vmess"
+    server: "sy4.620720.xyz"
+    port: 443
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-433"
+    type: "vmess"
+    server: "hgtrojan.zabc.net"
+    port: 2083
+    uuid: "e6395c20-4571-4b34-d6b1-55a5d36e49ea"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-434"
+    type: "ss"
+    server: "107.175.87.207"
+    port: 10011
+    cipher: "chacha20-ietf-poly1305"
+    password: "86039b71-ba82-4ca8-838e-87086ae666de"
+
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-435"
+    type: "vmess"
+    server: "cg1c01.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-436"
+    type: "vmess"
+    server: "cg1c04.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-437"
+    type: "vmess"
+    server: "cg1c14.waimaojd.com"
+    port: 443
+    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "ð¨ð³ ä¸­å½ V2CROSS.COM-439"
+    type: "vmess"
+    server: "v12.hdacd.com"
+    port: 30812
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "🇪🇸 西班牙 V2CROSS.COM-441"
+    type: "trojan"
+    server: "80.173.230.196"
+    port: 26279
+    password: "a5inYFE%3DJGV89+hjxIqgDp1tcWBd6"
+    sni: "80.173.230.196"
+
+  - name: "🇪🇸 西班牙 V2CROSS.COM-443"
+    type: "trojan"
+    server: "80.173.231.254"
+    port: 12420
+    password: "wp9IsiY82uQhcmgNC1eoBM"
+    sni: "www.semanticstaplegun.click"
+
+  - name: "ðºð¸ ç¾å½ CloudFlareèç¹-444"
+    type: "vmess"
+    server: "104.26.14.85"
+    port: 8080
+    uuid: "e8b1500b-e9e8-5492-8312-f4eadf7d0767"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "ð®ð· ä¼æ V2CROSS.COM-445"
+    type: "vmess"
+    server: "freedom.vipgsmteam.info"
+    port: 17356
+    uuid: "f95cb5ae-1b06-4a57-aba0-30afe12d23ed"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "ð­ð° é¦æ¸¯|@ripaojiedian-451"
     type: "vmess"
     server: "v10.hdacd.com"
     port: 30807
@@ -1544,101 +1928,115 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "官网地址https://kelayun.notepin.co-393"
-    type: "hysteria2"
-    server: "208.87.242.77"
-    port: 35000
-    password: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
-    udp: true
+  - name: "🇭🇰 香港2|@ripaojiedian-452"
+    type: "ss"
+    server: "assets-cfnode67.cloudflarecdn-edge.rfsconfig.com"
+    port: 10015
+    cipher: "chacha20-ietf-poly1305"
+    password: "049d354a-2cf1-4956-b6d8-d04aa4969b64"
 
-  - name: "新年6折优惠码：克拉云-394"
-    type: "vless"
-    server: "104.19.58.118"
+  - name: "🇸🇬 新加坡3|@ripaojiedian-462"
+    type: "trojan"
+    server: "57.180.245.83"
+    port: 381
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "🇸🇬 新加坡4|@ripaojiedian-463"
+    type: "ss"
+    server: "assets-cfnode67.cloudflarecdn-edge.rfsconfig.com"
+    port: 22350
+    cipher: "chacha20-ietf-poly1305"
+    password: "049d354a-2cf1-4956-b6d8-d04aa4969b64"
+
+  - name: "🇺🇸 美国3|@ripaojiedian-466"
+    type: "trojan"
+    server: "57.181.39.168"
+    port: 38780
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+
+  - name: "🇺🇸 _US_美国-467"
+    type: "trojan"
+    server: "216.24.57.250"
     port: 443
-    uuid: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
-    tls: true
-    network: "ws"
+    password: "5027e2a4-c4d2-463a-9508-83a2c7d1ad83"
+    sni: "afrcloud1.mmv.kr"
 
-  - name: "最高200元终身无限流量-396"
-    type: "vless"
-    server: "69.84.182.13"
-    port: 443
-    uuid: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
-    tls: true
-    network: "ws"
-
-  - name: "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-402"
+  - name: "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-468"
     type: "trojan"
     server: "blaab.wsone.icu"
     port: 443
     password: "M7v%w11Se*"
     sni: "blaab.wsone.icu"
 
-  - name: "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-403"
+  - name: "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-469"
     type: "ss"
     server: "185.100.159.79"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "i9lip2dJ8kV4wJQ0pJuRr6"
 
-  - name: "法国 - 巴黎 - Amazon.com, Inc. - 1-404"
+  - name: "法国 - 巴黎 - Amazon.com, Inc. - 1-470"
     type: "trojan"
     server: "15.188.241.30"
     port: 22223
     password: "telegram-id-directvpn"
     sni: "trojan.burgerip.co.uk"
 
-  - name: "法国 - 巴黎 - Amazon.com, Inc. - 2-405"
+  - name: "法国 - 巴黎 - Amazon.com, Inc. - 2-471"
     type: "trojan"
     server: "15.188.241.30"
     port: 22222
     password: "telegram-id-privatevpns"
     sni: "trojan.burgerip.co.uk"
 
-  - name: "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-409"
+  - name: "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-475"
     type: "ss"
     server: "38.244.137.202"
     port: 45380
     cipher: "chacha20-ietf-poly1305"
     password: "E6GbjW3IZ4Wokvz4VYLj4o"
 
-  - name: "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-410"
+  - name: "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-476"
     type: "ss"
     server: "178.17.61.67"
     port: 5790
     cipher: "chacha20-ietf-poly1305"
     password: "qS3skwmolrQ70q842irQD0"
 
-  - name: "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-411"
+  - name: "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-477"
     type: "ss"
     server: "3.35.174.240"
     port: 8989
     cipher: "chacha20-ietf-poly1305"
     password: "1a17b19d-4896-4531-af79-6e91d8ef8228"
 
-  - name: "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-412"
+  - name: "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-478"
     type: "trojan"
     server: "3.35.174.240"
     port: 6688
     password: "1a17b19d-4896-4531-af79-6e91d8ef8228"
     sni: "baidu.com"
 
-  - name: "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-413"
+  - name: "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-479"
     type: "ss"
     server: "154.90.62.168"
     port: 989
     cipher: "aes-256-cfb"
     password: "f8f7aCzcPKbsF8p3"
 
-  - name: "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-415"
+  - name: "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-481"
     type: "vless"
     server: "104.18.126.69"
     port: 443
     uuid: "9264c736-5315-473e-b60d-3586a31714bf"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/pq/us8"
 
-  - name: "美国 - 紐約 - Massivegrid LTD - 8-417"
+  - name: "美国 - 紐約 - Massivegrid LTD - 8-483"
     type: "vmess"
     server: "nju.bb4.indevs.in"
     port: 80
@@ -1647,8 +2045,10 @@ proxies:
     cipher: "auto"
     tls: false
     network: "ws"
+    ws-opts:
+      path: "/boWUVaU0sxrNtFSdOPjqSc7fzeJr"
 
-  - name: "美国 - 紐約 - Massivegrid LTD - 9-418"
+  - name: "美国 - 紐約 - Massivegrid LTD - 9-484"
     type: "vmess"
     server: "bnmj.wc6.ccwu.cc"
     port: 80
@@ -1657,8 +2057,10 @@ proxies:
     cipher: "auto"
     tls: false
     network: "ws"
+    ws-opts:
+      path: "/kFK9O5cl8ZycyrxcJWNVFC21"
 
-  - name: "美国 - 圣路易斯 - Contabo Inc. - 4-419"
+  - name: "美国 - 圣路易斯 - Contabo Inc. - 4-485"
     type: "vmess"
     server: "104.17.77.77"
     port: 8443
@@ -1667,37 +2069,41 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/lMnsZUN4/"
 
-  - name: "美国 - 聖荷西 - Eons Data Communications Limited - 6-420"
+  - name: "美国 - 聖荷西 - Eons Data Communications Limited - 6-486"
     type: "trojan"
     server: "green2.cdntencentmusic.com"
     port: 35501
     password: "bd42df14-0524-4d86-ac9f-592a93951684"
     sni: "green2.cdntencentmusic.com"
 
-  - name: "美国 - 聖荷西 - Meteverse Limited. - 3-421"
+  - name: "美国 - 聖荷西 - Meteverse Limited. - 3-487"
     type: "ss"
     server: "174.35.123.165"
     port: 26524
     cipher: "rc4-md5"
     password: "f433ac2b27fd694f"
 
-  - name: "美国 - Ashburn - Oracle Corporation - 11-423"
+  - name: "美国 - Ashburn - Oracle Corporation - 11-489"
     type: "vless"
     server: "69.84.182.108"
     port: 443
     uuid: "9264c736-5315-473e-b60d-3586a31714bf"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/pq/us6"
 
-  - name: "美国 - Piscataway - The Constant Company, LLC - 7-424"
+  - name: "美国 - Piscataway - The Constant Company, LLC - 7-490"
     type: "ss"
     server: "64.176.215.70"
     port: 443
     cipher: "aes-256-gcm"
     password: "hbhO0xomsJzhO24F"
 
-  - name: "美国 - San Jose - Oracle Corporation - 5-425"
+  - name: "美国 - San Jose - Oracle Corporation - 5-491"
     type: "vmess"
     server: "160.153.137.199"
     port: 443
@@ -1706,247 +2112,276 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/f08369d1-5ee7-4b16-d786-30bce12fc33c"
 
-  - name: "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-426"
+  - name: "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-492"
     type: "ss"
     server: "185.231.233.112"
     port: 989
     cipher: "aes-256-cfb"
     password: "f8f7aCzcPKbsF8p3"
 
-  - name: "日本 - 东京 - Amazon Technologies Inc. - 4-427"
+  - name: "日本 - 东京 - Amazon Technologies Inc. - 4-493"
     type: "ss"
     server: "18.179.36.198"
     port: 8989
     cipher: "chacha20-ietf-poly1305"
     password: "1a17b19d-4896-4531-af79-6e91d8ef8228"
 
-  - name: "日本 - 东京 - Amazon Technologies Inc. - 5-428"
+  - name: "日本 - 东京 - Amazon Technologies Inc. - 5-494"
     type: "trojan"
     server: "18.179.36.198"
     port: 6688
     password: "1a17b19d-4896-4531-af79-6e91d8ef8228"
     sni: "baidu.com"
 
-  - name: "日本 - 东京 - GSL Networks Pty LTD - 6-429"
+  - name: "日本 - 东京 - GSL Networks Pty LTD - 6-495"
     type: "vless"
     server: "unamecf.xn--ghqu5fm27b67w.com"
     port: 443
     uuid: "9264c736-5315-473e-b60d-3586a31714bf"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/pq/jp5"
 
-  - name: "日本 - 东京 - GSL Networks Pty LTD - 7-430"
+  - name: "日本 - 东京 - GSL Networks Pty LTD - 7-496"
     type: "vless"
     server: "104.18.125.69"
     port: 443
     uuid: "9264c736-5315-473e-b60d-3586a31714bf"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/pq/jp5"
 
-  - name: "日本 - 横滨市 - InfoSphere - 3-433"
+  - name: "日本 - 横滨市 - InfoSphere - 3-499"
     type: "trojan"
     server: "13.113.192.229"
     port: 2595
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
 
-  - name: "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-435"
+  - name: "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-501"
     type: "trojan"
     server: "tr-1.stunnel.cc"
     port: 8441
     password: "tunnel-jdybi"
     sni: "creativecommons.org"
 
-  - name: "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-436"
+  - name: "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-502"
     type: "ss"
     server: "tr-1.stunnel.cc"
     port: 8444
     cipher: "chacha20-ietf-poly1305"
     password: "tunnel-fbrof"
 
-  - name: "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-437"
+  - name: "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-503"
     type: "trojan"
     server: "tr-1.stunnel.cc"
     port: 8441
     password: "tunnel-ljlcf"
     sni: "creativecommons.org"
 
-  - name: "新加坡 - 新加坡 - M247 Europe SRL - 2-440"
+  - name: "新加坡 - 新加坡 - M247 Europe SRL - 2-506"
     type: "trojan"
     server: "95.40.55.141"
     port: 3579
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
 
-  - name: "印度 - 海得拉巴 - Oracle Corporation - 1-441"
+  - name: "印度 - 海得拉巴 - Oracle Corporation - 1-507"
     type: "vless"
     server: "104.18.126.50"
     port: 443
     uuid: "9264c736-5315-473e-b60d-3586a31714bf"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/pq/in1"
 
-  - name: "印度尼西亚 - 雅加达 - Google LLC - 1-442"
+  - name: "印度尼西亚 - 雅加达 - Google LLC - 1-508"
     type: "trojan"
     server: "qfdfsg.wsone.icu"
     port: 443
     password: "M7v%w11Se*"
     sni: "qfdfsg.wsone.icu"
 
-  - name: "越南 - Hải Dương - FASTLY - 12-446"
+  - name: "越南 - Hải Dương - FASTLY - 12-512"
     type: "ss"
     server: "103.186.155.10"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 13-447"
+  - name: "越南 - Hải Dương - FASTLY - 13-513"
     type: "ss"
     server: "103.186.154.77"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 14-448"
+  - name: "越南 - Hải Dương - FASTLY - 14-514"
     type: "ss"
     server: "103.186.155.134"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 15-449"
+  - name: "越南 - Hải Dương - FASTLY - 15-515"
     type: "ss"
     server: "103.186.154.153"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 17-451"
+  - name: "越南 - Hải Dương - FASTLY - 17-517"
     type: "ss"
     server: "103.186.154.158"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 18-452"
+  - name: "越南 - Hải Dương - FASTLY - 18-518"
     type: "ss"
     server: "103.186.155.240"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 19-453"
+  - name: "越南 - Hải Dương - FASTLY - 19-519"
     type: "ss"
     server: "103.186.155.107"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 2-454"
+  - name: "越南 - Hải Dương - FASTLY - 2-520"
     type: "ss"
     server: "103.186.154.167"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 20-455"
+  - name: "越南 - Hải Dương - FASTLY - 20-521"
     type: "ss"
     server: "103.186.154.80"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 21-456"
+  - name: "越南 - Hải Dương - FASTLY - 21-522"
     type: "ss"
     server: "103.186.155.141"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 23-458"
+  - name: "越南 - Hải Dương - FASTLY - 23-524"
     type: "ss"
     server: "103.186.154.219"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 24-459"
+  - name: "越南 - Hải Dương - FASTLY - 24-525"
     type: "ss"
     server: "103.186.155.5"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 3-460"
+  - name: "越南 - Hải Dương - FASTLY - 3-526"
     type: "ss"
     server: "103.186.155.69"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 4-461"
+  - name: "越南 - Hải Dương - FASTLY - 4-527"
     type: "ss"
     server: "103.186.154.142"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 5-462"
+  - name: "越南 - Hải Dương - FASTLY - 5-528"
     type: "ss"
     server: "103.186.155.43"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "越南 - Hải Dương - FASTLY - 6-463"
+  - name: "越南 - Hải Dương - FASTLY - 6-529"
     type: "ss"
     server: "103.186.154.224"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "中国 - 台湾 - Akile LTD - 3-467"
+  - name: "中国 - 台湾 - Akile LTD - 3-533"
     type: "trojan"
     server: "cdnfire.xiaomispeed.com"
     port: 22231
     password: "8ae35cce-016e-4454-b06b-0b4e4527b92a"
     sni: "cdnfire.xiaomispeed.com"
 
-  - name: "中国 - 香港 - Akile LTD - 4-468"
+  - name: "中国 - 香港 - Akile LTD - 4-534"
     type: "trojan"
     server: "cdnfire.xiaomispeed.com"
     port: 21115
     password: "8ae35cce-016e-4454-b06b-0b4e4527b92a"
     sni: "cdnfire.xiaomispeed.com"
 
-  - name: "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-469"
+  - name: "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-535"
     type: "trojan"
     server: "95.40.55.141"
     port: 2826
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-470"
+  - name: "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-536"
     type: "trojan"
     server: "203.198.123.162"
     port: 443
     password: "BxceQaOe"
     sni: "203.198.123.162"
 
-  - name: "中国 - 香港 - Ipxo LLC - 5-471"
+  - name: "中国 - 香港 - Ipxo LLC - 5-537"
     type: "trojan"
     server: "green2.cdntencentmusic.com"
     port: 31102
     password: "3f83b84d-b69a-4386-887a-ee51b1d18fe8"
     sni: "green2.cdntencentmusic.com"
 
-  - name: "中国 - 香港 - Ipxo LLC - 6-472"
+  - name: "中国 - 香港 - Ipxo LLC - 6-538"
     type: "trojan"
     server: "green2.cdntencentmusic.com"
     port: 31101
     password: "b9c3a952-bd14-4d4a-a1db-afd53fa1c414"
     sni: "green2.cdntencentmusic.com"
+
+  - name: "SCP|HK-539"
+    type: "trojan"
+    server: "hk.scpnb.top"
+    port: 19066
+    password: "q4oerwN2UA"
+    sni: "www.amazon.com"
+
+  - name: "SCP|US-540"
+    type: "trojan"
+    server: "180.131.145.169"
+    port: 18718
+    password: "RmhZQ47pEm"
+    sni: "www.tesla.com"
+
+  - name: "SCP|UK-541"
+    type: "trojan"
+    server: "194.150.166.151"
+    port: 52047
+    password: "zp630tdUuD"
+    sni: "aws.amazon.com"
 
 proxy-groups:
   - name: Proxy
@@ -2045,22 +2480,20 @@ proxy-groups:
       - "[nodefree] 🇧🇪_BE_比利时-192"
       - "[nodefree] 🇺🇸_US_美国_5-193"
       - "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知-194"
-      - "github.com/freefq - 俄罗斯  1-2-206"
-      - "github.com/freefq - 印度  2-3-207"
-      - "github.com/freefq - 印度  3-4-208"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4-5-209"
-      - "github.com/freefq - 波兰  5-6-210"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6-7-211"
-      - "github.com/freefq - 广东省移动 7-8-212"
-      - "github.com/freefq - 广东省江门市移动 8-9-213"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9-10-214"
-      - "github.com/freefq - 印度  10-11-215"
-      - "github.com/freefq - 广东省江门市移动 11-12-216"
-      - "github.com/freefq - 广东省江门市移动 12-13-217"
-      - "github.com/freefq - 美国Fastly全球Anycast节点 13-14-218"
-      - "github.com/freefq - 美国CloudFlare节点 14-15-219"
-      - "\"🇨🇳_CN_中国->🇯🇵_JP_日本\"-220"
-      - "\"🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯\"-222"
+      - "github.com/freefq - 俄罗斯  1-206"
+      - "github.com/freefq - 印度  2-207"
+      - "github.com/freefq - 印度  3-208"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4-209"
+      - "github.com/freefq - 波兰  5-210"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 6-211"
+      - "github.com/freefq - 广东省移动 7-212"
+      - "github.com/freefq - 广东省江门市移动 8-213"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9-214"
+      - "github.com/freefq - 印度  10-215"
+      - "github.com/freefq - 广东省江门市移动 11-216"
+      - "github.com/freefq - 广东省江门市移动 12-217"
+      - "github.com/freefq - 美国Fastly全球Anycast节点 13-218"
+      - "github.com/freefq - 美国CloudFlare节点 14-219"
       - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-235"
       - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-236"
       - "美国-002 |3.1MB/s-237"
@@ -2137,7 +2570,7 @@ proxy-groups:
       - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺-323"
       - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%-325"
       - "NL6｜机房｜低风险-326"
-      - "香港2|@ripaojiedian-327"
+      - "SE1｜机房｜低风险-327"
       - "香港3|@ripaojiedian-328"
       - "香港4|@ripaojiedian-329"
       - "香港5|@ripaojiedian-330"
@@ -2146,65 +2579,108 @@ proxy-groups:
       - "日本2|@ripaojiedian-333"
       - "日本3|@ripaojiedian-334"
       - "新加坡|@ripaojiedian-335"
-      - "新加坡4|@ripaojiedian-337"
+      - "新加坡3|@ripaojiedian-337"
       - "美国|@ripaojiedian-338"
       - "美国2|@ripaojiedian-339"
-      - "香港|@ripaojiedian-340"
-      - "官网地址https://kelayun.notepin.co-393"
-      - "新年6折优惠码：克拉云-394"
-      - "最高200元终身无限流量-396"
-      - "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-402"
-      - "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-403"
-      - "法国 - 巴黎 - Amazon.com, Inc. - 1-404"
-      - "法国 - 巴黎 - Amazon.com, Inc. - 2-405"
-      - "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-409"
-      - "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-410"
-      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-411"
-      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-412"
-      - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-413"
-      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-415"
-      - "美国 - 紐約 - Massivegrid LTD - 8-417"
-      - "美国 - 紐約 - Massivegrid LTD - 9-418"
-      - "美国 - 圣路易斯 - Contabo Inc. - 4-419"
-      - "美国 - 聖荷西 - Eons Data Communications Limited - 6-420"
-      - "美国 - 聖荷西 - Meteverse Limited. - 3-421"
-      - "美国 - Ashburn - Oracle Corporation - 11-423"
-      - "美国 - Piscataway - The Constant Company, LLC - 7-424"
-      - "美国 - San Jose - Oracle Corporation - 5-425"
-      - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-426"
-      - "日本 - 东京 - Amazon Technologies Inc. - 4-427"
-      - "日本 - 东京 - Amazon Technologies Inc. - 5-428"
-      - "日本 - 东京 - GSL Networks Pty LTD - 6-429"
-      - "日本 - 东京 - GSL Networks Pty LTD - 7-430"
-      - "日本 - 横滨市 - InfoSphere - 3-433"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-435"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-436"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-437"
-      - "新加坡 - 新加坡 - M247 Europe SRL - 2-440"
-      - "印度 - 海得拉巴 - Oracle Corporation - 1-441"
-      - "印度尼西亚 - 雅加达 - Google LLC - 1-442"
-      - "越南 - Hải Dương - FASTLY - 12-446"
-      - "越南 - Hải Dương - FASTLY - 13-447"
-      - "越南 - Hải Dương - FASTLY - 14-448"
-      - "越南 - Hải Dương - FASTLY - 15-449"
-      - "越南 - Hải Dương - FASTLY - 17-451"
-      - "越南 - Hải Dương - FASTLY - 18-452"
-      - "越南 - Hải Dương - FASTLY - 19-453"
-      - "越南 - Hải Dương - FASTLY - 2-454"
-      - "越南 - Hải Dương - FASTLY - 20-455"
-      - "越南 - Hải Dương - FASTLY - 21-456"
-      - "越南 - Hải Dương - FASTLY - 23-458"
-      - "越南 - Hải Dương - FASTLY - 24-459"
-      - "越南 - Hải Dương - FASTLY - 3-460"
-      - "越南 - Hải Dương - FASTLY - 4-461"
-      - "越南 - Hải Dương - FASTLY - 5-462"
-      - "越南 - Hải Dương - FASTLY - 6-463"
-      - "中国 - 台湾 - Akile LTD - 3-467"
-      - "中国 - 香港 - Akile LTD - 4-468"
-      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-469"
-      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-470"
-      - "中国 - 香港 - Ipxo LLC - 5-471"
-      - "中国 - 香港 - Ipxo LLC - 6-472"
+      - "vmess-5-397"
+      - "vmess-6-398"
+      - "vmess-7-399"
+      - "vmess-8-400"
+      - "官网地址https://kelayun.notepin.co-401"
+      - "新年6折优惠码：克拉云-402"
+      - "最高200元终身无限流量-404"
+      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-410"
+      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-411"
+      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-412"
+      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-413"
+      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-414"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-415"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-416"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-417"
+      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-418"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-419"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-421"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-422"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-423"
+      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-424"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-425"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-426"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-427"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-429"
+      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-430"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-431"
+      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-432"
+      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-433"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-434"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-435"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-436"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-437"
+      - "ð¨ð³ ä¸­å½ V2CROSS.COM-439"
+      - "🇪🇸 西班牙 V2CROSS.COM-441"
+      - "🇪🇸 西班牙 V2CROSS.COM-443"
+      - "ðºð¸ ç¾å½ CloudFlareèç¹-444"
+      - "ð®ð· ä¼æ V2CROSS.COM-445"
+      - "ð­ð° é¦æ¸¯|@ripaojiedian-451"
+      - "🇭🇰 香港2|@ripaojiedian-452"
+      - "🇸🇬 新加坡3|@ripaojiedian-462"
+      - "🇸🇬 新加坡4|@ripaojiedian-463"
+      - "🇺🇸 美国3|@ripaojiedian-466"
+      - "🇺🇸 _US_美国-467"
+      - "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-468"
+      - "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-469"
+      - "法国 - 巴黎 - Amazon.com, Inc. - 1-470"
+      - "法国 - 巴黎 - Amazon.com, Inc. - 2-471"
+      - "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-475"
+      - "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-476"
+      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-477"
+      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-478"
+      - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-479"
+      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-481"
+      - "美国 - 紐約 - Massivegrid LTD - 8-483"
+      - "美国 - 紐約 - Massivegrid LTD - 9-484"
+      - "美国 - 圣路易斯 - Contabo Inc. - 4-485"
+      - "美国 - 聖荷西 - Eons Data Communications Limited - 6-486"
+      - "美国 - 聖荷西 - Meteverse Limited. - 3-487"
+      - "美国 - Ashburn - Oracle Corporation - 11-489"
+      - "美国 - Piscataway - The Constant Company, LLC - 7-490"
+      - "美国 - San Jose - Oracle Corporation - 5-491"
+      - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-492"
+      - "日本 - 东京 - Amazon Technologies Inc. - 4-493"
+      - "日本 - 东京 - Amazon Technologies Inc. - 5-494"
+      - "日本 - 东京 - GSL Networks Pty LTD - 6-495"
+      - "日本 - 东京 - GSL Networks Pty LTD - 7-496"
+      - "日本 - 横滨市 - InfoSphere - 3-499"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-501"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-502"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-503"
+      - "新加坡 - 新加坡 - M247 Europe SRL - 2-506"
+      - "印度 - 海得拉巴 - Oracle Corporation - 1-507"
+      - "印度尼西亚 - 雅加达 - Google LLC - 1-508"
+      - "越南 - Hải Dương - FASTLY - 12-512"
+      - "越南 - Hải Dương - FASTLY - 13-513"
+      - "越南 - Hải Dương - FASTLY - 14-514"
+      - "越南 - Hải Dương - FASTLY - 15-515"
+      - "越南 - Hải Dương - FASTLY - 17-517"
+      - "越南 - Hải Dương - FASTLY - 18-518"
+      - "越南 - Hải Dương - FASTLY - 19-519"
+      - "越南 - Hải Dương - FASTLY - 2-520"
+      - "越南 - Hải Dương - FASTLY - 20-521"
+      - "越南 - Hải Dương - FASTLY - 21-522"
+      - "越南 - Hải Dương - FASTLY - 23-524"
+      - "越南 - Hải Dương - FASTLY - 24-525"
+      - "越南 - Hải Dương - FASTLY - 3-526"
+      - "越南 - Hải Dương - FASTLY - 4-527"
+      - "越南 - Hải Dương - FASTLY - 5-528"
+      - "越南 - Hải Dương - FASTLY - 6-529"
+      - "中国 - 台湾 - Akile LTD - 3-533"
+      - "中国 - 香港 - Akile LTD - 4-534"
+      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-535"
+      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-536"
+      - "中国 - 香港 - Ipxo LLC - 5-537"
+      - "中国 - 香港 - Ipxo LLC - 6-538"
+      - "SCP|HK-539"
+      - "SCP|US-540"
+      - "SCP|UK-541"
 
   - name: Auto
     type: url-test
@@ -2304,22 +2780,20 @@ proxy-groups:
       - "[nodefree] 🇧🇪_BE_比利时-192"
       - "[nodefree] 🇺🇸_US_美国_5-193"
       - "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知-194"
-      - "github.com/freefq - 俄罗斯  1-2-206"
-      - "github.com/freefq - 印度  2-3-207"
-      - "github.com/freefq - 印度  3-4-208"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4-5-209"
-      - "github.com/freefq - 波兰  5-6-210"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6-7-211"
-      - "github.com/freefq - 广东省移动 7-8-212"
-      - "github.com/freefq - 广东省江门市移动 8-9-213"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9-10-214"
-      - "github.com/freefq - 印度  10-11-215"
-      - "github.com/freefq - 广东省江门市移动 11-12-216"
-      - "github.com/freefq - 广东省江门市移动 12-13-217"
-      - "github.com/freefq - 美国Fastly全球Anycast节点 13-14-218"
-      - "github.com/freefq - 美国CloudFlare节点 14-15-219"
-      - "\"🇨🇳_CN_中国->🇯🇵_JP_日本\"-220"
-      - "\"🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯\"-222"
+      - "github.com/freefq - 俄罗斯  1-206"
+      - "github.com/freefq - 印度  2-207"
+      - "github.com/freefq - 印度  3-208"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4-209"
+      - "github.com/freefq - 波兰  5-210"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 6-211"
+      - "github.com/freefq - 广东省移动 7-212"
+      - "github.com/freefq - 广东省江门市移动 8-213"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9-214"
+      - "github.com/freefq - 印度  10-215"
+      - "github.com/freefq - 广东省江门市移动 11-216"
+      - "github.com/freefq - 广东省江门市移动 12-217"
+      - "github.com/freefq - 美国Fastly全球Anycast节点 13-218"
+      - "github.com/freefq - 美国CloudFlare节点 14-219"
       - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-235"
       - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-236"
       - "美国-002 |3.1MB/s-237"
@@ -2396,7 +2870,7 @@ proxy-groups:
       - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺-323"
       - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%-325"
       - "NL6｜机房｜低风险-326"
-      - "香港2|@ripaojiedian-327"
+      - "SE1｜机房｜低风险-327"
       - "香港3|@ripaojiedian-328"
       - "香港4|@ripaojiedian-329"
       - "香港5|@ripaojiedian-330"
@@ -2405,65 +2879,108 @@ proxy-groups:
       - "日本2|@ripaojiedian-333"
       - "日本3|@ripaojiedian-334"
       - "新加坡|@ripaojiedian-335"
-      - "新加坡4|@ripaojiedian-337"
+      - "新加坡3|@ripaojiedian-337"
       - "美国|@ripaojiedian-338"
       - "美国2|@ripaojiedian-339"
-      - "香港|@ripaojiedian-340"
-      - "官网地址https://kelayun.notepin.co-393"
-      - "新年6折优惠码：克拉云-394"
-      - "最高200元终身无限流量-396"
-      - "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-402"
-      - "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-403"
-      - "法国 - 巴黎 - Amazon.com, Inc. - 1-404"
-      - "法国 - 巴黎 - Amazon.com, Inc. - 2-405"
-      - "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-409"
-      - "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-410"
-      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-411"
-      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-412"
-      - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-413"
-      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-415"
-      - "美国 - 紐約 - Massivegrid LTD - 8-417"
-      - "美国 - 紐約 - Massivegrid LTD - 9-418"
-      - "美国 - 圣路易斯 - Contabo Inc. - 4-419"
-      - "美国 - 聖荷西 - Eons Data Communications Limited - 6-420"
-      - "美国 - 聖荷西 - Meteverse Limited. - 3-421"
-      - "美国 - Ashburn - Oracle Corporation - 11-423"
-      - "美国 - Piscataway - The Constant Company, LLC - 7-424"
-      - "美国 - San Jose - Oracle Corporation - 5-425"
-      - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-426"
-      - "日本 - 东京 - Amazon Technologies Inc. - 4-427"
-      - "日本 - 东京 - Amazon Technologies Inc. - 5-428"
-      - "日本 - 东京 - GSL Networks Pty LTD - 6-429"
-      - "日本 - 东京 - GSL Networks Pty LTD - 7-430"
-      - "日本 - 横滨市 - InfoSphere - 3-433"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-435"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-436"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-437"
-      - "新加坡 - 新加坡 - M247 Europe SRL - 2-440"
-      - "印度 - 海得拉巴 - Oracle Corporation - 1-441"
-      - "印度尼西亚 - 雅加达 - Google LLC - 1-442"
-      - "越南 - Hải Dương - FASTLY - 12-446"
-      - "越南 - Hải Dương - FASTLY - 13-447"
-      - "越南 - Hải Dương - FASTLY - 14-448"
-      - "越南 - Hải Dương - FASTLY - 15-449"
-      - "越南 - Hải Dương - FASTLY - 17-451"
-      - "越南 - Hải Dương - FASTLY - 18-452"
-      - "越南 - Hải Dương - FASTLY - 19-453"
-      - "越南 - Hải Dương - FASTLY - 2-454"
-      - "越南 - Hải Dương - FASTLY - 20-455"
-      - "越南 - Hải Dương - FASTLY - 21-456"
-      - "越南 - Hải Dương - FASTLY - 23-458"
-      - "越南 - Hải Dương - FASTLY - 24-459"
-      - "越南 - Hải Dương - FASTLY - 3-460"
-      - "越南 - Hải Dương - FASTLY - 4-461"
-      - "越南 - Hải Dương - FASTLY - 5-462"
-      - "越南 - Hải Dương - FASTLY - 6-463"
-      - "中国 - 台湾 - Akile LTD - 3-467"
-      - "中国 - 香港 - Akile LTD - 4-468"
-      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-469"
-      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-470"
-      - "中国 - 香港 - Ipxo LLC - 5-471"
-      - "中国 - 香港 - Ipxo LLC - 6-472"
+      - "vmess-5-397"
+      - "vmess-6-398"
+      - "vmess-7-399"
+      - "vmess-8-400"
+      - "官网地址https://kelayun.notepin.co-401"
+      - "新年6折优惠码：克拉云-402"
+      - "最高200元终身无限流量-404"
+      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-410"
+      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-411"
+      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-412"
+      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-413"
+      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-414"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-415"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-416"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-417"
+      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-418"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-419"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-421"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-422"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-423"
+      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-424"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-425"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-426"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-427"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-429"
+      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-430"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-431"
+      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-432"
+      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-433"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-434"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-435"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-436"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-437"
+      - "ð¨ð³ ä¸­å½ V2CROSS.COM-439"
+      - "🇪🇸 西班牙 V2CROSS.COM-441"
+      - "🇪🇸 西班牙 V2CROSS.COM-443"
+      - "ðºð¸ ç¾å½ CloudFlareèç¹-444"
+      - "ð®ð· ä¼æ V2CROSS.COM-445"
+      - "ð­ð° é¦æ¸¯|@ripaojiedian-451"
+      - "🇭🇰 香港2|@ripaojiedian-452"
+      - "🇸🇬 新加坡3|@ripaojiedian-462"
+      - "🇸🇬 新加坡4|@ripaojiedian-463"
+      - "🇺🇸 美国3|@ripaojiedian-466"
+      - "🇺🇸 _US_美国-467"
+      - "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-468"
+      - "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-469"
+      - "法国 - 巴黎 - Amazon.com, Inc. - 1-470"
+      - "法国 - 巴黎 - Amazon.com, Inc. - 2-471"
+      - "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-475"
+      - "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-476"
+      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-477"
+      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-478"
+      - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-479"
+      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-481"
+      - "美国 - 紐約 - Massivegrid LTD - 8-483"
+      - "美国 - 紐約 - Massivegrid LTD - 9-484"
+      - "美国 - 圣路易斯 - Contabo Inc. - 4-485"
+      - "美国 - 聖荷西 - Eons Data Communications Limited - 6-486"
+      - "美国 - 聖荷西 - Meteverse Limited. - 3-487"
+      - "美国 - Ashburn - Oracle Corporation - 11-489"
+      - "美国 - Piscataway - The Constant Company, LLC - 7-490"
+      - "美国 - San Jose - Oracle Corporation - 5-491"
+      - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-492"
+      - "日本 - 东京 - Amazon Technologies Inc. - 4-493"
+      - "日本 - 东京 - Amazon Technologies Inc. - 5-494"
+      - "日本 - 东京 - GSL Networks Pty LTD - 6-495"
+      - "日本 - 东京 - GSL Networks Pty LTD - 7-496"
+      - "日本 - 横滨市 - InfoSphere - 3-499"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-501"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-502"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-503"
+      - "新加坡 - 新加坡 - M247 Europe SRL - 2-506"
+      - "印度 - 海得拉巴 - Oracle Corporation - 1-507"
+      - "印度尼西亚 - 雅加达 - Google LLC - 1-508"
+      - "越南 - Hải Dương - FASTLY - 12-512"
+      - "越南 - Hải Dương - FASTLY - 13-513"
+      - "越南 - Hải Dương - FASTLY - 14-514"
+      - "越南 - Hải Dương - FASTLY - 15-515"
+      - "越南 - Hải Dương - FASTLY - 17-517"
+      - "越南 - Hải Dương - FASTLY - 18-518"
+      - "越南 - Hải Dương - FASTLY - 19-519"
+      - "越南 - Hải Dương - FASTLY - 2-520"
+      - "越南 - Hải Dương - FASTLY - 20-521"
+      - "越南 - Hải Dương - FASTLY - 21-522"
+      - "越南 - Hải Dương - FASTLY - 23-524"
+      - "越南 - Hải Dương - FASTLY - 24-525"
+      - "越南 - Hải Dương - FASTLY - 3-526"
+      - "越南 - Hải Dương - FASTLY - 4-527"
+      - "越南 - Hải Dương - FASTLY - 5-528"
+      - "越南 - Hải Dương - FASTLY - 6-529"
+      - "中国 - 台湾 - Akile LTD - 3-533"
+      - "中国 - 香港 - Akile LTD - 4-534"
+      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-535"
+      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-536"
+      - "中国 - 香港 - Ipxo LLC - 5-537"
+      - "中国 - 香港 - Ipxo LLC - 6-538"
+      - "SCP|HK-539"
+      - "SCP|US-540"
+      - "SCP|UK-541"
 
   - name: Fallback
     type: fallback
@@ -2563,22 +3080,20 @@ proxy-groups:
       - "[nodefree] 🇧🇪_BE_比利时-192"
       - "[nodefree] 🇺🇸_US_美国_5-193"
       - "[nodefree] 🇪🇸_ES_西班牙->🏳️_unKnow_未知-194"
-      - "github.com/freefq - 俄罗斯  1-2-206"
-      - "github.com/freefq - 印度  2-3-207"
-      - "github.com/freefq - 印度  3-4-208"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 4-5-209"
-      - "github.com/freefq - 波兰  5-6-210"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 6-7-211"
-      - "github.com/freefq - 广东省移动 7-8-212"
-      - "github.com/freefq - 广东省江门市移动 8-9-213"
-      - "github.com/freefq - 美国CloudFlare公司CDN节点 9-10-214"
-      - "github.com/freefq - 印度  10-11-215"
-      - "github.com/freefq - 广东省江门市移动 11-12-216"
-      - "github.com/freefq - 广东省江门市移动 12-13-217"
-      - "github.com/freefq - 美国Fastly全球Anycast节点 13-14-218"
-      - "github.com/freefq - 美国CloudFlare节点 14-15-219"
-      - "\"🇨🇳_CN_中国->🇯🇵_JP_日本\"-220"
-      - "\"🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯\"-222"
+      - "github.com/freefq - 俄罗斯  1-206"
+      - "github.com/freefq - 印度  2-207"
+      - "github.com/freefq - 印度  3-208"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 4-209"
+      - "github.com/freefq - 波兰  5-210"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 6-211"
+      - "github.com/freefq - 广东省移动 7-212"
+      - "github.com/freefq - 广东省江门市移动 8-213"
+      - "github.com/freefq - 美国CloudFlare公司CDN节点 9-214"
+      - "github.com/freefq - 印度  10-215"
+      - "github.com/freefq - 广东省江门市移动 11-216"
+      - "github.com/freefq - 广东省江门市移动 12-217"
+      - "github.com/freefq - 美国Fastly全球Anycast节点 13-218"
+      - "github.com/freefq - 美国CloudFlare节点 14-219"
       - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-235"
       - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-236"
       - "美国-002 |3.1MB/s-237"
@@ -2655,7 +3170,7 @@ proxy-groups:
       - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺-323"
       - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%-325"
       - "NL6｜机房｜低风险-326"
-      - "香港2|@ripaojiedian-327"
+      - "SE1｜机房｜低风险-327"
       - "香港3|@ripaojiedian-328"
       - "香港4|@ripaojiedian-329"
       - "香港5|@ripaojiedian-330"
@@ -2664,65 +3179,108 @@ proxy-groups:
       - "日本2|@ripaojiedian-333"
       - "日本3|@ripaojiedian-334"
       - "新加坡|@ripaojiedian-335"
-      - "新加坡4|@ripaojiedian-337"
+      - "新加坡3|@ripaojiedian-337"
       - "美国|@ripaojiedian-338"
       - "美国2|@ripaojiedian-339"
-      - "香港|@ripaojiedian-340"
-      - "官网地址https://kelayun.notepin.co-393"
-      - "新年6折优惠码：克拉云-394"
-      - "最高200元终身无限流量-396"
-      - "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-402"
-      - "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-403"
-      - "法国 - 巴黎 - Amazon.com, Inc. - 1-404"
-      - "法国 - 巴黎 - Amazon.com, Inc. - 2-405"
-      - "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-409"
-      - "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-410"
-      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-411"
-      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-412"
-      - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-413"
-      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-415"
-      - "美国 - 紐約 - Massivegrid LTD - 8-417"
-      - "美国 - 紐約 - Massivegrid LTD - 9-418"
-      - "美国 - 圣路易斯 - Contabo Inc. - 4-419"
-      - "美国 - 聖荷西 - Eons Data Communications Limited - 6-420"
-      - "美国 - 聖荷西 - Meteverse Limited. - 3-421"
-      - "美国 - Ashburn - Oracle Corporation - 11-423"
-      - "美国 - Piscataway - The Constant Company, LLC - 7-424"
-      - "美国 - San Jose - Oracle Corporation - 5-425"
-      - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-426"
-      - "日本 - 东京 - Amazon Technologies Inc. - 4-427"
-      - "日本 - 东京 - Amazon Technologies Inc. - 5-428"
-      - "日本 - 东京 - GSL Networks Pty LTD - 6-429"
-      - "日本 - 东京 - GSL Networks Pty LTD - 7-430"
-      - "日本 - 横滨市 - InfoSphere - 3-433"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-435"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-436"
-      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-437"
-      - "新加坡 - 新加坡 - M247 Europe SRL - 2-440"
-      - "印度 - 海得拉巴 - Oracle Corporation - 1-441"
-      - "印度尼西亚 - 雅加达 - Google LLC - 1-442"
-      - "越南 - Hải Dương - FASTLY - 12-446"
-      - "越南 - Hải Dương - FASTLY - 13-447"
-      - "越南 - Hải Dương - FASTLY - 14-448"
-      - "越南 - Hải Dương - FASTLY - 15-449"
-      - "越南 - Hải Dương - FASTLY - 17-451"
-      - "越南 - Hải Dương - FASTLY - 18-452"
-      - "越南 - Hải Dương - FASTLY - 19-453"
-      - "越南 - Hải Dương - FASTLY - 2-454"
-      - "越南 - Hải Dương - FASTLY - 20-455"
-      - "越南 - Hải Dương - FASTLY - 21-456"
-      - "越南 - Hải Dương - FASTLY - 23-458"
-      - "越南 - Hải Dương - FASTLY - 24-459"
-      - "越南 - Hải Dương - FASTLY - 3-460"
-      - "越南 - Hải Dương - FASTLY - 4-461"
-      - "越南 - Hải Dương - FASTLY - 5-462"
-      - "越南 - Hải Dương - FASTLY - 6-463"
-      - "中国 - 台湾 - Akile LTD - 3-467"
-      - "中国 - 香港 - Akile LTD - 4-468"
-      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-469"
-      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-470"
-      - "中国 - 香港 - Ipxo LLC - 5-471"
-      - "中国 - 香港 - Ipxo LLC - 6-472"
+      - "vmess-5-397"
+      - "vmess-6-398"
+      - "vmess-7-399"
+      - "vmess-8-400"
+      - "官网地址https://kelayun.notepin.co-401"
+      - "新年6折优惠码：克拉云-402"
+      - "最高200元终身无限流量-404"
+      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-410"
+      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-411"
+      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-412"
+      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-413"
+      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-414"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-415"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-416"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-417"
+      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-418"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-419"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-421"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-422"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-423"
+      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-424"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-425"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-426"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-427"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-429"
+      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-430"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-431"
+      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-432"
+      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-433"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-434"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-435"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-436"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-437"
+      - "ð¨ð³ ä¸­å½ V2CROSS.COM-439"
+      - "🇪🇸 西班牙 V2CROSS.COM-441"
+      - "🇪🇸 西班牙 V2CROSS.COM-443"
+      - "ðºð¸ ç¾å½ CloudFlareèç¹-444"
+      - "ð®ð· ä¼æ V2CROSS.COM-445"
+      - "ð­ð° é¦æ¸¯|@ripaojiedian-451"
+      - "🇭🇰 香港2|@ripaojiedian-452"
+      - "🇸🇬 新加坡3|@ripaojiedian-462"
+      - "🇸🇬 新加坡4|@ripaojiedian-463"
+      - "🇺🇸 美国3|@ripaojiedian-466"
+      - "🇺🇸 _US_美国-467"
+      - "巴林 - 麦纳麦 - Amazon.com, Inc. - 1-468"
+      - "德国 - 法兰克福 - Global Connectivity Solutions LLP - 1-469"
+      - "法国 - 巴黎 - Amazon.com, Inc. - 1-470"
+      - "法国 - 巴黎 - Amazon.com, Inc. - 2-471"
+      - "芬兰 - 赫尔辛基 - Scalaxy B.V. - 2-475"
+      - "芬兰 - 赫尔辛基 - WAIcore Ltd - 1-476"
+      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 3-477"
+      - "韩国 - 首尔特别市 - Amazon.com, Inc. - 4-478"
+      - "韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2-479"
+      - "美国 - 洛杉矶 - GSL Networks Pty LTD - 10-481"
+      - "美国 - 紐約 - Massivegrid LTD - 8-483"
+      - "美国 - 紐約 - Massivegrid LTD - 9-484"
+      - "美国 - 圣路易斯 - Contabo Inc. - 4-485"
+      - "美国 - 聖荷西 - Eons Data Communications Limited - 6-486"
+      - "美国 - 聖荷西 - Meteverse Limited. - 3-487"
+      - "美国 - Ashburn - Oracle Corporation - 11-489"
+      - "美国 - Piscataway - The Constant Company, LLC - 7-490"
+      - "美国 - San Jose - Oracle Corporation - 5-491"
+      - "葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1-492"
+      - "日本 - 东京 - Amazon Technologies Inc. - 4-493"
+      - "日本 - 东京 - Amazon Technologies Inc. - 5-494"
+      - "日本 - 东京 - GSL Networks Pty LTD - 6-495"
+      - "日本 - 东京 - GSL Networks Pty LTD - 7-496"
+      - "日本 - 横滨市 - InfoSphere - 3-499"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1-501"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3-502"
+      - "土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 4-503"
+      - "新加坡 - 新加坡 - M247 Europe SRL - 2-506"
+      - "印度 - 海得拉巴 - Oracle Corporation - 1-507"
+      - "印度尼西亚 - 雅加达 - Google LLC - 1-508"
+      - "越南 - Hải Dương - FASTLY - 12-512"
+      - "越南 - Hải Dương - FASTLY - 13-513"
+      - "越南 - Hải Dương - FASTLY - 14-514"
+      - "越南 - Hải Dương - FASTLY - 15-515"
+      - "越南 - Hải Dương - FASTLY - 17-517"
+      - "越南 - Hải Dương - FASTLY - 18-518"
+      - "越南 - Hải Dương - FASTLY - 19-519"
+      - "越南 - Hải Dương - FASTLY - 2-520"
+      - "越南 - Hải Dương - FASTLY - 20-521"
+      - "越南 - Hải Dương - FASTLY - 21-522"
+      - "越南 - Hải Dương - FASTLY - 23-524"
+      - "越南 - Hải Dương - FASTLY - 24-525"
+      - "越南 - Hải Dương - FASTLY - 3-526"
+      - "越南 - Hải Dương - FASTLY - 4-527"
+      - "越南 - Hải Dương - FASTLY - 5-528"
+      - "越南 - Hải Dương - FASTLY - 6-529"
+      - "中国 - 台湾 - Akile LTD - 3-533"
+      - "中国 - 香港 - Akile LTD - 4-534"
+      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1-535"
+      - "中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2-536"
+      - "中国 - 香港 - Ipxo LLC - 5-537"
+      - "中国 - 香港 - Ipxo LLC - 6-538"
+      - "SCP|HK-539"
+      - "SCP|US-540"
+      - "SCP|UK-541"
 
 rules:
   - GEOIP,CN,DIRECT

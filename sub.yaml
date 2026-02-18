@@ -124,7 +124,727 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "vmess-5-19"
+  - name: "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-30"
+    type: "vless"
+    server: "212.22.76.17"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-31"
+    type: "vless"
+    server: "212.22.76.18"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-002 |3.1MB/s-32"
+    type: "vless"
+    server: "208.103.161.228"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-003 |4.0MB/s-33"
+    type: "vless"
+    server: "208.103.161.109"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-004 |5.6MB/s-34"
+    type: "vless"
+    server: "208.103.161.122"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]-35"
+    type: "trojan"
+    server: "160.16.57.238"
+    port: 400
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "160.16.57.238"
+
+  - name: "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%-36"
+    type: "trojan"
+    server: "160.16.144.208"
+    port: 3423
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "160.16.144.208"
+
+  - name: "美国-005 |4.0MB/s|GPT⁺-37"
+    type: "vless"
+    server: "208.103.161.220"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-006 |4.0MB/s-38"
+    type: "vless"
+    server: "208.103.161.161"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-007 |4.5MB/s-39"
+    type: "vless"
+    server: "208.103.161.12"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]-40"
+    type: "trojan"
+    server: "57.180.14.50"
+    port: 2890
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "57.180.14.50"
+
+  - name: "美国-008 |4.5MB/s-41"
+    type: "vless"
+    server: "208.103.161.113"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%-43"
+    type: "vless"
+    server: "14.102.228.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    network: "tcp"
+
+  - name: "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%-44"
+    type: "ss"
+    server: "57.131.42.19"
+    port: 8389
+    cipher: ""
+    password: "et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54="
+
+  - name: "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-45"
+    type: "vless"
+    server: "212.22.76.20"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%-46"
+    type: "vless"
+    server: "46.4.60.21"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-011 |3.2MB/s-47"
+    type: "vless"
+    server: "208.103.161.89"
+    port: 2096
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%-48"
+    type: "vless"
+    server: "91.218.122.10"
+    port: 8443
+    uuid: "c10999b4-7f93-5a50-3908-1467b1e52ae2"
+    tls: false
+    network: "tcp"
+
+  - name: "法国-002 |605KB/s|YT-FR|NF|D+-49"
+    type: "trojan"
+    server: "141.94.68.216"
+    port: 2053
+    password: "iwangjie"
+    sni: "141.94.68.216"
+
+  - name: "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%-50"
+    type: "vless"
+    server: "104.167.197.27"
+    port: 443
+    uuid: "c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd"
+    tls: false
+    network: "tcp"
+
+  - name: "德国-002 |1.5MB/s|GPT⁺|NF|0%-51"
+    type: "vless"
+    server: "20.79.160.49"
+    port: 443
+    uuid: "jina"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%-53"
+    type: "vless"
+    server: "212.22.76.14"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%-54"
+    type: "trojan"
+    server: "43.207.89.113"
+    port: 3159
+    password: "BxceQaOe"
+    sni: "43.207.89.113"
+
+  - name: "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%-55"
+    type: "vless"
+    server: "143.20.213.205"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%-56"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9005
+    cipher: ""
+    password: "ZET59LF6DvCC8KVt"
+
+  - name: "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%-58"
+    type: "vless"
+    server: "143.20.236.130"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+-59"
+    type: "vless"
+    server: "143.20.236.186"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "德国-003 |4.0MB/s|GPT|YT-DE|NF-60"
+    type: "vless"
+    server: "20.218.137.249"
+    port: 443
+    uuid: "jina"
+    tls: false
+    network: "tcp"
+
+  - name: "日本-005 |2.0MB/s|26%|GPT⁺|X-61"
+    type: "trojan"
+    server: "160.16.57.238"
+    port: 40548
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "160.16.57.238"
+
+  - name: "俄罗斯联邦-005 |2.8MB/s|YT-RU-62"
+    type: "vless"
+    server: "176.109.106.241"
+    port: 443
+    uuid: "07cd9dbe-21ac-4871-817d-c772687e4b7c"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%-63"
+    type: "vless"
+    server: "143.20.213.234"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-006 |3.7MB/s|YT-RU-64"
+    type: "vless"
+    server: "212.113.123.230"
+    port: 443
+    uuid: "e4f5077b-3628-450c-92f9-b129b8a641a7"
+    tls: false
+    network: "tcp"
+
+  - name: "荷兰-002 |752KB/s|GPT⁺|5%-65"
+    type: "vless"
+    server: "103.74.92.89"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%-66"
+    type: "vless"
+    server: "158.160.221.132"
+    port: 51102
+    uuid: "e8accc46-c511-42fb-919b-9283799a88a1"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%-67"
+    type: "vless"
+    server: "143.20.213.195"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%-68"
+    type: "vless"
+    server: "158.160.221.132"
+    port: 443
+    uuid: "e8accc46-c511-42fb-919b-9283799a88a1"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%-69"
+    type: "vless"
+    server: "89.169.128.105"
+    port: 8443
+    uuid: "3c5c4ccc-b502-42cb-8c42-cfa714db4767"
+    tls: false
+    network: "tcp"
+
+  - name: "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM-70"
+    type: "ss"
+    server: "103.186.154.166"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM-71"
+    type: "ss"
+    server: "103.186.154.216"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%-72"
+    type: "vless"
+    server: "5.231.56.174"
+    port: 443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF-73"
+    type: "ss"
+    server: "103.186.154.215"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM-74"
+    type: "ss"
+    server: "103.186.154.47"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM-75"
+    type: "ss"
+    server: "103.186.154.19"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM-76"
+    type: "ss"
+    server: "103.186.154.223"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM-77"
+    type: "ss"
+    server: "103.186.154.13"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM-78"
+    type: "ss"
+    server: "103.186.154.176"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM-79"
+    type: "ss"
+    server: "103.186.155.120"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%-82"
+    type: "vless"
+    server: "155.212.37.10"
+    port: 993
+    uuid: "c10999b4-7f93-5a50-3908-1467b1e52ae2"
+    tls: false
+    network: "tcp"
+
+  - name: "德国-005 |1.6MB/s|GPT⁺|NF|79%-83"
+    type: "vless"
+    server: "150.241.90.13"
+    port: 443
+    uuid: "ad961404-6249-4a11-9577-d1e81f6b198f"
+    tls: false
+    network: "tcp"
+
+  - name: "越南-010 |1.0MB/s|GPT⁺|GM|X|History-84"
+    type: "ss"
+    server: "103.186.155.150"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF-85"
+    type: "trojan"
+    server: "153.121.39.240"
+    port: 3901
+    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    sni: "153.121.39.240"
+
+  - name: "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM-86"
+    type: "vless"
+    server: "146.190.89.69"
+    port: 25863
+    uuid: "58f206da-752d-4750-a2ac-b72d0cab8032"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%-87"
+    type: "vless"
+    server: "143.20.236.180"
+    port: 8443
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    tls: false
+    network: "tcp"
+
+  - name: "美国-021-90"
+    type: "vless"
+    server: "159.223.205.136"
+    port: 42356
+    uuid: "3c28c3cf-85ef-4a8a-a475-3a8585d563fe"
+    tls: false
+    network: "tcp"
+
+  - name: "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%-91"
+    type: "vless"
+    server: "2.59.162.100"
+    port: 443
+    uuid: "Bober_497332"
+    tls: false
+    network: "tcp"
+
+  - name: "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%-92"
+    type: "vless"
+    server: "20.79.162.37"
+    port: 443
+    uuid: "jina"
+    tls: false
+    network: "tcp"
+
+  - name: "德国-008 |6.4MB/s|YT-DE|NF|D+-93"
+    type: "vless"
+    server: "5.178.110.39"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    network: "tcp"
+
+  - name: "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]-95"
+    type: "ss"
+    server: "83.217.9.140"
+    port: 1381
+    cipher: ""
+    password: "JHqptZxDVsnQf0wL2EgNuo"
+
+  - name: "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]-96"
+    type: "vless"
+    server: "193.163.203.36"
+    port: 10001
+    uuid: "6a3f4da1-687a-4bde-9943-df057315857c"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+-97"
+    type: "vless"
+    server: "213.165.54.4"
+    port: 443
+    uuid: "c2d09c1c-7d4d-46c4-838f-ad263b93c4e1"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%-98"
+    type: "vless"
+    server: "158.160.223.36"
+    port: 443
+    uuid: "11e41a32-6672-48a0-b9cb-c8694242ecff"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]-99"
+    type: "vless"
+    server: "185.86.144.32"
+    port: 443
+    uuid: "895f94cb-5567-4731-bc2c-2f89a54bafe4"
+    tls: false
+    network: "tcp"
+
+  - name: "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]-101"
+    type: "ss"
+    server: "57.131.42.19"
+    port: 8390
+    cipher: ""
+    password: "et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54="
+
+  - name: "俄罗斯联邦-015 |2.3MB/s|YT-RU-102"
+    type: "vless"
+    server: "87.239.111.227"
+    port: 443
+    uuid: "895f94cb-5567-4731-bc2c-2f89a54bafe4"
+    tls: false
+    network: "tcp"
+
+  - name: "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%-103"
+    type: "vless"
+    server: "27.50.48.8"
+    port: 443
+    uuid: "15235ce9-4cd2-4483-b6b6-7fc4a3f44735"
+    tls: false
+    network: "tcp"
+
+  - name: "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%-104"
+    type: "vless"
+    server: "25.129.198.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%-111"
+    type: "vless"
+    server: "176.125.240.166"
+    port: 443
+    uuid: "002accb526534fcab24a72b0ea1cff59"
+    tls: false
+    network: "tcp"
+
+  - name: "俄罗斯联邦-017 |2.3MB/s-114"
+    type: "vless"
+    server: "45.139.26.152"
+    port: 7443
+    uuid: "7fc953d6-ae75-46fb-a970-10b57d513487"
+    tls: false
+    network: "tcp"
+
+  - name: "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed-115"
+    type: "ss"
+    server: "103.186.154.11"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%-116"
+    type: "vless"
+    server: "159.195.26.28"
+    port: 443
+    uuid: "84f66368-8a37-468e-ae95-5622255fd4db"
+    tls: false
+    network: "tcp"
+
+  - name: "芬兰-001 |854KB/s-117"
+    type: "vless"
+    server: "178.17.53.28"
+    port: 47539
+    uuid: "447c45cd-ade0-4bfe-90a0-3e581829f741"
+    tls: false
+    network: "tcp"
+
+  - name: "越南-012 |1.1MB/s|YT-US|NF|GPT⁺-118"
+    type: "ss"
+    server: "103.186.154.66"
+    port: 38388
+    cipher: ""
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%-120"
+    type: "vless"
+    server: "151.101.9.80"
+    port: 80
+    uuid: "5a1d2c0c-abfa-4050-918f-bfab3eaee62a"
+    tls: false
+    network: "tcp"
+
+  - name: "🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚-121"
+    type: "vless"
+    server: "46.32.184.75"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    network: "tcp"
+
+  - name: "🇮🇷_IR_伊朗->🏳️_unKnow_未知-123"
+    type: "vless"
+    server: "ger4.azadrah.drpingi.shop"
+    port: 443
+    uuid: "743a3bc7-ff11-4be5-8eed-0da3d7ccdeda"
+    tls: false
+    network: "tcp"
+
+  - name: "🇧🇪_BE_比利时->🇺🇸_US_美国-124"
+    type: "vless"
+    server: "143.20.213.206"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国-126"
+    type: "vless"
+    server: "104.18.151.172"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    tls: false
+    network: "tcp"
+
+  - name: "🇳🇱_NL_荷兰-127"
+    type: "vless"
+    server: "nl.mobilezahra.lat"
+    port: 443
+    uuid: "325a32a1-d88d-4f97-67ed-504eed5d6ec0"
+    tls: false
+    network: "tcp"
+
+  - name: "🇩🇪_DE_德国-128"
+    type: "vless"
+    server: "37.120.167.164"
+    port: 443
+    uuid: "aec54bed-2384-4b85-8372-432597aa5518"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国_1-129"
+    type: "vless"
+    server: "142.93.101.216"
+    port: 7008
+    uuid: "a3ea154c-2827-4ceb-aae7-0fe743ce9f73"
+    tls: false
+    network: "tcp"
+
+  - name: "🇨🇳_CN_中国->🏳️_unKnow_未知-130"
+    type: "vless"
+    server: "62.60.229.32"
+    port: 443
+    uuid: "e3379093-7c89-4c8a-be1f-abb92a3305a1"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国_2-131"
+    type: "vless"
+    server: "172.67.153.156"
+    port: 8443
+    uuid: "57ba2ab1-a283-42eb-82ee-dc3561a805b8"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国->🇳🇱_NL_荷兰-132"
+    type: "vless"
+    server: "vip3.kaixincloud.top"
+    port: 2053
+    uuid: "e5f8a9f6-f164-479b-b3b5-b90f213c7145"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国->🇩🇪_DE_德国-133"
+    type: "vless"
+    server: "de.griffon-guard.com"
+    port: 8443
+    uuid: "e6ec1d89-17fc-4de7-af89-81cd51022526"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国_3-134"
+    type: "vless"
+    server: "172.66.128.70"
+    port: 2052
+    uuid: "f8ae018b-b84d-4c9b-b03b-4642c3a25977"
+    tls: false
+    network: "tcp"
+
+  - name: "🇯🇵_JP_日本->🇨🇳_CN_中国-135"
+    type: "trojan"
+    server: "52.195.8.127"
+    port: 3373
+    password: "5fb072e0ddd631cf66cf752b09210480"
+    sni: "52.195.8.127"
+
+  - name: "🇺🇸_US_美国->🇩🇪_DE_德国_1-136"
+    type: "vless"
+    server: "192.200.160.228"
+    port: 2083
+    uuid: "9f846e5c-56f9-4670-8be2-5b00d2a107c0"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国_4-137"
+    type: "vless"
+    server: "vip2.kaixincloud.top"
+    port: 443
+    uuid: "d89d6641-3b1a-4f51-a194-9c9109fd21b6"
+    tls: false
+    network: "tcp"
+
+  - name: "🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-138"
+    type: "vless"
+    server: "nl-2.griffon-guard.com"
+    port: 443
+    uuid: "e6ec1d89-17fc-4de7-af89-81cd51022526"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国->🇬🇧_GB_英国-139"
+    type: "vless"
+    server: "144.31.92.240"
+    port: 8443
+    uuid: "e6ec1d89-17fc-4de7-af89-81cd51022526"
+    tls: false
+    network: "tcp"
+
+  - name: "🇧🇪_BE_比利时-140"
+    type: "vless"
+    server: "fr.locations-service.com"
+    port: 3032
+    uuid: "e59083aa-d933-4952-8cf0-eec74f718705"
+    tls: false
+    network: "tcp"
+
+  - name: "🇺🇸_US_美国_5-141"
+    type: "vless"
+    server: "103.21.244.201"
+    port: 2087
+    uuid: "22fbfcae-8207-475a-8c25-f59d4423546a"
+    tls: false
+    network: "tcp"
+
+  - name: "🇪🇸_ES_西班牙->🏳️_unKnow_未知-142"
+    type: "vless"
+    server: "185.18.250.252"
+    port: 443
+    uuid: "fef4a93d-eb4f-4657-b56b-32a0dc060045"
+    tls: false
+    network: "tcp"
+
+  - name: "vmess-5-157"
     type: "vmess"
     server: "xt.ylks01.eu.org"
     port: 2095
@@ -134,7 +854,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "vmess-6-20"
+  - name: "vmess-6-158"
     type: "vmess"
     server: "aaaa.wxx.gay"
     port: 443
@@ -144,7 +864,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "vmess-7-21"
+  - name: "vmess-7-159"
     type: "vmess"
     server: "159.223.94.156"
     port: 80
@@ -154,7 +874,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "vmess-8-22"
+  - name: "vmess-8-160"
     type: "vmess"
     server: "hkd1.quickerlink.xyz"
     port: 443
@@ -164,14 +884,37 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-23"
+  - name: "官网地址https://kelayun.notepin.co-161"
+    type: "hysteria2"
+    server: "208.87.242.77"
+    port: 35000
+    password: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
+    udp: true
+
+  - name: "新年6折优惠码：克拉云-162"
+    type: "vless"
+    server: "104.19.58.118"
+    port: 443
+    uuid: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
+    tls: false
+    network: "tcp"
+
+  - name: "最高200元终身无限流量-164"
+    type: "vless"
+    server: "69.84.182.13"
+    port: 443
+    uuid: "0e44ea97-cd2c-4aa6-9159-b1224d3b38ce"
+    tls: false
+    network: "tcp"
+
+  - name: "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-170"
     type: "ss"
     server: "144.217.164.29"
     port: 12000
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
 
-  - name: "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-24"
+  - name: "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-171"
     type: "vmess"
     server: "547.rtxconfigz.shop"
     port: 8080
@@ -181,7 +924,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-25"
+  - name: "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-172"
     type: "vmess"
     server: "t1.620720.xyz"
     port: 8443
@@ -191,21 +934,21 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-26"
+  - name: "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-173"
     type: "ss"
     server: "45.154.204.7"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
 
-  - name: "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-27"
+  - name: "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-174"
     type: "ss"
     server: "146.19.49.251"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6"
 
-  - name: "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-28"
+  - name: "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-175"
     type: "vmess"
     server: "15.235.41.200"
     port: 80
@@ -215,14 +958,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-29"
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-176"
     type: "ss"
     server: "71.19.148.143"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "p78naCf2EfOlRSLTX0wFVx"
 
-  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-30"
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-177"
     type: "vmess"
     server: "38.92.10.226"
     port: 45979
@@ -232,14 +975,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-31"
+  - name: "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-178"
     type: "ss"
     server: "23.95.76.59"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
 
-  - name: "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-32"
+  - name: "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-179"
     type: "vmess"
     server: "51.79.102.253"
     port: 80
@@ -249,35 +992,35 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-34"
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-181"
     type: "ss"
     server: "92.118.112.101"
     port: 9483
     cipher: "chacha20-ietf-poly1305"
     password: "qFvn2fNEvBgM5knffrN96q"
 
-  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-35"
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-182"
     type: "ss"
     server: "15.204.247.49"
     port: 12000
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
 
-  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-36"
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-183"
     type: "ss"
     server: "pupas-shirting-unsung.freesocks.work"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "p78naCf2EfOlRSLTX0wFVx"
 
-  - name: "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-37"
+  - name: "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-184"
     type: "ss"
     server: "79.127.233.170"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "f8f7aCzcPKbsF8p3"
 
-  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-38"
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-185"
     type: "vmess"
     server: "v2ray.codefyinc.com"
     port: 443
@@ -287,14 +1030,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-39"
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-186"
     type: "ss"
     server: "23.95.75.146"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "NDRySIABARbErNIVsCNVkyYAHiBzhveT"
 
-  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-40"
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-187"
     type: "vmess"
     server: "198.23.174.168"
     port: 20086
@@ -304,7 +1047,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-42"
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-189"
     type: "vmess"
     server: "cg1c07.waimaojd.com"
     port: 443
@@ -314,7 +1057,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-43"
+  - name: "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-190"
     type: "vmess"
     server: "support.zoom.us"
     port: 8080
@@ -324,7 +1067,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-44"
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-191"
     type: "vmess"
     server: "209.126.84.189"
     port: 443
@@ -334,7 +1077,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-45"
+  - name: "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-192"
     type: "vmess"
     server: "sy4.620720.xyz"
     port: 443
@@ -344,7 +1087,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-46"
+  - name: "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-193"
     type: "vmess"
     server: "hgtrojan.zabc.net"
     port: 2083
@@ -354,14 +1097,14 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-47"
+  - name: "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-194"
     type: "ss"
     server: "107.175.87.207"
     port: 10011
     cipher: "chacha20-ietf-poly1305"
     password: "86039b71-ba82-4ca8-838e-87086ae666de"
 
-  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-48"
+  - name: "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-195"
     type: "vmess"
     server: "cg1c01.waimaojd.com"
     port: 443
@@ -371,7 +1114,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-49"
+  - name: "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-196"
     type: "vmess"
     server: "cg1c04.waimaojd.com"
     port: 443
@@ -381,7 +1124,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-50"
+  - name: "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-197"
     type: "vmess"
     server: "cg1c14.waimaojd.com"
     port: 443
@@ -391,7 +1134,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "ð¬ð§ è±å½ V2CROSS.COM-51"
+  - name: "ð¬ð§ è±å½ V2CROSS.COM-198"
     type: "vmess"
     server: "82.198.246.97"
     port: 180
@@ -401,7 +1144,7 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "ð¨ð³ ä¸­å½ V2CROSS.COM-52"
+  - name: "ð¨ð³ ä¸­å½ V2CROSS.COM-199"
     type: "vmess"
     server: "v12.hdacd.com"
     port: 30812
@@ -411,35 +1154,35 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "🇨🇳 广东省云浮市 移动-53"
+  - name: "🇨🇳 广东省云浮市 移动-200"
     type: "ss"
     server: "ldu.izenny.com"
     port: 18148
     cipher: "chacha20-ietf-poly1305"
     password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
 
-  - name: "🇪🇸 西班牙 V2CROSS.COM-54"
+  - name: "🇪🇸 西班牙 V2CROSS.COM-201"
     type: "trojan"
     server: "80.173.230.196"
     port: 26279
     password: "a5inYFE%3DJGV89+hjxIqgDp1tcWBd6"
     sni: "80.173.230.196"
 
-  - name: "🇨🇳 广东省云浮市 移动-55"
+  - name: "🇨🇳 广东省云浮市 移动-202"
     type: "ss"
     server: "ldu.izenny.com"
     port: 34061
     cipher: "chacha20-ietf-poly1305"
     password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
 
-  - name: "🇪🇸 西班牙 V2CROSS.COM-56"
+  - name: "🇪🇸 西班牙 V2CROSS.COM-203"
     type: "trojan"
     server: "80.173.231.254"
     port: 12420
     password: "wp9IsiY82uQhcmgNC1eoBM"
     sni: "www.semanticstaplegun.click"
 
-  - name: "ðºð¸ ç¾å½ CloudFlareèç¹-57"
+  - name: "ðºð¸ ç¾å½ CloudFlareèç¹-204"
     type: "vmess"
     server: "104.26.14.85"
     port: 8080
@@ -449,7 +1192,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "ð®ð· ä¼æ V2CROSS.COM-58"
+  - name: "ð®ð· ä¼æ V2CROSS.COM-205"
     type: "vmess"
     server: "freedom.vipgsmteam.info"
     port: 17356
@@ -459,35 +1202,35 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "🇨🇳 广东省云浮市 移动-59"
+  - name: "🇨🇳 广东省云浮市 移动-206"
     type: "ss"
     server: "ldu.izenny.com"
     port: 10589
     cipher: "chacha20-ietf-poly1305"
     password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
 
-  - name: "🇨🇳 广东省云浮市 移动-60"
+  - name: "🇨🇳 广东省云浮市 移动-207"
     type: "ss"
     server: "ldu.izenny.com"
     port: 34411
     cipher: "chacha20-ietf-poly1305"
     password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
 
-  - name: "🇨🇳 广东省云浮市 移动-61"
+  - name: "🇨🇳 广东省云浮市 移动-208"
     type: "ss"
     server: "ldu.izenny.com"
     port: 20149
     cipher: "chacha20-ietf-poly1305"
     password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
 
-  - name: "🇨🇳 广东省云浮市 移动-62"
+  - name: "🇨🇳 广东省云浮市 移动-209"
     type: "ss"
     server: "ldu.izenny.com"
     port: 43076
     cipher: "chacha20-ietf-poly1305"
     password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
 
-  - name: "ðºð¸ ç¾å½ V2CROSS.COM-63"
+  - name: "ðºð¸ ç¾å½ V2CROSS.COM-210"
     type: "vmess"
     server: "dll.avaaaal.ir"
     port: 8443
@@ -497,7 +1240,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "ð­ð° é¦æ¸¯|@ripaojiedian-64"
+  - name: "ð­ð° é¦æ¸¯|@ripaojiedian-211"
     type: "vmess"
     server: "v10.hdacd.com"
     port: 30807
@@ -507,133 +1250,126 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "🇭🇰 香港2|@ripaojiedian-65"
+  - name: "🇭🇰 香港2|@ripaojiedian-212"
     type: "ss"
     server: "assets-cfnode67.cloudflarecdn-edge.rfsconfig.com"
     port: 10015
     cipher: "chacha20-ietf-poly1305"
     password: "049d354a-2cf1-4956-b6d8-d04aa4969b64"
 
-  - name: "🇭🇰 香港3|@ripaojiedian-66"
+  - name: "🇭🇰 香港3|@ripaojiedian-213"
     type: "trojan"
     server: "46.51.224.113"
     port: 3373
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "🇭🇰 香港4|@ripaojiedian-67"
+  - name: "🇭🇰 香港4|@ripaojiedian-214"
     type: "trojan"
     server: "95.40.2.208"
     port: 54548
     password: "BxceQaOe"
     sni: "t.me/ripaojiedian"
 
-  - name: "🇭🇰 香港5|@ripaojiedian-68"
+  - name: "🇭🇰 香港5|@ripaojiedian-215"
     type: "trojan"
     server: "57.180.245.83"
     port: 54548
     password: "BxceQaOe"
     sni: "t.me/ripaojiedian"
 
-  - name: "🇨🇳 台湾|@ripaojiedian-69"
+  - name: "🇨🇳 台湾|@ripaojiedian-216"
     type: "trojan"
     server: "a12.taipeicitygovernment.org.ua"
     port: 3462
     password: "736cd94d-7b94-3e44-8106-3419f64eaf09"
     sni: "45.32.28.232"
 
-  - name: "🇯🇵 日本|@ripaojiedian-70"
+  - name: "🇯🇵 日本|@ripaojiedian-217"
     type: "trojan"
     server: "13.158.130.64"
     port: 2595
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "🇯🇵 日本2|@ripaojiedian-71"
+  - name: "🇯🇵 日本2|@ripaojiedian-218"
     type: "trojan"
     server: "18.181.199.98"
     port: 3423
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "🇯🇵 日本3|@ripaojiedian-72"
+  - name: "🇯🇵 日本3|@ripaojiedian-219"
     type: "trojan"
     server: "160.16.124.17"
     port: 3423
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "🇸🇬 新加坡|@ripaojiedian-73"
+  - name: "🇸🇬 新加坡|@ripaojiedian-220"
     type: "trojan"
     server: "160.16.138.24"
     port: 3901
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "🇸🇬 新加坡2|@ripaojiedian-74"
-    type: "trojan"
-    server: "153.121.39.240"
-    port: 3901
-    password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
-    sni: "www.nintendogames.net"
-
-  - name: "🇸🇬 新加坡3|@ripaojiedian-75"
+  - name: "🇸🇬 新加坡3|@ripaojiedian-222"
     type: "trojan"
     server: "57.180.245.83"
     port: 381
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "🇸🇬 新加坡4|@ripaojiedian-76"
+  - name: "🇸🇬 新加坡4|@ripaojiedian-223"
     type: "ss"
     server: "assets-cfnode67.cloudflarecdn-edge.rfsconfig.com"
     port: 22350
     cipher: "chacha20-ietf-poly1305"
     password: "049d354a-2cf1-4956-b6d8-d04aa4969b64"
 
-  - name: "🇺🇸 美国|@ripaojiedian-77"
+  - name: "🇺🇸 美国|@ripaojiedian-224"
     type: "trojan"
     server: "43.207.73.82"
     port: 1281
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "🇺🇸 美国2|@ripaojiedian-78"
+  - name: "🇺🇸 美国2|@ripaojiedian-225"
     type: "trojan"
     server: "160.16.236.32"
     port: 1281
     password: "9372cb81c7b0ad903f91f2f8a4d3f02b"
     sni: "www.nintendogames.net"
 
-  - name: "🇺🇸 美国3|@ripaojiedian-79"
+  - name: "🇺🇸 美国3|@ripaojiedian-226"
     type: "trojan"
     server: "57.181.39.168"
     port: 38780
     password: "BxceQaOe"
     sni: "t.me/ripaojiedian"
 
-  - name: "🇺🇸 _US_美国-80"
+  - name: "🇺🇸 _US_美国-227"
     type: "trojan"
     server: "216.24.57.250"
     port: 443
     password: "5027e2a4-c4d2-463a-9508-83a2c7d1ad83"
     sni: "afrcloud1.mmv.kr"
 
-  - name: "SCP|HK-81"
+  - name: "SCP|HK-228"
     type: "trojan"
     server: "hk.scpnb.top"
     port: 19066
     password: "q4oerwN2UA"
     sni: "www.amazon.com"
 
-  - name: "SCP|US-82"
+  - name: "SCP|US-229"
     type: "trojan"
     server: "180.131.145.169"
     port: 18718
     password: "RmhZQ47pEm"
     sni: "www.tesla.com"
 
-  - name: "SCP|UK-83"
+  - name: "SCP|UK-230"
     type: "trojan"
     server: "194.150.166.151"
     port: 52047
@@ -658,69 +1394,164 @@ proxy-groups:
       - "github.com/freefq - 广东省江门市移动 12-12"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13-13"
       - "github.com/freefq - 美国CloudFlare节点 14-14"
-      - "vmess-5-19"
-      - "vmess-6-20"
-      - "vmess-7-21"
-      - "vmess-8-22"
-      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-23"
-      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-24"
-      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-25"
-      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-26"
-      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-27"
-      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-28"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-29"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-30"
-      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-31"
-      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-32"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-34"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-35"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-36"
-      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-37"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-38"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-39"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-40"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-42"
-      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-43"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-44"
-      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-45"
-      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-46"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-47"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-48"
-      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-49"
-      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-50"
-      - "ð¬ð§ è±å½ V2CROSS.COM-51"
-      - "ð¨ð³ ä¸­å½ V2CROSS.COM-52"
-      - "🇨🇳 广东省云浮市 移动-53"
-      - "🇪🇸 西班牙 V2CROSS.COM-54"
-      - "🇨🇳 广东省云浮市 移动-55"
-      - "🇪🇸 西班牙 V2CROSS.COM-56"
-      - "ðºð¸ ç¾å½ CloudFlareèç¹-57"
-      - "ð®ð· ä¼æ V2CROSS.COM-58"
-      - "🇨🇳 广东省云浮市 移动-59"
-      - "🇨🇳 广东省云浮市 移动-60"
-      - "🇨🇳 广东省云浮市 移动-61"
-      - "🇨🇳 广东省云浮市 移动-62"
-      - "ðºð¸ ç¾å½ V2CROSS.COM-63"
-      - "ð­ð° é¦æ¸¯|@ripaojiedian-64"
-      - "🇭🇰 香港2|@ripaojiedian-65"
-      - "🇭🇰 香港3|@ripaojiedian-66"
-      - "🇭🇰 香港4|@ripaojiedian-67"
-      - "🇭🇰 香港5|@ripaojiedian-68"
-      - "🇨🇳 台湾|@ripaojiedian-69"
-      - "🇯🇵 日本|@ripaojiedian-70"
-      - "🇯🇵 日本2|@ripaojiedian-71"
-      - "🇯🇵 日本3|@ripaojiedian-72"
-      - "🇸🇬 新加坡|@ripaojiedian-73"
-      - "🇸🇬 新加坡2|@ripaojiedian-74"
-      - "🇸🇬 新加坡3|@ripaojiedian-75"
-      - "🇸🇬 新加坡4|@ripaojiedian-76"
-      - "🇺🇸 美国|@ripaojiedian-77"
-      - "🇺🇸 美国2|@ripaojiedian-78"
-      - "🇺🇸 美国3|@ripaojiedian-79"
-      - "🇺🇸 _US_美国-80"
-      - "SCP|HK-81"
-      - "SCP|US-82"
-      - "SCP|UK-83"
+      - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-30"
+      - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-31"
+      - "美国-002 |3.1MB/s-32"
+      - "美国-003 |4.0MB/s-33"
+      - "美国-004 |5.6MB/s-34"
+      - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]-35"
+      - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%-36"
+      - "美国-005 |4.0MB/s|GPT⁺-37"
+      - "美国-006 |4.0MB/s-38"
+      - "美国-007 |4.5MB/s-39"
+      - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]-40"
+      - "美国-008 |4.5MB/s-41"
+      - "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%-43"
+      - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%-44"
+      - "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-45"
+      - "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%-46"
+      - "美国-011 |3.2MB/s-47"
+      - "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%-48"
+      - "法国-002 |605KB/s|YT-FR|NF|D+-49"
+      - "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%-50"
+      - "德国-002 |1.5MB/s|GPT⁺|NF|0%-51"
+      - "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%-53"
+      - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%-54"
+      - "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%-55"
+      - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%-56"
+      - "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%-58"
+      - "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+-59"
+      - "德国-003 |4.0MB/s|GPT|YT-DE|NF-60"
+      - "日本-005 |2.0MB/s|26%|GPT⁺|X-61"
+      - "俄罗斯联邦-005 |2.8MB/s|YT-RU-62"
+      - "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%-63"
+      - "俄罗斯联邦-006 |3.7MB/s|YT-RU-64"
+      - "荷兰-002 |752KB/s|GPT⁺|5%-65"
+      - "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%-66"
+      - "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%-67"
+      - "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%-68"
+      - "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%-69"
+      - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM-70"
+      - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM-71"
+      - "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%-72"
+      - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF-73"
+      - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM-74"
+      - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM-75"
+      - "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM-76"
+      - "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM-77"
+      - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM-78"
+      - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM-79"
+      - "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%-82"
+      - "德国-005 |1.6MB/s|GPT⁺|NF|79%-83"
+      - "越南-010 |1.0MB/s|GPT⁺|GM|X|History-84"
+      - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF-85"
+      - "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM-86"
+      - "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%-87"
+      - "美国-021-90"
+      - "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%-91"
+      - "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%-92"
+      - "德国-008 |6.4MB/s|YT-DE|NF|D+-93"
+      - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]-95"
+      - "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]-96"
+      - "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+-97"
+      - "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%-98"
+      - "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]-99"
+      - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]-101"
+      - "俄罗斯联邦-015 |2.3MB/s|YT-RU-102"
+      - "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%-103"
+      - "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%-104"
+      - "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%-111"
+      - "俄罗斯联邦-017 |2.3MB/s-114"
+      - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed-115"
+      - "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%-116"
+      - "芬兰-001 |854KB/s-117"
+      - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺-118"
+      - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%-120"
+      - "🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚-121"
+      - "🇮🇷_IR_伊朗->🏳️_unKnow_未知-123"
+      - "🇧🇪_BE_比利时->🇺🇸_US_美国-124"
+      - "🇺🇸_US_美国-126"
+      - "🇳🇱_NL_荷兰-127"
+      - "🇩🇪_DE_德国-128"
+      - "🇺🇸_US_美国_1-129"
+      - "🇨🇳_CN_中国->🏳️_unKnow_未知-130"
+      - "🇺🇸_US_美国_2-131"
+      - "🇺🇸_US_美国->🇳🇱_NL_荷兰-132"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国-133"
+      - "🇺🇸_US_美国_3-134"
+      - "🇯🇵_JP_日本->🇨🇳_CN_中国-135"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国_1-136"
+      - "🇺🇸_US_美国_4-137"
+      - "🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-138"
+      - "🇺🇸_US_美国->🇬🇧_GB_英国-139"
+      - "🇧🇪_BE_比利时-140"
+      - "🇺🇸_US_美国_5-141"
+      - "🇪🇸_ES_西班牙->🏳️_unKnow_未知-142"
+      - "vmess-5-157"
+      - "vmess-6-158"
+      - "vmess-7-159"
+      - "vmess-8-160"
+      - "官网地址https://kelayun.notepin.co-161"
+      - "新年6折优惠码：克拉云-162"
+      - "最高200元终身无限流量-164"
+      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-170"
+      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-171"
+      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-172"
+      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-173"
+      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-174"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-175"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-176"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-177"
+      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-178"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-179"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-181"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-182"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-183"
+      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-184"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-185"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-186"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-187"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-189"
+      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-190"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-191"
+      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-192"
+      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-193"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-194"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-195"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-196"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-197"
+      - "ð¬ð§ è±å½ V2CROSS.COM-198"
+      - "ð¨ð³ ä¸­å½ V2CROSS.COM-199"
+      - "🇨🇳 广东省云浮市 移动-200"
+      - "🇪🇸 西班牙 V2CROSS.COM-201"
+      - "🇨🇳 广东省云浮市 移动-202"
+      - "🇪🇸 西班牙 V2CROSS.COM-203"
+      - "ðºð¸ ç¾å½ CloudFlareèç¹-204"
+      - "ð®ð· ä¼æ V2CROSS.COM-205"
+      - "🇨🇳 广东省云浮市 移动-206"
+      - "🇨🇳 广东省云浮市 移动-207"
+      - "🇨🇳 广东省云浮市 移动-208"
+      - "🇨🇳 广东省云浮市 移动-209"
+      - "ðºð¸ ç¾å½ V2CROSS.COM-210"
+      - "ð­ð° é¦æ¸¯|@ripaojiedian-211"
+      - "🇭🇰 香港2|@ripaojiedian-212"
+      - "🇭🇰 香港3|@ripaojiedian-213"
+      - "🇭🇰 香港4|@ripaojiedian-214"
+      - "🇭🇰 香港5|@ripaojiedian-215"
+      - "🇨🇳 台湾|@ripaojiedian-216"
+      - "🇯🇵 日本|@ripaojiedian-217"
+      - "🇯🇵 日本2|@ripaojiedian-218"
+      - "🇯🇵 日本3|@ripaojiedian-219"
+      - "🇸🇬 新加坡|@ripaojiedian-220"
+      - "🇸🇬 新加坡3|@ripaojiedian-222"
+      - "🇸🇬 新加坡4|@ripaojiedian-223"
+      - "🇺🇸 美国|@ripaojiedian-224"
+      - "🇺🇸 美国2|@ripaojiedian-225"
+      - "🇺🇸 美国3|@ripaojiedian-226"
+      - "🇺🇸 _US_美国-227"
+      - "SCP|HK-228"
+      - "SCP|US-229"
+      - "SCP|UK-230"
 
   - name: Auto
     type: url-test
@@ -741,69 +1572,164 @@ proxy-groups:
       - "github.com/freefq - 广东省江门市移动 12-12"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13-13"
       - "github.com/freefq - 美国CloudFlare节点 14-14"
-      - "vmess-5-19"
-      - "vmess-6-20"
-      - "vmess-7-21"
-      - "vmess-8-22"
-      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-23"
-      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-24"
-      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-25"
-      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-26"
-      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-27"
-      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-28"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-29"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-30"
-      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-31"
-      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-32"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-34"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-35"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-36"
-      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-37"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-38"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-39"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-40"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-42"
-      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-43"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-44"
-      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-45"
-      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-46"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-47"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-48"
-      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-49"
-      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-50"
-      - "ð¬ð§ è±å½ V2CROSS.COM-51"
-      - "ð¨ð³ ä¸­å½ V2CROSS.COM-52"
-      - "🇨🇳 广东省云浮市 移动-53"
-      - "🇪🇸 西班牙 V2CROSS.COM-54"
-      - "🇨🇳 广东省云浮市 移动-55"
-      - "🇪🇸 西班牙 V2CROSS.COM-56"
-      - "ðºð¸ ç¾å½ CloudFlareèç¹-57"
-      - "ð®ð· ä¼æ V2CROSS.COM-58"
-      - "🇨🇳 广东省云浮市 移动-59"
-      - "🇨🇳 广东省云浮市 移动-60"
-      - "🇨🇳 广东省云浮市 移动-61"
-      - "🇨🇳 广东省云浮市 移动-62"
-      - "ðºð¸ ç¾å½ V2CROSS.COM-63"
-      - "ð­ð° é¦æ¸¯|@ripaojiedian-64"
-      - "🇭🇰 香港2|@ripaojiedian-65"
-      - "🇭🇰 香港3|@ripaojiedian-66"
-      - "🇭🇰 香港4|@ripaojiedian-67"
-      - "🇭🇰 香港5|@ripaojiedian-68"
-      - "🇨🇳 台湾|@ripaojiedian-69"
-      - "🇯🇵 日本|@ripaojiedian-70"
-      - "🇯🇵 日本2|@ripaojiedian-71"
-      - "🇯🇵 日本3|@ripaojiedian-72"
-      - "🇸🇬 新加坡|@ripaojiedian-73"
-      - "🇸🇬 新加坡2|@ripaojiedian-74"
-      - "🇸🇬 新加坡3|@ripaojiedian-75"
-      - "🇸🇬 新加坡4|@ripaojiedian-76"
-      - "🇺🇸 美国|@ripaojiedian-77"
-      - "🇺🇸 美国2|@ripaojiedian-78"
-      - "🇺🇸 美国3|@ripaojiedian-79"
-      - "🇺🇸 _US_美国-80"
-      - "SCP|HK-81"
-      - "SCP|US-82"
-      - "SCP|UK-83"
+      - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-30"
+      - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-31"
+      - "美国-002 |3.1MB/s-32"
+      - "美国-003 |4.0MB/s-33"
+      - "美国-004 |5.6MB/s-34"
+      - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]-35"
+      - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%-36"
+      - "美国-005 |4.0MB/s|GPT⁺-37"
+      - "美国-006 |4.0MB/s-38"
+      - "美国-007 |4.5MB/s-39"
+      - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]-40"
+      - "美国-008 |4.5MB/s-41"
+      - "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%-43"
+      - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%-44"
+      - "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-45"
+      - "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%-46"
+      - "美国-011 |3.2MB/s-47"
+      - "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%-48"
+      - "法国-002 |605KB/s|YT-FR|NF|D+-49"
+      - "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%-50"
+      - "德国-002 |1.5MB/s|GPT⁺|NF|0%-51"
+      - "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%-53"
+      - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%-54"
+      - "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%-55"
+      - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%-56"
+      - "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%-58"
+      - "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+-59"
+      - "德国-003 |4.0MB/s|GPT|YT-DE|NF-60"
+      - "日本-005 |2.0MB/s|26%|GPT⁺|X-61"
+      - "俄罗斯联邦-005 |2.8MB/s|YT-RU-62"
+      - "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%-63"
+      - "俄罗斯联邦-006 |3.7MB/s|YT-RU-64"
+      - "荷兰-002 |752KB/s|GPT⁺|5%-65"
+      - "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%-66"
+      - "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%-67"
+      - "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%-68"
+      - "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%-69"
+      - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM-70"
+      - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM-71"
+      - "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%-72"
+      - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF-73"
+      - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM-74"
+      - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM-75"
+      - "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM-76"
+      - "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM-77"
+      - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM-78"
+      - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM-79"
+      - "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%-82"
+      - "德国-005 |1.6MB/s|GPT⁺|NF|79%-83"
+      - "越南-010 |1.0MB/s|GPT⁺|GM|X|History-84"
+      - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF-85"
+      - "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM-86"
+      - "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%-87"
+      - "美国-021-90"
+      - "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%-91"
+      - "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%-92"
+      - "德国-008 |6.4MB/s|YT-DE|NF|D+-93"
+      - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]-95"
+      - "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]-96"
+      - "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+-97"
+      - "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%-98"
+      - "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]-99"
+      - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]-101"
+      - "俄罗斯联邦-015 |2.3MB/s|YT-RU-102"
+      - "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%-103"
+      - "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%-104"
+      - "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%-111"
+      - "俄罗斯联邦-017 |2.3MB/s-114"
+      - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed-115"
+      - "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%-116"
+      - "芬兰-001 |854KB/s-117"
+      - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺-118"
+      - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%-120"
+      - "🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚-121"
+      - "🇮🇷_IR_伊朗->🏳️_unKnow_未知-123"
+      - "🇧🇪_BE_比利时->🇺🇸_US_美国-124"
+      - "🇺🇸_US_美国-126"
+      - "🇳🇱_NL_荷兰-127"
+      - "🇩🇪_DE_德国-128"
+      - "🇺🇸_US_美国_1-129"
+      - "🇨🇳_CN_中国->🏳️_unKnow_未知-130"
+      - "🇺🇸_US_美国_2-131"
+      - "🇺🇸_US_美国->🇳🇱_NL_荷兰-132"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国-133"
+      - "🇺🇸_US_美国_3-134"
+      - "🇯🇵_JP_日本->🇨🇳_CN_中国-135"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国_1-136"
+      - "🇺🇸_US_美国_4-137"
+      - "🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-138"
+      - "🇺🇸_US_美国->🇬🇧_GB_英国-139"
+      - "🇧🇪_BE_比利时-140"
+      - "🇺🇸_US_美国_5-141"
+      - "🇪🇸_ES_西班牙->🏳️_unKnow_未知-142"
+      - "vmess-5-157"
+      - "vmess-6-158"
+      - "vmess-7-159"
+      - "vmess-8-160"
+      - "官网地址https://kelayun.notepin.co-161"
+      - "新年6折优惠码：克拉云-162"
+      - "最高200元终身无限流量-164"
+      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-170"
+      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-171"
+      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-172"
+      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-173"
+      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-174"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-175"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-176"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-177"
+      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-178"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-179"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-181"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-182"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-183"
+      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-184"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-185"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-186"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-187"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-189"
+      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-190"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-191"
+      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-192"
+      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-193"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-194"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-195"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-196"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-197"
+      - "ð¬ð§ è±å½ V2CROSS.COM-198"
+      - "ð¨ð³ ä¸­å½ V2CROSS.COM-199"
+      - "🇨🇳 广东省云浮市 移动-200"
+      - "🇪🇸 西班牙 V2CROSS.COM-201"
+      - "🇨🇳 广东省云浮市 移动-202"
+      - "🇪🇸 西班牙 V2CROSS.COM-203"
+      - "ðºð¸ ç¾å½ CloudFlareèç¹-204"
+      - "ð®ð· ä¼æ V2CROSS.COM-205"
+      - "🇨🇳 广东省云浮市 移动-206"
+      - "🇨🇳 广东省云浮市 移动-207"
+      - "🇨🇳 广东省云浮市 移动-208"
+      - "🇨🇳 广东省云浮市 移动-209"
+      - "ðºð¸ ç¾å½ V2CROSS.COM-210"
+      - "ð­ð° é¦æ¸¯|@ripaojiedian-211"
+      - "🇭🇰 香港2|@ripaojiedian-212"
+      - "🇭🇰 香港3|@ripaojiedian-213"
+      - "🇭🇰 香港4|@ripaojiedian-214"
+      - "🇭🇰 香港5|@ripaojiedian-215"
+      - "🇨🇳 台湾|@ripaojiedian-216"
+      - "🇯🇵 日本|@ripaojiedian-217"
+      - "🇯🇵 日本2|@ripaojiedian-218"
+      - "🇯🇵 日本3|@ripaojiedian-219"
+      - "🇸🇬 新加坡|@ripaojiedian-220"
+      - "🇸🇬 新加坡3|@ripaojiedian-222"
+      - "🇸🇬 新加坡4|@ripaojiedian-223"
+      - "🇺🇸 美国|@ripaojiedian-224"
+      - "🇺🇸 美国2|@ripaojiedian-225"
+      - "🇺🇸 美国3|@ripaojiedian-226"
+      - "🇺🇸 _US_美国-227"
+      - "SCP|HK-228"
+      - "SCP|US-229"
+      - "SCP|UK-230"
 
   - name: Fallback
     type: fallback
@@ -824,69 +1750,164 @@ proxy-groups:
       - "github.com/freefq - 广东省江门市移动 12-12"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13-13"
       - "github.com/freefq - 美国CloudFlare节点 14-14"
-      - "vmess-5-19"
-      - "vmess-6-20"
-      - "vmess-7-21"
-      - "vmess-8-22"
-      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-23"
-      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-24"
-      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-25"
-      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-26"
-      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-27"
-      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-28"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-29"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-30"
-      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-31"
-      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-32"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-34"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-35"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-36"
-      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-37"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-38"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-39"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-40"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-42"
-      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-43"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-44"
-      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-45"
-      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-46"
-      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-47"
-      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-48"
-      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-49"
-      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-50"
-      - "ð¬ð§ è±å½ V2CROSS.COM-51"
-      - "ð¨ð³ ä¸­å½ V2CROSS.COM-52"
-      - "🇨🇳 广东省云浮市 移动-53"
-      - "🇪🇸 西班牙 V2CROSS.COM-54"
-      - "🇨🇳 广东省云浮市 移动-55"
-      - "🇪🇸 西班牙 V2CROSS.COM-56"
-      - "ðºð¸ ç¾å½ CloudFlareèç¹-57"
-      - "ð®ð· ä¼æ V2CROSS.COM-58"
-      - "🇨🇳 广东省云浮市 移动-59"
-      - "🇨🇳 广东省云浮市 移动-60"
-      - "🇨🇳 广东省云浮市 移动-61"
-      - "🇨🇳 广东省云浮市 移动-62"
-      - "ðºð¸ ç¾å½ V2CROSS.COM-63"
-      - "ð­ð° é¦æ¸¯|@ripaojiedian-64"
-      - "🇭🇰 香港2|@ripaojiedian-65"
-      - "🇭🇰 香港3|@ripaojiedian-66"
-      - "🇭🇰 香港4|@ripaojiedian-67"
-      - "🇭🇰 香港5|@ripaojiedian-68"
-      - "🇨🇳 台湾|@ripaojiedian-69"
-      - "🇯🇵 日本|@ripaojiedian-70"
-      - "🇯🇵 日本2|@ripaojiedian-71"
-      - "🇯🇵 日本3|@ripaojiedian-72"
-      - "🇸🇬 新加坡|@ripaojiedian-73"
-      - "🇸🇬 新加坡2|@ripaojiedian-74"
-      - "🇸🇬 新加坡3|@ripaojiedian-75"
-      - "🇸🇬 新加坡4|@ripaojiedian-76"
-      - "🇺🇸 美国|@ripaojiedian-77"
-      - "🇺🇸 美国2|@ripaojiedian-78"
-      - "🇺🇸 美国3|@ripaojiedian-79"
-      - "🇺🇸 _US_美国-80"
-      - "SCP|HK-81"
-      - "SCP|US-82"
-      - "SCP|UK-83"
+      - "俄罗斯联邦-001 |4.9MB/s|GPT⁺|YT-US|NF|D+|GM|5%-30"
+      - "俄罗斯联邦-002 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-31"
+      - "美国-002 |3.1MB/s-32"
+      - "美国-003 |4.0MB/s-33"
+      - "美国-004 |5.6MB/s-34"
+      - "日本-001 |0.9MB/s|0%|GPT|X|[原生|住宅拨号]-35"
+      - "日本-002 |746KB/s|GPT⁺|YT-US|NF|1%-36"
+      - "美国-005 |4.0MB/s|GPT⁺-37"
+      - "美国-006 |4.0MB/s-38"
+      - "美国-007 |4.5MB/s-39"
+      - "日本-003 |2.2MB/s|26%|GPT⁺|NF|X|[原生|商宽]-40"
+      - "美国-008 |4.5MB/s-41"
+      - "美国-010 |1.8MB/s|GPT|YT-US|NF|D+|GM|5%-43"
+      - "法国-001 |1.8MB/s|GPT⁺|YT-FR|NF|D+|43%-44"
+      - "俄罗斯联邦-003 |3.0MB/s|GPT⁺|YT-US|NF|D+|GM|5%-45"
+      - "德国-001 |1.7MB/s|GPT⁺|YT-DE|D+|0%-46"
+      - "美国-011 |3.2MB/s-47"
+      - "乌克兰-001 |5.0MB/s|GPT|YT-US|NF|GM|0%-48"
+      - "法国-002 |605KB/s|YT-FR|NF|D+-49"
+      - "美国-012 |814KB/s|GPT⁺|YT-US|NF|GM|0%-50"
+      - "德国-002 |1.5MB/s|GPT⁺|NF|0%-51"
+      - "俄罗斯联邦-004 |4.4MB/s|GPT⁺|YT-US|NF|D+|GM|5%-53"
+      - "日本-004 |4.9MB/s|GPT⁺|YT-CN|NF|26%-54"
+      - "美国-013 |2.8MB/s|GPT⁺|YT-DE|NF|D+|5%-55"
+      - "西班牙-001 |2.1MB/s|GPT⁺|YT-ES|NF|26%-56"
+      - "美国-014 |2.4MB/s|GPT⁺|YT-NL|NF|D+|5%-58"
+      - "美国-015 |3.0MB/s|GPT⁺|YT-NL|NF|D+-59"
+      - "德国-003 |4.0MB/s|GPT|YT-DE|NF-60"
+      - "日本-005 |2.0MB/s|26%|GPT⁺|X-61"
+      - "俄罗斯联邦-005 |2.8MB/s|YT-RU-62"
+      - "美国-016 |1.3MB/s|GPT⁺|YT-DE|NF|D+|5%-63"
+      - "俄罗斯联邦-006 |3.7MB/s|YT-RU-64"
+      - "荷兰-002 |752KB/s|GPT⁺|5%-65"
+      - "俄罗斯联邦-007 |2.7MB/s|GPT⁺|YT-PL|NF|20%-66"
+      - "美国-017 |2.5MB/s|GPT⁺|YT-DE|NF|D+|5%-67"
+      - "俄罗斯联邦-008 |5.1MB/s|GPT⁺|YT-PL|NF|GM|20%-68"
+      - "俄罗斯联邦-009 |1.4MB/s|GPT⁺|YT-HU|NF|0%-69"
+      - "越南-001 |851KB/s|GPT⁺|YT-US|NF|GM-70"
+      - "越南-002 |618KB/s|GPT⁺|YT-US|NF|GM-71"
+      - "德国-004 |1.7MB/s|GPT⁺|YT-DE|NF|D+|5%-72"
+      - "越南-003 |1.6MB/s|GPT⁺|YT-RU|NF-73"
+      - "越南-004 |846KB/s|GPT⁺|YT-US|NF|GM-74"
+      - "越南-005 |516KB/s|GPT⁺|YT-US|NF|GM-75"
+      - "越南-006 |526KB/s|GPT⁺|YT-US|NF|GM-76"
+      - "越南-007 |1.6MB/s|GPT⁺|YT-US|NF|GM-77"
+      - "越南-008 |714KB/s|GPT⁺|YT-US|NF|GM-78"
+      - "越南-009 |746KB/s|GPT⁺|YT-US|NF|GM-79"
+      - "荷兰-003 |6.4MB/s|GPT⁺|YT-RU|NF|D+|80%-82"
+      - "德国-005 |1.6MB/s|GPT⁺|NF|79%-83"
+      - "越南-010 |1.0MB/s|GPT⁺|GM|X|History-84"
+      - "日本-006 |4.4MB/s|GPT⁺|YT-SG|NF-85"
+      - "新加坡-001 |1.2MB/s|GPT⁺|YT-SG|NF|GM-86"
+      - "美国-019 |3.0MB/s|GPT⁺|YT-NL|NF|D+|5%-87"
+      - "美国-021-90"
+      - "立陶宛-001 |796KB/s|GPT⁺|YT-RU|NF|43%-91"
+      - "德国-007 |3.8MB/s|GPT⁺|NF|D+|5%-92"
+      - "德国-008 |6.4MB/s|YT-DE|NF|D+-93"
+      - "土耳其-001 |4.0MB/s|GPT⁺|D+|X|[广播|商宽]-95"
+      - "俄罗斯联邦-010 |0.8MB/s|X|History|[广播|商宽]-96"
+      - "俄罗斯联邦-011 |4.1MB/s|YT-RU|NF|D+-97"
+      - "俄罗斯联邦-012 |1.1MB/s|GPT⁺|YT-RU|NF|GM|0%-98"
+      - "俄罗斯联邦-013 |4.8MB/s|YT|X|[原生|机房]-99"
+      - "法国-003 |6.6MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]-101"
+      - "俄罗斯联邦-015 |2.3MB/s|YT-RU-102"
+      - "新加坡-002 |4.2MB/s|GPT⁺|YT-US|NF|D+|GM|5%-103"
+      - "英国-001 |992KB/s|GPT|YT-US|NF|D+|GM|5%-104"
+      - "俄罗斯联邦-016 |864KB/s|GPT|YT-CN|NF|5%-111"
+      - "俄罗斯联邦-017 |2.3MB/s-114"
+      - "越南-011 |0.9MB/s|GPT⁺|GM|YT|X|Succeed-115"
+      - "德国-012 |1.2MB/s|GPT⁺|YT-RU|NF|D+|6%-116"
+      - "芬兰-001 |854KB/s-117"
+      - "越南-012 |1.1MB/s|YT-US|NF|GPT⁺-118"
+      - "比利时-001 |2.3MB/s|GPT⁺|YT-US|NF|6%-120"
+      - "🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚-121"
+      - "🇮🇷_IR_伊朗->🏳️_unKnow_未知-123"
+      - "🇧🇪_BE_比利时->🇺🇸_US_美国-124"
+      - "🇺🇸_US_美国-126"
+      - "🇳🇱_NL_荷兰-127"
+      - "🇩🇪_DE_德国-128"
+      - "🇺🇸_US_美国_1-129"
+      - "🇨🇳_CN_中国->🏳️_unKnow_未知-130"
+      - "🇺🇸_US_美国_2-131"
+      - "🇺🇸_US_美国->🇳🇱_NL_荷兰-132"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国-133"
+      - "🇺🇸_US_美国_3-134"
+      - "🇯🇵_JP_日本->🇨🇳_CN_中国-135"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国_1-136"
+      - "🇺🇸_US_美国_4-137"
+      - "🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-138"
+      - "🇺🇸_US_美国->🇬🇧_GB_英国-139"
+      - "🇧🇪_BE_比利时-140"
+      - "🇺🇸_US_美国_5-141"
+      - "🇪🇸_ES_西班牙->🏳️_unKnow_未知-142"
+      - "vmess-5-157"
+      - "vmess-6-158"
+      - "vmess-7-159"
+      - "vmess-8-160"
+      - "官网地址https://kelayun.notepin.co-161"
+      - "新年6折优惠码：克拉云-162"
+      - "最高200元终身无限流量-164"
+      - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000-170"
+      - "ð©ðª VMESS-æªç¥>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080-171"
+      - "ð¯ðµ VMESS-ç¾å½>æ¥æ¬-NFè§£éæ¥æ¬å°åºéèªå¶å§-ChatGPT-YouTube-t1.620720.xyz:8443-172"
+      - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990-173"
+      - "🇬🇧 SS-英国-NF解锁自制剧-ChatGPT-TikTok-146.19.49.251:443-174"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-15.235.41.200:80-175"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-71.19.148.143:443-176"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-38.92.10.226:45979-177"
+      - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990-178"
+      - "ð¨ð¦ VMESS-å æ¿å¤§-NFè§£éå æ¿å¤§å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-51.79.102.253:80-179"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-92.118.112.101:9483-181"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000-182"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work:443-183"
+      - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990-184"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com:443-185"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-23.95.75.146:443-186"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-198.23.174.168:20086-187"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com:443-189"
+      - "ðºð¸ VMESS-ç¾å½>å¾·å½-NFè§£éå°åº¦å°åºéèªå¶å§-ChatGPT-TikTok-YouTube-support.zoom.us:8080-190"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-209.126.84.189:443-191"
+      - "ð¦ðº VMESS-æªç¥>æ¾³å¤§å©äº-NFè§£éæ¾³å¤§å©äºèªå¶å§-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443-192"
+      - "ðºð¸ VMESS-æªç¥>ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net:2083-193"
+      - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.175.87.207:10011-194"
+      - "ðºð¸ VMESS-ç¾å½-NFè§£éèªå¶å§-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443-195"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443-196"
+      - "ðºð¸ VMESS-ç¾å½-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443-197"
+      - "ð¬ð§ è±å½ V2CROSS.COM-198"
+      - "ð¨ð³ ä¸­å½ V2CROSS.COM-199"
+      - "🇨🇳 广东省云浮市 移动-200"
+      - "🇪🇸 西班牙 V2CROSS.COM-201"
+      - "🇨🇳 广东省云浮市 移动-202"
+      - "🇪🇸 西班牙 V2CROSS.COM-203"
+      - "ðºð¸ ç¾å½ CloudFlareèç¹-204"
+      - "ð®ð· ä¼æ V2CROSS.COM-205"
+      - "🇨🇳 广东省云浮市 移动-206"
+      - "🇨🇳 广东省云浮市 移动-207"
+      - "🇨🇳 广东省云浮市 移动-208"
+      - "🇨🇳 广东省云浮市 移动-209"
+      - "ðºð¸ ç¾å½ V2CROSS.COM-210"
+      - "ð­ð° é¦æ¸¯|@ripaojiedian-211"
+      - "🇭🇰 香港2|@ripaojiedian-212"
+      - "🇭🇰 香港3|@ripaojiedian-213"
+      - "🇭🇰 香港4|@ripaojiedian-214"
+      - "🇭🇰 香港5|@ripaojiedian-215"
+      - "🇨🇳 台湾|@ripaojiedian-216"
+      - "🇯🇵 日本|@ripaojiedian-217"
+      - "🇯🇵 日本2|@ripaojiedian-218"
+      - "🇯🇵 日本3|@ripaojiedian-219"
+      - "🇸🇬 新加坡|@ripaojiedian-220"
+      - "🇸🇬 新加坡3|@ripaojiedian-222"
+      - "🇸🇬 新加坡4|@ripaojiedian-223"
+      - "🇺🇸 美国|@ripaojiedian-224"
+      - "🇺🇸 美国2|@ripaojiedian-225"
+      - "🇺🇸 美国3|@ripaojiedian-226"
+      - "🇺🇸 _US_美国-227"
+      - "SCP|HK-228"
+      - "SCP|US-229"
+      - "SCP|UK-230"
 
 rules:
   - GEOIP,CN,DIRECT

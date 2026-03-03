@@ -3,8 +3,6 @@ proxy-groups:
     type: select
     proxies:
       - "[mibei] HK(mibei77.com ) 14-145"
-      - "US(mibei77.com )-646"
-      - "[mibei] TW(mibei77.com ) 6-38"
 
   - name: Auto
     type: url-test
@@ -12,8 +10,6 @@ proxy-groups:
     interval: 300
     proxies:
       - "[mibei] HK(mibei77.com ) 14-145"
-      - "US(mibei77.com )-646"
-      - "[mibei] TW(mibei77.com ) 6-38"
 
   - name: Fallback
     type: fallback
@@ -21,8 +17,6 @@ proxy-groups:
     interval: 300
     proxies:
       - "[mibei] HK(mibei77.com ) 14-145"
-      - "US(mibei77.com )-646"
-      - "[mibei] TW(mibei77.com ) 6-38"
 
 rules:
   - GEOIP,CN,DIRECT
@@ -35,21 +29,4 @@ proxies:
     port: 19822
     cipher: "aes-256-gcm"
     password: "g4JtpkuxkwRH4jhj"
-
-  - name: "US(mibei77.com )-646"
-    type: "vmess"
-    server: "v30.hdacd.com"
-    port: 30830
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "[mibei] TW(mibei77.com ) 6-38"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31103
-    password: "4250b3bb-d1ae-4e77-bf71-4069e0d2c383"
-    sni: "green2.cdntencentmusic.com"
 

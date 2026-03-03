@@ -2,31 +2,508 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
+      - "[mibei] HK(mibei77.com ) 2-5"
+      - "[mibei] US(mibei77.com ) 43-57"
       - "[mibei] HK(mibei77.com ) 14-145"
+      - "NL(mibei77.com )-761"
+      - "US(mibei77.com )-646"
+      - "US(mibei77.com )-712"
+      - "[mibei] US(mibei77.com ) 45-63"
+      - "[mibei] US(mibei77.com ) 48-69"
+      - "[mibei] US(mibei77.com ) 52-81"
+      - "[mibei] US(mibei77.com ) 56-86"
+      - "[mibei] US(mibei77.com ) 59-91"
+      - "US(mibei77.com )-647"
+      - "[mibei] US(mibei77.com ) 113-175"
+      - "[mibei] US(mibei77.com ) 82-124"
+      - "[mibei] US(mibei77.com ) 86-132"
+      - "NL(mibei77.com )-709"
+      - "NL(mibei77.com )-722"
+      - "US(mibei77.com )-630"
+      - "[mibei] HK(mibei77.com ) 8-77"
+      - "[mibei] TW(mibei77.com ) 11-129"
+      - "[mibei] TW(mibei77.com ) 4-34"
+      - "[mibei] US(mibei77.com ) 112-174"
+      - "NL(mibei77.com )-700"
+      - "[mibei] US(mibei77.com ) 115-177"
+      - "[mibei] US(mibei77.com ) 6-8"
+      - "[mibei] US(mibei77.com ) 30-39"
+      - "[mibei] US(mibei77.com ) 36-48"
+      - "[mibei] US(mibei77.com ) 73-114"
+      - "US(mibei77.com )-695"
+      - "US(mibei77.com )-809"
+      - "[mibei] (mibei77.com )-125"
+      - "[mibei] SG(mibei77.com )-167"
+      - "[mibei] US(mibei77.com ) 67-108"
+      - "[mibei] US(mibei77.com ) 41-55"
+      - "[mibei] TW(mibei77.com ) 7-50"
+      - "[mibei] US(mibei77.com ) 29-36"
+      - "[mibei] US(mibei77.com ) 42-56"
+      - "NL(mibei77.com )-635"
+      - "[mibei] US(mibei77.com ) 60-92"
+      - "NL(mibei77.com )-802"
+      - "US(mibei77.com )-633"
+      - "US(mibei77.com )-662"
+      - "[mibei] TW(mibei77.com ) 10-70"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "[mibei] HK(mibei77.com ) 2-5"
+      - "[mibei] US(mibei77.com ) 43-57"
       - "[mibei] HK(mibei77.com ) 14-145"
+      - "NL(mibei77.com )-761"
+      - "US(mibei77.com )-646"
+      - "US(mibei77.com )-712"
+      - "[mibei] US(mibei77.com ) 45-63"
+      - "[mibei] US(mibei77.com ) 48-69"
+      - "[mibei] US(mibei77.com ) 52-81"
+      - "[mibei] US(mibei77.com ) 56-86"
+      - "[mibei] US(mibei77.com ) 59-91"
+      - "US(mibei77.com )-647"
+      - "[mibei] US(mibei77.com ) 113-175"
+      - "[mibei] US(mibei77.com ) 82-124"
+      - "[mibei] US(mibei77.com ) 86-132"
+      - "NL(mibei77.com )-709"
+      - "NL(mibei77.com )-722"
+      - "US(mibei77.com )-630"
+      - "[mibei] HK(mibei77.com ) 8-77"
+      - "[mibei] TW(mibei77.com ) 11-129"
+      - "[mibei] TW(mibei77.com ) 4-34"
+      - "[mibei] US(mibei77.com ) 112-174"
+      - "NL(mibei77.com )-700"
+      - "[mibei] US(mibei77.com ) 115-177"
+      - "[mibei] US(mibei77.com ) 6-8"
+      - "[mibei] US(mibei77.com ) 30-39"
+      - "[mibei] US(mibei77.com ) 36-48"
+      - "[mibei] US(mibei77.com ) 73-114"
+      - "US(mibei77.com )-695"
+      - "US(mibei77.com )-809"
+      - "[mibei] (mibei77.com )-125"
+      - "[mibei] SG(mibei77.com )-167"
+      - "[mibei] US(mibei77.com ) 67-108"
+      - "[mibei] US(mibei77.com ) 41-55"
+      - "[mibei] TW(mibei77.com ) 7-50"
+      - "[mibei] US(mibei77.com ) 29-36"
+      - "[mibei] US(mibei77.com ) 42-56"
+      - "NL(mibei77.com )-635"
+      - "[mibei] US(mibei77.com ) 60-92"
+      - "NL(mibei77.com )-802"
+      - "US(mibei77.com )-633"
+      - "US(mibei77.com )-662"
+      - "[mibei] TW(mibei77.com ) 10-70"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "[mibei] HK(mibei77.com ) 2-5"
+      - "[mibei] US(mibei77.com ) 43-57"
       - "[mibei] HK(mibei77.com ) 14-145"
+      - "NL(mibei77.com )-761"
+      - "US(mibei77.com )-646"
+      - "US(mibei77.com )-712"
+      - "[mibei] US(mibei77.com ) 45-63"
+      - "[mibei] US(mibei77.com ) 48-69"
+      - "[mibei] US(mibei77.com ) 52-81"
+      - "[mibei] US(mibei77.com ) 56-86"
+      - "[mibei] US(mibei77.com ) 59-91"
+      - "US(mibei77.com )-647"
+      - "[mibei] US(mibei77.com ) 113-175"
+      - "[mibei] US(mibei77.com ) 82-124"
+      - "[mibei] US(mibei77.com ) 86-132"
+      - "NL(mibei77.com )-709"
+      - "NL(mibei77.com )-722"
+      - "US(mibei77.com )-630"
+      - "[mibei] HK(mibei77.com ) 8-77"
+      - "[mibei] TW(mibei77.com ) 11-129"
+      - "[mibei] TW(mibei77.com ) 4-34"
+      - "[mibei] US(mibei77.com ) 112-174"
+      - "NL(mibei77.com )-700"
+      - "[mibei] US(mibei77.com ) 115-177"
+      - "[mibei] US(mibei77.com ) 6-8"
+      - "[mibei] US(mibei77.com ) 30-39"
+      - "[mibei] US(mibei77.com ) 36-48"
+      - "[mibei] US(mibei77.com ) 73-114"
+      - "US(mibei77.com )-695"
+      - "US(mibei77.com )-809"
+      - "[mibei] (mibei77.com )-125"
+      - "[mibei] SG(mibei77.com )-167"
+      - "[mibei] US(mibei77.com ) 67-108"
+      - "[mibei] US(mibei77.com ) 41-55"
+      - "[mibei] TW(mibei77.com ) 7-50"
+      - "[mibei] US(mibei77.com ) 29-36"
+      - "[mibei] US(mibei77.com ) 42-56"
+      - "NL(mibei77.com )-635"
+      - "[mibei] US(mibei77.com ) 60-92"
+      - "NL(mibei77.com )-802"
+      - "US(mibei77.com )-633"
+      - "US(mibei77.com )-662"
+      - "[mibei] TW(mibei77.com ) 10-70"
 
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
 
 proxies:
+  - name: "[mibei] HK(mibei77.com ) 2-5"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 18148
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 43-57"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 35501
+    password: "11cfbea5-eae4-4654-8aa9-a9481f38dc42"
+    sni: "green2.cdntencentmusic.com"
+
   - name: "[mibei] HK(mibei77.com ) 14-145"
     type: "ss"
     server: "iepl.huli168.com"
     port: 19822
     cipher: "aes-256-gcm"
     password: "g4JtpkuxkwRH4jhj"
+
+  - name: "NL(mibei77.com )-761"
+    type: "vmess"
+    server: "rfghnj.0gg.ccwu.cc"
+    port: 80
+    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "US(mibei77.com )-646"
+    type: "vmess"
+    server: "v30.hdacd.com"
+    port: 30830
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "US(mibei77.com )-712"
+    type: "vmess"
+    server: "v33.hdacd.com"
+    port: 30833
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "[mibei] US(mibei77.com ) 45-63"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 31101
+    password: "5f6ded93-4ab8-4a99-9c84-b19b9993f27c"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[mibei] US(mibei77.com ) 48-69"
+    type: "vmess"
+    server: "nmjy.0m0.ccwu.cc"
+    port: 443
+    uuid: "0617025a-660d-40e3-9108-74611138dde5"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 52-81"
+    type: "vmess"
+    server: "103.167.151.182"
+    port: 18098
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 56-86"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 31101
+    password: "987525bc-99a3-461e-a50f-a0a667d06ed7"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[mibei] US(mibei77.com ) 59-91"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 10589
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "US(mibei77.com )-647"
+    type: "trojan"
+    server: "ddffghy.0wu.ccwu.cc"
+    port: 443
+    password: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    sni: "ddffghy.0wu.ccwu.cc"
+
+  - name: "[mibei] US(mibei77.com ) 113-175"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 46197
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 82-124"
+    type: "vmess"
+    server: "149.104.31.55"
+    port: 443
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 86-132"
+    type: "vmess"
+    server: "38.55.193.199"
+    port: 443
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "NL(mibei77.com )-709"
+    type: "vmess"
+    server: "vbnj8.0yo.ccwu.cc"
+    port: 80
+    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "NL(mibei77.com )-722"
+    type: "trojan"
+    server: "fbnji.1sb.ccwu.cc"
+    port: 443
+    password: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    sni: "fbnji.1sb.ccwu.cc"
+
+  - name: "US(mibei77.com )-630"
+    type: "vmess"
+    server: "cdvf59.0z0.ccwu.cc"
+    port: 80
+    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] HK(mibei77.com ) 8-77"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 57927
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] TW(mibei77.com ) 11-129"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 31101
+    password: "6790a94c-4ea8-4a1e-979e-31716839427a"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[mibei] TW(mibei77.com ) 4-34"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31101
+    password: "11cfbea5-eae4-4654-8aa9-a9481f38dc42"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 112-174"
+    type: "vmess"
+    server: "8.223.63.189"
+    port: 443
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "NL(mibei77.com )-700"
+    type: "vmess"
+    server: "gbnjk9.0ww.ccwu.cc"
+    port: 80
+    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 115-177"
+    type: "vmess"
+    server: "43.134.167.135"
+    port: 9952
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 6-8"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 55936
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 30-39"
+    type: "vmess"
+    server: "43.134.87.15"
+    port: 443
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 36-48"
+    type: "vmess"
+    server: "38.55.193.78"
+    port: 443
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 73-114"
+    type: "vmess"
+    server: "68.64.179.210"
+    port: 443
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "US(mibei77.com )-695"
+    type: "vmess"
+    server: "dcvgt6.0z0.ccwu.cc"
+    port: 80
+    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "US(mibei77.com )-809"
+    type: "trojan"
+    server: "dcvwsde.1gg.ccwu.cc"
+    port: 443
+    password: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    sni: "dcvwsde.1gg.ccwu.cc"
+
+  - name: "[mibei] (mibei77.com )-125"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "wwzVn2ZnHfqYa6l8EWh3eY"
+
+  - name: "[mibei] SG(mibei77.com )-167"
+    type: "vmess"
+    server: "vc.fly.dev"
+    port: 443
+    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 67-108"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 20149
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 41-55"
+    type: "ss"
+    server: "liubu9.singdns.com"
+    port: 17459
+    cipher: "aes-128-gcm"
+    password: "57bc0c04-8184-48f5-906b-897d095ed445"
+
+  - name: "[mibei] TW(mibei77.com ) 7-50"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 31101
+    password: "fe040a20-827e-42eb-994f-ec16d4ae5aa4"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[mibei] US(mibei77.com ) 29-36"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 28063
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 42-56"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 34411
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "NL(mibei77.com )-635"
+    type: "trojan"
+    server: "dcvgt6.0z0.ccwu.cc"
+    port: 443
+    password: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    sni: "dcvgt6.0z0.ccwu.cc"
+
+  - name: "[mibei] US(mibei77.com ) 60-92"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "RFK38Cg7APneSB5cWDcpbm"
+
+  - name: "NL(mibei77.com )-802"
+    type: "trojan"
+    server: "scvf65.0z0.ccwu.cc"
+    port: 443
+    password: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    sni: "scvf65.0z0.ccwu.cc"
+
+  - name: "US(mibei77.com )-633"
+    type: "vmess"
+    server: "v8.hdacd.com"
+    port: 30808
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "US(mibei77.com )-662"
+    type: "vmess"
+    server: "v29.hdacd.com"
+    port: 30829
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "[mibei] TW(mibei77.com ) 10-70"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 35501
+    password: "47d9af53-24a8-4593-a439-a73b88ad53ae"
+    sni: "green2.cdntencentmusic.com"
 

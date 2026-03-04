@@ -1,5 +1,12 @@
 proxies:
-  - name: "[mibei] FR(mibei77.com )-0"
+  - name: "[mibei] US(mibei77.com )-0"
+    type: "trojan"
+    server: "bpbg.anguswen.top"
+    port: 8443
+    password: "!<str> 123456"
+    sni: "bpbg.anguswen.top"
+
+  - name: "[mibei] US(mibei77.com ) 2-1"
     type: "vmess"
     server: "2001:bc8:32d7:302::10"
     port: 44579
@@ -9,332 +16,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US(mibei77.com )-1"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35501
-    password: "8595b855-e4c4-40cd-834d-d34bb65ec928"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 2-3"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35501
-    password: "f976ac58-b52a-4a54-9c8e-3d49fd365232"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] TW(mibei77.com )-4"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "9tqhMdIrTkgQ46PvhyAtMH"
-
-  - name: "[mibei] US(mibei77.com ) 3-5"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 35501
-    password: "bbde1e79-49d4-448a-a81d-38bfbba3480d"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "[mibei] TW(mibei77.com ) 2-6"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35501
-    password: "47d9af53-24a8-4593-a439-a73b88ad53ae"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 4-7"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "RFK38Cg7APneSB5cWDcpbm"
-
-  - name: "[mibei] US(mibei77.com ) 5-9"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 57927
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 6-10"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31103
-    password: "36325a98-46a4-4770-977a-9a9570e0bcc6"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] RU(mibei77.com )-11"
-    type: "trojan"
-    server: "109.234.211.66"
-    port: 8443
-    password: "trojan"
-    sni: "109.234.211.66"
-
-  - name: "[mibei] US(mibei77.com ) 7-12"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 34411
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 8-13"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 55936
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 9-14"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31102
-    password: "858fc0a5-69ad-48e3-8c6d-e4375cca8fc9"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] SG(mibei77.com )-15"
-    type: "vmess"
-    server: "vc.fly.dev"
-    port: 443
-    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 10-16"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31103
-    password: "852a0251-7fbd-4a07-a365-352695af950c"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] HK(mibei77.com ) 2-17"
-    type: "ss"
-    server: "chengbai02.ascwt179.com"
-    port: 13223
-    cipher: "aes-128-gcm"
-    password: "JVrsLLN1tkN8oXZO"
-
-  - name: "[mibei] US(mibei77.com ) 12-19"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35501
-    password: "92953fc6-f497-43af-9d6d-f3b5589df318"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 13-20"
-    type: "trojan"
-    server: "167.68.4.199"
-    port: 2053
-    password: "Aimer"
-    sni: "167.68.4.199"
-
-  - name: "[mibei] US(mibei77.com ) 16-23"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35502
-    password: "6f038cee-6ba1-4941-bce5-de1969f37405"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 18-25"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 20149
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 19-27"
-    type: "ss"
-    server: "tinkered-pennies-puppies.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "hbGrpfvNrJsUmKmPbR3iY2"
-
-  - name: "[mibei] US(mibei77.com ) 20-29"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31103
-    password: "20a3d819-ca7f-48a6-ba20-f7021e8dbbbe"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 21-30"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 46197
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 22-31"
-    type: "vmess"
-    server: "83.229.121.113"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 23-32"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35502
-    password: "c5355528-55a2-45df-b8fd-a48ce3c41413"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] TW(mibei77.com ) 3-33"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 35501
-    password: "ba222255-00e9-434d-88f0-e0c22ac529f4"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "[mibei] HK(mibei77.com ) 5-34"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 18148
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 25-36"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 43076
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 26-37"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 28063
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 27-38"
-    type: "vmess"
-    server: "43.163.6.135"
-    port: 41079
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] TW(mibei77.com ) 4-39"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 35501
-    password: "47d9af53-24a8-4593-a439-a73b88ad53ae"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "[mibei] US(mibei77.com ) 28-40"
-    type: "vmess"
-    server: "dcvfr546.0ou.ccwu.cc"
-    port: 80
-    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 30-42"
-    type: "vmess"
-    server: "sxcdr.1gg.ccwu.cc"
-    port: 80
-    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 33-45"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::11"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 36-48"
-    type: "ss"
-    server: "185.193.48.157"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20"
-
-  - name: "[mibei] US(mibei77.com ) 37-49"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35501
-    password: "66c62e1a-8037-4154-ad0b-7a0ec415f46c"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 41-57"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 35501
-    password: "a1a00c82-5356-4a49-8944-1cd0f94168bb"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 42-58"
-    type: "vmess"
-    server: "cvbghyu.s890604.qzz.io"
-    port: 443
-    uuid: "cff35335-31c1-4f2c-8df3-2b81243a31ac"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] TW(mibei77.com ) 5-85"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31103
-    password: "4250b3bb-d1ae-4e77-bf71-4069e0d2c383"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "[mibei] (mibei77.com )-88"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "wwzVn2ZnHfqYa6l8EWh3eY"
-
-  - name: "[mibei] US(mibei77.com ) 57-92"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 34061
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 59-94"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::14"
-    port: 44579
-    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 65-100"
+  - name: "[mibei] US(mibei77.com ) 3-2"
     type: "ss"
     server: "iepl.huli168.com"
     port: 19822
     cipher: "aes-256-gcm"
     password: "g4JtpkuxkwRH4jhj"
 
-  - name: "[mibei] US(mibei77.com ) 68-105"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 10589
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 74-112"
+  - name: "[mibei] US(mibei77.com ) 4-3"
     type: "vmess"
     server: "2001:bc8:32d7:302::15"
     port: 44579
@@ -344,47 +33,16 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] TW(mibei77.com ) 7-128"
+  - name: "[mibei] HK(mibei77.com )-8"
     type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 35501
-    password: "04e5b584-1850-483d-a844-9ad624a4ca8e"
-    sni: "green2.cdntencentmusic.com"
+    server: "167.68.4.199"
+    port: 2053
+    password: "Aimer"
+    sni: "167.68.4.199"
 
-  - name: "[mibei] US(mibei77.com ) 86-134"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31102
-    password: "125f929b-dbde-43b9-b498-695f1cd45d68"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 87-135"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31102
-    password: "4250b3bb-d1ae-4e77-bf71-4069e0d2c383"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 88-136"
+  - name: "[mibei] US(mibei77.com ) 9-9"
     type: "vmess"
-    server: "175.29.23.104"
-    port: 8443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 90-138"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31103
-    password: "0a169d7d-a30f-4d90-af1b-55f6ef6afcb7"
-    sni: "220.130.58.136"
-
-  - name: "[mibei] US(mibei77.com ) 91-140"
-    type: "vmess"
-    server: "2001:bc8:32d7:302::17"
+    server: "2001:bc8:32d7:302::11"
     port: 44579
     uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
     alterId: 0
@@ -392,14 +50,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] US(mibei77.com ) 92-141"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 35501
-    password: "11cfbea5-eae4-4654-8aa9-a9481f38dc42"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "[mibei] US(mibei77.com ) 93-142"
+  - name: "[mibei] US(mibei77.com ) 10-10"
     type: "vmess"
     server: "2001:bc8:32d7:302::16"
     port: 44579
@@ -409,27 +60,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "[mibei] HK(mibei77.com ) 10-148"
-    type: "vmess"
-    server: "154.211.8.199"
+  - name: "[mibei] US(mibei77.com ) 12-13"
+    type: "ss"
+    server: "tinkered-pennies-puppies.freesocks.work"
     port: 443
-    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
+    cipher: "chacha20-ietf-poly1305"
+    password: "hbGrpfvNrJsUmKmPbR3iY2"
 
-  - name: "[mibei] US(mibei77.com ) 98-149"
-    type: "vmess"
-    server: "94.247.142.199"
-    port: 443
-    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] US(mibei77.com ) 99-150"
+  - name: "[mibei] US(mibei77.com ) 13-14"
     type: "vmess"
     server: "130.250.137.199"
     port: 443
@@ -439,7 +77,80 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "[mibei] US(mibei77.com ) 100-151"
+  - name: "[mibei] RU(mibei77.com )-15"
+    type: "ss"
+    server: "195.58.49.100"
+    port: 60129
+    cipher: "aes-256-gcm"
+    password: "9f3d1a6d31468599"
+
+  - name: "[mibei] (mibei77.com )-20"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "wwzVn2ZnHfqYa6l8EWh3eY"
+
+  - name: "[mibei] HK(mibei77.com ) 2-21"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 34411
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 20-26"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 2087
+    password: "trojan"
+    sni: "109.234.211.66"
+
+  - name: "[mibei] US(mibei77.com ) 24-31"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 34061
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] RU(mibei77.com ) 2-32"
+    type: "ss"
+    server: "45.140.169.225"
+    port: 60129
+    cipher: "aes-256-gcm"
+    password: "c5fcdf7829112cb4"
+
+  - name: "[mibei] US(mibei77.com ) 25-33"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 18148
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 42-54"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "9tqhMdIrTkgQ46PvhyAtMH"
+
+  - name: "[mibei] US(mibei77.com ) 52-65"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35502
+    password: "6f038cee-6ba1-4941-bce5-de1969f37405"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 55-68"
+    type: "vmess"
+    server: "dcvfr546.0ou.ccwu.cc"
+    port: 80
+    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 59-73"
     type: "vmess"
     server: "198.62.62.199"
     port: 443
@@ -449,321 +160,380 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "[mibei] US(mibei77.com ) 101-152"
-    type: "vmess"
-    server: "43.161.254.121"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
+  - name: "[mibei] US(mibei77.com ) 60-74"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31102
+    password: "92953fc6-f497-43af-9d6d-f3b5589df318"
+    sni: "220.130.58.136"
 
-  - name: "[mibei] US(mibei77.com ) 107-159"
+  - name: "[mibei] US(mibei77.com ) 62-76"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 28063
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 63-77"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 20149
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 65-79"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 46197
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] RU(mibei77.com ) 3-80"
     type: "trojan"
     server: "109.234.211.66"
-    port: 2087
+    port: 8443
     password: "trojan"
     sni: "109.234.211.66"
 
-  - name: "[nodefree] _VE_-171"
-    type: "vless"
-    server: "158.160.221.132"
-    port: 51102
-    uuid: "d4d031ec-0ba6-486a-aa0c-dce2b7cb8933"
-    tls: true
-    network: "tcp"
+  - name: "[mibei] US(mibei77.com ) 68-83"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 35501
+    password: "11cfbea5-eae4-4654-8aa9-a9481f38dc42"
+    sni: "green2.cdntencentmusic.com"
 
-  - name: "[nodefree] _US_-172"
-    type: "vless"
-    server: "172.67.160.192"
-    port: 443
-    uuid: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/free/103.101.153.32:443"
-
-  - name: "[nodefree] _US__1-173"
-    type: "vless"
-    server: "144.31.111.182"
-    port: 8443
-    uuid: "9f4ffa56-6813-430c-8cac-159cc469086a"
-    tls: true
-    network: "tcp"
-
-  - name: "[nodefree] _CN_-174"
+  - name: "[mibei] GB(mibei77.com )-85"
     type: "vmess"
-    server: "a97f4a24-t9w4g0-tn57fp-5ifr.hkt.gotochinatown.net"
-    port: 80
-    uuid: "ecfab6c8-df5b-11ed-98a7-f23c913c8d2b"
+    server: "2001:bc8:32d7:302::17"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
     alterId: 0
     cipher: "auto"
     tls: false
     network: "ws"
-    ws-opts:
-      path: "/"
 
-  - name: "[nodefree] _US__2-175"
-    type: "vless"
-    server: "141.101.123.40"
-    port: 443
-    uuid: "8388434b-bbc8-4e00-b497-69a7f56f6e24"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/ws"
-
-  - name: "[nodefree] _CN__1-176"
-    type: "vmess"
-    server: "c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net"
-    port: 80
-    uuid: "bcc58e88-e147-11ec-b286-f23c91cfbbc9"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "[nodefree] _CN__2-177"
-    type: "vmess"
-    server: "5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net"
-    port: 80
-    uuid: "167db97c-ee01-11ef-b737-f23c91cfbbc9"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "[nodefree] _US__3-178"
-    type: "vless"
-    server: "173.245.59.121"
-    port: 443
-    uuid: "979b6822-d65a-400d-89f8-30391903ac20"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/ws"
-
-  - name: "[nodefree] _BR_->_US_-179"
-    type: "vless"
-    server: "cdn.halazzon.ir"
-    port: 443
-    uuid: "a75cf6f3-10fb-461b-a5a5-a934f6039cce"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/36.95.152.58=12137"
-
-  - name: "[nodefree] _CN__3-180"
-    type: "vmess"
-    server: "92c73b3e-t9w4g0-thd0h1-1rz5s.hkt.gotochinatown.net"
-    port: 80
-    uuid: "40e084d6-0316-11f0-90e2-f23c913c8d2b"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "[nodefree] _RU_-181"
-    type: "vless"
-    server: "russia7.yourbot.me"
-    port: 443
-    uuid: "15d5ef21-f4cd-4812-bb30-f998051c5dc1"
-    tls: true
-    network: "tcp"
-
-  - name: "[nodefree] _RU_->_PL_-182"
-    type: "vless"
-    server: "83.166.238.183"
-    port: 8443
-    uuid: "d4d031ec-0ba6-486a-aa0c-dce2b7cb8933"
-    tls: true
-    network: "tcp"
-
-  - name: "[nodefree] _RU_->_US_-183"
-    type: "vless"
-    server: "89.169.162.214"
-    port: 8443
-    uuid: "2ad6bd90-51fd-41d2-985b-b7aab5cd77c8"
-    tls: true
-    network: "tcp"
-
-  - name: "[nodefree] -184"
+  - name: "[mibei] US(mibei77.com ) 70-88"
     type: "ss"
-    server: "103.186.155.127"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "RFK38Cg7APneSB5cWDcpbm"
+
+  - name: "[mibei] US(mibei77.com ) 72-91"
+    type: "vmess"
+    server: "94.247.142.199"
+    port: 443
+    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 77-102"
+    type: "vmess"
+    server: "uik.191268.xyz"
+    port: 443
+    uuid: "721d3fd0-e9f1-40c3-92cd-d4405a4319d6"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] TW(mibei77.com )-105"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 55936
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 80-106"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35502
+    password: "c5355528-55a2-45df-b8fd-a48ce3c41413"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 85-113"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35501
+    password: "66c62e1a-8037-4154-ad0b-7a0ec415f46c"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 86-116"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35501
+    password: "a1a00c82-5356-4a49-8944-1cd0f94168bb"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 87-117"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 43076
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 88-118"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35501
+    password: "8595b855-e4c4-40cd-834d-d34bb65ec928"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 89-119"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35501
+    password: "f976ac58-b52a-4a54-9c8e-3d49fd365232"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 95-126"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 31102
+    password: "5f6ded93-4ab8-4a99-9c84-b19b9993f27c"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[mibei] US(mibei77.com ) 96-128"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31102
+    password: "858fc0a5-69ad-48e3-8c6d-e4375cca8fc9"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 99-132"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 35501
+    password: "0a169d7d-a30f-4d90-af1b-55f6ef6afcb7"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[mibei] US(mibei77.com ) 103-138"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 57927
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 111-150"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35501
+    password: "92953fc6-f497-43af-9d6d-f3b5589df318"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 114-158"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31102
+    password: "4250b3bb-d1ae-4e77-bf71-4069e0d2c383"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 118-167"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 10589
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 121-171"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31102
+    password: "125f929b-dbde-43b9-b498-695f1cd45d68"
+    sni: "220.130.58.136"
+
+  - name: "[mibei] US(mibei77.com ) 125-175"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 18140
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 129-179"
+    type: "vmess"
+    server: "2001:bc8:32d7:302::14"
+    port: 44579
+    uuid: "8e34e170-13ae-4892-9d20-05962acc9f84"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[nodefree] _CN_->_DE_-181"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 35501
+    password: "04e5b584-1850-483d-a844-9ad624a4ca8e"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[nodefree] _CN_->_LT_-182"
+    type: "ss"
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
+
+  - name: "[nodefree] _CA_-183"
+    type: "vless"
+    server: "142.248.80.157"
+    port: 443
+    uuid: "4aff5de5-83dc-43c9-a33e-10e6fdb90ed2"
+    tls: true
+    network: "tcp"
+
+  - name: "[nodefree] _US_-186"
+    type: "vless"
+    server: "hk.tfree.top"
+    port: 10006
+    uuid: "48b36b6a-eaa6-4843-9231-0bb8b38b5da5"
+    tls: true
+    network: "tcp"
+
+  - name: "[nodefree] -187"
+    type: "ss"
+    server: "103.186.154.58"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "[nodefree] _US__4-185"
+  - name: "[nodefree] _1-188"
     type: "ss"
-    server: "admin.c2.havij.co"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "kaQH3hGdcP80XEDI"
+    server: "103.186.154.139"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "[nodefree] _US_->_NL_-186"
+  - name: "[nodefree] _RU_-189"
     type: "vless"
-    server: "cloud2.turkserver.ir"
-    port: 2096
-    uuid: "77cb6e9e-f83f-40e5-b4da-90e25d75123e"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "[nodefree] _BR_->_DE_-187"
-    type: "vless"
-    server: "my.montago-shop.ir"
+    server: "nr-01.opsvpnvless.ru"
     port: 443
-    uuid: "929c6e27-4c24-4775-bc51-0e6117dabd4b"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "[nodefree] _RU__1-188"
-    type: "vless"
-    server: "0ru84.tcpdoor.net"
-    port: 443
-    uuid: "40ecece1-edd9-4543-99c7-529ee594135d"
+    uuid: "1218c022-dca8-49e5-b7d4-a04f3023db81"
     tls: true
     network: "tcp"
 
-  - name: "[nodefree] _CN__4-189"
-    type: "vmess"
-    server: "51f142c0-t9w4g0-tart0c-g3b3.hkt.gotochinatown.net"
-    port: 80
-    uuid: "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "[nodefree] _US_->_FR_-190"
+  - name: "[nodefree] _US__1-190"
     type: "vless"
-    server: "104.24.69.114"
+    server: "198.62.62.235"
     port: 443
-    uuid: "85462399-8624-4e5c-bbb0-f95d84ca8256"
+    uuid: "5a4abb78-ecd7-4d68-ab2a-c11a3842f261"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/ws"
+      path: "/love"
 
-  - name: "[nodefree] _US_->_DE_-191"
+  - name: "[nodefree] _US__2-191"
     type: "vless"
-    server: "nx.cloud1.hosting-ip.zulagaming.icu"
+    server: "198.62.62.248"
+    port: 443
+    uuid: "5a4abb78-ecd7-4d68-ab2a-c11a3842f261"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/love"
+
+  - name: "[nodefree] _US__3-192"
+    type: "vless"
+    server: "104.18.32.47"
     port: 2052
-    uuid: "1f00970a-14c1-40d0-9c06-43f513975be1"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "[nodefree] _US_->_FI_-192"
-    type: "vless"
-    server: "FASTLY.COM"
-    port: 80
-    uuid: "c805b05e-339d-40e0-8787-432d97a27345"
+    uuid: "5e62ddcf-78c9-4b15-803a-436c8c839ddc"
     tls: false
     network: "ws"
     ws-opts:
       path: "/"
 
-  - name: "[nodefree] _US_->_NL__1-193"
+  - name: "[nodefree] _2-193"
+    type: "ss"
+    server: "103.186.154.160"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[nodefree] _3-194"
+    type: "ss"
+    server: "103.186.154.188"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[nodefree] _US__4-195"
     type: "vless"
-    server: "rus-0001-xr.packet-drop-society.net"
+    server: "47.80.12.87"
     port: 443
-    uuid: "ba77276e-9939-4c6c-a73e-90e02b6faf13"
+    uuid: "3e7f67de-648e-4871-b51a-a225214d41ee"
     tls: true
     network: "tcp"
 
-  - name: "[nodefree] _GB_-194"
+  - name: "[nodefree] _4-196"
+    type: "ss"
+    server: "103.186.154.250"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[nodefree] _5-197"
+    type: "ss"
+    server: "103.186.155.53"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[nodefree] _6-200"
+    type: "ss"
+    server: "103.186.154.240"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[nodefree] _RU__2-201"
     type: "vless"
-    server: "5.188.142.230"
-    port: 8081
-    uuid: "148fcfad-46d5-40c1-8045-52c4f626fc8a"
+    server: "5.101.85.4"
+    port: 47407
+    uuid: "cc69278f-b497-4518-a346-5c0e11f1e9ae"
     tls: true
-    network: "tcp"
+    network: "grpc"
 
-  - name: "[nodefree] _CN__5-195"
-    type: "vmess"
-    server: "c3d192c0-t9w4g0-tb5nzx-1mqag.hkt.gotochinatown.net"
-    port: 80
-    uuid: "b585dac6-dc69-11ef-9f1c-f23c913c8d2b"
-    alterId: 0
-    cipher: "auto"
-    tls: false
+  - name: "[nodefree] _7-202"
+    type: "ss"
+    server: "103.186.154.205"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[nodefree] _BR_->_RU_-203"
+    type: "vless"
+    server: "azaranik.ir"
+    port: 2053
+    uuid: "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7"
+    tls: true
     network: "ws"
     ws-opts:
       path: "/"
 
-  - name: "[nodefree] _DE_-196"
+  - name: "[nodefree] _8-204"
+    type: "ss"
+    server: "103.186.154.46"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[nodefree] _FI_-205"
     type: "vless"
-    server: "secdn17.suio.me"
+    server: "195.20.17.182"
     port: 443
-    uuid: "a7a9f670-44c0-45a9-8047-69db0203c142"
+    uuid: "ec5796b3-678b-4b11-9c1d-a53171dfd897"
     tls: true
     network: "tcp"
 
-  - name: "[nodefree] _US__5-197"
-    type: "vless"
-    server: "190.93.245.102"
-    port: 443
-    uuid: "f521fa2c-835e-43e7-b4dc-a1fd6f2ed1dd"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/ws"
-
-  - name: "[nodefree] _RU_->_US__1-198"
-    type: "vless"
-    server: "217.16.25.173"
-    port: 443
-    uuid: "0bdf406a-84a5-46a0-baf8-c1d85ad30d6b"
-    tls: true
-    network: "tcp"
-
-  - name: "[nodefree] _CN__6-199"
-    type: "vmess"
-    server: "967d835d-t9w4g0-tysu9z-1nq4g.hkt.gotochinatown.net"
-    port: 80
-    uuid: "80aa5178-f936-11ed-8ce6-f23c91369f2d"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "[nodefree] _CN__7-200"
-    type: "vmess"
-    server: "dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net"
-    port: 80
-    uuid: "d18bcaf4-1323-11ec-a0fc-f23c913c8d2b"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "github.com/freefq -   1-212"
+  - name: "github.com/freefq -   1-217"
     type: "ss"
     server: "185.242.86.156"
     port: 54170
     cipher: "chacha20-ietf-poly1305"
     password: "36ZCHeabUSfKjfQEvJ4HDV"
 
-  - name: "github.com/freefq -   2-213"
+  - name: "github.com/freefq -   2-218"
     type: "vmess"
     server: "202.78.162.5"
     port: 443
@@ -773,7 +543,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github.com/freefq -   3-214"
+  - name: "github.com/freefq -   3-219"
     type: "vmess"
     server: "202.78.162.5"
     port: 443
@@ -783,7 +553,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github.com/freefq - CloudFlareCDN 4-215"
+  - name: "github.com/freefq - CloudFlareCDN 4-220"
     type: "vmess"
     server: "www.darkroom.lol"
     port: 8080
@@ -793,14 +563,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github.com/freefq -   5-216"
+  - name: "github.com/freefq -   5-221"
     type: "ss"
     server: "193.243.147.128"
     port: 40368
     cipher: "aes-256-gcm"
     password: "7BcLdsO1WweoGD0X"
 
-  - name: "github.com/freefq - CloudFlareCDN 6-217"
+  - name: "github.com/freefq - CloudFlareCDN 6-222"
     type: "vmess"
     server: "server31.beheshtbaneh.com"
     port: 8880
@@ -810,7 +580,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github.com/freefq -  7-218"
+  - name: "github.com/freefq -  7-223"
     type: "vmess"
     server: "data-us-v1.shwjfkw.cn"
     port: 20401
@@ -820,14 +590,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github.com/freefq -  8-219"
+  - name: "github.com/freefq -  8-224"
     type: "ss"
     server: "service.ouluyun9803.com"
     port: 20003
     cipher: "chacha20-ietf-poly1305"
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
-  - name: "github.com/freefq - CloudFlareCDN 9-220"
+  - name: "github.com/freefq - CloudFlareCDN 9-225"
     type: "vmess"
     server: "104.21.82.183"
     port: 8880
@@ -837,7 +607,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github.com/freefq -   10-221"
+  - name: "github.com/freefq -   10-226"
     type: "vmess"
     server: "202.78.162.5"
     port: 443
@@ -847,21 +617,21 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github.com/freefq -  11-222"
+  - name: "github.com/freefq -  11-227"
     type: "ss"
     server: "service.ouluyun9803.com"
     port: 26667
     cipher: "chacha20-ietf-poly1305"
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
-  - name: "github.com/freefq -  12-223"
+  - name: "github.com/freefq -  12-228"
     type: "ss"
     server: "service.ouluyun9803.com"
     port: 20005
     cipher: "chacha20-ietf-poly1305"
     password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
 
-  - name: "github.com/freefq - FastlyAnycast 13-224"
+  - name: "github.com/freefq - FastlyAnycast 13-229"
     type: "vmess"
     server: "gov.uk"
     port: 443
@@ -871,7 +641,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github.com/freefq - CloudFlare 14-225"
+  - name: "github.com/freefq - CloudFlare 14-230"
     type: "vmess"
     server: "server32.beheshtbaneh.com"
     port: 8880
@@ -881,34 +651,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "-001 _5.4MB/s_NF_GM-US_0%_(AzadNet.t.me)-240"
-    type: "trojan"
-    server: "5.34.222.4"
-    port: 43642
-    password: "347ca311-8fc2-499c-8fe1-bd0ecb50f1b3"
-    sni: "iepl.usq1.cat.bilibili.com"
-
-  - name: "-002 _3.1MB/s_GPT_YT-DE_NF_D+-243"
-    type: "vless"
-    server: "5.252.25.44"
-    port: 8443
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-001 _1.3MB/s_YT-SE_NF_D+-247"
-    type: "vless"
-    server: "62.182.192.49"
-    port: 443
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-004 _1.7MB/s-253"
+  - name: "-001 _6.4MB/s_GPT_X_History-246"
     type: "vmess"
     server: "82.198.246.97"
     port: 180
@@ -918,108 +661,35 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "-001 _1.5MB/s_GPT_NF_D+_5%-256"
+  - name: "-003 _3.7MB/s_1%_TK-US_YT-US_NF_D+_GPT_GM-US-247"
     type: "vless"
-    server: "91.84.100.39"
+    server: "104.160.42.64"
+    port: 38334
+    uuid: "c9d7993a-d7fc-4ce5-9877-6567f174f1ef"
+    tls: true
+    network: "tcp"
+
+  - name: "-001 _4.7MB/s_5%_YT-KR_NF_D+_GPT_GM-KR-248"
+    type: "vless"
+    server: "175.213.181.45"
+    port: 12488
+    uuid: "5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "-001 _5.0MB/s_5%_TK-US_YT-US_NF_D+_GPT_GM-US-251"
+    type: "vless"
+    server: "92.243.74.4"
     port: 8443
-    uuid: "Telegram:@Free_VPN_CH"
+    uuid: "5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/sg-lnd"
+      path: "/"
 
-  - name: "-002 _1.5MB/s_GPT_YT-NL_NF_2%-257"
-    type: "ss"
-    server: "77.105.141.175"
-    port: 9001
-    cipher: "chacha20-ietf-poly1305"
-    password: "70vxiyEWzXN2w0ctWa5GZ4"
-
-  - name: "-001 _4.3MB/s_YT-SE_NF_D+_5%-258"
-    type: "vless"
-    server: "176.125.240.51"
-    port: 2053
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-001 _742KB/s_GPT_YT-AT_NF_D+_10%-260"
-    type: "vless"
-    server: "152.53.46.200"
-    port: 443
-    uuid: "eb071647-72a6-46be-8e89-ff3d228d52f6"
-    tls: true
-    network: "tcp"
-
-  - name: "-001 _4.0MB/s_GPT_YT-RU_NF_D+_0%-261"
-    type: "vless"
-    server: "185.171.202.58"
-    port: 443
-    uuid: "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1"
-    tls: true
-    network: "tcp"
-
-  - name: "-003 _1.5MB/s_GPT_NF_D+_5%-263"
-    type: "vless"
-    server: "195.200.16.70"
-    port: 2053
-    uuid: "Telegram:@Free_VPN_CH"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-009 _2.6MB/s_GPT_YT-US_NF_D+_21%-275"
-    type: "vless"
-    server: "152.53.167.53"
-    port: 2053
-    uuid: "f81fac6d-88e7-45e3-b19e-084527859fba"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/events"
-
-  - name: "-002 _4.9MB/s_YT-SE_NF_D+-277"
-    type: "vless"
-    server: "206.168.213.248"
-    port: 8443
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-004 _1.2MB/s_GPT_D+_5%-278"
-    type: "vless"
-    server: "212.34.140.205"
-    port: 443
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-002 _4.0MB/s_YT-SE_NF_D+-279"
-    type: "vless"
-    server: "176.125.240.147"
-    port: 2053
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-005 _4.8MB/s_GPT_YT-US_NF_0%-283"
-    type: "vless"
-    server: "194.61.3.29"
-    port: 38257
-    uuid: "9d8a065f-acb6-4ca1-896b-74b10f1fab42"
-    tls: false
-    network: "tcp"
-
-  - name: "-011 _3.0MB/s_GPT_YT-RU_NF_100%-284"
+  - name: "-006 _4.3MB/s_11%_TK-NL_YT-RU_NF_GPT-255"
     type: "vless"
     server: "143.20.236.51"
     port: 443
@@ -1027,43 +697,7 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "-012 _2.4MB/s_GPT_YT-NL_NF_D+_5%-288"
-    type: "vless"
-    server: "143.20.236.93"
-    port: 8443
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-003 _2.6MB/s_YT-RU-289"
-    type: "vless"
-    server: "212.192.14.250"
-    port: 64527
-    uuid: "b3203210-2e42-468a-ad7d-5da9b9a1bac4"
-    tls: true
-    network: "tcp"
-
-  - name: "-003 _3.7MB/s_YT-SE_NF_D+-290"
-    type: "vless"
-    server: "193.53.40.219"
-    port: 8443
-    uuid: "Telegram"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-002 _1.6MB/s_GPT_YT-GB_D+_40%-293"
-    type: "vless"
-    server: "109.172.55.232"
-    port: 13760
-    uuid: "5fad3ad2-1a94-40d0-85bb-51eb83f5c7df"
-    tls: true
-    network: "tcp"
-
-  - name: "-005 _2.7MB/s_GPT_YT-NL_NF_0%-295"
+  - name: "-002 _2.7MB/s_GPT_YT-NL_NF_0%-256"
     type: "vless"
     server: "202.148.53.117"
     port: 8443
@@ -1071,15 +705,45 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "-001 _5.2MB/s_GPT_YT-US_NF_D+_40%-298"
-    type: "vless"
-    server: "178.17.59.73"
+  - name: "-004 _605KB/s_YT-FR_NF_D+-258"
+    type: "trojan"
+    server: "141.94.68.216"
     port: 2053
-    uuid: "07cd9dbe-21ac-4871-817d-c772687e4b7c"
+    password: "iwangjie"
+    sni: "nodes.830901.xyz"
+
+  - name: "-001 _3.8MB/s_40%_YT-RU_NF_D+_GPT-260"
+    type: "vless"
+    server: "78.159.131.16"
+    port: 443
+    uuid: "400c1f85-9d3a-444a-8a50-81b11f3b4c20"
     tls: true
     network: "tcp"
 
-  - name: "-004 _2.5MB/s_YT-RU-300"
+  - name: "-001 _864KB/s_GPT_YT-CN_NF_5%-261"
+    type: "vless"
+    server: "176.125.240.166"
+    port: 443
+    uuid: "002accb526534fcab24a72b0ea1cff59"
+    tls: true
+    network: "tcp"
+
+  - name: "-001 _796KB/s_GPT_YT-RU_NF_43%-263"
+    type: "vless"
+    server: "2.59.162.100"
+    port: 443
+    uuid: "Bober_497332"
+    tls: true
+    network: "tcp"
+
+  - name: "-001 _2.4MB/s_22%_TK-ES_YT-ES_NF_GPT-266"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9003
+    cipher: "aes-256-cfb"
+    password: "JdmRK9gMEqFgs8nP"
+
+  - name: "-001 _2.5MB/s_YT-RU-267"
     type: "vless"
     server: "95.215.108.205"
     port: 8443
@@ -1087,153 +751,167 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "-005 _2.2MB/s_YT-RU-309"
+  - name: "-005 _4.1MB/s_YT-RU_NF_D+-270"
     type: "vless"
-    server: "45.139.26.246"
-    port: 23335
-    uuid: "e384913f-8863-47b4-8858-a84b68abb4a6"
-    tls: true
-    network: "tcp"
-
-  - name: "-001 _712KB/s_GPT_YT-VN_NF-319"
-    type: "ss"
-    server: "103.186.154.61"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-002 _851KB/s_GPT_YT-VN_NF-320"
-    type: "ss"
-    server: "103.186.155.133"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-003 _2.7MB/s-321"
-    type: "ss"
-    server: "103.186.154.54"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-004 _1.2MB/s_GPT_YT-VN_NF-323"
-    type: "ss"
-    server: "103.186.155.144"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-005 _785KB/s_GPT_YT-VN_NF-324"
-    type: "ss"
-    server: "103.186.155.231"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-006 _643KB/s_GPT_YT-VN_NF-325"
-    type: "ss"
-    server: "103.186.155.8"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-007 _962KB/s_GPT_YT-VN_NF_GM-VN-327"
-    type: "ss"
-    server: "103.186.154.57"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-003 _2.2MB/s_GPT_YT-RU_NF_D+_0%-328"
-    type: "vless"
-    server: "45.13.119.38"
+    server: "213.165.54.4"
     port: 443
-    uuid: "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1"
+    uuid: "c2d09c1c-7d4d-46c4-838f-ad263b93c4e1"
     tls: true
     network: "tcp"
 
-  - name: "-008 _1.4MB/s_GPT_YT-US_NF_GM-IR-329"
+  - name: "-002 _0.6MB/s_GPT_X_History-271"
     type: "ss"
-    server: "103.186.154.210"
-    port: 38388
+    server: "5.188.181.201"
+    port: 9025
     cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    password: "XPtzA9sCug3SPR4c"
 
-  - name: "-009 _1.3MB/s_GPT_YT-US_NF-330"
-    type: "ss"
-    server: "103.186.154.209"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-001 _3.3MB/s_GPT-331"
+  - name: "-003 _2.3MB/s-272"
     type: "vless"
-    server: "94.184.24.235"
-    port: 56001
-    uuid: "48e3ec8d-44ce-4542-aa4d-a48573e0d423"
-    tls: false
-    network: "tcp"
-
-  - name: "-010 _1.1MB/s_TK-VN_YT-US_NF_GPT_GM_(AzadNet.t.me)-340"
-    type: "ss"
-    server: "103.186.155.36"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-007 _2.1MB/s_GPT-344"
-    type: "vless"
-    server: "109.120.158.227"
-    port: 8443
-    uuid: "Telegram:@Free_VPN_CH"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
-
-  - name: "-013 _3.4MB/s_GPT_YT-RU_NF_D+_0%-349"
-    type: "vless"
-    server: "45.86.70.95"
-    port: 8443
-    uuid: "1e45a266-9a04-47af-b703-e53a67373cc9"
+    server: "45.139.26.152"
+    port: 7443
+    uuid: "7fc953d6-ae75-46fb-a970-10b57d513487"
     tls: true
     network: "tcp"
 
-  - name: "-011 _665KB/s_YT-US_NF_GPT_GM-350"
-    type: "ss"
-    server: "103.186.154.34"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-012 _1.7MB/s_YT-VN_NF_GPT_GM-351"
-    type: "ss"
-    server: "103.186.154.221"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-008 _1.8MB/s_GPT_NF_D+_5%-356"
+  - name: "-004 _4.2MB/s_YT-RU-273"
     type: "vless"
-    server: "212.34.152.212"
+    server: "121.127.37.173"
+    port: 443
+    uuid: "f2f8e34f-4a9d-46e9-b615-d46e4bab5e9c"
+    tls: true
+    network: "tcp"
+
+  - name: "-001 _3.7MB/s_0%_YT-RU_NF_GPT_GM-US-274"
+    type: "vless"
+    server: "144.31.131.224"
     port: 8443
-    uuid: "Telegram:@Free_VPN_CH"
+    uuid: "0ee2d410-3e64-4c41-a571-3e5d2b5b8982"
     tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-lnd"
+    network: "tcp"
 
-  - name: "-014 _1.8MB/s_GPT_YT-US_NF_D+_GM_5%-359"
+  - name: "-003 _1.7MB/s_22%_TK-ES_YT-ES_NF_GPT-275"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9030
+    cipher: "aes-256-cfb"
+    password: "GeregetR8cvQHzYr"
+
+  - name: "-001 _1.9MB/s_GPT_GM_X_History-278"
+    type: "ss"
+    server: "103.186.154.193"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-002 _1.1MB/s_YT-US_NF_GPT-279"
+    type: "ss"
+    server: "103.186.155.154"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-003 _796KB/s_YT-VN_NF_GPT_GM-VN-280"
+    type: "ss"
+    server: "103.186.154.25"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-004 _1.2MB/s_YT-US_NF_GPT-281"
+    type: "ss"
+    server: "103.186.154.157"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-005 _698KB/s_YT-VN_NF_GPT_GM-VN-282"
+    type: "ss"
+    server: "103.186.154.16"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-006 _858KB/s_YT-VN_NF_GPT-283"
+    type: "ss"
+    server: "103.186.154.200"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-007 _1.7MB/s_GPT_YT-US_NF-285"
+    type: "ss"
+    server: "103.186.154.56"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-008 _609KB/s_YT-US_NF_GPT-286"
+    type: "ss"
+    server: "103.186.155.80"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-009 _958KB/s_GPT_YT-US_NF_GM-MM-287"
+    type: "ss"
+    server: "103.186.154.30"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-010 _935KB/s_GPT_YT-US_NF-288"
+    type: "ss"
+    server: "103.186.154.42"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-011 _1.2MB/s_GPT_YT-VN_NF-289"
+    type: "ss"
+    server: "103.186.155.108"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-012 _2.7MB/s_GPT_X_History_[_]-290"
+    type: "ss"
+    server: "103.186.154.178"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-001 _7.2MB/s_NF_GPT-291"
+    type: "hysteria2"
+    server: "68.183.86.206"
+    port: 443
+    password: "tJa8RTLcsT"
+    udp: true
+
+  - name: "-013 _1.4MB/s_GPT_YT-VN_NF_GM-VN-292"
+    type: "ss"
+    server: "103.186.154.243"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "-005 _3.9MB/s_0%_TK-BG_YT-RU_NF_D+_GPT-293"
     type: "vless"
-    server: "14.102.228.238"
-    port: 2096
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "185.248.33.27"
+    port: 443
+    uuid: "0a0d8e6f-8747-4ff6-afe0-e70aa97e7de8"
     tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
+    network: "tcp"
 
-  - name: "-014 _6.4MB/s_YT-DE_NF_D+-360"
+  - name: "-006 _1.2MB/s_GPT_YT-RU_NF_D+_6%-294"
+    type: "vless"
+    server: "159.195.26.28"
+    port: 443
+    uuid: "84f66368-8a37-468e-ae95-5622255fd4db"
+    tls: true
+    network: "tcp"
+
+  - name: "-007 _6.4MB/s_YT-DE_NF_D+-295"
     type: "vless"
     server: "5.178.110.39"
     port: 2053
@@ -1243,119 +921,7 @@ proxies:
     ws-opts:
       path: "/?ed=2560&Telegram🇨🇳@WangCai2"
 
-  - name: "-015 _2.4MB/s_GPT_YT-NL_NF_D+_5%-362"
-    type: "vless"
-    server: "143.20.236.130"
-    port: 8443
-    uuid: "26524cce-d514-4014-a426-365fb266a14d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560&Telegram🇨🇳@WangCai2"
-
-  - name: "-002 _1.3MB/s_GPT_YT-ES_NF_23%-363"
-    type: "ss"
-    server: "5.188.181.201"
-    port: 9042
-    cipher: "aes-256-cfb"
-    password: "S7KwUu7yBy58S3Ga"
-
-  - name: "-004 _1.2MB/s_GPT_YT-RU_NF_D+_0%-364"
-    type: "vless"
-    server: "185.171.202.55"
-    port: 443
-    uuid: "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1"
-    tls: true
-    network: "tcp"
-
-  - name: "-006 _3.7MB/s_YT-RU-365"
-    type: "vless"
-    server: "212.113.123.230"
-    port: 443
-    uuid: "e4f5077b-3628-450c-92f9-b129b8a641a7"
-    tls: true
-    network: "tcp"
-
-  - name: "-003 _1020KB/s_GPT_YT-ES_NF_23%-366"
-    type: "ss"
-    server: "5.188.181.201"
-    port: 9037
-    cipher: "aes-256-cfb"
-    password: "TN2YqghxeFDKZfLU"
-
-  - name: "-007 _4.1MB/s_YT-RU_NF_D+-367"
-    type: "vless"
-    server: "213.165.54.4"
-    port: 443
-    uuid: "c2d09c1c-7d4d-46c4-838f-ad263b93c4e1"
-    tls: true
-    network: "tcp"
-
-  - name: "-013 _869KB/s_GPT_YT-VN_NF-368"
-    type: "ss"
-    server: "103.186.155.113"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-014 _1.6MB/s_GPT_YT-US_NF-371"
-    type: "ss"
-    server: "103.186.154.249"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-015 _517KB/s_GPT_YT-US_NF-372"
-    type: "ss"
-    server: "103.186.155.148"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-016 _958KB/s_GPT_YT-US_NF_GM-MM-373"
-    type: "ss"
-    server: "103.186.154.30"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-017 _935KB/s_GPT_YT-US_NF-374"
-    type: "ss"
-    server: "103.186.154.42"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-018 _1.2MB/s_GPT_YT-VN_NF-375"
-    type: "ss"
-    server: "103.186.155.108"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-019 _823KB/s_GPT_YT-US_NF-376"
-    type: "ss"
-    server: "103.186.155.57"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-020 _1.4MB/s_GPT_YT-VN_NF_GM-VN-377"
-    type: "ss"
-    server: "103.186.154.243"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "-015 _1.2MB/s_GPT_YT-RU_NF_D+_6%-379"
-    type: "vless"
-    server: "159.195.26.28"
-    port: 443
-    uuid: "84f66368-8a37-468e-ae95-5622255fd4db"
-    tls: true
-    network: "tcp"
-
-  - name: "-001 _854KB/s-380"
+  - name: "-001 _854KB/s-296"
     type: "vless"
     server: "178.17.53.28"
     port: 47539
@@ -1363,142 +929,133 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "-006 _3.0MB/s_GPT_YT-JP_GM_0%-381"
-    type: "vless"
-    server: "116.80.58.239"
-    port: 39975
-    uuid: "15b84012-d261-4b4c-807a-061bb4a901fd"
-    tls: true
-    network: "tcp"
+  - name: "-014 _2.5MB/s_GPT_YT-US_X_History_[_]-297"
+    type: "ss"
+    server: "103.186.154.78"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "-001 _4.4MB/s_GPT_YT-NL_NF_22%-382"
-    type: "vless"
-    server: "91.242.229.129"
-    port: 4443
-    uuid: "c3d8bdd0-777e-47b0-b7d4-28cc1b160ad8"
-    tls: true
-    network: "tcp"
-
-  - name: "US55-384"
+  - name: "US55-338"
     type: "trojan"
     server: "bestcdn0.868863.xyz"
     port: 2087
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215604454.682637.xyz"
 
-  - name: "US59-388"
+  - name: "US59-342"
     type: "trojan"
     server: "bestcdn0.868863.xyz"
     port: 2096
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215608802.682637.xyz"
 
-  - name: "US60-389"
+  - name: "US60-343"
     type: "trojan"
     server: "bestcdn0.868863.xyz"
     port: 8443
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215601286.682637.xyz"
 
-  - name: "US62-391"
+  - name: "US62-345"
     type: "trojan"
     server: "bestcdn0.868863.xyz"
     port: 2053
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215609612.682637.xyz"
 
-  - name: "US63-392"
+  - name: "US63-346"
     type: "trojan"
     server: "bestcdn1.868863.xyz"
     port: 2053
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215603192.206352.xyz"
 
-  - name: "DE18-393"
+  - name: "DE18-347"
     type: "trojan"
     server: "bestcdn1.868863.xyz"
     port: 2096
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215603866.206353.xyz"
 
-  - name: "US64-394"
+  - name: "US64-348"
     type: "trojan"
     server: "bestcdn1.868863.xyz"
     port: 2087
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215603457.206355.xyz"
 
-  - name: "US67-397"
+  - name: "US67-351"
     type: "trojan"
     server: "bestcdn2.868863.xyz"
     port: 2083
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215607662.206352.xyz"
 
-  - name: "DE19-398"
+  - name: "DE19-352"
     type: "trojan"
     server: "bestcdn2.868863.xyz"
     port: 2087
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215607467.206353.xyz"
 
-  - name: "US68-399"
+  - name: "US68-353"
     type: "trojan"
     server: "bestcdn2.868863.xyz"
     port: 2096
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215607851.206355.xyz"
 
-  - name: "US71-402"
+  - name: "US71-356"
     type: "trojan"
     server: "bestcdn3.868863.xyz"
     port: 2087
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215603694.206352.xyz"
 
-  - name: "DE20-403"
+  - name: "DE20-357"
     type: "trojan"
     server: "bestcdn3.868863.xyz"
     port: 2083
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215602903.206353.xyz"
 
-  - name: "US72-404"
+  - name: "US72-358"
     type: "trojan"
     server: "bestcdn3.868863.xyz"
     port: 2053
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215604855.206355.xyz"
 
-  - name: "US75-407"
+  - name: "US75-361"
     type: "trojan"
     server: "bestcdn4.868863.xyz"
     port: 2096
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215603332.206352.xyz"
 
-  - name: "DE21-408"
+  - name: "DE21-362"
     type: "trojan"
     server: "bestcdn4.868863.xyz"
     port: 8443
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215601176.206353.xyz"
 
-  - name: "US76-409"
+  - name: "US76-363"
     type: "trojan"
     server: "bestcdn4.868863.xyz"
     port: 2083
     password: "89d646c5-8e96-4702-bdd4-4ac4ca41c645"
     sni: "17725215608094.206355.xyz"
 
-  - name: "IQ1-412"
+  - name: "IQ1-366"
     type: "trojan"
     server: "154.93.37.237"
     port: 443
     password: "af4b064a9c39472fb34ad8b113acdc6b"
     sni: "154.93.37.237"
 
-  - name: "MD1-413"
+  - name: "MD1-367"
     type: "vmess"
     server: "v10.hdacd.com"
     port: 30807
@@ -1510,84 +1067,84 @@ proxies:
     ws-opts:
       path: "'%2F'"
 
-  - name: "3_@ripaojiedian-414"
+  - name: "3_@ripaojiedian-368"
     type: "trojan"
-    server: "18.183.167.108"
+    server: "13.192.169.190"
     port: 331
     password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
     sni: "www.nintendogames.net"
 
-  - name: "4_@ripaojiedian-415"
+  - name: "4_@ripaojiedian-369"
     type: "trojan"
-    server: "18.183.175.225"
-    port: 388
+    server: "3.112.227.13"
+    port: 1359
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "5_@ripaojiedian-416"
+  - name: "5_@ripaojiedian-370"
     type: "trojan"
-    server: "54.46.49.176"
-    port: 2826
+    server: "43.206.218.105"
+    port: 1359
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "_@ripaojiedian-417"
+  - name: "_@ripaojiedian-371"
     type: "trojan"
-    server: "54.95.23.13"
-    port: 21508
+    server: "52.195.2.120"
+    port: 16919
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
 
-  - name: "2_@ripaojiedian-418"
+  - name: "2_@ripaojiedian-372"
     type: "trojan"
-    server: "52.68.27.2"
+    server: "57.180.36.84"
+    port: 4937
+    password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
+    sni: "www.nintendogames.net"
+
+  - name: "3_@ripaojiedian-373"
+    type: "trojan"
+    server: "13.115.155.105"
     port: 34818
     password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
     sni: "www.nintendogames.net"
 
-  - name: "3_@ripaojiedian-419"
+  - name: "_@ripaojiedian-374"
     type: "trojan"
-    server: "160.16.214.104"
-    port: 2001
+    server: "153.121.45.139"
+    port: 4674
     password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
     sni: "www.nintendogames.net"
 
-  - name: "_@ripaojiedian-420"
+  - name: "2_@ripaojiedian-375"
     type: "trojan"
-    server: "52.68.27.2"
-    port: 3419
+    server: "13.115.155.105"
+    port: 4674
     password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
     sni: "www.nintendogames.net"
 
-  - name: "2_@ripaojiedian-421"
+  - name: "3_@ripaojiedian-376"
     type: "trojan"
-    server: "57.180.36.84"
-    port: 3419
-    password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
-    sni: "www.nintendogames.net"
-
-  - name: "3_@ripaojiedian-422"
-    type: "trojan"
-    server: "18.162.41.211"
+    server: "43.199.64.100"
     port: 25343
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
 
-  - name: "_@ripaojiedian-423"
+  - name: "_@ripaojiedian-377"
     type: "trojan"
-    server: "52.68.27.2"
+    server: "54.178.70.68"
+    port: 4019
+    password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
+    sni: "www.nintendogames.net"
+
+  - name: "2_@ripaojiedian-378"
+    type: "trojan"
+    server: "153.121.45.139"
     port: 4920
     password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
     sni: "www.nintendogames.net"
 
-  - name: "2_@ripaojiedian-424"
-    type: "trojan"
-    server: "13.115.210.7"
-    port: 4920
-    password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
-    sni: "www.nintendogames.net"
-
-  - name: "vmess-5-503"
+  - name: "vmess-5-453"
     type: "vmess"
     server: "xt.ylks01.eu.org"
     port: 2095
@@ -1597,7 +1154,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "vmess-6-504"
+  - name: "vmess-6-454"
     type: "vmess"
     server: "aaaa.wxx.gay"
     port: 443
@@ -1607,7 +1164,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "vmess-7-505"
+  - name: "vmess-7-455"
     type: "vmess"
     server: "159.223.94.156"
     port: 80
@@ -1617,7 +1174,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "vmess-8-506"
+  - name: "vmess-8-456"
     type: "vmess"
     server: "hkd1.quickerlink.xyz"
     port: 443
@@ -1627,70 +1184,70 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "https_//kelayun.notepin.co-507"
+  - name: "https_//kelayun.notepin.co-457"
     type: "trojan"
     server: "cf.090227.xyz"
     port: 2083
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "https_//kelayun.notepin.co-508"
+  - name: "https_//kelayun.notepin.co-458"
     type: "trojan"
     server: "cmcc.090227.xyz"
     port: 443
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "https_//kelayun.notepin.co-509"
+  - name: "https_//kelayun.notepin.co-459"
     type: "trojan"
     server: "ct.090227.xyz"
     port: 443
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "21000G-510"
+  - name: "21000G-460"
     type: "trojan"
     server: "cf.877774.xyz"
     port: 2087
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "200-511"
+  - name: "200-461"
     type: "trojan"
     server: "cmcc.877774.xyz"
     port: 443
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "-512"
+  - name: "-462"
     type: "trojan"
     server: "ct.877774.xyz"
     port: 443
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "-513"
+  - name: "-463"
     type: "trojan"
     server: "mfa.gov.ua"
     port: 2096
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "Gemini-514"
+  - name: "Gemini-464"
     type: "trojan"
     server: "www.shopify.com"
     port: 2053
     password: "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
     sni: "cm22-bgphhh.pages.dev"
 
-  - name: "SS->-NF-ChatGPT-144.217.164.29_12000-518"
+  - name: "SS->-NF-ChatGPT-144.217.164.29_12000-468"
     type: "ss"
     server: "144.217.164.29"
     port: 12000
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
 
-  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-519"
+  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-469"
     type: "vmess"
     server: "547.rtxconfigz.shop"
     port: 8080
@@ -1700,7 +1257,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-520"
+  - name: "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-470"
     type: "vmess"
     server: "t1.620720.xyz"
     port: 8443
@@ -1710,21 +1267,21 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-521"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-471"
     type: "ss"
     server: "45.154.204.7"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
 
-  - name: "SS--NF-ChatGPT-TikTok-146.19.49.251_443-522"
+  - name: "SS--NF-ChatGPT-TikTok-146.19.49.251_443-472"
     type: "ss"
     server: "146.19.49.251"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6"
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-523"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-473"
     type: "vmess"
     server: "15.235.41.200"
     port: 80
@@ -1734,14 +1291,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-524"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-474"
     type: "ss"
     server: "71.19.148.143"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "p78naCf2EfOlRSLTX0wFVx"
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-525"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-475"
     type: "vmess"
     server: "38.92.10.226"
     port: 45979
@@ -1751,14 +1308,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-526"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-476"
     type: "ss"
     server: "23.95.76.59"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-527"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-477"
     type: "vmess"
     server: "51.79.102.253"
     port: 80
@@ -1768,35 +1325,35 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-529"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-479"
     type: "ss"
     server: "92.118.112.101"
     port: 9483
     cipher: "chacha20-ietf-poly1305"
     password: "qFvn2fNEvBgM5knffrN96q"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-530"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-480"
     type: "ss"
     server: "15.204.247.49"
     port: 12000
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-531"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-481"
     type: "ss"
     server: "pupas-shirting-unsung.freesocks.work"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "p78naCf2EfOlRSLTX0wFVx"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-532"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-482"
     type: "ss"
     server: "79.127.233.170"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "f8f7aCzcPKbsF8p3"
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-533"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-483"
     type: "vmess"
     server: "v2ray.codefyinc.com"
     port: 443
@@ -1806,14 +1363,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-534"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-484"
     type: "ss"
     server: "23.95.75.146"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "NDRySIABARbErNIVsCNVkyYAHiBzhveT"
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-535"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-485"
     type: "vmess"
     server: "198.23.174.168"
     port: 20086
@@ -1823,7 +1380,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-537"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-487"
     type: "vmess"
     server: "cg1c07.waimaojd.com"
     port: 443
@@ -1833,7 +1390,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-538"
+  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-488"
     type: "vmess"
     server: "support.zoom.us"
     port: 8080
@@ -1843,7 +1400,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-539"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-489"
     type: "vmess"
     server: "209.126.84.189"
     port: 443
@@ -1853,7 +1410,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-540"
+  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-490"
     type: "vmess"
     server: "sy4.620720.xyz"
     port: 443
@@ -1863,7 +1420,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-541"
+  - name: "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-491"
     type: "vmess"
     server: "hgtrojan.zabc.net"
     port: 2083
@@ -1873,14 +1430,14 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-542"
+  - name: "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-492"
     type: "ss"
     server: "107.175.87.207"
     port: 10011
     cipher: "chacha20-ietf-poly1305"
     password: "86039b71-ba82-4ca8-838e-87086ae666de"
 
-  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-543"
+  - name: "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-493"
     type: "vmess"
     server: "cg1c01.waimaojd.com"
     port: 443
@@ -1890,7 +1447,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-544"
+  - name: "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-494"
     type: "vmess"
     server: "cg1c04.waimaojd.com"
     port: 443
@@ -1900,7 +1457,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-545"
+  - name: "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-495"
     type: "vmess"
     server: "cg1c14.waimaojd.com"
     port: 443
@@ -1910,7 +1467,7 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "CloudFlare-547"
+  - name: "CloudFlare-496"
     type: "vmess"
     server: "gbnhju.7no.ccwu.cc"
     port: 80
@@ -1920,31 +1477,28 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "V2CROSS.COM-549"
+  - name: "V2CROSS.COM-497"
+    type: "trojan"
+    server: "167.17.185.152"
+    port: 10889
+    password: "cTv.9PDdCt-wybBrG1qlxI5UJuaEj"
+    sni: "ozon.ru"
+
+  - name: "-499"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31103
+    password: "852a0251-7fbd-4a07-a365-352695af950c"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "V2CROSS.COM-501"
     type: "trojan"
     server: "37.235.49.209"
     port: 28099
     password: "qmBSKnAl6LYi9%3Dz23Rs.Z"
     sni: "celestialcorset.crystalhamster.click"
 
-  - name: "V2CROSS.COM-553"
-    type: "trojan"
-    server: "167.17.185.228"
-    port: 10889
-    password: "cTv.9PDdCt-wybBrG1qlxI5UJuaEj"
-    sni: "web.max"
-
-  - name: "-554"
-    type: "vmess"
-    server: "8.223.63.150"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "CloudFlare-555"
+  - name: "CloudFlare-502"
     type: "vmess"
     server: "c7.620720.xyz"
     port: 8443
@@ -1954,41 +1508,45 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "3_@ripaojiedian-568"
+  - name: "V2CROSS.COM-504"
     type: "trojan"
-    server: "18.162.42.52"
-    port: 45947
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
+    server: "80.173.231.254"
+    port: 12420
+    password: "wp9IsiY82uQhcmgNC1eoBM"
+    sni: "www.semanticstaplegun.click"
 
-  - name: "US(mibei77.com )-571"
+  - name: "-506"
     type: "vmess"
-    server: "turk1.net.net"
-    port: 80
-    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "US(mibei77.com )-578"
-    type: "vmess"
-    server: "54.169.254.130"
-    port: 8443
+    server: "8.223.63.150"
+    port: 443
     uuid: "462d9694-62b5-4781-a287-61a422b920e8"
     alterId: 0
     cipher: "auto"
     tls: true
     network: "ws"
 
-  - name: "US(mibei77.com )-582"
+  - name: "3_@ripaojiedian-519"
+    type: "trojan"
+    server: "18.166.249.43"
+    port: 4864
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+
+  - name: "US(mibei77.com )-524"
     type: "trojan"
     server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "fdeb5068-b9c7-486c-8ccf-8d2b744bd839"
+    port: 35501
+    password: "bbde1e79-49d4-448a-a81d-38bfbba3480d"
     sni: "green2.cdntencentmusic.com"
 
-  - name: "US(mibei77.com )-584"
+  - name: "TW(mibei77.com )-525"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 35501
+    password: "47d9af53-24a8-4593-a439-a73b88ad53ae"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "HK(mibei77.com )-527"
     type: "vmess"
     server: "v30.hdacd.com"
     port: 30830
@@ -1998,217 +1556,24 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "US(mibei77.com )-590"
-    type: "vmess"
-    server: "v12.hdacd.com"
-    port: 30812
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "US(mibei77.com )-593"
-    type: "vmess"
-    server: "v33.hdacd.com"
-    port: 30833
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "US(mibei77.com )-594"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 35501
-    password: "0a169d7d-a30f-4d90-af1b-55f6ef6afcb7"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "TW(mibei77.com )-602"
+  - name: "US(mibei77.com )-529"
     type: "trojan"
     server: "220.130.58.136"
-    port: 31101
-    password: "11cfbea5-eae4-4654-8aa9-a9481f38dc42"
+    port: 31103
+    password: "36325a98-46a4-4770-977a-9a9570e0bcc6"
     sni: "green2.cdntencentmusic.com"
 
-  - name: "TW(mibei77.com )-605"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "0a169d7d-a30f-4d90-af1b-55f6ef6afcb7"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-607"
+  - name: "SG(mibei77.com )-534"
     type: "vmess"
-    server: "43.134.87.15"
+    server: "vc.fly.dev"
     port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
     alterId: 0
     cipher: "auto"
     tls: true
     network: "ws"
 
-  - name: "US(mibei77.com )-613"
-    type: "vmess"
-    server: "149.104.30.17"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-616"
-    type: "vmess"
-    server: "38.55.193.78"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-617"
-    type: "trojan"
-    server: "220.130.58.136"
-    port: 31101
-    password: "125f929b-dbde-43b9-b498-695f1cd45d68"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "TW(mibei77.com )-618"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "fe040a20-827e-42eb-994f-ec16d4ae5aa4"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-623"
-    type: "ss"
-    server: "liubu9.singdns.com"
-    port: 17459
-    cipher: "aes-128-gcm"
-    password: "57bc0c04-8184-48f5-906b-897d095ed445"
-
-  - name: "US(mibei77.com )-626"
-    type: "vmess"
-    server: "38.55.194.138"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "TW(mibei77.com )-627"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "26635779-8ce6-4c07-ae5d-f3769ec95ddd"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-631"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "5f6ded93-4ab8-4a99-9c84-b19b9993f27c"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "TW(mibei77.com )-636"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "6f038cee-6ba1-4941-bce5-de1969f37405"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-637"
-    type: "vmess"
-    server: "nmjy.0m0.ccwu.cc"
-    port: 443
-    uuid: "0617025a-660d-40e3-9108-74611138dde5"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-646"
-    type: "vmess"
-    server: "103.143.81.122"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-648"
-    type: "vmess"
-    server: "38.207.177.148"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-649"
-    type: "vmess"
-    server: "103.167.151.182"
-    port: 18098
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-651"
-    type: "vmess"
-    server: "103.143.81.122"
-    port: 8443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-654"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "987525bc-99a3-461e-a50f-a0a667d06ed7"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-665"
-    type: "vmess"
-    server: "c36s5.portablesubmarines.com"
-    port: 6900
-    uuid: "3f1240e6-7ef6-4ec1-af6b-abeb30ea50e8"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "US(mibei77.com )-669"
-    type: "vmess"
-    server: "13.212.188.76"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-679"
-    type: "vmess"
-    server: "149.104.31.109"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-680"
+  - name: "US(mibei77.com )-537"
     type: "vmess"
     server: "v29.hdacd.com"
     port: 30829
@@ -2218,9 +1583,16 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "US(mibei77.com )-682"
+  - name: "US(mibei77.com )-548"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31103
+    password: "20a3d819-ca7f-48a6-ba20-f7021e8dbbbe"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "US(mibei77.com )-550"
     type: "vmess"
-    server: "68.64.179.210"
+    server: "83.229.121.113"
     port: 443
     uuid: "462d9694-62b5-4781-a287-61a422b920e8"
     alterId: 0
@@ -2228,7 +1600,41 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "US(mibei77.com )-684"
+  - name: "TW(mibei77.com )-552"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 35501
+    password: "ba222255-00e9-434d-88f0-e0c22ac529f4"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "US(mibei77.com )-557"
+    type: "vmess"
+    server: "43.163.6.135"
+    port: 41079
+    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "TW(mibei77.com )-558"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 35501
+    password: "47d9af53-24a8-4593-a439-a73b88ad53ae"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "US(mibei77.com )-561"
+    type: "vmess"
+    server: "sxcdr.1gg.ccwu.cc"
+    port: 80
+    uuid: "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "US(mibei77.com )-563"
     type: "vmess"
     server: "v36.hdacd.com"
     port: 30836
@@ -2238,24 +1644,14 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "US(mibei77.com )-685"
-    type: "vmess"
-    server: "47.130.9.238"
+  - name: "US(mibei77.com )-567"
+    type: "ss"
+    server: "185.193.48.157"
     port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
+    cipher: "chacha20-ietf-poly1305"
+    password: "zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20"
 
-  - name: "US(mibei77.com )-689"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "bef1e608-83df-4935-8169-8a345f5643e9"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-690"
+  - name: "US(mibei77.com )-569"
     type: "vmess"
     server: "v8.hdacd.com"
     port: 30808
@@ -2265,54 +1661,61 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "US(mibei77.com )-692"
+  - name: "US(mibei77.com )-577"
     type: "vmess"
-    server: "149.104.31.55"
+    server: "cvbghyu.s890604.qzz.io"
     port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    uuid: "cff35335-31c1-4f2c-8df3-2b81243a31ac"
     alterId: 0
     cipher: "auto"
     tls: true
     network: "ws"
 
-  - name: "TW(mibei77.com )-697"
+  - name: "TW(mibei77.com )-604"
     type: "trojan"
     server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "6790a94c-4ea8-4a1e-979e-31716839427a"
+    port: 31103
+    password: "4250b3bb-d1ae-4e77-bf71-4069e0d2c383"
     sni: "green2.cdntencentmusic.com"
 
-  - name: "US(mibei77.com )-698"
+  - name: "US(mibei77.com )-623"
     type: "vmess"
-    server: "43.156.6.226"
-    port: 443
+    server: "v24.hdacd.com"
+    port: 30824
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "US(mibei77.com )-648"
+    type: "vmess"
+    server: "v9.hdacd.com"
+    port: 30809
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "US(mibei77.com )-655"
+    type: "vmess"
+    server: "175.29.23.104"
+    port: 8443
     uuid: "462d9694-62b5-4781-a287-61a422b920e8"
     alterId: 0
     cipher: "auto"
     tls: true
     network: "ws"
 
-  - name: "US(mibei77.com )-700"
-    type: "vmess"
-    server: "38.55.193.199"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
+  - name: "US(mibei77.com )-657"
+    type: "trojan"
+    server: "220.130.58.136"
+    port: 31103
+    password: "0a169d7d-a30f-4d90-af1b-55f6ef6afcb7"
+    sni: "green2.cdntencentmusic.com"
 
-  - name: "US(mibei77.com )-701"
-    type: "vmess"
-    server: "47.57.182.141"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-703"
+  - name: "US(mibei77.com )-666"
     type: "vmess"
     server: "c86s3.portablesubmarines.com"
     port: 31350
@@ -2322,9 +1725,19 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "US(mibei77.com )-705"
+  - name: "HK(mibei77.com )-667"
     type: "vmess"
-    server: "38.55.193.19"
+    server: "154.211.8.199"
+    port: 443
+    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "US(mibei77.com )-671"
+    type: "vmess"
+    server: "43.161.254.121"
     port: 443
     uuid: "462d9694-62b5-4781-a287-61a422b920e8"
     alterId: 0
@@ -2332,244 +1745,185 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "TW(mibei77.com )-740"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31101
-    password: "04e5b584-1850-483d-a844-9ad624a4ca8e"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-742"
+  - name: "US(mibei77.com )-673"
     type: "vmess"
-    server: "8.223.63.189"
-    port: 443
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
+    server: "v12.hdacd.com"
+    port: 30812
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 0
     cipher: "auto"
-    tls: true
-    network: "ws"
+    tls: false
+    network: "tcp"
 
-  - name: "US(mibei77.com )-745"
-    type: "vmess"
-    server: "43.134.167.135"
-    port: 9952
-    uuid: "462d9694-62b5-4781-a287-61a422b920e8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "8cczzuu.top-762"
+  - name: "8cczzuu.top-690"
     type: "ss"
     server: "63.180.254.10"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
 
-  - name: "_CN_-776"
+  - name: "_CN_-704"
     type: "ss"
     server: "mofacpdd.til69.com"
     port: 41921
     cipher: "chacha20-ietf-poly1305"
     password: "5d68d91f-ccc5-4c00-b1f6-0d764937f4f6"
 
-  - name: "_US_-777"
+  - name: "_US_-705"
     type: "trojan"
     server: "216.24.57.250"
     port: 443
     password: "5027e2a4-c4d2-463a-9508-83a2c7d1ad83"
     sni: "afrcloud1.mmv.kr"
 
-  - name: "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-778"
+  - name: "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-706"
     type: "ss"
     server: "ldu.izenny.com"
     port: 18244
     cipher: "chacha20-ietf-poly1305"
     password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
 
-  - name: "-  - LLC Baxet - 2-779"
-    type: "ss"
-    server: "45.140.169.225"
-    port: 60129
-    cipher: "aes-256-gcm"
-    password: "c5fcdf7829112cb4"
-
-  - name: "-  - JSC IOT - 1-780"
+  - name: "-  - JSC IOT - 1-708"
     type: "ss"
     server: "basic-ru-0.undef.network"
     port: 43902
     cipher: "chacha20-ietf-poly1305"
     password: "5kWesolQ0y0PVdIrb65LbHT2u"
 
-  - name: "-  - Amazon.com, Inc. - 1-781"
+  - name: "-  - Amazon.com, Inc. - 1-709"
     type: "trojan"
     server: "15.188.31.240"
     port: 22222
     password: "telegram-id-privatevpns"
     sni: "15.188.31.240"
 
-  - name: "-  - Baxet Group Inc. - 2-787"
+  - name: "-  - Baxet Group Inc. - 2-715"
     type: "ss"
     server: "167.17.179.197"
     port: 60129
     cipher: "aes-256-gcm"
     password: "0690659746980c46"
 
-  - name: "-  - Melbikomas UAB - 1-788"
-    type: "ss"
-    server: "5.188.181.201"
-    port: 9025
-    cipher: "aes-256-cfb"
-    password: "XPtzA9sCug3SPR4c"
-
-  - name: "-  - Melbikomas UAB - 2-789"
+  - name: "-  - Melbikomas UAB - 2-717"
     type: "ss"
     server: "5.188.181.201"
     port: 9027
     cipher: "aes-256-cfb"
     password: "EXN3S3eQpjE7EJu8"
 
-  - name: "-  - Aceville Pte.ltd - 1-790"
+  - name: "-  - Aceville Pte.ltd - 1-718"
     type: "trojan"
     server: "vpn.qinfen180.cn"
     port: 443
     password: "aZsk43TyWBpjt@A"
     sni: "vpn.qinfen180.cn"
 
-  - name: "-  - Namecheap, Inc. - 2-791"
+  - name: "-  - Namecheap, Inc. - 2-719"
     type: "ss"
     server: "209.74.82.156"
     port: 18571
     cipher: "chacha20-ietf-poly1305"
     password: "PYEU2YIb0XkFGakKZ04OnP"
 
-  - name: "- Mumbai - Google LLC - 1-792"
+  - name: "- Mumbai - Google LLC - 1-720"
     type: "trojan"
     server: "amanm.wsone.icu"
     port: 443
     password: "M7v%w11Se*"
     sni: "amanm.wsone.icu"
 
-  - name: "- Hi Dng - FASTLY - 1-793"
+  - name: "- Hi Dng - FASTLY - 1-721"
     type: "ss"
     server: "103.186.154.152"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 10-794"
+  - name: "- Hi Dng - FASTLY - 10-722"
     type: "ss"
     server: "103.186.154.172"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 11-795"
-    type: "ss"
-    server: "103.186.155.53"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "- Hi Dng - FASTLY - 12-796"
+  - name: "- Hi Dng - FASTLY - 12-724"
     type: "ss"
     server: "103.186.154.14"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 13-797"
+  - name: "- Hi Dng - FASTLY - 13-725"
     type: "ss"
     server: "103.186.155.52"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 14-798"
+  - name: "- Hi Dng - FASTLY - 14-726"
     type: "ss"
     server: "103.186.154.180"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 2-799"
+  - name: "- Hi Dng - FASTLY - 2-727"
     type: "ss"
     server: "103.186.155.118"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 3-800"
-    type: "ss"
-    server: "103.186.154.240"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "- Hi Dng - FASTLY - 4-801"
+  - name: "- Hi Dng - FASTLY - 4-729"
     type: "ss"
     server: "103.186.155.214"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 5-802"
+  - name: "- Hi Dng - FASTLY - 5-730"
     type: "ss"
     server: "103.186.154.204"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 6-803"
-    type: "ss"
-    server: "103.186.154.188"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "- Hi Dng - FASTLY - 7-804"
-    type: "ss"
-    server: "103.186.154.205"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "- Hi Dng - FASTLY - 8-805"
+  - name: "- Hi Dng - FASTLY - 8-733"
     type: "ss"
     server: "103.186.155.206"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "- Hi Dng - FASTLY - 9-806"
+  - name: "- Hi Dng - FASTLY - 9-734"
     type: "ss"
     server: "103.186.155.122"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "-  - Dalian Yichuan Industrial CO - 1-807"
+  - name: "-  - Dalian Yichuan Industrial CO - 1-735"
     type: "ss"
     server: "103.149.183.113"
     port: 8388
     cipher: "chacha20-ietf"
     password: "asd123456"
 
-  - name: "SCP_US-808"
+  - name: "SCP_US-736"
     type: "trojan"
     server: "180.131.145.169"
     port: 18718
     password: "RmhZQ47pEm"
     sni: "www.tesla.com"
 
-  - name: "SCP_UK-809"
+  - name: "SCP_UK-737"
     type: "trojan"
     server: "194.150.166.151"
     port: 52047
     password: "zp630tdUuD"
     sni: "aws.amazon.com"
 
-  - name: "SCP_PL-810"
+  - name: "SCP_PL-738"
     type: "trojan"
     server: "91.108.248.219"
     port: 23058
@@ -2580,954 +1934,750 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "[mibei] FR(mibei77.com )-0"
-      - "[mibei] US(mibei77.com )-1"
-      - "[mibei] US(mibei77.com ) 2-3"
-      - "[mibei] TW(mibei77.com )-4"
-      - "[mibei] US(mibei77.com ) 3-5"
-      - "[mibei] TW(mibei77.com ) 2-6"
-      - "[mibei] US(mibei77.com ) 4-7"
-      - "[mibei] US(mibei77.com ) 5-9"
-      - "[mibei] US(mibei77.com ) 6-10"
-      - "[mibei] RU(mibei77.com )-11"
-      - "[mibei] US(mibei77.com ) 7-12"
-      - "[mibei] US(mibei77.com ) 8-13"
-      - "[mibei] US(mibei77.com ) 9-14"
-      - "[mibei] SG(mibei77.com )-15"
-      - "[mibei] US(mibei77.com ) 10-16"
-      - "[mibei] HK(mibei77.com ) 2-17"
-      - "[mibei] US(mibei77.com ) 12-19"
-      - "[mibei] US(mibei77.com ) 13-20"
-      - "[mibei] US(mibei77.com ) 16-23"
-      - "[mibei] US(mibei77.com ) 18-25"
-      - "[mibei] US(mibei77.com ) 19-27"
-      - "[mibei] US(mibei77.com ) 20-29"
-      - "[mibei] US(mibei77.com ) 21-30"
-      - "[mibei] US(mibei77.com ) 22-31"
-      - "[mibei] US(mibei77.com ) 23-32"
-      - "[mibei] TW(mibei77.com ) 3-33"
-      - "[mibei] HK(mibei77.com ) 5-34"
-      - "[mibei] US(mibei77.com ) 25-36"
-      - "[mibei] US(mibei77.com ) 26-37"
-      - "[mibei] US(mibei77.com ) 27-38"
-      - "[mibei] TW(mibei77.com ) 4-39"
-      - "[mibei] US(mibei77.com ) 28-40"
-      - "[mibei] US(mibei77.com ) 30-42"
-      - "[mibei] US(mibei77.com ) 33-45"
-      - "[mibei] US(mibei77.com ) 36-48"
-      - "[mibei] US(mibei77.com ) 37-49"
-      - "[mibei] US(mibei77.com ) 41-57"
-      - "[mibei] US(mibei77.com ) 42-58"
-      - "[mibei] TW(mibei77.com ) 5-85"
-      - "[mibei] (mibei77.com )-88"
-      - "[mibei] US(mibei77.com ) 57-92"
-      - "[mibei] US(mibei77.com ) 59-94"
-      - "[mibei] US(mibei77.com ) 65-100"
-      - "[mibei] US(mibei77.com ) 68-105"
-      - "[mibei] US(mibei77.com ) 74-112"
-      - "[mibei] TW(mibei77.com ) 7-128"
-      - "[mibei] US(mibei77.com ) 86-134"
-      - "[mibei] US(mibei77.com ) 87-135"
-      - "[mibei] US(mibei77.com ) 88-136"
-      - "[mibei] US(mibei77.com ) 90-138"
-      - "[mibei] US(mibei77.com ) 91-140"
-      - "[mibei] US(mibei77.com ) 92-141"
-      - "[mibei] US(mibei77.com ) 93-142"
-      - "[mibei] HK(mibei77.com ) 10-148"
-      - "[mibei] US(mibei77.com ) 98-149"
-      - "[mibei] US(mibei77.com ) 99-150"
-      - "[mibei] US(mibei77.com ) 100-151"
-      - "[mibei] US(mibei77.com ) 101-152"
-      - "[mibei] US(mibei77.com ) 107-159"
-      - "[nodefree] _VE_-171"
-      - "[nodefree] _US_-172"
-      - "[nodefree] _US__1-173"
-      - "[nodefree] _CN_-174"
-      - "[nodefree] _US__2-175"
-      - "[nodefree] _CN__1-176"
-      - "[nodefree] _CN__2-177"
-      - "[nodefree] _US__3-178"
-      - "[nodefree] _BR_->_US_-179"
-      - "[nodefree] _CN__3-180"
-      - "[nodefree] _RU_-181"
-      - "[nodefree] _RU_->_PL_-182"
-      - "[nodefree] _RU_->_US_-183"
-      - "[nodefree] -184"
-      - "[nodefree] _US__4-185"
-      - "[nodefree] _US_->_NL_-186"
-      - "[nodefree] _BR_->_DE_-187"
-      - "[nodefree] _RU__1-188"
-      - "[nodefree] _CN__4-189"
-      - "[nodefree] _US_->_FR_-190"
-      - "[nodefree] _US_->_DE_-191"
-      - "[nodefree] _US_->_FI_-192"
-      - "[nodefree] _US_->_NL__1-193"
-      - "[nodefree] _GB_-194"
-      - "[nodefree] _CN__5-195"
-      - "[nodefree] _DE_-196"
-      - "[nodefree] _US__5-197"
-      - "[nodefree] _RU_->_US__1-198"
-      - "[nodefree] _CN__6-199"
-      - "[nodefree] _CN__7-200"
-      - "github.com/freefq -   1-212"
-      - "github.com/freefq -   2-213"
-      - "github.com/freefq -   3-214"
-      - "github.com/freefq - CloudFlareCDN 4-215"
-      - "github.com/freefq -   5-216"
-      - "github.com/freefq - CloudFlareCDN 6-217"
-      - "github.com/freefq -  7-218"
-      - "github.com/freefq -  8-219"
-      - "github.com/freefq - CloudFlareCDN 9-220"
-      - "github.com/freefq -   10-221"
-      - "github.com/freefq -  11-222"
-      - "github.com/freefq -  12-223"
-      - "github.com/freefq - FastlyAnycast 13-224"
-      - "github.com/freefq - CloudFlare 14-225"
-      - "-001 _5.4MB/s_NF_GM-US_0%_(AzadNet.t.me)-240"
-      - "-002 _3.1MB/s_GPT_YT-DE_NF_D+-243"
-      - "-001 _1.3MB/s_YT-SE_NF_D+-247"
-      - "-004 _1.7MB/s-253"
-      - "-001 _1.5MB/s_GPT_NF_D+_5%-256"
-      - "-002 _1.5MB/s_GPT_YT-NL_NF_2%-257"
-      - "-001 _4.3MB/s_YT-SE_NF_D+_5%-258"
-      - "-001 _742KB/s_GPT_YT-AT_NF_D+_10%-260"
-      - "-001 _4.0MB/s_GPT_YT-RU_NF_D+_0%-261"
-      - "-003 _1.5MB/s_GPT_NF_D+_5%-263"
-      - "-009 _2.6MB/s_GPT_YT-US_NF_D+_21%-275"
-      - "-002 _4.9MB/s_YT-SE_NF_D+-277"
-      - "-004 _1.2MB/s_GPT_D+_5%-278"
-      - "-002 _4.0MB/s_YT-SE_NF_D+-279"
-      - "-005 _4.8MB/s_GPT_YT-US_NF_0%-283"
-      - "-011 _3.0MB/s_GPT_YT-RU_NF_100%-284"
-      - "-012 _2.4MB/s_GPT_YT-NL_NF_D+_5%-288"
-      - "-003 _2.6MB/s_YT-RU-289"
-      - "-003 _3.7MB/s_YT-SE_NF_D+-290"
-      - "-002 _1.6MB/s_GPT_YT-GB_D+_40%-293"
-      - "-005 _2.7MB/s_GPT_YT-NL_NF_0%-295"
-      - "-001 _5.2MB/s_GPT_YT-US_NF_D+_40%-298"
-      - "-004 _2.5MB/s_YT-RU-300"
-      - "-005 _2.2MB/s_YT-RU-309"
-      - "-001 _712KB/s_GPT_YT-VN_NF-319"
-      - "-002 _851KB/s_GPT_YT-VN_NF-320"
-      - "-003 _2.7MB/s-321"
-      - "-004 _1.2MB/s_GPT_YT-VN_NF-323"
-      - "-005 _785KB/s_GPT_YT-VN_NF-324"
-      - "-006 _643KB/s_GPT_YT-VN_NF-325"
-      - "-007 _962KB/s_GPT_YT-VN_NF_GM-VN-327"
-      - "-003 _2.2MB/s_GPT_YT-RU_NF_D+_0%-328"
-      - "-008 _1.4MB/s_GPT_YT-US_NF_GM-IR-329"
-      - "-009 _1.3MB/s_GPT_YT-US_NF-330"
-      - "-001 _3.3MB/s_GPT-331"
-      - "-010 _1.1MB/s_TK-VN_YT-US_NF_GPT_GM_(AzadNet.t.me)-340"
-      - "-007 _2.1MB/s_GPT-344"
-      - "-013 _3.4MB/s_GPT_YT-RU_NF_D+_0%-349"
-      - "-011 _665KB/s_YT-US_NF_GPT_GM-350"
-      - "-012 _1.7MB/s_YT-VN_NF_GPT_GM-351"
-      - "-008 _1.8MB/s_GPT_NF_D+_5%-356"
-      - "-014 _1.8MB/s_GPT_YT-US_NF_D+_GM_5%-359"
-      - "-014 _6.4MB/s_YT-DE_NF_D+-360"
-      - "-015 _2.4MB/s_GPT_YT-NL_NF_D+_5%-362"
-      - "-002 _1.3MB/s_GPT_YT-ES_NF_23%-363"
-      - "-004 _1.2MB/s_GPT_YT-RU_NF_D+_0%-364"
-      - "-006 _3.7MB/s_YT-RU-365"
-      - "-003 _1020KB/s_GPT_YT-ES_NF_23%-366"
-      - "-007 _4.1MB/s_YT-RU_NF_D+-367"
-      - "-013 _869KB/s_GPT_YT-VN_NF-368"
-      - "-014 _1.6MB/s_GPT_YT-US_NF-371"
-      - "-015 _517KB/s_GPT_YT-US_NF-372"
-      - "-016 _958KB/s_GPT_YT-US_NF_GM-MM-373"
-      - "-017 _935KB/s_GPT_YT-US_NF-374"
-      - "-018 _1.2MB/s_GPT_YT-VN_NF-375"
-      - "-019 _823KB/s_GPT_YT-US_NF-376"
-      - "-020 _1.4MB/s_GPT_YT-VN_NF_GM-VN-377"
-      - "-015 _1.2MB/s_GPT_YT-RU_NF_D+_6%-379"
-      - "-001 _854KB/s-380"
-      - "-006 _3.0MB/s_GPT_YT-JP_GM_0%-381"
-      - "-001 _4.4MB/s_GPT_YT-NL_NF_22%-382"
-      - "US55-384"
-      - "US59-388"
-      - "US60-389"
-      - "US62-391"
-      - "US63-392"
-      - "DE18-393"
-      - "US64-394"
-      - "US67-397"
-      - "DE19-398"
-      - "US68-399"
-      - "US71-402"
-      - "DE20-403"
-      - "US72-404"
-      - "US75-407"
-      - "DE21-408"
-      - "US76-409"
-      - "IQ1-412"
-      - "MD1-413"
-      - "3_@ripaojiedian-414"
-      - "4_@ripaojiedian-415"
-      - "5_@ripaojiedian-416"
-      - "_@ripaojiedian-417"
-      - "2_@ripaojiedian-418"
-      - "3_@ripaojiedian-419"
-      - "_@ripaojiedian-420"
-      - "2_@ripaojiedian-421"
-      - "3_@ripaojiedian-422"
-      - "_@ripaojiedian-423"
-      - "2_@ripaojiedian-424"
-      - "vmess-5-503"
-      - "vmess-6-504"
-      - "vmess-7-505"
-      - "vmess-8-506"
-      - "https_//kelayun.notepin.co-507"
-      - "https_//kelayun.notepin.co-508"
-      - "https_//kelayun.notepin.co-509"
-      - "21000G-510"
-      - "200-511"
-      - "-512"
-      - "-513"
-      - "Gemini-514"
-      - "SS->-NF-ChatGPT-144.217.164.29_12000-518"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-519"
-      - "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-520"
-      - "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-521"
-      - "SS--NF-ChatGPT-TikTok-146.19.49.251_443-522"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-523"
-      - "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-524"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-525"
-      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-526"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-527"
-      - "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-529"
-      - "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-530"
-      - "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-531"
-      - "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-532"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-533"
-      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-534"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-535"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-537"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-538"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-539"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-540"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-541"
-      - "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-542"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-543"
-      - "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-544"
-      - "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-545"
-      - "CloudFlare-547"
-      - "V2CROSS.COM-549"
-      - "V2CROSS.COM-553"
-      - "-554"
-      - "CloudFlare-555"
-      - "3_@ripaojiedian-568"
-      - "US(mibei77.com )-571"
-      - "US(mibei77.com )-578"
-      - "US(mibei77.com )-582"
-      - "US(mibei77.com )-584"
-      - "US(mibei77.com )-590"
-      - "US(mibei77.com )-593"
-      - "US(mibei77.com )-594"
-      - "TW(mibei77.com )-602"
-      - "TW(mibei77.com )-605"
-      - "US(mibei77.com )-607"
-      - "US(mibei77.com )-613"
-      - "US(mibei77.com )-616"
-      - "US(mibei77.com )-617"
-      - "TW(mibei77.com )-618"
+      - "[mibei] US(mibei77.com )-0"
+      - "[mibei] US(mibei77.com ) 2-1"
+      - "[mibei] US(mibei77.com ) 3-2"
+      - "[mibei] US(mibei77.com ) 4-3"
+      - "[mibei] HK(mibei77.com )-8"
+      - "[mibei] US(mibei77.com ) 9-9"
+      - "[mibei] US(mibei77.com ) 10-10"
+      - "[mibei] US(mibei77.com ) 12-13"
+      - "[mibei] US(mibei77.com ) 13-14"
+      - "[mibei] RU(mibei77.com )-15"
+      - "[mibei] (mibei77.com )-20"
+      - "[mibei] HK(mibei77.com ) 2-21"
+      - "[mibei] US(mibei77.com ) 20-26"
+      - "[mibei] US(mibei77.com ) 24-31"
+      - "[mibei] RU(mibei77.com ) 2-32"
+      - "[mibei] US(mibei77.com ) 25-33"
+      - "[mibei] US(mibei77.com ) 42-54"
+      - "[mibei] US(mibei77.com ) 52-65"
+      - "[mibei] US(mibei77.com ) 55-68"
+      - "[mibei] US(mibei77.com ) 59-73"
+      - "[mibei] US(mibei77.com ) 60-74"
+      - "[mibei] US(mibei77.com ) 62-76"
+      - "[mibei] US(mibei77.com ) 63-77"
+      - "[mibei] US(mibei77.com ) 65-79"
+      - "[mibei] RU(mibei77.com ) 3-80"
+      - "[mibei] US(mibei77.com ) 68-83"
+      - "[mibei] GB(mibei77.com )-85"
+      - "[mibei] US(mibei77.com ) 70-88"
+      - "[mibei] US(mibei77.com ) 72-91"
+      - "[mibei] US(mibei77.com ) 77-102"
+      - "[mibei] TW(mibei77.com )-105"
+      - "[mibei] US(mibei77.com ) 80-106"
+      - "[mibei] US(mibei77.com ) 85-113"
+      - "[mibei] US(mibei77.com ) 86-116"
+      - "[mibei] US(mibei77.com ) 87-117"
+      - "[mibei] US(mibei77.com ) 88-118"
+      - "[mibei] US(mibei77.com ) 89-119"
+      - "[mibei] US(mibei77.com ) 95-126"
+      - "[mibei] US(mibei77.com ) 96-128"
+      - "[mibei] US(mibei77.com ) 99-132"
+      - "[mibei] US(mibei77.com ) 103-138"
+      - "[mibei] US(mibei77.com ) 111-150"
+      - "[mibei] US(mibei77.com ) 114-158"
+      - "[mibei] US(mibei77.com ) 118-167"
+      - "[mibei] US(mibei77.com ) 121-171"
+      - "[mibei] US(mibei77.com ) 125-175"
+      - "[mibei] US(mibei77.com ) 129-179"
+      - "[nodefree] _CN_->_DE_-181"
+      - "[nodefree] _CN_->_LT_-182"
+      - "[nodefree] _CA_-183"
+      - "[nodefree] _US_-186"
+      - "[nodefree] -187"
+      - "[nodefree] _1-188"
+      - "[nodefree] _RU_-189"
+      - "[nodefree] _US__1-190"
+      - "[nodefree] _US__2-191"
+      - "[nodefree] _US__3-192"
+      - "[nodefree] _2-193"
+      - "[nodefree] _3-194"
+      - "[nodefree] _US__4-195"
+      - "[nodefree] _4-196"
+      - "[nodefree] _5-197"
+      - "[nodefree] _6-200"
+      - "[nodefree] _RU__2-201"
+      - "[nodefree] _7-202"
+      - "[nodefree] _BR_->_RU_-203"
+      - "[nodefree] _8-204"
+      - "[nodefree] _FI_-205"
+      - "github.com/freefq -   1-217"
+      - "github.com/freefq -   2-218"
+      - "github.com/freefq -   3-219"
+      - "github.com/freefq - CloudFlareCDN 4-220"
+      - "github.com/freefq -   5-221"
+      - "github.com/freefq - CloudFlareCDN 6-222"
+      - "github.com/freefq -  7-223"
+      - "github.com/freefq -  8-224"
+      - "github.com/freefq - CloudFlareCDN 9-225"
+      - "github.com/freefq -   10-226"
+      - "github.com/freefq -  11-227"
+      - "github.com/freefq -  12-228"
+      - "github.com/freefq - FastlyAnycast 13-229"
+      - "github.com/freefq - CloudFlare 14-230"
+      - "-001 _6.4MB/s_GPT_X_History-246"
+      - "-003 _3.7MB/s_1%_TK-US_YT-US_NF_D+_GPT_GM-US-247"
+      - "-001 _4.7MB/s_5%_YT-KR_NF_D+_GPT_GM-KR-248"
+      - "-001 _5.0MB/s_5%_TK-US_YT-US_NF_D+_GPT_GM-US-251"
+      - "-006 _4.3MB/s_11%_TK-NL_YT-RU_NF_GPT-255"
+      - "-002 _2.7MB/s_GPT_YT-NL_NF_0%-256"
+      - "-004 _605KB/s_YT-FR_NF_D+-258"
+      - "-001 _3.8MB/s_40%_YT-RU_NF_D+_GPT-260"
+      - "-001 _864KB/s_GPT_YT-CN_NF_5%-261"
+      - "-001 _796KB/s_GPT_YT-RU_NF_43%-263"
+      - "-001 _2.4MB/s_22%_TK-ES_YT-ES_NF_GPT-266"
+      - "-001 _2.5MB/s_YT-RU-267"
+      - "-005 _4.1MB/s_YT-RU_NF_D+-270"
+      - "-002 _0.6MB/s_GPT_X_History-271"
+      - "-003 _2.3MB/s-272"
+      - "-004 _4.2MB/s_YT-RU-273"
+      - "-001 _3.7MB/s_0%_YT-RU_NF_GPT_GM-US-274"
+      - "-003 _1.7MB/s_22%_TK-ES_YT-ES_NF_GPT-275"
+      - "-001 _1.9MB/s_GPT_GM_X_History-278"
+      - "-002 _1.1MB/s_YT-US_NF_GPT-279"
+      - "-003 _796KB/s_YT-VN_NF_GPT_GM-VN-280"
+      - "-004 _1.2MB/s_YT-US_NF_GPT-281"
+      - "-005 _698KB/s_YT-VN_NF_GPT_GM-VN-282"
+      - "-006 _858KB/s_YT-VN_NF_GPT-283"
+      - "-007 _1.7MB/s_GPT_YT-US_NF-285"
+      - "-008 _609KB/s_YT-US_NF_GPT-286"
+      - "-009 _958KB/s_GPT_YT-US_NF_GM-MM-287"
+      - "-010 _935KB/s_GPT_YT-US_NF-288"
+      - "-011 _1.2MB/s_GPT_YT-VN_NF-289"
+      - "-012 _2.7MB/s_GPT_X_History_[_]-290"
+      - "-001 _7.2MB/s_NF_GPT-291"
+      - "-013 _1.4MB/s_GPT_YT-VN_NF_GM-VN-292"
+      - "-005 _3.9MB/s_0%_TK-BG_YT-RU_NF_D+_GPT-293"
+      - "-006 _1.2MB/s_GPT_YT-RU_NF_D+_6%-294"
+      - "-007 _6.4MB/s_YT-DE_NF_D+-295"
+      - "-001 _854KB/s-296"
+      - "-014 _2.5MB/s_GPT_YT-US_X_History_[_]-297"
+      - "US55-338"
+      - "US59-342"
+      - "US60-343"
+      - "US62-345"
+      - "US63-346"
+      - "DE18-347"
+      - "US64-348"
+      - "US67-351"
+      - "DE19-352"
+      - "US68-353"
+      - "US71-356"
+      - "DE20-357"
+      - "US72-358"
+      - "US75-361"
+      - "DE21-362"
+      - "US76-363"
+      - "IQ1-366"
+      - "MD1-367"
+      - "3_@ripaojiedian-368"
+      - "4_@ripaojiedian-369"
+      - "5_@ripaojiedian-370"
+      - "_@ripaojiedian-371"
+      - "2_@ripaojiedian-372"
+      - "3_@ripaojiedian-373"
+      - "_@ripaojiedian-374"
+      - "2_@ripaojiedian-375"
+      - "3_@ripaojiedian-376"
+      - "_@ripaojiedian-377"
+      - "2_@ripaojiedian-378"
+      - "vmess-5-453"
+      - "vmess-6-454"
+      - "vmess-7-455"
+      - "vmess-8-456"
+      - "https_//kelayun.notepin.co-457"
+      - "https_//kelayun.notepin.co-458"
+      - "https_//kelayun.notepin.co-459"
+      - "21000G-460"
+      - "200-461"
+      - "-462"
+      - "-463"
+      - "Gemini-464"
+      - "SS->-NF-ChatGPT-144.217.164.29_12000-468"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-469"
+      - "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-470"
+      - "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-471"
+      - "SS--NF-ChatGPT-TikTok-146.19.49.251_443-472"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-473"
+      - "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-474"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-475"
+      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-476"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-477"
+      - "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-479"
+      - "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-480"
+      - "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-481"
+      - "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-482"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-483"
+      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-484"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-485"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-487"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-488"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-489"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-490"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-491"
+      - "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-492"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-493"
+      - "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-494"
+      - "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-495"
+      - "CloudFlare-496"
+      - "V2CROSS.COM-497"
+      - "-499"
+      - "V2CROSS.COM-501"
+      - "CloudFlare-502"
+      - "V2CROSS.COM-504"
+      - "-506"
+      - "3_@ripaojiedian-519"
+      - "US(mibei77.com )-524"
+      - "TW(mibei77.com )-525"
+      - "HK(mibei77.com )-527"
+      - "US(mibei77.com )-529"
+      - "SG(mibei77.com )-534"
+      - "US(mibei77.com )-537"
+      - "US(mibei77.com )-548"
+      - "US(mibei77.com )-550"
+      - "TW(mibei77.com )-552"
+      - "US(mibei77.com )-557"
+      - "TW(mibei77.com )-558"
+      - "US(mibei77.com )-561"
+      - "US(mibei77.com )-563"
+      - "US(mibei77.com )-567"
+      - "US(mibei77.com )-569"
+      - "US(mibei77.com )-577"
+      - "TW(mibei77.com )-604"
       - "US(mibei77.com )-623"
-      - "US(mibei77.com )-626"
-      - "TW(mibei77.com )-627"
-      - "US(mibei77.com )-631"
-      - "TW(mibei77.com )-636"
-      - "US(mibei77.com )-637"
-      - "US(mibei77.com )-646"
       - "US(mibei77.com )-648"
-      - "US(mibei77.com )-649"
-      - "US(mibei77.com )-651"
-      - "US(mibei77.com )-654"
-      - "US(mibei77.com )-665"
-      - "US(mibei77.com )-669"
-      - "US(mibei77.com )-679"
-      - "US(mibei77.com )-680"
-      - "US(mibei77.com )-682"
-      - "US(mibei77.com )-684"
-      - "US(mibei77.com )-685"
-      - "US(mibei77.com )-689"
-      - "US(mibei77.com )-690"
-      - "US(mibei77.com )-692"
-      - "TW(mibei77.com )-697"
-      - "US(mibei77.com )-698"
-      - "US(mibei77.com )-700"
-      - "US(mibei77.com )-701"
-      - "US(mibei77.com )-703"
-      - "US(mibei77.com )-705"
-      - "TW(mibei77.com )-740"
-      - "US(mibei77.com )-742"
-      - "US(mibei77.com )-745"
-      - "8cczzuu.top-762"
-      - "_CN_-776"
-      - "_US_-777"
-      - "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-778"
-      - "-  - LLC Baxet - 2-779"
-      - "-  - JSC IOT - 1-780"
-      - "-  - Amazon.com, Inc. - 1-781"
-      - "-  - Baxet Group Inc. - 2-787"
-      - "-  - Melbikomas UAB - 1-788"
-      - "-  - Melbikomas UAB - 2-789"
-      - "-  - Aceville Pte.ltd - 1-790"
-      - "-  - Namecheap, Inc. - 2-791"
-      - "- Mumbai - Google LLC - 1-792"
-      - "- Hi Dng - FASTLY - 1-793"
-      - "- Hi Dng - FASTLY - 10-794"
-      - "- Hi Dng - FASTLY - 11-795"
-      - "- Hi Dng - FASTLY - 12-796"
-      - "- Hi Dng - FASTLY - 13-797"
-      - "- Hi Dng - FASTLY - 14-798"
-      - "- Hi Dng - FASTLY - 2-799"
-      - "- Hi Dng - FASTLY - 3-800"
-      - "- Hi Dng - FASTLY - 4-801"
-      - "- Hi Dng - FASTLY - 5-802"
-      - "- Hi Dng - FASTLY - 6-803"
-      - "- Hi Dng - FASTLY - 7-804"
-      - "- Hi Dng - FASTLY - 8-805"
-      - "- Hi Dng - FASTLY - 9-806"
-      - "-  - Dalian Yichuan Industrial CO - 1-807"
-      - "SCP_US-808"
-      - "SCP_UK-809"
-      - "SCP_PL-810"
+      - "US(mibei77.com )-655"
+      - "US(mibei77.com )-657"
+      - "US(mibei77.com )-666"
+      - "HK(mibei77.com )-667"
+      - "US(mibei77.com )-671"
+      - "US(mibei77.com )-673"
+      - "8cczzuu.top-690"
+      - "_CN_-704"
+      - "_US_-705"
+      - "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-706"
+      - "-  - JSC IOT - 1-708"
+      - "-  - Amazon.com, Inc. - 1-709"
+      - "-  - Baxet Group Inc. - 2-715"
+      - "-  - Melbikomas UAB - 2-717"
+      - "-  - Aceville Pte.ltd - 1-718"
+      - "-  - Namecheap, Inc. - 2-719"
+      - "- Mumbai - Google LLC - 1-720"
+      - "- Hi Dng - FASTLY - 1-721"
+      - "- Hi Dng - FASTLY - 10-722"
+      - "- Hi Dng - FASTLY - 12-724"
+      - "- Hi Dng - FASTLY - 13-725"
+      - "- Hi Dng - FASTLY - 14-726"
+      - "- Hi Dng - FASTLY - 2-727"
+      - "- Hi Dng - FASTLY - 4-729"
+      - "- Hi Dng - FASTLY - 5-730"
+      - "- Hi Dng - FASTLY - 8-733"
+      - "- Hi Dng - FASTLY - 9-734"
+      - "-  - Dalian Yichuan Industrial CO - 1-735"
+      - "SCP_US-736"
+      - "SCP_UK-737"
+      - "SCP_PL-738"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] FR(mibei77.com )-0"
-      - "[mibei] US(mibei77.com )-1"
-      - "[mibei] US(mibei77.com ) 2-3"
-      - "[mibei] TW(mibei77.com )-4"
-      - "[mibei] US(mibei77.com ) 3-5"
-      - "[mibei] TW(mibei77.com ) 2-6"
-      - "[mibei] US(mibei77.com ) 4-7"
-      - "[mibei] US(mibei77.com ) 5-9"
-      - "[mibei] US(mibei77.com ) 6-10"
-      - "[mibei] RU(mibei77.com )-11"
-      - "[mibei] US(mibei77.com ) 7-12"
-      - "[mibei] US(mibei77.com ) 8-13"
-      - "[mibei] US(mibei77.com ) 9-14"
-      - "[mibei] SG(mibei77.com )-15"
-      - "[mibei] US(mibei77.com ) 10-16"
-      - "[mibei] HK(mibei77.com ) 2-17"
-      - "[mibei] US(mibei77.com ) 12-19"
-      - "[mibei] US(mibei77.com ) 13-20"
-      - "[mibei] US(mibei77.com ) 16-23"
-      - "[mibei] US(mibei77.com ) 18-25"
-      - "[mibei] US(mibei77.com ) 19-27"
-      - "[mibei] US(mibei77.com ) 20-29"
-      - "[mibei] US(mibei77.com ) 21-30"
-      - "[mibei] US(mibei77.com ) 22-31"
-      - "[mibei] US(mibei77.com ) 23-32"
-      - "[mibei] TW(mibei77.com ) 3-33"
-      - "[mibei] HK(mibei77.com ) 5-34"
-      - "[mibei] US(mibei77.com ) 25-36"
-      - "[mibei] US(mibei77.com ) 26-37"
-      - "[mibei] US(mibei77.com ) 27-38"
-      - "[mibei] TW(mibei77.com ) 4-39"
-      - "[mibei] US(mibei77.com ) 28-40"
-      - "[mibei] US(mibei77.com ) 30-42"
-      - "[mibei] US(mibei77.com ) 33-45"
-      - "[mibei] US(mibei77.com ) 36-48"
-      - "[mibei] US(mibei77.com ) 37-49"
-      - "[mibei] US(mibei77.com ) 41-57"
-      - "[mibei] US(mibei77.com ) 42-58"
-      - "[mibei] TW(mibei77.com ) 5-85"
-      - "[mibei] (mibei77.com )-88"
-      - "[mibei] US(mibei77.com ) 57-92"
-      - "[mibei] US(mibei77.com ) 59-94"
-      - "[mibei] US(mibei77.com ) 65-100"
-      - "[mibei] US(mibei77.com ) 68-105"
-      - "[mibei] US(mibei77.com ) 74-112"
-      - "[mibei] TW(mibei77.com ) 7-128"
-      - "[mibei] US(mibei77.com ) 86-134"
-      - "[mibei] US(mibei77.com ) 87-135"
-      - "[mibei] US(mibei77.com ) 88-136"
-      - "[mibei] US(mibei77.com ) 90-138"
-      - "[mibei] US(mibei77.com ) 91-140"
-      - "[mibei] US(mibei77.com ) 92-141"
-      - "[mibei] US(mibei77.com ) 93-142"
-      - "[mibei] HK(mibei77.com ) 10-148"
-      - "[mibei] US(mibei77.com ) 98-149"
-      - "[mibei] US(mibei77.com ) 99-150"
-      - "[mibei] US(mibei77.com ) 100-151"
-      - "[mibei] US(mibei77.com ) 101-152"
-      - "[mibei] US(mibei77.com ) 107-159"
-      - "[nodefree] _VE_-171"
-      - "[nodefree] _US_-172"
-      - "[nodefree] _US__1-173"
-      - "[nodefree] _CN_-174"
-      - "[nodefree] _US__2-175"
-      - "[nodefree] _CN__1-176"
-      - "[nodefree] _CN__2-177"
-      - "[nodefree] _US__3-178"
-      - "[nodefree] _BR_->_US_-179"
-      - "[nodefree] _CN__3-180"
-      - "[nodefree] _RU_-181"
-      - "[nodefree] _RU_->_PL_-182"
-      - "[nodefree] _RU_->_US_-183"
-      - "[nodefree] -184"
-      - "[nodefree] _US__4-185"
-      - "[nodefree] _US_->_NL_-186"
-      - "[nodefree] _BR_->_DE_-187"
-      - "[nodefree] _RU__1-188"
-      - "[nodefree] _CN__4-189"
-      - "[nodefree] _US_->_FR_-190"
-      - "[nodefree] _US_->_DE_-191"
-      - "[nodefree] _US_->_FI_-192"
-      - "[nodefree] _US_->_NL__1-193"
-      - "[nodefree] _GB_-194"
-      - "[nodefree] _CN__5-195"
-      - "[nodefree] _DE_-196"
-      - "[nodefree] _US__5-197"
-      - "[nodefree] _RU_->_US__1-198"
-      - "[nodefree] _CN__6-199"
-      - "[nodefree] _CN__7-200"
-      - "github.com/freefq -   1-212"
-      - "github.com/freefq -   2-213"
-      - "github.com/freefq -   3-214"
-      - "github.com/freefq - CloudFlareCDN 4-215"
-      - "github.com/freefq -   5-216"
-      - "github.com/freefq - CloudFlareCDN 6-217"
-      - "github.com/freefq -  7-218"
-      - "github.com/freefq -  8-219"
-      - "github.com/freefq - CloudFlareCDN 9-220"
-      - "github.com/freefq -   10-221"
-      - "github.com/freefq -  11-222"
-      - "github.com/freefq -  12-223"
-      - "github.com/freefq - FastlyAnycast 13-224"
-      - "github.com/freefq - CloudFlare 14-225"
-      - "-001 _5.4MB/s_NF_GM-US_0%_(AzadNet.t.me)-240"
-      - "-002 _3.1MB/s_GPT_YT-DE_NF_D+-243"
-      - "-001 _1.3MB/s_YT-SE_NF_D+-247"
-      - "-004 _1.7MB/s-253"
-      - "-001 _1.5MB/s_GPT_NF_D+_5%-256"
-      - "-002 _1.5MB/s_GPT_YT-NL_NF_2%-257"
-      - "-001 _4.3MB/s_YT-SE_NF_D+_5%-258"
-      - "-001 _742KB/s_GPT_YT-AT_NF_D+_10%-260"
-      - "-001 _4.0MB/s_GPT_YT-RU_NF_D+_0%-261"
-      - "-003 _1.5MB/s_GPT_NF_D+_5%-263"
-      - "-009 _2.6MB/s_GPT_YT-US_NF_D+_21%-275"
-      - "-002 _4.9MB/s_YT-SE_NF_D+-277"
-      - "-004 _1.2MB/s_GPT_D+_5%-278"
-      - "-002 _4.0MB/s_YT-SE_NF_D+-279"
-      - "-005 _4.8MB/s_GPT_YT-US_NF_0%-283"
-      - "-011 _3.0MB/s_GPT_YT-RU_NF_100%-284"
-      - "-012 _2.4MB/s_GPT_YT-NL_NF_D+_5%-288"
-      - "-003 _2.6MB/s_YT-RU-289"
-      - "-003 _3.7MB/s_YT-SE_NF_D+-290"
-      - "-002 _1.6MB/s_GPT_YT-GB_D+_40%-293"
-      - "-005 _2.7MB/s_GPT_YT-NL_NF_0%-295"
-      - "-001 _5.2MB/s_GPT_YT-US_NF_D+_40%-298"
-      - "-004 _2.5MB/s_YT-RU-300"
-      - "-005 _2.2MB/s_YT-RU-309"
-      - "-001 _712KB/s_GPT_YT-VN_NF-319"
-      - "-002 _851KB/s_GPT_YT-VN_NF-320"
-      - "-003 _2.7MB/s-321"
-      - "-004 _1.2MB/s_GPT_YT-VN_NF-323"
-      - "-005 _785KB/s_GPT_YT-VN_NF-324"
-      - "-006 _643KB/s_GPT_YT-VN_NF-325"
-      - "-007 _962KB/s_GPT_YT-VN_NF_GM-VN-327"
-      - "-003 _2.2MB/s_GPT_YT-RU_NF_D+_0%-328"
-      - "-008 _1.4MB/s_GPT_YT-US_NF_GM-IR-329"
-      - "-009 _1.3MB/s_GPT_YT-US_NF-330"
-      - "-001 _3.3MB/s_GPT-331"
-      - "-010 _1.1MB/s_TK-VN_YT-US_NF_GPT_GM_(AzadNet.t.me)-340"
-      - "-007 _2.1MB/s_GPT-344"
-      - "-013 _3.4MB/s_GPT_YT-RU_NF_D+_0%-349"
-      - "-011 _665KB/s_YT-US_NF_GPT_GM-350"
-      - "-012 _1.7MB/s_YT-VN_NF_GPT_GM-351"
-      - "-008 _1.8MB/s_GPT_NF_D+_5%-356"
-      - "-014 _1.8MB/s_GPT_YT-US_NF_D+_GM_5%-359"
-      - "-014 _6.4MB/s_YT-DE_NF_D+-360"
-      - "-015 _2.4MB/s_GPT_YT-NL_NF_D+_5%-362"
-      - "-002 _1.3MB/s_GPT_YT-ES_NF_23%-363"
-      - "-004 _1.2MB/s_GPT_YT-RU_NF_D+_0%-364"
-      - "-006 _3.7MB/s_YT-RU-365"
-      - "-003 _1020KB/s_GPT_YT-ES_NF_23%-366"
-      - "-007 _4.1MB/s_YT-RU_NF_D+-367"
-      - "-013 _869KB/s_GPT_YT-VN_NF-368"
-      - "-014 _1.6MB/s_GPT_YT-US_NF-371"
-      - "-015 _517KB/s_GPT_YT-US_NF-372"
-      - "-016 _958KB/s_GPT_YT-US_NF_GM-MM-373"
-      - "-017 _935KB/s_GPT_YT-US_NF-374"
-      - "-018 _1.2MB/s_GPT_YT-VN_NF-375"
-      - "-019 _823KB/s_GPT_YT-US_NF-376"
-      - "-020 _1.4MB/s_GPT_YT-VN_NF_GM-VN-377"
-      - "-015 _1.2MB/s_GPT_YT-RU_NF_D+_6%-379"
-      - "-001 _854KB/s-380"
-      - "-006 _3.0MB/s_GPT_YT-JP_GM_0%-381"
-      - "-001 _4.4MB/s_GPT_YT-NL_NF_22%-382"
-      - "US55-384"
-      - "US59-388"
-      - "US60-389"
-      - "US62-391"
-      - "US63-392"
-      - "DE18-393"
-      - "US64-394"
-      - "US67-397"
-      - "DE19-398"
-      - "US68-399"
-      - "US71-402"
-      - "DE20-403"
-      - "US72-404"
-      - "US75-407"
-      - "DE21-408"
-      - "US76-409"
-      - "IQ1-412"
-      - "MD1-413"
-      - "3_@ripaojiedian-414"
-      - "4_@ripaojiedian-415"
-      - "5_@ripaojiedian-416"
-      - "_@ripaojiedian-417"
-      - "2_@ripaojiedian-418"
-      - "3_@ripaojiedian-419"
-      - "_@ripaojiedian-420"
-      - "2_@ripaojiedian-421"
-      - "3_@ripaojiedian-422"
-      - "_@ripaojiedian-423"
-      - "2_@ripaojiedian-424"
-      - "vmess-5-503"
-      - "vmess-6-504"
-      - "vmess-7-505"
-      - "vmess-8-506"
-      - "https_//kelayun.notepin.co-507"
-      - "https_//kelayun.notepin.co-508"
-      - "https_//kelayun.notepin.co-509"
-      - "21000G-510"
-      - "200-511"
-      - "-512"
-      - "-513"
-      - "Gemini-514"
-      - "SS->-NF-ChatGPT-144.217.164.29_12000-518"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-519"
-      - "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-520"
-      - "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-521"
-      - "SS--NF-ChatGPT-TikTok-146.19.49.251_443-522"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-523"
-      - "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-524"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-525"
-      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-526"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-527"
-      - "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-529"
-      - "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-530"
-      - "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-531"
-      - "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-532"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-533"
-      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-534"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-535"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-537"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-538"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-539"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-540"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-541"
-      - "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-542"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-543"
-      - "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-544"
-      - "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-545"
-      - "CloudFlare-547"
-      - "V2CROSS.COM-549"
-      - "V2CROSS.COM-553"
-      - "-554"
-      - "CloudFlare-555"
-      - "3_@ripaojiedian-568"
-      - "US(mibei77.com )-571"
-      - "US(mibei77.com )-578"
-      - "US(mibei77.com )-582"
-      - "US(mibei77.com )-584"
-      - "US(mibei77.com )-590"
-      - "US(mibei77.com )-593"
-      - "US(mibei77.com )-594"
-      - "TW(mibei77.com )-602"
-      - "TW(mibei77.com )-605"
-      - "US(mibei77.com )-607"
-      - "US(mibei77.com )-613"
-      - "US(mibei77.com )-616"
-      - "US(mibei77.com )-617"
-      - "TW(mibei77.com )-618"
+      - "[mibei] US(mibei77.com )-0"
+      - "[mibei] US(mibei77.com ) 2-1"
+      - "[mibei] US(mibei77.com ) 3-2"
+      - "[mibei] US(mibei77.com ) 4-3"
+      - "[mibei] HK(mibei77.com )-8"
+      - "[mibei] US(mibei77.com ) 9-9"
+      - "[mibei] US(mibei77.com ) 10-10"
+      - "[mibei] US(mibei77.com ) 12-13"
+      - "[mibei] US(mibei77.com ) 13-14"
+      - "[mibei] RU(mibei77.com )-15"
+      - "[mibei] (mibei77.com )-20"
+      - "[mibei] HK(mibei77.com ) 2-21"
+      - "[mibei] US(mibei77.com ) 20-26"
+      - "[mibei] US(mibei77.com ) 24-31"
+      - "[mibei] RU(mibei77.com ) 2-32"
+      - "[mibei] US(mibei77.com ) 25-33"
+      - "[mibei] US(mibei77.com ) 42-54"
+      - "[mibei] US(mibei77.com ) 52-65"
+      - "[mibei] US(mibei77.com ) 55-68"
+      - "[mibei] US(mibei77.com ) 59-73"
+      - "[mibei] US(mibei77.com ) 60-74"
+      - "[mibei] US(mibei77.com ) 62-76"
+      - "[mibei] US(mibei77.com ) 63-77"
+      - "[mibei] US(mibei77.com ) 65-79"
+      - "[mibei] RU(mibei77.com ) 3-80"
+      - "[mibei] US(mibei77.com ) 68-83"
+      - "[mibei] GB(mibei77.com )-85"
+      - "[mibei] US(mibei77.com ) 70-88"
+      - "[mibei] US(mibei77.com ) 72-91"
+      - "[mibei] US(mibei77.com ) 77-102"
+      - "[mibei] TW(mibei77.com )-105"
+      - "[mibei] US(mibei77.com ) 80-106"
+      - "[mibei] US(mibei77.com ) 85-113"
+      - "[mibei] US(mibei77.com ) 86-116"
+      - "[mibei] US(mibei77.com ) 87-117"
+      - "[mibei] US(mibei77.com ) 88-118"
+      - "[mibei] US(mibei77.com ) 89-119"
+      - "[mibei] US(mibei77.com ) 95-126"
+      - "[mibei] US(mibei77.com ) 96-128"
+      - "[mibei] US(mibei77.com ) 99-132"
+      - "[mibei] US(mibei77.com ) 103-138"
+      - "[mibei] US(mibei77.com ) 111-150"
+      - "[mibei] US(mibei77.com ) 114-158"
+      - "[mibei] US(mibei77.com ) 118-167"
+      - "[mibei] US(mibei77.com ) 121-171"
+      - "[mibei] US(mibei77.com ) 125-175"
+      - "[mibei] US(mibei77.com ) 129-179"
+      - "[nodefree] _CN_->_DE_-181"
+      - "[nodefree] _CN_->_LT_-182"
+      - "[nodefree] _CA_-183"
+      - "[nodefree] _US_-186"
+      - "[nodefree] -187"
+      - "[nodefree] _1-188"
+      - "[nodefree] _RU_-189"
+      - "[nodefree] _US__1-190"
+      - "[nodefree] _US__2-191"
+      - "[nodefree] _US__3-192"
+      - "[nodefree] _2-193"
+      - "[nodefree] _3-194"
+      - "[nodefree] _US__4-195"
+      - "[nodefree] _4-196"
+      - "[nodefree] _5-197"
+      - "[nodefree] _6-200"
+      - "[nodefree] _RU__2-201"
+      - "[nodefree] _7-202"
+      - "[nodefree] _BR_->_RU_-203"
+      - "[nodefree] _8-204"
+      - "[nodefree] _FI_-205"
+      - "github.com/freefq -   1-217"
+      - "github.com/freefq -   2-218"
+      - "github.com/freefq -   3-219"
+      - "github.com/freefq - CloudFlareCDN 4-220"
+      - "github.com/freefq -   5-221"
+      - "github.com/freefq - CloudFlareCDN 6-222"
+      - "github.com/freefq -  7-223"
+      - "github.com/freefq -  8-224"
+      - "github.com/freefq - CloudFlareCDN 9-225"
+      - "github.com/freefq -   10-226"
+      - "github.com/freefq -  11-227"
+      - "github.com/freefq -  12-228"
+      - "github.com/freefq - FastlyAnycast 13-229"
+      - "github.com/freefq - CloudFlare 14-230"
+      - "-001 _6.4MB/s_GPT_X_History-246"
+      - "-003 _3.7MB/s_1%_TK-US_YT-US_NF_D+_GPT_GM-US-247"
+      - "-001 _4.7MB/s_5%_YT-KR_NF_D+_GPT_GM-KR-248"
+      - "-001 _5.0MB/s_5%_TK-US_YT-US_NF_D+_GPT_GM-US-251"
+      - "-006 _4.3MB/s_11%_TK-NL_YT-RU_NF_GPT-255"
+      - "-002 _2.7MB/s_GPT_YT-NL_NF_0%-256"
+      - "-004 _605KB/s_YT-FR_NF_D+-258"
+      - "-001 _3.8MB/s_40%_YT-RU_NF_D+_GPT-260"
+      - "-001 _864KB/s_GPT_YT-CN_NF_5%-261"
+      - "-001 _796KB/s_GPT_YT-RU_NF_43%-263"
+      - "-001 _2.4MB/s_22%_TK-ES_YT-ES_NF_GPT-266"
+      - "-001 _2.5MB/s_YT-RU-267"
+      - "-005 _4.1MB/s_YT-RU_NF_D+-270"
+      - "-002 _0.6MB/s_GPT_X_History-271"
+      - "-003 _2.3MB/s-272"
+      - "-004 _4.2MB/s_YT-RU-273"
+      - "-001 _3.7MB/s_0%_YT-RU_NF_GPT_GM-US-274"
+      - "-003 _1.7MB/s_22%_TK-ES_YT-ES_NF_GPT-275"
+      - "-001 _1.9MB/s_GPT_GM_X_History-278"
+      - "-002 _1.1MB/s_YT-US_NF_GPT-279"
+      - "-003 _796KB/s_YT-VN_NF_GPT_GM-VN-280"
+      - "-004 _1.2MB/s_YT-US_NF_GPT-281"
+      - "-005 _698KB/s_YT-VN_NF_GPT_GM-VN-282"
+      - "-006 _858KB/s_YT-VN_NF_GPT-283"
+      - "-007 _1.7MB/s_GPT_YT-US_NF-285"
+      - "-008 _609KB/s_YT-US_NF_GPT-286"
+      - "-009 _958KB/s_GPT_YT-US_NF_GM-MM-287"
+      - "-010 _935KB/s_GPT_YT-US_NF-288"
+      - "-011 _1.2MB/s_GPT_YT-VN_NF-289"
+      - "-012 _2.7MB/s_GPT_X_History_[_]-290"
+      - "-001 _7.2MB/s_NF_GPT-291"
+      - "-013 _1.4MB/s_GPT_YT-VN_NF_GM-VN-292"
+      - "-005 _3.9MB/s_0%_TK-BG_YT-RU_NF_D+_GPT-293"
+      - "-006 _1.2MB/s_GPT_YT-RU_NF_D+_6%-294"
+      - "-007 _6.4MB/s_YT-DE_NF_D+-295"
+      - "-001 _854KB/s-296"
+      - "-014 _2.5MB/s_GPT_YT-US_X_History_[_]-297"
+      - "US55-338"
+      - "US59-342"
+      - "US60-343"
+      - "US62-345"
+      - "US63-346"
+      - "DE18-347"
+      - "US64-348"
+      - "US67-351"
+      - "DE19-352"
+      - "US68-353"
+      - "US71-356"
+      - "DE20-357"
+      - "US72-358"
+      - "US75-361"
+      - "DE21-362"
+      - "US76-363"
+      - "IQ1-366"
+      - "MD1-367"
+      - "3_@ripaojiedian-368"
+      - "4_@ripaojiedian-369"
+      - "5_@ripaojiedian-370"
+      - "_@ripaojiedian-371"
+      - "2_@ripaojiedian-372"
+      - "3_@ripaojiedian-373"
+      - "_@ripaojiedian-374"
+      - "2_@ripaojiedian-375"
+      - "3_@ripaojiedian-376"
+      - "_@ripaojiedian-377"
+      - "2_@ripaojiedian-378"
+      - "vmess-5-453"
+      - "vmess-6-454"
+      - "vmess-7-455"
+      - "vmess-8-456"
+      - "https_//kelayun.notepin.co-457"
+      - "https_//kelayun.notepin.co-458"
+      - "https_//kelayun.notepin.co-459"
+      - "21000G-460"
+      - "200-461"
+      - "-462"
+      - "-463"
+      - "Gemini-464"
+      - "SS->-NF-ChatGPT-144.217.164.29_12000-468"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-469"
+      - "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-470"
+      - "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-471"
+      - "SS--NF-ChatGPT-TikTok-146.19.49.251_443-472"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-473"
+      - "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-474"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-475"
+      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-476"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-477"
+      - "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-479"
+      - "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-480"
+      - "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-481"
+      - "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-482"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-483"
+      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-484"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-485"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-487"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-488"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-489"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-490"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-491"
+      - "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-492"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-493"
+      - "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-494"
+      - "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-495"
+      - "CloudFlare-496"
+      - "V2CROSS.COM-497"
+      - "-499"
+      - "V2CROSS.COM-501"
+      - "CloudFlare-502"
+      - "V2CROSS.COM-504"
+      - "-506"
+      - "3_@ripaojiedian-519"
+      - "US(mibei77.com )-524"
+      - "TW(mibei77.com )-525"
+      - "HK(mibei77.com )-527"
+      - "US(mibei77.com )-529"
+      - "SG(mibei77.com )-534"
+      - "US(mibei77.com )-537"
+      - "US(mibei77.com )-548"
+      - "US(mibei77.com )-550"
+      - "TW(mibei77.com )-552"
+      - "US(mibei77.com )-557"
+      - "TW(mibei77.com )-558"
+      - "US(mibei77.com )-561"
+      - "US(mibei77.com )-563"
+      - "US(mibei77.com )-567"
+      - "US(mibei77.com )-569"
+      - "US(mibei77.com )-577"
+      - "TW(mibei77.com )-604"
       - "US(mibei77.com )-623"
-      - "US(mibei77.com )-626"
-      - "TW(mibei77.com )-627"
-      - "US(mibei77.com )-631"
-      - "TW(mibei77.com )-636"
-      - "US(mibei77.com )-637"
-      - "US(mibei77.com )-646"
       - "US(mibei77.com )-648"
-      - "US(mibei77.com )-649"
-      - "US(mibei77.com )-651"
-      - "US(mibei77.com )-654"
-      - "US(mibei77.com )-665"
-      - "US(mibei77.com )-669"
-      - "US(mibei77.com )-679"
-      - "US(mibei77.com )-680"
-      - "US(mibei77.com )-682"
-      - "US(mibei77.com )-684"
-      - "US(mibei77.com )-685"
-      - "US(mibei77.com )-689"
-      - "US(mibei77.com )-690"
-      - "US(mibei77.com )-692"
-      - "TW(mibei77.com )-697"
-      - "US(mibei77.com )-698"
-      - "US(mibei77.com )-700"
-      - "US(mibei77.com )-701"
-      - "US(mibei77.com )-703"
-      - "US(mibei77.com )-705"
-      - "TW(mibei77.com )-740"
-      - "US(mibei77.com )-742"
-      - "US(mibei77.com )-745"
-      - "8cczzuu.top-762"
-      - "_CN_-776"
-      - "_US_-777"
-      - "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-778"
-      - "-  - LLC Baxet - 2-779"
-      - "-  - JSC IOT - 1-780"
-      - "-  - Amazon.com, Inc. - 1-781"
-      - "-  - Baxet Group Inc. - 2-787"
-      - "-  - Melbikomas UAB - 1-788"
-      - "-  - Melbikomas UAB - 2-789"
-      - "-  - Aceville Pte.ltd - 1-790"
-      - "-  - Namecheap, Inc. - 2-791"
-      - "- Mumbai - Google LLC - 1-792"
-      - "- Hi Dng - FASTLY - 1-793"
-      - "- Hi Dng - FASTLY - 10-794"
-      - "- Hi Dng - FASTLY - 11-795"
-      - "- Hi Dng - FASTLY - 12-796"
-      - "- Hi Dng - FASTLY - 13-797"
-      - "- Hi Dng - FASTLY - 14-798"
-      - "- Hi Dng - FASTLY - 2-799"
-      - "- Hi Dng - FASTLY - 3-800"
-      - "- Hi Dng - FASTLY - 4-801"
-      - "- Hi Dng - FASTLY - 5-802"
-      - "- Hi Dng - FASTLY - 6-803"
-      - "- Hi Dng - FASTLY - 7-804"
-      - "- Hi Dng - FASTLY - 8-805"
-      - "- Hi Dng - FASTLY - 9-806"
-      - "-  - Dalian Yichuan Industrial CO - 1-807"
-      - "SCP_US-808"
-      - "SCP_UK-809"
-      - "SCP_PL-810"
+      - "US(mibei77.com )-655"
+      - "US(mibei77.com )-657"
+      - "US(mibei77.com )-666"
+      - "HK(mibei77.com )-667"
+      - "US(mibei77.com )-671"
+      - "US(mibei77.com )-673"
+      - "8cczzuu.top-690"
+      - "_CN_-704"
+      - "_US_-705"
+      - "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-706"
+      - "-  - JSC IOT - 1-708"
+      - "-  - Amazon.com, Inc. - 1-709"
+      - "-  - Baxet Group Inc. - 2-715"
+      - "-  - Melbikomas UAB - 2-717"
+      - "-  - Aceville Pte.ltd - 1-718"
+      - "-  - Namecheap, Inc. - 2-719"
+      - "- Mumbai - Google LLC - 1-720"
+      - "- Hi Dng - FASTLY - 1-721"
+      - "- Hi Dng - FASTLY - 10-722"
+      - "- Hi Dng - FASTLY - 12-724"
+      - "- Hi Dng - FASTLY - 13-725"
+      - "- Hi Dng - FASTLY - 14-726"
+      - "- Hi Dng - FASTLY - 2-727"
+      - "- Hi Dng - FASTLY - 4-729"
+      - "- Hi Dng - FASTLY - 5-730"
+      - "- Hi Dng - FASTLY - 8-733"
+      - "- Hi Dng - FASTLY - 9-734"
+      - "-  - Dalian Yichuan Industrial CO - 1-735"
+      - "SCP_US-736"
+      - "SCP_UK-737"
+      - "SCP_PL-738"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[mibei] FR(mibei77.com )-0"
-      - "[mibei] US(mibei77.com )-1"
-      - "[mibei] US(mibei77.com ) 2-3"
-      - "[mibei] TW(mibei77.com )-4"
-      - "[mibei] US(mibei77.com ) 3-5"
-      - "[mibei] TW(mibei77.com ) 2-6"
-      - "[mibei] US(mibei77.com ) 4-7"
-      - "[mibei] US(mibei77.com ) 5-9"
-      - "[mibei] US(mibei77.com ) 6-10"
-      - "[mibei] RU(mibei77.com )-11"
-      - "[mibei] US(mibei77.com ) 7-12"
-      - "[mibei] US(mibei77.com ) 8-13"
-      - "[mibei] US(mibei77.com ) 9-14"
-      - "[mibei] SG(mibei77.com )-15"
-      - "[mibei] US(mibei77.com ) 10-16"
-      - "[mibei] HK(mibei77.com ) 2-17"
-      - "[mibei] US(mibei77.com ) 12-19"
-      - "[mibei] US(mibei77.com ) 13-20"
-      - "[mibei] US(mibei77.com ) 16-23"
-      - "[mibei] US(mibei77.com ) 18-25"
-      - "[mibei] US(mibei77.com ) 19-27"
-      - "[mibei] US(mibei77.com ) 20-29"
-      - "[mibei] US(mibei77.com ) 21-30"
-      - "[mibei] US(mibei77.com ) 22-31"
-      - "[mibei] US(mibei77.com ) 23-32"
-      - "[mibei] TW(mibei77.com ) 3-33"
-      - "[mibei] HK(mibei77.com ) 5-34"
-      - "[mibei] US(mibei77.com ) 25-36"
-      - "[mibei] US(mibei77.com ) 26-37"
-      - "[mibei] US(mibei77.com ) 27-38"
-      - "[mibei] TW(mibei77.com ) 4-39"
-      - "[mibei] US(mibei77.com ) 28-40"
-      - "[mibei] US(mibei77.com ) 30-42"
-      - "[mibei] US(mibei77.com ) 33-45"
-      - "[mibei] US(mibei77.com ) 36-48"
-      - "[mibei] US(mibei77.com ) 37-49"
-      - "[mibei] US(mibei77.com ) 41-57"
-      - "[mibei] US(mibei77.com ) 42-58"
-      - "[mibei] TW(mibei77.com ) 5-85"
-      - "[mibei] (mibei77.com )-88"
-      - "[mibei] US(mibei77.com ) 57-92"
-      - "[mibei] US(mibei77.com ) 59-94"
-      - "[mibei] US(mibei77.com ) 65-100"
-      - "[mibei] US(mibei77.com ) 68-105"
-      - "[mibei] US(mibei77.com ) 74-112"
-      - "[mibei] TW(mibei77.com ) 7-128"
-      - "[mibei] US(mibei77.com ) 86-134"
-      - "[mibei] US(mibei77.com ) 87-135"
-      - "[mibei] US(mibei77.com ) 88-136"
-      - "[mibei] US(mibei77.com ) 90-138"
-      - "[mibei] US(mibei77.com ) 91-140"
-      - "[mibei] US(mibei77.com ) 92-141"
-      - "[mibei] US(mibei77.com ) 93-142"
-      - "[mibei] HK(mibei77.com ) 10-148"
-      - "[mibei] US(mibei77.com ) 98-149"
-      - "[mibei] US(mibei77.com ) 99-150"
-      - "[mibei] US(mibei77.com ) 100-151"
-      - "[mibei] US(mibei77.com ) 101-152"
-      - "[mibei] US(mibei77.com ) 107-159"
-      - "[nodefree] _VE_-171"
-      - "[nodefree] _US_-172"
-      - "[nodefree] _US__1-173"
-      - "[nodefree] _CN_-174"
-      - "[nodefree] _US__2-175"
-      - "[nodefree] _CN__1-176"
-      - "[nodefree] _CN__2-177"
-      - "[nodefree] _US__3-178"
-      - "[nodefree] _BR_->_US_-179"
-      - "[nodefree] _CN__3-180"
-      - "[nodefree] _RU_-181"
-      - "[nodefree] _RU_->_PL_-182"
-      - "[nodefree] _RU_->_US_-183"
-      - "[nodefree] -184"
-      - "[nodefree] _US__4-185"
-      - "[nodefree] _US_->_NL_-186"
-      - "[nodefree] _BR_->_DE_-187"
-      - "[nodefree] _RU__1-188"
-      - "[nodefree] _CN__4-189"
-      - "[nodefree] _US_->_FR_-190"
-      - "[nodefree] _US_->_DE_-191"
-      - "[nodefree] _US_->_FI_-192"
-      - "[nodefree] _US_->_NL__1-193"
-      - "[nodefree] _GB_-194"
-      - "[nodefree] _CN__5-195"
-      - "[nodefree] _DE_-196"
-      - "[nodefree] _US__5-197"
-      - "[nodefree] _RU_->_US__1-198"
-      - "[nodefree] _CN__6-199"
-      - "[nodefree] _CN__7-200"
-      - "github.com/freefq -   1-212"
-      - "github.com/freefq -   2-213"
-      - "github.com/freefq -   3-214"
-      - "github.com/freefq - CloudFlareCDN 4-215"
-      - "github.com/freefq -   5-216"
-      - "github.com/freefq - CloudFlareCDN 6-217"
-      - "github.com/freefq -  7-218"
-      - "github.com/freefq -  8-219"
-      - "github.com/freefq - CloudFlareCDN 9-220"
-      - "github.com/freefq -   10-221"
-      - "github.com/freefq -  11-222"
-      - "github.com/freefq -  12-223"
-      - "github.com/freefq - FastlyAnycast 13-224"
-      - "github.com/freefq - CloudFlare 14-225"
-      - "-001 _5.4MB/s_NF_GM-US_0%_(AzadNet.t.me)-240"
-      - "-002 _3.1MB/s_GPT_YT-DE_NF_D+-243"
-      - "-001 _1.3MB/s_YT-SE_NF_D+-247"
-      - "-004 _1.7MB/s-253"
-      - "-001 _1.5MB/s_GPT_NF_D+_5%-256"
-      - "-002 _1.5MB/s_GPT_YT-NL_NF_2%-257"
-      - "-001 _4.3MB/s_YT-SE_NF_D+_5%-258"
-      - "-001 _742KB/s_GPT_YT-AT_NF_D+_10%-260"
-      - "-001 _4.0MB/s_GPT_YT-RU_NF_D+_0%-261"
-      - "-003 _1.5MB/s_GPT_NF_D+_5%-263"
-      - "-009 _2.6MB/s_GPT_YT-US_NF_D+_21%-275"
-      - "-002 _4.9MB/s_YT-SE_NF_D+-277"
-      - "-004 _1.2MB/s_GPT_D+_5%-278"
-      - "-002 _4.0MB/s_YT-SE_NF_D+-279"
-      - "-005 _4.8MB/s_GPT_YT-US_NF_0%-283"
-      - "-011 _3.0MB/s_GPT_YT-RU_NF_100%-284"
-      - "-012 _2.4MB/s_GPT_YT-NL_NF_D+_5%-288"
-      - "-003 _2.6MB/s_YT-RU-289"
-      - "-003 _3.7MB/s_YT-SE_NF_D+-290"
-      - "-002 _1.6MB/s_GPT_YT-GB_D+_40%-293"
-      - "-005 _2.7MB/s_GPT_YT-NL_NF_0%-295"
-      - "-001 _5.2MB/s_GPT_YT-US_NF_D+_40%-298"
-      - "-004 _2.5MB/s_YT-RU-300"
-      - "-005 _2.2MB/s_YT-RU-309"
-      - "-001 _712KB/s_GPT_YT-VN_NF-319"
-      - "-002 _851KB/s_GPT_YT-VN_NF-320"
-      - "-003 _2.7MB/s-321"
-      - "-004 _1.2MB/s_GPT_YT-VN_NF-323"
-      - "-005 _785KB/s_GPT_YT-VN_NF-324"
-      - "-006 _643KB/s_GPT_YT-VN_NF-325"
-      - "-007 _962KB/s_GPT_YT-VN_NF_GM-VN-327"
-      - "-003 _2.2MB/s_GPT_YT-RU_NF_D+_0%-328"
-      - "-008 _1.4MB/s_GPT_YT-US_NF_GM-IR-329"
-      - "-009 _1.3MB/s_GPT_YT-US_NF-330"
-      - "-001 _3.3MB/s_GPT-331"
-      - "-010 _1.1MB/s_TK-VN_YT-US_NF_GPT_GM_(AzadNet.t.me)-340"
-      - "-007 _2.1MB/s_GPT-344"
-      - "-013 _3.4MB/s_GPT_YT-RU_NF_D+_0%-349"
-      - "-011 _665KB/s_YT-US_NF_GPT_GM-350"
-      - "-012 _1.7MB/s_YT-VN_NF_GPT_GM-351"
-      - "-008 _1.8MB/s_GPT_NF_D+_5%-356"
-      - "-014 _1.8MB/s_GPT_YT-US_NF_D+_GM_5%-359"
-      - "-014 _6.4MB/s_YT-DE_NF_D+-360"
-      - "-015 _2.4MB/s_GPT_YT-NL_NF_D+_5%-362"
-      - "-002 _1.3MB/s_GPT_YT-ES_NF_23%-363"
-      - "-004 _1.2MB/s_GPT_YT-RU_NF_D+_0%-364"
-      - "-006 _3.7MB/s_YT-RU-365"
-      - "-003 _1020KB/s_GPT_YT-ES_NF_23%-366"
-      - "-007 _4.1MB/s_YT-RU_NF_D+-367"
-      - "-013 _869KB/s_GPT_YT-VN_NF-368"
-      - "-014 _1.6MB/s_GPT_YT-US_NF-371"
-      - "-015 _517KB/s_GPT_YT-US_NF-372"
-      - "-016 _958KB/s_GPT_YT-US_NF_GM-MM-373"
-      - "-017 _935KB/s_GPT_YT-US_NF-374"
-      - "-018 _1.2MB/s_GPT_YT-VN_NF-375"
-      - "-019 _823KB/s_GPT_YT-US_NF-376"
-      - "-020 _1.4MB/s_GPT_YT-VN_NF_GM-VN-377"
-      - "-015 _1.2MB/s_GPT_YT-RU_NF_D+_6%-379"
-      - "-001 _854KB/s-380"
-      - "-006 _3.0MB/s_GPT_YT-JP_GM_0%-381"
-      - "-001 _4.4MB/s_GPT_YT-NL_NF_22%-382"
-      - "US55-384"
-      - "US59-388"
-      - "US60-389"
-      - "US62-391"
-      - "US63-392"
-      - "DE18-393"
-      - "US64-394"
-      - "US67-397"
-      - "DE19-398"
-      - "US68-399"
-      - "US71-402"
-      - "DE20-403"
-      - "US72-404"
-      - "US75-407"
-      - "DE21-408"
-      - "US76-409"
-      - "IQ1-412"
-      - "MD1-413"
-      - "3_@ripaojiedian-414"
-      - "4_@ripaojiedian-415"
-      - "5_@ripaojiedian-416"
-      - "_@ripaojiedian-417"
-      - "2_@ripaojiedian-418"
-      - "3_@ripaojiedian-419"
-      - "_@ripaojiedian-420"
-      - "2_@ripaojiedian-421"
-      - "3_@ripaojiedian-422"
-      - "_@ripaojiedian-423"
-      - "2_@ripaojiedian-424"
-      - "vmess-5-503"
-      - "vmess-6-504"
-      - "vmess-7-505"
-      - "vmess-8-506"
-      - "https_//kelayun.notepin.co-507"
-      - "https_//kelayun.notepin.co-508"
-      - "https_//kelayun.notepin.co-509"
-      - "21000G-510"
-      - "200-511"
-      - "-512"
-      - "-513"
-      - "Gemini-514"
-      - "SS->-NF-ChatGPT-144.217.164.29_12000-518"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-519"
-      - "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-520"
-      - "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-521"
-      - "SS--NF-ChatGPT-TikTok-146.19.49.251_443-522"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-523"
-      - "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-524"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-525"
-      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-526"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-527"
-      - "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-529"
-      - "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-530"
-      - "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-531"
-      - "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-532"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-533"
-      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-534"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-535"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-537"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-538"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-539"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-540"
-      - "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-541"
-      - "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-542"
-      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-543"
-      - "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-544"
-      - "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-545"
-      - "CloudFlare-547"
-      - "V2CROSS.COM-549"
-      - "V2CROSS.COM-553"
-      - "-554"
-      - "CloudFlare-555"
-      - "3_@ripaojiedian-568"
-      - "US(mibei77.com )-571"
-      - "US(mibei77.com )-578"
-      - "US(mibei77.com )-582"
-      - "US(mibei77.com )-584"
-      - "US(mibei77.com )-590"
-      - "US(mibei77.com )-593"
-      - "US(mibei77.com )-594"
-      - "TW(mibei77.com )-602"
-      - "TW(mibei77.com )-605"
-      - "US(mibei77.com )-607"
-      - "US(mibei77.com )-613"
-      - "US(mibei77.com )-616"
-      - "US(mibei77.com )-617"
-      - "TW(mibei77.com )-618"
+      - "[mibei] US(mibei77.com )-0"
+      - "[mibei] US(mibei77.com ) 2-1"
+      - "[mibei] US(mibei77.com ) 3-2"
+      - "[mibei] US(mibei77.com ) 4-3"
+      - "[mibei] HK(mibei77.com )-8"
+      - "[mibei] US(mibei77.com ) 9-9"
+      - "[mibei] US(mibei77.com ) 10-10"
+      - "[mibei] US(mibei77.com ) 12-13"
+      - "[mibei] US(mibei77.com ) 13-14"
+      - "[mibei] RU(mibei77.com )-15"
+      - "[mibei] (mibei77.com )-20"
+      - "[mibei] HK(mibei77.com ) 2-21"
+      - "[mibei] US(mibei77.com ) 20-26"
+      - "[mibei] US(mibei77.com ) 24-31"
+      - "[mibei] RU(mibei77.com ) 2-32"
+      - "[mibei] US(mibei77.com ) 25-33"
+      - "[mibei] US(mibei77.com ) 42-54"
+      - "[mibei] US(mibei77.com ) 52-65"
+      - "[mibei] US(mibei77.com ) 55-68"
+      - "[mibei] US(mibei77.com ) 59-73"
+      - "[mibei] US(mibei77.com ) 60-74"
+      - "[mibei] US(mibei77.com ) 62-76"
+      - "[mibei] US(mibei77.com ) 63-77"
+      - "[mibei] US(mibei77.com ) 65-79"
+      - "[mibei] RU(mibei77.com ) 3-80"
+      - "[mibei] US(mibei77.com ) 68-83"
+      - "[mibei] GB(mibei77.com )-85"
+      - "[mibei] US(mibei77.com ) 70-88"
+      - "[mibei] US(mibei77.com ) 72-91"
+      - "[mibei] US(mibei77.com ) 77-102"
+      - "[mibei] TW(mibei77.com )-105"
+      - "[mibei] US(mibei77.com ) 80-106"
+      - "[mibei] US(mibei77.com ) 85-113"
+      - "[mibei] US(mibei77.com ) 86-116"
+      - "[mibei] US(mibei77.com ) 87-117"
+      - "[mibei] US(mibei77.com ) 88-118"
+      - "[mibei] US(mibei77.com ) 89-119"
+      - "[mibei] US(mibei77.com ) 95-126"
+      - "[mibei] US(mibei77.com ) 96-128"
+      - "[mibei] US(mibei77.com ) 99-132"
+      - "[mibei] US(mibei77.com ) 103-138"
+      - "[mibei] US(mibei77.com ) 111-150"
+      - "[mibei] US(mibei77.com ) 114-158"
+      - "[mibei] US(mibei77.com ) 118-167"
+      - "[mibei] US(mibei77.com ) 121-171"
+      - "[mibei] US(mibei77.com ) 125-175"
+      - "[mibei] US(mibei77.com ) 129-179"
+      - "[nodefree] _CN_->_DE_-181"
+      - "[nodefree] _CN_->_LT_-182"
+      - "[nodefree] _CA_-183"
+      - "[nodefree] _US_-186"
+      - "[nodefree] -187"
+      - "[nodefree] _1-188"
+      - "[nodefree] _RU_-189"
+      - "[nodefree] _US__1-190"
+      - "[nodefree] _US__2-191"
+      - "[nodefree] _US__3-192"
+      - "[nodefree] _2-193"
+      - "[nodefree] _3-194"
+      - "[nodefree] _US__4-195"
+      - "[nodefree] _4-196"
+      - "[nodefree] _5-197"
+      - "[nodefree] _6-200"
+      - "[nodefree] _RU__2-201"
+      - "[nodefree] _7-202"
+      - "[nodefree] _BR_->_RU_-203"
+      - "[nodefree] _8-204"
+      - "[nodefree] _FI_-205"
+      - "github.com/freefq -   1-217"
+      - "github.com/freefq -   2-218"
+      - "github.com/freefq -   3-219"
+      - "github.com/freefq - CloudFlareCDN 4-220"
+      - "github.com/freefq -   5-221"
+      - "github.com/freefq - CloudFlareCDN 6-222"
+      - "github.com/freefq -  7-223"
+      - "github.com/freefq -  8-224"
+      - "github.com/freefq - CloudFlareCDN 9-225"
+      - "github.com/freefq -   10-226"
+      - "github.com/freefq -  11-227"
+      - "github.com/freefq -  12-228"
+      - "github.com/freefq - FastlyAnycast 13-229"
+      - "github.com/freefq - CloudFlare 14-230"
+      - "-001 _6.4MB/s_GPT_X_History-246"
+      - "-003 _3.7MB/s_1%_TK-US_YT-US_NF_D+_GPT_GM-US-247"
+      - "-001 _4.7MB/s_5%_YT-KR_NF_D+_GPT_GM-KR-248"
+      - "-001 _5.0MB/s_5%_TK-US_YT-US_NF_D+_GPT_GM-US-251"
+      - "-006 _4.3MB/s_11%_TK-NL_YT-RU_NF_GPT-255"
+      - "-002 _2.7MB/s_GPT_YT-NL_NF_0%-256"
+      - "-004 _605KB/s_YT-FR_NF_D+-258"
+      - "-001 _3.8MB/s_40%_YT-RU_NF_D+_GPT-260"
+      - "-001 _864KB/s_GPT_YT-CN_NF_5%-261"
+      - "-001 _796KB/s_GPT_YT-RU_NF_43%-263"
+      - "-001 _2.4MB/s_22%_TK-ES_YT-ES_NF_GPT-266"
+      - "-001 _2.5MB/s_YT-RU-267"
+      - "-005 _4.1MB/s_YT-RU_NF_D+-270"
+      - "-002 _0.6MB/s_GPT_X_History-271"
+      - "-003 _2.3MB/s-272"
+      - "-004 _4.2MB/s_YT-RU-273"
+      - "-001 _3.7MB/s_0%_YT-RU_NF_GPT_GM-US-274"
+      - "-003 _1.7MB/s_22%_TK-ES_YT-ES_NF_GPT-275"
+      - "-001 _1.9MB/s_GPT_GM_X_History-278"
+      - "-002 _1.1MB/s_YT-US_NF_GPT-279"
+      - "-003 _796KB/s_YT-VN_NF_GPT_GM-VN-280"
+      - "-004 _1.2MB/s_YT-US_NF_GPT-281"
+      - "-005 _698KB/s_YT-VN_NF_GPT_GM-VN-282"
+      - "-006 _858KB/s_YT-VN_NF_GPT-283"
+      - "-007 _1.7MB/s_GPT_YT-US_NF-285"
+      - "-008 _609KB/s_YT-US_NF_GPT-286"
+      - "-009 _958KB/s_GPT_YT-US_NF_GM-MM-287"
+      - "-010 _935KB/s_GPT_YT-US_NF-288"
+      - "-011 _1.2MB/s_GPT_YT-VN_NF-289"
+      - "-012 _2.7MB/s_GPT_X_History_[_]-290"
+      - "-001 _7.2MB/s_NF_GPT-291"
+      - "-013 _1.4MB/s_GPT_YT-VN_NF_GM-VN-292"
+      - "-005 _3.9MB/s_0%_TK-BG_YT-RU_NF_D+_GPT-293"
+      - "-006 _1.2MB/s_GPT_YT-RU_NF_D+_6%-294"
+      - "-007 _6.4MB/s_YT-DE_NF_D+-295"
+      - "-001 _854KB/s-296"
+      - "-014 _2.5MB/s_GPT_YT-US_X_History_[_]-297"
+      - "US55-338"
+      - "US59-342"
+      - "US60-343"
+      - "US62-345"
+      - "US63-346"
+      - "DE18-347"
+      - "US64-348"
+      - "US67-351"
+      - "DE19-352"
+      - "US68-353"
+      - "US71-356"
+      - "DE20-357"
+      - "US72-358"
+      - "US75-361"
+      - "DE21-362"
+      - "US76-363"
+      - "IQ1-366"
+      - "MD1-367"
+      - "3_@ripaojiedian-368"
+      - "4_@ripaojiedian-369"
+      - "5_@ripaojiedian-370"
+      - "_@ripaojiedian-371"
+      - "2_@ripaojiedian-372"
+      - "3_@ripaojiedian-373"
+      - "_@ripaojiedian-374"
+      - "2_@ripaojiedian-375"
+      - "3_@ripaojiedian-376"
+      - "_@ripaojiedian-377"
+      - "2_@ripaojiedian-378"
+      - "vmess-5-453"
+      - "vmess-6-454"
+      - "vmess-7-455"
+      - "vmess-8-456"
+      - "https_//kelayun.notepin.co-457"
+      - "https_//kelayun.notepin.co-458"
+      - "https_//kelayun.notepin.co-459"
+      - "21000G-460"
+      - "200-461"
+      - "-462"
+      - "-463"
+      - "Gemini-464"
+      - "SS->-NF-ChatGPT-144.217.164.29_12000-468"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop_8080-469"
+      - "VMESS->-NF-ChatGPT-YouTube-t1.620720.xyz_8443-470"
+      - "SS--NF-ChatGPT-TikTok-YouTube-45.154.204.7_990-471"
+      - "SS--NF-ChatGPT-TikTok-146.19.49.251_443-472"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-15.235.41.200_80-473"
+      - "SS--NF-ChatGPT-TikTok-YouTube-71.19.148.143_443-474"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-38.92.10.226_45979-475"
+      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.76.59_990-476"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-51.79.102.253_80-477"
+      - "SS--NF-ChatGPT-TikTok-YouTube-92.118.112.101_9483-479"
+      - "SS--NF-ChatGPT-TikTok-YouTube-15.204.247.49_12000-480"
+      - "SS--NF-ChatGPT-TikTok-YouTube-pupas-shirting-unsung.freesocks.work_443-481"
+      - "SS--NF-ChatGPT-TikTok-YouTube-79.127.233.170_990-482"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-v2ray.codefyinc.com_443-483"
+      - "SS--NF-ChatGPT-TikTok-YouTube-23.95.75.146_443-484"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-198.23.174.168_20086-485"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c07.waimaojd.com_443-487"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-support.zoom.us_8080-488"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-209.126.84.189_443-489"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-sy4.620720.xyz_443-490"
+      - "VMESS->-NF-ChatGPT-TikTok-YouTube-hgtrojan.zabc.net_2083-491"
+      - "SS--NF-ChatGPT-TikTok-YouTube-107.175.87.207_10011-492"
+      - "VMESS--NF-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com_443-493"
+      - "VMESS--ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com_443-494"
+      - "VMESS--ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com_443-495"
+      - "CloudFlare-496"
+      - "V2CROSS.COM-497"
+      - "-499"
+      - "V2CROSS.COM-501"
+      - "CloudFlare-502"
+      - "V2CROSS.COM-504"
+      - "-506"
+      - "3_@ripaojiedian-519"
+      - "US(mibei77.com )-524"
+      - "TW(mibei77.com )-525"
+      - "HK(mibei77.com )-527"
+      - "US(mibei77.com )-529"
+      - "SG(mibei77.com )-534"
+      - "US(mibei77.com )-537"
+      - "US(mibei77.com )-548"
+      - "US(mibei77.com )-550"
+      - "TW(mibei77.com )-552"
+      - "US(mibei77.com )-557"
+      - "TW(mibei77.com )-558"
+      - "US(mibei77.com )-561"
+      - "US(mibei77.com )-563"
+      - "US(mibei77.com )-567"
+      - "US(mibei77.com )-569"
+      - "US(mibei77.com )-577"
+      - "TW(mibei77.com )-604"
       - "US(mibei77.com )-623"
-      - "US(mibei77.com )-626"
-      - "TW(mibei77.com )-627"
-      - "US(mibei77.com )-631"
-      - "TW(mibei77.com )-636"
-      - "US(mibei77.com )-637"
-      - "US(mibei77.com )-646"
       - "US(mibei77.com )-648"
-      - "US(mibei77.com )-649"
-      - "US(mibei77.com )-651"
-      - "US(mibei77.com )-654"
-      - "US(mibei77.com )-665"
-      - "US(mibei77.com )-669"
-      - "US(mibei77.com )-679"
-      - "US(mibei77.com )-680"
-      - "US(mibei77.com )-682"
-      - "US(mibei77.com )-684"
-      - "US(mibei77.com )-685"
-      - "US(mibei77.com )-689"
-      - "US(mibei77.com )-690"
-      - "US(mibei77.com )-692"
-      - "TW(mibei77.com )-697"
-      - "US(mibei77.com )-698"
-      - "US(mibei77.com )-700"
-      - "US(mibei77.com )-701"
-      - "US(mibei77.com )-703"
-      - "US(mibei77.com )-705"
-      - "TW(mibei77.com )-740"
-      - "US(mibei77.com )-742"
-      - "US(mibei77.com )-745"
-      - "8cczzuu.top-762"
-      - "_CN_-776"
-      - "_US_-777"
-      - "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-778"
-      - "-  - LLC Baxet - 2-779"
-      - "-  - JSC IOT - 1-780"
-      - "-  - Amazon.com, Inc. - 1-781"
-      - "-  - Baxet Group Inc. - 2-787"
-      - "-  - Melbikomas UAB - 1-788"
-      - "-  - Melbikomas UAB - 2-789"
-      - "-  - Aceville Pte.ltd - 1-790"
-      - "-  - Namecheap, Inc. - 2-791"
-      - "- Mumbai - Google LLC - 1-792"
-      - "- Hi Dng - FASTLY - 1-793"
-      - "- Hi Dng - FASTLY - 10-794"
-      - "- Hi Dng - FASTLY - 11-795"
-      - "- Hi Dng - FASTLY - 12-796"
-      - "- Hi Dng - FASTLY - 13-797"
-      - "- Hi Dng - FASTLY - 14-798"
-      - "- Hi Dng - FASTLY - 2-799"
-      - "- Hi Dng - FASTLY - 3-800"
-      - "- Hi Dng - FASTLY - 4-801"
-      - "- Hi Dng - FASTLY - 5-802"
-      - "- Hi Dng - FASTLY - 6-803"
-      - "- Hi Dng - FASTLY - 7-804"
-      - "- Hi Dng - FASTLY - 8-805"
-      - "- Hi Dng - FASTLY - 9-806"
-      - "-  - Dalian Yichuan Industrial CO - 1-807"
-      - "SCP_US-808"
-      - "SCP_UK-809"
-      - "SCP_PL-810"
+      - "US(mibei77.com )-655"
+      - "US(mibei77.com )-657"
+      - "US(mibei77.com )-666"
+      - "HK(mibei77.com )-667"
+      - "US(mibei77.com )-671"
+      - "US(mibei77.com )-673"
+      - "8cczzuu.top-690"
+      - "_CN_-704"
+      - "_US_-705"
+      - "-  - STARK INDUSTRIES SOLUTIONS LTD - 1-706"
+      - "-  - JSC IOT - 1-708"
+      - "-  - Amazon.com, Inc. - 1-709"
+      - "-  - Baxet Group Inc. - 2-715"
+      - "-  - Melbikomas UAB - 2-717"
+      - "-  - Aceville Pte.ltd - 1-718"
+      - "-  - Namecheap, Inc. - 2-719"
+      - "- Mumbai - Google LLC - 1-720"
+      - "- Hi Dng - FASTLY - 1-721"
+      - "- Hi Dng - FASTLY - 10-722"
+      - "- Hi Dng - FASTLY - 12-724"
+      - "- Hi Dng - FASTLY - 13-725"
+      - "- Hi Dng - FASTLY - 14-726"
+      - "- Hi Dng - FASTLY - 2-727"
+      - "- Hi Dng - FASTLY - 4-729"
+      - "- Hi Dng - FASTLY - 5-730"
+      - "- Hi Dng - FASTLY - 8-733"
+      - "- Hi Dng - FASTLY - 9-734"
+      - "-  - Dalian Yichuan Industrial CO - 1-735"
+      - "SCP_US-736"
+      - "SCP_UK-737"
+      - "SCP_PL-738"
 
 rules:
   - GEOIP,CN,DIRECT

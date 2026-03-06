@@ -2,21 +2,340 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
+      - "sh050"
+      - "sh028"
+      - "sh049"
+      - "[mibei] US(mibei77.com ) 34-39"
+      - "[nodefree] _CN_->_unKnow_-126"
+      - "[mibei] US(mibei77.com ) 7-7"
+      - "[mibei] US(mibei77.com ) 77-115"
+      - "[mibei] US(mibei77.com ) 26-30"
+      - "[mibei] US(mibei77.com ) 10-10"
+      - "[mibei] US(mibei77.com ) 55-73"
+      - "[mibei] US(mibei77.com ) 54-70"
+      - "[mibei] US(mibei77.com ) 14-15"
+      - "[mibei] US(mibei77.com ) 18-19"
+      - "[mibei] FR(mibei77.com )-20"
+      - "[mibei] JP(mibei77.com )-71"
+      - "[mibei] RU(mibei77.com ) 3-104"
+      - "[mibei] US(mibei77.com ) 15-16"
+      - "[mibei] US(mibei77.com ) 46-61"
+      - "[mibei] (mibei77.com )-12"
+      - "[mibei] RU(mibei77.com )-27"
+      - "[mibei] HK(mibei77.com )-6"
+      - "[nodefree] _FI_-151"
+      - "1000G2-373"
+      - "[mibei] US(mibei77.com ) 2-1"
+      - "github.com/freefq - CloudFlareCDN 4-166"
+      - "https_//kelayun.notepin.co-363"
+      - "sh063"
+      - "[mibei] US(mibei77.com ) 37-42"
+      - "sh040"
+      - "661-US-387"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "sh050"
+      - "sh028"
+      - "sh049"
+      - "[mibei] US(mibei77.com ) 34-39"
+      - "[nodefree] _CN_->_unKnow_-126"
+      - "[mibei] US(mibei77.com ) 7-7"
+      - "[mibei] US(mibei77.com ) 77-115"
+      - "[mibei] US(mibei77.com ) 26-30"
+      - "[mibei] US(mibei77.com ) 10-10"
+      - "[mibei] US(mibei77.com ) 55-73"
+      - "[mibei] US(mibei77.com ) 54-70"
+      - "[mibei] US(mibei77.com ) 14-15"
+      - "[mibei] US(mibei77.com ) 18-19"
+      - "[mibei] FR(mibei77.com )-20"
+      - "[mibei] JP(mibei77.com )-71"
+      - "[mibei] RU(mibei77.com ) 3-104"
+      - "[mibei] US(mibei77.com ) 15-16"
+      - "[mibei] US(mibei77.com ) 46-61"
+      - "[mibei] (mibei77.com )-12"
+      - "[mibei] RU(mibei77.com )-27"
+      - "[mibei] HK(mibei77.com )-6"
+      - "[nodefree] _FI_-151"
+      - "1000G2-373"
+      - "[mibei] US(mibei77.com ) 2-1"
+      - "github.com/freefq - CloudFlareCDN 4-166"
+      - "https_//kelayun.notepin.co-363"
+      - "sh063"
+      - "[mibei] US(mibei77.com ) 37-42"
+      - "sh040"
+      - "661-US-387"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "sh050"
+      - "sh028"
+      - "sh049"
+      - "[mibei] US(mibei77.com ) 34-39"
+      - "[nodefree] _CN_->_unKnow_-126"
+      - "[mibei] US(mibei77.com ) 7-7"
+      - "[mibei] US(mibei77.com ) 77-115"
+      - "[mibei] US(mibei77.com ) 26-30"
+      - "[mibei] US(mibei77.com ) 10-10"
+      - "[mibei] US(mibei77.com ) 55-73"
+      - "[mibei] US(mibei77.com ) 54-70"
+      - "[mibei] US(mibei77.com ) 14-15"
+      - "[mibei] US(mibei77.com ) 18-19"
+      - "[mibei] FR(mibei77.com )-20"
+      - "[mibei] JP(mibei77.com )-71"
+      - "[mibei] RU(mibei77.com ) 3-104"
+      - "[mibei] US(mibei77.com ) 15-16"
+      - "[mibei] US(mibei77.com ) 46-61"
+      - "[mibei] (mibei77.com )-12"
+      - "[mibei] RU(mibei77.com )-27"
+      - "[mibei] HK(mibei77.com )-6"
+      - "[nodefree] _FI_-151"
+      - "1000G2-373"
+      - "[mibei] US(mibei77.com ) 2-1"
+      - "github.com/freefq - CloudFlareCDN 4-166"
+      - "https_//kelayun.notepin.co-363"
+      - "sh063"
+      - "[mibei] US(mibei77.com ) 37-42"
+      - "sh040"
+      - "661-US-387"
 
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
 
 proxies:
+  - name: "sh050"
+    type: "ss"
+    server: "167.17.179.197"
+    port: 60129
+    cipher: "aes-256-gcm"
+    password: "0690659746980c46"
+
+  - name: "sh028"
+    type: "ss"
+    server: "103.186.154.42"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "sh049"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 12589
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 34-39"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 34411
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[nodefree] _CN_->_unKnow_-126"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 34061
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 7-7"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 46197
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 77-115"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 28063
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 26-30"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 55936
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 10-10"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 20149
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 55-73"
+    type: "ss"
+    server: "iepl.huli168.com"
+    port: 19822
+    cipher: "aes-256-gcm"
+    password: "g4JtpkuxkwRH4jhj"
+
+  - name: "[mibei] US(mibei77.com ) 54-70"
+    type: "trojan"
+    server: "green2.cdntencentmusic.com"
+    port: 31102
+    password: "5f6ded93-4ab8-4a99-9c84-b19b9993f27c"
+    sni: "green2.cdntencentmusic.com"
+
+  - name: "[mibei] US(mibei77.com ) 14-15"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 57927
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[mibei] US(mibei77.com ) 18-19"
+    type: "trojan"
+    server: "167.68.4.199"
+    port: 2053
+    password: "Aimer"
+    sni: "167.68.4.199"
+
+  - name: "[mibei] FR(mibei77.com )-20"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "RFK38Cg7APneSB5cWDcpbm"
+
+  - name: "[mibei] JP(mibei77.com )-71"
+    type: "ss"
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
+
+  - name: "[mibei] RU(mibei77.com ) 3-104"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 8443
+    password: "trojan"
+    sni: "109.234.211.66"
+
+  - name: "[mibei] US(mibei77.com ) 15-16"
+    type: "vmess"
+    server: "94.247.142.199"
+    port: 443
+    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "[mibei] US(mibei77.com ) 46-61"
+    type: "vmess"
+    server: "dcvbg67.0m0.ccwu.cc"
+    port: 80
+    uuid: "0617025a-660d-40e3-9108-74611138dde5"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "[mibei] (mibei77.com )-12"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "wwzVn2ZnHfqYa6l8EWh3eY"
+
+  - name: "[mibei] RU(mibei77.com )-27"
+    type: "ss"
+    server: "45.140.169.225"
+    port: 60129
+    cipher: "aes-256-gcm"
+    password: "c5fcdf7829112cb4"
+
+  - name: "[mibei] HK(mibei77.com )-6"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 43076
+    cipher: "chacha20-ietf-poly1305"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "[nodefree] _FI_-151"
+    type: "vless"
+    server: "195.20.17.182"
+    port: 443
+    uuid: "ec5796b3-678b-4b11-9c1d-a53171dfd897"
+    tls: true
+    network: "tcp"
+
+  - name: "1000G2-373"
+    type: "vless"
+    server: "162.159.34.231"
+    port: 443
+    uuid: "8ae7cac7-36f7-d208-367d-2322dcb73973"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "[mibei] US(mibei77.com ) 2-1"
+    type: "trojan"
+    server: "bpbg.anguswen.top"
+    port: 443
+    password: "!<str> 123456"
+    sni: "bpbg.anguswen.top"
+
+  - name: "github.com/freefq - CloudFlareCDN 4-166"
+    type: "vmess"
+    server: "www.darkroom.lol"
+    port: 8080
+    uuid: "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "https_//kelayun.notepin.co-363"
+    type: "vless"
+    server: "162.159.45.21"
+    port: 443
+    uuid: "8ae7cac7-36f7-d208-367d-2322dcb73973"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "sh063"
+    type: "ss"
+    server: "103.186.155.66"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "[mibei] US(mibei77.com ) 37-42"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 2087
+    password: "trojan"
+    sni: "109.234.211.66"
+
+  - name: "sh040"
+    type: "trojan"
+    server: "18.181.193.208"
+    port: 3057
+    password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
+    sni: "www.nintendogames.net"
+
+  - name: "661-US-387"
+    type: "vless"
+    server: "107.174.253.219"
+    port: 2096
+    uuid: "8ae7cac7-36f7-d208-367d-2322dcb73973"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+

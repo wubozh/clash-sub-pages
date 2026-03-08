@@ -2,124 +2,114 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "sh121"
       - "SG(mibei77.com )-532"
-      - "sh112"
-      - "US(mibei77.com )-570"
-      - "V2CROSS.COM-493"
-      - "sh154"
-      - "[mibei] US(mibei77.com ) 5-5"
-      - "US(mibei77.com )-558"
-      - "US(mibei77.com )-536"
-      - "US(mibei77.com )-554"
-      - "US(mibei77.com )-537"
-      - "[mibei] US(mibei77.com ) 15-17"
       - "[mibei] US(mibei77.com ) 17-21"
-      - "US(mibei77.com )-538"
+      - "sh154"
+      - "V2CROSS.COM-493"
+      - "sh121"
+      - "[mibei] US(mibei77.com ) 5-5"
+      - "US(mibei77.com )-570"
+      - "US(mibei77.com )-569"
       - "US(mibei77.com )-547"
-      - "US(mibei77.com )-624"
-      - "[mibei] US(mibei77.com ) 18-23"
-      - "[mibei] US(mibei77.com ) 31-38"
+      - "US(mibei77.com )-587"
+      - "US(mibei77.com )-590"
       - "US(mibei77.com )-591"
-      - "US(mibei77.com )-647"
-      - "[mibei] US(mibei77.com ) 13-14"
+      - "US(mibei77.com )-632"
+      - "GB(mibei77.com )-513"
+      - "US(mibei77.com )-554"
+      - "US(mibei77.com )-595"
       - "US(mibei77.com )-603"
-      - "[mibei] KR(mibei77.com )-77"
-      - "[mibei] US(mibei77.com ) 6-6"
-      - "[mibei] US(mibei77.com ) 54-70"
-      - "US(mibei77.com )-588"
-      - "[nodefree] _BR_->_RU_-128"
+      - "[mibei] US(mibei77.com ) 31-38"
+      - "RU(mibei77.com )-530"
+      - "SG(mibei77.com )-531"
+      - "US(mibei77.com )-601"
+      - "[mibei] US(mibei77.com ) 13-14"
       - "[mibei] US(mibei77.com ) 58-93"
-      - "[nodefree] _US__2-116"
-      - "sh051"
+      - "2_@ripaojiedian-380"
+      - "US(mibei77.com )-586"
+      - "github.com/freefq -  8-149"
+      - "sh097"
+      - "sh164"
+      - "github.com/freefq -  12-153"
+      - "sh117"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "sh121"
       - "SG(mibei77.com )-532"
-      - "sh112"
-      - "US(mibei77.com )-570"
-      - "V2CROSS.COM-493"
-      - "sh154"
-      - "[mibei] US(mibei77.com ) 5-5"
-      - "US(mibei77.com )-558"
-      - "US(mibei77.com )-536"
-      - "US(mibei77.com )-554"
-      - "US(mibei77.com )-537"
-      - "[mibei] US(mibei77.com ) 15-17"
       - "[mibei] US(mibei77.com ) 17-21"
-      - "US(mibei77.com )-538"
+      - "sh154"
+      - "V2CROSS.COM-493"
+      - "sh121"
+      - "[mibei] US(mibei77.com ) 5-5"
+      - "US(mibei77.com )-570"
+      - "US(mibei77.com )-569"
       - "US(mibei77.com )-547"
-      - "US(mibei77.com )-624"
-      - "[mibei] US(mibei77.com ) 18-23"
-      - "[mibei] US(mibei77.com ) 31-38"
+      - "US(mibei77.com )-587"
+      - "US(mibei77.com )-590"
       - "US(mibei77.com )-591"
-      - "US(mibei77.com )-647"
-      - "[mibei] US(mibei77.com ) 13-14"
+      - "US(mibei77.com )-632"
+      - "GB(mibei77.com )-513"
+      - "US(mibei77.com )-554"
+      - "US(mibei77.com )-595"
       - "US(mibei77.com )-603"
-      - "[mibei] KR(mibei77.com )-77"
-      - "[mibei] US(mibei77.com ) 6-6"
-      - "[mibei] US(mibei77.com ) 54-70"
-      - "US(mibei77.com )-588"
-      - "[nodefree] _BR_->_RU_-128"
+      - "[mibei] US(mibei77.com ) 31-38"
+      - "RU(mibei77.com )-530"
+      - "SG(mibei77.com )-531"
+      - "US(mibei77.com )-601"
+      - "[mibei] US(mibei77.com ) 13-14"
       - "[mibei] US(mibei77.com ) 58-93"
-      - "[nodefree] _US__2-116"
-      - "sh051"
+      - "2_@ripaojiedian-380"
+      - "US(mibei77.com )-586"
+      - "github.com/freefq -  8-149"
+      - "sh097"
+      - "sh164"
+      - "github.com/freefq -  12-153"
+      - "sh117"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "sh121"
       - "SG(mibei77.com )-532"
-      - "sh112"
-      - "US(mibei77.com )-570"
-      - "V2CROSS.COM-493"
-      - "sh154"
-      - "[mibei] US(mibei77.com ) 5-5"
-      - "US(mibei77.com )-558"
-      - "US(mibei77.com )-536"
-      - "US(mibei77.com )-554"
-      - "US(mibei77.com )-537"
-      - "[mibei] US(mibei77.com ) 15-17"
       - "[mibei] US(mibei77.com ) 17-21"
-      - "US(mibei77.com )-538"
+      - "sh154"
+      - "V2CROSS.COM-493"
+      - "sh121"
+      - "[mibei] US(mibei77.com ) 5-5"
+      - "US(mibei77.com )-570"
+      - "US(mibei77.com )-569"
       - "US(mibei77.com )-547"
-      - "US(mibei77.com )-624"
-      - "[mibei] US(mibei77.com ) 18-23"
-      - "[mibei] US(mibei77.com ) 31-38"
+      - "US(mibei77.com )-587"
+      - "US(mibei77.com )-590"
       - "US(mibei77.com )-591"
-      - "US(mibei77.com )-647"
-      - "[mibei] US(mibei77.com ) 13-14"
+      - "US(mibei77.com )-632"
+      - "GB(mibei77.com )-513"
+      - "US(mibei77.com )-554"
+      - "US(mibei77.com )-595"
       - "US(mibei77.com )-603"
-      - "[mibei] KR(mibei77.com )-77"
-      - "[mibei] US(mibei77.com ) 6-6"
-      - "[mibei] US(mibei77.com ) 54-70"
-      - "US(mibei77.com )-588"
-      - "[nodefree] _BR_->_RU_-128"
+      - "[mibei] US(mibei77.com ) 31-38"
+      - "RU(mibei77.com )-530"
+      - "SG(mibei77.com )-531"
+      - "US(mibei77.com )-601"
+      - "[mibei] US(mibei77.com ) 13-14"
       - "[mibei] US(mibei77.com ) 58-93"
-      - "[nodefree] _US__2-116"
-      - "sh051"
+      - "2_@ripaojiedian-380"
+      - "US(mibei77.com )-586"
+      - "github.com/freefq -  8-149"
+      - "sh097"
+      - "sh164"
+      - "github.com/freefq -  12-153"
+      - "sh117"
 
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
 
 proxies:
-  - name: "sh121"
-    type: "vmess"
-    server: "82.198.246.97"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
   - name: "SG(mibei77.com )-532"
     type: "vmess"
     server: "v12.hdacd.com"
@@ -130,22 +120,19 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "sh112"
+  - name: "[mibei] US(mibei77.com ) 17-21"
     type: "ss"
-    server: "103.186.154.161"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
 
-  - name: "US(mibei77.com )-570"
-    type: "vmess"
-    server: "103.181.164.237"
-    port: 34114
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
+  - name: "sh154"
+    type: "ss"
+    server: "185.231.233.112"
+    port: 989
+    cipher: "aes-256-cfb"
+    password: "f8f7aCzcPKbsF8p3"
 
   - name: "V2CROSS.COM-493"
     type: "vmess"
@@ -157,12 +144,15 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "sh154"
-    type: "ss"
-    server: "185.231.233.112"
-    port: 989
-    cipher: "aes-256-cfb"
-    password: "f8f7aCzcPKbsF8p3"
+  - name: "sh121"
+    type: "vmess"
+    server: "82.198.246.97"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
   - name: "[mibei] US(mibei77.com ) 5-5"
     type: "ss"
@@ -171,54 +161,22 @@ proxies:
     cipher: "aes-256-gcm"
     password: "g4JtpkuxkwRH4jhj"
 
-  - name: "US(mibei77.com )-558"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 20149
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+  - name: "US(mibei77.com )-570"
+    type: "vmess"
+    server: "103.181.164.237"
+    port: 34114
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
-  - name: "US(mibei77.com )-536"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 34411
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "US(mibei77.com )-554"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 57927
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "US(mibei77.com )-537"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 46197
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "[mibei] US(mibei77.com ) 15-17"
-    type: "ss"
-    server: "tinkered-pennies-puppies.freesocks.work"
+  - name: "US(mibei77.com )-569"
+    type: "trojan"
+    server: "bpbg.anguswen.top"
     port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "hbGrpfvNrJsUmKmPbR3iY2"
-
-  - name: "[mibei] US(mibei77.com ) 17-21"
-    type: "ss"
-    server: "chengbai02.ascwt179.com"
-    port: 13223
-    cipher: "aes-128-gcm"
-    password: "JVrsLLN1tkN8oXZO"
-
-  - name: "US(mibei77.com )-538"
-    type: "ss"
-    server: "167.17.179.197"
-    port: 60129
-    cipher: "aes-256-gcm"
-    password: "0690659746980c46"
+    password: "123456"
+    sni: "Bpbg.ANGuswen.top"
 
   - name: "US(mibei77.com )-547"
     type: "trojan"
@@ -227,19 +185,64 @@ proxies:
     password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
     sni: "blackshadow.dpdns.org"
 
-  - name: "US(mibei77.com )-624"
+  - name: "US(mibei77.com )-587"
     type: "trojan"
-    server: "bpbg.anguswen.top"
-    port: 8443
-    password: "123456"
-    sni: "BpBg.ANGusWeN.top"
-
-  - name: "[mibei] US(mibei77.com ) 18-23"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
+    server: "104.21.33.224"
     port: 443
+    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
+    sni: "ghjUi.1Xm.ccwU.CC"
+
+  - name: "US(mibei77.com )-590"
+    type: "trojan"
+    server: "172.67.151.22"
+    port: 443
+    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
+    sni: "GhjuI.1xM.CCwu.cc"
+
+  - name: "US(mibei77.com )-591"
+    type: "trojan"
+    server: "rrrghy.0oa.ccwu.cc"
+    port: 443
+    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
+    sni: "RrRGhY.0Oa.cCWU.cc"
+
+  - name: "US(mibei77.com )-632"
+    type: "vmess"
+    server: "v29.hdacd.com"
+    port: 30829
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "GB(mibei77.com )-513"
+    type: "trojan"
+    server: "167.68.4.199"
+    port: 2053
+    password: "Aimer"
+    sni: "epge.muarua.filegear-sg.me"
+
+  - name: "US(mibei77.com )-554"
+    type: "ss"
+    server: "ldu.izenny.com"
+    port: 57927
     cipher: "chacha20-ietf-poly1305"
-    password: "RFK38Cg7APneSB5cWDcpbm"
+    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
+
+  - name: "US(mibei77.com )-595"
+    type: "trojan"
+    server: "104.21.68.186"
+    port: 443
+    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
+    sni: "RGTY.1xl.cCWu.cc"
+
+  - name: "US(mibei77.com )-603"
+    type: "trojan"
+    server: "172.67.204.93"
+    port: 443
+    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
+    sni: "GhHhJUi.1xn.CcWu.Cc"
 
   - name: "[mibei] US(mibei77.com ) 31-38"
     type: "vmess"
@@ -251,22 +254,29 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "US(mibei77.com )-591"
+  - name: "RU(mibei77.com )-530"
     type: "trojan"
-    server: "rrrghy.0oa.ccwu.cc"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "RrRGhY.0Oa.cCWU.cc"
+    server: "109.234.211.66"
+    port: 8443
+    password: "trojan"
+    sni: "store.timimi.dpdns.org"
 
-  - name: "US(mibei77.com )-647"
+  - name: "SG(mibei77.com )-531"
     type: "vmess"
-    server: "v36.hdacd.com"
-    port: 30836
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    server: "vc.fly.dev"
+    port: 443
+    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
     alterId: 0
     cipher: "auto"
-    tls: false
-    network: "tcp"
+    tls: true
+    network: "ws"
+
+  - name: "US(mibei77.com )-601"
+    type: "trojan"
+    server: "104.21.52.220"
+    port: 443
+    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
+    sni: "rgHyu.1XN.CcWU.Cc"
 
   - name: "[mibei] US(mibei77.com ) 13-14"
     type: "ss"
@@ -274,51 +284,6 @@ proxies:
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "9tqhMdIrTkgQ46PvhyAtMH"
-
-  - name: "US(mibei77.com )-603"
-    type: "trojan"
-    server: "172.67.204.93"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "GhHhJUi.1xn.CcWu.Cc"
-
-  - name: "[mibei] KR(mibei77.com )-77"
-    type: "ss"
-    server: "82.38.31.35"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-
-  - name: "[mibei] US(mibei77.com ) 6-6"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "wwzVn2ZnHfqYa6l8EWh3eY"
-
-  - name: "[mibei] US(mibei77.com ) 54-70"
-    type: "trojan"
-    server: "green2.cdntencentmusic.com"
-    port: 31102
-    password: "5f6ded93-4ab8-4a99-9c84-b19b9993f27c"
-    sni: "green2.cdntencentmusic.com"
-
-  - name: "US(mibei77.com )-588"
-    type: "trojan"
-    server: "172.67.154.11"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "ddfGHyU.0On.CcwU.CC"
-
-  - name: "[nodefree] _BR_->_RU_-128"
-    type: "vless"
-    server: "azaranik.ir"
-    port: 2053
-    uuid: "7b3ba8c0-0bb2-469a-a396-1c360e7da8d7"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
 
   - name: "[mibei] US(mibei77.com ) 58-93"
     type: "vmess"
@@ -330,25 +295,58 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "[nodefree] _US__2-116"
-    type: "vless"
-    server: "198.62.62.248"
-    port: 443
-    uuid: "5a4abb78-ecd7-4d68-ab2a-c11a3842f261"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/love"
+  - name: "2_@ripaojiedian-380"
+    type: "trojan"
+    server: "160.16.72.33"
+    port: 2001
+    password: "f7dbed8b1ca85124e793ba6c0bcfd0db"
+    sni: "www.nintendogames.net"
 
-  - name: "sh051"
-    type: "vmess"
-    server: "45.67.215.199"
+  - name: "US(mibei77.com )-586"
+    type: "trojan"
+    server: "fffghyu.0on.ccwu.cc"
     port: 443
-    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
-    alterId: 0
-    cipher: "auto"
+    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
+    sni: "ffFGhyU.0oN.CcWu.cC"
+
+  - name: "github.com/freefq -  8-149"
+    type: "ss"
+    server: "service.ouluyun9803.com"
+    port: 20003
+    cipher: "chacha20-ietf-poly1305"
+    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
+
+  - name: "sh097"
+    type: "vless"
+    server: "185.110.189.174"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/f08369d1-5ee7-4b16-d786-30bce12fc33c"
+      path: "/?ed=2560&Telegram🇨🇳@WangCai2"
+
+  - name: "sh164"
+    type: "ss"
+    server: "103.186.154.243"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "github.com/freefq -  12-153"
+    type: "ss"
+    server: "service.ouluyun9803.com"
+    port: 20005
+    cipher: "chacha20-ietf-poly1305"
+    password: "d6105bbd-be0d-45b2-82ad-31fd1071c1d2"
+
+  - name: "sh117"
+    type: "vless"
+    server: "94.159.106.205"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2"
 

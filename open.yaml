@@ -2,348 +2,49 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "SG(mibei77.com )-532"
-      - "V2CROSS.COM-493"
-      - "US(mibei77.com )-471"
-      - "[mibei] US(mibei77.com ) 5-5"
-      - "[mibei] HK(mibei77.com ) 2-19"
-      - "US(mibei77.com )-502-1340"
-      - "US(mibei77.com )-529-1456-1970-2376-2782-3215-3535"
-      - "US(mibei77.com )-551-1478-1992-2398-2804-3237-3557"
-      - "US(mibei77.com )-563-1490-2004-2410-2816-3249-3569"
-      - "US(mibei77.com )-593-1520-2034-2440-2846-3279-3599"
-      - "US(mibei77.com )-611-1538-2052"
-      - "[mibei] US(mibei77.com ) 15-21"
-      - "US(mibei77.com )-514-1352"
-      - "[mibei] FR(mibei77.com )-27"
-      - "[mibei] US(mibei77.com ) 22-33"
-      - "[mibei] US(mibei77.com ) 32-46"
-      - "RU(mibei77.com )-530"
-      - "US(mibei77.com )-518-1445-1959-2365-2771-3204-3524"
-      - "US(mibei77.com )-538"
-      - "US(mibei77.com )-555-1482-1996"
-      - "US(mibei77.com )-555-1482-1996-2402-2808-3241-3561"
-      - "US(mibei77.com )-607-1534-2048-2454-2860-3293-3613"
-      - "US(mibei77.com )-550-1477-1991-2397-2803-3236-3556"
-      - "[mibei] GB(mibei77.com ) 4-25-1007"
-      - "US(mibei77.com )-500-1427-1941"
-      - "US(mibei77.com )-508"
-      - "US(mibei77.com )-569"
-      - "GB(mibei77.com )-473-1400-1914-2320-2726-3159-3479"
-      - "RU(mibei77.com )-490-1417-1931-2337-2743-3176-3496"
-      - "US(mibei77.com )-561-1488-2002-2408-2814-3247-3567"
+      - "sh121"
+      - "sh121"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "SG(mibei77.com )-532"
-      - "V2CROSS.COM-493"
-      - "US(mibei77.com )-471"
-      - "[mibei] US(mibei77.com ) 5-5"
-      - "[mibei] HK(mibei77.com ) 2-19"
-      - "US(mibei77.com )-502-1340"
-      - "US(mibei77.com )-529-1456-1970-2376-2782-3215-3535"
-      - "US(mibei77.com )-551-1478-1992-2398-2804-3237-3557"
-      - "US(mibei77.com )-563-1490-2004-2410-2816-3249-3569"
-      - "US(mibei77.com )-593-1520-2034-2440-2846-3279-3599"
-      - "US(mibei77.com )-611-1538-2052"
-      - "[mibei] US(mibei77.com ) 15-21"
-      - "US(mibei77.com )-514-1352"
-      - "[mibei] FR(mibei77.com )-27"
-      - "[mibei] US(mibei77.com ) 22-33"
-      - "[mibei] US(mibei77.com ) 32-46"
-      - "RU(mibei77.com )-530"
-      - "US(mibei77.com )-518-1445-1959-2365-2771-3204-3524"
-      - "US(mibei77.com )-538"
-      - "US(mibei77.com )-555-1482-1996"
-      - "US(mibei77.com )-555-1482-1996-2402-2808-3241-3561"
-      - "US(mibei77.com )-607-1534-2048-2454-2860-3293-3613"
-      - "US(mibei77.com )-550-1477-1991-2397-2803-3236-3556"
-      - "[mibei] GB(mibei77.com ) 4-25-1007"
-      - "US(mibei77.com )-500-1427-1941"
-      - "US(mibei77.com )-508"
-      - "US(mibei77.com )-569"
-      - "GB(mibei77.com )-473-1400-1914-2320-2726-3159-3479"
-      - "RU(mibei77.com )-490-1417-1931-2337-2743-3176-3496"
-      - "US(mibei77.com )-561-1488-2002-2408-2814-3247-3567"
+      - "sh121"
+      - "sh121"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "SG(mibei77.com )-532"
-      - "V2CROSS.COM-493"
-      - "US(mibei77.com )-471"
-      - "[mibei] US(mibei77.com ) 5-5"
-      - "[mibei] HK(mibei77.com ) 2-19"
-      - "US(mibei77.com )-502-1340"
-      - "US(mibei77.com )-529-1456-1970-2376-2782-3215-3535"
-      - "US(mibei77.com )-551-1478-1992-2398-2804-3237-3557"
-      - "US(mibei77.com )-563-1490-2004-2410-2816-3249-3569"
-      - "US(mibei77.com )-593-1520-2034-2440-2846-3279-3599"
-      - "US(mibei77.com )-611-1538-2052"
-      - "[mibei] US(mibei77.com ) 15-21"
-      - "US(mibei77.com )-514-1352"
-      - "[mibei] FR(mibei77.com )-27"
-      - "[mibei] US(mibei77.com ) 22-33"
-      - "[mibei] US(mibei77.com ) 32-46"
-      - "RU(mibei77.com )-530"
-      - "US(mibei77.com )-518-1445-1959-2365-2771-3204-3524"
-      - "US(mibei77.com )-538"
-      - "US(mibei77.com )-555-1482-1996"
-      - "US(mibei77.com )-555-1482-1996-2402-2808-3241-3561"
-      - "US(mibei77.com )-607-1534-2048-2454-2860-3293-3613"
-      - "US(mibei77.com )-550-1477-1991-2397-2803-3236-3556"
-      - "[mibei] GB(mibei77.com ) 4-25-1007"
-      - "US(mibei77.com )-500-1427-1941"
-      - "US(mibei77.com )-508"
-      - "US(mibei77.com )-569"
-      - "GB(mibei77.com )-473-1400-1914-2320-2726-3159-3479"
-      - "RU(mibei77.com )-490-1417-1931-2337-2743-3176-3496"
-      - "US(mibei77.com )-561-1488-2002-2408-2814-3247-3567"
+      - "sh121"
+      - "sh121"
 
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
 
 proxies:
-  - name: "SG(mibei77.com )-532"
+  - name: "sh121"
     type: "vmess"
-    server: "v12.hdacd.com"
-    port: 30812
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    server: "82.198.246.97"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
     alterId: 0
     cipher: "auto"
     tls: false
     network: "tcp"
 
-  - name: "V2CROSS.COM-493"
+
+
+  - name: "sh121"
     type: "vmess"
-    server: "v30.hdacd.com"
-    port: 30830
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    server: "82.198.246.97"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
     alterId: 0
     cipher: "auto"
     tls: false
     network: "tcp"
-
-  - name: "US(mibei77.com )-471"
-    type: "vmess"
-    server: "v12.hdacd.com"
-    port: 30812
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "[mibei] US(mibei77.com ) 5-5"
-    type: "ss"
-    server: "iepl.huli168.com"
-    port: 19822
-    cipher: "aes-256-gcm"
-    password: "g4JtpkuxkwRH4jhj"
-
-  - name: "[mibei] HK(mibei77.com ) 2-19"
-    type: "ss"
-    server: "iepl.huli168.com"
-    port: 19822
-    cipher: "aes-256-gcm"
-    password: "g4JtpkuxkwRH4jhj"
-
-  - name: "US(mibei77.com )-502-1340"
-    type: "vmess"
-    server: "v29.hdacd.com"
-    port: 30829
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "US(mibei77.com )-529-1456-1970-2376-2782-3215-3535"
-    type: "trojan"
-    server: "bpbg.anguswen.top"
-    port: 443
-    password: "123456"
-    sni: "Bpbg.ANGuswen.top"
-
-  - name: "US(mibei77.com )-551-1478-1992-2398-2804-3237-3557"
-    type: "trojan"
-    server: "rrrghy.0oa.ccwu.cc"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "RrRGhY.0Oa.cCWU.cc"
-
-  - name: "US(mibei77.com )-563-1490-2004-2410-2816-3249-3569"
-    type: "trojan"
-    server: "172.67.204.93"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "GhHhJUi.1xn.CcWu.Cc"
-
-  - name: "US(mibei77.com )-593-1520-2034-2440-2846-3279-3599"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 10589
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "US(mibei77.com )-611-1538-2052"
-    type: "trojan"
-    server: "bpbg.anguswen.top"
-    port: 2053
-    password: "123456"
-    sni: "Bpbg.aNGuSweN.top"
-
-  - name: "[mibei] US(mibei77.com ) 15-21"
-    type: "vmess"
-    server: "198.62.62.199"
-    port: 443
-    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-514-1352"
-    type: "vmess"
-    server: "94.247.142.199"
-    port: 443
-    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "[mibei] FR(mibei77.com )-27"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "RFK38Cg7APneSB5cWDcpbm"
-
-  - name: "[mibei] US(mibei77.com ) 22-33"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "wwzVn2ZnHfqYa6l8EWh3eY"
-
-  - name: "[mibei] US(mibei77.com ) 32-46"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "9tqhMdIrTkgQ46PvhyAtMH"
-
-  - name: "RU(mibei77.com )-530"
-    type: "trojan"
-    server: "109.234.211.66"
-    port: 8443
-    password: "trojan"
-    sni: "store.timimi.dpdns.org"
-
-  - name: "US(mibei77.com )-518-1445-1959-2365-2771-3204-3524"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 20149
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "US(mibei77.com )-538"
-    type: "ss"
-    server: "167.17.179.197"
-    port: 60129
-    cipher: "aes-256-gcm"
-    password: "0690659746980c46"
-
-  - name: "US(mibei77.com )-555-1482-1996"
-    type: "trojan"
-    server: "104.21.68.186"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "RGTY.1xl.cCWu.cc"
-
-  - name: "US(mibei77.com )-555-1482-1996-2402-2808-3241-3561"
-    type: "trojan"
-    server: "104.21.68.186"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "RGTY.1xl.cCWu.cc"
-
-  - name: "US(mibei77.com )-607-1534-2048-2454-2860-3293-3613"
-    type: "vmess"
-    server: "v36.hdacd.com"
-    port: 30836
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "US(mibei77.com )-550-1477-1991-2397-2803-3236-3556"
-    type: "trojan"
-    server: "172.67.151.22"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "GhjuI.1xM.CCwu.cc"
-
-  - name: "[mibei] GB(mibei77.com ) 4-25-1007"
-    type: "vmess"
-    server: "141.11.21.219"
-    port: 50521
-    uuid: "7b4c6795-3be5-4a4e-b234-07a46f580c45"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "tcp"
-
-  - name: "US(mibei77.com )-500-1427-1941"
-    type: "ss"
-    server: "ldu.izenny.com"
-    port: 28063
-    cipher: "chacha20-ietf-poly1305"
-    password: "c6d61cd1-d3dc-405e-afb2-d67815f4e4da"
-
-  - name: "US(mibei77.com )-508"
-    type: "vmess"
-    server: "94.247.142.199"
-    port: 443
-    uuid: "f08369d1-5ee7-4b16-d786-30bce12fc33c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "US(mibei77.com )-569"
-    type: "trojan"
-    server: "bpbg.anguswen.top"
-    port: 443
-    password: "123456"
-    sni: "Bpbg.ANGuswen.top"
-
-  - name: "GB(mibei77.com )-473-1400-1914-2320-2726-3159-3479"
-    type: "trojan"
-    server: "167.68.4.199"
-    port: 2053
-    password: "Aimer"
-    sni: "epge.muarua.filegear-sg.me"
-
-  - name: "RU(mibei77.com )-490-1417-1931-2337-2743-3176-3496"
-    type: "trojan"
-    server: "109.234.211.66"
-    port: 8443
-    password: "trojan"
-    sni: "store.timimi.dpdns.org"
-
-  - name: "US(mibei77.com )-561-1488-2002-2408-2814-3247-3567"
-    type: "trojan"
-    server: "104.21.52.220"
-    port: 443
-    password: "f2651ec7-3234-4340-8efc-f070901a02e5"
-    sni: "rgHyu.1XN.CcWU.Cc"
 

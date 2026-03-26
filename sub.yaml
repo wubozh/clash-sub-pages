@@ -1,12 +1,5 @@
 proxies:
-  - name: "mm.mibei77.com-trojan_1"
-    type: "trojan"
-    server: "russia.com"
-    port: 443
-    password: "bpb-trojan"
-    sni: "russia.com"
-
-  - name: "mm.mibei77.com-vmess_2"
+  - name: "mm.mibei77.com-vmess_1"
     type: "vmess"
     server: "v12.hdacd.com"
     port: 30812
@@ -16,19 +9,29 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "mm.mibei77.com-ss_3"
+  - name: "mm.mibei77.com-ss_2"
     type: "ss"
-    server: "hk14.network-cdn-gw-yd.net"
-    port: 32062
+    server: "tinkered-pennies-puppies.freesocks.work"
+    port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "eb9aff96-654d-4b84-bfbd-30d57a927e4d"
+    password: "hbGrpfvNrJsUmKmPbR3iY2"
+
+  - name: "mm.mibei77.com-vmess_3"
+    type: "vmess"
+    server: "v30.hdacd.com"
+    port: 30830
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
   - name: "mm.mibei77.com-trojan_4"
     type: "trojan"
-    server: "167.68.4.199"
-    port: 2053
-    password: "Aimer"
-    sni: "167.68.4.199"
+    server: "118.34.36.61"
+    port: 10003
+    password: "trojan"
+    sni: "118.34.36.61"
 
   - name: "mm.mibei77.com-vmess_8"
     type: "vmess"
@@ -40,79 +43,7 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "mm.mibei77.com-vmess_23"
-    type: "vmess"
-    server: "vc.fly.dev"
-    port: 443
-    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "mm.mibei77.com-vmess_26"
-    type: "vmess"
-    server: "v30.hdacd.com"
-    port: 30830
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "mm.mibei77.com-ss_27"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "9tqhMdIrTkgQ46PvhyAtMH"
-
-  - name: "mm.mibei77.com-trojan_33"
-    type: "trojan"
-    server: "118.34.36.61"
-    port: 10003
-    password: "trojan"
-    sni: "118.34.36.61"
-
-  - name: "mm.mibei77.com-vmess_34"
-    type: "vmess"
-    server: "v36.hdacd.com"
-    port: 30836
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "mm.mibei77.com-ss_46"
-    type: "ss"
-    server: "tinkered-pennies-puppies.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "hbGrpfvNrJsUmKmPbR3iY2"
-
-  - name: "mm.mibei77.com-trojan_53"
-    type: "trojan"
-    server: "152.53.200.167"
-    port: 8444
-    password: "trojan"
-    sni: "152.53.200.167"
-
-  - name: "mm.mibei77.com-ss_57"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "wwzVn2ZnHfqYa6l8EWh3eY"
-
-  - name: "mm.mibei77.com-ss_58"
-    type: "ss"
-    server: "switcher-nick-croquet.freesocks.work"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "RFK38Cg7APneSB5cWDcpbm"
-
-  - name: "mm.mibei77.com-vmess_61"
+  - name: "mm.mibei77.com-vmess_24"
     type: "vmess"
     server: "v9.hdacd.com"
     port: 30809
@@ -122,49 +53,175 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "mm.mibei77.com-vmess_62"
+  - name: "mm.mibei77.com-vmess_25"
     type: "vmess"
-    server: "103.181.164.145"
-    port: 54022
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "mm.mibei77.com-vmess_65"
-    type: "vmess"
-    server: "103.181.164.145"
-    port: 51556
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "mm.mibei77.com-ss_95"
-    type: "ss"
-    server: "chengbai02.ascwt179.com"
-    port: 13223
-    cipher: "aes-128-gcm"
-    password: "JVrsLLN1tkN8oXZO"
-
-  - name: "mm.mibei77.com-vmess_100"
-    type: "vmess"
-    server: "v33.hdacd.com"
-    port: 30833
+    server: "v29.hdacd.com"
+    port: 30829
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 0
     cipher: "auto"
     tls: false
     network: "tcp"
 
-  - name: "mm.mibei77.com-trojan_108"
+  - name: "mm.mibei77.com-ss_27"
+    type: "ss"
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
+
+  - name: "mm.mibei77.com-trojan_30"
+    type: "trojan"
+    server: "38.60.89.136"
+    port: 50000
+    password: "trojan"
+    sni: "38.60.89.136"
+
+  - name: "mm.mibei77.com-trojan_33"
+    type: "trojan"
+    server: "fun-seagull.rooster465.autos"
+    port: 443
+    password: "WF42809561"
+    sni: "fun-seagull.rooster465.autos"
+
+  - name: "mm.mibei77.com-ss_35"
+    type: "ss"
+    server: "hk14.network-cdn-gw-yd.net"
+    port: 32062
+    cipher: "chacha20-ietf-poly1305"
+    password: "eb9aff96-654d-4b84-bfbd-30d57a927e4d"
+
+  - name: "mm.mibei77.com-trojan_41"
+    type: "trojan"
+    server: "model-stingray.crayfish192.xyz"
+    port: 443
+    password: "WF42809561"
+    sni: "model-stingray.crayfish192.xyz"
+
+  - name: "mm.mibei77.com-trojan_49"
+    type: "trojan"
+    server: "top-goshawk.rooster465.autos"
+    port: 443
+    password: "WF42809561"
+    sni: "top-goshawk.rooster465.autos"
+
+  - name: "mm.mibei77.com-ss_53"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "RFK38Cg7APneSB5cWDcpbm"
+
+  - name: "mm.mibei77.com-trojan_56"
+    type: "trojan"
+    server: "premium-lab.rooster465.autos"
+    port: 443
+    password: "WF42809561"
+    sni: "premium-lab.rooster465.autos"
+
+  - name: "mm.mibei77.com-trojan_57"
+    type: "trojan"
+    server: "funky-platypus.rooster465.autos"
+    port: 443
+    password: "WF42809561"
+    sni: "funky-platypus.rooster465.autos"
+
+  - name: "mm.mibei77.com-trojan_60"
+    type: "trojan"
+    server: "152.53.45.251"
+    port: 8888
+    password: "trojan"
+    sni: "152.53.45.251"
+
+  - name: "mm.mibei77.com-ss_65"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "wwzVn2ZnHfqYa6l8EWh3eY"
+
+  - name: "mm.mibei77.com-trojan_67"
+    type: "trojan"
+    server: "152.53.200.98"
+    port: 8444
+    password: "trojan"
+    sni: "152.53.200.98"
+
+  - name: "mm.mibei77.com-trojan_69"
+    type: "trojan"
+    server: "152.53.200.167"
+    port: 8444
+    password: "trojan"
+    sni: "152.53.200.167"
+
+  - name: "mm.mibei77.com-trojan_73"
+    type: "trojan"
+    server: "152.53.60.198"
+    port: 8444
+    password: "trojan"
+    sni: "152.53.60.198"
+
+  - name: "mm.mibei77.com-vmess_80"
+    type: "vmess"
+    server: "v36.hdacd.com"
+    port: 30836
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "mm.mibei77.com-trojan_84"
     type: "trojan"
     server: "221.146.116.77"
     port: 10003
     password: "trojan"
     sni: "221.146.116.77"
+
+  - name: "mm.mibei77.com-ss_89"
+    type: "ss"
+    server: "switcher-nick-croquet.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "9tqhMdIrTkgQ46PvhyAtMH"
+
+  - name: "mm.mibei77.com-trojan_99"
+    type: "trojan"
+    server: "211.106.184.129"
+    port: 11310
+    password: "trojan"
+    sni: "211.106.184.129"
+
+  - name: "mm.mibei77.com-ss_107"
+    type: "ss"
+    server: "ru.n.belka.network"
+    port: 1080
+    cipher: "chacha20-ietf-poly1305"
+    password: "Mk_NNq9VBQHMhcRexcpCsExnadd0DeJK"
+
+  - name: "mm.mibei77.com-ss_108"
+    type: "ss"
+    server: "fi.n.belka.network"
+    port: 1080
+    cipher: "chacha20-ietf-poly1305"
+    password: "Mk_NNq9VBQHMhcRexcpCsExnadd0DeJK"
+
+  - name: "mm.mibei77.com-trojan_109"
+    type: "trojan"
+    server: "59.20.121.139"
+    port: 29999
+    password: "trojan"
+    sni: "59.20.121.139"
+
+  - name: "mm.mibei77.com-vmess_111"
+    type: "vmess"
+    server: "vc.fly.dev"
+    port: 443
+    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
 
   - name: "node.nodefree.me-ss_1"
     type: "ss"
@@ -874,75 +931,159 @@ proxies:
 
   - name: "github-peasoft-trojan_13"
     type: "trojan"
+    server: "18.183.73.66"
+    port: 921
+    password: "6d29eb2f74293cb01a19b32cf08ad2e9"
+    sni: "www.nintendogames.net"
+
+  - name: "github-peasoft-trojan_14"
+    type: "trojan"
+    server: "54.95.21.63"
+    port: 36854
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "github-peasoft-trojan_15"
+    type: "trojan"
+    server: "54.95.21.63"
+    port: 6313
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "github-peasoft-trojan_16"
+    type: "trojan"
+    server: "13.113.229.223"
+    port: 3022
+    password: "BxceQaOe"
+    sni: "t.me%252Fripaojiedian"
+
+  - name: "github-peasoft-trojan_17"
+    type: "trojan"
+    server: "52.195.4.144"
+    port: 2001
+    password: "6d29eb2f74293cb01a19b32cf08ad2e9"
+    sni: "www.nintendogames.net"
+
+  - name: "github-peasoft-trojan_18"
+    type: "trojan"
+    server: "160.16.106.99"
+    port: 4937
+    password: "6d29eb2f74293cb01a19b32cf08ad2e9"
+    sni: "www.nintendogames.net"
+
+  - name: "github-peasoft-trojan_19"
+    type: "trojan"
+    server: "52.195.4.144"
+    port: 4674
+    password: "6d29eb2f74293cb01a19b32cf08ad2e9"
+    sni: "www.nintendogames.net"
+
+  - name: "github-peasoft-trojan_20"
+    type: "trojan"
+    server: "52.192.225.14"
+    port: 1524
+    password: "6d29eb2f74293cb01a19b32cf08ad2e9"
+    sni: "www.nintendogames.net"
+
+  - name: "github-peasoft-trojan_21"
+    type: "trojan"
+    server: "95.40.2.4"
+    port: 22045
+    password: "BxceQaOe"
+    sni: "t.me%252Fripaojiedian"
+
+  - name: "github-peasoft-trojan_22"
+    type: "trojan"
+    server: "13.230.200.237"
+    port: 3057
+    password: "6d29eb2f74293cb01a19b32cf08ad2e9"
+    sni: "www.nintendogames.net"
+
+  - name: "github-peasoft-trojan_23"
+    type: "trojan"
+    server: "52.192.225.14"
+    port: 4019
+    password: "6d29eb2f74293cb01a19b32cf08ad2e9"
+    sni: "www.nintendogames.net"
+
+  - name: "github-peasoft-trojan_24"
+    type: "trojan"
+    server: "18.166.177.165"
+    port: 49534
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "github-peasoft-trojan_25"
+    type: "trojan"
     server: "enhanced-crayfish.rooster465.autos"
     port: 443
     password: "IL37892054"
     sni: "enhanced-crayfish.rooster465.autos"
 
-  - name: "github-peasoft-trojan_14"
+  - name: "github-peasoft-trojan_26"
     type: "trojan"
     server: "211.110.32.47"
     port: 20000
     password: "trojan"
     sni: "jflsjlaf.pages.dev"
 
-  - name: "github-peasoft-trojan_15"
+  - name: "github-peasoft-trojan_27"
     type: "trojan"
     server: "118.35.208.37"
     port: 11434
     password: "trojan"
     sni: "jflsjlaf.pages.dev"
 
-  - name: "github-peasoft-trojan_16"
+  - name: "github-peasoft-trojan_28"
     type: "trojan"
     server: "89.221.225.71"
     port: 443
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     sni: "89.221.225.71"
 
-  - name: "github-peasoft-trojan_17"
+  - name: "github-peasoft-trojan_29"
     type: "trojan"
     server: "outgoing-ladybird.rooster465.autos"
     port: 443
     password: "IL37892054"
     sni: "outgoing-ladybird.rooster465.autos"
 
-  - name: "github-peasoft-trojan_18"
+  - name: "github-peasoft-trojan_30"
     type: "trojan"
     server: "fluent-stingray.crayfish192.xyz"
     port: 443
     password: "IL37892054"
     sni: "fluent-stingray.crayfish192.xyz"
 
-  - name: "github-peasoft-trojan_21"
+  - name: "github-peasoft-trojan_33"
     type: "trojan"
     server: "185.151.146.40"
     port: 443
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     sni: "185.151.146.40"
 
-  - name: "github-peasoft-trojan_22"
+  - name: "github-peasoft-trojan_34"
     type: "trojan"
     server: "85.237.206.249"
     port: 443
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     sni: "85.237.206.249"
 
-  - name: "github-peasoft-trojan_23"
+  - name: "github-peasoft-trojan_35"
     type: "trojan"
     server: "54.46.72.234"
     port: 8025
     password: "trojan"
     sni: "jflsjlaf.pages.dev"
 
-  - name: "github-peasoft-trojan_24"
+  - name: "github-peasoft-trojan_36"
     type: "trojan"
     server: "77.247.126.137"
     port: 443
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     sni: "77.247.126.137"
 
-  - name: "github-peasoft-trojan_25"
+  - name: "github-peasoft-trojan_37"
     type: "trojan"
     server: "194.33.45.157"
     port: 443
@@ -989,26 +1130,22 @@ proxies:
     tls: true
     network: "ws"
 
+  - name: "github-Jsnzkpg-vmess_1"
+    type: "vmess"
+    server: "103.181.164.145"
+    port: 51556
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
   - name: "github-Jsnzkpg-trojan_3"
     type: "trojan"
     server: "outgoing-cockatoo.rooster465.autos"
     port: 443
     password: "WF42809561"
     sni: "outgoing-cockatoo.rooster465.autos"
-
-  - name: "github-Jsnzkpg-trojan_4"
-    type: "trojan"
-    server: "funky-platypus.rooster465.autos"
-    port: 443
-    password: "WF42809561"
-    sni: "funky-platypus.rooster465.autos"
-
-  - name: "github-Jsnzkpg-trojan_5"
-    type: "trojan"
-    server: "top-goshawk.rooster465.autos"
-    port: 443
-    password: "WF42809561"
-    sni: "top-goshawk.rooster465.autos"
 
   - name: "github-Jsnzkpg-ss_9"
     type: "ss"
@@ -1244,38 +1381,31 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github-mfuu-trojan_29"
-    type: "trojan"
-    server: "212.193.18.144"
-    port: 36158
-    password: "ZblhWr0mqMakCPg.N"
-    sni: "ya.ru"
-
-  - name: "github-mfuu-trojan_33"
-    type: "trojan"
-    server: "80.173.231.254"
-    port: 12420
-    password: "wp9IsiY82uQhcmgNC1eoBM"
-    sni: "www.semanticstaplegun.click"
-
-  - name: "github-mfuu-ss_34"
-    type: "ss"
-    server: "series-a1.samanehha.co"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "W74XFALLLuw6m5IA"
-
-  - name: "github-mfuu-vmess_36"
+  - name: "github-mfuu-vmess_30"
     type: "vmess"
-    server: "zdqbk.cmvvb.online"
+    server: "c7.620720.xyz"
     port: 8443
-    uuid: "ef46b74c-b3ef-4633-9818-0af6226c4060"
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
     alterId: 0
     cipher: "auto"
     tls: true
     network: "ws"
 
-  - name: "github-mfuu-vmess_38"
+  - name: "github-mfuu-ss_34"
+    type: "ss"
+    server: "series-a2.samanehha.co"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "W74XFALLLuw6m5IA"
+
+  - name: "github-mfuu-trojan_35"
+    type: "trojan"
+    server: "78.159.131.12"
+    port: 28259
+    password: "MeaDiUmPlkWbZJ2BON8tz"
+    sni: "ads.x5.ru"
+
+  - name: "github-mfuu-vmess_39"
     type: "vmess"
     server: "v10.hdacd.com"
     port: 30807
@@ -1285,28 +1415,55 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-trojan_50"
+  - name: "github-mfuu-trojan_51"
     type: "trojan"
     server: "18.183.109.144"
     port: 15407
     password: "BxceQaOe"
     sni: "t.me/ripaojiedian"
 
-  - name: "github-mfuu-ss_143"
+  - name: "github-mfuu-trojan_55"
+    type: "trojan"
+    server: "167.68.4.199"
+    port: 2053
+    password: "Aimer"
+    sni: "epge.muarua.filegear-sg.me"
+
+  - name: "github-mfuu-vmess_113"
+    type: "vmess"
+    server: "103.181.164.145"
+    port: 54022
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-vmess_151"
+    type: "vmess"
+    server: "v33.hdacd.com"
+    port: 30833
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-ss_197"
     type: "ss"
     server: "63.180.254.10"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
 
-  - name: "github-mfuu-ss_157"
+  - name: "github-mfuu-ss_211"
     type: "ss"
     server: "mofacpdd.til69.com"
     port: 41921
     cipher: "chacha20-ietf-poly1305"
     password: "5d68d91f-ccc5-4c00-b1f6-0d764937f4f6"
 
-  - name: "github-mfuu-trojan_158"
+  - name: "github-mfuu-trojan_212"
     type: "trojan"
     server: "216.24.57.250"
     port: 443
@@ -1320,26 +1477,12 @@ proxies:
     password: "WF42809561"
     sni: "evolving-kangaroo.rooster465.autos"
 
-  - name: "github-go4sharing-trojan_2"
-    type: "trojan"
-    server: "premium-lab.rooster465.autos"
-    port: 443
-    password: "WF42809561"
-    sni: "premium-lab.rooster465.autos"
-
   - name: "github-go4sharing-ss_6"
     type: "ss"
     server: "sg02.academicbest.dpdns.org"
     port: 7010
     cipher: "aes-256-gcm"
     password: "ece9f981-9069-4ed4-9593-680dec198a43"
-
-  - name: "github-go4sharing-trojan_7"
-    type: "trojan"
-    server: "model-stingray.crayfish192.xyz"
-    port: 443
-    password: "WF42809561"
-    sni: "model-stingray.crayfish192.xyz"
 
   - name: "github-go4sharing-trojan_8"
     type: "trojan"
@@ -1494,486 +1637,483 @@ proxies:
     password: "3PfyPiLUGm"
     sni: "aws.amazon.com"
 
-  - name: "xrayvip.com-vmess_1"
-    type: "vmess"
-    server: "zzrt.uhomdex.shop"
-    port: 8443
-    uuid: "0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "xrayvip.com-ss_6"
-    type: "ss"
-    server: "ka01.academicbest.dpdns.org"
-    port: 7013
-    cipher: "aes-256-gcm"
-    password: "f36520aa-a3dc-4144-bef9-cfd4a310f2f3"
-
   - name: "xrayvip.com-ss_7"
-    type: "ss"
-    server: "hk02.academicbest.dpdns.org"
-    port: 7004
-    cipher: "aes-256-gcm"
-    password: "f36520aa-a3dc-4144-bef9-cfd4a310f2f3"
-
-  - name: "xrayvip.com-ss_8"
-    type: "ss"
-    server: "jp02.academicbest.dpdns.org"
-    port: 7008
-    cipher: "aes-256-gcm"
-    password: "26a6a0aa-cf25-42b2-8b9c-6f9835b81b78"
-
-  - name: "xrayvip.com-ss_9"
-    type: "ss"
-    server: "r3mrcg007147vhp.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "xrayvip.com-ss_10"
-    type: "ss"
-    server: "namrcg002762ymv.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "xrayvip.com-ss_12"
-    type: "ss"
-    server: "r3mrcg007175dsk.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "xrayvip.com-ss_13"
-    type: "ss"
-    server: "us.academicbest.dpdns.org"
-    port: 7002
-    cipher: "aes-256-gcm"
-    password: "65025369-720b-4792-9f7e-163b0372a4ad"
-
-  - name: "xrayvip.com-ss_14"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13142
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_15"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 12361
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_16"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13144
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_17"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13152
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_18"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13143
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_19"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13154
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_20"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13158
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_21"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 14630
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_22"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 12528
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_23"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13155
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_24"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13141
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_25"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 14623
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_26"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 12742
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_27"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13159
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_28"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 14629
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_29"
-    type: "ss"
-    server: "hkt1.07c06051-81fd-4aa4-a94e-a0860315df8f.org"
-    port: 14999
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_30"
-    type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 13146
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
-
-  - name: "xrayvip.com-ss_31"
     type: "ss"
     server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
     port: 12402
     cipher: "2022-blake3-aes-256-gcm"
     password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
 
-  - name: "xrayvip.com-ss_32"
+  - name: "xrayvip.com-ss_8"
     type: "ss"
     server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 14625
+    port: 13158
     cipher: "2022-blake3-aes-256-gcm"
     password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
 
-  - name: "xrayvip.com-ss_33"
+  - name: "xrayvip.com-ss_9"
     type: "ss"
-    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
-    port: 12527
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+    server: "r3mrcg001213klw.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
-  - name: "xrayvip.com-ss_34"
+  - name: "xrayvip.com-ss_10"
+    type: "ss"
+    server: "r3mrcg0011778me.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_11"
     type: "ss"
     server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
     port: 12523
     cipher: "2022-blake3-aes-256-gcm"
     password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
 
-  - name: "github-wenxig-ss_1"
+  - name: "xrayvip.com-ss_12"
     type: "ss"
-    server: "n8mrcg004732fk8.cybervena.com"
+    server: "nbmrcg00347986n.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
-  - name: "github-wenxig-ss_2"
+  - name: "xrayvip.com-ss_13"
+    type: "ss"
+    server: "namrcg002799rpd.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_14"
+    type: "ss"
+    server: "nbmrcg003455e98.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_15"
+    type: "ss"
+    server: "namrcg002765945.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_16"
+    type: "ss"
+    server: "n8mrcg00470027f.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_17"
+    type: "ss"
+    server: "nbmrcg003494xuj.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_18"
+    type: "ss"
+    server: "r3mrcg001166nc2.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_19"
+    type: "ss"
+    server: "us1-ss.flyparts.cn"
+    port: 10020
+    cipher: "chacha20-ietf-poly1305"
+    password: "3e133e6f-606c-45ac-997e-96a03243df7c"
+
+  - name: "xrayvip.com-ss_20"
+    type: "ss"
+    server: "r3mrcg007147vhp.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "xrayvip.com-ss_21"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 12361
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_22"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13142
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_23"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13144
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_24"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13152
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_25"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 14630
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_26"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 12528
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_27"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13143
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_28"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13154
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_29"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 14623
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_30"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13141
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_31"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13155
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_32"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 12742
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_33"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 14629
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_34"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13146
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_35"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 12527
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_36"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 14625
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_37"
+    type: "ss"
+    server: "toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org"
+    port: 13159
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_38"
+    type: "ss"
+    server: "hkt1.07c06051-81fd-4aa4-a94e-a0860315df8f.org"
+    port: 14999
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o="
+
+  - name: "xrayvip.com-ss_39"
     type: "ss"
     server: "n8mrcg006043yc6.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
-  - name: "github-wenxig-ss_4"
+  - name: "xrayvip.com-ss_40"
     type: "ss"
     server: "nbmrcg0034458by.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
-  - name: "github-wenxig-ss_5"
+  - name: "xrayvip.com-ss_41"
     type: "ss"
-    server: "ncmrcg000021myh.cybervena.com"
+    server: "n8mrcg004732fk8.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
-  - name: "github-wenxig-ss_6"
-    type: "ss"
-    server: "ncmrcg0001797nk.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "github-wenxig-ss_7"
-    type: "ss"
-    server: "r3mrcg001162ctc.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "github-wenxig-ss_8"
-    type: "ss"
-    server: "r3mrcg001244wfw.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "github-wenxig-ss_10"
-    type: "ss"
-    server: "r3mrcg007116sfa.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "github-wenxig-ss_12"
+  - name: "xrayvip.com-ss_42"
     type: "ss"
     server: "r3mrcg007150y7y.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
 
+  - name: "github-wenxig-ss_3"
+    type: "ss"
+    server: "n8mrcg004772avg.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-wenxig-ss_11"
+    type: "ss"
+    server: "ncmrcg000019wnj.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-wenxig-ss_12"
+    type: "ss"
+    server: "ncmrcg000021myh.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
   - name: "github-wenxig-ss_13"
+    type: "ss"
+    server: "ncmrcg0001797nk.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-wenxig-ss_14"
+    type: "ss"
+    server: "r3mrcg001162ctc.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-wenxig-ss_17"
+    type: "ss"
+    server: "r3mrcg001180yjm.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-wenxig-ss_19"
+    type: "ss"
+    server: "r3mrcg001269pz2.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-wenxig-ss_20"
+    type: "ss"
+    server: "r3mrcg007116sfa.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-wenxig-ss_23"
     type: "ss"
     server: "77.73.68.155"
     port: 54106
     cipher: "chacha20-ietf-poly1305"
     password: "9CmcQ6dF8LEyZU0YsMjgu8"
 
-  - name: "github-wenxig-ss_14"
+  - name: "github-wenxig-ss_24"
     type: "ss"
     server: "149.104.71.134"
     port: 11201
     cipher: "chacha20-ietf-poly1305"
     password: "1e68d4bd002437ab"
 
-  - name: "github-wenxig-ss_15"
+  - name: "github-wenxig-ss_26"
     type: "ss"
     server: "193.47.60.186"
     port: 28687
     cipher: "chacha20-ietf-poly1305"
     password: "yKVMoB3AwiTEznpnoq2FYR"
 
-  - name: "github-wenxig-ss_16"
+  - name: "github-wenxig-ss_27"
     type: "ss"
     server: "195.66.25.220"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "yhrHMDgZ2egKftvrecvkpUPqpUTyac7q"
 
-  - name: "github-wenxig-ss_17"
-    type: "ss"
-    server: "203.202.232.78"
-    port: 60299
-    cipher: "chacha20-ietf-poly1305"
-    password: "AVLbEUEtBD59FsRqcNyEib"
-
-  - name: "github-wenxig-ss_18"
+  - name: "github-wenxig-ss_28"
     type: "ss"
     server: "144.31.234.82"
     port: 45356
     cipher: "chacha20-ietf-poly1305"
     password: "EDTfh0zLmD5dfg03sQYFcp"
 
-  - name: "github-wenxig-ss_19"
+  - name: "github-wenxig-ss_30"
     type: "ss"
-    server: "5.181.2.76"
-    port: 36608
-    cipher: "chacha20-ietf-poly1305"
-    password: "JOZ5Mb3nJCmmoKhd8Cc9aC"
-
-  - name: "github-wenxig-ss_22"
-    type: "ss"
-    server: "series-a2.samanehha.co"
+    server: "series-a1.samanehha.co"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "W74XFALLLuw6m5IA"
 
-  - name: "github-wenxig-ss_23"
+  - name: "github-wenxig-ss_31"
     type: "ss"
     server: "102.133.165.160"
     port: 16233
     cipher: "chacha20-ietf-poly1305"
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
 
-  - name: "github-wenxig-ss_24"
+  - name: "github-wenxig-ss_32"
     type: "ss"
     server: "102.37.156.224"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "aduB9HGxQHjA2SBMRjkHX6"
 
-  - name: "github-wenxig-ss_25"
+  - name: "github-wenxig-ss_33"
     type: "ss"
     server: "uss.sudao888.xyz"
     port: 51110
     cipher: "chacha20-ietf-poly1305"
     password: "b4e92f5c-80d5-4c00-b028-168f7493c197"
 
-  - name: "github-wenxig-ss_26"
+  - name: "github-wenxig-ss_34"
     type: "ss"
     server: "158.173.20.171"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "github-wenxig-ss_28"
+  - name: "github-wenxig-ss_35"
+    type: "ss"
+    server: "gm.academicbest.dpdns.org"
+    port: 7002
+    cipher: "aes-256-gcm"
+    password: "139b5705-8566-404e-8de7-18e97c719ebc"
+
+  - name: "github-wenxig-ss_36"
     type: "ss"
     server: "185.111.156.33"
     port: 80
     cipher: "aes-256-gcm"
     password: "5mCH4624QflO1cFR"
 
-  - name: "github-wenxig-ss_30"
+  - name: "github-wenxig-ss_37"
     type: "ss"
     server: "103.47.225.69"
     port: 443
     cipher: "aes-256-gcm"
     password: "899c7e30-50c7-4b63-a0a0-f26ac572d4f9"
 
-  - name: "github-wenxig-ss_32"
+  - name: "github-wenxig-ss_39"
     type: "ss"
     server: "144.217.7.33"
     port: 12000
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
 
-  - name: "github-wenxig-ss_33"
-    type: "ss"
-    server: "57.128.214.100"
-    port: 12000
-    cipher: "aes-256-gcm"
-    password: "8JCsPssfgS8tiRwiMlhARg=="
-
-  - name: "github-wenxig-ss_34"
+  - name: "github-wenxig-ss_40"
     type: "ss"
     server: "144.126.145.77"
     port: 443
     cipher: "aes-256-gcm"
     password: "QzM0NfuMNngbVnZK"
 
-  - name: "github-wenxig-ss_35"
+  - name: "github-wenxig-ss_41"
     type: "ss"
     server: "154.53.60.212"
     port: 80
     cipher: "aes-256-gcm"
     password: "ZfbPFDdeBj0B1Txs"
 
-  - name: "github-wenxig-ss_36"
-    type: "ss"
-    server: "38.180.161.123"
-    port: 8119
-    cipher: "aes-256-gcm"
-    password: "cdBIDV42DCwnfIN"
-
-  - name: "github-wenxig-ss_37"
-    type: "ss"
-    server: "38.180.2.141"
-    port: 5499
-    cipher: "aes-256-gcm"
-    password: "lGqs95QkFHo2NV"
-
-  - name: "github-wenxig-trojan_38"
-    type: "trojan"
-    server: "ubu.okaoclax.me"
-    port: 443
-    password: "13c169be-8592-4eaa-94cb-69c859e7d987"
-    sni: "ubu.okaoclax.me"
-
-  - name: "github-wenxig-trojan_39"
+  - name: "github-wenxig-trojan_42"
     type: "trojan"
     server: "160.16.124.17"
     port: 1524
     password: "6d29eb2f74293cb01a19b32cf08ad2e9"
     sni: "www.nintendogames.net"
 
-  - name: "github-wenxig-trojan_40"
+  - name: "github-wenxig-trojan_43"
     type: "trojan"
     server: "160.16.124.17"
     port: 34818
     password: "6d29eb2f74293cb01a19b32cf08ad2e9"
     sni: "www.nintendogames.net"
 
-  - name: "github-wenxig-trojan_42"
+  - name: "github-wenxig-trojan_44"
     type: "trojan"
     server: "caring-ghoul.rooster465.autos"
     port: 443
     password: "IL37892054"
     sni: "caring-ghoul.rooster465.autos"
 
-  - name: "github-wenxig-trojan_45"
+  - name: "github-wenxig-trojan_47"
     type: "trojan"
     server: "growing-tuna.rooster465.autos"
     port: 443
     password: "IL37892054"
     sni: "growing-tuna.rooster465.autos"
 
-  - name: "github-wenxig-trojan_47"
+  - name: "github-wenxig-trojan_49"
     type: "trojan"
     server: "select-marmoset.rooster465.autos"
     port: 443
     password: "IL37892054"
     sni: "select-marmoset.rooster465.autos"
 
-  - name: "github-wenxig-trojan_49"
+  - name: "github-wenxig-trojan_51"
     type: "trojan"
     server: "nl-4.tr202512.com"
     port: 443
     password: "M08tvzYWtUEJNtbpHp"
     sni: "nl-4.tr202512.com"
 
-  - name: "github-wenxig-trojan_50"
-    type: "trojan"
-    server: "78.159.131.12"
-    port: 28259
-    password: "MeaDiUmPlkWbZJ2BON8tz"
-    sni: "ads.x5.ru"
-
-  - name: "github-wenxig-trojan_51"
+  - name: "github-wenxig-trojan_52"
     type: "trojan"
     server: "glowing-deer.rooster465.autos"
     port: 443
     password: "ZY07256934"
     sni: "glowing-deer.rooster465.autos"
 
-  - name: "github-wenxig-trojan_52"
+  - name: "github-wenxig-trojan_53"
     type: "trojan"
     server: "8443.golden-cards.me"
     port: 443
     password: "q2GRUM1-odJBWq_KV6xv2fuNvu8ed-"
     sni: "8443.golden-cards.me"
 
-  - name: "github-wenxig-ss_134"
+  - name: "github-wenxig-ss_137"
     type: "ss"
     server: "www.ccgfw.top"
     port: 443
@@ -2226,26 +2366,35 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "mm.mibei77.com-trojan_1"
-      - "mm.mibei77.com-vmess_2"
-      - "mm.mibei77.com-ss_3"
+      - "mm.mibei77.com-vmess_1"
+      - "mm.mibei77.com-ss_2"
+      - "mm.mibei77.com-vmess_3"
       - "mm.mibei77.com-trojan_4"
       - "mm.mibei77.com-vmess_8"
-      - "mm.mibei77.com-vmess_23"
-      - "mm.mibei77.com-vmess_26"
+      - "mm.mibei77.com-vmess_24"
+      - "mm.mibei77.com-vmess_25"
       - "mm.mibei77.com-ss_27"
+      - "mm.mibei77.com-trojan_30"
       - "mm.mibei77.com-trojan_33"
-      - "mm.mibei77.com-vmess_34"
-      - "mm.mibei77.com-ss_46"
-      - "mm.mibei77.com-trojan_53"
-      - "mm.mibei77.com-ss_57"
-      - "mm.mibei77.com-ss_58"
-      - "mm.mibei77.com-vmess_61"
-      - "mm.mibei77.com-vmess_62"
-      - "mm.mibei77.com-vmess_65"
-      - "mm.mibei77.com-ss_95"
-      - "mm.mibei77.com-vmess_100"
-      - "mm.mibei77.com-trojan_108"
+      - "mm.mibei77.com-ss_35"
+      - "mm.mibei77.com-trojan_41"
+      - "mm.mibei77.com-trojan_49"
+      - "mm.mibei77.com-ss_53"
+      - "mm.mibei77.com-trojan_56"
+      - "mm.mibei77.com-trojan_57"
+      - "mm.mibei77.com-trojan_60"
+      - "mm.mibei77.com-ss_65"
+      - "mm.mibei77.com-trojan_67"
+      - "mm.mibei77.com-trojan_69"
+      - "mm.mibei77.com-trojan_73"
+      - "mm.mibei77.com-vmess_80"
+      - "mm.mibei77.com-trojan_84"
+      - "mm.mibei77.com-ss_89"
+      - "mm.mibei77.com-trojan_99"
+      - "mm.mibei77.com-ss_107"
+      - "mm.mibei77.com-ss_108"
+      - "mm.mibei77.com-trojan_109"
+      - "mm.mibei77.com-vmess_111"
       - "node.nodefree.me-ss_1"
       - "node.nodefree.me-vless_2"
       - "node.nodefree.me-vless_3"
@@ -2337,18 +2486,29 @@ proxy-groups:
       - "github-peasoft-trojan_16"
       - "github-peasoft-trojan_17"
       - "github-peasoft-trojan_18"
+      - "github-peasoft-trojan_19"
+      - "github-peasoft-trojan_20"
       - "github-peasoft-trojan_21"
       - "github-peasoft-trojan_22"
       - "github-peasoft-trojan_23"
       - "github-peasoft-trojan_24"
       - "github-peasoft-trojan_25"
+      - "github-peasoft-trojan_26"
+      - "github-peasoft-trojan_27"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_33"
+      - "github-peasoft-trojan_34"
+      - "github-peasoft-trojan_35"
+      - "github-peasoft-trojan_36"
+      - "github-peasoft-trojan_37"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
+      - "github-Jsnzkpg-vmess_1"
       - "github-Jsnzkpg-trojan_3"
-      - "github-Jsnzkpg-trojan_4"
-      - "github-Jsnzkpg-trojan_5"
       - "github-Jsnzkpg-ss_9"
       - "github-mfuu-ss_1"
       - "github-mfuu-vmess_2"
@@ -2376,19 +2536,19 @@ proxy-groups:
       - "github-mfuu-vmess_26"
       - "github-mfuu-vmess_27"
       - "github-mfuu-vmess_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_33"
+      - "github-mfuu-vmess_30"
       - "github-mfuu-ss_34"
-      - "github-mfuu-vmess_36"
-      - "github-mfuu-vmess_38"
-      - "github-mfuu-trojan_50"
-      - "github-mfuu-ss_143"
-      - "github-mfuu-ss_157"
-      - "github-mfuu-trojan_158"
+      - "github-mfuu-trojan_35"
+      - "github-mfuu-vmess_39"
+      - "github-mfuu-trojan_51"
+      - "github-mfuu-trojan_55"
+      - "github-mfuu-vmess_113"
+      - "github-mfuu-vmess_151"
+      - "github-mfuu-ss_197"
+      - "github-mfuu-ss_211"
+      - "github-mfuu-trojan_212"
       - "github-go4sharing-trojan_1"
-      - "github-go4sharing-trojan_2"
       - "github-go4sharing-ss_6"
-      - "github-go4sharing-trojan_7"
       - "github-go4sharing-trojan_8"
       - "github-go4sharing-vmess_9"
       - "github-go4sharing-vmess_13"
@@ -2409,12 +2569,11 @@ proxy-groups:
       - "github-go4sharing-trojan_29"
       - "sub.scpnb.top-trojan_1"
       - "sub.scpnb.top-trojan_2"
-      - "xrayvip.com-vmess_1"
-      - "xrayvip.com-ss_6"
       - "xrayvip.com-ss_7"
       - "xrayvip.com-ss_8"
       - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
+      - "xrayvip.com-ss_11"
       - "xrayvip.com-ss_12"
       - "xrayvip.com-ss_13"
       - "xrayvip.com-ss_14"
@@ -2438,46 +2597,47 @@ proxy-groups:
       - "xrayvip.com-ss_32"
       - "xrayvip.com-ss_33"
       - "xrayvip.com-ss_34"
-      - "github-wenxig-ss_1"
-      - "github-wenxig-ss_2"
-      - "github-wenxig-ss_4"
-      - "github-wenxig-ss_5"
-      - "github-wenxig-ss_6"
-      - "github-wenxig-ss_7"
-      - "github-wenxig-ss_8"
-      - "github-wenxig-ss_10"
+      - "xrayvip.com-ss_35"
+      - "xrayvip.com-ss_36"
+      - "xrayvip.com-ss_37"
+      - "xrayvip.com-ss_38"
+      - "xrayvip.com-ss_39"
+      - "xrayvip.com-ss_40"
+      - "xrayvip.com-ss_41"
+      - "xrayvip.com-ss_42"
+      - "github-wenxig-ss_3"
+      - "github-wenxig-ss_11"
       - "github-wenxig-ss_12"
       - "github-wenxig-ss_13"
       - "github-wenxig-ss_14"
-      - "github-wenxig-ss_15"
-      - "github-wenxig-ss_16"
       - "github-wenxig-ss_17"
-      - "github-wenxig-ss_18"
       - "github-wenxig-ss_19"
-      - "github-wenxig-ss_22"
+      - "github-wenxig-ss_20"
       - "github-wenxig-ss_23"
       - "github-wenxig-ss_24"
-      - "github-wenxig-ss_25"
       - "github-wenxig-ss_26"
+      - "github-wenxig-ss_27"
       - "github-wenxig-ss_28"
       - "github-wenxig-ss_30"
+      - "github-wenxig-ss_31"
       - "github-wenxig-ss_32"
       - "github-wenxig-ss_33"
       - "github-wenxig-ss_34"
       - "github-wenxig-ss_35"
       - "github-wenxig-ss_36"
       - "github-wenxig-ss_37"
-      - "github-wenxig-trojan_38"
-      - "github-wenxig-trojan_39"
-      - "github-wenxig-trojan_40"
+      - "github-wenxig-ss_39"
+      - "github-wenxig-ss_40"
+      - "github-wenxig-ss_41"
       - "github-wenxig-trojan_42"
-      - "github-wenxig-trojan_45"
+      - "github-wenxig-trojan_43"
+      - "github-wenxig-trojan_44"
       - "github-wenxig-trojan_47"
       - "github-wenxig-trojan_49"
-      - "github-wenxig-trojan_50"
       - "github-wenxig-trojan_51"
       - "github-wenxig-trojan_52"
-      - "github-wenxig-ss_134"
+      - "github-wenxig-trojan_53"
+      - "github-wenxig-ss_137"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2509,26 +2669,35 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "mm.mibei77.com-trojan_1"
-      - "mm.mibei77.com-vmess_2"
-      - "mm.mibei77.com-ss_3"
+      - "mm.mibei77.com-vmess_1"
+      - "mm.mibei77.com-ss_2"
+      - "mm.mibei77.com-vmess_3"
       - "mm.mibei77.com-trojan_4"
       - "mm.mibei77.com-vmess_8"
-      - "mm.mibei77.com-vmess_23"
-      - "mm.mibei77.com-vmess_26"
+      - "mm.mibei77.com-vmess_24"
+      - "mm.mibei77.com-vmess_25"
       - "mm.mibei77.com-ss_27"
+      - "mm.mibei77.com-trojan_30"
       - "mm.mibei77.com-trojan_33"
-      - "mm.mibei77.com-vmess_34"
-      - "mm.mibei77.com-ss_46"
-      - "mm.mibei77.com-trojan_53"
-      - "mm.mibei77.com-ss_57"
-      - "mm.mibei77.com-ss_58"
-      - "mm.mibei77.com-vmess_61"
-      - "mm.mibei77.com-vmess_62"
-      - "mm.mibei77.com-vmess_65"
-      - "mm.mibei77.com-ss_95"
-      - "mm.mibei77.com-vmess_100"
-      - "mm.mibei77.com-trojan_108"
+      - "mm.mibei77.com-ss_35"
+      - "mm.mibei77.com-trojan_41"
+      - "mm.mibei77.com-trojan_49"
+      - "mm.mibei77.com-ss_53"
+      - "mm.mibei77.com-trojan_56"
+      - "mm.mibei77.com-trojan_57"
+      - "mm.mibei77.com-trojan_60"
+      - "mm.mibei77.com-ss_65"
+      - "mm.mibei77.com-trojan_67"
+      - "mm.mibei77.com-trojan_69"
+      - "mm.mibei77.com-trojan_73"
+      - "mm.mibei77.com-vmess_80"
+      - "mm.mibei77.com-trojan_84"
+      - "mm.mibei77.com-ss_89"
+      - "mm.mibei77.com-trojan_99"
+      - "mm.mibei77.com-ss_107"
+      - "mm.mibei77.com-ss_108"
+      - "mm.mibei77.com-trojan_109"
+      - "mm.mibei77.com-vmess_111"
       - "node.nodefree.me-ss_1"
       - "node.nodefree.me-vless_2"
       - "node.nodefree.me-vless_3"
@@ -2620,18 +2789,29 @@ proxy-groups:
       - "github-peasoft-trojan_16"
       - "github-peasoft-trojan_17"
       - "github-peasoft-trojan_18"
+      - "github-peasoft-trojan_19"
+      - "github-peasoft-trojan_20"
       - "github-peasoft-trojan_21"
       - "github-peasoft-trojan_22"
       - "github-peasoft-trojan_23"
       - "github-peasoft-trojan_24"
       - "github-peasoft-trojan_25"
+      - "github-peasoft-trojan_26"
+      - "github-peasoft-trojan_27"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_33"
+      - "github-peasoft-trojan_34"
+      - "github-peasoft-trojan_35"
+      - "github-peasoft-trojan_36"
+      - "github-peasoft-trojan_37"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
+      - "github-Jsnzkpg-vmess_1"
       - "github-Jsnzkpg-trojan_3"
-      - "github-Jsnzkpg-trojan_4"
-      - "github-Jsnzkpg-trojan_5"
       - "github-Jsnzkpg-ss_9"
       - "github-mfuu-ss_1"
       - "github-mfuu-vmess_2"
@@ -2659,19 +2839,19 @@ proxy-groups:
       - "github-mfuu-vmess_26"
       - "github-mfuu-vmess_27"
       - "github-mfuu-vmess_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_33"
+      - "github-mfuu-vmess_30"
       - "github-mfuu-ss_34"
-      - "github-mfuu-vmess_36"
-      - "github-mfuu-vmess_38"
-      - "github-mfuu-trojan_50"
-      - "github-mfuu-ss_143"
-      - "github-mfuu-ss_157"
-      - "github-mfuu-trojan_158"
+      - "github-mfuu-trojan_35"
+      - "github-mfuu-vmess_39"
+      - "github-mfuu-trojan_51"
+      - "github-mfuu-trojan_55"
+      - "github-mfuu-vmess_113"
+      - "github-mfuu-vmess_151"
+      - "github-mfuu-ss_197"
+      - "github-mfuu-ss_211"
+      - "github-mfuu-trojan_212"
       - "github-go4sharing-trojan_1"
-      - "github-go4sharing-trojan_2"
       - "github-go4sharing-ss_6"
-      - "github-go4sharing-trojan_7"
       - "github-go4sharing-trojan_8"
       - "github-go4sharing-vmess_9"
       - "github-go4sharing-vmess_13"
@@ -2692,12 +2872,11 @@ proxy-groups:
       - "github-go4sharing-trojan_29"
       - "sub.scpnb.top-trojan_1"
       - "sub.scpnb.top-trojan_2"
-      - "xrayvip.com-vmess_1"
-      - "xrayvip.com-ss_6"
       - "xrayvip.com-ss_7"
       - "xrayvip.com-ss_8"
       - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
+      - "xrayvip.com-ss_11"
       - "xrayvip.com-ss_12"
       - "xrayvip.com-ss_13"
       - "xrayvip.com-ss_14"
@@ -2721,46 +2900,47 @@ proxy-groups:
       - "xrayvip.com-ss_32"
       - "xrayvip.com-ss_33"
       - "xrayvip.com-ss_34"
-      - "github-wenxig-ss_1"
-      - "github-wenxig-ss_2"
-      - "github-wenxig-ss_4"
-      - "github-wenxig-ss_5"
-      - "github-wenxig-ss_6"
-      - "github-wenxig-ss_7"
-      - "github-wenxig-ss_8"
-      - "github-wenxig-ss_10"
+      - "xrayvip.com-ss_35"
+      - "xrayvip.com-ss_36"
+      - "xrayvip.com-ss_37"
+      - "xrayvip.com-ss_38"
+      - "xrayvip.com-ss_39"
+      - "xrayvip.com-ss_40"
+      - "xrayvip.com-ss_41"
+      - "xrayvip.com-ss_42"
+      - "github-wenxig-ss_3"
+      - "github-wenxig-ss_11"
       - "github-wenxig-ss_12"
       - "github-wenxig-ss_13"
       - "github-wenxig-ss_14"
-      - "github-wenxig-ss_15"
-      - "github-wenxig-ss_16"
       - "github-wenxig-ss_17"
-      - "github-wenxig-ss_18"
       - "github-wenxig-ss_19"
-      - "github-wenxig-ss_22"
+      - "github-wenxig-ss_20"
       - "github-wenxig-ss_23"
       - "github-wenxig-ss_24"
-      - "github-wenxig-ss_25"
       - "github-wenxig-ss_26"
+      - "github-wenxig-ss_27"
       - "github-wenxig-ss_28"
       - "github-wenxig-ss_30"
+      - "github-wenxig-ss_31"
       - "github-wenxig-ss_32"
       - "github-wenxig-ss_33"
       - "github-wenxig-ss_34"
       - "github-wenxig-ss_35"
       - "github-wenxig-ss_36"
       - "github-wenxig-ss_37"
-      - "github-wenxig-trojan_38"
-      - "github-wenxig-trojan_39"
-      - "github-wenxig-trojan_40"
+      - "github-wenxig-ss_39"
+      - "github-wenxig-ss_40"
+      - "github-wenxig-ss_41"
       - "github-wenxig-trojan_42"
-      - "github-wenxig-trojan_45"
+      - "github-wenxig-trojan_43"
+      - "github-wenxig-trojan_44"
       - "github-wenxig-trojan_47"
       - "github-wenxig-trojan_49"
-      - "github-wenxig-trojan_50"
       - "github-wenxig-trojan_51"
       - "github-wenxig-trojan_52"
-      - "github-wenxig-ss_134"
+      - "github-wenxig-trojan_53"
+      - "github-wenxig-ss_137"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2792,26 +2972,35 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "mm.mibei77.com-trojan_1"
-      - "mm.mibei77.com-vmess_2"
-      - "mm.mibei77.com-ss_3"
+      - "mm.mibei77.com-vmess_1"
+      - "mm.mibei77.com-ss_2"
+      - "mm.mibei77.com-vmess_3"
       - "mm.mibei77.com-trojan_4"
       - "mm.mibei77.com-vmess_8"
-      - "mm.mibei77.com-vmess_23"
-      - "mm.mibei77.com-vmess_26"
+      - "mm.mibei77.com-vmess_24"
+      - "mm.mibei77.com-vmess_25"
       - "mm.mibei77.com-ss_27"
+      - "mm.mibei77.com-trojan_30"
       - "mm.mibei77.com-trojan_33"
-      - "mm.mibei77.com-vmess_34"
-      - "mm.mibei77.com-ss_46"
-      - "mm.mibei77.com-trojan_53"
-      - "mm.mibei77.com-ss_57"
-      - "mm.mibei77.com-ss_58"
-      - "mm.mibei77.com-vmess_61"
-      - "mm.mibei77.com-vmess_62"
-      - "mm.mibei77.com-vmess_65"
-      - "mm.mibei77.com-ss_95"
-      - "mm.mibei77.com-vmess_100"
-      - "mm.mibei77.com-trojan_108"
+      - "mm.mibei77.com-ss_35"
+      - "mm.mibei77.com-trojan_41"
+      - "mm.mibei77.com-trojan_49"
+      - "mm.mibei77.com-ss_53"
+      - "mm.mibei77.com-trojan_56"
+      - "mm.mibei77.com-trojan_57"
+      - "mm.mibei77.com-trojan_60"
+      - "mm.mibei77.com-ss_65"
+      - "mm.mibei77.com-trojan_67"
+      - "mm.mibei77.com-trojan_69"
+      - "mm.mibei77.com-trojan_73"
+      - "mm.mibei77.com-vmess_80"
+      - "mm.mibei77.com-trojan_84"
+      - "mm.mibei77.com-ss_89"
+      - "mm.mibei77.com-trojan_99"
+      - "mm.mibei77.com-ss_107"
+      - "mm.mibei77.com-ss_108"
+      - "mm.mibei77.com-trojan_109"
+      - "mm.mibei77.com-vmess_111"
       - "node.nodefree.me-ss_1"
       - "node.nodefree.me-vless_2"
       - "node.nodefree.me-vless_3"
@@ -2903,18 +3092,29 @@ proxy-groups:
       - "github-peasoft-trojan_16"
       - "github-peasoft-trojan_17"
       - "github-peasoft-trojan_18"
+      - "github-peasoft-trojan_19"
+      - "github-peasoft-trojan_20"
       - "github-peasoft-trojan_21"
       - "github-peasoft-trojan_22"
       - "github-peasoft-trojan_23"
       - "github-peasoft-trojan_24"
       - "github-peasoft-trojan_25"
+      - "github-peasoft-trojan_26"
+      - "github-peasoft-trojan_27"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_33"
+      - "github-peasoft-trojan_34"
+      - "github-peasoft-trojan_35"
+      - "github-peasoft-trojan_36"
+      - "github-peasoft-trojan_37"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
+      - "github-Jsnzkpg-vmess_1"
       - "github-Jsnzkpg-trojan_3"
-      - "github-Jsnzkpg-trojan_4"
-      - "github-Jsnzkpg-trojan_5"
       - "github-Jsnzkpg-ss_9"
       - "github-mfuu-ss_1"
       - "github-mfuu-vmess_2"
@@ -2942,19 +3142,19 @@ proxy-groups:
       - "github-mfuu-vmess_26"
       - "github-mfuu-vmess_27"
       - "github-mfuu-vmess_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_33"
+      - "github-mfuu-vmess_30"
       - "github-mfuu-ss_34"
-      - "github-mfuu-vmess_36"
-      - "github-mfuu-vmess_38"
-      - "github-mfuu-trojan_50"
-      - "github-mfuu-ss_143"
-      - "github-mfuu-ss_157"
-      - "github-mfuu-trojan_158"
+      - "github-mfuu-trojan_35"
+      - "github-mfuu-vmess_39"
+      - "github-mfuu-trojan_51"
+      - "github-mfuu-trojan_55"
+      - "github-mfuu-vmess_113"
+      - "github-mfuu-vmess_151"
+      - "github-mfuu-ss_197"
+      - "github-mfuu-ss_211"
+      - "github-mfuu-trojan_212"
       - "github-go4sharing-trojan_1"
-      - "github-go4sharing-trojan_2"
       - "github-go4sharing-ss_6"
-      - "github-go4sharing-trojan_7"
       - "github-go4sharing-trojan_8"
       - "github-go4sharing-vmess_9"
       - "github-go4sharing-vmess_13"
@@ -2975,12 +3175,11 @@ proxy-groups:
       - "github-go4sharing-trojan_29"
       - "sub.scpnb.top-trojan_1"
       - "sub.scpnb.top-trojan_2"
-      - "xrayvip.com-vmess_1"
-      - "xrayvip.com-ss_6"
       - "xrayvip.com-ss_7"
       - "xrayvip.com-ss_8"
       - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
+      - "xrayvip.com-ss_11"
       - "xrayvip.com-ss_12"
       - "xrayvip.com-ss_13"
       - "xrayvip.com-ss_14"
@@ -3004,46 +3203,47 @@ proxy-groups:
       - "xrayvip.com-ss_32"
       - "xrayvip.com-ss_33"
       - "xrayvip.com-ss_34"
-      - "github-wenxig-ss_1"
-      - "github-wenxig-ss_2"
-      - "github-wenxig-ss_4"
-      - "github-wenxig-ss_5"
-      - "github-wenxig-ss_6"
-      - "github-wenxig-ss_7"
-      - "github-wenxig-ss_8"
-      - "github-wenxig-ss_10"
+      - "xrayvip.com-ss_35"
+      - "xrayvip.com-ss_36"
+      - "xrayvip.com-ss_37"
+      - "xrayvip.com-ss_38"
+      - "xrayvip.com-ss_39"
+      - "xrayvip.com-ss_40"
+      - "xrayvip.com-ss_41"
+      - "xrayvip.com-ss_42"
+      - "github-wenxig-ss_3"
+      - "github-wenxig-ss_11"
       - "github-wenxig-ss_12"
       - "github-wenxig-ss_13"
       - "github-wenxig-ss_14"
-      - "github-wenxig-ss_15"
-      - "github-wenxig-ss_16"
       - "github-wenxig-ss_17"
-      - "github-wenxig-ss_18"
       - "github-wenxig-ss_19"
-      - "github-wenxig-ss_22"
+      - "github-wenxig-ss_20"
       - "github-wenxig-ss_23"
       - "github-wenxig-ss_24"
-      - "github-wenxig-ss_25"
       - "github-wenxig-ss_26"
+      - "github-wenxig-ss_27"
       - "github-wenxig-ss_28"
       - "github-wenxig-ss_30"
+      - "github-wenxig-ss_31"
       - "github-wenxig-ss_32"
       - "github-wenxig-ss_33"
       - "github-wenxig-ss_34"
       - "github-wenxig-ss_35"
       - "github-wenxig-ss_36"
       - "github-wenxig-ss_37"
-      - "github-wenxig-trojan_38"
-      - "github-wenxig-trojan_39"
-      - "github-wenxig-trojan_40"
+      - "github-wenxig-ss_39"
+      - "github-wenxig-ss_40"
+      - "github-wenxig-ss_41"
       - "github-wenxig-trojan_42"
-      - "github-wenxig-trojan_45"
+      - "github-wenxig-trojan_43"
+      - "github-wenxig-trojan_44"
       - "github-wenxig-trojan_47"
       - "github-wenxig-trojan_49"
-      - "github-wenxig-trojan_50"
       - "github-wenxig-trojan_51"
       - "github-wenxig-trojan_52"
-      - "github-wenxig-ss_134"
+      - "github-wenxig-trojan_53"
+      - "github-wenxig-ss_137"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"

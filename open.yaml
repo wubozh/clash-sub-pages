@@ -1,10 +1,77 @@
 proxies:
-  - name: "github-mfuu-trojan_31"
+  - name: "github-go4sharing-trojan_24"
     type: "trojan"
-    server: "212.193.18.144"
-    port: 36158
-    password: "ZblhWr0mqMakCPg.N"
-    sni: "ya.ru"
+    server: "xj-tw6.zzsspnode.com"
+    port: 8060
+    password: "bc2a328f-5302-3e75-bc7f-0d2163d492f5"
+    sni: "xj-tw6.zzsspnode.com"
+
+  - name: "github-wenxig-trojan_24"
+    type: "trojan"
+    server: "160.16.72.33"
+    port: 4674
+    password: "86e150eb21c6faee48e81d496d7f61c2"
+    sni: "www.nintendogames.net"
+
+  - name: "github-wenxig-trojan_20"
+    type: "trojan"
+    server: "ubu.okaoclax.me"
+    port: 443
+    password: "13c169be-8592-4eaa-94cb-69c859e7d987"
+    sni: "ubu.okaoclax.me"
+
+  - name: "sub_scpnb_top-trojan_1"
+    type: "trojan"
+    server: "209.200.246.105"
+    port: 17837
+    password: "YRw2bzmWwl"
+    sni: "aws.amazon.com"
+
+  - name: "anaer_github_io-hysteria2_23"
+    type: "hysteria2"
+    server: "138.2.182.211"
+    port: 50000
+    password: "9fc87b20-8bd2-4b6e-aa29-dbb581a27262"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "github-Jsnzkpg-hysteria2_1"
+    type: "hysteria2"
+    server: "ger.v-sego.ru"
+    port: 4443
+    password: "SdZjuppSYTsahcx7fG8P30wMI6NSlS5yu0izOwS7zQA="
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "github-peasoft-trojan_8_1"
+    type: "trojan"
+    server: "160.16.124.17"
+    port: 4674
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
+  - name: "jsdelivr-chengaopa-trojan_29"
+    type: "trojan"
+    server: "16.163.155.36"
+    port: 8401
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+
+  - name: "github-peasoft-trojan_3_1"
+    type: "trojan"
+    server: "13.231.153.129"
+    port: 5823
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "github-peasoft-trojan_9"
+    type: "trojan"
+    server: "13.230.254.47"
+    port: 41973
+    password: "BxceQaOe"
+    sni: "t.me%252Fripaojiedian"
 
   - name: "github-wenxig-trojan_28"
     type: "trojan"
@@ -13,26 +80,12 @@ proxies:
     password: "M08tvzYWtUEJNtbpHp"
     sni: "nl-4.tr202512.com"
 
-  - name: "github-mfuu-trojan_199"
-    type: "trojan"
-    server: "vip2.kaixincloud.top"
-    port: 8443
-    password: "T9BpZIVMNv"
-    sni: "sweden.vmaxpanel.com"
-
-  - name: "github-wenxig-trojan_23"
-    type: "trojan"
-    server: "160.16.72.33"
-    port: 3057
-    password: "86e150eb21c6faee48e81d496d7f61c2"
-    sni: "www.nintendogames.net"
-
-  - name: "anaer_github_io-ss_80"
+  - name: "github-mfuu-ss_64"
     type: "ss"
-    server: "50.62.90.16"
-    port: 443
-    cipher: "none"
-    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
+    server: "45e755.shlswe.xyz"
+    port: 28308
+    cipher: "aes-128-gcm"
+    password: "f97cf7d99d"
 
   - name: "anaer_github_io-ss_64"
     type: "ss"
@@ -41,9 +94,23 @@ proxies:
     cipher: "none"
     password: "3e96ef7d-8637-42c2-ac73-75182196e755"
 
-  - name: "mm_mibei77_com-vmess_9"
+  - name: "anaer_github_io-ss_80"
+    type: "ss"
+    server: "50.62.90.16"
+    port: 443
+    cipher: "none"
+    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
+
+  - name: "github-go4sharing-ss_26"
+    type: "ss"
+    server: "103.186.154.69"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "anaer_github_io-vmess_28"
     type: "vmess"
-    server: "82.198.246.97"
+    server: "82.198.246.250"
     port: 180
     uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
     alterId: 0
@@ -61,30 +128,26 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "anaer_github_io-vmess_28"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer_github_io-vless_18_1"
-    type: "vless"
-    server: "67.209.176.23"
-    port: 30000
-    uuid: "f79cae47-7d05-4220-8063-d856b67b694b"
-    tls: false
-    network: "tcp"
-
-  - name: "github-go4sharing-ss_14"
+  - name: "github-mfuu-ss_150"
     type: "ss"
-    server: "103.186.154.156"
-    port: 38388
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
+
+  - name: "github-Jsnzkpg-ss_8"
+    type: "ss"
+    server: "185.231.233.112"
+    port: 989
     cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    password: "f8f7aCzcPKbsF8p3"
+
+  - name: "github-mfuu-ss_57"
+    type: "ss"
+    server: "45e755.shlswe.xyz"
+    port: 28118
+    cipher: "aes-128-gcm"
+    password: "f97cf7d99d"
 
   - name: "mm_mibei77_com-vmess_31"
     type: "vmess"
@@ -96,61 +159,9 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-go4sharing-ss_6"
+  - name: "github-go4sharing-ss_38"
     type: "ss"
-    server: "192.71.166.100"
-    port: 989
-    cipher: "aes-256-cfb"
-    password: "f8f7aCzcPKbsF8p3"
-
-  - name: "mm_mibei77_com-vmess_4"
-    type: "vmess"
-    server: "103.181.164.145"
-    port: 51556
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "github-go4sharing-ss_18_1"
-    type: "ss"
-    server: "103.186.154.208"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_20"
-    type: "ss"
-    server: "103.186.155.112"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_19_1"
-    type: "ss"
-    server: "103.186.154.212"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_28_1"
-    type: "ss"
-    server: "hk11.network-cdn-gw-yd.net"
-    port: 47711
-    cipher: "chacha20-ietf-poly1305"
-    password: "d4665d23-c0a2-454e-ba62-c276ed189a70"
-
-  - name: "github-go4sharing-ss_21_1"
-    type: "ss"
-    server: "103.186.154.20"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_17_1"
-    type: "ss"
-    server: "103.186.154.179"
+    server: "103.186.155.234"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -162,30 +173,37 @@ proxies:
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_22_1"
+  - name: "github-go4sharing-ss_37"
     type: "ss"
-    server: "103.186.155.41"
+    server: "103.186.155.16"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_27_1"
+  - name: "github-go4sharing-ss_20"
     type: "ss"
-    server: "hkp8.network-cdn-gw-yd.net"
-    port: 48818
-    cipher: "chacha20-ietf-poly1305"
-    password: "d4665d23-c0a2-454e-ba62-c276ed189a70"
-
-  - name: "github-go4sharing-ss_12_1"
-    type: "ss"
-    server: "103.186.154.216"
+    server: "103.186.155.112"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "node_nodefree_me-ss_17"
+  - name: "github-go4sharing-ss_39"
     type: "ss"
-    server: "103.186.155.23"
+    server: "103.186.154.188"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "anaer_github_io-ss_40"
+    type: "ss"
+    server: "103.186.155.19"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "github-go4sharing-ss_25"
+    type: "ss"
+    server: "103.186.155.52"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -197,141 +215,120 @@ proxies:
     cipher: "none"
     password: "3e96ef7d-8637-42c2-ac73-75182196e755"
 
-  - name: "github-Jsnzkpg-ss_8"
+  - name: "github-go4sharing-ss_21"
     type: "ss"
-    server: "185.231.233.112"
-    port: 989
-    cipher: "aes-256-cfb"
-    password: "f8f7aCzcPKbsF8p3"
-
-  - name: "github-go4sharing-ss_13"
-    type: "ss"
-    server: "103.186.155.48"
+    server: "103.186.154.193"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-wenxig-trojan_24"
-    type: "trojan"
-    server: "160.16.72.33"
-    port: 4674
-    password: "86e150eb21c6faee48e81d496d7f61c2"
-    sni: "www.nintendogames.net"
-
-  - name: "github-wenxig-trojan_22"
-    type: "trojan"
-    server: "160.16.72.33"
-    port: 2001
-    password: "86e150eb21c6faee48e81d496d7f61c2"
-    sni: "www.nintendogames.net"
 
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "github-mfuu-trojan_31"
-      - "github-wenxig-trojan_28"
-      - "github-mfuu-trojan_199"
-      - "github-wenxig-trojan_23"
-      - "anaer_github_io-ss_80"
-      - "anaer_github_io-ss_64"
-      - "mm_mibei77_com-vmess_9"
-      - "anaer_github_io-vmess_25"
-      - "anaer_github_io-vmess_28"
-      - "anaer_github_io-vless_18_1"
-      - "github-go4sharing-ss_14"
-      - "mm_mibei77_com-vmess_31"
-      - "github-go4sharing-ss_6"
-      - "mm_mibei77_com-vmess_4"
-      - "github-go4sharing-ss_18_1"
-      - "github-go4sharing-ss_20"
-      - "github-go4sharing-ss_19_1"
-      - "github-go4sharing-ss_28_1"
-      - "github-go4sharing-ss_21_1"
-      - "github-go4sharing-ss_17_1"
-      - "anaer_github_io-ss_42"
-      - "github-go4sharing-ss_22_1"
-      - "github-go4sharing-ss_27_1"
-      - "github-go4sharing-ss_12_1"
-      - "node_nodefree_me-ss_17"
-      - "anaer_github_io-ss_2"
-      - "github-Jsnzkpg-ss_8"
-      - "github-go4sharing-ss_13"
+      - "github-go4sharing-trojan_24"
       - "github-wenxig-trojan_24"
-      - "github-wenxig-trojan_22"
+      - "github-wenxig-trojan_20"
+      - "sub_scpnb_top-trojan_1"
+      - "anaer_github_io-hysteria2_23"
+      - "github-Jsnzkpg-hysteria2_1"
+      - "github-peasoft-trojan_8_1"
+      - "jsdelivr-chengaopa-trojan_29"
+      - "github-peasoft-trojan_3_1"
+      - "github-peasoft-trojan_9"
+      - "github-wenxig-trojan_28"
+      - "github-mfuu-ss_64"
+      - "anaer_github_io-ss_64"
+      - "anaer_github_io-ss_80"
+      - "github-go4sharing-ss_26"
+      - "anaer_github_io-vmess_28"
+      - "anaer_github_io-vmess_25"
+      - "github-mfuu-ss_150"
+      - "github-Jsnzkpg-ss_8"
+      - "github-mfuu-ss_57"
+      - "mm_mibei77_com-vmess_31"
+      - "github-go4sharing-ss_38"
+      - "anaer_github_io-ss_42"
+      - "github-go4sharing-ss_37"
+      - "github-go4sharing-ss_20"
+      - "github-go4sharing-ss_39"
+      - "anaer_github_io-ss_40"
+      - "github-go4sharing-ss_25"
+      - "anaer_github_io-ss_2"
+      - "github-go4sharing-ss_21"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "github-mfuu-trojan_31"
-      - "github-wenxig-trojan_28"
-      - "github-mfuu-trojan_199"
-      - "github-wenxig-trojan_23"
-      - "anaer_github_io-ss_80"
-      - "anaer_github_io-ss_64"
-      - "mm_mibei77_com-vmess_9"
-      - "anaer_github_io-vmess_25"
-      - "anaer_github_io-vmess_28"
-      - "anaer_github_io-vless_18_1"
-      - "github-go4sharing-ss_14"
-      - "mm_mibei77_com-vmess_31"
-      - "github-go4sharing-ss_6"
-      - "mm_mibei77_com-vmess_4"
-      - "github-go4sharing-ss_18_1"
-      - "github-go4sharing-ss_20"
-      - "github-go4sharing-ss_19_1"
-      - "github-go4sharing-ss_28_1"
-      - "github-go4sharing-ss_21_1"
-      - "github-go4sharing-ss_17_1"
-      - "anaer_github_io-ss_42"
-      - "github-go4sharing-ss_22_1"
-      - "github-go4sharing-ss_27_1"
-      - "github-go4sharing-ss_12_1"
-      - "node_nodefree_me-ss_17"
-      - "anaer_github_io-ss_2"
-      - "github-Jsnzkpg-ss_8"
-      - "github-go4sharing-ss_13"
+      - "github-go4sharing-trojan_24"
       - "github-wenxig-trojan_24"
-      - "github-wenxig-trojan_22"
+      - "github-wenxig-trojan_20"
+      - "sub_scpnb_top-trojan_1"
+      - "anaer_github_io-hysteria2_23"
+      - "github-Jsnzkpg-hysteria2_1"
+      - "github-peasoft-trojan_8_1"
+      - "jsdelivr-chengaopa-trojan_29"
+      - "github-peasoft-trojan_3_1"
+      - "github-peasoft-trojan_9"
+      - "github-wenxig-trojan_28"
+      - "github-mfuu-ss_64"
+      - "anaer_github_io-ss_64"
+      - "anaer_github_io-ss_80"
+      - "github-go4sharing-ss_26"
+      - "anaer_github_io-vmess_28"
+      - "anaer_github_io-vmess_25"
+      - "github-mfuu-ss_150"
+      - "github-Jsnzkpg-ss_8"
+      - "github-mfuu-ss_57"
+      - "mm_mibei77_com-vmess_31"
+      - "github-go4sharing-ss_38"
+      - "anaer_github_io-ss_42"
+      - "github-go4sharing-ss_37"
+      - "github-go4sharing-ss_20"
+      - "github-go4sharing-ss_39"
+      - "anaer_github_io-ss_40"
+      - "github-go4sharing-ss_25"
+      - "anaer_github_io-ss_2"
+      - "github-go4sharing-ss_21"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "github-mfuu-trojan_31"
-      - "github-wenxig-trojan_28"
-      - "github-mfuu-trojan_199"
-      - "github-wenxig-trojan_23"
-      - "anaer_github_io-ss_80"
-      - "anaer_github_io-ss_64"
-      - "mm_mibei77_com-vmess_9"
-      - "anaer_github_io-vmess_25"
-      - "anaer_github_io-vmess_28"
-      - "anaer_github_io-vless_18_1"
-      - "github-go4sharing-ss_14"
-      - "mm_mibei77_com-vmess_31"
-      - "github-go4sharing-ss_6"
-      - "mm_mibei77_com-vmess_4"
-      - "github-go4sharing-ss_18_1"
-      - "github-go4sharing-ss_20"
-      - "github-go4sharing-ss_19_1"
-      - "github-go4sharing-ss_28_1"
-      - "github-go4sharing-ss_21_1"
-      - "github-go4sharing-ss_17_1"
-      - "anaer_github_io-ss_42"
-      - "github-go4sharing-ss_22_1"
-      - "github-go4sharing-ss_27_1"
-      - "github-go4sharing-ss_12_1"
-      - "node_nodefree_me-ss_17"
-      - "anaer_github_io-ss_2"
-      - "github-Jsnzkpg-ss_8"
-      - "github-go4sharing-ss_13"
+      - "github-go4sharing-trojan_24"
       - "github-wenxig-trojan_24"
-      - "github-wenxig-trojan_22"
+      - "github-wenxig-trojan_20"
+      - "sub_scpnb_top-trojan_1"
+      - "anaer_github_io-hysteria2_23"
+      - "github-Jsnzkpg-hysteria2_1"
+      - "github-peasoft-trojan_8_1"
+      - "jsdelivr-chengaopa-trojan_29"
+      - "github-peasoft-trojan_3_1"
+      - "github-peasoft-trojan_9"
+      - "github-wenxig-trojan_28"
+      - "github-mfuu-ss_64"
+      - "anaer_github_io-ss_64"
+      - "anaer_github_io-ss_80"
+      - "github-go4sharing-ss_26"
+      - "anaer_github_io-vmess_28"
+      - "anaer_github_io-vmess_25"
+      - "github-mfuu-ss_150"
+      - "github-Jsnzkpg-ss_8"
+      - "github-mfuu-ss_57"
+      - "mm_mibei77_com-vmess_31"
+      - "github-go4sharing-ss_38"
+      - "anaer_github_io-ss_42"
+      - "github-go4sharing-ss_37"
+      - "github-go4sharing-ss_20"
+      - "github-go4sharing-ss_39"
+      - "anaer_github_io-ss_40"
+      - "github-go4sharing-ss_25"
+      - "anaer_github_io-ss_2"
+      - "github-go4sharing-ss_21"
 
 rules:
   - GEOIP,CN,DIRECT

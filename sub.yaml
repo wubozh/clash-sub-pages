@@ -291,169 +291,21 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "anaer.github.io-ss_2"
+  - name: "anaer.github.io-trojan_2"
+    type: "trojan"
+    server: "221.146.116.77"
+    port: 10003
+    password: "trojan"
+    sni: "jflsjlaf.pages.dev"
+
+  - name: "anaer.github.io-ss_3"
     type: "ss"
-    server: "1.232.206.121"
-    port: 14399
+    server: "199.181.197.38"
+    port: 443
     cipher: "none"
     password: "3e96ef7d-8637-42c2-ac73-75182196e755"
 
-  - name: "anaer.github.io-vless_3"
-    type: "vless"
-    server: "121.152.61.147"
-    port: 11371
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_4"
-    type: "vless"
-    server: "192.0.63.18"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_5"
-    type: "vless"
-    server: "192.0.54.131"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_6"
-    type: "vless"
-    server: "192.0.63.76"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_7"
-    type: "vless"
-    server: "192.0.63.216"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_8"
-    type: "vless"
-    server: "192.0.54.188"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-ss_9"
-    type: "ss"
-    server: "134.195.101.125"
-    port: 2377
-    cipher: "chacha20-ietf-poly1305"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
-
-  - name: "anaer.github.io-ss_10"
-    type: "ss"
-    server: "134.195.101.115"
-    port: 2377
-    cipher: "chacha20-ietf-poly1305"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
-
-  - name: "anaer.github.io-ss_13"
-    type: "ss"
-    server: "134.195.101.127"
-    port: 2377
-    cipher: "chacha20-ietf-poly1305"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
-
-  - name: "anaer.github.io-vless_15"
-    type: "vless"
-    server: "192.0.63.115"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-ss_16"
-    type: "ss"
-    server: "134.195.101.117"
-    port: 2377
-    cipher: "chacha20-ietf-poly1305"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
-
-  - name: "anaer.github.io-hysteria2_17"
-    type: "hysteria2"
-    server: "38.165.21.126"
-    port: 29794
-    password: "fGIvSUXOYn7WYPNAc2PmjYuIKbw"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "anaer.github.io-vless_18"
-    type: "vless"
-    server: "67.209.176.23"
-    port: 30000
-    uuid: "f79cae47-7d05-4220-8063-d856b67b694b"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer.github.io-trojan_20"
-    type: "trojan"
-    server: "94.131.105.125"
-    port: 4443
-    password: "strong-secret-pass-777"
-    sni: "94.131.105.125"
-
-  - name: "anaer.github.io-vless_21"
-    type: "vless"
-    server: "195.181.173.199"
-    port: 8443
-    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer.github.io-ss_22"
-    type: "ss"
-    server: "134.195.101.118"
-    port: 2377
-    cipher: "chacha20-ietf-poly1305"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
-
-  - name: "anaer.github.io-hysteria2_23"
-    type: "hysteria2"
-    server: "138.2.182.211"
-    port: 50000
-    password: "9fc87b20-8bd2-4b6e-aa29-dbb581a27262"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "anaer.github.io-hysteria2_24"
-    type: "hysteria2"
-    server: "193.122.12.150"
-    port: 50000
-    password: "9fc87b20-8bd2-4b6e-aa29-dbb581a27262"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "anaer.github.io-vmess_25"
+  - name: "anaer.github.io-vmess_4"
     type: "vmess"
     server: "82.198.246.46"
     port: 180
@@ -463,311 +315,7 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "anaer.github.io-trojan_26"
-    type: "trojan"
-    server: "152.53.200.98"
-    port: 8444
-    password: "trojan"
-    sni: "jflsjlaf.pages.dev"
-
-  - name: "anaer.github.io-hysteria2_27"
-    type: "hysteria2"
-    server: "195.154.54.131"
-    port: 40022
-    password: "dongtaiwang.com"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "anaer.github.io-vmess_28"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer.github.io-hysteria2_29"
-    type: "hysteria2"
-    server: "89.168.32.96"
-    port: 50000
-    password: "9fc87b20-8bd2-4b6e-aa29-dbb581a27262"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "anaer.github.io-ss_30"
-    type: "ss"
-    server: "5.188.181.201"
-    port: 9014
-    cipher: "aes-256-cfb"
-    password: "KnJGad3FqTvjqbaX"
-
-  - name: "anaer.github.io-vless_32"
-    type: "vless"
-    server: "211.193.169.223"
-    port: 37810
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_33"
-    type: "vless"
-    server: "5.253.41.72"
-    port: 443
-    uuid: "f7bae22e-20ab-11f1-835c-0242ac110002"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer.github.io-vless_34"
-    type: "vless"
-    server: "175.199.169.221"
-    port: 50006
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_37"
-    type: "vless"
-    server: "106.242.64.238"
-    port: 50000
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_38"
-    type: "vless"
-    server: "138.226.240.199"
-    port: 4433
-    uuid: "00000000-0000-4000-8000-000000000000"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer.github.io-vless_39"
-    type: "vless"
-    server: "185.94.29.156"
-    port: 4001
-    uuid: "00000000-0000-4000-8000-000000000000"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer.github.io-vless_40"
-    type: "vless"
-    server: "37.114.50.157"
-    port: 4002
-    uuid: "00000000-0000-4000-8000-000000000000"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer.github.io-vless_41"
-    type: "vless"
-    server: "192.200.160.20"
-    port: 443
-    uuid: "c1a5ecfa-8a01-4070-91e0-0328b82388ad"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/phnkfhws?ed=2560"
-
-  - name: "anaer.github.io-ss_42"
-    type: "ss"
-    server: "13.38.70.87"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-
-  - name: "anaer.github.io-vless_43"
-    type: "vless"
-    server: "192.0.63.124"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_44"
-    type: "vless"
-    server: "192.0.54.74"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_45"
-    type: "vless"
-    server: "192.0.63.227"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_46"
-    type: "vless"
-    server: "192.0.54.156"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_47"
-    type: "vless"
-    server: "154.198.173.46"
-    port: 2096
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_48"
-    type: "vless"
-    server: "192.0.63.134"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_49"
-    type: "vless"
-    server: "192.0.54.225"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_50"
-    type: "vless"
-    server: "192.0.63.230"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_51"
-    type: "vless"
-    server: "192.0.54.216"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_52"
-    type: "vless"
-    server: "119.194.117.229"
-    port: 50011
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_53"
-    type: "vless"
-    server: "192.0.54.251"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_54"
-    type: "vless"
-    server: "202.61.200.220"
-    port: 8080
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_55"
-    type: "vless"
-    server: "23.254.226.174"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_56"
-    type: "vless"
-    server: "146.235.199.164"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_58"
-    type: "vless"
-    server: "20.67.254.104"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_59"
-    type: "vless"
-    server: "192.0.63.56"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-trojan_60"
-    type: "trojan"
-    server: "152.53.45.251"
-    port: 8888
-    password: "trojan"
-    sni: "jflsjlaf.pages.dev"
-
-  - name: "anaer.github.io-vless_61"
-    type: "vless"
-    server: "194.87.245.253"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vmess_63"
+  - name: "anaer.github.io-vmess_5"
     type: "vmess"
     server: "82.198.246.97"
     port: 180
@@ -777,147 +325,266 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "anaer.github.io-ss_64"
-    type: "ss"
-    server: "199.181.197.38"
-    port: 443
-    cipher: "none"
-    password: "3e96ef7d-8637-42c2-ac73-75182196e755"
-
-  - name: "anaer.github.io-vless_65"
+  - name: "anaer.github.io-vless_6"
     type: "vless"
-    server: "209.102.207.120"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "195.181.173.199"
+    port: 8443
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
     tls: true
-    network: "ws"
+    network: "tcp"
 
-  - name: "anaer.github.io-vless_66"
+  - name: "anaer.github.io-trojan_8"
+    type: "trojan"
+    server: "59.20.121.139"
+    port: 29999
+    password: "trojan"
+    sni: "jflsjlaf.pages.dev"
+
+  - name: "anaer.github.io-trojan_9"
+    type: "trojan"
+    server: "152.53.60.198"
+    port: 8444
+    password: "trojan"
+    sni: "jflsjlaf.pages.dev"
+
+  - name: "anaer.github.io-vless_10"
     type: "vless"
-    server: "27.50.48.8"
+    server: "45.12.133.210"
+    port: 509
+    uuid: "3bba04b2-98a7-4f03-8599-671cfa97ff49"
+    tls: true
+    network: "tcp"
+
+  - name: "anaer.github.io-ss_11"
+    type: "ss"
+    server: "82.38.31.82"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "anaer.github.io-vless_12"
+    type: "vless"
+    server: "57.128.81.193"
     port: 443
-    uuid: "4d6fa520-b8c1-4811-93f6-a91fd6f87b59"
+    uuid: "53821f3c-5b03-456a-89f3-f8379f130752"
+    tls: true
+    network: "tcp"
+
+  - name: "anaer.github.io-trojan_13"
+    type: "trojan"
+    server: "152.53.200.98"
+    port: 8444
+    password: "trojan"
+    sni: "jflsjlaf.pages.dev"
+
+  - name: "anaer.github.io-vless_14"
+    type: "vless"
+    server: "188.253.24.71"
+    port: 443
+    uuid: "Telegram🇨🇳 @WangCai2"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/zrf?ed=2560"
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
 
-  - name: "anaer.github.io-vless_68"
+  - name: "anaer.github.io-vmess_15"
+    type: "vmess"
+    server: "47.90.244.153"
+    port: 8443
+    uuid: "65e2a985-ad20-4486-a7ec-b67b20ee56af"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/ws"
+
+  - name: "anaer.github.io-vless_16"
     type: "vless"
-    server: "88.218.0.184"
-    port: 8085
+    server: "152.228.135.96"
+    port: 2053
+    uuid: "Telegram🇨🇳 @WangCai2"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
+
+  - name: "anaer.github.io-hysteria2_17"
+    type: "hysteria2"
+    server: "62.210.25.116"
+    port: 40022
+    password: "dongtaiwang.com"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "anaer.github.io-trojan_18"
+    type: "trojan"
+    server: "94.131.105.125"
+    port: 4443
+    password: "strong-secret-pass-777"
+    sni: "94.131.105.125"
+
+  - name: "anaer.github.io-ss_20"
+    type: "ss"
+    server: "82.38.31.194"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "anaer.github.io-vless_21"
+    type: "vless"
+    server: "37.114.50.157"
+    port: 4002
     uuid: "00000000-0000-4000-8000-000000000000"
     tls: true
     network: "ws"
     ws-opts:
       path: "/"
 
-  - name: "anaer.github.io-vless_69"
+  - name: "anaer.github.io-vless_22"
     type: "vless"
-    server: "144.31.130.25"
+    server: "185.93.105.118"
     port: 443
-    uuid: "897f023a-7507-40c0-9a74-ab77be0a47f0"
+    uuid: "c4f2dee2-14e3-4c02-91e9-31c7917e239c"
     tls: true
     network: "tcp"
 
-  - name: "anaer.github.io-vless_73"
+  - name: "anaer.github.io-vless_23"
     type: "vless"
-    server: "87.120.165.70"
+    server: "45.148.117.94"
     port: 443
-    uuid: "ce540111-fd82-4459-b974-06d83beb01d5"
+    uuid: "443fd8ea-3cfd-4286-a4e2-91276e41fe51"
     tls: true
     network: "tcp"
 
-  - name: "anaer.github.io-vless_75"
+  - name: "anaer.github.io-vless_26"
     type: "vless"
-    server: "185.16.110.0"
+    server: "194.31.174.143"
     port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    uuid: "90c9c25c-df6c-4438-83d3-ef97166a9184"
     tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
+    network: "tcp"
 
-  - name: "anaer.github.io-ss_77"
-    type: "ss"
-    server: "103.186.154.78"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-ss_78"
-    type: "ss"
-    server: "103.186.154.173"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-vless_79"
+  - name: "anaer.github.io-vless_27"
     type: "vless"
-    server: "94.159.101.193"
+    server: "167.99.49.60"
     port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    uuid: "Telegram🇨🇳 @WangCai2"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/?ed=2560&Telegram🇨🇳+@WangCai2"
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
 
-  - name: "anaer.github.io-ss_80"
-    type: "ss"
-    server: "103.186.155.230"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  - name: "anaer.github.io-vless_28"
+    type: "vless"
+    server: "138.226.240.199"
+    port: 4433
+    uuid: "00000000-0000-4000-8000-000000000000"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
 
-  - name: "anaer.github.io-ss_81"
-    type: "ss"
-    server: "103.186.155.21"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-trojan_82"
-    type: "trojan"
-    server: "185.18.250.252"
+  - name: "anaer.github.io-vless_29"
+    type: "vless"
+    server: "46.32.184.64"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-
-  - name: "anaer.github.io-ss_84"
-    type: "ss"
-    server: "103.186.155.77"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-ss_85"
-    type: "ss"
-    server: "103.186.155.5"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-vless_87"
-    type: "vless"
-    server: "124.59.181.7"
-    port: 12345
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    uuid: "Telegram🇨🇳 @WangCai2"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/danfeng"
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
 
-  - name: "anaer.github.io-vless_88"
+  - name: "anaer.github.io-hysteria2_30"
+    type: "hysteria2"
+    server: "138.2.182.211"
+    port: 50000
+    password: "9fc87b20-8bd2-4b6e-aa29-dbb581a27262"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "anaer.github.io-vless_31"
     type: "vless"
-    server: "222.104.182.54"
-    port: 18081
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    server: "192.200.160.20"
+    port: 443
+    uuid: "ee248e40-9468-4ef6-81b7-707a1e47c54a"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/danfeng"
+      path: "/yaeungws"
 
-  - name: "anaer.github.io-vless_89"
+  - name: "anaer.github.io-ss_32"
+    type: "ss"
+    server: "185.231.233.112"
+    port: 989
+    cipher: "aes-256-cfb"
+    password: "f8f7aCzcPKbsF8p3"
+
+  - name: "anaer.github.io-vless_33"
+    type: "vless"
+    server: "185.93.105.113"
+    port: 443
+    uuid: "c4f2dee2-14e3-4c02-91e9-31c7917e239c"
+    tls: true
+    network: "tcp"
+
+  - name: "anaer.github.io-vless_35"
+    type: "vless"
+    server: "152.89.244.84"
+    port: 443
+    uuid: "713a5d33-50db-4a44-aff4-56b273c207da"
+    tls: true
+    network: "tcp"
+
+  - name: "anaer.github.io-vless_36"
+    type: "vless"
+    server: "38.244.139.135"
+    port: 443
+    uuid: "Telegram🇨🇳 @WangCai2"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
+
+  - name: "anaer.github.io-hysteria2_37"
+    type: "hysteria2"
+    server: "193.122.12.150"
+    port: 50000
+    password: "9fc87b20-8bd2-4b6e-aa29-dbb581a27262"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "anaer.github.io-vless_38"
+    type: "vless"
+    server: "185.22.173.79"
+    port: 443
+    uuid: "Telegram🇨🇳 @WangCai2"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
+
+  - name: "anaer.github.io-ss_39"
+    type: "ss"
+    server: "103.238.214.82"
+    port: 41632
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+
+  - name: "anaer.github.io-vless_40"
+    type: "vless"
+    server: "5.34.212.114"
+    port: 443
+    uuid: "Telegram🇨🇳 @WangCai2"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
+
+  - name: "anaer.github.io-vless_41"
     type: "vless"
     server: "5.178.110.39"
     port: 2053
@@ -927,684 +594,117 @@ proxies:
     ws-opts:
       path: "/?ed=2560&Telegram🇨🇳@WangCai2"
 
-  - name: "anaer.github.io-vless_90"
-    type: "vless"
-    server: "192.0.54.103"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_92"
-    type: "vless"
-    server: "192.0.54.31"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-vless_93"
-    type: "vless"
-    server: "152.53.143.195"
-    port: 8443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_94"
-    type: "vless"
-    server: "64.188.106.203"
-    port: 59851
-    uuid: "60c63b41-63f3-4602-b9f3-9ee2e1369447"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer.github.io-ss_95"
+  - name: "anaer.github.io-ss_42"
     type: "ss"
-    server: "102.37.156.224"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "aduB9HGxQHjA2SBMRjkHX6"
-
-  - name: "anaer.github.io-vless_96"
-    type: "vless"
-    server: "77.73.67.94"
-    port: 443
-    uuid: "3ddce082-7e03-429c-8af8-9a873d23f0ba"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer.github.io-ss_97"
-    type: "ss"
-    server: "5.188.181.201"
-    port: 9019
-    cipher: "aes-256-cfb"
-    password: "GA9KzeEgvfxNrgmM"
-
-  - name: "anaer.github.io-vless_98"
-    type: "vless"
-    server: "45.139.26.152"
-    port: 7443
-    uuid: "7fc953d6-ae75-46fb-a970-10b57d513487"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer.github.io-ss_99"
-    type: "ss"
-    server: "103.186.155.42"
+    server: "103.186.155.218"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-ss_100"
+  - name: "anaer.github.io-ss_43"
     type: "ss"
-    server: "103.186.154.251"
+    server: "103.36.91.32"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+
+  - name: "anaer.github.io-ss_44"
+    type: "ss"
+    server: "103.186.154.163"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-ss_101"
+  - name: "anaer.github.io-ss_45"
     type: "ss"
-    server: "103.186.154.200"
+    server: "103.186.154.193"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-ss_102"
+  - name: "anaer.github.io-ss_46"
     type: "ss"
-    server: "103.186.154.190"
+    server: "103.186.155.229"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-ss_103"
+  - name: "anaer.github.io-trojan_47"
+    type: "trojan"
+    server: "152.53.45.251"
+    port: 8888
+    password: "trojan"
+    sni: "jflsjlaf.pages.dev"
+
+  - name: "anaer.github.io-ss_48"
     type: "ss"
-    server: "103.186.155.220"
+    server: "103.186.154.198"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-ss_104"
+  - name: "anaer.github.io-ss_49"
     type: "ss"
-    server: "103.186.155.154"
+    server: "103.186.155.39"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-ss_105"
+  - name: "anaer.github.io-ss_50"
     type: "ss"
-    server: "103.186.154.72"
+    server: "103.186.154.196"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-ss_106"
-    type: "ss"
-    server: "103.186.154.58"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-ss_107"
-    type: "ss"
-    server: "103.186.155.121"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-vless_108"
+  - name: "anaer.github.io-vless_51"
     type: "vless"
-    server: "221.145.26.198"
-    port: 18791
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-
-  - name: "anaer.github.io-ss_109"
-    type: "ss"
-    server: "103.186.154.237"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer.github.io-vless_110"
-    type: "vless"
-    server: "192.0.63.157"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_111"
-    type: "vless"
-    server: "38.180.113.22"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_113"
-    type: "vless"
-    server: "178.17.53.28"
-    port: 47539
-    uuid: "447c45cd-ade0-4bfe-90a0-3e581829f741"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer.github.io-vless_114"
-    type: "vless"
-    server: "69.169.111.44"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_115"
-    type: "vless"
-    server: "51.91.248.253"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?Telegram🇨🇳+@WangCai2="
-
-  - name: "anaer.github.io-vless_116"
-    type: "vless"
-    server: "167.99.80.91"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_117"
-    type: "vless"
-    server: "188.165.3.169"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_118"
-    type: "vless"
-    server: "84.201.20.217"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_119"
-    type: "vless"
-    server: "5.45.66.11"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_120"
-    type: "vless"
-    server: "5.129.217.197"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_121"
-    type: "vless"
-    server: "51.91.248.218"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_122"
-    type: "vless"
-    server: "37.59.97.135"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_123"
-    type: "vless"
-    server: "145.239.71.153"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_124"
-    type: "vless"
-    server: "51.91.248.157"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_125"
-    type: "vless"
-    server: "2.59.38.46"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_126"
-    type: "vless"
-    server: "37.59.97.136"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_127"
-    type: "vless"
-    server: "52.171.134.116"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560&Telegram🇨🇳@WangCai2"
-
-  - name: "anaer.github.io-vless_128"
-    type: "vless"
-    server: "138.68.122.213"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560&Telegram@AliXTso"
-
-  - name: "anaer.github.io-vless_129"
-    type: "vless"
-    server: "173.212.207.89"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_130"
-    type: "vless"
-    server: "45.144.31.45"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_131"
-    type: "vless"
-    server: "195.133.65.48"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_132"
-    type: "vless"
-    server: "165.232.89.21"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_133"
-    type: "vless"
-    server: "167.71.5.29"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_134"
-    type: "vless"
-    server: "5.61.41.183"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_135"
-    type: "vless"
-    server: "167.99.44.126"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_136"
-    type: "vless"
-    server: "178.62.197.41"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_137"
-    type: "vless"
-    server: "5.253.188.238"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_138"
-    type: "vless"
-    server: "178.62.206.22"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_139"
-    type: "vless"
-    server: "57.128.177.22"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "185.94.29.156"
+    port: 4001
+    uuid: "00000000-0000-4000-8000-000000000000"
     tls: true
     network: "ws"
     ws-opts:
       path: "/"
 
-  - name: "anaer.github.io-vless_140"
-    type: "vless"
-    server: "77.221.140.170"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_141"
-    type: "vless"
-    server: "135.84.64.74"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_142"
-    type: "vless"
-    server: "78.47.208.152"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560&Telegram🎖@AliXTso"
-
-  - name: "anaer.github.io-vless_143"
-    type: "vless"
-    server: "5.129.229.74"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_144"
-    type: "vless"
-    server: "37.59.96.50"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_145"
-    type: "vless"
-    server: "37.187.98.185"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_146"
-    type: "vless"
-    server: "5.129.214.10"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_147"
-    type: "vless"
-    server: "193.177.0.9"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_148"
-    type: "vless"
-    server: "83.143.113.26"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_149"
-    type: "vless"
-    server: "185.218.137.83"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_150"
-    type: "vless"
-    server: "152.42.128.92"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_151"
-    type: "vless"
-    server: "159.223.230.49"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_152"
-    type: "vless"
-    server: "178.62.216.97"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_153"
-    type: "vless"
-    server: "165.232.94.31"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_154"
-    type: "vless"
-    server: "164.90.203.215"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_155"
-    type: "vless"
-    server: "165.232.92.96"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_156"
-    type: "vless"
-    server: "195.135.252.139"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_157"
-    type: "vless"
-    server: "167.71.2.115"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_158"
-    type: "vless"
-    server: "192.46.239.191"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_159"
-    type: "vless"
-    server: "135.84.64.90"
-    port: 443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-
-  - name: "anaer.github.io-vless_161"
-    type: "vless"
-    server: "172.98.207.58"
-    port: 443
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "anaer.github.io-vless_162"
-    type: "vless"
-    server: "157.254.223.44"
-    port: 18959
-    uuid: "d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer.github.io-vless_163"
-    type: "vless"
-    server: "143.20.236.51"
-    port: 443
-    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer.github.io-ss_164"
+  - name: "anaer.github.io-ss_52"
     type: "ss"
-    server: "103.186.154.172"
+    server: "103.186.155.52"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "anaer.github.io-vless_165"
-    type: "vless"
-    server: "213.165.54.4"
+  - name: "anaer.github.io-trojan_53"
+    type: "trojan"
+    server: "185.18.250.252"
     port: 443
-    uuid: "c2d09c1c-7d4d-46c4-838f-ad263b93c4e1"
-    tls: true
-    network: "tcp"
+    password: "humanity"
+    sni: "www.calmlunch.com"
+
+  - name: "anaer.github.io-ss_55"
+    type: "ss"
+    server: "103.186.154.168"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "anaer.github.io-hysteria2_56"
+    type: "hysteria2"
+    server: "89.168.32.96"
+    port: 50000
+    password: "9fc87b20-8bd2-4b6e-aa29-dbb581a27262"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "anaer.github.io-hysteria2_57"
+    type: "hysteria2"
+    server: "38.165.21.126"
+    port: 29794
+    password: "fGIvSUXOYn7WYPNAc2PmjYuIKbw"
+    alpn:
+      - "h3"
+    udp: true
 
   - name: "github-peasoft-trojan_1"
     type: "trojan"
@@ -1682,13 +782,6 @@ proxies:
     port: 3057
     password: "9f7d5cb76d1645101994d9b25891e3b7"
     sni: "www.nintendogames.net"
-
-  - name: "github-peasoft-trojan_13"
-    type: "trojan"
-    server: "152.53.60.198"
-    port: 8444
-    password: "trojan"
-    sni: "jflsjlaf.pages.dev"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -1957,69 +1050,79 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github-mfuu-trojan_29"
-    type: "trojan"
-    server: "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl"
-    port: 55021
-    password: "366efee9-09fd-4365-8873-63f77468999c"
-    sni: "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl"
+  - name: "github-mfuu-vmess_29"
+    type: "vmess"
+    server: "103.181.164.145"
+    port: 54022
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
-  - name: "github-mfuu-trojan_30"
+  - name: "github-mfuu-vmess_30"
+    type: "vmess"
+    server: "103.181.164.145"
+    port: 51556
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-ss_31"
+    type: "ss"
+    server: "admin.c1.havij.co"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "1kVr0KATIJI7mwOF"
+
+  - name: "github-mfuu-ss_32"
+    type: "ss"
+    server: "chengbai02.ascwt179.com"
+    port: 13223
+    cipher: "aes-128-gcm"
+    password: "JVrsLLN1tkN8oXZO"
+
+  - name: "github-mfuu-ss_33"
+    type: "ss"
+    server: "series-a1.samanehha.co"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "W74XFALLLuw6m5IA"
+
+  - name: "github-mfuu-trojan_34"
+    type: "trojan"
+    server: "81.29.149.201"
+    port: 18390
+    password: "hCjWaBe5vTkewfiljOL%3D9FS9DYg0c09c.t"
+    sni: "osl7.solidly.click"
+
+  - name: "github-mfuu-trojan_36"
+    type: "trojan"
+    server: "104.238.162.6"
+    port: 13109
+    password: "WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T"
+    sni: "ord2.edge-command.click"
+
+  - name: "github-mfuu-trojan_37"
     type: "trojan"
     server: "82.26.155.20"
     port: 10369
     password: "n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj"
     sni: "fra35.chasem2026sud.com"
 
-  - name: "github-mfuu-trojan_31"
-    type: "trojan"
-    server: "212.193.18.144"
-    port: 36158
-    password: "ZblhWr0mqMakCPg.N"
-    sni: "ya.ru"
-
-  - name: "github-mfuu-trojan_32"
-    type: "trojan"
-    server: "82.26.155.3"
-    port: 10369
-    password: "n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj"
-    sni: "fra34.chasem2026sud.com"
-
-  - name: "github-mfuu-trojan_34"
-    type: "trojan"
-    server: "80.173.231.254"
-    port: 12420
-    password: "wp9IsiY82uQhcmgNC1eoBM"
-    sni: "www.semanticstaplegun.click"
-
-  - name: "github-mfuu-trojan_36"
-    type: "trojan"
-    server: "216.238.102.254"
-    port: 26593
-    password: "BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK"
-    sni: "sao2.cdn-graph.click"
-
   - name: "github-mfuu-vmess_38"
     type: "vmess"
-    server: "aflzzul.meiquankongjian.com"
-    port: 51515
-    uuid: "342bacfd-2b8f-3f49-a16e-439db5b0b9d5"
+    server: "v12.hdacd.com"
+    port: 30812
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 0
     cipher: "auto"
     tls: false
-    network: "ws"
+    network: "tcp"
 
-  - name: "github-mfuu-vmess_39"
-    type: "vmess"
-    server: "aflzzul.meiquankongjian.com"
-    port: 52513
-    uuid: "342bacfd-2b8f-3f49-a16e-439db5b0b9d5"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "github-mfuu-vmess_41"
+  - name: "github-mfuu-vmess_40"
     type: "vmess"
     server: "v10.hdacd.com"
     port: 30807
@@ -2029,98 +1132,144 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-trojan_42"
-    type: "trojan"
-    server: "43.207.198.5"
-    port: 21413
-    password: "9f7d5cb76d1645101994d9b25891e3b7"
-    sni: "www.nintendogames.net"
-
-  - name: "github-mfuu-trojan_43"
-    type: "trojan"
-    server: "43.198.185.44"
-    port: 9211
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
-
-  - name: "github-mfuu-trojan_44"
-    type: "trojan"
-    server: "13.231.153.129"
-    port: 5823
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
-
-  - name: "github-mfuu-trojan_45"
-    type: "trojan"
-    server: "13.231.153.129"
-    port: 3357
-    password: "BxceQaOe"
-    sni: "t.me%2Fripaojiedian"
-
-  - name: "github-mfuu-trojan_46"
-    type: "trojan"
-    server: "13.231.153.129"
-    port: 34818
-    password: "9f7d5cb76d1645101994d9b25891e3b7"
-    sni: "www.nintendogames.net"
-
-  - name: "github-mfuu-trojan_47"
-    type: "trojan"
-    server: "52.195.170.179"
-    port: 34818
-    password: "9f7d5cb76d1645101994d9b25891e3b7"
-    sni: "www.nintendogames.net"
-
-  - name: "github-mfuu-trojan_48"
-    type: "trojan"
-    server: "13.231.153.129"
-    port: 4674
-    password: "9f7d5cb76d1645101994d9b25891e3b7"
-    sni: "www.nintendogames.net"
-
-  - name: "github-mfuu-trojan_49"
-    type: "trojan"
-    server: "160.16.124.17"
-    port: 4674
-    password: "9f7d5cb76d1645101994d9b25891e3b7"
-    sni: "www.nintendogames.net"
-
-  - name: "github-mfuu-trojan_50"
-    type: "trojan"
-    server: "95.40.68.20"
-    port: 12070
-    password: "BxceQaOe"
-    sni: "t.me%2Fripaojiedian"
-
-  - name: "github-mfuu-trojan_51"
-    type: "trojan"
-    server: "52.195.170.179"
-    port: 29370
-    password: "9f7d5cb76d1645101994d9b25891e3b7"
-    sni: "www.nintendogames.net"
-
   - name: "github-mfuu-trojan_52"
     type: "trojan"
-    server: "13.231.153.129"
-    port: 29370
-    password: "9f7d5cb76d1645101994d9b25891e3b7"
-    sni: "www.nintendogames.net"
-
-  - name: "github-mfuu-trojan_53"
-    type: "trojan"
-    server: "95.40.68.20"
-    port: 38692
+    server: "43.198.248.119"
+    port: 44386
     password: "BxceQaOe"
     sni: "t.me/ripaojiedian"
 
-  - name: "github-mfuu-ss_68"
+  - name: "github-mfuu-ss_59"
+    type: "ss"
+    server: "tinkered-pennies-puppies.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "hbGrpfvNrJsUmKmPbR3iY2"
+
+  - name: "github-mfuu-ss_60"
+    type: "ss"
+    server: "36.224.190.162"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-mfuu-vmess_63"
+    type: "vmess"
+    server: "v36.hdacd.com"
+    port: 30836
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-trojan_65"
+    type: "trojan"
+    server: "152.53.200.167"
+    port: 8444
+    password: "trojan"
+    sni: "jflsjlaf.pages.dev"
+
+  - name: "github-mfuu-trojan_70"
+    type: "trojan"
+    server: "v1.dabache.top"
+    port: 8443
+    password: "T9BpZIVMNv"
+    sni: "sweden.vmaxpanel.com"
+
+  - name: "github-mfuu-trojan_72"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 2087
+    password: "trojan"
+    sni: "store.timimi.dpdns.org"
+
+  - name: "github-mfuu-trojan_76"
+    type: "trojan"
+    server: "109.234.211.66"
+    port: 8443
+    password: "trojan"
+    sni: "store.timimi.dpdns.org"
+
+  - name: "github-mfuu-ss_80"
+    type: "ss"
+    server: "r3mrcg00129437x.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-mfuu-vmess_138"
+    type: "vmess"
+    server: "vc.fly.dev"
+    port: 443
+    uuid: "35379219-6535-4f2e-a4fe-3e44f61e0eee"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "github-mfuu-vmess_140"
+    type: "vmess"
+    server: "v9.hdacd.com"
+    port: 30809
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-vmess_153"
+    type: "vmess"
+    server: "82.198.246.250"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-ss_188"
+    type: "ss"
+    server: "114.25.14.9"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+
+  - name: "github-mfuu-vmess_198"
+    type: "vmess"
+    server: "v8.hdacd.com"
+    port: 30808
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-vmess_199"
+    type: "vmess"
+    server: "v24.hdacd.com"
+    port: 30824
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-ss_200"
+    type: "ss"
+    server: "63.180.254.10"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "github-mfuu-ss_214"
     type: "ss"
     server: "mofacpdd.til69.com"
     port: 41921
     cipher: "chacha20-ietf-poly1305"
     password: "5d68d91f-ccc5-4c00-b1f6-0d764937f4f6"
 
-  - name: "github-mfuu-trojan_69"
+  - name: "github-mfuu-trojan_215"
     type: "trojan"
     server: "216.24.57.250"
     port: 443
@@ -2324,44 +1473,7 @@ proxies:
     password: "3PfyPiLUGm"
     sni: "aws.amazon.com"
 
-  - name: "xrayvip.com-vmess_4"
-    type: "vmess"
-    server: "v12.hdacd.com"
-    port: 30812
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "xrayvip.com-vmess_5"
-    type: "vmess"
-    server: "103.181.164.145"
-    port: 51556
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "xrayvip.com-ss_6"
-    type: "ss"
-    server: "45e755.shlswe.xyz"
-    port: 28118
-    cipher: "aes-128-gcm"
-    password: "f97cf7d99d"
-
   - name: "xrayvip.com-vmess_7"
-    type: "vmess"
-    server: "103.181.164.145"
-    port: 54022
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "xrayvip.com-vmess_8"
     type: "vmess"
     server: "pe1.bctuo.top"
     port: 443
@@ -2370,16 +1482,6 @@ proxies:
     cipher: "auto"
     tls: false
     network: "tcp"
-
-  - name: "xrayvip.com-vmess_9"
-    type: "vmess"
-    server: "ca2.xvmess.site"
-    port: 443
-    uuid: "I_Love_🇵🇸_SSHMax_f0edeeb"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
 
   - name: "github-wenxig-ss_1"
     type: "ss"
@@ -2531,13 +1633,6 @@ proxies:
   - name: "github-wenxig-ss_23"
     type: "ss"
     server: "r3mrcg001286ek2.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-
-  - name: "github-wenxig-ss_24"
-    type: "ss"
-    server: "r3mrcg00129437x.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
@@ -2773,19 +1868,19 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "RZirHzSqyyb37DDIiQeDLZTJft5ZQGmUCwyA3wm5ath4j9Y3"
 
-  - name: "github-wenxig-ss_60"
-    type: "ss"
-    server: "series-a1.samanehha.co"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "W74XFALLLuw6m5IA"
-
   - name: "github-wenxig-ss_61"
     type: "ss"
     server: "102.133.165.160"
     port: 16233
     cipher: "chacha20-ietf-poly1305"
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
+
+  - name: "github-wenxig-ss_62"
+    type: "ss"
+    server: "102.37.156.224"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "aduB9HGxQHjA2SBMRjkHX6"
 
   - name: "github-wenxig-ss_63"
     type: "ss"
@@ -2850,6 +1945,13 @@ proxies:
     password: "13c169be-8592-4eaa-94cb-69c859e7d987"
     sni: "ubu.okaoclax.me"
 
+  - name: "github-wenxig-trojan_73"
+    type: "trojan"
+    server: "160.16.124.17"
+    port: 4674
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
   - name: "github-wenxig-trojan_74"
     type: "trojan"
     server: "160.16.132.38"
@@ -2871,6 +1973,13 @@ proxies:
     password: "9f7d5cb76d1645101994d9b25891e3b7"
     sni: "www.nintendogames.net"
 
+  - name: "github-wenxig-trojan_77"
+    type: "trojan"
+    server: "216.238.102.254"
+    port: 26593
+    password: "BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK"
+    sni: "sao2.cdn-graph.click"
+
   - name: "github-wenxig-trojan_78"
     type: "trojan"
     server: "58.152.25.253"
@@ -2891,13 +2000,6 @@ proxies:
     port: 26650
     password: "UNWA6USASAb6%3DuAAZeZMFd+2uKB4.d5KOm"
     sni: "sea9.firewallcontract.click"
-
-  - name: "github-wenxig-trojan_81"
-    type: "trojan"
-    server: "104.238.162.6"
-    port: 13109
-    password: "WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T"
-    sni: "ord2.edge-command.click"
 
   - name: "github-wenxig-trojan_82"
     type: "trojan"
@@ -2927,6 +2029,76 @@ proxies:
     cipher: "aes-128-gcm"
     password: "6601fb90e9b3"
 
+  - name: "jsdelivr-chengaopa-trojan_2"
+    type: "trojan"
+    server: "43.207.198.5"
+    port: 21413
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
+  - name: "jsdelivr-chengaopa-trojan_3"
+    type: "trojan"
+    server: "43.198.185.44"
+    port: 9211
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_4"
+    type: "trojan"
+    server: "13.231.153.129"
+    port: 5823
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_5"
+    type: "trojan"
+    server: "13.231.153.129"
+    port: 3357
+    password: "BxceQaOe"
+    sni: "t.me%252Fripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_6"
+    type: "trojan"
+    server: "13.231.153.129"
+    port: 34818
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
+  - name: "jsdelivr-chengaopa-trojan_7"
+    type: "trojan"
+    server: "52.195.170.179"
+    port: 34818
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
+  - name: "jsdelivr-chengaopa-trojan_8"
+    type: "trojan"
+    server: "13.231.153.129"
+    port: 4674
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
+  - name: "jsdelivr-chengaopa-trojan_10"
+    type: "trojan"
+    server: "95.40.68.20"
+    port: 12070
+    password: "BxceQaOe"
+    sni: "t.me%252Fripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_11"
+    type: "trojan"
+    server: "52.195.170.179"
+    port: 29370
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
+  - name: "jsdelivr-chengaopa-trojan_12"
+    type: "trojan"
+    server: "13.231.153.129"
+    port: 29370
+    password: "9f7d5cb76d1645101994d9b25891e3b7"
+    sni: "www.nintendogames.net"
+
   - name: "jsdelivr-chengaopa-vless_14"
     type: "vless"
     server: "al.darknet.cv"
@@ -2946,6 +2118,16 @@ proxies:
     network: "ws"
     ws-opts:
       path: "/danfengfp=random"
+
+  - name: "jsdelivr-chengaopa-vless_18"
+    type: "vless"
+    server: "175.199.169.221"
+    port: 50006
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng"
 
   - name: "jsdelivr-chengaopa-vless_20"
     type: "vless"
@@ -2987,6 +2169,66 @@ proxies:
     ws-opts:
       path: "/danfeng"
 
+  - name: "jsdelivr-chengaopa-vless_26"
+    type: "vless"
+    server: "192.0.63.230"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_27"
+    type: "vless"
+    server: "192.0.63.56"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_28"
+    type: "vless"
+    server: "192.0.54.225"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_29"
+    type: "vless"
+    server: "192.0.54.131"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_30"
+    type: "vless"
+    server: "192.0.63.134"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_31"
+    type: "vless"
+    server: "192.0.54.188"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
   - name: "jsdelivr-chengaopa-vless_36"
     type: "vless"
     server: "47.81.39.100"
@@ -2997,9 +2239,49 @@ proxies:
     ws-opts:
       path: "/danfeng"
 
+  - name: "jsdelivr-chengaopa-vless_37"
+    type: "vless"
+    server: "192.0.54.216"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng"
+
   - name: "jsdelivr-chengaopa-vless_38"
     type: "vless"
     server: "192.0.63.49"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_39"
+    type: "vless"
+    server: "192.0.63.115"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_40"
+    type: "vless"
+    server: "192.0.63.216"
+    port: 443
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng?ed=2560"
+
+  - name: "jsdelivr-chengaopa-vless_41"
+    type: "vless"
+    server: "192.0.63.76"
     port: 443
     uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
     tls: true
@@ -3027,12 +2309,15 @@ proxies:
     ws-opts:
       path: "/danfeng"
 
-  - name: "jsdelivr-chengaopa-ss_2"
-    type: "ss"
-    server: "63.180.254.10"
+  - name: "jsdelivr-chengaopa-vless_44"
+    type: "vless"
+    server: "192.0.63.18"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng"
 
 proxy-groups:
   - name: Proxy
@@ -3073,150 +2358,56 @@ proxy-groups:
       - "github-freefq-ss_13"
       - "github-freefq-vmess_14"
       - "github-freefq-vmess_15"
-      - "anaer.github.io-ss_2"
-      - "anaer.github.io-vless_3"
-      - "anaer.github.io-vless_4"
-      - "anaer.github.io-vless_5"
+      - "anaer.github.io-trojan_2"
+      - "anaer.github.io-ss_3"
+      - "anaer.github.io-vmess_4"
+      - "anaer.github.io-vmess_5"
       - "anaer.github.io-vless_6"
-      - "anaer.github.io-vless_7"
-      - "anaer.github.io-vless_8"
-      - "anaer.github.io-ss_9"
-      - "anaer.github.io-ss_10"
-      - "anaer.github.io-ss_13"
-      - "anaer.github.io-vless_15"
-      - "anaer.github.io-ss_16"
+      - "anaer.github.io-trojan_8"
+      - "anaer.github.io-trojan_9"
+      - "anaer.github.io-vless_10"
+      - "anaer.github.io-ss_11"
+      - "anaer.github.io-vless_12"
+      - "anaer.github.io-trojan_13"
+      - "anaer.github.io-vless_14"
+      - "anaer.github.io-vmess_15"
+      - "anaer.github.io-vless_16"
       - "anaer.github.io-hysteria2_17"
-      - "anaer.github.io-vless_18"
-      - "anaer.github.io-trojan_20"
+      - "anaer.github.io-trojan_18"
+      - "anaer.github.io-ss_20"
       - "anaer.github.io-vless_21"
-      - "anaer.github.io-ss_22"
-      - "anaer.github.io-hysteria2_23"
-      - "anaer.github.io-hysteria2_24"
-      - "anaer.github.io-vmess_25"
-      - "anaer.github.io-trojan_26"
-      - "anaer.github.io-hysteria2_27"
-      - "anaer.github.io-vmess_28"
-      - "anaer.github.io-hysteria2_29"
-      - "anaer.github.io-ss_30"
-      - "anaer.github.io-vless_32"
+      - "anaer.github.io-vless_22"
+      - "anaer.github.io-vless_23"
+      - "anaer.github.io-vless_26"
+      - "anaer.github.io-vless_27"
+      - "anaer.github.io-vless_28"
+      - "anaer.github.io-vless_29"
+      - "anaer.github.io-hysteria2_30"
+      - "anaer.github.io-vless_31"
+      - "anaer.github.io-ss_32"
       - "anaer.github.io-vless_33"
-      - "anaer.github.io-vless_34"
-      - "anaer.github.io-vless_37"
+      - "anaer.github.io-vless_35"
+      - "anaer.github.io-vless_36"
+      - "anaer.github.io-hysteria2_37"
       - "anaer.github.io-vless_38"
-      - "anaer.github.io-vless_39"
+      - "anaer.github.io-ss_39"
       - "anaer.github.io-vless_40"
       - "anaer.github.io-vless_41"
       - "anaer.github.io-ss_42"
-      - "anaer.github.io-vless_43"
-      - "anaer.github.io-vless_44"
-      - "anaer.github.io-vless_45"
-      - "anaer.github.io-vless_46"
-      - "anaer.github.io-vless_47"
-      - "anaer.github.io-vless_48"
-      - "anaer.github.io-vless_49"
-      - "anaer.github.io-vless_50"
+      - "anaer.github.io-ss_43"
+      - "anaer.github.io-ss_44"
+      - "anaer.github.io-ss_45"
+      - "anaer.github.io-ss_46"
+      - "anaer.github.io-trojan_47"
+      - "anaer.github.io-ss_48"
+      - "anaer.github.io-ss_49"
+      - "anaer.github.io-ss_50"
       - "anaer.github.io-vless_51"
-      - "anaer.github.io-vless_52"
-      - "anaer.github.io-vless_53"
-      - "anaer.github.io-vless_54"
-      - "anaer.github.io-vless_55"
-      - "anaer.github.io-vless_56"
-      - "anaer.github.io-vless_58"
-      - "anaer.github.io-vless_59"
-      - "anaer.github.io-trojan_60"
-      - "anaer.github.io-vless_61"
-      - "anaer.github.io-vmess_63"
-      - "anaer.github.io-ss_64"
-      - "anaer.github.io-vless_65"
-      - "anaer.github.io-vless_66"
-      - "anaer.github.io-vless_68"
-      - "anaer.github.io-vless_69"
-      - "anaer.github.io-vless_73"
-      - "anaer.github.io-vless_75"
-      - "anaer.github.io-ss_77"
-      - "anaer.github.io-ss_78"
-      - "anaer.github.io-vless_79"
-      - "anaer.github.io-ss_80"
-      - "anaer.github.io-ss_81"
-      - "anaer.github.io-trojan_82"
-      - "anaer.github.io-ss_84"
-      - "anaer.github.io-ss_85"
-      - "anaer.github.io-vless_87"
-      - "anaer.github.io-vless_88"
-      - "anaer.github.io-vless_89"
-      - "anaer.github.io-vless_90"
-      - "anaer.github.io-vless_92"
-      - "anaer.github.io-vless_93"
-      - "anaer.github.io-vless_94"
-      - "anaer.github.io-ss_95"
-      - "anaer.github.io-vless_96"
-      - "anaer.github.io-ss_97"
-      - "anaer.github.io-vless_98"
-      - "anaer.github.io-ss_99"
-      - "anaer.github.io-ss_100"
-      - "anaer.github.io-ss_101"
-      - "anaer.github.io-ss_102"
-      - "anaer.github.io-ss_103"
-      - "anaer.github.io-ss_104"
-      - "anaer.github.io-ss_105"
-      - "anaer.github.io-ss_106"
-      - "anaer.github.io-ss_107"
-      - "anaer.github.io-vless_108"
-      - "anaer.github.io-ss_109"
-      - "anaer.github.io-vless_110"
-      - "anaer.github.io-vless_111"
-      - "anaer.github.io-vless_113"
-      - "anaer.github.io-vless_114"
-      - "anaer.github.io-vless_115"
-      - "anaer.github.io-vless_116"
-      - "anaer.github.io-vless_117"
-      - "anaer.github.io-vless_118"
-      - "anaer.github.io-vless_119"
-      - "anaer.github.io-vless_120"
-      - "anaer.github.io-vless_121"
-      - "anaer.github.io-vless_122"
-      - "anaer.github.io-vless_123"
-      - "anaer.github.io-vless_124"
-      - "anaer.github.io-vless_125"
-      - "anaer.github.io-vless_126"
-      - "anaer.github.io-vless_127"
-      - "anaer.github.io-vless_128"
-      - "anaer.github.io-vless_129"
-      - "anaer.github.io-vless_130"
-      - "anaer.github.io-vless_131"
-      - "anaer.github.io-vless_132"
-      - "anaer.github.io-vless_133"
-      - "anaer.github.io-vless_134"
-      - "anaer.github.io-vless_135"
-      - "anaer.github.io-vless_136"
-      - "anaer.github.io-vless_137"
-      - "anaer.github.io-vless_138"
-      - "anaer.github.io-vless_139"
-      - "anaer.github.io-vless_140"
-      - "anaer.github.io-vless_141"
-      - "anaer.github.io-vless_142"
-      - "anaer.github.io-vless_143"
-      - "anaer.github.io-vless_144"
-      - "anaer.github.io-vless_145"
-      - "anaer.github.io-vless_146"
-      - "anaer.github.io-vless_147"
-      - "anaer.github.io-vless_148"
-      - "anaer.github.io-vless_149"
-      - "anaer.github.io-vless_150"
-      - "anaer.github.io-vless_151"
-      - "anaer.github.io-vless_152"
-      - "anaer.github.io-vless_153"
-      - "anaer.github.io-vless_154"
-      - "anaer.github.io-vless_155"
-      - "anaer.github.io-vless_156"
-      - "anaer.github.io-vless_157"
-      - "anaer.github.io-vless_158"
-      - "anaer.github.io-vless_159"
-      - "anaer.github.io-vless_161"
-      - "anaer.github.io-vless_162"
-      - "anaer.github.io-vless_163"
-      - "anaer.github.io-ss_164"
-      - "anaer.github.io-vless_165"
+      - "anaer.github.io-ss_52"
+      - "anaer.github.io-trojan_53"
+      - "anaer.github.io-ss_55"
+      - "anaer.github.io-hysteria2_56"
+      - "anaer.github.io-hysteria2_57"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
       - "github-peasoft-trojan_3"
@@ -3228,7 +2419,6 @@ proxy-groups:
       - "github-peasoft-trojan_9"
       - "github-peasoft-trojan_10"
       - "github-peasoft-trojan_11"
-      - "github-peasoft-trojan_13"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3259,29 +2449,34 @@ proxy-groups:
       - "github-mfuu-vmess_26"
       - "github-mfuu-vmess_27"
       - "github-mfuu-vmess_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_30"
-      - "github-mfuu-trojan_31"
-      - "github-mfuu-trojan_32"
+      - "github-mfuu-vmess_29"
+      - "github-mfuu-vmess_30"
+      - "github-mfuu-ss_31"
+      - "github-mfuu-ss_32"
+      - "github-mfuu-ss_33"
       - "github-mfuu-trojan_34"
       - "github-mfuu-trojan_36"
+      - "github-mfuu-trojan_37"
       - "github-mfuu-vmess_38"
-      - "github-mfuu-vmess_39"
-      - "github-mfuu-vmess_41"
-      - "github-mfuu-trojan_42"
-      - "github-mfuu-trojan_43"
-      - "github-mfuu-trojan_44"
-      - "github-mfuu-trojan_45"
-      - "github-mfuu-trojan_46"
-      - "github-mfuu-trojan_47"
-      - "github-mfuu-trojan_48"
-      - "github-mfuu-trojan_49"
-      - "github-mfuu-trojan_50"
-      - "github-mfuu-trojan_51"
+      - "github-mfuu-vmess_40"
       - "github-mfuu-trojan_52"
-      - "github-mfuu-trojan_53"
-      - "github-mfuu-ss_68"
-      - "github-mfuu-trojan_69"
+      - "github-mfuu-ss_59"
+      - "github-mfuu-ss_60"
+      - "github-mfuu-vmess_63"
+      - "github-mfuu-trojan_65"
+      - "github-mfuu-trojan_70"
+      - "github-mfuu-trojan_72"
+      - "github-mfuu-trojan_76"
+      - "github-mfuu-ss_80"
+      - "github-mfuu-vmess_138"
+      - "github-mfuu-vmess_140"
+      - "github-mfuu-vmess_153"
+      - "github-mfuu-ss_188"
+      - "github-mfuu-vmess_198"
+      - "github-mfuu-vmess_199"
+      - "github-mfuu-ss_200"
+      - "github-mfuu-ss_214"
+      - "github-mfuu-trojan_215"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-vmess_4"
       - "github-go4sharing-ss_5"
@@ -3309,12 +2504,7 @@ proxy-groups:
       - "github-go4sharing-ss_28"
       - "sub.scpnb.top-trojan_1"
       - "sub.scpnb.top-trojan_2"
-      - "xrayvip.com-vmess_4"
-      - "xrayvip.com-vmess_5"
-      - "xrayvip.com-ss_6"
       - "xrayvip.com-vmess_7"
-      - "xrayvip.com-vmess_8"
-      - "xrayvip.com-vmess_9"
       - "github-wenxig-ss_1"
       - "github-wenxig-ss_2"
       - "github-wenxig-ss_3"
@@ -3337,7 +2527,6 @@ proxy-groups:
       - "github-wenxig-ss_21"
       - "github-wenxig-ss_22"
       - "github-wenxig-ss_23"
-      - "github-wenxig-ss_24"
       - "github-wenxig-ss_25"
       - "github-wenxig-ss_26"
       - "github-wenxig-ss_27"
@@ -3371,8 +2560,8 @@ proxy-groups:
       - "github-wenxig-ss_57"
       - "github-wenxig-ss_58"
       - "github-wenxig-ss_59"
-      - "github-wenxig-ss_60"
       - "github-wenxig-ss_61"
+      - "github-wenxig-ss_62"
       - "github-wenxig-ss_63"
       - "github-wenxig-ss_64"
       - "github-wenxig-ss_65"
@@ -3382,28 +2571,50 @@ proxy-groups:
       - "github-wenxig-ss_70"
       - "github-wenxig-ss_71"
       - "github-wenxig-trojan_72"
+      - "github-wenxig-trojan_73"
       - "github-wenxig-trojan_74"
       - "github-wenxig-trojan_75"
       - "github-wenxig-trojan_76"
+      - "github-wenxig-trojan_77"
       - "github-wenxig-trojan_78"
       - "github-wenxig-trojan_79"
       - "github-wenxig-trojan_80"
-      - "github-wenxig-trojan_81"
       - "github-wenxig-trojan_82"
       - "github-wenxig-trojan_83"
       - "github-wenxig-trojan_86"
       - "github-wenxig-ss_136"
+      - "jsdelivr-chengaopa-trojan_2"
+      - "jsdelivr-chengaopa-trojan_3"
+      - "jsdelivr-chengaopa-trojan_4"
+      - "jsdelivr-chengaopa-trojan_5"
+      - "jsdelivr-chengaopa-trojan_6"
+      - "jsdelivr-chengaopa-trojan_7"
+      - "jsdelivr-chengaopa-trojan_8"
+      - "jsdelivr-chengaopa-trojan_10"
+      - "jsdelivr-chengaopa-trojan_11"
+      - "jsdelivr-chengaopa-trojan_12"
       - "jsdelivr-chengaopa-vless_14"
       - "jsdelivr-chengaopa-vless_17"
+      - "jsdelivr-chengaopa-vless_18"
       - "jsdelivr-chengaopa-vless_20"
       - "jsdelivr-chengaopa-vless_21"
       - "jsdelivr-chengaopa-vless_22"
       - "jsdelivr-chengaopa-vless_25"
+      - "jsdelivr-chengaopa-vless_26"
+      - "jsdelivr-chengaopa-vless_27"
+      - "jsdelivr-chengaopa-vless_28"
+      - "jsdelivr-chengaopa-vless_29"
+      - "jsdelivr-chengaopa-vless_30"
+      - "jsdelivr-chengaopa-vless_31"
       - "jsdelivr-chengaopa-vless_36"
+      - "jsdelivr-chengaopa-vless_37"
       - "jsdelivr-chengaopa-vless_38"
+      - "jsdelivr-chengaopa-vless_39"
+      - "jsdelivr-chengaopa-vless_40"
+      - "jsdelivr-chengaopa-vless_41"
       - "jsdelivr-chengaopa-vless_42"
       - "jsdelivr-chengaopa-vless_43"
-      - "jsdelivr-chengaopa-ss_2"
+      - "jsdelivr-chengaopa-vless_44"
 
   - name: Auto
     type: url-test
@@ -3445,150 +2656,56 @@ proxy-groups:
       - "github-freefq-ss_13"
       - "github-freefq-vmess_14"
       - "github-freefq-vmess_15"
-      - "anaer.github.io-ss_2"
-      - "anaer.github.io-vless_3"
-      - "anaer.github.io-vless_4"
-      - "anaer.github.io-vless_5"
+      - "anaer.github.io-trojan_2"
+      - "anaer.github.io-ss_3"
+      - "anaer.github.io-vmess_4"
+      - "anaer.github.io-vmess_5"
       - "anaer.github.io-vless_6"
-      - "anaer.github.io-vless_7"
-      - "anaer.github.io-vless_8"
-      - "anaer.github.io-ss_9"
-      - "anaer.github.io-ss_10"
-      - "anaer.github.io-ss_13"
-      - "anaer.github.io-vless_15"
-      - "anaer.github.io-ss_16"
+      - "anaer.github.io-trojan_8"
+      - "anaer.github.io-trojan_9"
+      - "anaer.github.io-vless_10"
+      - "anaer.github.io-ss_11"
+      - "anaer.github.io-vless_12"
+      - "anaer.github.io-trojan_13"
+      - "anaer.github.io-vless_14"
+      - "anaer.github.io-vmess_15"
+      - "anaer.github.io-vless_16"
       - "anaer.github.io-hysteria2_17"
-      - "anaer.github.io-vless_18"
-      - "anaer.github.io-trojan_20"
+      - "anaer.github.io-trojan_18"
+      - "anaer.github.io-ss_20"
       - "anaer.github.io-vless_21"
-      - "anaer.github.io-ss_22"
-      - "anaer.github.io-hysteria2_23"
-      - "anaer.github.io-hysteria2_24"
-      - "anaer.github.io-vmess_25"
-      - "anaer.github.io-trojan_26"
-      - "anaer.github.io-hysteria2_27"
-      - "anaer.github.io-vmess_28"
-      - "anaer.github.io-hysteria2_29"
-      - "anaer.github.io-ss_30"
-      - "anaer.github.io-vless_32"
+      - "anaer.github.io-vless_22"
+      - "anaer.github.io-vless_23"
+      - "anaer.github.io-vless_26"
+      - "anaer.github.io-vless_27"
+      - "anaer.github.io-vless_28"
+      - "anaer.github.io-vless_29"
+      - "anaer.github.io-hysteria2_30"
+      - "anaer.github.io-vless_31"
+      - "anaer.github.io-ss_32"
       - "anaer.github.io-vless_33"
-      - "anaer.github.io-vless_34"
-      - "anaer.github.io-vless_37"
+      - "anaer.github.io-vless_35"
+      - "anaer.github.io-vless_36"
+      - "anaer.github.io-hysteria2_37"
       - "anaer.github.io-vless_38"
-      - "anaer.github.io-vless_39"
+      - "anaer.github.io-ss_39"
       - "anaer.github.io-vless_40"
       - "anaer.github.io-vless_41"
       - "anaer.github.io-ss_42"
-      - "anaer.github.io-vless_43"
-      - "anaer.github.io-vless_44"
-      - "anaer.github.io-vless_45"
-      - "anaer.github.io-vless_46"
-      - "anaer.github.io-vless_47"
-      - "anaer.github.io-vless_48"
-      - "anaer.github.io-vless_49"
-      - "anaer.github.io-vless_50"
+      - "anaer.github.io-ss_43"
+      - "anaer.github.io-ss_44"
+      - "anaer.github.io-ss_45"
+      - "anaer.github.io-ss_46"
+      - "anaer.github.io-trojan_47"
+      - "anaer.github.io-ss_48"
+      - "anaer.github.io-ss_49"
+      - "anaer.github.io-ss_50"
       - "anaer.github.io-vless_51"
-      - "anaer.github.io-vless_52"
-      - "anaer.github.io-vless_53"
-      - "anaer.github.io-vless_54"
-      - "anaer.github.io-vless_55"
-      - "anaer.github.io-vless_56"
-      - "anaer.github.io-vless_58"
-      - "anaer.github.io-vless_59"
-      - "anaer.github.io-trojan_60"
-      - "anaer.github.io-vless_61"
-      - "anaer.github.io-vmess_63"
-      - "anaer.github.io-ss_64"
-      - "anaer.github.io-vless_65"
-      - "anaer.github.io-vless_66"
-      - "anaer.github.io-vless_68"
-      - "anaer.github.io-vless_69"
-      - "anaer.github.io-vless_73"
-      - "anaer.github.io-vless_75"
-      - "anaer.github.io-ss_77"
-      - "anaer.github.io-ss_78"
-      - "anaer.github.io-vless_79"
-      - "anaer.github.io-ss_80"
-      - "anaer.github.io-ss_81"
-      - "anaer.github.io-trojan_82"
-      - "anaer.github.io-ss_84"
-      - "anaer.github.io-ss_85"
-      - "anaer.github.io-vless_87"
-      - "anaer.github.io-vless_88"
-      - "anaer.github.io-vless_89"
-      - "anaer.github.io-vless_90"
-      - "anaer.github.io-vless_92"
-      - "anaer.github.io-vless_93"
-      - "anaer.github.io-vless_94"
-      - "anaer.github.io-ss_95"
-      - "anaer.github.io-vless_96"
-      - "anaer.github.io-ss_97"
-      - "anaer.github.io-vless_98"
-      - "anaer.github.io-ss_99"
-      - "anaer.github.io-ss_100"
-      - "anaer.github.io-ss_101"
-      - "anaer.github.io-ss_102"
-      - "anaer.github.io-ss_103"
-      - "anaer.github.io-ss_104"
-      - "anaer.github.io-ss_105"
-      - "anaer.github.io-ss_106"
-      - "anaer.github.io-ss_107"
-      - "anaer.github.io-vless_108"
-      - "anaer.github.io-ss_109"
-      - "anaer.github.io-vless_110"
-      - "anaer.github.io-vless_111"
-      - "anaer.github.io-vless_113"
-      - "anaer.github.io-vless_114"
-      - "anaer.github.io-vless_115"
-      - "anaer.github.io-vless_116"
-      - "anaer.github.io-vless_117"
-      - "anaer.github.io-vless_118"
-      - "anaer.github.io-vless_119"
-      - "anaer.github.io-vless_120"
-      - "anaer.github.io-vless_121"
-      - "anaer.github.io-vless_122"
-      - "anaer.github.io-vless_123"
-      - "anaer.github.io-vless_124"
-      - "anaer.github.io-vless_125"
-      - "anaer.github.io-vless_126"
-      - "anaer.github.io-vless_127"
-      - "anaer.github.io-vless_128"
-      - "anaer.github.io-vless_129"
-      - "anaer.github.io-vless_130"
-      - "anaer.github.io-vless_131"
-      - "anaer.github.io-vless_132"
-      - "anaer.github.io-vless_133"
-      - "anaer.github.io-vless_134"
-      - "anaer.github.io-vless_135"
-      - "anaer.github.io-vless_136"
-      - "anaer.github.io-vless_137"
-      - "anaer.github.io-vless_138"
-      - "anaer.github.io-vless_139"
-      - "anaer.github.io-vless_140"
-      - "anaer.github.io-vless_141"
-      - "anaer.github.io-vless_142"
-      - "anaer.github.io-vless_143"
-      - "anaer.github.io-vless_144"
-      - "anaer.github.io-vless_145"
-      - "anaer.github.io-vless_146"
-      - "anaer.github.io-vless_147"
-      - "anaer.github.io-vless_148"
-      - "anaer.github.io-vless_149"
-      - "anaer.github.io-vless_150"
-      - "anaer.github.io-vless_151"
-      - "anaer.github.io-vless_152"
-      - "anaer.github.io-vless_153"
-      - "anaer.github.io-vless_154"
-      - "anaer.github.io-vless_155"
-      - "anaer.github.io-vless_156"
-      - "anaer.github.io-vless_157"
-      - "anaer.github.io-vless_158"
-      - "anaer.github.io-vless_159"
-      - "anaer.github.io-vless_161"
-      - "anaer.github.io-vless_162"
-      - "anaer.github.io-vless_163"
-      - "anaer.github.io-ss_164"
-      - "anaer.github.io-vless_165"
+      - "anaer.github.io-ss_52"
+      - "anaer.github.io-trojan_53"
+      - "anaer.github.io-ss_55"
+      - "anaer.github.io-hysteria2_56"
+      - "anaer.github.io-hysteria2_57"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
       - "github-peasoft-trojan_3"
@@ -3600,7 +2717,6 @@ proxy-groups:
       - "github-peasoft-trojan_9"
       - "github-peasoft-trojan_10"
       - "github-peasoft-trojan_11"
-      - "github-peasoft-trojan_13"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3631,29 +2747,34 @@ proxy-groups:
       - "github-mfuu-vmess_26"
       - "github-mfuu-vmess_27"
       - "github-mfuu-vmess_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_30"
-      - "github-mfuu-trojan_31"
-      - "github-mfuu-trojan_32"
+      - "github-mfuu-vmess_29"
+      - "github-mfuu-vmess_30"
+      - "github-mfuu-ss_31"
+      - "github-mfuu-ss_32"
+      - "github-mfuu-ss_33"
       - "github-mfuu-trojan_34"
       - "github-mfuu-trojan_36"
+      - "github-mfuu-trojan_37"
       - "github-mfuu-vmess_38"
-      - "github-mfuu-vmess_39"
-      - "github-mfuu-vmess_41"
-      - "github-mfuu-trojan_42"
-      - "github-mfuu-trojan_43"
-      - "github-mfuu-trojan_44"
-      - "github-mfuu-trojan_45"
-      - "github-mfuu-trojan_46"
-      - "github-mfuu-trojan_47"
-      - "github-mfuu-trojan_48"
-      - "github-mfuu-trojan_49"
-      - "github-mfuu-trojan_50"
-      - "github-mfuu-trojan_51"
+      - "github-mfuu-vmess_40"
       - "github-mfuu-trojan_52"
-      - "github-mfuu-trojan_53"
-      - "github-mfuu-ss_68"
-      - "github-mfuu-trojan_69"
+      - "github-mfuu-ss_59"
+      - "github-mfuu-ss_60"
+      - "github-mfuu-vmess_63"
+      - "github-mfuu-trojan_65"
+      - "github-mfuu-trojan_70"
+      - "github-mfuu-trojan_72"
+      - "github-mfuu-trojan_76"
+      - "github-mfuu-ss_80"
+      - "github-mfuu-vmess_138"
+      - "github-mfuu-vmess_140"
+      - "github-mfuu-vmess_153"
+      - "github-mfuu-ss_188"
+      - "github-mfuu-vmess_198"
+      - "github-mfuu-vmess_199"
+      - "github-mfuu-ss_200"
+      - "github-mfuu-ss_214"
+      - "github-mfuu-trojan_215"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-vmess_4"
       - "github-go4sharing-ss_5"
@@ -3681,12 +2802,7 @@ proxy-groups:
       - "github-go4sharing-ss_28"
       - "sub.scpnb.top-trojan_1"
       - "sub.scpnb.top-trojan_2"
-      - "xrayvip.com-vmess_4"
-      - "xrayvip.com-vmess_5"
-      - "xrayvip.com-ss_6"
       - "xrayvip.com-vmess_7"
-      - "xrayvip.com-vmess_8"
-      - "xrayvip.com-vmess_9"
       - "github-wenxig-ss_1"
       - "github-wenxig-ss_2"
       - "github-wenxig-ss_3"
@@ -3709,7 +2825,6 @@ proxy-groups:
       - "github-wenxig-ss_21"
       - "github-wenxig-ss_22"
       - "github-wenxig-ss_23"
-      - "github-wenxig-ss_24"
       - "github-wenxig-ss_25"
       - "github-wenxig-ss_26"
       - "github-wenxig-ss_27"
@@ -3743,8 +2858,8 @@ proxy-groups:
       - "github-wenxig-ss_57"
       - "github-wenxig-ss_58"
       - "github-wenxig-ss_59"
-      - "github-wenxig-ss_60"
       - "github-wenxig-ss_61"
+      - "github-wenxig-ss_62"
       - "github-wenxig-ss_63"
       - "github-wenxig-ss_64"
       - "github-wenxig-ss_65"
@@ -3754,28 +2869,50 @@ proxy-groups:
       - "github-wenxig-ss_70"
       - "github-wenxig-ss_71"
       - "github-wenxig-trojan_72"
+      - "github-wenxig-trojan_73"
       - "github-wenxig-trojan_74"
       - "github-wenxig-trojan_75"
       - "github-wenxig-trojan_76"
+      - "github-wenxig-trojan_77"
       - "github-wenxig-trojan_78"
       - "github-wenxig-trojan_79"
       - "github-wenxig-trojan_80"
-      - "github-wenxig-trojan_81"
       - "github-wenxig-trojan_82"
       - "github-wenxig-trojan_83"
       - "github-wenxig-trojan_86"
       - "github-wenxig-ss_136"
+      - "jsdelivr-chengaopa-trojan_2"
+      - "jsdelivr-chengaopa-trojan_3"
+      - "jsdelivr-chengaopa-trojan_4"
+      - "jsdelivr-chengaopa-trojan_5"
+      - "jsdelivr-chengaopa-trojan_6"
+      - "jsdelivr-chengaopa-trojan_7"
+      - "jsdelivr-chengaopa-trojan_8"
+      - "jsdelivr-chengaopa-trojan_10"
+      - "jsdelivr-chengaopa-trojan_11"
+      - "jsdelivr-chengaopa-trojan_12"
       - "jsdelivr-chengaopa-vless_14"
       - "jsdelivr-chengaopa-vless_17"
+      - "jsdelivr-chengaopa-vless_18"
       - "jsdelivr-chengaopa-vless_20"
       - "jsdelivr-chengaopa-vless_21"
       - "jsdelivr-chengaopa-vless_22"
       - "jsdelivr-chengaopa-vless_25"
+      - "jsdelivr-chengaopa-vless_26"
+      - "jsdelivr-chengaopa-vless_27"
+      - "jsdelivr-chengaopa-vless_28"
+      - "jsdelivr-chengaopa-vless_29"
+      - "jsdelivr-chengaopa-vless_30"
+      - "jsdelivr-chengaopa-vless_31"
       - "jsdelivr-chengaopa-vless_36"
+      - "jsdelivr-chengaopa-vless_37"
       - "jsdelivr-chengaopa-vless_38"
+      - "jsdelivr-chengaopa-vless_39"
+      - "jsdelivr-chengaopa-vless_40"
+      - "jsdelivr-chengaopa-vless_41"
       - "jsdelivr-chengaopa-vless_42"
       - "jsdelivr-chengaopa-vless_43"
-      - "jsdelivr-chengaopa-ss_2"
+      - "jsdelivr-chengaopa-vless_44"
 
   - name: Fallback
     type: fallback
@@ -3817,150 +2954,56 @@ proxy-groups:
       - "github-freefq-ss_13"
       - "github-freefq-vmess_14"
       - "github-freefq-vmess_15"
-      - "anaer.github.io-ss_2"
-      - "anaer.github.io-vless_3"
-      - "anaer.github.io-vless_4"
-      - "anaer.github.io-vless_5"
+      - "anaer.github.io-trojan_2"
+      - "anaer.github.io-ss_3"
+      - "anaer.github.io-vmess_4"
+      - "anaer.github.io-vmess_5"
       - "anaer.github.io-vless_6"
-      - "anaer.github.io-vless_7"
-      - "anaer.github.io-vless_8"
-      - "anaer.github.io-ss_9"
-      - "anaer.github.io-ss_10"
-      - "anaer.github.io-ss_13"
-      - "anaer.github.io-vless_15"
-      - "anaer.github.io-ss_16"
+      - "anaer.github.io-trojan_8"
+      - "anaer.github.io-trojan_9"
+      - "anaer.github.io-vless_10"
+      - "anaer.github.io-ss_11"
+      - "anaer.github.io-vless_12"
+      - "anaer.github.io-trojan_13"
+      - "anaer.github.io-vless_14"
+      - "anaer.github.io-vmess_15"
+      - "anaer.github.io-vless_16"
       - "anaer.github.io-hysteria2_17"
-      - "anaer.github.io-vless_18"
-      - "anaer.github.io-trojan_20"
+      - "anaer.github.io-trojan_18"
+      - "anaer.github.io-ss_20"
       - "anaer.github.io-vless_21"
-      - "anaer.github.io-ss_22"
-      - "anaer.github.io-hysteria2_23"
-      - "anaer.github.io-hysteria2_24"
-      - "anaer.github.io-vmess_25"
-      - "anaer.github.io-trojan_26"
-      - "anaer.github.io-hysteria2_27"
-      - "anaer.github.io-vmess_28"
-      - "anaer.github.io-hysteria2_29"
-      - "anaer.github.io-ss_30"
-      - "anaer.github.io-vless_32"
+      - "anaer.github.io-vless_22"
+      - "anaer.github.io-vless_23"
+      - "anaer.github.io-vless_26"
+      - "anaer.github.io-vless_27"
+      - "anaer.github.io-vless_28"
+      - "anaer.github.io-vless_29"
+      - "anaer.github.io-hysteria2_30"
+      - "anaer.github.io-vless_31"
+      - "anaer.github.io-ss_32"
       - "anaer.github.io-vless_33"
-      - "anaer.github.io-vless_34"
-      - "anaer.github.io-vless_37"
+      - "anaer.github.io-vless_35"
+      - "anaer.github.io-vless_36"
+      - "anaer.github.io-hysteria2_37"
       - "anaer.github.io-vless_38"
-      - "anaer.github.io-vless_39"
+      - "anaer.github.io-ss_39"
       - "anaer.github.io-vless_40"
       - "anaer.github.io-vless_41"
       - "anaer.github.io-ss_42"
-      - "anaer.github.io-vless_43"
-      - "anaer.github.io-vless_44"
-      - "anaer.github.io-vless_45"
-      - "anaer.github.io-vless_46"
-      - "anaer.github.io-vless_47"
-      - "anaer.github.io-vless_48"
-      - "anaer.github.io-vless_49"
-      - "anaer.github.io-vless_50"
+      - "anaer.github.io-ss_43"
+      - "anaer.github.io-ss_44"
+      - "anaer.github.io-ss_45"
+      - "anaer.github.io-ss_46"
+      - "anaer.github.io-trojan_47"
+      - "anaer.github.io-ss_48"
+      - "anaer.github.io-ss_49"
+      - "anaer.github.io-ss_50"
       - "anaer.github.io-vless_51"
-      - "anaer.github.io-vless_52"
-      - "anaer.github.io-vless_53"
-      - "anaer.github.io-vless_54"
-      - "anaer.github.io-vless_55"
-      - "anaer.github.io-vless_56"
-      - "anaer.github.io-vless_58"
-      - "anaer.github.io-vless_59"
-      - "anaer.github.io-trojan_60"
-      - "anaer.github.io-vless_61"
-      - "anaer.github.io-vmess_63"
-      - "anaer.github.io-ss_64"
-      - "anaer.github.io-vless_65"
-      - "anaer.github.io-vless_66"
-      - "anaer.github.io-vless_68"
-      - "anaer.github.io-vless_69"
-      - "anaer.github.io-vless_73"
-      - "anaer.github.io-vless_75"
-      - "anaer.github.io-ss_77"
-      - "anaer.github.io-ss_78"
-      - "anaer.github.io-vless_79"
-      - "anaer.github.io-ss_80"
-      - "anaer.github.io-ss_81"
-      - "anaer.github.io-trojan_82"
-      - "anaer.github.io-ss_84"
-      - "anaer.github.io-ss_85"
-      - "anaer.github.io-vless_87"
-      - "anaer.github.io-vless_88"
-      - "anaer.github.io-vless_89"
-      - "anaer.github.io-vless_90"
-      - "anaer.github.io-vless_92"
-      - "anaer.github.io-vless_93"
-      - "anaer.github.io-vless_94"
-      - "anaer.github.io-ss_95"
-      - "anaer.github.io-vless_96"
-      - "anaer.github.io-ss_97"
-      - "anaer.github.io-vless_98"
-      - "anaer.github.io-ss_99"
-      - "anaer.github.io-ss_100"
-      - "anaer.github.io-ss_101"
-      - "anaer.github.io-ss_102"
-      - "anaer.github.io-ss_103"
-      - "anaer.github.io-ss_104"
-      - "anaer.github.io-ss_105"
-      - "anaer.github.io-ss_106"
-      - "anaer.github.io-ss_107"
-      - "anaer.github.io-vless_108"
-      - "anaer.github.io-ss_109"
-      - "anaer.github.io-vless_110"
-      - "anaer.github.io-vless_111"
-      - "anaer.github.io-vless_113"
-      - "anaer.github.io-vless_114"
-      - "anaer.github.io-vless_115"
-      - "anaer.github.io-vless_116"
-      - "anaer.github.io-vless_117"
-      - "anaer.github.io-vless_118"
-      - "anaer.github.io-vless_119"
-      - "anaer.github.io-vless_120"
-      - "anaer.github.io-vless_121"
-      - "anaer.github.io-vless_122"
-      - "anaer.github.io-vless_123"
-      - "anaer.github.io-vless_124"
-      - "anaer.github.io-vless_125"
-      - "anaer.github.io-vless_126"
-      - "anaer.github.io-vless_127"
-      - "anaer.github.io-vless_128"
-      - "anaer.github.io-vless_129"
-      - "anaer.github.io-vless_130"
-      - "anaer.github.io-vless_131"
-      - "anaer.github.io-vless_132"
-      - "anaer.github.io-vless_133"
-      - "anaer.github.io-vless_134"
-      - "anaer.github.io-vless_135"
-      - "anaer.github.io-vless_136"
-      - "anaer.github.io-vless_137"
-      - "anaer.github.io-vless_138"
-      - "anaer.github.io-vless_139"
-      - "anaer.github.io-vless_140"
-      - "anaer.github.io-vless_141"
-      - "anaer.github.io-vless_142"
-      - "anaer.github.io-vless_143"
-      - "anaer.github.io-vless_144"
-      - "anaer.github.io-vless_145"
-      - "anaer.github.io-vless_146"
-      - "anaer.github.io-vless_147"
-      - "anaer.github.io-vless_148"
-      - "anaer.github.io-vless_149"
-      - "anaer.github.io-vless_150"
-      - "anaer.github.io-vless_151"
-      - "anaer.github.io-vless_152"
-      - "anaer.github.io-vless_153"
-      - "anaer.github.io-vless_154"
-      - "anaer.github.io-vless_155"
-      - "anaer.github.io-vless_156"
-      - "anaer.github.io-vless_157"
-      - "anaer.github.io-vless_158"
-      - "anaer.github.io-vless_159"
-      - "anaer.github.io-vless_161"
-      - "anaer.github.io-vless_162"
-      - "anaer.github.io-vless_163"
-      - "anaer.github.io-ss_164"
-      - "anaer.github.io-vless_165"
+      - "anaer.github.io-ss_52"
+      - "anaer.github.io-trojan_53"
+      - "anaer.github.io-ss_55"
+      - "anaer.github.io-hysteria2_56"
+      - "anaer.github.io-hysteria2_57"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
       - "github-peasoft-trojan_3"
@@ -3972,7 +3015,6 @@ proxy-groups:
       - "github-peasoft-trojan_9"
       - "github-peasoft-trojan_10"
       - "github-peasoft-trojan_11"
-      - "github-peasoft-trojan_13"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -4003,29 +3045,34 @@ proxy-groups:
       - "github-mfuu-vmess_26"
       - "github-mfuu-vmess_27"
       - "github-mfuu-vmess_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_30"
-      - "github-mfuu-trojan_31"
-      - "github-mfuu-trojan_32"
+      - "github-mfuu-vmess_29"
+      - "github-mfuu-vmess_30"
+      - "github-mfuu-ss_31"
+      - "github-mfuu-ss_32"
+      - "github-mfuu-ss_33"
       - "github-mfuu-trojan_34"
       - "github-mfuu-trojan_36"
+      - "github-mfuu-trojan_37"
       - "github-mfuu-vmess_38"
-      - "github-mfuu-vmess_39"
-      - "github-mfuu-vmess_41"
-      - "github-mfuu-trojan_42"
-      - "github-mfuu-trojan_43"
-      - "github-mfuu-trojan_44"
-      - "github-mfuu-trojan_45"
-      - "github-mfuu-trojan_46"
-      - "github-mfuu-trojan_47"
-      - "github-mfuu-trojan_48"
-      - "github-mfuu-trojan_49"
-      - "github-mfuu-trojan_50"
-      - "github-mfuu-trojan_51"
+      - "github-mfuu-vmess_40"
       - "github-mfuu-trojan_52"
-      - "github-mfuu-trojan_53"
-      - "github-mfuu-ss_68"
-      - "github-mfuu-trojan_69"
+      - "github-mfuu-ss_59"
+      - "github-mfuu-ss_60"
+      - "github-mfuu-vmess_63"
+      - "github-mfuu-trojan_65"
+      - "github-mfuu-trojan_70"
+      - "github-mfuu-trojan_72"
+      - "github-mfuu-trojan_76"
+      - "github-mfuu-ss_80"
+      - "github-mfuu-vmess_138"
+      - "github-mfuu-vmess_140"
+      - "github-mfuu-vmess_153"
+      - "github-mfuu-ss_188"
+      - "github-mfuu-vmess_198"
+      - "github-mfuu-vmess_199"
+      - "github-mfuu-ss_200"
+      - "github-mfuu-ss_214"
+      - "github-mfuu-trojan_215"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-vmess_4"
       - "github-go4sharing-ss_5"
@@ -4053,12 +3100,7 @@ proxy-groups:
       - "github-go4sharing-ss_28"
       - "sub.scpnb.top-trojan_1"
       - "sub.scpnb.top-trojan_2"
-      - "xrayvip.com-vmess_4"
-      - "xrayvip.com-vmess_5"
-      - "xrayvip.com-ss_6"
       - "xrayvip.com-vmess_7"
-      - "xrayvip.com-vmess_8"
-      - "xrayvip.com-vmess_9"
       - "github-wenxig-ss_1"
       - "github-wenxig-ss_2"
       - "github-wenxig-ss_3"
@@ -4081,7 +3123,6 @@ proxy-groups:
       - "github-wenxig-ss_21"
       - "github-wenxig-ss_22"
       - "github-wenxig-ss_23"
-      - "github-wenxig-ss_24"
       - "github-wenxig-ss_25"
       - "github-wenxig-ss_26"
       - "github-wenxig-ss_27"
@@ -4115,8 +3156,8 @@ proxy-groups:
       - "github-wenxig-ss_57"
       - "github-wenxig-ss_58"
       - "github-wenxig-ss_59"
-      - "github-wenxig-ss_60"
       - "github-wenxig-ss_61"
+      - "github-wenxig-ss_62"
       - "github-wenxig-ss_63"
       - "github-wenxig-ss_64"
       - "github-wenxig-ss_65"
@@ -4126,28 +3167,50 @@ proxy-groups:
       - "github-wenxig-ss_70"
       - "github-wenxig-ss_71"
       - "github-wenxig-trojan_72"
+      - "github-wenxig-trojan_73"
       - "github-wenxig-trojan_74"
       - "github-wenxig-trojan_75"
       - "github-wenxig-trojan_76"
+      - "github-wenxig-trojan_77"
       - "github-wenxig-trojan_78"
       - "github-wenxig-trojan_79"
       - "github-wenxig-trojan_80"
-      - "github-wenxig-trojan_81"
       - "github-wenxig-trojan_82"
       - "github-wenxig-trojan_83"
       - "github-wenxig-trojan_86"
       - "github-wenxig-ss_136"
+      - "jsdelivr-chengaopa-trojan_2"
+      - "jsdelivr-chengaopa-trojan_3"
+      - "jsdelivr-chengaopa-trojan_4"
+      - "jsdelivr-chengaopa-trojan_5"
+      - "jsdelivr-chengaopa-trojan_6"
+      - "jsdelivr-chengaopa-trojan_7"
+      - "jsdelivr-chengaopa-trojan_8"
+      - "jsdelivr-chengaopa-trojan_10"
+      - "jsdelivr-chengaopa-trojan_11"
+      - "jsdelivr-chengaopa-trojan_12"
       - "jsdelivr-chengaopa-vless_14"
       - "jsdelivr-chengaopa-vless_17"
+      - "jsdelivr-chengaopa-vless_18"
       - "jsdelivr-chengaopa-vless_20"
       - "jsdelivr-chengaopa-vless_21"
       - "jsdelivr-chengaopa-vless_22"
       - "jsdelivr-chengaopa-vless_25"
+      - "jsdelivr-chengaopa-vless_26"
+      - "jsdelivr-chengaopa-vless_27"
+      - "jsdelivr-chengaopa-vless_28"
+      - "jsdelivr-chengaopa-vless_29"
+      - "jsdelivr-chengaopa-vless_30"
+      - "jsdelivr-chengaopa-vless_31"
       - "jsdelivr-chengaopa-vless_36"
+      - "jsdelivr-chengaopa-vless_37"
       - "jsdelivr-chengaopa-vless_38"
+      - "jsdelivr-chengaopa-vless_39"
+      - "jsdelivr-chengaopa-vless_40"
+      - "jsdelivr-chengaopa-vless_41"
       - "jsdelivr-chengaopa-vless_42"
       - "jsdelivr-chengaopa-vless_43"
-      - "jsdelivr-chengaopa-ss_2"
+      - "jsdelivr-chengaopa-vless_44"
 
 rules:
   - GEOIP,CN,DIRECT

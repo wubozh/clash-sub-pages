@@ -1,10 +1,50 @@
 proxies:
-  - name: "anaer_github_io-ss_138"
+  - name: "anaer_github_io-vmess_46"
+    type: "vmess"
+    server: "82.198.246.250"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "anaer_github_io-vmess_23"
+    type: "vmess"
+    server: "82.198.246.233"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "anaer_github_io-vmess_25"
+    type: "vmess"
+    server: "82.198.246.37"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "anaer_github_io-vmess_226"
+    type: "vmess"
+    server: "82.198.246.9"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "anaer_github_io-ss_80"
     type: "ss"
-    server: "211.178.105.134"
-    port: 6123
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
+    server: "50.62.90.16"
+    port: 443
+    cipher: "none"
+    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
 
   - name: "mm_mibei77_com-vmess_9"
     type: "vmess"
@@ -16,116 +56,131 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "anaer_github_io-ss_170"
+  - name: "github-go4sharing-ss_161"
     type: "ss"
-    server: "199.181.197.38"
-    port: 443
-    cipher: "none"
-    password: "3e96ef7d-8637-42c2-ac73-75182196e755"
-
-  - name: "anaer_github_io-ss_80"
-    type: "ss"
-    server: "50.62.90.16"
-    port: 443
-    cipher: "none"
-    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
-
-  - name: "anaer_github_io-ss_172"
-    type: "ss"
-    server: "198.12.144.16"
-    port: 443
-    cipher: "none"
-    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
-
-  - name: "anaer_github_io-vmess_15"
-    type: "vmess"
-    server: "82.198.246.233"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer_github_io-vmess_7"
-    type: "vmess"
-    server: "82.198.246.214"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer_github_io-vmess_17"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "github-mfuu-ss_33"
-    type: "ss"
-    server: "82.38.31.191"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-
-  - name: "github-go4sharing-ss_204"
-    type: "ss"
-    server: "103.186.155.103"
+    server: "103.186.154.152"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_144"
+  - name: "github-go4sharing-ss_28_1"
+    type: "ss"
+    server: "82.38.31.134"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
+  - name: "anaer_github_io-ss_48"
+    type: "ss"
+    server: "185.189.160.105"
+    port: 41632
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+
+  - name: "github-go4sharing-ss_27_1"
+    type: "ss"
+    server: "82.38.31.176"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+
+  - name: "github-go4sharing-vmess_71"
+    type: "vmess"
+    server: "117.18.125.183"
+    port: 57460
+    uuid: "8c99e6bf-a701-4534-cdde-abecd1d6826f"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-go4sharing-ss_73"
+    type: "ss"
+    server: "5.188.181.201"
+    port: 9029
+    cipher: "aes-256-cfb"
+    password: "dU3DSNS8wYPXzEKw"
+
+  - name: "anaer_github_io-ss_53"
+    type: "ss"
+    server: "103.186.154.208"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "anaer_github_io-ss_86"
     type: "ss"
     server: "103.186.155.209"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_192"
+  - name: "github-go4sharing-ss_24"
     type: "ss"
-    server: "103.186.155.8"
+    server: "103.186.154.251"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_134"
+  - name: "anaer_github_io-ss_79"
     type: "ss"
-    server: "103.186.154.42"
+    server: "103.186.154.209"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_166"
+  - name: "github-go4sharing-ss_115"
     type: "ss"
-    server: "103.186.154.56"
+    server: "103.186.155.226"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_127"
+  - name: "anaer_github_io-ss_230"
     type: "ss"
-    server: "103.186.155.58"
+    server: "103.186.155.235"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_33"
+  - name: "github-go4sharing-ss_38"
     type: "ss"
-    server: "103.186.154.58"
+    server: "103.186.155.234"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_21"
+  - name: "anaer_github_io-ss_83"
     type: "ss"
-    server: "103.186.154.193"
+    server: "103.186.154.215"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "anaer_github_io-ss_57_1"
+    type: "ss"
+    server: "103.186.154.47"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "github-go4sharing-ss_138"
+    type: "ss"
+    server: "103.186.155.103"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "github-go4sharing-ss_112"
+    type: "ss"
+    server: "103.186.155.137"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "github-go4sharing-ss_93"
+    type: "ss"
+    server: "103.186.154.240"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -137,197 +192,148 @@ proxies:
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_25"
+  - name: "github-go4sharing-ss_111"
     type: "ss"
-    server: "103.186.155.52"
+    server: "103.186.155.218"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_200"
+  - name: "anaer_github_io-ss_100"
     type: "ss"
-    server: "103.186.154.172"
+    server: "103.186.155.82"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_185"
+  - name: "github-go4sharing-ss_123"
     type: "ss"
-    server: "103.186.155.56"
+    server: "103.186.155.225"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_19"
+  - name: "github-go4sharing-ss_99"
     type: "ss"
-    server: "103.186.155.230"
+    server: "103.186.154.51"
     port: 38388
     cipher: "aes-256-cfb"
     password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
 
-  - name: "github-go4sharing-ss_83"
+  - name: "anaer_github_io-ss_13"
     type: "ss"
-    server: "103.186.154.198"
-    port: 38388
+    server: "211.178.105.134"
+    port: 6123
     cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_36"
-    type: "ss"
-    server: "103.186.155.42"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_168"
-    type: "ss"
-    server: "103.186.154.215"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_140"
-    type: "ss"
-    server: "103.186.154.234"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer_github_io-ss_36"
-    type: "ss"
-    server: "103.186.155.54"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "github-go4sharing-ss_88"
-    type: "ss"
-    server: "103.186.155.229"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-
-  - name: "anaer_github_io-ss_177"
-    type: "ss"
-    server: "114.33.57.170"
-    port: 443
-    cipher: "none"
-    password: "3e96ef7d-8637-42c2-ac73-75182196e755"
-
-  - name: "anaer_github_io-ss_168"
-    type: "ss"
-    server: "116.44.53.251"
-    port: 12126
-    cipher: "none"
-    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
+    password: "qwerREWQ@@"
 
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "anaer_github_io-ss_138"
-      - "mm_mibei77_com-vmess_9"
-      - "anaer_github_io-ss_170"
+      - "anaer_github_io-vmess_46"
+      - "anaer_github_io-vmess_23"
+      - "anaer_github_io-vmess_25"
+      - "anaer_github_io-vmess_226"
       - "anaer_github_io-ss_80"
-      - "anaer_github_io-ss_172"
-      - "anaer_github_io-vmess_15"
-      - "anaer_github_io-vmess_7"
-      - "anaer_github_io-vmess_17"
-      - "github-mfuu-ss_33"
-      - "github-go4sharing-ss_204"
-      - "github-go4sharing-ss_144"
-      - "github-go4sharing-ss_192"
-      - "github-go4sharing-ss_134"
-      - "github-go4sharing-ss_166"
-      - "github-go4sharing-ss_127"
-      - "github-go4sharing-ss_33"
-      - "github-go4sharing-ss_21"
+      - "mm_mibei77_com-vmess_9"
+      - "github-go4sharing-ss_161"
+      - "github-go4sharing-ss_28_1"
+      - "anaer_github_io-ss_48"
+      - "github-go4sharing-ss_27_1"
+      - "github-go4sharing-vmess_71"
+      - "github-go4sharing-ss_73"
+      - "anaer_github_io-ss_53"
+      - "anaer_github_io-ss_86"
+      - "github-go4sharing-ss_24"
+      - "anaer_github_io-ss_79"
+      - "github-go4sharing-ss_115"
+      - "anaer_github_io-ss_230"
+      - "github-go4sharing-ss_38"
+      - "anaer_github_io-ss_83"
+      - "anaer_github_io-ss_57_1"
+      - "github-go4sharing-ss_138"
+      - "github-go4sharing-ss_112"
+      - "github-go4sharing-ss_93"
       - "node_nodefree_me-ss_17"
-      - "github-go4sharing-ss_25"
-      - "github-go4sharing-ss_200"
-      - "github-go4sharing-ss_185"
-      - "github-go4sharing-ss_19"
-      - "github-go4sharing-ss_83"
-      - "github-go4sharing-ss_36"
-      - "github-go4sharing-ss_168"
-      - "github-go4sharing-ss_140"
-      - "anaer_github_io-ss_36"
-      - "github-go4sharing-ss_88"
-      - "anaer_github_io-ss_177"
-      - "anaer_github_io-ss_168"
+      - "github-go4sharing-ss_111"
+      - "anaer_github_io-ss_100"
+      - "github-go4sharing-ss_123"
+      - "github-go4sharing-ss_99"
+      - "anaer_github_io-ss_13"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "anaer_github_io-ss_138"
-      - "mm_mibei77_com-vmess_9"
-      - "anaer_github_io-ss_170"
+      - "anaer_github_io-vmess_46"
+      - "anaer_github_io-vmess_23"
+      - "anaer_github_io-vmess_25"
+      - "anaer_github_io-vmess_226"
       - "anaer_github_io-ss_80"
-      - "anaer_github_io-ss_172"
-      - "anaer_github_io-vmess_15"
-      - "anaer_github_io-vmess_7"
-      - "anaer_github_io-vmess_17"
-      - "github-mfuu-ss_33"
-      - "github-go4sharing-ss_204"
-      - "github-go4sharing-ss_144"
-      - "github-go4sharing-ss_192"
-      - "github-go4sharing-ss_134"
-      - "github-go4sharing-ss_166"
-      - "github-go4sharing-ss_127"
-      - "github-go4sharing-ss_33"
-      - "github-go4sharing-ss_21"
+      - "mm_mibei77_com-vmess_9"
+      - "github-go4sharing-ss_161"
+      - "github-go4sharing-ss_28_1"
+      - "anaer_github_io-ss_48"
+      - "github-go4sharing-ss_27_1"
+      - "github-go4sharing-vmess_71"
+      - "github-go4sharing-ss_73"
+      - "anaer_github_io-ss_53"
+      - "anaer_github_io-ss_86"
+      - "github-go4sharing-ss_24"
+      - "anaer_github_io-ss_79"
+      - "github-go4sharing-ss_115"
+      - "anaer_github_io-ss_230"
+      - "github-go4sharing-ss_38"
+      - "anaer_github_io-ss_83"
+      - "anaer_github_io-ss_57_1"
+      - "github-go4sharing-ss_138"
+      - "github-go4sharing-ss_112"
+      - "github-go4sharing-ss_93"
       - "node_nodefree_me-ss_17"
-      - "github-go4sharing-ss_25"
-      - "github-go4sharing-ss_200"
-      - "github-go4sharing-ss_185"
-      - "github-go4sharing-ss_19"
-      - "github-go4sharing-ss_83"
-      - "github-go4sharing-ss_36"
-      - "github-go4sharing-ss_168"
-      - "github-go4sharing-ss_140"
-      - "anaer_github_io-ss_36"
-      - "github-go4sharing-ss_88"
-      - "anaer_github_io-ss_177"
-      - "anaer_github_io-ss_168"
+      - "github-go4sharing-ss_111"
+      - "anaer_github_io-ss_100"
+      - "github-go4sharing-ss_123"
+      - "github-go4sharing-ss_99"
+      - "anaer_github_io-ss_13"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "anaer_github_io-ss_138"
-      - "mm_mibei77_com-vmess_9"
-      - "anaer_github_io-ss_170"
+      - "anaer_github_io-vmess_46"
+      - "anaer_github_io-vmess_23"
+      - "anaer_github_io-vmess_25"
+      - "anaer_github_io-vmess_226"
       - "anaer_github_io-ss_80"
-      - "anaer_github_io-ss_172"
-      - "anaer_github_io-vmess_15"
-      - "anaer_github_io-vmess_7"
-      - "anaer_github_io-vmess_17"
-      - "github-mfuu-ss_33"
-      - "github-go4sharing-ss_204"
-      - "github-go4sharing-ss_144"
-      - "github-go4sharing-ss_192"
-      - "github-go4sharing-ss_134"
-      - "github-go4sharing-ss_166"
-      - "github-go4sharing-ss_127"
-      - "github-go4sharing-ss_33"
-      - "github-go4sharing-ss_21"
+      - "mm_mibei77_com-vmess_9"
+      - "github-go4sharing-ss_161"
+      - "github-go4sharing-ss_28_1"
+      - "anaer_github_io-ss_48"
+      - "github-go4sharing-ss_27_1"
+      - "github-go4sharing-vmess_71"
+      - "github-go4sharing-ss_73"
+      - "anaer_github_io-ss_53"
+      - "anaer_github_io-ss_86"
+      - "github-go4sharing-ss_24"
+      - "anaer_github_io-ss_79"
+      - "github-go4sharing-ss_115"
+      - "anaer_github_io-ss_230"
+      - "github-go4sharing-ss_38"
+      - "anaer_github_io-ss_83"
+      - "anaer_github_io-ss_57_1"
+      - "github-go4sharing-ss_138"
+      - "github-go4sharing-ss_112"
+      - "github-go4sharing-ss_93"
       - "node_nodefree_me-ss_17"
-      - "github-go4sharing-ss_25"
-      - "github-go4sharing-ss_200"
-      - "github-go4sharing-ss_185"
-      - "github-go4sharing-ss_19"
-      - "github-go4sharing-ss_83"
-      - "github-go4sharing-ss_36"
-      - "github-go4sharing-ss_168"
-      - "github-go4sharing-ss_140"
-      - "anaer_github_io-ss_36"
-      - "github-go4sharing-ss_88"
-      - "anaer_github_io-ss_177"
-      - "anaer_github_io-ss_168"
+      - "github-go4sharing-ss_111"
+      - "anaer_github_io-ss_100"
+      - "github-go4sharing-ss_123"
+      - "github-go4sharing-ss_99"
+      - "anaer_github_io-ss_13"
 
 rules:
   - GEOIP,CN,DIRECT

@@ -236,50 +236,33 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-ermaozi-vmess_1"
-    type: "vmess"
-    server: "47.83.221.185"
-    port: 80
-    uuid: "771a590c-5eac-5732-b796-17251132f8d2"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "github-ermaozi-ss_2"
-    type: "ss"
-    server: "3.145.57.90"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-
-  - name: "github-ermaozi-trojan_3"
+  - name: "github-ermaozi-trojan_1"
     type: "trojan"
     server: "114.80.8.128"
     port: 39001
     password: "1df3ece1218bedba28c6c6ac726a07bb"
     sni: "www.yrtok.com"
 
-  - name: "github-ermaozi-vless_4"
-    type: "vless"
-    server: "172.64.147.236"
-    port: 443
-    uuid: "c35050ce-01ab-45a9-91b8-54cec637d0a8"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/udfyfws"
-
-  - name: "github-ermaozi-hysteria2_5"
+  - name: "github-ermaozi-hysteria2_3"
     type: "hysteria2"
-    server: "vn2.yuntong.click"
-    port: 443
-    password: "f7cb07a0-e6f9-4d22-a60e-c61854450c89"
+    server: "45.88.43.116"
+    port: 52454
+    password: "6c077487-06af-4fb1-9e46-d485d98f0a31"
     alpn:
       - "h3"
     udp: true
 
-  - name: "github-ermaozi-vmess_6"
+  - name: "github-ermaozi-vmess_4"
+    type: "vmess"
+    server: "v4.hdacd.com"
+    port: 30804
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-ermaozi-vmess_5"
     type: "vmess"
     server: "n1747624274.4u9ma.icu"
     port: 443
@@ -289,44 +272,25 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github-ermaozi-vmess_7"
-    type: "vmess"
-    server: "n1747624260.4u9ma.icu"
-    port: 443
-    uuid: "eee8cb72-7eab-4034-a308-ed06cb07e003"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "github-ermaozi-vless_8"
-    type: "vless"
-    server: "hokm-t1.igatel.com"
-    port: 8526
-    uuid: "a49adb79-ed7b-449a-8bba-3842dc495e74"
-    tls: true
-    network: "tcp"
-
-  - name: "github-ermaozi-hysteria2_9"
+  - name: "github-ermaozi-hysteria2_7"
     type: "hysteria2"
-    server: "156.226.172.6"
-    port: 55000
-    password: "e3d48fa4-42b7-40a7-827c-5b6496a043d1"
+    server: "69.63.220.227"
+    port: 443
+    password: "038663b35fe801158d3eca2dae5a6fb1"
     alpn:
       - "h3"
     udp: true
 
-  - name: "github-ermaozi-vless_10"
-    type: "vless"
-    server: "120.55.183.176"
+  - name: "github-ermaozi-hysteria2_8"
+    type: "hysteria2"
+    server: "54.255.102.19"
     port: 443
-    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/sg-melbi"
+    password: "H7mP2xY9kJ4nQ8wR5tF6vB3z"
+    alpn:
+      - "h3"
+    udp: true
 
-  - name: "github-ermaozi-vmess_11"
+  - name: "github-ermaozi-vmess_9"
     type: "vmess"
     server: "guanwang.awsno.com"
     port: 443
@@ -336,25 +300,22 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "github-ermaozi-hysteria2_12"
-    type: "hysteria2"
-    server: "45.154.205.25"
-    port: 55000
-    password: "88f839f2-c3c0-487d-aac3-f8c089d2369d"
-    alpn:
-      - "h3"
-    udp: true
+  - name: "github-ermaozi-vless_11"
+    type: "vless"
+    server: "fn.fifapes.monster"
+    port: 2090
+    uuid: "eab915bc-d2df-73d1-47d0-6eb240497055"
+    tls: false
+    network: "tcp"
+
+  - name: "github-ermaozi-ss_12"
+    type: "ss"
+    server: "185.22.154.103"
+    port: 10921
+    cipher: "aes-256-gcm"
+    password: "cfe685726eea2c4b"
 
   - name: "github-ermaozi-hysteria2_13"
-    type: "hysteria2"
-    server: "ff2.yuntong.click"
-    port: 443
-    password: "f7cb07a0-e6f9-4d22-a60e-c61854450c89"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "github-ermaozi-hysteria2_14"
     type: "hysteria2"
     server: "haigc.shop"
     port: 443
@@ -363,41 +324,73 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "github-ermaozi-hysteria2_15"
-    type: "hysteria2"
-    server: "fast88.screw.page"
-    port: 443
-    password: "c0aa0cee-e855-4bcc-9afc-46241cb17990"
-    alpn:
-      - "h3"
-    udp: true
+  - name: "github-ermaozi-vmess_15"
+    type: "vmess"
+    server: "v29.hdacd.com"
+    port: 30829
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
-  - name: "github-ermaozi-hysteria2_16"
-    type: "hysteria2"
-    server: "69.63.220.227"
-    port: 443
-    password: "038663b35fe801158d3eca2dae5a6fb1"
-    alpn:
-      - "h3"
-    udp: true
+  - name: "github-ermaozi-vmess_16"
+    type: "vmess"
+    server: "v33.hdacd.com"
+    port: 30833
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
   - name: "github-ermaozi-hysteria2_17"
     type: "hysteria2"
-    server: "54.255.102.19"
+    server: "ff2.yuntong.click"
     port: 443
-    password: "H7mP2xY9kJ4nQ8wR5tF6vB3z"
+    password: "f7cb07a0-e6f9-4d22-a60e-c61854450c89"
     alpn:
       - "h3"
     udp: true
 
-  - name: "github-ermaozi-ss_18"
-    type: "ss"
-    server: "52.195.12.64"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+  - name: "github-ermaozi-vmess_18"
+    type: "vmess"
+    server: "47.83.221.185"
+    port: 80
+    uuid: "771a590c-5eac-5732-b796-17251132f8d2"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
   - name: "github-ermaozi-vmess_19"
+    type: "vmess"
+    server: "n1747624260.4u9ma.icu"
+    port: 443
+    uuid: "eee8cb72-7eab-4034-a308-ed06cb07e003"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "github-ermaozi-vmess_20"
+    type: "vmess"
+    server: "47.250.217.108"
+    port: 25031
+    uuid: "626a25dc-97e3-4d39-98cb-93b78d4f83c7"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "github-ermaozi-ss_21"
+    type: "ss"
+    server: "103.149.182.79"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+
+  - name: "github-ermaozi-vmess_22"
     type: "vmess"
     server: "47.76.127.88"
     port: 5566
@@ -406,6 +399,32 @@ proxies:
     cipher: "auto"
     tls: false
     network: "tcp"
+
+  - name: "github-ermaozi-ss_23"
+    type: "ss"
+    server: "3.145.57.90"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "github-ermaozi-hysteria2_24"
+    type: "hysteria2"
+    server: "fast88.screw.page"
+    port: 443
+    password: "c0aa0cee-e855-4bcc-9afc-46241cb17990"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "anaer.github.io-vless_1"
+    type: "vless"
+    server: "120.55.183.176"
+    port: 443
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/sg-melbi"
 
   - name: "anaer.github.io-vless_2"
     type: "vless"
@@ -1088,120 +1107,370 @@ proxies:
 
   - name: "github-peasoft-trojan_1"
     type: "trojan"
-    server: "54.46.117.9"
-    port: 20083
+    server: "16.163.41.104"
+    port: 13118
     password: "b490740312aedb5f9f6b84c7aebd08c0"
     sni: "www.nintendogames.net"
 
   - name: "github-peasoft-trojan_2"
     type: "trojan"
-    server: "95.40.32.196"
-    port: 11035
+    server: "43.198.114.146"
+    port: 27161
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
   - name: "github-peasoft-trojan_3"
     type: "trojan"
-    server: "18.162.125.64"
+    server: "95.40.50.170"
     port: 27161
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
   - name: "github-peasoft-trojan_4"
     type: "trojan"
-    server: "18.162.60.7"
-    port: 27826
+    server: "13.230.164.110"
+    port: 19708
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
 
   - name: "github-peasoft-trojan_5"
     type: "trojan"
-    server: "95.40.13.204"
+    server: "54.46.12.97"
     port: 40138
     password: "b490740312aedb5f9f6b84c7aebd08c0"
     sni: "www.nintendogames.net"
 
   - name: "github-peasoft-trojan_6"
     type: "trojan"
-    server: "18.163.103.6"
-    port: 40138
+    server: "18.163.121.106"
+    port: 24370
     password: "b490740312aedb5f9f6b84c7aebd08c0"
     sni: "www.nintendogames.net"
 
   - name: "github-peasoft-trojan_7"
     type: "trojan"
-    server: "18.163.103.6"
+    server: "18.163.121.106"
     port: 48738
     password: "b490740312aedb5f9f6b84c7aebd08c0"
     sni: "www.nintendogames.net"
 
   - name: "github-peasoft-trojan_8"
     type: "trojan"
-    server: "54.46.117.9"
-    port: 48738
+    server: "16.163.41.104"
+    port: 6357
     password: "b490740312aedb5f9f6b84c7aebd08c0"
     sni: "www.nintendogames.net"
 
   - name: "github-peasoft-trojan_9"
     type: "trojan"
-    server: "95.40.33.19"
+    server: "18.166.58.225"
     port: 32434
     password: "BxceQaOe"
     sni: "t.me%252Fripaojiedian"
 
   - name: "github-peasoft-trojan_10"
     type: "trojan"
-    server: "54.46.117.9"
-    port: 49277
+    server: "54.46.12.97"
+    port: 17005
     password: "b490740312aedb5f9f6b84c7aebd08c0"
     sni: "www.nintendogames.net"
 
   - name: "github-peasoft-trojan_11"
     type: "trojan"
-    server: "18.163.110.193"
-    port: 17005
+    server: "54.46.12.97"
+    port: 49277
     password: "b490740312aedb5f9f6b84c7aebd08c0"
     sni: "www.nintendogames.net"
 
-  - name: "github-peasoft-vmess_13"
-    type: "vmess"
-    server: "b32-14.cmj0502.cn"
-    port: 45979
-    uuid: "23bdf6df-c482-46d0-c0f4-5a98d534ea11"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/test"
-
-  - name: "github-peasoft-trojan_14"
+  - name: "github-peasoft-trojan_13"
     type: "trojan"
     server: "94.140.0.100"
     port: 443
     password: "MITIVPN"
     sni: "95r.ir"
 
-  - name: "github-peasoft-trojan_15"
+  - name: "github-peasoft-trojan_14"
     type: "trojan"
     server: "164.38.155.135"
     port: 443
     password: "MITIVPN"
     sni: "95r.ir"
 
-  - name: "github-peasoft-trojan_16"
+  - name: "github-peasoft-trojan_15"
     type: "trojan"
     server: "45.131.4.118"
     port: 443
     password: "MiTiVPN"
     sni: "95r.ir"
 
-  - name: "github-peasoft-trojan_17"
+  - name: "github-peasoft-trojan_16"
     type: "trojan"
     server: "iranpoems.ir"
     port: 443
     password: "Mitivpn"
     sni: "www.gamingdll.ir"
+
+  - name: "static.v2rayshare.-vless_25"
+    type: "vless"
+    server: "222.167.202.32"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.32:7443"
+
+  - name: "static.v2rayshare.-vless_26"
+    type: "vless"
+    server: "222.167.202.47"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.47:7443"
+
+  - name: "static.v2rayshare.-vless_27"
+    type: "vless"
+    server: "nl1.samovargate.com"
+    port: 443
+    uuid: "82b5b465-3307-4a25-acef-abd1649bbedf"
+    tls: true
+    network: "tcp"
+
+  - name: "static.v2rayshare.-vless_28"
+    type: "vless"
+    server: "89.58.40.177"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "static.v2rayshare.-vless_29"
+    type: "vless"
+    server: "222.167.202.60"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.60:7443"
+
+  - name: "static.v2rayshare.-vless_30"
+    type: "vless"
+    server: "5.34.209.231"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "static.v2rayshare.-vless_31"
+    type: "vless"
+    server: "222.167.202.3"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.3:7443"
+
+  - name: "static.v2rayshare.-vless_32"
+    type: "vless"
+    server: "104.19.58.118"
+    port: 443
+    uuid: "340dee85-bfd7-4395-8d2e-87dbc2781a13"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/kbjc/us1"
+
+  - name: "static.v2rayshare.-vless_33"
+    type: "vless"
+    server: "222.167.202.21"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.21:7443"
+
+  - name: "static.v2rayshare.-vless_34"
+    type: "vless"
+    server: "222.167.202.70"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.70:7443"
+
+  - name: "static.v2rayshare.-vless_35"
+    type: "vless"
+    server: "222.167.202.23"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.23:7443"
+
+  - name: "static.v2rayshare.-ss_36"
+    type: "ss"
+    server: "103.186.154.173"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "static.v2rayshare.-vless_37"
+    type: "vless"
+    server: "222.167.202.50"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.50:7443"
+
+  - name: "static.v2rayshare.-vless_38"
+    type: "vless"
+    server: "222.167.202.35"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.35:7443"
+
+  - name: "static.v2rayshare.-vless_39"
+    type: "vless"
+    server: "146.59.230.8"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+
+  - name: "static.v2rayshare.-ss_40"
+    type: "ss"
+    server: "103.186.155.30"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "static.v2rayshare.-ss_41"
+    type: "ss"
+    server: "103.186.155.75"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "static.v2rayshare.-vless_42"
+    type: "vless"
+    server: "222.167.202.36"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.36:7443"
+
+  - name: "static.v2rayshare.-vless_43"
+    type: "vless"
+    server: "222.167.202.22"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.22:7443"
+
+  - name: "static.v2rayshare.-ss_44"
+    type: "ss"
+    server: "103.186.155.62"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+
+  - name: "static.v2rayshare.-vless_45"
+    type: "vless"
+    server: "222.167.202.4"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.4:7443"
+
+  - name: "static.v2rayshare.-vless_46"
+    type: "vless"
+    server: "222.167.202.52"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.52:7443"
+
+  - name: "static.v2rayshare.-vless_47"
+    type: "vless"
+    server: "222.167.202.33"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.33:7443"
+
+  - name: "static.v2rayshare.-vless_48"
+    type: "vless"
+    server: "156.229.161.107"
+    port: 10001
+    uuid: "9c79aceb-4649-44ea-9698-b5e9ecf6d6da"
+    tls: true
+    network: "tcp"
+
+  - name: "static.v2rayshare.-vless_49"
+    type: "vless"
+    server: "222.167.202.10"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.10:7443"
+
+  - name: "static.v2rayshare.-vless_50"
+    type: "vless"
+    server: "222.167.202.16"
+    port: 7443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/222.167.202.16:7443"
+
+  - name: "static.v2rayshare.-vless_51"
+    type: "vless"
+    server: "45.43.76.184"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
+
+  - name: "static.v2rayshare.-vless_52"
+    type: "vless"
+    server: "91.84.101.164"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -1243,42 +1512,105 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github-mfuu-trojan_1"
-    type: "trojan"
-    server: "104.19.230.21"
-    port: 443
-    password: "humanity"
-    sni: "www.multiplydose.com"
+  - name: "github-mfuu-ss_1"
+    type: "ss"
+    server: "103.111.114.71"
+    port: 28061
+    cipher: "chacha20-ietf-poly1305"
+    password: "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
 
-  - name: "github-mfuu-trojan_2"
-    type: "trojan"
-    server: "185.137.157.140"
-    port: 443
-    password: "dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q"
-    sni: "185.137.157.140"
+  - name: "github-mfuu-ss_3"
+    type: "ss"
+    server: "103.111.114.82"
+    port: 28061
+    cipher: "chacha20-ietf-poly1305"
+    password: "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
 
-  - name: "github-mfuu-trojan_3"
+  - name: "github-mfuu-trojan_6"
     type: "trojan"
-    server: "185.137.157.138"
-    port: 443
-    password: "dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q"
-    sni: "185.137.157.138"
+    server: "54.46.117.9"
+    port: 20083
+    password: "b490740312aedb5f9f6b84c7aebd08c0"
+    sni: "www.nintendogames.net"
 
-  - name: "github-mfuu-trojan_4"
+  - name: "github-mfuu-trojan_7"
     type: "trojan"
-    server: "185.137.157.156"
-    port: 443
-    password: "dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q"
-    sni: "185.137.157.156"
+    server: "95.40.32.196"
+    port: 11035
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
 
-  - name: "github-mfuu-trojan_18"
+  - name: "github-mfuu-trojan_8"
+    type: "trojan"
+    server: "18.162.125.64"
+    port: 27161
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+
+  - name: "github-mfuu-trojan_9"
+    type: "trojan"
+    server: "18.162.60.7"
+    port: 27826
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "github-mfuu-trojan_10"
+    type: "trojan"
+    server: "95.40.13.204"
+    port: 40138
+    password: "b490740312aedb5f9f6b84c7aebd08c0"
+    sni: "www.nintendogames.net"
+
+  - name: "github-mfuu-trojan_11"
+    type: "trojan"
+    server: "18.163.103.6"
+    port: 40138
+    password: "b490740312aedb5f9f6b84c7aebd08c0"
+    sni: "www.nintendogames.net"
+
+  - name: "github-mfuu-trojan_12"
+    type: "trojan"
+    server: "18.163.103.6"
+    port: 48738
+    password: "b490740312aedb5f9f6b84c7aebd08c0"
+    sni: "www.nintendogames.net"
+
+  - name: "github-mfuu-trojan_13"
+    type: "trojan"
+    server: "54.46.117.9"
+    port: 48738
+    password: "b490740312aedb5f9f6b84c7aebd08c0"
+    sni: "www.nintendogames.net"
+
+  - name: "github-mfuu-trojan_14"
+    type: "trojan"
+    server: "95.40.33.19"
+    port: 32434
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "github-mfuu-trojan_15"
+    type: "trojan"
+    server: "54.46.117.9"
+    port: 49277
+    password: "b490740312aedb5f9f6b84c7aebd08c0"
+    sni: "www.nintendogames.net"
+
+  - name: "github-mfuu-trojan_16"
+    type: "trojan"
+    server: "18.163.110.193"
+    port: 17005
+    password: "b490740312aedb5f9f6b84c7aebd08c0"
+    sni: "www.nintendogames.net"
+
+  - name: "github-mfuu-trojan_17"
     type: "trojan"
     server: "54.46.67.204"
     port: 34638
     password: "BxceQaOe"
     sni: "t.me/ripaojiedian"
 
-  - name: "github-mfuu-vmess_45"
+  - name: "github-mfuu-vmess_44"
     type: "vmess"
     server: "82.198.246.37"
     port: 180
@@ -1288,7 +1620,7 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-vmess_48"
+  - name: "github-mfuu-vmess_47"
     type: "vmess"
     server: "82.198.246.97"
     port: 180
@@ -1298,35 +1630,35 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-trojan_49"
+  - name: "github-mfuu-trojan_48"
     type: "trojan"
     server: "91.221.190.80"
     port: 443
     password: "8r%3C%5B9%27l6hAO%238ZQi"
     sni: "Koma-YT.PAGeS.Dev"
 
-  - name: "github-mfuu-trojan_50"
+  - name: "github-mfuu-trojan_49"
     type: "trojan"
     server: "151.241.215.148"
     port: 443
     password: "8r%3C%5B9%27l6hAO%238ZQi"
     sni: "Koma-YT.PAGeS.Dev"
 
-  - name: "github-mfuu-trojan_51"
+  - name: "github-mfuu-trojan_50"
     type: "trojan"
     server: "45.145.171.206"
     port: 443
     password: "8r%3C%5B9%27l6hAO%238ZQi"
     sni: "Koma-YT.PAGeS.Dev"
 
-  - name: "github-mfuu-trojan_52"
+  - name: "github-mfuu-trojan_51"
     type: "trojan"
     server: "152.53.200.89"
     port: 8443
     password: "8r%3C%5B9%27l6hAO%238ZQi"
     sni: "Koma-YT.PAGeS.Dev"
 
-  - name: "github-mfuu-vmess_53"
+  - name: "github-mfuu-vmess_52"
     type: "vmess"
     server: "103.127.243.59"
     port: 56738
@@ -1336,28 +1668,28 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-trojan_54"
+  - name: "github-mfuu-trojan_53"
     type: "trojan"
     server: "59.30.42.194"
     port: 12345
     password: "433e785b-2077-47f7-a43d-985f63dd18d1"
     sni: "vpn.rnmcnm.com"
 
-  - name: "github-mfuu-trojan_55"
+  - name: "github-mfuu-trojan_54"
     type: "trojan"
     server: "14.53.107.138"
     port: 29999
     password: "433e785b-2077-47f7-a43d-985f63dd18d1"
     sni: "vpn.rnmcnm.com"
 
-  - name: "github-mfuu-trojan_61"
+  - name: "github-mfuu-trojan_60"
     type: "trojan"
     server: "au-4.tr202605.com"
     port: 443
     password: "65fQmPHHbPcBCfvSHt"
     sni: "au-4.tr202605.com"
 
-  - name: "github-mfuu-vmess_62"
+  - name: "github-mfuu-vmess_61"
     type: "vmess"
     server: "103.181.164.145"
     port: 51556
@@ -1367,7 +1699,7 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-vmess_63"
+  - name: "github-mfuu-vmess_62"
     type: "vmess"
     server: "103.181.164.145"
     port: 54022
@@ -1377,21 +1709,21 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-trojan_68"
+  - name: "github-mfuu-trojan_67"
     type: "trojan"
     server: "211.76.176.98"
     port: 19128
     password: "gcuCpQfaiVeDBdWG"
     sni: "yazhou10.dynu.net"
 
-  - name: "github-mfuu-trojan_69"
+  - name: "github-mfuu-trojan_68"
     type: "trojan"
     server: "103.45.245.208"
     port: 2053
     password: "rYuChHcwQZskq9E0zdoR"
     sni: "vpn5.rnmcnm.com"
 
-  - name: "github-mfuu-vmess_72"
+  - name: "github-mfuu-vmess_71"
     type: "vmess"
     server: "renderer-stream-1-411.mirra.now"
     port: 443
@@ -1401,21 +1733,21 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-trojan_78"
+  - name: "github-mfuu-trojan_77"
     type: "trojan"
     server: "188.114.97.6"
     port: 443
     password: "mitivpn"
     sni: "2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site"
 
-  - name: "github-mfuu-trojan_82"
+  - name: "github-mfuu-trojan_81"
     type: "trojan"
     server: "211.49.57.175"
     port: 443
     password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     sni: "hhcm.hhxaf.cc.cd"
 
-  - name: "github-mfuu-vmess_83"
+  - name: "github-mfuu-vmess_82"
     type: "vmess"
     server: "69.84.182.49"
     port: 80
@@ -1425,7 +1757,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-vmess_84"
+  - name: "github-mfuu-vmess_83"
     type: "vmess"
     server: "160.250.247.70"
     port: 49178
@@ -1435,89 +1767,82 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-trojan_86"
+  - name: "github-mfuu-trojan_85"
     type: "trojan"
     server: "211.49.57.178"
     port: 443
     password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     sni: "hhcm.hhxaf.cc.cd"
 
-  - name: "github-mfuu-trojan_87"
+  - name: "github-mfuu-trojan_86"
     type: "trojan"
     server: "211.49.57.179"
     port: 443
     password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     sni: "tjsp.hhxaf.cc.cd"
 
-  - name: "github-mfuu-trojan_91"
+  - name: "github-mfuu-trojan_90"
     type: "trojan"
     server: "151.101.242.172"
     port: 80
     password: "Mitivpn"
     sni: "151.101.242.172"
 
-  - name: "github-mfuu-trojan_92"
+  - name: "github-mfuu-trojan_91"
     type: "trojan"
     server: "146.75.116.190"
     port: 80
     password: "Mitivpn"
     sni: "146.75.116.190"
 
-  - name: "github-mfuu-trojan_93"
+  - name: "github-mfuu-trojan_92"
     type: "trojan"
     server: "167.82.101.251"
     port: 443
     password: "Mitivpn"
     sni: "ssl.fastly.com"
 
-  - name: "github-mfuu-trojan_95"
+  - name: "github-mfuu-trojan_94"
     type: "trojan"
     server: "www.ignitelimit.com"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
 
-  - name: "github-mfuu-trojan_97"
+  - name: "github-mfuu-trojan_96"
     type: "trojan"
     server: "104.25.108.147"
     port: 8080
     password: "9c521e24-7326-acd3-acec-d0afac2b465d"
     sni: "red-cell-47f9.milaniomilan9.workers.dev"
 
-  - name: "github-mfuu-trojan_101"
+  - name: "github-mfuu-trojan_100"
     type: "trojan"
     server: "151.101.56.6"
     port: 443
     password: "Mitivpn"
     sni: "ssl.fastly.com"
 
-  - name: "github-mfuu-trojan_102"
-    type: "trojan"
-    server: "172.64.147.166"
-    port: 443
-    password: "humanity"
-    sni: "www.multiplydose.com"
-
-  - name: "github-mfuu-trojan_104"
-    type: "trojan"
-    server: "172.64.152.23"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-
-  - name: "github-mfuu-ss_105"
+  - name: "github-mfuu-ss_101"
     type: "ss"
     server: "tinkered-pennies-puppies.freesocks.work"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "hbGrpfvNrJsUmKmPbR3iY2"
 
-  - name: "github-mfuu-trojan_108"
+  - name: "github-mfuu-trojan_102"
+    type: "trojan"
+    server: "104.18.152.246"
+    port: 443
+    password: "humanity"
+    sni: "www.calmloud.com"
+
+  - name: "github-mfuu-trojan_103"
     type: "trojan"
     server: "165.215.250.14"
     port: 443
     password: "humanity"
-    sni: "www.creationlong.org"
+    sni: "www.ignitelimit.com"
 
   - name: "github-go4sharing-ss_1"
     type: "ss"
@@ -1543,6 +1868,13 @@ proxies:
   - name: "github-go4sharing-ss_33"
     type: "ss"
     server: "18.183.180.62"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "github-go4sharing-ss_34"
+    type: "ss"
+    server: "52.195.12.64"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
@@ -1604,19 +1936,33 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "xrayvip.com-trojan_30"
+  - name: "xrayvip.com-trojan_12"
+    type: "trojan"
+    server: "blackshadow.dpdns.org"
+    port: 443
+    password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
+    sni: "blackshadow.dpdns.org"
+
+  - name: "xrayvip.com-trojan_21"
     type: "trojan"
     server: "104.18.152.219"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
 
-  - name: "xrayvip.com-trojan_31"
+  - name: "xrayvip.com-trojan_22"
     type: "trojan"
-    server: "104.17.177.143"
+    server: "172.66.46.250"
+    port: 443
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    sni: "hhcm.hhxaf.cc.cd"
+
+  - name: "xrayvip.com-trojan_23"
+    type: "trojan"
+    server: "172.64.147.166"
     port: 443
     password: "humanity"
-    sni: "www.ignitelimit.com"
+    sni: "www.multiplydose.com"
 
   - name: "jsdelivr-chengaopa-hysteria2_1"
     type: "hysteria2"
@@ -1730,7 +2076,7 @@ proxies:
     type: "hysteria2"
     server: "91.107.152.188"
     port: 40460
-    password: "Dd8FfJSif0"
+    password: "D0KVsHbDlj"
     alpn:
       - "h3"
     udp: true
@@ -1739,12 +2085,21 @@ proxies:
     type: "hysteria2"
     server: "91.107.152.188"
     port: 40460
-    password: "JxCHTtg2gX"
+    password: "Dd8FfJSif0"
     alpn:
       - "h3"
     udp: true
 
   - name: "jsdelivr-chengaopa-hysteria2_15"
+    type: "hysteria2"
+    server: "140.233.177.48"
+    port: 33884
+    password: "H2I53e3OzO"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_16"
     type: "hysteria2"
     server: "91.107.152.188"
     port: 40460
@@ -1753,7 +2108,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_16"
+  - name: "jsdelivr-chengaopa-hysteria2_17"
     type: "hysteria2"
     server: "179.61.132.96"
     port: 8443
@@ -1762,7 +2117,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_17"
+  - name: "jsdelivr-chengaopa-hysteria2_18"
     type: "hysteria2"
     server: "91.107.152.188"
     port: 40460
@@ -1771,7 +2126,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_18"
+  - name: "jsdelivr-chengaopa-hysteria2_19"
     type: "hysteria2"
     server: "65.109.177.191"
     port: 443
@@ -1780,7 +2135,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_19"
+  - name: "jsdelivr-chengaopa-hysteria2_20"
     type: "hysteria2"
     server: "155.117.5.222"
     port: 22746
@@ -1789,7 +2144,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_20"
+  - name: "jsdelivr-chengaopa-hysteria2_21"
     type: "hysteria2"
     server: "206.71.158.37"
     port: 35000
@@ -1798,7 +2153,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_21"
+  - name: "jsdelivr-chengaopa-hysteria2_22"
     type: "hysteria2"
     server: "argg2.auragg.org"
     port: 443
@@ -1807,7 +2162,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_22"
+  - name: "jsdelivr-chengaopa-hysteria2_23"
     type: "hysteria2"
     server: "5.175.249.174"
     port: 35000
@@ -1816,7 +2171,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_23"
+  - name: "jsdelivr-chengaopa-hysteria2_24"
     type: "hysteria2"
     server: "155.248.209.237"
     port: 33333
@@ -1825,7 +2180,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_24"
+  - name: "jsdelivr-chengaopa-hysteria2_25"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
     port: 52008
@@ -1834,7 +2189,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_26"
+  - name: "jsdelivr-chengaopa-hysteria2_27"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
     port: 52013
@@ -1843,7 +2198,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_27"
+  - name: "jsdelivr-chengaopa-hysteria2_28"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
     port: 52018
@@ -1852,7 +2207,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_29"
+  - name: "jsdelivr-chengaopa-hysteria2_30"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
     port: 52020
@@ -1861,19 +2216,10 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_30"
-    type: "hysteria2"
-    server: "assets.gateway-stream.com"
-    port: 52021
-    password: "elknam6l7izf3z71"
-    alpn:
-      - "h3"
-    udp: true
-
   - name: "jsdelivr-chengaopa-hysteria2_31"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
-    port: 52023
+    port: 52021
     password: "elknam6l7izf3z71"
     alpn:
       - "h3"
@@ -1882,7 +2228,7 @@ proxies:
   - name: "jsdelivr-chengaopa-hysteria2_32"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
-    port: 52032
+    port: 52023
     password: "elknam6l7izf3z71"
     alpn:
       - "h3"
@@ -1891,7 +2237,7 @@ proxies:
   - name: "jsdelivr-chengaopa-hysteria2_33"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
-    port: 52038
+    port: 52032
     password: "elknam6l7izf3z71"
     alpn:
       - "h3"
@@ -1900,7 +2246,7 @@ proxies:
   - name: "jsdelivr-chengaopa-hysteria2_34"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
-    port: 52051
+    port: 52038
     password: "elknam6l7izf3z71"
     alpn:
       - "h3"
@@ -1909,7 +2255,7 @@ proxies:
   - name: "jsdelivr-chengaopa-hysteria2_35"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
-    port: 52061
+    port: 52051
     password: "elknam6l7izf3z71"
     alpn:
       - "h3"
@@ -1918,13 +2264,22 @@ proxies:
   - name: "jsdelivr-chengaopa-hysteria2_36"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
-    port: 52067
+    port: 52061
     password: "elknam6l7izf3z71"
     alpn:
       - "h3"
     udp: true
 
   - name: "jsdelivr-chengaopa-hysteria2_37"
+    type: "hysteria2"
+    server: "assets.gateway-stream.com"
+    port: 52067
+    password: "elknam6l7izf3z71"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_38"
     type: "hysteria2"
     server: "soskeynets.gateway-stream.com"
     port: 52021
@@ -1933,7 +2288,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_38"
+  - name: "jsdelivr-chengaopa-hysteria2_39"
     type: "hysteria2"
     server: "nrealistic.nn-foto.ru"
     port: 1935
@@ -1942,19 +2297,10 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_39"
+  - name: "jsdelivr-chengaopa-hysteria2_40"
     type: "hysteria2"
     server: "social.klipp.su"
     port: 443
-    password: "eltgrek81o6w5cd4"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_40"
-    type: "hysteria2"
-    server: "soskeynets.nn-foto.ru"
-    port: 1935
     password: "eltgrek81o6w5cd4"
     alpn:
       - "h3"
@@ -2022,30 +2368,12 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "jsdelivr-chengaopa-ss_47"
+  - name: "jsdelivr-chengaopa-ss_63"
     type: "ss"
     server: "63.180.254.10"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-
-  - name: "jsdelivr-chengaopa-hysteria2_13-1"
-    type: "hysteria2"
-    server: "91.107.152.188"
-    port: 40460
-    password: "D0KVsHbDlj"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_15-1"
-    type: "hysteria2"
-    server: "140.233.177.48"
-    port: 33884
-    password: "H2I53e3OzO"
-    alpn:
-      - "h3"
-    udp: true
 
 proxy-groups:
   - name: Proxy
@@ -2078,25 +2406,27 @@ proxy-groups:
       - "github-freefq-ss_13"
       - "github-freefq-vmess_14"
       - "github-freefq-vmess_15"
-      - "github-ermaozi-vmess_1"
-      - "github-ermaozi-ss_2"
-      - "github-ermaozi-trojan_3"
-      - "github-ermaozi-vless_4"
-      - "github-ermaozi-hysteria2_5"
-      - "github-ermaozi-vmess_6"
-      - "github-ermaozi-vmess_7"
-      - "github-ermaozi-vless_8"
-      - "github-ermaozi-hysteria2_9"
-      - "github-ermaozi-vless_10"
-      - "github-ermaozi-vmess_11"
-      - "github-ermaozi-hysteria2_12"
+      - "github-ermaozi-trojan_1"
+      - "github-ermaozi-hysteria2_3"
+      - "github-ermaozi-vmess_4"
+      - "github-ermaozi-vmess_5"
+      - "github-ermaozi-hysteria2_7"
+      - "github-ermaozi-hysteria2_8"
+      - "github-ermaozi-vmess_9"
+      - "github-ermaozi-vless_11"
+      - "github-ermaozi-ss_12"
       - "github-ermaozi-hysteria2_13"
-      - "github-ermaozi-hysteria2_14"
-      - "github-ermaozi-hysteria2_15"
-      - "github-ermaozi-hysteria2_16"
+      - "github-ermaozi-vmess_15"
+      - "github-ermaozi-vmess_16"
       - "github-ermaozi-hysteria2_17"
-      - "github-ermaozi-ss_18"
+      - "github-ermaozi-vmess_18"
       - "github-ermaozi-vmess_19"
+      - "github-ermaozi-vmess_20"
+      - "github-ermaozi-ss_21"
+      - "github-ermaozi-vmess_22"
+      - "github-ermaozi-ss_23"
+      - "github-ermaozi-hysteria2_24"
+      - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_2"
       - "anaer.github.io-vless_3"
       - "anaer.github.io-vless_4"
@@ -2177,55 +2507,91 @@ proxy-groups:
       - "github-peasoft-trojan_9"
       - "github-peasoft-trojan_10"
       - "github-peasoft-trojan_11"
-      - "github-peasoft-vmess_13"
+      - "github-peasoft-trojan_13"
       - "github-peasoft-trojan_14"
       - "github-peasoft-trojan_15"
       - "github-peasoft-trojan_16"
-      - "github-peasoft-trojan_17"
+      - "static.v2rayshare.-vless_25"
+      - "static.v2rayshare.-vless_26"
+      - "static.v2rayshare.-vless_27"
+      - "static.v2rayshare.-vless_28"
+      - "static.v2rayshare.-vless_29"
+      - "static.v2rayshare.-vless_30"
+      - "static.v2rayshare.-vless_31"
+      - "static.v2rayshare.-vless_32"
+      - "static.v2rayshare.-vless_33"
+      - "static.v2rayshare.-vless_34"
+      - "static.v2rayshare.-vless_35"
+      - "static.v2rayshare.-ss_36"
+      - "static.v2rayshare.-vless_37"
+      - "static.v2rayshare.-vless_38"
+      - "static.v2rayshare.-vless_39"
+      - "static.v2rayshare.-ss_40"
+      - "static.v2rayshare.-ss_41"
+      - "static.v2rayshare.-vless_42"
+      - "static.v2rayshare.-vless_43"
+      - "static.v2rayshare.-ss_44"
+      - "static.v2rayshare.-vless_45"
+      - "static.v2rayshare.-vless_46"
+      - "static.v2rayshare.-vless_47"
+      - "static.v2rayshare.-vless_48"
+      - "static.v2rayshare.-vless_49"
+      - "static.v2rayshare.-vless_50"
+      - "static.v2rayshare.-vless_51"
+      - "static.v2rayshare.-vless_52"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_1"
-      - "github-mfuu-trojan_2"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-trojan_4"
-      - "github-mfuu-trojan_18"
-      - "github-mfuu-vmess_45"
-      - "github-mfuu-vmess_48"
+      - "github-mfuu-ss_1"
+      - "github-mfuu-ss_3"
+      - "github-mfuu-trojan_6"
+      - "github-mfuu-trojan_7"
+      - "github-mfuu-trojan_8"
+      - "github-mfuu-trojan_9"
+      - "github-mfuu-trojan_10"
+      - "github-mfuu-trojan_11"
+      - "github-mfuu-trojan_12"
+      - "github-mfuu-trojan_13"
+      - "github-mfuu-trojan_14"
+      - "github-mfuu-trojan_15"
+      - "github-mfuu-trojan_16"
+      - "github-mfuu-trojan_17"
+      - "github-mfuu-vmess_44"
+      - "github-mfuu-vmess_47"
+      - "github-mfuu-trojan_48"
       - "github-mfuu-trojan_49"
       - "github-mfuu-trojan_50"
       - "github-mfuu-trojan_51"
-      - "github-mfuu-trojan_52"
-      - "github-mfuu-vmess_53"
+      - "github-mfuu-vmess_52"
+      - "github-mfuu-trojan_53"
       - "github-mfuu-trojan_54"
-      - "github-mfuu-trojan_55"
-      - "github-mfuu-trojan_61"
+      - "github-mfuu-trojan_60"
+      - "github-mfuu-vmess_61"
       - "github-mfuu-vmess_62"
-      - "github-mfuu-vmess_63"
+      - "github-mfuu-trojan_67"
       - "github-mfuu-trojan_68"
-      - "github-mfuu-trojan_69"
-      - "github-mfuu-vmess_72"
-      - "github-mfuu-trojan_78"
-      - "github-mfuu-trojan_82"
+      - "github-mfuu-vmess_71"
+      - "github-mfuu-trojan_77"
+      - "github-mfuu-trojan_81"
+      - "github-mfuu-vmess_82"
       - "github-mfuu-vmess_83"
-      - "github-mfuu-vmess_84"
+      - "github-mfuu-trojan_85"
       - "github-mfuu-trojan_86"
-      - "github-mfuu-trojan_87"
+      - "github-mfuu-trojan_90"
       - "github-mfuu-trojan_91"
       - "github-mfuu-trojan_92"
-      - "github-mfuu-trojan_93"
-      - "github-mfuu-trojan_95"
-      - "github-mfuu-trojan_97"
-      - "github-mfuu-trojan_101"
+      - "github-mfuu-trojan_94"
+      - "github-mfuu-trojan_96"
+      - "github-mfuu-trojan_100"
+      - "github-mfuu-ss_101"
       - "github-mfuu-trojan_102"
-      - "github-mfuu-trojan_104"
-      - "github-mfuu-ss_105"
-      - "github-mfuu-trojan_108"
+      - "github-mfuu-trojan_103"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_2"
       - "github-go4sharing-trojan_31"
       - "github-go4sharing-ss_33"
+      - "github-go4sharing-ss_34"
       - "github-go4sharing-vmess_35"
       - "github-go4sharing-ss_36"
       - "github-go4sharing-ss_37"
@@ -2233,8 +2599,10 @@ proxy-groups:
       - "github-go4sharing-ss_39"
       - "github-go4sharing-trojan_40"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-trojan_30"
-      - "xrayvip.com-trojan_31"
+      - "xrayvip.com-trojan_12"
+      - "xrayvip.com-trojan_21"
+      - "xrayvip.com-trojan_22"
+      - "xrayvip.com-trojan_23"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2259,9 +2627,9 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_22"
       - "jsdelivr-chengaopa-hysteria2_23"
       - "jsdelivr-chengaopa-hysteria2_24"
-      - "jsdelivr-chengaopa-hysteria2_26"
+      - "jsdelivr-chengaopa-hysteria2_25"
       - "jsdelivr-chengaopa-hysteria2_27"
-      - "jsdelivr-chengaopa-hysteria2_29"
+      - "jsdelivr-chengaopa-hysteria2_28"
       - "jsdelivr-chengaopa-hysteria2_30"
       - "jsdelivr-chengaopa-hysteria2_31"
       - "jsdelivr-chengaopa-hysteria2_32"
@@ -2280,9 +2648,7 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_58"
       - "jsdelivr-chengaopa-vless_63"
       - "jsdelivr-chengaopa-vless_101"
-      - "jsdelivr-chengaopa-ss_47"
-      - "jsdelivr-chengaopa-hysteria2_13-1"
-      - "jsdelivr-chengaopa-hysteria2_15-1"
+      - "jsdelivr-chengaopa-ss_63"
 
   - name: Auto
     type: url-test
@@ -2316,25 +2682,27 @@ proxy-groups:
       - "github-freefq-ss_13"
       - "github-freefq-vmess_14"
       - "github-freefq-vmess_15"
-      - "github-ermaozi-vmess_1"
-      - "github-ermaozi-ss_2"
-      - "github-ermaozi-trojan_3"
-      - "github-ermaozi-vless_4"
-      - "github-ermaozi-hysteria2_5"
-      - "github-ermaozi-vmess_6"
-      - "github-ermaozi-vmess_7"
-      - "github-ermaozi-vless_8"
-      - "github-ermaozi-hysteria2_9"
-      - "github-ermaozi-vless_10"
-      - "github-ermaozi-vmess_11"
-      - "github-ermaozi-hysteria2_12"
+      - "github-ermaozi-trojan_1"
+      - "github-ermaozi-hysteria2_3"
+      - "github-ermaozi-vmess_4"
+      - "github-ermaozi-vmess_5"
+      - "github-ermaozi-hysteria2_7"
+      - "github-ermaozi-hysteria2_8"
+      - "github-ermaozi-vmess_9"
+      - "github-ermaozi-vless_11"
+      - "github-ermaozi-ss_12"
       - "github-ermaozi-hysteria2_13"
-      - "github-ermaozi-hysteria2_14"
-      - "github-ermaozi-hysteria2_15"
-      - "github-ermaozi-hysteria2_16"
+      - "github-ermaozi-vmess_15"
+      - "github-ermaozi-vmess_16"
       - "github-ermaozi-hysteria2_17"
-      - "github-ermaozi-ss_18"
+      - "github-ermaozi-vmess_18"
       - "github-ermaozi-vmess_19"
+      - "github-ermaozi-vmess_20"
+      - "github-ermaozi-ss_21"
+      - "github-ermaozi-vmess_22"
+      - "github-ermaozi-ss_23"
+      - "github-ermaozi-hysteria2_24"
+      - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_2"
       - "anaer.github.io-vless_3"
       - "anaer.github.io-vless_4"
@@ -2415,55 +2783,91 @@ proxy-groups:
       - "github-peasoft-trojan_9"
       - "github-peasoft-trojan_10"
       - "github-peasoft-trojan_11"
-      - "github-peasoft-vmess_13"
+      - "github-peasoft-trojan_13"
       - "github-peasoft-trojan_14"
       - "github-peasoft-trojan_15"
       - "github-peasoft-trojan_16"
-      - "github-peasoft-trojan_17"
+      - "static.v2rayshare.-vless_25"
+      - "static.v2rayshare.-vless_26"
+      - "static.v2rayshare.-vless_27"
+      - "static.v2rayshare.-vless_28"
+      - "static.v2rayshare.-vless_29"
+      - "static.v2rayshare.-vless_30"
+      - "static.v2rayshare.-vless_31"
+      - "static.v2rayshare.-vless_32"
+      - "static.v2rayshare.-vless_33"
+      - "static.v2rayshare.-vless_34"
+      - "static.v2rayshare.-vless_35"
+      - "static.v2rayshare.-ss_36"
+      - "static.v2rayshare.-vless_37"
+      - "static.v2rayshare.-vless_38"
+      - "static.v2rayshare.-vless_39"
+      - "static.v2rayshare.-ss_40"
+      - "static.v2rayshare.-ss_41"
+      - "static.v2rayshare.-vless_42"
+      - "static.v2rayshare.-vless_43"
+      - "static.v2rayshare.-ss_44"
+      - "static.v2rayshare.-vless_45"
+      - "static.v2rayshare.-vless_46"
+      - "static.v2rayshare.-vless_47"
+      - "static.v2rayshare.-vless_48"
+      - "static.v2rayshare.-vless_49"
+      - "static.v2rayshare.-vless_50"
+      - "static.v2rayshare.-vless_51"
+      - "static.v2rayshare.-vless_52"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_1"
-      - "github-mfuu-trojan_2"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-trojan_4"
-      - "github-mfuu-trojan_18"
-      - "github-mfuu-vmess_45"
-      - "github-mfuu-vmess_48"
+      - "github-mfuu-ss_1"
+      - "github-mfuu-ss_3"
+      - "github-mfuu-trojan_6"
+      - "github-mfuu-trojan_7"
+      - "github-mfuu-trojan_8"
+      - "github-mfuu-trojan_9"
+      - "github-mfuu-trojan_10"
+      - "github-mfuu-trojan_11"
+      - "github-mfuu-trojan_12"
+      - "github-mfuu-trojan_13"
+      - "github-mfuu-trojan_14"
+      - "github-mfuu-trojan_15"
+      - "github-mfuu-trojan_16"
+      - "github-mfuu-trojan_17"
+      - "github-mfuu-vmess_44"
+      - "github-mfuu-vmess_47"
+      - "github-mfuu-trojan_48"
       - "github-mfuu-trojan_49"
       - "github-mfuu-trojan_50"
       - "github-mfuu-trojan_51"
-      - "github-mfuu-trojan_52"
-      - "github-mfuu-vmess_53"
+      - "github-mfuu-vmess_52"
+      - "github-mfuu-trojan_53"
       - "github-mfuu-trojan_54"
-      - "github-mfuu-trojan_55"
-      - "github-mfuu-trojan_61"
+      - "github-mfuu-trojan_60"
+      - "github-mfuu-vmess_61"
       - "github-mfuu-vmess_62"
-      - "github-mfuu-vmess_63"
+      - "github-mfuu-trojan_67"
       - "github-mfuu-trojan_68"
-      - "github-mfuu-trojan_69"
-      - "github-mfuu-vmess_72"
-      - "github-mfuu-trojan_78"
-      - "github-mfuu-trojan_82"
+      - "github-mfuu-vmess_71"
+      - "github-mfuu-trojan_77"
+      - "github-mfuu-trojan_81"
+      - "github-mfuu-vmess_82"
       - "github-mfuu-vmess_83"
-      - "github-mfuu-vmess_84"
+      - "github-mfuu-trojan_85"
       - "github-mfuu-trojan_86"
-      - "github-mfuu-trojan_87"
+      - "github-mfuu-trojan_90"
       - "github-mfuu-trojan_91"
       - "github-mfuu-trojan_92"
-      - "github-mfuu-trojan_93"
-      - "github-mfuu-trojan_95"
-      - "github-mfuu-trojan_97"
-      - "github-mfuu-trojan_101"
+      - "github-mfuu-trojan_94"
+      - "github-mfuu-trojan_96"
+      - "github-mfuu-trojan_100"
+      - "github-mfuu-ss_101"
       - "github-mfuu-trojan_102"
-      - "github-mfuu-trojan_104"
-      - "github-mfuu-ss_105"
-      - "github-mfuu-trojan_108"
+      - "github-mfuu-trojan_103"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_2"
       - "github-go4sharing-trojan_31"
       - "github-go4sharing-ss_33"
+      - "github-go4sharing-ss_34"
       - "github-go4sharing-vmess_35"
       - "github-go4sharing-ss_36"
       - "github-go4sharing-ss_37"
@@ -2471,8 +2875,10 @@ proxy-groups:
       - "github-go4sharing-ss_39"
       - "github-go4sharing-trojan_40"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-trojan_30"
-      - "xrayvip.com-trojan_31"
+      - "xrayvip.com-trojan_12"
+      - "xrayvip.com-trojan_21"
+      - "xrayvip.com-trojan_22"
+      - "xrayvip.com-trojan_23"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2497,9 +2903,9 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_22"
       - "jsdelivr-chengaopa-hysteria2_23"
       - "jsdelivr-chengaopa-hysteria2_24"
-      - "jsdelivr-chengaopa-hysteria2_26"
+      - "jsdelivr-chengaopa-hysteria2_25"
       - "jsdelivr-chengaopa-hysteria2_27"
-      - "jsdelivr-chengaopa-hysteria2_29"
+      - "jsdelivr-chengaopa-hysteria2_28"
       - "jsdelivr-chengaopa-hysteria2_30"
       - "jsdelivr-chengaopa-hysteria2_31"
       - "jsdelivr-chengaopa-hysteria2_32"
@@ -2518,9 +2924,7 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_58"
       - "jsdelivr-chengaopa-vless_63"
       - "jsdelivr-chengaopa-vless_101"
-      - "jsdelivr-chengaopa-ss_47"
-      - "jsdelivr-chengaopa-hysteria2_13-1"
-      - "jsdelivr-chengaopa-hysteria2_15-1"
+      - "jsdelivr-chengaopa-ss_63"
 
   - name: Fallback
     type: fallback
@@ -2554,25 +2958,27 @@ proxy-groups:
       - "github-freefq-ss_13"
       - "github-freefq-vmess_14"
       - "github-freefq-vmess_15"
-      - "github-ermaozi-vmess_1"
-      - "github-ermaozi-ss_2"
-      - "github-ermaozi-trojan_3"
-      - "github-ermaozi-vless_4"
-      - "github-ermaozi-hysteria2_5"
-      - "github-ermaozi-vmess_6"
-      - "github-ermaozi-vmess_7"
-      - "github-ermaozi-vless_8"
-      - "github-ermaozi-hysteria2_9"
-      - "github-ermaozi-vless_10"
-      - "github-ermaozi-vmess_11"
-      - "github-ermaozi-hysteria2_12"
+      - "github-ermaozi-trojan_1"
+      - "github-ermaozi-hysteria2_3"
+      - "github-ermaozi-vmess_4"
+      - "github-ermaozi-vmess_5"
+      - "github-ermaozi-hysteria2_7"
+      - "github-ermaozi-hysteria2_8"
+      - "github-ermaozi-vmess_9"
+      - "github-ermaozi-vless_11"
+      - "github-ermaozi-ss_12"
       - "github-ermaozi-hysteria2_13"
-      - "github-ermaozi-hysteria2_14"
-      - "github-ermaozi-hysteria2_15"
-      - "github-ermaozi-hysteria2_16"
+      - "github-ermaozi-vmess_15"
+      - "github-ermaozi-vmess_16"
       - "github-ermaozi-hysteria2_17"
-      - "github-ermaozi-ss_18"
+      - "github-ermaozi-vmess_18"
       - "github-ermaozi-vmess_19"
+      - "github-ermaozi-vmess_20"
+      - "github-ermaozi-ss_21"
+      - "github-ermaozi-vmess_22"
+      - "github-ermaozi-ss_23"
+      - "github-ermaozi-hysteria2_24"
+      - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_2"
       - "anaer.github.io-vless_3"
       - "anaer.github.io-vless_4"
@@ -2653,55 +3059,91 @@ proxy-groups:
       - "github-peasoft-trojan_9"
       - "github-peasoft-trojan_10"
       - "github-peasoft-trojan_11"
-      - "github-peasoft-vmess_13"
+      - "github-peasoft-trojan_13"
       - "github-peasoft-trojan_14"
       - "github-peasoft-trojan_15"
       - "github-peasoft-trojan_16"
-      - "github-peasoft-trojan_17"
+      - "static.v2rayshare.-vless_25"
+      - "static.v2rayshare.-vless_26"
+      - "static.v2rayshare.-vless_27"
+      - "static.v2rayshare.-vless_28"
+      - "static.v2rayshare.-vless_29"
+      - "static.v2rayshare.-vless_30"
+      - "static.v2rayshare.-vless_31"
+      - "static.v2rayshare.-vless_32"
+      - "static.v2rayshare.-vless_33"
+      - "static.v2rayshare.-vless_34"
+      - "static.v2rayshare.-vless_35"
+      - "static.v2rayshare.-ss_36"
+      - "static.v2rayshare.-vless_37"
+      - "static.v2rayshare.-vless_38"
+      - "static.v2rayshare.-vless_39"
+      - "static.v2rayshare.-ss_40"
+      - "static.v2rayshare.-ss_41"
+      - "static.v2rayshare.-vless_42"
+      - "static.v2rayshare.-vless_43"
+      - "static.v2rayshare.-ss_44"
+      - "static.v2rayshare.-vless_45"
+      - "static.v2rayshare.-vless_46"
+      - "static.v2rayshare.-vless_47"
+      - "static.v2rayshare.-vless_48"
+      - "static.v2rayshare.-vless_49"
+      - "static.v2rayshare.-vless_50"
+      - "static.v2rayshare.-vless_51"
+      - "static.v2rayshare.-vless_52"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_1"
-      - "github-mfuu-trojan_2"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-trojan_4"
-      - "github-mfuu-trojan_18"
-      - "github-mfuu-vmess_45"
-      - "github-mfuu-vmess_48"
+      - "github-mfuu-ss_1"
+      - "github-mfuu-ss_3"
+      - "github-mfuu-trojan_6"
+      - "github-mfuu-trojan_7"
+      - "github-mfuu-trojan_8"
+      - "github-mfuu-trojan_9"
+      - "github-mfuu-trojan_10"
+      - "github-mfuu-trojan_11"
+      - "github-mfuu-trojan_12"
+      - "github-mfuu-trojan_13"
+      - "github-mfuu-trojan_14"
+      - "github-mfuu-trojan_15"
+      - "github-mfuu-trojan_16"
+      - "github-mfuu-trojan_17"
+      - "github-mfuu-vmess_44"
+      - "github-mfuu-vmess_47"
+      - "github-mfuu-trojan_48"
       - "github-mfuu-trojan_49"
       - "github-mfuu-trojan_50"
       - "github-mfuu-trojan_51"
-      - "github-mfuu-trojan_52"
-      - "github-mfuu-vmess_53"
+      - "github-mfuu-vmess_52"
+      - "github-mfuu-trojan_53"
       - "github-mfuu-trojan_54"
-      - "github-mfuu-trojan_55"
-      - "github-mfuu-trojan_61"
+      - "github-mfuu-trojan_60"
+      - "github-mfuu-vmess_61"
       - "github-mfuu-vmess_62"
-      - "github-mfuu-vmess_63"
+      - "github-mfuu-trojan_67"
       - "github-mfuu-trojan_68"
-      - "github-mfuu-trojan_69"
-      - "github-mfuu-vmess_72"
-      - "github-mfuu-trojan_78"
-      - "github-mfuu-trojan_82"
+      - "github-mfuu-vmess_71"
+      - "github-mfuu-trojan_77"
+      - "github-mfuu-trojan_81"
+      - "github-mfuu-vmess_82"
       - "github-mfuu-vmess_83"
-      - "github-mfuu-vmess_84"
+      - "github-mfuu-trojan_85"
       - "github-mfuu-trojan_86"
-      - "github-mfuu-trojan_87"
+      - "github-mfuu-trojan_90"
       - "github-mfuu-trojan_91"
       - "github-mfuu-trojan_92"
-      - "github-mfuu-trojan_93"
-      - "github-mfuu-trojan_95"
-      - "github-mfuu-trojan_97"
-      - "github-mfuu-trojan_101"
+      - "github-mfuu-trojan_94"
+      - "github-mfuu-trojan_96"
+      - "github-mfuu-trojan_100"
+      - "github-mfuu-ss_101"
       - "github-mfuu-trojan_102"
-      - "github-mfuu-trojan_104"
-      - "github-mfuu-ss_105"
-      - "github-mfuu-trojan_108"
+      - "github-mfuu-trojan_103"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_2"
       - "github-go4sharing-trojan_31"
       - "github-go4sharing-ss_33"
+      - "github-go4sharing-ss_34"
       - "github-go4sharing-vmess_35"
       - "github-go4sharing-ss_36"
       - "github-go4sharing-ss_37"
@@ -2709,8 +3151,10 @@ proxy-groups:
       - "github-go4sharing-ss_39"
       - "github-go4sharing-trojan_40"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-trojan_30"
-      - "xrayvip.com-trojan_31"
+      - "xrayvip.com-trojan_12"
+      - "xrayvip.com-trojan_21"
+      - "xrayvip.com-trojan_22"
+      - "xrayvip.com-trojan_23"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2735,9 +3179,9 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_22"
       - "jsdelivr-chengaopa-hysteria2_23"
       - "jsdelivr-chengaopa-hysteria2_24"
-      - "jsdelivr-chengaopa-hysteria2_26"
+      - "jsdelivr-chengaopa-hysteria2_25"
       - "jsdelivr-chengaopa-hysteria2_27"
-      - "jsdelivr-chengaopa-hysteria2_29"
+      - "jsdelivr-chengaopa-hysteria2_28"
       - "jsdelivr-chengaopa-hysteria2_30"
       - "jsdelivr-chengaopa-hysteria2_31"
       - "jsdelivr-chengaopa-hysteria2_32"
@@ -2756,9 +3200,7 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_58"
       - "jsdelivr-chengaopa-vless_63"
       - "jsdelivr-chengaopa-vless_101"
-      - "jsdelivr-chengaopa-ss_47"
-      - "jsdelivr-chengaopa-hysteria2_13-1"
-      - "jsdelivr-chengaopa-hysteria2_15-1"
+      - "jsdelivr-chengaopa-ss_63"
 
 rules:
   - GEOIP,CN,DIRECT

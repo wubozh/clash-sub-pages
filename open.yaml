@@ -1,4 +1,14 @@
 proxies:
+  - name: "anaer_github_io-vless_32"
+    type: "vless"
+    server: "172.67.210.115"
+    port: 443
+    uuid: "b940be1b-3998-45d2-bf7b-06e7b6c4987a"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048"
+
   - name: "anaer_github_io-vless_50"
     type: "vless"
     server: "104.21.87.142"
@@ -9,67 +19,7 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "anaer_github_io-vless_56"
-    type: "vless"
-    server: "singapore.com"
-    port: 8443
-    uuid: "767b6340-96dc-4aa0-8013-a8af7513d920"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "github-go4sharing-vmess_8"
-    type: "vmess"
-    server: "v4.hdacd.com"
-    port: 30804
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer_github_io-vless_19_1"
-    type: "vless"
-    server: "172.67.143.139"
-    port: 8080
-    uuid: "18907dc3-7e4c-476f-9ed8-b360db563bf9"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiN3FOeFprWFkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560"
-
-  - name: "anaer_github_io-vless_23_1"
-    type: "vless"
-    server: "172.67.210.115"
-    port: 443
-    uuid: "b940be1b-3998-45d2-bf7b-06e7b6c4987a"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048"
-
-  - name: "anaer_github_io-vless_31"
-    type: "vless"
-    server: "8.222.185.236"
-    port: 443
-    uuid: "69b73277-99ed-6b7f-f52b-79b98093e7ae"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433"
-
-  - name: "anaer_github_io-vless_66_1"
-    type: "vless"
-    server: "104.27.82.154"
-    port: 8880
-    uuid: "94ed4a58-dcf4-43cb-afc1-f158e14ec42d"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/pyip=ProxyIP.SG.CMLiussss.net"
-
-  - name: "jsdelivr-chengaopa-vless_78"
+  - name: "jsdelivr-chengaopa-vless_51"
     type: "vless"
     server: "45.198.87.33"
     port: 8443
@@ -77,169 +27,10 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "anaer_github_io-vless_20"
-    type: "vless"
-    server: "104.21.87.197"
-    port: 80
-    uuid: "a071d58e-562b-472d-af6e-696200af1826"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "github-go4sharing-ss_29_1"
-    type: "ss"
-    server: "3.146.176.147"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-
-  - name: "anaer_github_io-vless_58_1"
-    type: "vless"
-    server: "172.67.212.210"
-    port: 80
-    uuid: "752a3a41-8430-4dd3-99cc-36b14d3800d6"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiYm0zWkp6N1UiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560"
-
-  - name: "anaer_github_io-vless_21"
-    type: "vless"
-    server: "www.gov.ua"
-    port: 8880
-    uuid: "767c5a66-bd28-440a-90c8-7ae1101a0172"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/pyip=ProxyIP.US.CMLiussss.net"
-
-  - name: "anaer_github_io-vless_52_1"
-    type: "vless"
-    server: "104.25.217.123"
-    port: 2086
-    uuid: "d028eaf5-c5ef-49a0-85c6-4f4816af8053"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==?ed=2560"
-
-  - name: "anaer_github_io-vless_51_1"
-    type: "vless"
-    server: "104.20.2.221"
-    port: 8443
-    uuid: "6c7a6a6a-6a6a-4000-8000-000000000002"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "node_nodefree_me-vless_28"
-    type: "vless"
-    server: "89.58.40.177"
-    port: 8443
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "mm_mibei77_com-vmess_39"
+  - name: "github-go4sharing-vmess_8_1"
     type: "vmess"
-    server: "v30.hdacd.com"
-    port: 30830
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer_github_io-vmess_15"
-    type: "vmess"
-    server: "v45.hdacd.com"
-    port: 30845
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer_github_io-vless_18_1"
-    type: "vless"
-    server: "www.ipget.net"
-    port: 8880
-    uuid: "2756d45c-2d91-4783-8114-ad1e128799ba"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/pyip=ProxyIP.SG.CMLiussss.net"
-
-  - name: "github-wenxig-trojan_29"
-    type: "trojan"
-    server: "delicate-buck.rooster465.autos"
-    port: 443
-    password: "ZY07256934"
-    sni: "delicate-buck.rooster465.autos"
-
-  - name: "mm_mibei77_com-vmess_37"
-    type: "vmess"
-    server: "v8.hdacd.com"
-    port: 30808
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "tcp"
-
-  - name: "anaer_github_io-vless_211"
-    type: "vless"
-    server: "82.21.84.97"
-    port: 443
-    uuid: "e258977b-e413-4718-a3af-02d75492c349"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer_github_io-vless_54_1"
-    type: "vless"
-    server: "172.66.200.130"
-    port: 8880
-    uuid: "a51d8a82-faec-44f4-8882-441a2e7f0ce4"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/pyip=ProxyIP.KR.CMLiussss.net"
-
-  - name: "github-go4sharing-trojan_1"
-    type: "trojan"
-    server: "engaged-ram.rooster465.autos"
-    port: 443
-    password: "IL37892054"
-    sni: "engaged-ram.rooster465.autos"
-
-  - name: "node_nodefree_me-vless_1_1"
-    type: "vless"
-    server: "fr.noooo.win"
-    port: 443
-    uuid: "7b241232-208d-4d36-857e-913f91b044f4"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer_github_io-vless_30"
-    type: "vless"
-    server: "64.226.95.244"
-    port: 2053
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "mm_mibei77_com-vmess_6"
-    type: "vmess"
-    server: "v12.hdacd.com"
-    port: 30812
+    server: "v6.hdacd.com"
+    port: 30806
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 0
     cipher: "auto"
@@ -256,6 +47,149 @@ proxies:
     tls: false
     network: "tcp"
 
+  - name: "anaer_github_io-vless_31"
+    type: "vless"
+    server: "8.222.185.236"
+    port: 443
+    uuid: "69b73277-99ed-6b7f-f52b-79b98093e7ae"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433"
+
+  - name: "github-ermaozi-vless_12"
+    type: "vless"
+    server: "67.220.73.204"
+    port: 18662
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    tls: true
+    network: "tcp"
+
+  - name: "github-freefq-vmess_10"
+    type: "vmess"
+    server: "104.21.82.183"
+    port: 8880
+    uuid: "5a7021e0-26b4-45d6-b175-fe551601ca97"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "mm_mibei77_com-vmess_37"
+    type: "vmess"
+    server: "v8.hdacd.com"
+    port: 30808
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-mfuu-vmess_23"
+    type: "vmess"
+    server: "sy4.620720.xyz"
+    port: 443
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
+  - name: "anaer_github_io-vless_51_1"
+    type: "vless"
+    server: "104.20.2.221"
+    port: 8443
+    uuid: "6c7a6a6a-6a6a-4000-8000-000000000002"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "anaer_github_io-vless_31_1"
+    type: "vless"
+    server: "104.21.19.244"
+    port: 2095
+    uuid: "6f6f6eb7-eab8-4033-b0ac-0316aa7c1612"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "anaer_github_io-vless_54_1"
+    type: "vless"
+    server: "singapore.com"
+    port: 8443
+    uuid: "767b6340-96dc-4aa0-8013-a8af7513d920"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "anaer_github_io-vless_52_1"
+    type: "vless"
+    server: "172.66.200.130"
+    port: 8880
+    uuid: "a51d8a82-faec-44f4-8882-441a2e7f0ce4"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/pyip=ProxyIP.KR.CMLiussss.net"
+
+  - name: "github-ermaozi-vless_21"
+    type: "vless"
+    server: "67.220.73.204"
+    port: 16016
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    tls: true
+    network: "tcp"
+
+  - name: "github-ermaozi-vmess_1"
+    type: "vmess"
+    server: "8cdn.njkrpl.com"
+    port: 443
+    uuid: "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "anaer_github_io-vless_30"
+    type: "vless"
+    server: "64.226.95.244"
+    port: 2053
+    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/danfeng"
+
+  - name: "github-mfuu-ss_5"
+    type: "ss"
+    server: "146.19.49.251"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6"
+
+  - name: "mm_mibei77_com-vmess_35"
+    type: "vmess"
+    server: "v36.hdacd.com"
+    port: 30836
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "node_nodefree_me-vless_1_1"
+    type: "vless"
+    server: "fr.noooo.win"
+    port: 443
+    uuid: "7b241232-208d-4d36-857e-913f91b044f4"
+    tls: true
+    network: "tcp"
+
   - name: "node_nodefree_me-vmess_7"
     type: "vmess"
     server: "v35.hdacd.com"
@@ -266,130 +200,197 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-ss_5"
-    type: "ss"
-    server: "146.19.49.251"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6"
+  - name: "mm_mibei77_com-vmess_6"
+    type: "vmess"
+    server: "v12.hdacd.com"
+    port: 30812
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
-  - name: "node_nodefree_me-vless_35"
+  - name: "github-mfuu-vmess_75_1"
+    type: "vmess"
+    server: "renderer-stream-1-411.mirra.now"
+    port: 443
+    uuid: "df9c9355-b02c-4c12-909d-0dbeb725d52b"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "anaer_github_io-vmess_27"
+    type: "vmess"
+    server: "v45.hdacd.com"
+    port: 30845
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "github-ermaozi-vless_9"
     type: "vless"
-    server: "222.167.202.23"
-    port: 7443
-    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    server: "fn.fifapes.monster"
+    port: 2090
+    uuid: "eab915bc-d2df-73d1-47d0-6eb240497055"
+    tls: false
+    network: "tcp"
+
+  - name: "github-learnhard-c-vmess_7"
+    type: "vmess"
+    server: "159.223.94.156"
+    port: 80
+    uuid: "533724ad-58ef-4147-88dc-9da523c15fc4"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "mm_mibei77_com-vmess_39"
+    type: "vmess"
+    server: "v30.hdacd.com"
+    port: 30830
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
+
+  - name: "jsdelivr-chengaopa-vless_46"
+    type: "vless"
+    server: "95.85.227.25"
+    port: 443
+    uuid: "e3e90161-fe65-443a-a3a4-e0e3a73704ca"
     tls: true
     network: "ws"
     ws-opts:
-      path: "/222.167.202.23:7443"
+      path: "/MiTiVPN=Usa"
+
+  - name: "anaer_github_io-vless_38"
+    type: "vless"
+    server: "51.250.17.51"
+    port: 8443
+    uuid: "2254f987-055f-4f7f-b53f-fd77a9443744"
+    tls: true
+    network: "tcp"
+
+  - name: "anaer_github_io-vless_75"
+    type: "vless"
+    server: "89.169.181.188"
+    port: 8443
+    uuid: "e48a1723-bb7b-4d13-ace6-0be7c62f16b3"
+    tls: true
+    network: "tcp"
 
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
+      - "anaer_github_io-vless_32"
       - "anaer_github_io-vless_50"
-      - "anaer_github_io-vless_56"
-      - "github-go4sharing-vmess_8"
-      - "anaer_github_io-vless_19_1"
-      - "anaer_github_io-vless_23_1"
-      - "anaer_github_io-vless_31"
-      - "anaer_github_io-vless_66_1"
-      - "jsdelivr-chengaopa-vless_78"
-      - "anaer_github_io-vless_20"
-      - "github-go4sharing-ss_29_1"
-      - "anaer_github_io-vless_58_1"
-      - "anaer_github_io-vless_21"
-      - "anaer_github_io-vless_52_1"
-      - "anaer_github_io-vless_51_1"
-      - "node_nodefree_me-vless_28"
-      - "mm_mibei77_com-vmess_39"
-      - "anaer_github_io-vmess_15"
-      - "anaer_github_io-vless_18_1"
-      - "github-wenxig-trojan_29"
-      - "mm_mibei77_com-vmess_37"
-      - "anaer_github_io-vless_211"
-      - "anaer_github_io-vless_54_1"
-      - "github-go4sharing-trojan_1"
-      - "node_nodefree_me-vless_1_1"
-      - "anaer_github_io-vless_30"
-      - "mm_mibei77_com-vmess_6"
+      - "jsdelivr-chengaopa-vless_51"
+      - "github-go4sharing-vmess_8_1"
       - "mm_mibei77_com-vmess_20"
-      - "node_nodefree_me-vmess_7"
+      - "anaer_github_io-vless_31"
+      - "github-ermaozi-vless_12"
+      - "github-freefq-vmess_10"
+      - "mm_mibei77_com-vmess_37"
+      - "github-mfuu-vmess_23"
+      - "anaer_github_io-vless_51_1"
+      - "anaer_github_io-vless_31_1"
+      - "anaer_github_io-vless_54_1"
+      - "anaer_github_io-vless_52_1"
+      - "github-ermaozi-vless_21"
+      - "github-ermaozi-vmess_1"
+      - "anaer_github_io-vless_30"
       - "github-mfuu-ss_5"
-      - "node_nodefree_me-vless_35"
+      - "mm_mibei77_com-vmess_35"
+      - "node_nodefree_me-vless_1_1"
+      - "node_nodefree_me-vmess_7"
+      - "mm_mibei77_com-vmess_6"
+      - "github-mfuu-vmess_75_1"
+      - "anaer_github_io-vmess_27"
+      - "github-ermaozi-vless_9"
+      - "github-learnhard-c-vmess_7"
+      - "mm_mibei77_com-vmess_39"
+      - "jsdelivr-chengaopa-vless_46"
+      - "anaer_github_io-vless_38"
+      - "anaer_github_io-vless_75"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
+      - "anaer_github_io-vless_32"
       - "anaer_github_io-vless_50"
-      - "anaer_github_io-vless_56"
-      - "github-go4sharing-vmess_8"
-      - "anaer_github_io-vless_19_1"
-      - "anaer_github_io-vless_23_1"
-      - "anaer_github_io-vless_31"
-      - "anaer_github_io-vless_66_1"
-      - "jsdelivr-chengaopa-vless_78"
-      - "anaer_github_io-vless_20"
-      - "github-go4sharing-ss_29_1"
-      - "anaer_github_io-vless_58_1"
-      - "anaer_github_io-vless_21"
-      - "anaer_github_io-vless_52_1"
-      - "anaer_github_io-vless_51_1"
-      - "node_nodefree_me-vless_28"
-      - "mm_mibei77_com-vmess_39"
-      - "anaer_github_io-vmess_15"
-      - "anaer_github_io-vless_18_1"
-      - "github-wenxig-trojan_29"
-      - "mm_mibei77_com-vmess_37"
-      - "anaer_github_io-vless_211"
-      - "anaer_github_io-vless_54_1"
-      - "github-go4sharing-trojan_1"
-      - "node_nodefree_me-vless_1_1"
-      - "anaer_github_io-vless_30"
-      - "mm_mibei77_com-vmess_6"
+      - "jsdelivr-chengaopa-vless_51"
+      - "github-go4sharing-vmess_8_1"
       - "mm_mibei77_com-vmess_20"
-      - "node_nodefree_me-vmess_7"
+      - "anaer_github_io-vless_31"
+      - "github-ermaozi-vless_12"
+      - "github-freefq-vmess_10"
+      - "mm_mibei77_com-vmess_37"
+      - "github-mfuu-vmess_23"
+      - "anaer_github_io-vless_51_1"
+      - "anaer_github_io-vless_31_1"
+      - "anaer_github_io-vless_54_1"
+      - "anaer_github_io-vless_52_1"
+      - "github-ermaozi-vless_21"
+      - "github-ermaozi-vmess_1"
+      - "anaer_github_io-vless_30"
       - "github-mfuu-ss_5"
-      - "node_nodefree_me-vless_35"
+      - "mm_mibei77_com-vmess_35"
+      - "node_nodefree_me-vless_1_1"
+      - "node_nodefree_me-vmess_7"
+      - "mm_mibei77_com-vmess_6"
+      - "github-mfuu-vmess_75_1"
+      - "anaer_github_io-vmess_27"
+      - "github-ermaozi-vless_9"
+      - "github-learnhard-c-vmess_7"
+      - "mm_mibei77_com-vmess_39"
+      - "jsdelivr-chengaopa-vless_46"
+      - "anaer_github_io-vless_38"
+      - "anaer_github_io-vless_75"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
+      - "anaer_github_io-vless_32"
       - "anaer_github_io-vless_50"
-      - "anaer_github_io-vless_56"
-      - "github-go4sharing-vmess_8"
-      - "anaer_github_io-vless_19_1"
-      - "anaer_github_io-vless_23_1"
-      - "anaer_github_io-vless_31"
-      - "anaer_github_io-vless_66_1"
-      - "jsdelivr-chengaopa-vless_78"
-      - "anaer_github_io-vless_20"
-      - "github-go4sharing-ss_29_1"
-      - "anaer_github_io-vless_58_1"
-      - "anaer_github_io-vless_21"
-      - "anaer_github_io-vless_52_1"
-      - "anaer_github_io-vless_51_1"
-      - "node_nodefree_me-vless_28"
-      - "mm_mibei77_com-vmess_39"
-      - "anaer_github_io-vmess_15"
-      - "anaer_github_io-vless_18_1"
-      - "github-wenxig-trojan_29"
-      - "mm_mibei77_com-vmess_37"
-      - "anaer_github_io-vless_211"
-      - "anaer_github_io-vless_54_1"
-      - "github-go4sharing-trojan_1"
-      - "node_nodefree_me-vless_1_1"
-      - "anaer_github_io-vless_30"
-      - "mm_mibei77_com-vmess_6"
+      - "jsdelivr-chengaopa-vless_51"
+      - "github-go4sharing-vmess_8_1"
       - "mm_mibei77_com-vmess_20"
-      - "node_nodefree_me-vmess_7"
+      - "anaer_github_io-vless_31"
+      - "github-ermaozi-vless_12"
+      - "github-freefq-vmess_10"
+      - "mm_mibei77_com-vmess_37"
+      - "github-mfuu-vmess_23"
+      - "anaer_github_io-vless_51_1"
+      - "anaer_github_io-vless_31_1"
+      - "anaer_github_io-vless_54_1"
+      - "anaer_github_io-vless_52_1"
+      - "github-ermaozi-vless_21"
+      - "github-ermaozi-vmess_1"
+      - "anaer_github_io-vless_30"
       - "github-mfuu-ss_5"
-      - "node_nodefree_me-vless_35"
+      - "mm_mibei77_com-vmess_35"
+      - "node_nodefree_me-vless_1_1"
+      - "node_nodefree_me-vmess_7"
+      - "mm_mibei77_com-vmess_6"
+      - "github-mfuu-vmess_75_1"
+      - "anaer_github_io-vmess_27"
+      - "github-ermaozi-vless_9"
+      - "github-learnhard-c-vmess_7"
+      - "mm_mibei77_com-vmess_39"
+      - "jsdelivr-chengaopa-vless_46"
+      - "anaer_github_io-vless_38"
+      - "anaer_github_io-vless_75"
 
 rules:
   - GEOIP,CN,DIRECT

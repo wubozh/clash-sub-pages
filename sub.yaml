@@ -529,7 +529,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "anaer.github.io-vless_1"
+  - name: "anaer.github.io-trojan_3"
+    type: "trojan"
+    server: "hkdcrtc-e.catcat321.com"
+    port: 20066
+    password: "a126f35c-e832-4115-8593-b723ade3f7be"
+    sni: "hk.catxstar.com"
+
+  - name: "anaer.github.io-vless_4"
     type: "vless"
     server: "ld.242311.xyz"
     port: 443
@@ -539,27 +546,7 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "anaer.github.io-vless_2"
-    type: "vless"
-    server: "104.17.108.69"
-    port: 8443
-    uuid: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer.github.io-vless_3"
-    type: "vless"
-    server: "www.true.th"
-    port: 443
-    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer.github.io-vmess_4"
+  - name: "anaer.github.io-vmess_5"
     type: "vmess"
     server: "planb.mojcn.com.linuxlh.xin"
     port: 16632
@@ -571,22 +558,12 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "anaer.github.io-vless_131"
+  - name: "anaer.github.io-vless_128"
     type: "vless"
     server: "63.141.128.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "anaer.github.io-vless_132"
-    type: "vless"
-    server: "108.138.26.70"
-    port: 443
-    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
-    tls: true
     network: "ws"
     ws-opts:
       path: "/"
@@ -605,12 +582,12 @@ proxies:
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "github-peasoft-ss_5"
-    type: "ss"
-    server: "99.79.128.42"
-    port: 443
-    cipher: "auto"
-    password: "amazonskr05"
+  - name: "github-peasoft-trojan_10"
+    type: "trojan"
+    server: "hkdcrtc-e.catcat321.com"
+    port: 20085
+    password: "a126f35c-e832-4115-8593-b723ade3f7be"
+    sni: "hk.catxstar.com"
 
   - name: "v2clash-vless_1"
     type: "vless"
@@ -1515,70 +1492,66 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github-mfuu-trojan_3"
-    type: "trojan"
-    server: "104.16.174.33"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
+  - name: "github-mfuu-ss_6"
+    type: "ss"
+    server: "m99cygua.4ya21vwd0lw6ngzk.awstrack.vip"
+    port: 16481
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "MWM4MmJmYzdiNTZjNTUzMA=="
 
-  - name: "github-mfuu-ss_23"
+  - name: "github-mfuu-vmess_7"
+    type: "vmess"
+    server: "62.210.127.120"
+    port: 23388
+    uuid: "3a966d20-7b9d-48cc-ba2c-8d38161b6d3a"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+
+  - name: "github-mfuu-ss_11"
     type: "ss"
     server: "112.28.141.77"
     port: 10006
     cipher: "aes-256-gcm"
     password: "Butterfly123@qwe9527"
 
-  - name: "github-mfuu-trojan_24"
+  - name: "github-mfuu-trojan_14"
     type: "trojan"
-    server: "18.183.103.86"
-    port: 4117
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
-
-  - name: "github-mfuu-trojan_25"
-    type: "trojan"
-    server: "18.166.63.119"
-    port: 2944
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
-
-  - name: "github-mfuu-trojan_26"
-    type: "trojan"
-    server: "13.214.209.40"
-    port: 3878
+    server: "95.40.27.43"
+    port: 16691
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "github-mfuu-trojan_29"
+  - name: "github-mfuu-trojan_17"
     type: "trojan"
-    server: "18.183.103.86"
-    port: 41421
+    server: "95.40.27.43"
+    port: 32434
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "github-mfuu-ss_30"
+  - name: "github-mfuu-ss_18"
     type: "ss"
     server: "103.236.66.4"
     port: 50003
     cipher: "aes-256-gcm"
     password: "Butterfly123@qwe9527"
 
-  - name: "github-mfuu-trojan_32"
+  - name: "github-mfuu-trojan_20"
     type: "trojan"
-    server: "54.179.227.94"
-    port: 34039
+    server: "18.163.118.157"
+    port: 10418
     password: "BxceQaOe"
     sni: "t.me/ripaojiedian"
 
-  - name: "github-mfuu-trojan_51"
+  - name: "github-mfuu-trojan_39"
     type: "trojan"
     server: "2.144.21.112"
     port: 40443
     password: "humanity"
     sni: "www.ignitelimit.com"
 
-  - name: "github-mfuu-vmess_77"
+  - name: "github-mfuu-vmess_65"
     type: "vmess"
     server: "cindy52.ceoiii.com"
     port: 36803
@@ -1588,7 +1561,7 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-vmess_78"
+  - name: "github-mfuu-vmess_66"
     type: "vmess"
     server: "cindy50.ceoiii.com"
     port: 36801
@@ -1598,14 +1571,14 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-trojan_80"
+  - name: "github-mfuu-trojan_68"
     type: "trojan"
     server: "blackshadow.dpdns.org"
     port: 443
     password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
     sni: "blackshadow.dpdns.org"
 
-  - name: "github-mfuu-vmess_83"
+  - name: "github-mfuu-vmess_71"
     type: "vmess"
     server: "94.182.88.61"
     port: 2078
@@ -1615,7 +1588,7 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-mfuu-vmess_96"
+  - name: "github-mfuu-vmess_84"
     type: "vmess"
     server: "185.246.152.159"
     port: 443
@@ -1625,21 +1598,21 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-trojan_97"
+  - name: "github-mfuu-trojan_85"
     type: "trojan"
     server: "2.144.21.150"
     port: 2000
     password: "humanity"
     sni: "www.ignitelimit.com"
 
-  - name: "github-mfuu-trojan_98"
+  - name: "github-mfuu-trojan_86"
     type: "trojan"
     server: "109.206.241.10"
     port: 449
     password: "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
     sni: "russiapower.accesscam.org"
 
-  - name: "github-mfuu-vmess_100"
+  - name: "github-mfuu-vmess_88"
     type: "vmess"
     server: "www.true.th"
     port: 80
@@ -1649,12 +1622,15 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-trojan_112"
-    type: "trojan"
-    server: "47.250.84.25"
+  - name: "github-mfuu-vmess_111"
+    type: "vmess"
+    server: "rush-6it6b.teeopp.quest"
     port: 443
-    password: "5931134d1cde66bf83a54acdfebe7ab2"
-    sni: "moltbot.doctoroyy.net"
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
 
   - name: "github-go4sharing-ss_1"
     type: "ss"
@@ -1693,6 +1669,13 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
+
+  - name: "xrayvip.com-trojan_40"
+    type: "trojan"
+    server: "104.16.174.33"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
 
   - name: "jsdelivr-chengaopa-hysteria2_1"
     type: "hysteria2"
@@ -1750,7 +1733,7 @@ proxies:
 
   - name: "jsdelivr-chengaopa-hysteria2_7"
     type: "hysteria2"
-    server: "db1.mangshe.xyz"
+    server: "mg2.mangshe.xyz"
     port: 2056
     password: "22d891f5-ad85-4824-b0b8-e30cf3d37eb5"
     alpn:
@@ -1759,15 +1742,6 @@ proxies:
 
   - name: "jsdelivr-chengaopa-hysteria2_8"
     type: "hysteria2"
-    server: "mg2.mangshe.xyz"
-    port: 2056
-    password: "22d891f5-ad85-4824-b0b8-e30cf3d37eb5"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_9"
-    type: "hysteria2"
     server: "pixelcast.wwwinternetvideo.click"
     port: 443
     password: "2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o"
@@ -1775,7 +1749,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_10"
+  - name: "jsdelivr-chengaopa-hysteria2_9"
     type: "hysteria2"
     server: "node.embrofree.org"
     port: 443
@@ -1784,7 +1758,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_11"
+  - name: "jsdelivr-chengaopa-hysteria2_10"
     type: "hysteria2"
     server: "swe.frkn.org"
     port: 8443
@@ -1793,16 +1767,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_12"
-    type: "hysteria2"
-    server: "at133.mechvpn.online"
-    port: 443
-    password: "53c76647-14d1-4df5-99cb-be99ad2e6bd9"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_13"
+  - name: "jsdelivr-chengaopa-hysteria2_11"
     type: "hysteria2"
     server: "bg185.mechvpn.online"
     port: 443
@@ -1811,7 +1776,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_14"
+  - name: "jsdelivr-chengaopa-hysteria2_12"
     type: "hysteria2"
     server: "fr194.mechvpn.online"
     port: 443
@@ -1820,7 +1785,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_15"
+  - name: "jsdelivr-chengaopa-hysteria2_13"
     type: "hysteria2"
     server: "nl174.mechvpn.online"
     port: 443
@@ -1829,7 +1794,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_16"
+  - name: "jsdelivr-chengaopa-hysteria2_14"
     type: "hysteria2"
     server: "nl8.mechvpn.online"
     port: 443
@@ -1838,7 +1803,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_17"
+  - name: "jsdelivr-chengaopa-hysteria2_15"
     type: "hysteria2"
     server: "uk196.mechvpn.online"
     port: 443
@@ -1847,7 +1812,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_18"
+  - name: "jsdelivr-chengaopa-hysteria2_16"
     type: "hysteria2"
     server: "31.76.70.109"
     port: 8443
@@ -1856,16 +1821,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_19"
-    type: "hysteria2"
-    server: "211.22.154.26"
-    port: 50160
-    password: "85a88b70b5f2f73d0dcac92bd3934a5e"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_20"
+  - name: "jsdelivr-chengaopa-hysteria2_17"
     type: "hysteria2"
     server: "streambox.wwwinternetvideo.click"
     port: 443
@@ -1874,7 +1830,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_21"
+  - name: "jsdelivr-chengaopa-hysteria2_18"
     type: "hysteria2"
     server: "deu0003ntrhy01.tcp-reset-club.net"
     port: 443
@@ -1883,7 +1839,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_22"
+  - name: "jsdelivr-chengaopa-hysteria2_19"
     type: "hysteria2"
     server: "144.24.109.215"
     port: 51000
@@ -1892,7 +1848,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_23"
+  - name: "jsdelivr-chengaopa-hysteria2_20"
     type: "hysteria2"
     server: "162.249.124.105"
     port: 8080
@@ -1901,7 +1857,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_24"
+  - name: "jsdelivr-chengaopa-hysteria2_21"
     type: "hysteria2"
     server: "vip-sg-1.hkd4fwmg.vip"
     port: 12645
@@ -1910,7 +1866,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_25"
+  - name: "jsdelivr-chengaopa-hysteria2_22"
     type: "hysteria2"
     server: "18.162.42.61"
     port: 16001
@@ -1919,7 +1875,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_26"
+  - name: "jsdelivr-chengaopa-hysteria2_23"
     type: "hysteria2"
     server: "185.39.31.117"
     port: 8443
@@ -1928,7 +1884,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_27"
+  - name: "jsdelivr-chengaopa-hysteria2_24"
     type: "hysteria2"
     server: "hy2-germany.unlimited-access.ru"
     port: 8443
@@ -1937,7 +1893,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_28"
+  - name: "jsdelivr-chengaopa-hysteria2_25"
     type: "hysteria2"
     server: "18.226.172.222"
     port: 443
@@ -1946,7 +1902,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_29"
+  - name: "jsdelivr-chengaopa-hysteria2_26"
     type: "hysteria2"
     server: "vpn-ca-001.fastervpn.world"
     port: 443
@@ -1955,7 +1911,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_30"
+  - name: "jsdelivr-chengaopa-hysteria2_27"
     type: "hysteria2"
     server: "hysteria.udpgw.com"
     port: 8443
@@ -1964,7 +1920,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_31"
+  - name: "jsdelivr-chengaopa-hysteria2_28"
     type: "hysteria2"
     server: "85.204.107.169"
     port: 8080
@@ -1973,7 +1929,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_32"
+  - name: "jsdelivr-chengaopa-hysteria2_29"
     type: "hysteria2"
     server: "86.107.178.75"
     port: 8443
@@ -1982,7 +1938,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_33"
+  - name: "jsdelivr-chengaopa-hysteria2_30"
     type: "hysteria2"
     server: "86.107.178.78"
     port: 8443
@@ -1991,7 +1947,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_34"
+  - name: "jsdelivr-chengaopa-hysteria2_31"
     type: "hysteria2"
     server: "43.156.90.144"
     port: 34567
@@ -2000,7 +1956,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_35"
+  - name: "jsdelivr-chengaopa-hysteria2_32"
     type: "hysteria2"
     server: "82.39.214.98"
     port: 8080
@@ -2009,7 +1965,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_36"
+  - name: "jsdelivr-chengaopa-hysteria2_33"
     type: "hysteria2"
     server: "go.wwwinternetvideo.click"
     port: 443
@@ -2018,7 +1974,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_37"
+  - name: "jsdelivr-chengaopa-hysteria2_34"
     type: "hysteria2"
     server: "vip-sg-2.hkd4fwmg.vip"
     port: 55793
@@ -2027,7 +1983,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_38"
+  - name: "jsdelivr-chengaopa-hysteria2_35"
     type: "hysteria2"
     server: "ndge4.whit3.net"
     port: 443
@@ -2036,7 +1992,25 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_39"
+  - name: "jsdelivr-chengaopa-hysteria2_36"
+    type: "hysteria2"
+    server: "dora3.api3-max.ru"
+    port: 443
+    password: "ac7fb60f-0b7a-465d-a002-05160ec04ed6"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_37"
+    type: "hysteria2"
+    server: "dora4.api3-max.ru"
+    port: 443
+    password: "ac7fb60f-0b7a-465d-a002-05160ec04ed6"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_38"
     type: "hysteria2"
     server: "gora4.api3-max.ru"
     port: 443
@@ -2045,7 +2019,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_40"
+  - name: "jsdelivr-chengaopa-hysteria2_39"
     type: "hysteria2"
     server: "137.23.2.19"
     port: 443
@@ -2054,7 +2028,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_41"
+  - name: "jsdelivr-chengaopa-hysteria2_40"
     type: "hysteria2"
     server: "181.214.99.162"
     port: 35000
@@ -2063,7 +2037,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_42"
+  - name: "jsdelivr-chengaopa-hysteria2_41"
     type: "hysteria2"
     server: "113.30.152.25"
     port: 443
@@ -2072,16 +2046,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_43"
-    type: "hysteria2"
-    server: "node1.sferavpn.pro"
-    port: 443
-    password: "cd74c0a406664a5bc0bac098220a2468"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_44"
+  - name: "jsdelivr-chengaopa-hysteria2_42"
     type: "hysteria2"
     server: "194.180.188.104"
     port: 8443
@@ -2090,7 +2055,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_45"
+  - name: "jsdelivr-chengaopa-hysteria2_43"
     type: "hysteria2"
     server: "194.180.188.97"
     port: 8443
@@ -2099,7 +2064,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_46"
+  - name: "jsdelivr-chengaopa-hysteria2_44"
     type: "hysteria2"
     server: "jp.cryptoofarm.com"
     port: 443
@@ -2108,7 +2073,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_47"
+  - name: "jsdelivr-chengaopa-hysteria2_45"
     type: "hysteria2"
     server: "uswx4.wxgqlfx.vip"
     port: 11683
@@ -2117,7 +2082,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_48"
+  - name: "jsdelivr-chengaopa-hysteria2_46"
     type: "hysteria2"
     server: "138.124.0.168"
     port: 8080
@@ -2126,7 +2091,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_49"
+  - name: "jsdelivr-chengaopa-hysteria2_47"
     type: "hysteria2"
     server: "222.167.212.81"
     port: 8080
@@ -2135,7 +2100,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_50"
+  - name: "jsdelivr-chengaopa-hysteria2_48"
     type: "hysteria2"
     server: "de.1.23.h2corp.org"
     port: 443
@@ -2144,7 +2109,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_51"
+  - name: "jsdelivr-chengaopa-hysteria2_49"
     type: "hysteria2"
     server: "vip-jp-4.hkd4fwmg.vip"
     port: 32135
@@ -2153,7 +2118,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_52"
+  - name: "jsdelivr-chengaopa-hysteria2_50"
     type: "hysteria2"
     server: "13.229.82.184"
     port: 443
@@ -2162,7 +2127,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_53"
+  - name: "jsdelivr-chengaopa-hysteria2_51"
     type: "hysteria2"
     server: "47.129.155.42"
     port: 443
@@ -2171,7 +2136,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_54"
+  - name: "jsdelivr-chengaopa-hysteria2_52"
     type: "hysteria2"
     server: "54.213.89.22"
     port: 443
@@ -2180,7 +2145,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_55"
+  - name: "jsdelivr-chengaopa-hysteria2_53"
     type: "hysteria2"
     server: "54.254.190.23"
     port: 443
@@ -2189,7 +2154,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_56"
+  - name: "jsdelivr-chengaopa-hysteria2_54"
     type: "hysteria2"
     server: "46.229.243.139"
     port: 8443
@@ -2198,7 +2163,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_57"
+  - name: "jsdelivr-chengaopa-hysteria2_55"
     type: "hysteria2"
     server: "46.229.243.141"
     port: 8080
@@ -2207,20 +2172,38 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_58"
+  - name: "jsdelivr-chengaopa-hysteria2_56"
     type: "hysteria2"
-    server: "cabinet.wwwinternetvideo.click"
+    server: "faq.wwwinternetvideo.click"
     port: 443
     password: "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX"
     alpn:
       - "h3"
     udp: true
 
+  - name: "jsdelivr-chengaopa-hysteria2_57"
+    type: "hysteria2"
+    server: "olp.crsmaps.com"
+    port: 443
+    password: "16ab4d4a-fd81-4535-9b7b-346677226ce8"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_58"
+    type: "hysteria2"
+    server: "79.137.205.35"
+    port: 10808
+    password: "1f619326-cd93-4d6b-aebe-e0b5f8831d02"
+    alpn:
+      - "h3"
+    udp: true
+
   - name: "jsdelivr-chengaopa-hysteria2_59"
     type: "hysteria2"
-    server: "185.47.172.226"
-    port: 32950
-    password: "0ansucp5k6aop125"
+    server: "replay.wwwinternetvideo.click"
+    port: 443
+    password: "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f"
     alpn:
       - "h3"
     udp: true
@@ -2263,241 +2246,6 @@ proxies:
 
   - name: "jsdelivr-chengaopa-hysteria2_64"
     type: "hysteria2"
-    server: "198.105.123.106"
-    port: 11504
-    password: "'@Tel@Configvibes'"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_65"
-    type: "hysteria2"
-    server: "45.92.219.237"
-    port: 8486
-    password: "'@Telegram@Configvibes'"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_66"
-    type: "hysteria2"
-    server: "193.41.5.243"
-    port: 8443
-    password: "GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_67"
-    type: "hysteria2"
-    server: "179.61.132.96"
-    port: 8443
-    password: "KevinZakarian"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_68"
-    type: "hysteria2"
-    server: "77.110.96.201"
-    port: 36264
-    password: "Telegram@vpnjey"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_69"
-    type: "hysteria2"
-    server: "206.71.158.37"
-    port: 35000
-    password: "Yet-Another-Public-Config-1"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_70"
-    type: "hysteria2"
-    server: "5.175.249.174"
-    port: 35000
-    password: "b4bd0613-ff7c-4f2f-954d-185915e6ddad"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_71"
-    type: "hysteria2"
-    server: "3.71.196.174"
-    port: 50160
-    password: "e660daf2da753ca8317387342b8af384"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_72"
-    type: "hysteria2"
-    server: "assets.gateway-stream.com"
-    port: 52009
-    password: "m3bqxk03mg221yi2"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_73"
-    type: "hysteria2"
-    server: "assets.gateway-stream.com"
-    port: 52067
-    password: "m3bqxk03mg221yi2"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_74"
-    type: "hysteria2"
-    server: "pro2.riziro.ir"
-    port: 44100
-    password: "rjj39jg8iphgd06h"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_75"
-    type: "hysteria2"
-    server: "assets.gateway-stream.com"
-    port: 52008
-    password: "t8t2qojzsykqazfu"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_76"
-    type: "hysteria2"
-    server: "assets.gateway-stream.com"
-    port: 52009
-    password: "t8t2qojzsykqazfu"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-ss_77"
-    type: "ss"
-    server: "112.28.141.77"
-    port: 10006
-    cipher: "auto"
-    password: "Butterfly123@qwe9527"
-
-  - name: "jsdelivr-chengaopa-vless_208"
-    type: "vless"
-    server: "38.244.4.1"
-    port: 443
-    uuid: "5905d91f-c3bc-4e80-bd66-4b17beb166cb"
-    tls: true
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_209"
-    type: "vless"
-    server: "51.81.223.225"
-    port: 11094
-    uuid: "f1fa0ad9-b122-4b7c-da82-4bea9edc48dd"
-    tls: true
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_211"
-    type: "vless"
-    server: "wr28-6njjgu.linenheath.site"
-    port: 443
-    uuid: "9638a83e-f1f7-4cc8-a602-924965d9534f"
-    tls: true
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_213"
-    type: "vless"
-    server: "155.117.199.13"
-    port: 39211
-    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
-    tls: true
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_214"
-    type: "vless"
-    server: "nsuc-znkbig.avonex.top"
-    port: 443
-    uuid: "ec31f6d7-c71a-413d-93aa-24296805a594"
-    tls: true
-    network: "tcp"
-
-  - name: "gitio-vmess_28"
-    type: "vmess"
-    server: "rush-6it6b.teeopp.quest"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "jsdelivr-chengaopa-ss_83"
-    type: "ss"
-    server: "63.180.254.10"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-
-  - name: "jsdelivr-chengaopa-hysteria2_36-1"
-    type: "hysteria2"
-    server: "dora3.api3-max.ru"
-    port: 443
-    password: "ac7fb60f-0b7a-465d-a002-05160ec04ed6"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_37-1"
-    type: "hysteria2"
-    server: "dora4.api3-max.ru"
-    port: 443
-    password: "ac7fb60f-0b7a-465d-a002-05160ec04ed6"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_56-1"
-    type: "hysteria2"
-    server: "faq.wwwinternetvideo.click"
-    port: 443
-    password: "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_57-1"
-    type: "hysteria2"
-    server: "olp.crsmaps.com"
-    port: 443
-    password: "16ab4d4a-fd81-4535-9b7b-346677226ce8"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_58-1"
-    type: "hysteria2"
-    server: "79.137.205.35"
-    port: 10808
-    password: "1f619326-cd93-4d6b-aebe-e0b5f8831d02"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_59-1"
-    type: "hysteria2"
-    server: "replay.wwwinternetvideo.click"
-    port: 443
-    password: "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_64-1"
-    type: "hysteria2"
     server: "217.60.33.215"
     port: 443
     password: "865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01"
@@ -2505,7 +2253,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_65-1"
+  - name: "jsdelivr-chengaopa-hysteria2_65"
     type: "hysteria2"
     server: "185.191.238.202"
     port: 443
@@ -2514,7 +2262,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_66-1"
+  - name: "jsdelivr-chengaopa-hysteria2_66"
     type: "hysteria2"
     server: "143.246.208.86"
     port: 8443
@@ -2523,7 +2271,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_67-1"
+  - name: "jsdelivr-chengaopa-hysteria2_67"
     type: "hysteria2"
     server: "81.168.62.17"
     port: 8443
@@ -2532,7 +2280,34 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_71-1"
+  - name: "jsdelivr-chengaopa-hysteria2_68"
+    type: "hysteria2"
+    server: "198.105.123.106"
+    port: 11504
+    password: "'@Tel@Configvibes'"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_69"
+    type: "hysteria2"
+    server: "45.92.219.237"
+    port: 8486
+    password: "'@Telegram@Configvibes'"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_70"
+    type: "hysteria2"
+    server: "193.41.5.243"
+    port: 8443
+    password: "GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_71"
     type: "hysteria2"
     server: "45.128.99.14"
     port: 8443
@@ -2541,7 +2316,34 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_74-1"
+  - name: "jsdelivr-chengaopa-hysteria2_72"
+    type: "hysteria2"
+    server: "179.61.132.96"
+    port: 8443
+    password: "KevinZakarian"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_73"
+    type: "hysteria2"
+    server: "147.45.149.88"
+    port: 8443
+    password: "NL2026hy"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_74"
+    type: "hysteria2"
+    server: "77.110.96.201"
+    port: 36264
+    password: "Telegram@vpnjey"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_75"
     type: "hysteria2"
     server: "144.31.221.57"
     port: 443
@@ -2550,7 +2352,25 @@ proxies:
       - "h3"
     udp: true
 
+  - name: "jsdelivr-chengaopa-hysteria2_76"
+    type: "hysteria2"
+    server: "206.71.158.37"
+    port: 35000
+    password: "Yet-Another-Public-Config-1"
+    alpn:
+      - "h3"
+    udp: true
+
   - name: "jsdelivr-chengaopa-hysteria2_77"
+    type: "hysteria2"
+    server: "5.175.249.174"
+    port: 35000
+    password: "b4bd0613-ff7c-4f2f-954d-185915e6ddad"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_78"
     type: "hysteria2"
     server: "62.210.124.146"
     port: 22000
@@ -2561,6 +2381,15 @@ proxies:
 
   - name: "jsdelivr-chengaopa-hysteria2_79"
     type: "hysteria2"
+    server: "3.71.196.174"
+    port: 50160
+    password: "e660daf2da753ca8317387342b8af384"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_80"
+    type: "hysteria2"
     server: "222.167.212.82"
     port: 8443
     password: "h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT"
@@ -2568,7 +2397,25 @@ proxies:
       - "h3"
     udp: true
 
+  - name: "jsdelivr-chengaopa-hysteria2_81"
+    type: "hysteria2"
+    server: "assets.gateway-stream.com"
+    port: 52009
+    password: "m3bqxk03mg221yi2"
+    alpn:
+      - "h3"
+    udp: true
+
   - name: "jsdelivr-chengaopa-hysteria2_82"
+    type: "hysteria2"
+    server: "assets.gateway-stream.com"
+    port: 52067
+    password: "m3bqxk03mg221yi2"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_83"
     type: "hysteria2"
     server: "hys22.wba-pn.ru"
     port: 443
@@ -2579,12 +2426,128 @@ proxies:
 
   - name: "jsdelivr-chengaopa-hysteria2_84"
     type: "hysteria2"
+    server: "pro2.riziro.ir"
+    port: 44100
+    password: "rjj39jg8iphgd06h"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_85"
+    type: "hysteria2"
     server: "46.229.243.132"
     port: 8443
     password: "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z"
     alpn:
       - "h3"
     udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_86"
+    type: "hysteria2"
+    server: "assets.gateway-stream.com"
+    port: 52008
+    password: "t8t2qojzsykqazfu"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_87"
+    type: "hysteria2"
+    server: "assets.gateway-stream.com"
+    port: 52009
+    password: "t8t2qojzsykqazfu"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-ss_88"
+    type: "ss"
+    server: "112.28.141.77"
+    port: 10006
+    cipher: "auto"
+    password: "Butterfly123@qwe9527"
+
+  - name: "jsdelivr-chengaopa-vless_219"
+    type: "vless"
+    server: "38.244.4.1"
+    port: 443
+    uuid: "5905d91f-c3bc-4e80-bd66-4b17beb166cb"
+    tls: true
+    network: "tcp"
+
+  - name: "jsdelivr-chengaopa-vless_220"
+    type: "vless"
+    server: "51.81.223.225"
+    port: 11094
+    uuid: "f1fa0ad9-b122-4b7c-da82-4bea9edc48dd"
+    tls: true
+    network: "tcp"
+
+  - name: "jsdelivr-chengaopa-vless_222"
+    type: "vless"
+    server: "wr28-6njjgu.linenheath.site"
+    port: 443
+    uuid: "9638a83e-f1f7-4cc8-a602-924965d9534f"
+    tls: true
+    network: "tcp"
+
+  - name: "jsdelivr-chengaopa-vless_224"
+    type: "vless"
+    server: "155.117.199.13"
+    port: 39211
+    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
+    tls: true
+    network: "tcp"
+
+  - name: "jsdelivr-chengaopa-vless_225"
+    type: "vless"
+    server: "nsuc-znkbig.avonex.top"
+    port: 443
+    uuid: "ec31f6d7-c71a-413d-93aa-24296805a594"
+    tls: true
+    network: "tcp"
+
+  - name: "jsdelivr-chengaopa-ss_83"
+    type: "ss"
+    server: "63.180.254.10"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "jsdelivr-chengaopa-trojan_87"
+    type: "trojan"
+    server: "18.183.103.86"
+    port: 4117
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_88"
+    type: "trojan"
+    server: "18.166.63.119"
+    port: 2944
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_89"
+    type: "trojan"
+    server: "13.214.209.40"
+    port: 3878
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_92"
+    type: "trojan"
+    server: "18.183.103.86"
+    port: 41421
+    password: "BxceQaOe"
+    sni: "t.me%2Fripaojiedian"
+
+  - name: "jsdelivr-chengaopa-trojan_95"
+    type: "trojan"
+    server: "54.179.227.94"
+    port: 34039
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
 
 proxy-groups:
   - name: Proxy
@@ -2652,15 +2615,13 @@ proxy-groups:
       - "github-ermaozi-ss_26"
       - "github-ermaozi-ss_27"
       - "github-ermaozi-vmess_28"
-      - "anaer.github.io-vless_1"
-      - "anaer.github.io-vless_2"
-      - "anaer.github.io-vless_3"
-      - "anaer.github.io-vmess_4"
-      - "anaer.github.io-vless_131"
-      - "anaer.github.io-vless_132"
+      - "anaer.github.io-trojan_3"
+      - "anaer.github.io-vless_4"
+      - "anaer.github.io-vmess_5"
+      - "anaer.github.io-vless_128"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
-      - "github-peasoft-ss_5"
+      - "github-peasoft-trojan_10"
       - "v2clash-vless_1"
       - "v2clash-trojan_2"
       - "v2clash-vless_3"
@@ -2778,29 +2739,29 @@ proxy-groups:
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-ss_23"
-      - "github-mfuu-trojan_24"
-      - "github-mfuu-trojan_25"
-      - "github-mfuu-trojan_26"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-ss_30"
-      - "github-mfuu-trojan_32"
-      - "github-mfuu-trojan_51"
-      - "github-mfuu-vmess_77"
-      - "github-mfuu-vmess_78"
-      - "github-mfuu-trojan_80"
-      - "github-mfuu-vmess_83"
-      - "github-mfuu-vmess_96"
-      - "github-mfuu-trojan_97"
-      - "github-mfuu-trojan_98"
-      - "github-mfuu-vmess_100"
-      - "github-mfuu-trojan_112"
+      - "github-mfuu-ss_6"
+      - "github-mfuu-vmess_7"
+      - "github-mfuu-ss_11"
+      - "github-mfuu-trojan_14"
+      - "github-mfuu-trojan_17"
+      - "github-mfuu-ss_18"
+      - "github-mfuu-trojan_20"
+      - "github-mfuu-trojan_39"
+      - "github-mfuu-vmess_65"
+      - "github-mfuu-vmess_66"
+      - "github-mfuu-trojan_68"
+      - "github-mfuu-vmess_71"
+      - "github-mfuu-vmess_84"
+      - "github-mfuu-trojan_85"
+      - "github-mfuu-trojan_86"
+      - "github-mfuu-vmess_88"
+      - "github-mfuu-vmess_111"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_4"
       - "github-go4sharing-ss_8"
       - "github-go4sharing-ss_9"
       - "sub.scpnb.top-vmess_1"
+      - "xrayvip.com-trojan_40"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2877,30 +2838,29 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_74"
       - "jsdelivr-chengaopa-hysteria2_75"
       - "jsdelivr-chengaopa-hysteria2_76"
-      - "jsdelivr-chengaopa-ss_77"
-      - "jsdelivr-chengaopa-vless_208"
-      - "jsdelivr-chengaopa-vless_209"
-      - "jsdelivr-chengaopa-vless_211"
-      - "jsdelivr-chengaopa-vless_213"
-      - "jsdelivr-chengaopa-vless_214"
-      - "gitio-vmess_28"
-      - "jsdelivr-chengaopa-ss_83"
-      - "jsdelivr-chengaopa-hysteria2_36-1"
-      - "jsdelivr-chengaopa-hysteria2_37-1"
-      - "jsdelivr-chengaopa-hysteria2_56-1"
-      - "jsdelivr-chengaopa-hysteria2_57-1"
-      - "jsdelivr-chengaopa-hysteria2_58-1"
-      - "jsdelivr-chengaopa-hysteria2_59-1"
-      - "jsdelivr-chengaopa-hysteria2_64-1"
-      - "jsdelivr-chengaopa-hysteria2_65-1"
-      - "jsdelivr-chengaopa-hysteria2_66-1"
-      - "jsdelivr-chengaopa-hysteria2_67-1"
-      - "jsdelivr-chengaopa-hysteria2_71-1"
-      - "jsdelivr-chengaopa-hysteria2_74-1"
       - "jsdelivr-chengaopa-hysteria2_77"
+      - "jsdelivr-chengaopa-hysteria2_78"
       - "jsdelivr-chengaopa-hysteria2_79"
+      - "jsdelivr-chengaopa-hysteria2_80"
+      - "jsdelivr-chengaopa-hysteria2_81"
       - "jsdelivr-chengaopa-hysteria2_82"
+      - "jsdelivr-chengaopa-hysteria2_83"
       - "jsdelivr-chengaopa-hysteria2_84"
+      - "jsdelivr-chengaopa-hysteria2_85"
+      - "jsdelivr-chengaopa-hysteria2_86"
+      - "jsdelivr-chengaopa-hysteria2_87"
+      - "jsdelivr-chengaopa-ss_88"
+      - "jsdelivr-chengaopa-vless_219"
+      - "jsdelivr-chengaopa-vless_220"
+      - "jsdelivr-chengaopa-vless_222"
+      - "jsdelivr-chengaopa-vless_224"
+      - "jsdelivr-chengaopa-vless_225"
+      - "jsdelivr-chengaopa-ss_83"
+      - "jsdelivr-chengaopa-trojan_87"
+      - "jsdelivr-chengaopa-trojan_88"
+      - "jsdelivr-chengaopa-trojan_89"
+      - "jsdelivr-chengaopa-trojan_92"
+      - "jsdelivr-chengaopa-trojan_95"
 
   - name: Auto
     type: url-test
@@ -2969,15 +2929,13 @@ proxy-groups:
       - "github-ermaozi-ss_26"
       - "github-ermaozi-ss_27"
       - "github-ermaozi-vmess_28"
-      - "anaer.github.io-vless_1"
-      - "anaer.github.io-vless_2"
-      - "anaer.github.io-vless_3"
-      - "anaer.github.io-vmess_4"
-      - "anaer.github.io-vless_131"
-      - "anaer.github.io-vless_132"
+      - "anaer.github.io-trojan_3"
+      - "anaer.github.io-vless_4"
+      - "anaer.github.io-vmess_5"
+      - "anaer.github.io-vless_128"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
-      - "github-peasoft-ss_5"
+      - "github-peasoft-trojan_10"
       - "v2clash-vless_1"
       - "v2clash-trojan_2"
       - "v2clash-vless_3"
@@ -3095,29 +3053,29 @@ proxy-groups:
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-ss_23"
-      - "github-mfuu-trojan_24"
-      - "github-mfuu-trojan_25"
-      - "github-mfuu-trojan_26"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-ss_30"
-      - "github-mfuu-trojan_32"
-      - "github-mfuu-trojan_51"
-      - "github-mfuu-vmess_77"
-      - "github-mfuu-vmess_78"
-      - "github-mfuu-trojan_80"
-      - "github-mfuu-vmess_83"
-      - "github-mfuu-vmess_96"
-      - "github-mfuu-trojan_97"
-      - "github-mfuu-trojan_98"
-      - "github-mfuu-vmess_100"
-      - "github-mfuu-trojan_112"
+      - "github-mfuu-ss_6"
+      - "github-mfuu-vmess_7"
+      - "github-mfuu-ss_11"
+      - "github-mfuu-trojan_14"
+      - "github-mfuu-trojan_17"
+      - "github-mfuu-ss_18"
+      - "github-mfuu-trojan_20"
+      - "github-mfuu-trojan_39"
+      - "github-mfuu-vmess_65"
+      - "github-mfuu-vmess_66"
+      - "github-mfuu-trojan_68"
+      - "github-mfuu-vmess_71"
+      - "github-mfuu-vmess_84"
+      - "github-mfuu-trojan_85"
+      - "github-mfuu-trojan_86"
+      - "github-mfuu-vmess_88"
+      - "github-mfuu-vmess_111"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_4"
       - "github-go4sharing-ss_8"
       - "github-go4sharing-ss_9"
       - "sub.scpnb.top-vmess_1"
+      - "xrayvip.com-trojan_40"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -3194,30 +3152,29 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_74"
       - "jsdelivr-chengaopa-hysteria2_75"
       - "jsdelivr-chengaopa-hysteria2_76"
-      - "jsdelivr-chengaopa-ss_77"
-      - "jsdelivr-chengaopa-vless_208"
-      - "jsdelivr-chengaopa-vless_209"
-      - "jsdelivr-chengaopa-vless_211"
-      - "jsdelivr-chengaopa-vless_213"
-      - "jsdelivr-chengaopa-vless_214"
-      - "gitio-vmess_28"
-      - "jsdelivr-chengaopa-ss_83"
-      - "jsdelivr-chengaopa-hysteria2_36-1"
-      - "jsdelivr-chengaopa-hysteria2_37-1"
-      - "jsdelivr-chengaopa-hysteria2_56-1"
-      - "jsdelivr-chengaopa-hysteria2_57-1"
-      - "jsdelivr-chengaopa-hysteria2_58-1"
-      - "jsdelivr-chengaopa-hysteria2_59-1"
-      - "jsdelivr-chengaopa-hysteria2_64-1"
-      - "jsdelivr-chengaopa-hysteria2_65-1"
-      - "jsdelivr-chengaopa-hysteria2_66-1"
-      - "jsdelivr-chengaopa-hysteria2_67-1"
-      - "jsdelivr-chengaopa-hysteria2_71-1"
-      - "jsdelivr-chengaopa-hysteria2_74-1"
       - "jsdelivr-chengaopa-hysteria2_77"
+      - "jsdelivr-chengaopa-hysteria2_78"
       - "jsdelivr-chengaopa-hysteria2_79"
+      - "jsdelivr-chengaopa-hysteria2_80"
+      - "jsdelivr-chengaopa-hysteria2_81"
       - "jsdelivr-chengaopa-hysteria2_82"
+      - "jsdelivr-chengaopa-hysteria2_83"
       - "jsdelivr-chengaopa-hysteria2_84"
+      - "jsdelivr-chengaopa-hysteria2_85"
+      - "jsdelivr-chengaopa-hysteria2_86"
+      - "jsdelivr-chengaopa-hysteria2_87"
+      - "jsdelivr-chengaopa-ss_88"
+      - "jsdelivr-chengaopa-vless_219"
+      - "jsdelivr-chengaopa-vless_220"
+      - "jsdelivr-chengaopa-vless_222"
+      - "jsdelivr-chengaopa-vless_224"
+      - "jsdelivr-chengaopa-vless_225"
+      - "jsdelivr-chengaopa-ss_83"
+      - "jsdelivr-chengaopa-trojan_87"
+      - "jsdelivr-chengaopa-trojan_88"
+      - "jsdelivr-chengaopa-trojan_89"
+      - "jsdelivr-chengaopa-trojan_92"
+      - "jsdelivr-chengaopa-trojan_95"
 
   - name: Fallback
     type: fallback
@@ -3286,15 +3243,13 @@ proxy-groups:
       - "github-ermaozi-ss_26"
       - "github-ermaozi-ss_27"
       - "github-ermaozi-vmess_28"
-      - "anaer.github.io-vless_1"
-      - "anaer.github.io-vless_2"
-      - "anaer.github.io-vless_3"
-      - "anaer.github.io-vmess_4"
-      - "anaer.github.io-vless_131"
-      - "anaer.github.io-vless_132"
+      - "anaer.github.io-trojan_3"
+      - "anaer.github.io-vless_4"
+      - "anaer.github.io-vmess_5"
+      - "anaer.github.io-vless_128"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
-      - "github-peasoft-ss_5"
+      - "github-peasoft-trojan_10"
       - "v2clash-vless_1"
       - "v2clash-trojan_2"
       - "v2clash-vless_3"
@@ -3412,29 +3367,29 @@ proxy-groups:
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-ss_23"
-      - "github-mfuu-trojan_24"
-      - "github-mfuu-trojan_25"
-      - "github-mfuu-trojan_26"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-ss_30"
-      - "github-mfuu-trojan_32"
-      - "github-mfuu-trojan_51"
-      - "github-mfuu-vmess_77"
-      - "github-mfuu-vmess_78"
-      - "github-mfuu-trojan_80"
-      - "github-mfuu-vmess_83"
-      - "github-mfuu-vmess_96"
-      - "github-mfuu-trojan_97"
-      - "github-mfuu-trojan_98"
-      - "github-mfuu-vmess_100"
-      - "github-mfuu-trojan_112"
+      - "github-mfuu-ss_6"
+      - "github-mfuu-vmess_7"
+      - "github-mfuu-ss_11"
+      - "github-mfuu-trojan_14"
+      - "github-mfuu-trojan_17"
+      - "github-mfuu-ss_18"
+      - "github-mfuu-trojan_20"
+      - "github-mfuu-trojan_39"
+      - "github-mfuu-vmess_65"
+      - "github-mfuu-vmess_66"
+      - "github-mfuu-trojan_68"
+      - "github-mfuu-vmess_71"
+      - "github-mfuu-vmess_84"
+      - "github-mfuu-trojan_85"
+      - "github-mfuu-trojan_86"
+      - "github-mfuu-vmess_88"
+      - "github-mfuu-vmess_111"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_4"
       - "github-go4sharing-ss_8"
       - "github-go4sharing-ss_9"
       - "sub.scpnb.top-vmess_1"
+      - "xrayvip.com-trojan_40"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -3511,30 +3466,29 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_74"
       - "jsdelivr-chengaopa-hysteria2_75"
       - "jsdelivr-chengaopa-hysteria2_76"
-      - "jsdelivr-chengaopa-ss_77"
-      - "jsdelivr-chengaopa-vless_208"
-      - "jsdelivr-chengaopa-vless_209"
-      - "jsdelivr-chengaopa-vless_211"
-      - "jsdelivr-chengaopa-vless_213"
-      - "jsdelivr-chengaopa-vless_214"
-      - "gitio-vmess_28"
-      - "jsdelivr-chengaopa-ss_83"
-      - "jsdelivr-chengaopa-hysteria2_36-1"
-      - "jsdelivr-chengaopa-hysteria2_37-1"
-      - "jsdelivr-chengaopa-hysteria2_56-1"
-      - "jsdelivr-chengaopa-hysteria2_57-1"
-      - "jsdelivr-chengaopa-hysteria2_58-1"
-      - "jsdelivr-chengaopa-hysteria2_59-1"
-      - "jsdelivr-chengaopa-hysteria2_64-1"
-      - "jsdelivr-chengaopa-hysteria2_65-1"
-      - "jsdelivr-chengaopa-hysteria2_66-1"
-      - "jsdelivr-chengaopa-hysteria2_67-1"
-      - "jsdelivr-chengaopa-hysteria2_71-1"
-      - "jsdelivr-chengaopa-hysteria2_74-1"
       - "jsdelivr-chengaopa-hysteria2_77"
+      - "jsdelivr-chengaopa-hysteria2_78"
       - "jsdelivr-chengaopa-hysteria2_79"
+      - "jsdelivr-chengaopa-hysteria2_80"
+      - "jsdelivr-chengaopa-hysteria2_81"
       - "jsdelivr-chengaopa-hysteria2_82"
+      - "jsdelivr-chengaopa-hysteria2_83"
       - "jsdelivr-chengaopa-hysteria2_84"
+      - "jsdelivr-chengaopa-hysteria2_85"
+      - "jsdelivr-chengaopa-hysteria2_86"
+      - "jsdelivr-chengaopa-hysteria2_87"
+      - "jsdelivr-chengaopa-ss_88"
+      - "jsdelivr-chengaopa-vless_219"
+      - "jsdelivr-chengaopa-vless_220"
+      - "jsdelivr-chengaopa-vless_222"
+      - "jsdelivr-chengaopa-vless_224"
+      - "jsdelivr-chengaopa-vless_225"
+      - "jsdelivr-chengaopa-ss_83"
+      - "jsdelivr-chengaopa-trojan_87"
+      - "jsdelivr-chengaopa-trojan_88"
+      - "jsdelivr-chengaopa-trojan_89"
+      - "jsdelivr-chengaopa-trojan_92"
+      - "jsdelivr-chengaopa-trojan_95"
 
 rules:
   - GEOIP,CN,DIRECT

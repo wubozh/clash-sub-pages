@@ -458,21 +458,7 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "anaer.github.io-trojan_2"
-    type: "trojan"
-    server: "hkdcrtc-e.catcat321.com"
-    port: 20066
-    password: "a126f35c-e832-4115-8593-b723ade3f7be"
-    sni: "hk.catxstar.com"
-
-  - name: "anaer.github.io-trojan_3"
-    type: "trojan"
-    server: "kkvlvvq-a.catcat321.com"
-    port: 20085
-    password: "a126f35c-e832-4115-8593-b723ade3f7be"
-    sni: "hk.catxstar.com"
-
-  - name: "anaer.github.io-vless_4"
+  - name: "anaer.github.io-vless_2"
     type: "vless"
     server: "ld.242311.xyz"
     port: 443
@@ -481,6 +467,40 @@ proxies:
     network: "ws"
     ws-opts:
       path: "/"
+
+  - name: "anaer.github.io-trojan_3"
+    type: "trojan"
+    server: "hkdcrtc-e.catcat321.com"
+    port: 20066
+    password: "a126f35c-e832-4115-8593-b723ade3f7be"
+    sni: "hk.catxstar.com"
+
+  - name: "anaer.github.io-trojan_4"
+    type: "trojan"
+    server: "kkvlvvq-a.catcat321.com"
+    port: 20085
+    password: "a126f35c-e832-4115-8593-b723ade3f7be"
+    sni: "hk.catxstar.com"
+
+  - name: "anaer.github.io-vless_123"
+    type: "vless"
+    server: "63.141.128.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "anaer.github.io-vless_132"
+    type: "vless"
+    server: "91.232.114.148"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
 
   - name: "github-peasoft-trojan_1"
     type: "trojan"
@@ -502,6 +522,795 @@ proxies:
     port: 25982
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
+
+  - name: "github-peasoft-vmess_7"
+    type: "vmess"
+    server: "t.cnmjcn.cyou"
+    port: 16632
+    uuid: "62319519-82bc-46ff-99cd-237bd0882cef"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_9"
+    type: "vless"
+    server: "195.123.210.168"
+    port: 13443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-trojan_12"
+    type: "trojan"
+    server: "130.250.137.171"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_13"
+    type: "trojan"
+    server: "165.215.250.14"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_14"
+    type: "vless"
+    server: "158.178.148.82"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    tls: false
+    network: "tcp"
+
+  - name: "v2clash-trojan_15"
+    type: "trojan"
+    server: "216.24.57.1"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_16"
+    type: "vless"
+    server: "195.123.210.168"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-trojan_17"
+    type: "trojan"
+    server: "render.com"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_18"
+    type: "trojan"
+    server: "216.24.57.7"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_21"
+    type: "trojan"
+    server: "104.18.23.63"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_22"
+    type: "trojan"
+    server: "104.18.22.63"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_34"
+    type: "vless"
+    server: "185.195.69.158"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-hysteria2_38"
+    type: "hysteria2"
+    server: "152.69.173.189"
+    port: 20000
+    password: "a34f3990b69f44bfa0d32385"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "v2clash-vless_42"
+    type: "vless"
+    server: "85.234.100.221"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-vless_43"
+    type: "vless"
+    server: "85.90.196.38"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-vless_44"
+    type: "vless"
+    server: "104.19.213.131"
+    port: 2087
+    uuid: "73bcd72f-9545-4cb8-8daf-7d004501880d"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_47"
+    type: "vless"
+    server: "195.135.254.15"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-vless_48"
+    type: "vless"
+    server: "91.222.237.55"
+    port: 2200
+    uuid: "714e1212-6707-471e-9f40-2fbd3d8d3b4b"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/v1"
+
+  - name: "v2clash-vless_49"
+    type: "vless"
+    server: "62.182.193.108"
+    port: 2087
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-trojan_50"
+    type: "trojan"
+    server: "104.17.111.3"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_52"
+    type: "trojan"
+    server: "104.17.111.4"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_54"
+    type: "trojan"
+    server: "104.17.177.143"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_56"
+    type: "vless"
+    server: "152.70.49.181"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    tls: false
+    network: "tcp"
+
+  - name: "v2clash-trojan_57"
+    type: "trojan"
+    server: "104.17.111.8"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_58"
+    type: "vless"
+    server: "158.180.14.47"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    tls: false
+    network: "tcp"
+
+  - name: "v2clash-vless_63"
+    type: "vless"
+    server: "193.134.209.123"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-vless_64"
+    type: "vless"
+    server: "31.76.61.232"
+    port: 443
+    uuid: "4829c2f5-f45a-4330-9b3c-d381b9efdbec"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_71"
+    type: "vless"
+    server: "151.242.168.69"
+    port: 335
+    uuid: "10000025-9365-7547-f000-30f4f61aa020"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_72"
+    type: "vless"
+    server: "185.253.46.27"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-vless_73"
+    type: "vless"
+    server: "157.137.225.233"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    tls: false
+    network: "tcp"
+
+  - name: "v2clash-vless_74"
+    type: "vless"
+    server: "157.137.227.227"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    tls: false
+    network: "tcp"
+
+  - name: "v2clash-vless_75"
+    type: "vless"
+    server: "149.130.184.118"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    tls: false
+    network: "tcp"
+
+  - name: "v2clash-trojan_76"
+    type: "trojan"
+    server: "www.speedtest.org"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_77"
+    type: "trojan"
+    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_78"
+    type: "trojan"
+    server: "104.18.152.219"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_79"
+    type: "trojan"
+    server: "104.18.152.144"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_81"
+    type: "trojan"
+    server: "join-telegram-channel.tirexnet.kdns.fr"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_82"
+    type: "trojan"
+    server: "104.19.229.21"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_83"
+    type: "trojan"
+    server: "104.16.174.117"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_85"
+    type: "trojan"
+    server: "104.18.152.103"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_86"
+    type: "trojan"
+    server: "188.114.97.7"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_87"
+    type: "trojan"
+    server: "104.18.12.149"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_88"
+    type: "trojan"
+    server: "104.18.152.73"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_89"
+    type: "trojan"
+    server: "104.18.152.244"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_90"
+    type: "trojan"
+    server: "104.16.174.109"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_91"
+    type: "trojan"
+    server: "86.38.214.205"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_92"
+    type: "trojan"
+    server: "104.18.152.233"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_93"
+    type: "trojan"
+    server: "www.ignitelimit.com"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_94"
+    type: "trojan"
+    server: "104.16.174.12"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_95"
+    type: "trojan"
+    server: "104.18.152.143"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_96"
+    type: "trojan"
+    server: "104.16.174.124"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_97"
+    type: "trojan"
+    server: "104.16.174.44"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_98"
+    type: "trojan"
+    server: "104.18.152.246"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_99"
+    type: "trojan"
+    server: "104.18.152.113"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_101"
+    type: "trojan"
+    server: "104.16.174.121"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_102"
+    type: "trojan"
+    server: "45.130.125.160"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_104"
+    type: "trojan"
+    server: "8.6.112.0"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_105"
+    type: "trojan"
+    server: "104.18.152.225"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_107"
+    type: "trojan"
+    server: "104.18.152.175"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_108"
+    type: "trojan"
+    server: "104.16.174.22"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_110"
+    type: "trojan"
+    server: "104.18.152.179"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_111"
+    type: "trojan"
+    server: "104.18.152.208"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_112"
+    type: "trojan"
+    server: "198.41.223.96"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_113"
+    type: "trojan"
+    server: "104.16.174.72"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_114"
+    type: "trojan"
+    server: "104.16.174.6"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_115"
+    type: "trojan"
+    server: "104.18.152.77"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_120"
+    type: "trojan"
+    server: "104.18.152.187"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_125"
+    type: "trojan"
+    server: "104.18.152.152"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_126"
+    type: "trojan"
+    server: "104.18.152.159"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_128"
+    type: "trojan"
+    server: "104.20.6.134"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_130"
+    type: "trojan"
+    server: "104.18.152.133"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_133"
+    type: "trojan"
+    server: "104.18.152.229"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_135"
+    type: "trojan"
+    server: "104.18.152.210"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_138"
+    type: "trojan"
+    server: "104.16.174.36"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_139"
+    type: "trojan"
+    server: "104.16.174.14"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_140"
+    type: "trojan"
+    server: "104.18.152.140"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_143"
+    type: "trojan"
+    server: "104.18.152.155"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_144"
+    type: "trojan"
+    server: "104.18.152.204"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_145"
+    type: "trojan"
+    server: "104.18.152.207"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_146"
+    type: "trojan"
+    server: "104.18.152.108"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_148"
+    type: "trojan"
+    server: "ip.myip2.qzz.io"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_149"
+    type: "trojan"
+    server: "104.21.46.3"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_152"
+    type: "trojan"
+    server: "104.16.174.101"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_154"
+    type: "trojan"
+    server: "104.16.174.148"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_168"
+    type: "trojan"
+    server: "104.18.152.50"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_169"
+    type: "trojan"
+    server: "104.18.152.97"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_170"
+    type: "trojan"
+    server: "104.16.174.37"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_174"
+    type: "trojan"
+    server: "104.18.152.149"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_181"
+    type: "trojan"
+    server: "104.16.7.70"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_183"
+    type: "trojan"
+    server: "104.18.152.161"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_186"
+    type: "trojan"
+    server: "172.67.221.242"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_195"
+    type: "trojan"
+    server: "104.16.174.143"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_197"
+    type: "trojan"
+    server: "104.16.174.71"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_205"
+    type: "trojan"
+    server: "172.67.149.60"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_215"
+    type: "trojan"
+    server: "104.26.14.137"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_217"
+    type: "trojan"
+    server: "104.16.174.46"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_224"
+    type: "trojan"
+    server: "104.16.73.213"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_232"
+    type: "trojan"
+    server: "104.16.174.34"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-trojan_233"
+    type: "trojan"
+    server: "141.101.90.101"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_247"
+    type: "vless"
+    server: "77.91.69.141"
+    port: 8443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-trojan_252"
+    type: "trojan"
+    server: "104.26.15.137"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_260"
+    type: "vless"
+    server: "194.55.164.154"
+    port: 8443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-vless_261"
+    type: "vless"
+    server: "5.61.46.9"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+
+  - name: "v2clash-trojan_265"
+    type: "trojan"
+    server: "2.144.21.112"
+    port: 40443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+
+  - name: "v2clash-vless_271"
+    type: "vless"
+    server: "2.24.124.64"
+    port: 443
+    uuid: "719b9354-45e2-4718-8709-d965b64554db"
+    tls: true
+    network: "tcp"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -542,34 +1351,6 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
-
-  - name: "github-mfuu-trojan_1"
-    type: "trojan"
-    server: "104.26.14.137"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_2"
-    type: "trojan"
-    server: "104.21.46.3"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_3"
-    type: "trojan"
-    server: "104.20.6.134"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_4"
-    type: "trojan"
-    server: "www.speedtest.org"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
 
   - name: "github-mfuu-ss_7"
     type: "ss"
@@ -640,104 +1421,6 @@ proxies:
     port: 30001
     cipher: "aes-256-gcm"
     password: "Butterfly123@qwe9527"
-
-  - name: "github-mfuu-trojan_19"
-    type: "trojan"
-    server: "2.144.21.112"
-    port: 40443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_25"
-    type: "trojan"
-    server: "104.18.152.143"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_26"
-    type: "trojan"
-    server: "104.26.15.137"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_28"
-    type: "trojan"
-    server: "www.ignitelimit.com"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_29"
-    type: "trojan"
-    server: "104.18.152.140"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_30"
-    type: "trojan"
-    server: "104.16.174.22"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_31"
-    type: "trojan"
-    server: "86.38.214.205"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_32"
-    type: "trojan"
-    server: "104.18.152.108"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_33"
-    type: "trojan"
-    server: "104.18.152.219"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_34"
-    type: "trojan"
-    server: "104.18.152.152"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_35"
-    type: "trojan"
-    server: "104.18.152.207"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_36"
-    type: "trojan"
-    server: "104.18.22.63"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_37"
-    type: "trojan"
-    server: "104.16.73.213"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_38"
-    type: "trojan"
-    server: "216.24.57.7"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
 
   - name: "github-mfuu-vmess_62"
     type: "vmess"
@@ -810,111 +1493,6 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-trojan_86"
-    type: "trojan"
-    server: "104.18.152.244"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_87"
-    type: "trojan"
-    server: "104.17.111.8"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_90"
-    type: "trojan"
-    server: "104.18.12.149"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_91"
-    type: "trojan"
-    server: "104.16.174.148"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_95"
-    type: "trojan"
-    server: "104.16.174.124"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_98"
-    type: "trojan"
-    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_99"
-    type: "trojan"
-    server: "104.17.111.4"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_100"
-    type: "trojan"
-    server: "165.215.250.14"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_102"
-    type: "trojan"
-    server: "104.18.23.63"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_104"
-    type: "trojan"
-    server: "216.24.57.1"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_105"
-    type: "trojan"
-    server: "130.250.137.171"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_107"
-    type: "trojan"
-    server: "104.18.152.179"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_108"
-    type: "trojan"
-    server: "104.16.174.109"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_109"
-    type: "trojan"
-    server: "render.com"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_110"
-    type: "trojan"
-    server: "45.130.125.160"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
   - name: "github-mfuu-vmess_111"
     type: "vmess"
     server: "planb.mojcn.com.linuxlh.xin"
@@ -925,219 +1503,9 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-mfuu-trojan_115"
-    type: "trojan"
-    server: "104.16.174.101"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
   - name: "github-mfuu-trojan_123"
     type: "trojan"
     server: "176.97.66.175"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_125"
-    type: "trojan"
-    server: "104.18.152.144"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_127"
-    type: "trojan"
-    server: "104.16.174.14"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_128"
-    type: "trojan"
-    server: "104.18.152.155"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_129"
-    type: "trojan"
-    server: "172.67.149.60"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_130"
-    type: "trojan"
-    server: "104.18.152.210"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_132"
-    type: "trojan"
-    server: "104.16.174.143"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_134"
-    type: "trojan"
-    server: "104.18.152.50"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_135"
-    type: "trojan"
-    server: "198.41.223.96"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_136"
-    type: "trojan"
-    server: "104.18.152.225"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_138"
-    type: "trojan"
-    server: "104.18.152.233"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_139"
-    type: "trojan"
-    server: "104.18.152.187"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_140"
-    type: "trojan"
-    server: "104.18.152.77"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_141"
-    type: "trojan"
-    server: "ip.myip2.qzz.io"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_143"
-    type: "trojan"
-    server: "104.18.152.175"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_144"
-    type: "trojan"
-    server: "104.18.152.113"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_146"
-    type: "trojan"
-    server: "104.18.152.161"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_150"
-    type: "trojan"
-    server: "104.18.152.208"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_152"
-    type: "trojan"
-    server: "104.18.152.133"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_153"
-    type: "trojan"
-    server: "104.18.152.204"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_154"
-    type: "trojan"
-    server: "104.18.152.97"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_156"
-    type: "trojan"
-    server: "104.16.174.37"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_160"
-    type: "trojan"
-    server: "104.18.152.229"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_161"
-    type: "trojan"
-    server: "104.16.174.71"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_162"
-    type: "trojan"
-    server: "104.19.229.21"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_163"
-    type: "trojan"
-    server: "104.18.152.103"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_167"
-    type: "trojan"
-    server: "104.17.177.143"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_168"
-    type: "trojan"
-    server: "104.17.111.3"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_186"
-    type: "trojan"
-    server: "104.18.152.246"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "github-mfuu-trojan_191"
-    type: "trojan"
-    server: "104.18.152.159"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -1182,114 +1550,44 @@ proxies:
     ws-opts:
       path: "/a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm"
 
-  - name: "xrayvip.com-ss_7"
+  - name: "xrayvip.com-ss_9"
     type: "ss"
-    server: "140.245.123.126"
-    port: 56927
+    server: "147.15.73.104"
+    port: 59319
     cipher: "2022-blake3-chacha20-poly1305"
-    password: "9PvikasSAkf6uo3YfXr/N6WffBIsBQt0Nid+CxbSXDM="
+    password: "7/EA6g8zfS5vVYXrk+16wA+41eejpQjr7ll5C2BXsx4="
 
   - name: "xrayvip.com-ss_10"
     type: "ss"
-    server: "132.226.71.250"
+    server: "130.61.116.140"
+    port: 59924
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "rJevsg8gWGF8MLXHJbO8cUjw8qT7Nkd/v8BA8jCVDsk="
+
+  - name: "xrayvip.com-ss_11"
+    type: "ss"
+    server: "129.151.82.201"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "hIQF8+K9VdZUUvML50mUwcPk2TtPvuf2FCcxXICzvt4="
+
+  - name: "xrayvip.com-ss_12"
+    type: "ss"
+    server: "141.148.241.211"
+    port: 45819
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "k//4bvSvtf5XFTJVWWSaOHAr/631ZWJzHo4vSOObpQU="
+
+  - name: "xrayvip.com-ss_13"
+    type: "ss"
+    server: "129.146.167.71"
     port: 50356
     cipher: "2022-blake3-chacha20-poly1305"
-    password: "9X1MAxGhs1ni3zLUnZn/IHSClJTA2wy2PfIfcpapHJw="
+    password: "e/LtVsVh1d/nLym2Se5Q1iueknHxIiUB4eNujOLXNe8="
 
-  - name: "xrayvip.com-trojan_13"
-    type: "trojan"
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_16"
-    type: "trojan"
-    server: "104.16.7.70"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_19"
+  - name: "xrayvip.com-trojan_68"
     type: "trojan"
     server: "172.67.74.2"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_23"
-    type: "trojan"
-    server: "104.16.174.12"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_47"
-    type: "trojan"
-    server: "104.16.174.121"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_48"
-    type: "trojan"
-    server: "104.18.152.73"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_49"
-    type: "trojan"
-    server: "104.16.174.36"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_60"
-    type: "trojan"
-    server: "104.16.174.34"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_66"
-    type: "trojan"
-    server: "8.6.112.0"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_67"
-    type: "trojan"
-    server: "104.16.174.117"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_71"
-    type: "trojan"
-    server: "104.16.174.6"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_75"
-    type: "trojan"
-    server: "104.18.152.149"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_76"
-    type: "trojan"
-    server: "104.16.174.33"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "xrayvip.com-trojan_78"
-    type: "trojan"
-    server: "104.16.174.44"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -1818,15 +2116,6 @@ proxies:
 
   - name: "jsdelivr-chengaopa-hysteria2_59"
     type: "hysteria2"
-    server: "nl1.xiaoliyu.cyou"
-    port: 4433
-    password: "39b27e20-16f5-45a1-8139-7c9b7f51b6f8"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_60"
-    type: "hysteria2"
     server: "giftcard.gisora.ir"
     port: 52000
     password: "617z9r1mbzbm1t5z"
@@ -1834,7 +2123,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_61"
+  - name: "jsdelivr-chengaopa-hysteria2_60"
     type: "hysteria2"
     server: "31.76.80.69"
     port: 443
@@ -1843,7 +2132,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_62"
+  - name: "jsdelivr-chengaopa-hysteria2_61"
     type: "hysteria2"
     server: "167.179.34.13"
     port: 55443
@@ -1852,16 +2141,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_63"
-    type: "hysteria2"
-    server: "37.46.199.229"
-    port: 443
-    password: "8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_64"
+  - name: "jsdelivr-chengaopa-hysteria2_62"
     type: "hysteria2"
     server: "gift-catalog.aroonia.ir"
     port: 52000
@@ -1870,7 +2150,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_65"
+  - name: "jsdelivr-chengaopa-hysteria2_63"
     type: "hysteria2"
     server: "198.105.123.106"
     port: 11504
@@ -1879,16 +2159,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_66"
-    type: "hysteria2"
-    server: "45.92.219.237"
-    port: 8486
-    password: "'@Telegram@Configvibes'"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_67"
+  - name: "jsdelivr-chengaopa-hysteria2_64"
     type: "hysteria2"
     server: "hy2-switzerlandgopota.unlimited-access.ru"
     port: 443
@@ -1897,7 +2168,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_68"
+  - name: "jsdelivr-chengaopa-hysteria2_65"
     type: "hysteria2"
     server: "45.128.99.14"
     port: 8443
@@ -1906,16 +2177,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_69"
-    type: "hysteria2"
-    server: "3.36.96.245"
-    port: 443
-    password: "H7mP2xY9kJ4nQ8wR5tF6vB3z"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_70"
+  - name: "jsdelivr-chengaopa-hysteria2_66"
     type: "hysteria2"
     server: "179.61.132.96"
     port: 8443
@@ -1924,7 +2186,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_71"
+  - name: "jsdelivr-chengaopa-hysteria2_67"
     type: "hysteria2"
     server: "147.45.149.88"
     port: 8443
@@ -1933,7 +2195,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_72"
+  - name: "jsdelivr-chengaopa-hysteria2_68"
     type: "hysteria2"
     server: "205.237.109.162"
     port: 8443
@@ -1942,7 +2204,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_73"
+  - name: "jsdelivr-chengaopa-hysteria2_69"
     type: "hysteria2"
     server: "205.237.109.163"
     port: 8443
@@ -1951,7 +2213,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_74"
+  - name: "jsdelivr-chengaopa-hysteria2_70"
     type: "hysteria2"
     server: "ptserv.accuratenetworkchecker.ir"
     port: 36896
@@ -1960,16 +2222,16 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_75"
+  - name: "jsdelivr-chengaopa-hysteria2_71"
     type: "hysteria2"
-    server: "77.110.96.201"
-    port: 36264
-    password: "Telegram@vpnjey"
+    server: "179.61.251.253"
+    port: 37003
+    password: "TelegramVPNjey"
     alpn:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_76"
+  - name: "jsdelivr-chengaopa-hysteria2_72"
     type: "hysteria2"
     server: "206.71.158.37"
     port: 35000
@@ -1978,7 +2240,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_77"
+  - name: "jsdelivr-chengaopa-hysteria2_73"
     type: "hysteria2"
     server: "45.192.12.93"
     port: 443
@@ -1987,25 +2249,34 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_78"
+  - name: "jsdelivr-chengaopa-hysteria2_74"
     type: "hysteria2"
     server: "giftcard.gateway-stream.com"
-    port: 52067
-    password: "ilkbtuxd94xofam1"
+    port: 52032
+    password: "mdq80x0xv9wt7520"
     alpn:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_79"
+  - name: "jsdelivr-chengaopa-hysteria2_75"
     type: "hysteria2"
-    server: "201.51.24.4"
-    port: 443
-    password: "oCYFcbOo8s"
+    server: "giftcard.gateway-stream.com"
+    port: 52050
+    password: "mdq80x0xv9wt7520"
     alpn:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_80"
+  - name: "jsdelivr-chengaopa-hysteria2_76"
+    type: "hysteria2"
+    server: "giftcard.gateway-stream.com"
+    port: 52061
+    password: "mdq80x0xv9wt7520"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_78"
     type: "hysteria2"
     server: "pro2.riziro.ir"
     port: 44100
@@ -2014,7 +2285,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_81"
+  - name: "jsdelivr-chengaopa-hysteria2_79"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
     port: 52008
@@ -2023,7 +2294,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_82"
+  - name: "jsdelivr-chengaopa-hysteria2_80"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
     port: 52009
@@ -2032,7 +2303,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_83"
+  - name: "jsdelivr-chengaopa-hysteria2_81"
     type: "hysteria2"
     server: "assets.gateway-stream.com"
     port: 52026
@@ -2041,7 +2312,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_84"
+  - name: "jsdelivr-chengaopa-hysteria2_82"
     type: "hysteria2"
     server: "5.83.129.11"
     port: 443
@@ -2050,7 +2321,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_85"
+  - name: "jsdelivr-chengaopa-hysteria2_83"
     type: "hysteria2"
     server: "de.1.22.washing.help"
     port: 443
@@ -2059,37 +2330,14 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_86"
-    type: "hysteria2"
-    server: "giftcard.gateway-stream.com"
-    port: 52090
-    password: "xf2ak19a4uajprxg"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-ss_87"
+  - name: "jsdelivr-chengaopa-ss_84"
     type: "ss"
     server: "112.28.141.77"
     port: 10006
     cipher: "auto"
     password: "Butterfly123@qwe9527"
 
-  - name: "jsdelivr-chengaopa-trojan_88"
-    type: "trojan"
-    server: "95.40.24.109"
-    port: 1103
-    password: "BxceQaOe"
-    sni: "t.me%2Fripaojiedian"
-
-  - name: "jsdelivr-chengaopa-trojan_89"
-    type: "trojan"
-    server: "54.250.197.209"
-    port: 4117
-    password: "BxceQaOe"
-    sni: "t.me%2Fripaojiedian"
-
-  - name: "jsdelivr-chengaopa-vless_218"
+  - name: "jsdelivr-chengaopa-vless_217"
     type: "vless"
     server: "38.244.4.1"
     port: 443
@@ -2097,7 +2345,7 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "jsdelivr-chengaopa-vless_219"
+  - name: "jsdelivr-chengaopa-vless_218"
     type: "vless"
     server: "51.81.223.225"
     port: 11094
@@ -2105,7 +2353,7 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "jsdelivr-chengaopa-vless_221"
+  - name: "jsdelivr-chengaopa-vless_220"
     type: "vless"
     server: "wr28-6njjgu.linenheath.site"
     port: 443
@@ -2113,7 +2361,7 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "jsdelivr-chengaopa-vless_223"
+  - name: "jsdelivr-chengaopa-vless_222"
     type: "vless"
     server: "155.117.199.13"
     port: 39211
@@ -2121,7 +2369,7 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "jsdelivr-chengaopa-vless_224"
+  - name: "jsdelivr-chengaopa-vless_223"
     type: "vless"
     server: "nsuc-znkbig.avonex.top"
     port: 443
@@ -2243,42 +2491,6 @@ proxies:
     password: "BxceQaOe"
     sni: "t.me%2Fripaojiedian"
 
-  - name: "jsdelivr-chengaopa-hysteria2_71-1"
-    type: "hysteria2"
-    server: "179.61.251.253"
-    port: 37003
-    password: "TelegramVPNjey"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_74-1"
-    type: "hysteria2"
-    server: "giftcard.gateway-stream.com"
-    port: 52032
-    password: "mdq80x0xv9wt7520"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_75-1"
-    type: "hysteria2"
-    server: "giftcard.gateway-stream.com"
-    port: 52050
-    password: "mdq80x0xv9wt7520"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_76-1"
-    type: "hysteria2"
-    server: "giftcard.gateway-stream.com"
-    port: 52061
-    password: "mdq80x0xv9wt7520"
-    alpn:
-      - "h3"
-    udp: true
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -2335,20 +2547,123 @@ proxy-groups:
       - "github-ermaozi-vless_14"
       - "github-ermaozi-vless_16"
       - "github-ermaozi-vmess_17"
-      - "anaer.github.io-trojan_2"
+      - "anaer.github.io-vless_2"
       - "anaer.github.io-trojan_3"
-      - "anaer.github.io-vless_4"
+      - "anaer.github.io-trojan_4"
+      - "anaer.github.io-vless_123"
+      - "anaer.github.io-vless_132"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
       - "github-peasoft-trojan_6"
+      - "github-peasoft-vmess_7"
+      - "v2clash-vless_9"
+      - "v2clash-trojan_12"
+      - "v2clash-trojan_13"
+      - "v2clash-vless_14"
+      - "v2clash-trojan_15"
+      - "v2clash-vless_16"
+      - "v2clash-trojan_17"
+      - "v2clash-trojan_18"
+      - "v2clash-trojan_21"
+      - "v2clash-trojan_22"
+      - "v2clash-vless_34"
+      - "v2clash-hysteria2_38"
+      - "v2clash-vless_42"
+      - "v2clash-vless_43"
+      - "v2clash-vless_44"
+      - "v2clash-vless_47"
+      - "v2clash-vless_48"
+      - "v2clash-vless_49"
+      - "v2clash-trojan_50"
+      - "v2clash-trojan_52"
+      - "v2clash-trojan_54"
+      - "v2clash-vless_56"
+      - "v2clash-trojan_57"
+      - "v2clash-vless_58"
+      - "v2clash-vless_63"
+      - "v2clash-vless_64"
+      - "v2clash-vless_71"
+      - "v2clash-vless_72"
+      - "v2clash-vless_73"
+      - "v2clash-vless_74"
+      - "v2clash-vless_75"
+      - "v2clash-trojan_76"
+      - "v2clash-trojan_77"
+      - "v2clash-trojan_78"
+      - "v2clash-trojan_79"
+      - "v2clash-trojan_81"
+      - "v2clash-trojan_82"
+      - "v2clash-trojan_83"
+      - "v2clash-trojan_85"
+      - "v2clash-trojan_86"
+      - "v2clash-trojan_87"
+      - "v2clash-trojan_88"
+      - "v2clash-trojan_89"
+      - "v2clash-trojan_90"
+      - "v2clash-trojan_91"
+      - "v2clash-trojan_92"
+      - "v2clash-trojan_93"
+      - "v2clash-trojan_94"
+      - "v2clash-trojan_95"
+      - "v2clash-trojan_96"
+      - "v2clash-trojan_97"
+      - "v2clash-trojan_98"
+      - "v2clash-trojan_99"
+      - "v2clash-trojan_101"
+      - "v2clash-trojan_102"
+      - "v2clash-trojan_104"
+      - "v2clash-trojan_105"
+      - "v2clash-trojan_107"
+      - "v2clash-trojan_108"
+      - "v2clash-trojan_110"
+      - "v2clash-trojan_111"
+      - "v2clash-trojan_112"
+      - "v2clash-trojan_113"
+      - "v2clash-trojan_114"
+      - "v2clash-trojan_115"
+      - "v2clash-trojan_120"
+      - "v2clash-trojan_125"
+      - "v2clash-trojan_126"
+      - "v2clash-trojan_128"
+      - "v2clash-trojan_130"
+      - "v2clash-trojan_133"
+      - "v2clash-trojan_135"
+      - "v2clash-trojan_138"
+      - "v2clash-trojan_139"
+      - "v2clash-trojan_140"
+      - "v2clash-trojan_143"
+      - "v2clash-trojan_144"
+      - "v2clash-trojan_145"
+      - "v2clash-trojan_146"
+      - "v2clash-trojan_148"
+      - "v2clash-trojan_149"
+      - "v2clash-trojan_152"
+      - "v2clash-trojan_154"
+      - "v2clash-trojan_168"
+      - "v2clash-trojan_169"
+      - "v2clash-trojan_170"
+      - "v2clash-trojan_174"
+      - "v2clash-trojan_181"
+      - "v2clash-trojan_183"
+      - "v2clash-trojan_186"
+      - "v2clash-trojan_195"
+      - "v2clash-trojan_197"
+      - "v2clash-trojan_205"
+      - "v2clash-trojan_215"
+      - "v2clash-trojan_217"
+      - "v2clash-trojan_224"
+      - "v2clash-trojan_232"
+      - "v2clash-trojan_233"
+      - "v2clash-vless_247"
+      - "v2clash-trojan_252"
+      - "v2clash-vless_260"
+      - "v2clash-vless_261"
+      - "v2clash-trojan_265"
+      - "v2clash-vless_271"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_1"
-      - "github-mfuu-trojan_2"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-trojan_4"
       - "github-mfuu-ss_7"
       - "github-mfuu-ss_8"
       - "github-mfuu-trojan_11"
@@ -2359,20 +2674,6 @@ proxy-groups:
       - "github-mfuu-ss_16"
       - "github-mfuu-trojan_17"
       - "github-mfuu-ss_18"
-      - "github-mfuu-trojan_19"
-      - "github-mfuu-trojan_25"
-      - "github-mfuu-trojan_26"
-      - "github-mfuu-trojan_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_30"
-      - "github-mfuu-trojan_31"
-      - "github-mfuu-trojan_32"
-      - "github-mfuu-trojan_33"
-      - "github-mfuu-trojan_34"
-      - "github-mfuu-trojan_35"
-      - "github-mfuu-trojan_36"
-      - "github-mfuu-trojan_37"
-      - "github-mfuu-trojan_38"
       - "github-mfuu-vmess_62"
       - "github-mfuu-vmess_63"
       - "github-mfuu-trojan_65"
@@ -2381,74 +2682,19 @@ proxy-groups:
       - "github-mfuu-trojan_82"
       - "github-mfuu-trojan_83"
       - "github-mfuu-vmess_85"
-      - "github-mfuu-trojan_86"
-      - "github-mfuu-trojan_87"
-      - "github-mfuu-trojan_90"
-      - "github-mfuu-trojan_91"
-      - "github-mfuu-trojan_95"
-      - "github-mfuu-trojan_98"
-      - "github-mfuu-trojan_99"
-      - "github-mfuu-trojan_100"
-      - "github-mfuu-trojan_102"
-      - "github-mfuu-trojan_104"
-      - "github-mfuu-trojan_105"
-      - "github-mfuu-trojan_107"
-      - "github-mfuu-trojan_108"
-      - "github-mfuu-trojan_109"
-      - "github-mfuu-trojan_110"
       - "github-mfuu-vmess_111"
-      - "github-mfuu-trojan_115"
       - "github-mfuu-trojan_123"
-      - "github-mfuu-trojan_125"
-      - "github-mfuu-trojan_127"
-      - "github-mfuu-trojan_128"
-      - "github-mfuu-trojan_129"
-      - "github-mfuu-trojan_130"
-      - "github-mfuu-trojan_132"
-      - "github-mfuu-trojan_134"
-      - "github-mfuu-trojan_135"
-      - "github-mfuu-trojan_136"
-      - "github-mfuu-trojan_138"
-      - "github-mfuu-trojan_139"
-      - "github-mfuu-trojan_140"
-      - "github-mfuu-trojan_141"
-      - "github-mfuu-trojan_143"
-      - "github-mfuu-trojan_144"
-      - "github-mfuu-trojan_146"
-      - "github-mfuu-trojan_150"
-      - "github-mfuu-trojan_152"
-      - "github-mfuu-trojan_153"
-      - "github-mfuu-trojan_154"
-      - "github-mfuu-trojan_156"
-      - "github-mfuu-trojan_160"
-      - "github-mfuu-trojan_161"
-      - "github-mfuu-trojan_162"
-      - "github-mfuu-trojan_163"
-      - "github-mfuu-trojan_167"
-      - "github-mfuu-trojan_168"
-      - "github-mfuu-trojan_186"
-      - "github-mfuu-trojan_191"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_2"
       - "github-go4sharing-ss_3"
       - "github-go4sharing-ss_22"
       - "github-go4sharing-vmess_24"
-      - "xrayvip.com-ss_7"
+      - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
-      - "xrayvip.com-trojan_13"
-      - "xrayvip.com-trojan_16"
-      - "xrayvip.com-trojan_19"
-      - "xrayvip.com-trojan_23"
-      - "xrayvip.com-trojan_47"
-      - "xrayvip.com-trojan_48"
-      - "xrayvip.com-trojan_49"
-      - "xrayvip.com-trojan_60"
-      - "xrayvip.com-trojan_66"
-      - "xrayvip.com-trojan_67"
-      - "xrayvip.com-trojan_71"
-      - "xrayvip.com-trojan_75"
-      - "xrayvip.com-trojan_76"
-      - "xrayvip.com-trojan_78"
+      - "xrayvip.com-ss_11"
+      - "xrayvip.com-ss_12"
+      - "xrayvip.com-ss_13"
+      - "xrayvip.com-trojan_68"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2525,24 +2771,18 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_74"
       - "jsdelivr-chengaopa-hysteria2_75"
       - "jsdelivr-chengaopa-hysteria2_76"
-      - "jsdelivr-chengaopa-hysteria2_77"
       - "jsdelivr-chengaopa-hysteria2_78"
       - "jsdelivr-chengaopa-hysteria2_79"
       - "jsdelivr-chengaopa-hysteria2_80"
       - "jsdelivr-chengaopa-hysteria2_81"
       - "jsdelivr-chengaopa-hysteria2_82"
       - "jsdelivr-chengaopa-hysteria2_83"
-      - "jsdelivr-chengaopa-hysteria2_84"
-      - "jsdelivr-chengaopa-hysteria2_85"
-      - "jsdelivr-chengaopa-hysteria2_86"
-      - "jsdelivr-chengaopa-ss_87"
-      - "jsdelivr-chengaopa-trojan_88"
-      - "jsdelivr-chengaopa-trojan_89"
+      - "jsdelivr-chengaopa-ss_84"
+      - "jsdelivr-chengaopa-vless_217"
       - "jsdelivr-chengaopa-vless_218"
-      - "jsdelivr-chengaopa-vless_219"
-      - "jsdelivr-chengaopa-vless_221"
+      - "jsdelivr-chengaopa-vless_220"
+      - "jsdelivr-chengaopa-vless_222"
       - "jsdelivr-chengaopa-vless_223"
-      - "jsdelivr-chengaopa-vless_224"
       - "jsdelivr-chengaopa-vmess_1"
       - "jsdelivr-chengaopa-vmess_2"
       - "jsdelivr-chengaopa-vmess_3"
@@ -2555,10 +2795,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-vmess_10"
       - "jsdelivr-chengaopa-ss_110"
       - "jsdelivr-chengaopa-trojan_116"
-      - "jsdelivr-chengaopa-hysteria2_71-1"
-      - "jsdelivr-chengaopa-hysteria2_74-1"
-      - "jsdelivr-chengaopa-hysteria2_75-1"
-      - "jsdelivr-chengaopa-hysteria2_76-1"
 
   - name: Auto
     type: url-test
@@ -2617,20 +2853,123 @@ proxy-groups:
       - "github-ermaozi-vless_14"
       - "github-ermaozi-vless_16"
       - "github-ermaozi-vmess_17"
-      - "anaer.github.io-trojan_2"
+      - "anaer.github.io-vless_2"
       - "anaer.github.io-trojan_3"
-      - "anaer.github.io-vless_4"
+      - "anaer.github.io-trojan_4"
+      - "anaer.github.io-vless_123"
+      - "anaer.github.io-vless_132"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
       - "github-peasoft-trojan_6"
+      - "github-peasoft-vmess_7"
+      - "v2clash-vless_9"
+      - "v2clash-trojan_12"
+      - "v2clash-trojan_13"
+      - "v2clash-vless_14"
+      - "v2clash-trojan_15"
+      - "v2clash-vless_16"
+      - "v2clash-trojan_17"
+      - "v2clash-trojan_18"
+      - "v2clash-trojan_21"
+      - "v2clash-trojan_22"
+      - "v2clash-vless_34"
+      - "v2clash-hysteria2_38"
+      - "v2clash-vless_42"
+      - "v2clash-vless_43"
+      - "v2clash-vless_44"
+      - "v2clash-vless_47"
+      - "v2clash-vless_48"
+      - "v2clash-vless_49"
+      - "v2clash-trojan_50"
+      - "v2clash-trojan_52"
+      - "v2clash-trojan_54"
+      - "v2clash-vless_56"
+      - "v2clash-trojan_57"
+      - "v2clash-vless_58"
+      - "v2clash-vless_63"
+      - "v2clash-vless_64"
+      - "v2clash-vless_71"
+      - "v2clash-vless_72"
+      - "v2clash-vless_73"
+      - "v2clash-vless_74"
+      - "v2clash-vless_75"
+      - "v2clash-trojan_76"
+      - "v2clash-trojan_77"
+      - "v2clash-trojan_78"
+      - "v2clash-trojan_79"
+      - "v2clash-trojan_81"
+      - "v2clash-trojan_82"
+      - "v2clash-trojan_83"
+      - "v2clash-trojan_85"
+      - "v2clash-trojan_86"
+      - "v2clash-trojan_87"
+      - "v2clash-trojan_88"
+      - "v2clash-trojan_89"
+      - "v2clash-trojan_90"
+      - "v2clash-trojan_91"
+      - "v2clash-trojan_92"
+      - "v2clash-trojan_93"
+      - "v2clash-trojan_94"
+      - "v2clash-trojan_95"
+      - "v2clash-trojan_96"
+      - "v2clash-trojan_97"
+      - "v2clash-trojan_98"
+      - "v2clash-trojan_99"
+      - "v2clash-trojan_101"
+      - "v2clash-trojan_102"
+      - "v2clash-trojan_104"
+      - "v2clash-trojan_105"
+      - "v2clash-trojan_107"
+      - "v2clash-trojan_108"
+      - "v2clash-trojan_110"
+      - "v2clash-trojan_111"
+      - "v2clash-trojan_112"
+      - "v2clash-trojan_113"
+      - "v2clash-trojan_114"
+      - "v2clash-trojan_115"
+      - "v2clash-trojan_120"
+      - "v2clash-trojan_125"
+      - "v2clash-trojan_126"
+      - "v2clash-trojan_128"
+      - "v2clash-trojan_130"
+      - "v2clash-trojan_133"
+      - "v2clash-trojan_135"
+      - "v2clash-trojan_138"
+      - "v2clash-trojan_139"
+      - "v2clash-trojan_140"
+      - "v2clash-trojan_143"
+      - "v2clash-trojan_144"
+      - "v2clash-trojan_145"
+      - "v2clash-trojan_146"
+      - "v2clash-trojan_148"
+      - "v2clash-trojan_149"
+      - "v2clash-trojan_152"
+      - "v2clash-trojan_154"
+      - "v2clash-trojan_168"
+      - "v2clash-trojan_169"
+      - "v2clash-trojan_170"
+      - "v2clash-trojan_174"
+      - "v2clash-trojan_181"
+      - "v2clash-trojan_183"
+      - "v2clash-trojan_186"
+      - "v2clash-trojan_195"
+      - "v2clash-trojan_197"
+      - "v2clash-trojan_205"
+      - "v2clash-trojan_215"
+      - "v2clash-trojan_217"
+      - "v2clash-trojan_224"
+      - "v2clash-trojan_232"
+      - "v2clash-trojan_233"
+      - "v2clash-vless_247"
+      - "v2clash-trojan_252"
+      - "v2clash-vless_260"
+      - "v2clash-vless_261"
+      - "v2clash-trojan_265"
+      - "v2clash-vless_271"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_1"
-      - "github-mfuu-trojan_2"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-trojan_4"
       - "github-mfuu-ss_7"
       - "github-mfuu-ss_8"
       - "github-mfuu-trojan_11"
@@ -2641,20 +2980,6 @@ proxy-groups:
       - "github-mfuu-ss_16"
       - "github-mfuu-trojan_17"
       - "github-mfuu-ss_18"
-      - "github-mfuu-trojan_19"
-      - "github-mfuu-trojan_25"
-      - "github-mfuu-trojan_26"
-      - "github-mfuu-trojan_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_30"
-      - "github-mfuu-trojan_31"
-      - "github-mfuu-trojan_32"
-      - "github-mfuu-trojan_33"
-      - "github-mfuu-trojan_34"
-      - "github-mfuu-trojan_35"
-      - "github-mfuu-trojan_36"
-      - "github-mfuu-trojan_37"
-      - "github-mfuu-trojan_38"
       - "github-mfuu-vmess_62"
       - "github-mfuu-vmess_63"
       - "github-mfuu-trojan_65"
@@ -2663,74 +2988,19 @@ proxy-groups:
       - "github-mfuu-trojan_82"
       - "github-mfuu-trojan_83"
       - "github-mfuu-vmess_85"
-      - "github-mfuu-trojan_86"
-      - "github-mfuu-trojan_87"
-      - "github-mfuu-trojan_90"
-      - "github-mfuu-trojan_91"
-      - "github-mfuu-trojan_95"
-      - "github-mfuu-trojan_98"
-      - "github-mfuu-trojan_99"
-      - "github-mfuu-trojan_100"
-      - "github-mfuu-trojan_102"
-      - "github-mfuu-trojan_104"
-      - "github-mfuu-trojan_105"
-      - "github-mfuu-trojan_107"
-      - "github-mfuu-trojan_108"
-      - "github-mfuu-trojan_109"
-      - "github-mfuu-trojan_110"
       - "github-mfuu-vmess_111"
-      - "github-mfuu-trojan_115"
       - "github-mfuu-trojan_123"
-      - "github-mfuu-trojan_125"
-      - "github-mfuu-trojan_127"
-      - "github-mfuu-trojan_128"
-      - "github-mfuu-trojan_129"
-      - "github-mfuu-trojan_130"
-      - "github-mfuu-trojan_132"
-      - "github-mfuu-trojan_134"
-      - "github-mfuu-trojan_135"
-      - "github-mfuu-trojan_136"
-      - "github-mfuu-trojan_138"
-      - "github-mfuu-trojan_139"
-      - "github-mfuu-trojan_140"
-      - "github-mfuu-trojan_141"
-      - "github-mfuu-trojan_143"
-      - "github-mfuu-trojan_144"
-      - "github-mfuu-trojan_146"
-      - "github-mfuu-trojan_150"
-      - "github-mfuu-trojan_152"
-      - "github-mfuu-trojan_153"
-      - "github-mfuu-trojan_154"
-      - "github-mfuu-trojan_156"
-      - "github-mfuu-trojan_160"
-      - "github-mfuu-trojan_161"
-      - "github-mfuu-trojan_162"
-      - "github-mfuu-trojan_163"
-      - "github-mfuu-trojan_167"
-      - "github-mfuu-trojan_168"
-      - "github-mfuu-trojan_186"
-      - "github-mfuu-trojan_191"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_2"
       - "github-go4sharing-ss_3"
       - "github-go4sharing-ss_22"
       - "github-go4sharing-vmess_24"
-      - "xrayvip.com-ss_7"
+      - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
-      - "xrayvip.com-trojan_13"
-      - "xrayvip.com-trojan_16"
-      - "xrayvip.com-trojan_19"
-      - "xrayvip.com-trojan_23"
-      - "xrayvip.com-trojan_47"
-      - "xrayvip.com-trojan_48"
-      - "xrayvip.com-trojan_49"
-      - "xrayvip.com-trojan_60"
-      - "xrayvip.com-trojan_66"
-      - "xrayvip.com-trojan_67"
-      - "xrayvip.com-trojan_71"
-      - "xrayvip.com-trojan_75"
-      - "xrayvip.com-trojan_76"
-      - "xrayvip.com-trojan_78"
+      - "xrayvip.com-ss_11"
+      - "xrayvip.com-ss_12"
+      - "xrayvip.com-ss_13"
+      - "xrayvip.com-trojan_68"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -2807,24 +3077,18 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_74"
       - "jsdelivr-chengaopa-hysteria2_75"
       - "jsdelivr-chengaopa-hysteria2_76"
-      - "jsdelivr-chengaopa-hysteria2_77"
       - "jsdelivr-chengaopa-hysteria2_78"
       - "jsdelivr-chengaopa-hysteria2_79"
       - "jsdelivr-chengaopa-hysteria2_80"
       - "jsdelivr-chengaopa-hysteria2_81"
       - "jsdelivr-chengaopa-hysteria2_82"
       - "jsdelivr-chengaopa-hysteria2_83"
-      - "jsdelivr-chengaopa-hysteria2_84"
-      - "jsdelivr-chengaopa-hysteria2_85"
-      - "jsdelivr-chengaopa-hysteria2_86"
-      - "jsdelivr-chengaopa-ss_87"
-      - "jsdelivr-chengaopa-trojan_88"
-      - "jsdelivr-chengaopa-trojan_89"
+      - "jsdelivr-chengaopa-ss_84"
+      - "jsdelivr-chengaopa-vless_217"
       - "jsdelivr-chengaopa-vless_218"
-      - "jsdelivr-chengaopa-vless_219"
-      - "jsdelivr-chengaopa-vless_221"
+      - "jsdelivr-chengaopa-vless_220"
+      - "jsdelivr-chengaopa-vless_222"
       - "jsdelivr-chengaopa-vless_223"
-      - "jsdelivr-chengaopa-vless_224"
       - "jsdelivr-chengaopa-vmess_1"
       - "jsdelivr-chengaopa-vmess_2"
       - "jsdelivr-chengaopa-vmess_3"
@@ -2837,10 +3101,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-vmess_10"
       - "jsdelivr-chengaopa-ss_110"
       - "jsdelivr-chengaopa-trojan_116"
-      - "jsdelivr-chengaopa-hysteria2_71-1"
-      - "jsdelivr-chengaopa-hysteria2_74-1"
-      - "jsdelivr-chengaopa-hysteria2_75-1"
-      - "jsdelivr-chengaopa-hysteria2_76-1"
 
   - name: Fallback
     type: fallback
@@ -2899,20 +3159,123 @@ proxy-groups:
       - "github-ermaozi-vless_14"
       - "github-ermaozi-vless_16"
       - "github-ermaozi-vmess_17"
-      - "anaer.github.io-trojan_2"
+      - "anaer.github.io-vless_2"
       - "anaer.github.io-trojan_3"
-      - "anaer.github.io-vless_4"
+      - "anaer.github.io-trojan_4"
+      - "anaer.github.io-vless_123"
+      - "anaer.github.io-vless_132"
       - "github-peasoft-trojan_1"
       - "github-peasoft-trojan_2"
       - "github-peasoft-trojan_6"
+      - "github-peasoft-vmess_7"
+      - "v2clash-vless_9"
+      - "v2clash-trojan_12"
+      - "v2clash-trojan_13"
+      - "v2clash-vless_14"
+      - "v2clash-trojan_15"
+      - "v2clash-vless_16"
+      - "v2clash-trojan_17"
+      - "v2clash-trojan_18"
+      - "v2clash-trojan_21"
+      - "v2clash-trojan_22"
+      - "v2clash-vless_34"
+      - "v2clash-hysteria2_38"
+      - "v2clash-vless_42"
+      - "v2clash-vless_43"
+      - "v2clash-vless_44"
+      - "v2clash-vless_47"
+      - "v2clash-vless_48"
+      - "v2clash-vless_49"
+      - "v2clash-trojan_50"
+      - "v2clash-trojan_52"
+      - "v2clash-trojan_54"
+      - "v2clash-vless_56"
+      - "v2clash-trojan_57"
+      - "v2clash-vless_58"
+      - "v2clash-vless_63"
+      - "v2clash-vless_64"
+      - "v2clash-vless_71"
+      - "v2clash-vless_72"
+      - "v2clash-vless_73"
+      - "v2clash-vless_74"
+      - "v2clash-vless_75"
+      - "v2clash-trojan_76"
+      - "v2clash-trojan_77"
+      - "v2clash-trojan_78"
+      - "v2clash-trojan_79"
+      - "v2clash-trojan_81"
+      - "v2clash-trojan_82"
+      - "v2clash-trojan_83"
+      - "v2clash-trojan_85"
+      - "v2clash-trojan_86"
+      - "v2clash-trojan_87"
+      - "v2clash-trojan_88"
+      - "v2clash-trojan_89"
+      - "v2clash-trojan_90"
+      - "v2clash-trojan_91"
+      - "v2clash-trojan_92"
+      - "v2clash-trojan_93"
+      - "v2clash-trojan_94"
+      - "v2clash-trojan_95"
+      - "v2clash-trojan_96"
+      - "v2clash-trojan_97"
+      - "v2clash-trojan_98"
+      - "v2clash-trojan_99"
+      - "v2clash-trojan_101"
+      - "v2clash-trojan_102"
+      - "v2clash-trojan_104"
+      - "v2clash-trojan_105"
+      - "v2clash-trojan_107"
+      - "v2clash-trojan_108"
+      - "v2clash-trojan_110"
+      - "v2clash-trojan_111"
+      - "v2clash-trojan_112"
+      - "v2clash-trojan_113"
+      - "v2clash-trojan_114"
+      - "v2clash-trojan_115"
+      - "v2clash-trojan_120"
+      - "v2clash-trojan_125"
+      - "v2clash-trojan_126"
+      - "v2clash-trojan_128"
+      - "v2clash-trojan_130"
+      - "v2clash-trojan_133"
+      - "v2clash-trojan_135"
+      - "v2clash-trojan_138"
+      - "v2clash-trojan_139"
+      - "v2clash-trojan_140"
+      - "v2clash-trojan_143"
+      - "v2clash-trojan_144"
+      - "v2clash-trojan_145"
+      - "v2clash-trojan_146"
+      - "v2clash-trojan_148"
+      - "v2clash-trojan_149"
+      - "v2clash-trojan_152"
+      - "v2clash-trojan_154"
+      - "v2clash-trojan_168"
+      - "v2clash-trojan_169"
+      - "v2clash-trojan_170"
+      - "v2clash-trojan_174"
+      - "v2clash-trojan_181"
+      - "v2clash-trojan_183"
+      - "v2clash-trojan_186"
+      - "v2clash-trojan_195"
+      - "v2clash-trojan_197"
+      - "v2clash-trojan_205"
+      - "v2clash-trojan_215"
+      - "v2clash-trojan_217"
+      - "v2clash-trojan_224"
+      - "v2clash-trojan_232"
+      - "v2clash-trojan_233"
+      - "v2clash-vless_247"
+      - "v2clash-trojan_252"
+      - "v2clash-vless_260"
+      - "v2clash-vless_261"
+      - "v2clash-trojan_265"
+      - "v2clash-vless_271"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-mfuu-trojan_1"
-      - "github-mfuu-trojan_2"
-      - "github-mfuu-trojan_3"
-      - "github-mfuu-trojan_4"
       - "github-mfuu-ss_7"
       - "github-mfuu-ss_8"
       - "github-mfuu-trojan_11"
@@ -2923,20 +3286,6 @@ proxy-groups:
       - "github-mfuu-ss_16"
       - "github-mfuu-trojan_17"
       - "github-mfuu-ss_18"
-      - "github-mfuu-trojan_19"
-      - "github-mfuu-trojan_25"
-      - "github-mfuu-trojan_26"
-      - "github-mfuu-trojan_28"
-      - "github-mfuu-trojan_29"
-      - "github-mfuu-trojan_30"
-      - "github-mfuu-trojan_31"
-      - "github-mfuu-trojan_32"
-      - "github-mfuu-trojan_33"
-      - "github-mfuu-trojan_34"
-      - "github-mfuu-trojan_35"
-      - "github-mfuu-trojan_36"
-      - "github-mfuu-trojan_37"
-      - "github-mfuu-trojan_38"
       - "github-mfuu-vmess_62"
       - "github-mfuu-vmess_63"
       - "github-mfuu-trojan_65"
@@ -2945,74 +3294,19 @@ proxy-groups:
       - "github-mfuu-trojan_82"
       - "github-mfuu-trojan_83"
       - "github-mfuu-vmess_85"
-      - "github-mfuu-trojan_86"
-      - "github-mfuu-trojan_87"
-      - "github-mfuu-trojan_90"
-      - "github-mfuu-trojan_91"
-      - "github-mfuu-trojan_95"
-      - "github-mfuu-trojan_98"
-      - "github-mfuu-trojan_99"
-      - "github-mfuu-trojan_100"
-      - "github-mfuu-trojan_102"
-      - "github-mfuu-trojan_104"
-      - "github-mfuu-trojan_105"
-      - "github-mfuu-trojan_107"
-      - "github-mfuu-trojan_108"
-      - "github-mfuu-trojan_109"
-      - "github-mfuu-trojan_110"
       - "github-mfuu-vmess_111"
-      - "github-mfuu-trojan_115"
       - "github-mfuu-trojan_123"
-      - "github-mfuu-trojan_125"
-      - "github-mfuu-trojan_127"
-      - "github-mfuu-trojan_128"
-      - "github-mfuu-trojan_129"
-      - "github-mfuu-trojan_130"
-      - "github-mfuu-trojan_132"
-      - "github-mfuu-trojan_134"
-      - "github-mfuu-trojan_135"
-      - "github-mfuu-trojan_136"
-      - "github-mfuu-trojan_138"
-      - "github-mfuu-trojan_139"
-      - "github-mfuu-trojan_140"
-      - "github-mfuu-trojan_141"
-      - "github-mfuu-trojan_143"
-      - "github-mfuu-trojan_144"
-      - "github-mfuu-trojan_146"
-      - "github-mfuu-trojan_150"
-      - "github-mfuu-trojan_152"
-      - "github-mfuu-trojan_153"
-      - "github-mfuu-trojan_154"
-      - "github-mfuu-trojan_156"
-      - "github-mfuu-trojan_160"
-      - "github-mfuu-trojan_161"
-      - "github-mfuu-trojan_162"
-      - "github-mfuu-trojan_163"
-      - "github-mfuu-trojan_167"
-      - "github-mfuu-trojan_168"
-      - "github-mfuu-trojan_186"
-      - "github-mfuu-trojan_191"
       - "github-go4sharing-ss_1"
       - "github-go4sharing-ss_2"
       - "github-go4sharing-ss_3"
       - "github-go4sharing-ss_22"
       - "github-go4sharing-vmess_24"
-      - "xrayvip.com-ss_7"
+      - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
-      - "xrayvip.com-trojan_13"
-      - "xrayvip.com-trojan_16"
-      - "xrayvip.com-trojan_19"
-      - "xrayvip.com-trojan_23"
-      - "xrayvip.com-trojan_47"
-      - "xrayvip.com-trojan_48"
-      - "xrayvip.com-trojan_49"
-      - "xrayvip.com-trojan_60"
-      - "xrayvip.com-trojan_66"
-      - "xrayvip.com-trojan_67"
-      - "xrayvip.com-trojan_71"
-      - "xrayvip.com-trojan_75"
-      - "xrayvip.com-trojan_76"
-      - "xrayvip.com-trojan_78"
+      - "xrayvip.com-ss_11"
+      - "xrayvip.com-ss_12"
+      - "xrayvip.com-ss_13"
+      - "xrayvip.com-trojan_68"
       - "jsdelivr-chengaopa-hysteria2_1"
       - "jsdelivr-chengaopa-hysteria2_2"
       - "jsdelivr-chengaopa-hysteria2_3"
@@ -3089,24 +3383,18 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_74"
       - "jsdelivr-chengaopa-hysteria2_75"
       - "jsdelivr-chengaopa-hysteria2_76"
-      - "jsdelivr-chengaopa-hysteria2_77"
       - "jsdelivr-chengaopa-hysteria2_78"
       - "jsdelivr-chengaopa-hysteria2_79"
       - "jsdelivr-chengaopa-hysteria2_80"
       - "jsdelivr-chengaopa-hysteria2_81"
       - "jsdelivr-chengaopa-hysteria2_82"
       - "jsdelivr-chengaopa-hysteria2_83"
-      - "jsdelivr-chengaopa-hysteria2_84"
-      - "jsdelivr-chengaopa-hysteria2_85"
-      - "jsdelivr-chengaopa-hysteria2_86"
-      - "jsdelivr-chengaopa-ss_87"
-      - "jsdelivr-chengaopa-trojan_88"
-      - "jsdelivr-chengaopa-trojan_89"
+      - "jsdelivr-chengaopa-ss_84"
+      - "jsdelivr-chengaopa-vless_217"
       - "jsdelivr-chengaopa-vless_218"
-      - "jsdelivr-chengaopa-vless_219"
-      - "jsdelivr-chengaopa-vless_221"
+      - "jsdelivr-chengaopa-vless_220"
+      - "jsdelivr-chengaopa-vless_222"
       - "jsdelivr-chengaopa-vless_223"
-      - "jsdelivr-chengaopa-vless_224"
       - "jsdelivr-chengaopa-vmess_1"
       - "jsdelivr-chengaopa-vmess_2"
       - "jsdelivr-chengaopa-vmess_3"
@@ -3119,10 +3407,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-vmess_10"
       - "jsdelivr-chengaopa-ss_110"
       - "jsdelivr-chengaopa-trojan_116"
-      - "jsdelivr-chengaopa-hysteria2_71-1"
-      - "jsdelivr-chengaopa-hysteria2_74-1"
-      - "jsdelivr-chengaopa-hysteria2_75-1"
-      - "jsdelivr-chengaopa-hysteria2_76-1"
 
 rules:
   - GEOIP,CN,DIRECT

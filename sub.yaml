@@ -2402,68 +2402,23 @@ proxies:
     cipher: "2022-blake3-aes-128-gcm"
     password: "1JvlmtT4v8y1yGczDtT6Ww=="
 
-  - name: "jsdelivr-chengaopa-hysteria2_30"
-    type: "hysteria2"
-    server: "91.240.86.70"
-    port: 22443
-    password: "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5"
-    alpn:
-      - "h3"
-    udp: true
+  - name: "jsdelivr-chengaopa-vless_106"
+    type: "vless"
+    server: "166.88.194.248"
+    port: 443
+    uuid: "b940be1b-3998-45d2-bf7b-06e7b6c4987a"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048"
 
-  - name: "jsdelivr-chengaopa-hysteria2_34"
-    type: "hysteria2"
-    server: "els1.mangshe.xyz"
-    port: 2056
-    password: "5d0a6445-a30d-4522-bb1f-94f1d3ad63be"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_44"
-    type: "hysteria2"
-    server: "38.54.6.46"
-    port: 36712
-    password: "CompanyHy2_2026!"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_48"
-    type: "hysteria2"
-    server: "85.204.107.173"
-    port: 8080
-    password: "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_50"
-    type: "hysteria2"
-    server: "85.204.107.181"
-    port: 8080
-    password: "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_51"
-    type: "hysteria2"
-    server: "85.204.107.183"
-    port: 8443
-    password: "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_72"
-    type: "hysteria2"
-    server: "giftcard.gateway-stream.com"
-    port: 52010
-    password: "g2d0ooqq3ykzsacc"
-    alpn:
-      - "h3"
-    udp: true
+  - name: "jsdelivr-chengaopa-vless_270"
+    type: "vless"
+    server: "38.244.4.1"
+    port: 443
+    uuid: "5905d91f-c3bc-4e80-bd66-4b17beb166cb"
+    tls: true
+    network: "tcp"
 
 proxy-groups:
   - name: Proxy
@@ -2755,13 +2710,8 @@ proxy-groups:
       - "gitio-ss_172"
       - "gitio-ss_231"
       - "gitio-ss_365"
-      - "jsdelivr-chengaopa-hysteria2_30"
-      - "jsdelivr-chengaopa-hysteria2_34"
-      - "jsdelivr-chengaopa-hysteria2_44"
-      - "jsdelivr-chengaopa-hysteria2_48"
-      - "jsdelivr-chengaopa-hysteria2_50"
-      - "jsdelivr-chengaopa-hysteria2_51"
-      - "jsdelivr-chengaopa-hysteria2_72"
+      - "jsdelivr-chengaopa-vless_106"
+      - "jsdelivr-chengaopa-vless_270"
 
   - name: Auto
     type: url-test
@@ -3054,13 +3004,8 @@ proxy-groups:
       - "gitio-ss_172"
       - "gitio-ss_231"
       - "gitio-ss_365"
-      - "jsdelivr-chengaopa-hysteria2_30"
-      - "jsdelivr-chengaopa-hysteria2_34"
-      - "jsdelivr-chengaopa-hysteria2_44"
-      - "jsdelivr-chengaopa-hysteria2_48"
-      - "jsdelivr-chengaopa-hysteria2_50"
-      - "jsdelivr-chengaopa-hysteria2_51"
-      - "jsdelivr-chengaopa-hysteria2_72"
+      - "jsdelivr-chengaopa-vless_106"
+      - "jsdelivr-chengaopa-vless_270"
 
   - name: Fallback
     type: fallback
@@ -3353,13 +3298,8 @@ proxy-groups:
       - "gitio-ss_172"
       - "gitio-ss_231"
       - "gitio-ss_365"
-      - "jsdelivr-chengaopa-hysteria2_30"
-      - "jsdelivr-chengaopa-hysteria2_34"
-      - "jsdelivr-chengaopa-hysteria2_44"
-      - "jsdelivr-chengaopa-hysteria2_48"
-      - "jsdelivr-chengaopa-hysteria2_50"
-      - "jsdelivr-chengaopa-hysteria2_51"
-      - "jsdelivr-chengaopa-hysteria2_72"
+      - "jsdelivr-chengaopa-vless_106"
+      - "jsdelivr-chengaopa-vless_270"
 
 rules:
   - GEOIP,CN,DIRECT

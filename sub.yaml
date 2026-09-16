@@ -1856,6 +1856,13 @@ proxies:
     ws-opts:
       path: "/?ed=2048"
 
+  - name: "github-peasoft-ss_5"
+    type: "ss"
+    server: "3.149.6.228"
+    port: 443
+    cipher: "auto"
+    password: "amazonskr05"
+
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
     server: "xt.ylks01.eu.org"
@@ -2306,39 +2313,21 @@ proxies:
 
   - name: "jsdelivr-chengaopa-hysteria2_29"
     type: "hysteria2"
-    server: "80.91.65.89"
+    server: "107.175.219.48"
     port: 443
-    password: "1851679956395a09f6afc10eb3f3751b"
+    password: "18bd49994f2eea74ff62798bd75fb7d1"
     alpn:
       - "h3"
     udp: true
 
   - name: "jsdelivr-chengaopa-hysteria2_75"
     type: "hysteria2"
-    server: "144.202.99.96"
-    port: 443
-    password: "user1"
+    server: "152.70.237.123"
+    port: 2053
+    password: "maintell"
     alpn:
       - "h3"
     udp: true
-
-  - name: "jsdelivr-chengaopa-vless_84"
-    type: "vless"
-    server: "sg-1.gsafevpnapi.com"
-    port: 20270
-    uuid: "e016d072-ed97-40d4-a83f-04c00f8df2a5"
-    tls: true
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_108"
-    type: "vless"
-    server: "68.64.179.129"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/code?ed=2560"
 
   - name: "gitio-vmess_16"
     type: "vmess"
@@ -2517,23 +2506,21 @@ proxies:
     cipher: "aes-256-gcm"
     password: "Butterfly123@qwe9527"
 
-  - name: "jsdelivr-chengaopa-hysteria2_29-1"
-    type: "hysteria2"
-    server: "107.175.219.48"
+  - name: "jsdelivr-chengaopa-vless_265"
+    type: "vless"
+    server: "38.244.4.1"
     port: 443
-    password: "18bd49994f2eea74ff62798bd75fb7d1"
-    alpn:
-      - "h3"
-    udp: true
+    uuid: "5905d91f-c3bc-4e80-bd66-4b17beb166cb"
+    tls: true
+    network: "tcp"
 
-  - name: "jsdelivr-chengaopa-hysteria2_75-1"
-    type: "hysteria2"
-    server: "152.70.237.123"
-    port: 2053
-    password: "maintell"
-    alpn:
-      - "h3"
-    udp: true
+  - name: "jsdelivr-chengaopa-vless_270"
+    type: "vless"
+    server: "155.117.199.13"
+    port: 39211
+    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
+    tls: true
+    network: "tcp"
 
 proxy-groups:
   - name: Proxy
@@ -2748,6 +2735,7 @@ proxy-groups:
       - "anaer.github.io-vless_53"
       - "anaer.github.io-vless_62"
       - "anaer.github.io-vless_63"
+      - "github-peasoft-ss_5"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -2811,8 +2799,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_8"
       - "jsdelivr-chengaopa-hysteria2_29"
       - "jsdelivr-chengaopa-hysteria2_75"
-      - "jsdelivr-chengaopa-vless_84"
-      - "jsdelivr-chengaopa-vless_108"
       - "gitio-vmess_16"
       - "gitio-vmess_17"
       - "gitio-vmess_18"
@@ -2834,8 +2820,8 @@ proxy-groups:
       - "gitio-ss_146"
       - "gitio-trojan_147"
       - "gitio-ss_148"
-      - "jsdelivr-chengaopa-hysteria2_29-1"
-      - "jsdelivr-chengaopa-hysteria2_75-1"
+      - "jsdelivr-chengaopa-vless_265"
+      - "jsdelivr-chengaopa-vless_270"
 
   - name: Auto
     type: url-test
@@ -3051,6 +3037,7 @@ proxy-groups:
       - "anaer.github.io-vless_53"
       - "anaer.github.io-vless_62"
       - "anaer.github.io-vless_63"
+      - "github-peasoft-ss_5"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3114,8 +3101,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_8"
       - "jsdelivr-chengaopa-hysteria2_29"
       - "jsdelivr-chengaopa-hysteria2_75"
-      - "jsdelivr-chengaopa-vless_84"
-      - "jsdelivr-chengaopa-vless_108"
       - "gitio-vmess_16"
       - "gitio-vmess_17"
       - "gitio-vmess_18"
@@ -3137,8 +3122,8 @@ proxy-groups:
       - "gitio-ss_146"
       - "gitio-trojan_147"
       - "gitio-ss_148"
-      - "jsdelivr-chengaopa-hysteria2_29-1"
-      - "jsdelivr-chengaopa-hysteria2_75-1"
+      - "jsdelivr-chengaopa-vless_265"
+      - "jsdelivr-chengaopa-vless_270"
 
   - name: Fallback
     type: fallback
@@ -3354,6 +3339,7 @@ proxy-groups:
       - "anaer.github.io-vless_53"
       - "anaer.github.io-vless_62"
       - "anaer.github.io-vless_63"
+      - "github-peasoft-ss_5"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3417,8 +3403,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-hysteria2_8"
       - "jsdelivr-chengaopa-hysteria2_29"
       - "jsdelivr-chengaopa-hysteria2_75"
-      - "jsdelivr-chengaopa-vless_84"
-      - "jsdelivr-chengaopa-vless_108"
       - "gitio-vmess_16"
       - "gitio-vmess_17"
       - "gitio-vmess_18"
@@ -3440,8 +3424,8 @@ proxy-groups:
       - "gitio-ss_146"
       - "gitio-trojan_147"
       - "gitio-ss_148"
-      - "jsdelivr-chengaopa-hysteria2_29-1"
-      - "jsdelivr-chengaopa-hysteria2_75-1"
+      - "jsdelivr-chengaopa-vless_265"
+      - "jsdelivr-chengaopa-vless_270"
 
 rules:
   - GEOIP,CN,DIRECT

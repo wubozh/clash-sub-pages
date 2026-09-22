@@ -3347,83 +3347,21 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "jsdelivr-chengaopa-trojan_74"
-    type: "trojan"
-    server: "de2.x8lab.org"
-    port: 9433
-    password: "TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr"
-    sni: "de2.x8lab.org"
+  - name: "jsdelivr-chengaopa-ss_83"
+    type: "ss"
+    server: "92.5.207.145"
+    port: 45819
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "e+qbJ8iu6OogkSlDzutGc7QjG96KJ3WhyUEpfGnPetw="
 
-  - name: "jsdelivr-chengaopa-trojan_129"
+  - name: "jsdelivr-chengaopa-trojan_68"
     type: "trojan"
     server: "104.17.156.140"
     port: 443
     password: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     sni: "zxcvz.pages.dev"
 
-  - name: "jsdelivr-chengaopa-ss_132"
-    type: "ss"
-    server: "144.24.228.69"
-    port: 61312
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "jfj6Bwqjzn3nwcpYTmU46qP+W2o8lzbxIrCMRlbOKuQ="
-
-  - name: "jsdelivr-chengaopa-ss_133"
-    type: "ss"
-    server: "130.61.34.119"
-    port: 59924
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "JUDchdpxsrrwvJVal4OaHtwjONijBe4gAINdg2AFQaI="
-
-  - name: "jsdelivr-chengaopa-hysteria2_18"
-    type: "hysteria2"
-    server: "91.240.86.70"
-    port: 22443
-    password: "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-vless_49"
-    type: "vless"
-    server: "104.16.152.241"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/user/china?ed=2560"
-
-  - name: "jsdelivr-chengaopa-vless_50"
-    type: "vless"
-    server: "104.156.238.23"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/bt/image/categories?ed=2560"
-
-  - name: "jsdelivr-chengaopa-vless_51"
-    type: "vless"
-    server: "104.17.54.119"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/album?ed=2560"
-
-  - name: "jsdelivr-chengaopa-hysteria2_56"
-    type: "hysteria2"
-    server: "50.7.120.221"
-    port: 30443
-    password: "1e6fed5b-5edc-4ddb-a268-79d7fae4365c"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-vless_183"
+  - name: "jsdelivr-chengaopa-vless_219"
     type: "vless"
     server: "38.244.4.1"
     port: 443
@@ -3821,16 +3759,9 @@ proxy-groups:
       - "gitio-ss_132"
       - "gitio-ss_133"
       - "gitio-vmess_162"
-      - "jsdelivr-chengaopa-trojan_74"
-      - "jsdelivr-chengaopa-trojan_129"
-      - "jsdelivr-chengaopa-ss_132"
-      - "jsdelivr-chengaopa-ss_133"
-      - "jsdelivr-chengaopa-hysteria2_18"
-      - "jsdelivr-chengaopa-vless_49"
-      - "jsdelivr-chengaopa-vless_50"
-      - "jsdelivr-chengaopa-vless_51"
-      - "jsdelivr-chengaopa-hysteria2_56"
-      - "jsdelivr-chengaopa-vless_183"
+      - "jsdelivr-chengaopa-ss_83"
+      - "jsdelivr-chengaopa-trojan_68"
+      - "jsdelivr-chengaopa-vless_219"
 
   - name: Auto
     type: url-test
@@ -4223,16 +4154,9 @@ proxy-groups:
       - "gitio-ss_132"
       - "gitio-ss_133"
       - "gitio-vmess_162"
-      - "jsdelivr-chengaopa-trojan_74"
-      - "jsdelivr-chengaopa-trojan_129"
-      - "jsdelivr-chengaopa-ss_132"
-      - "jsdelivr-chengaopa-ss_133"
-      - "jsdelivr-chengaopa-hysteria2_18"
-      - "jsdelivr-chengaopa-vless_49"
-      - "jsdelivr-chengaopa-vless_50"
-      - "jsdelivr-chengaopa-vless_51"
-      - "jsdelivr-chengaopa-hysteria2_56"
-      - "jsdelivr-chengaopa-vless_183"
+      - "jsdelivr-chengaopa-ss_83"
+      - "jsdelivr-chengaopa-trojan_68"
+      - "jsdelivr-chengaopa-vless_219"
 
   - name: Fallback
     type: fallback
@@ -4625,16 +4549,9 @@ proxy-groups:
       - "gitio-ss_132"
       - "gitio-ss_133"
       - "gitio-vmess_162"
-      - "jsdelivr-chengaopa-trojan_74"
-      - "jsdelivr-chengaopa-trojan_129"
-      - "jsdelivr-chengaopa-ss_132"
-      - "jsdelivr-chengaopa-ss_133"
-      - "jsdelivr-chengaopa-hysteria2_18"
-      - "jsdelivr-chengaopa-vless_49"
-      - "jsdelivr-chengaopa-vless_50"
-      - "jsdelivr-chengaopa-vless_51"
-      - "jsdelivr-chengaopa-hysteria2_56"
-      - "jsdelivr-chengaopa-vless_183"
+      - "jsdelivr-chengaopa-ss_83"
+      - "jsdelivr-chengaopa-trojan_68"
+      - "jsdelivr-chengaopa-vless_219"
 
 rules:
   - GEOIP,CN,DIRECT

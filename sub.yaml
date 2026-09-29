@@ -1791,64 +1791,33 @@ proxies:
     cipher: "aes-128-gcm"
     password: "2wsxcde3"
 
-  - name: "jsdelivr-chengaopa-hysteria2_6"
-    type: "hysteria2"
-    server: "paris.nerabotaet.com"
-    port: 443
-    password: "2561c6b1a3069d3170b4d7e1ecc08c65"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_11"
-    type: "hysteria2"
-    server: "nl01ntrhy01.tcp-reset-club.net"
-    port: 443
-    password: "8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_13"
-    type: "hysteria2"
-    server: "85.204.107.189"
-    port: 8443
-    password: "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_27"
-    type: "hysteria2"
-    server: "api.ohbah.com"
-    port: 25287
-    password: "telegram-ID-conf0088"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_52"
-    type: "hysteria2"
-    server: "us1.xiaoliyu.us"
-    port: 19512
-    password: "b8949dae-cb53-4b5a-ad9c-50f58c4656fb"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-vmess_67"
-    type: "vmess"
-    server: "cdn.sfacg.uk"
-    port: 2083
-    uuid: "ac251237-576f-40c8-a543-554960c958b1"
-    alterId: 0
-    cipher: "auto"
+  - name: "jsdelivr-chengaopa-vless_59"
+    type: "vless"
+    server: "31.77.13.19"
+    port: 2063
+    uuid: "b18d5990-96eb-4587-a386-7f8ef7591e6a"
     tls: true
-    network: "ws"
-    ws-opts:
-      path: "/or3"
+    network: "tcp"
 
-  - name: "jsdelivr-chengaopa-vless_199"
+  - name: "jsdelivr-chengaopa-hysteria2_68"
+    type: "hysteria2"
+    server: "62.210.7.139"
+    port: 60111
+    password: "github.com/Alvin9999-newpac/fanqiang"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_70"
+    type: "hysteria2"
+    server: "yg.mangshe.xyz"
+    port: 2060
+    password: "5d0a6445-a30d-4522-bb1f-94f1d3ad63be"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-vless_222"
     type: "vless"
     server: "155.117.199.13"
     port: 39211
@@ -2093,6 +2062,16 @@ proxies:
     tls: true
     network: "ws"
 
+  - name: "gitio-vmess_79"
+    type: "vmess"
+    server: "cdn.sfacg.uk"
+    port: 2083
+    uuid: "ac251237-576f-40c8-a543-554960c958b1"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+
   - name: "gitio-ss_138"
     type: "ss"
     server: "54.234.217.115"
@@ -2100,22 +2079,12 @@ proxies:
     cipher: "aes-256-cfb"
     password: "amazonskr05"
 
-  - name: "jsdelivr-chengaopa-vmess_104"
-    type: "vmess"
-    server: "8ggixlxj2bf9.dop69.com"
-    port: 8080
-    uuid: "2f28bb4b-5322-4cfd-9627-e52205c5e052"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "jsdelivr-chengaopa-ss_105"
-    type: "ss"
-    server: "129.151.70.113"
-    port: 61312
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "n12fSnv7G5u+/HcjQHq61FsQgrGuTfkXt/vbUMzRi3E="
+  - name: "jsdelivr-chengaopa-trojan_63"
+    type: "trojan"
+    server: "www.speedtest.org"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
 
 proxy-groups:
   - name: Proxy
@@ -2340,13 +2309,10 @@ proxy-groups:
       - "xrayvip.com-trojan_93"
       - "xrayvip.com-trojan_96"
       - "xrayvip.com-ss_106"
-      - "jsdelivr-chengaopa-hysteria2_6"
-      - "jsdelivr-chengaopa-hysteria2_11"
-      - "jsdelivr-chengaopa-hysteria2_13"
-      - "jsdelivr-chengaopa-hysteria2_27"
-      - "jsdelivr-chengaopa-hysteria2_52"
-      - "jsdelivr-chengaopa-vmess_67"
-      - "jsdelivr-chengaopa-vless_199"
+      - "jsdelivr-chengaopa-vless_59"
+      - "jsdelivr-chengaopa-hysteria2_68"
+      - "jsdelivr-chengaopa-hysteria2_70"
+      - "jsdelivr-chengaopa-vless_222"
       - "gitio-vmess_16"
       - "gitio-vmess_17"
       - "gitio-vmess_18"
@@ -2371,9 +2337,9 @@ proxy-groups:
       - "gitio-vmess_70"
       - "gitio-vmess_71"
       - "gitio-vmess_72"
+      - "gitio-vmess_79"
       - "gitio-ss_138"
-      - "jsdelivr-chengaopa-vmess_104"
-      - "jsdelivr-chengaopa-ss_105"
+      - "jsdelivr-chengaopa-trojan_63"
 
   - name: Auto
     type: url-test
@@ -2599,13 +2565,10 @@ proxy-groups:
       - "xrayvip.com-trojan_93"
       - "xrayvip.com-trojan_96"
       - "xrayvip.com-ss_106"
-      - "jsdelivr-chengaopa-hysteria2_6"
-      - "jsdelivr-chengaopa-hysteria2_11"
-      - "jsdelivr-chengaopa-hysteria2_13"
-      - "jsdelivr-chengaopa-hysteria2_27"
-      - "jsdelivr-chengaopa-hysteria2_52"
-      - "jsdelivr-chengaopa-vmess_67"
-      - "jsdelivr-chengaopa-vless_199"
+      - "jsdelivr-chengaopa-vless_59"
+      - "jsdelivr-chengaopa-hysteria2_68"
+      - "jsdelivr-chengaopa-hysteria2_70"
+      - "jsdelivr-chengaopa-vless_222"
       - "gitio-vmess_16"
       - "gitio-vmess_17"
       - "gitio-vmess_18"
@@ -2630,9 +2593,9 @@ proxy-groups:
       - "gitio-vmess_70"
       - "gitio-vmess_71"
       - "gitio-vmess_72"
+      - "gitio-vmess_79"
       - "gitio-ss_138"
-      - "jsdelivr-chengaopa-vmess_104"
-      - "jsdelivr-chengaopa-ss_105"
+      - "jsdelivr-chengaopa-trojan_63"
 
   - name: Fallback
     type: fallback
@@ -2858,13 +2821,10 @@ proxy-groups:
       - "xrayvip.com-trojan_93"
       - "xrayvip.com-trojan_96"
       - "xrayvip.com-ss_106"
-      - "jsdelivr-chengaopa-hysteria2_6"
-      - "jsdelivr-chengaopa-hysteria2_11"
-      - "jsdelivr-chengaopa-hysteria2_13"
-      - "jsdelivr-chengaopa-hysteria2_27"
-      - "jsdelivr-chengaopa-hysteria2_52"
-      - "jsdelivr-chengaopa-vmess_67"
-      - "jsdelivr-chengaopa-vless_199"
+      - "jsdelivr-chengaopa-vless_59"
+      - "jsdelivr-chengaopa-hysteria2_68"
+      - "jsdelivr-chengaopa-hysteria2_70"
+      - "jsdelivr-chengaopa-vless_222"
       - "gitio-vmess_16"
       - "gitio-vmess_17"
       - "gitio-vmess_18"
@@ -2889,9 +2849,9 @@ proxy-groups:
       - "gitio-vmess_70"
       - "gitio-vmess_71"
       - "gitio-vmess_72"
+      - "gitio-vmess_79"
       - "gitio-ss_138"
-      - "jsdelivr-chengaopa-vmess_104"
-      - "jsdelivr-chengaopa-ss_105"
+      - "jsdelivr-chengaopa-trojan_63"
 
 rules:
   - GEOIP,CN,DIRECT

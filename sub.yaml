@@ -1907,6 +1907,74 @@ proxies:
     ws-opts:
       path: "/"
 
+  - name: "github-peasoft-trojan_6"
+    type: "trojan"
+    server: "212.227.144.37"
+    port: 8443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+
+  - name: "github-peasoft-trojan_14"
+    type: "trojan"
+    server: "34.242.77.118"
+    port: 443
+    password: "UX82473651"
+    sni: "sacred-anemone.rooster465.autos"
+
+  - name: "github-peasoft-trojan_15"
+    type: "trojan"
+    server: "loved-shark.rooster465.autos"
+    port: 443
+    password: "UX82473651"
+    sni: "loved-shark.rooster465.autos"
+
+  - name: "github-peasoft-trojan_16"
+    type: "trojan"
+    server: "jp005.421421.xyz"
+    port: 20230
+    password: "0400697c-b581-4575-9d2f-0bbd4659312d"
+    sni: "www.alibaba.com"
+
+  - name: "github-peasoft-trojan_48"
+    type: "trojan"
+    server: "pretty-rat.rooster465.autos"
+    port: 443
+    password: "UX82473651"
+    sni: "pretty-rat.rooster465.autos"
+
+  - name: "github-peasoft-trojan_69"
+    type: "trojan"
+    server: "nimm.mpd.cc.cd"
+    port: 2053
+    password: "e309e031-991e-4656-9934-44d10deb8fd8"
+    sni: "nimm.mpd.cc.cd"
+
+  - name: "github-peasoft-ss_80"
+    type: "ss"
+    server: "3.35.135.174"
+    port: 8443
+    cipher: "auto"
+    password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
+
+  - name: "github-peasoft-vmess_82"
+    type: "vmess"
+    server: "Sie0DBBIEwsOAxzS.v.3dns.vip"
+    port: 443
+    uuid: "efe82ebc-46b3-4242-b612-b652b8fbc870"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+
+  - name: "github-peasoft-trojan_83"
+    type: "trojan"
+    server: "172.64.80.1"
+    port: 443
+    password: "bpb-trojan"
+    sni: "vless.herogoing.top"
+
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
     server: "xt.ylks01.eu.org"
@@ -1956,6 +2024,16 @@ proxies:
     cipher: "auto"
     tls: false
     network: "tcp"
+
+  - name: "sub.scpnb.top-vmess_1"
+    type: "vmess"
+    server: "www.shopify.com"
+    port: 443
+    uuid: "3aa71202-a099-49c1-99fc-6662f3335369"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
 
   - name: "xrayvip.com-ss_23"
     type: "ss"
@@ -2399,13 +2477,6 @@ proxies:
     password: "5931134d1cde66bf83a54acdfebe7ab2"
     sni: "moltbot.doctoroyy.net"
 
-  - name: "gitio-trojan_366"
-    type: "trojan"
-    server: "nimm.mpd.cc.cd"
-    port: 2053
-    password: "e309e031-991e-4656-9934-44d10deb8fd8"
-    sni: "nimm.mpd.cc.cd"
-
   - name: "gitio-ss_367"
     type: "ss"
     server: "63.180.254.10"
@@ -2637,13 +2708,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
 
-  - name: "jsdelivr-chengaopa-trojan_280"
-    type: "trojan"
-    server: "212.227.144.37"
-    port: 8443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-
   - name: "jsdelivr-chengaopa-trojan_286"
     type: "trojan"
     server: "104.19.229.21"
@@ -2692,13 +2756,6 @@ proxies:
     port: 443
     password: "UX82473651"
     sni: "amazing-peacock.rooster465.autos"
-
-  - name: "jsdelivr-chengaopa-trojan_330"
-    type: "trojan"
-    server: "pretty-rat.rooster465.autos"
-    port: 443
-    password: "UX82473651"
-    sni: "pretty-rat.rooster465.autos"
 
   - name: "jsdelivr-chengaopa-trojan_394"
     type: "trojan"
@@ -2781,13 +2838,6 @@ proxies:
     password: "trojan"
     sni: "longwanghen.pages.dev"
 
-  - name: "jsdelivr-chengaopa-trojan_434"
-    type: "trojan"
-    server: "172.64.80.1"
-    port: 443
-    password: "bpb-trojan"
-    sni: "vless.herogoing.top"
-
   - name: "jsdelivr-chengaopa-trojan_439"
     type: "trojan"
     server: "104.18.35.86"
@@ -2842,13 +2892,6 @@ proxies:
     network: "ws"
     ws-opts:
       path: "/ws"
-
-  - name: "jsdelivr-chengaopa-trojan_86"
-    type: "trojan"
-    server: "loved-shark.rooster465.autos"
-    port: 443
-    password: "UX82473651"
-    sni: "loved-shark.rooster465.autos"
 
   - name: "jsdelivr-chengaopa-vless_210"
     type: "vless"
@@ -3092,11 +3135,21 @@ proxy-groups:
       - "anaer.github.io-vless_5"
       - "anaer.github.io-vless_6"
       - "anaer.github.io-vless_34"
+      - "github-peasoft-trojan_6"
+      - "github-peasoft-trojan_14"
+      - "github-peasoft-trojan_15"
+      - "github-peasoft-trojan_16"
+      - "github-peasoft-trojan_48"
+      - "github-peasoft-trojan_69"
+      - "github-peasoft-ss_80"
+      - "github-peasoft-vmess_82"
+      - "github-peasoft-trojan_83"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
       - "github-go4sharing-vmess_1"
+      - "sub.scpnb.top-vmess_1"
       - "xrayvip.com-ss_23"
       - "xrayvip.com-ss_24"
       - "jsdelivr-chengaopa-hysteria2_1"
@@ -3154,7 +3207,6 @@ proxy-groups:
       - "gitio-ss_294"
       - "gitio-ss_295"
       - "gitio-trojan_345"
-      - "gitio-trojan_366"
       - "gitio-ss_367"
       - "gitio-vmess_369"
       - "gitio-vmess_370"
@@ -3182,7 +3234,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-ss_268"
       - "jsdelivr-chengaopa-ss_269"
       - "jsdelivr-chengaopa-ss_270"
-      - "jsdelivr-chengaopa-trojan_280"
       - "jsdelivr-chengaopa-trojan_286"
       - "jsdelivr-chengaopa-trojan_288"
       - "jsdelivr-chengaopa-trojan_289"
@@ -3190,7 +3241,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-trojan_314"
       - "jsdelivr-chengaopa-trojan_323"
       - "jsdelivr-chengaopa-trojan_325"
-      - "jsdelivr-chengaopa-trojan_330"
       - "jsdelivr-chengaopa-trojan_394"
       - "jsdelivr-chengaopa-vmess_408"
       - "jsdelivr-chengaopa-vmess_410"
@@ -3200,14 +3250,12 @@ proxy-groups:
       - "jsdelivr-chengaopa-vmess_417"
       - "jsdelivr-chengaopa-ss_420"
       - "jsdelivr-chengaopa-trojan_429"
-      - "jsdelivr-chengaopa-trojan_434"
       - "jsdelivr-chengaopa-trojan_439"
       - "jsdelivr-chengaopa-vless_46"
       - "jsdelivr-chengaopa-vless_63"
       - "jsdelivr-chengaopa-vless_64"
       - "jsdelivr-chengaopa-vless_65"
       - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-trojan_86"
       - "jsdelivr-chengaopa-vless_210"
 
   - name: Auto
@@ -3443,11 +3491,21 @@ proxy-groups:
       - "anaer.github.io-vless_5"
       - "anaer.github.io-vless_6"
       - "anaer.github.io-vless_34"
+      - "github-peasoft-trojan_6"
+      - "github-peasoft-trojan_14"
+      - "github-peasoft-trojan_15"
+      - "github-peasoft-trojan_16"
+      - "github-peasoft-trojan_48"
+      - "github-peasoft-trojan_69"
+      - "github-peasoft-ss_80"
+      - "github-peasoft-vmess_82"
+      - "github-peasoft-trojan_83"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
       - "github-go4sharing-vmess_1"
+      - "sub.scpnb.top-vmess_1"
       - "xrayvip.com-ss_23"
       - "xrayvip.com-ss_24"
       - "jsdelivr-chengaopa-hysteria2_1"
@@ -3505,7 +3563,6 @@ proxy-groups:
       - "gitio-ss_294"
       - "gitio-ss_295"
       - "gitio-trojan_345"
-      - "gitio-trojan_366"
       - "gitio-ss_367"
       - "gitio-vmess_369"
       - "gitio-vmess_370"
@@ -3533,7 +3590,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-ss_268"
       - "jsdelivr-chengaopa-ss_269"
       - "jsdelivr-chengaopa-ss_270"
-      - "jsdelivr-chengaopa-trojan_280"
       - "jsdelivr-chengaopa-trojan_286"
       - "jsdelivr-chengaopa-trojan_288"
       - "jsdelivr-chengaopa-trojan_289"
@@ -3541,7 +3597,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-trojan_314"
       - "jsdelivr-chengaopa-trojan_323"
       - "jsdelivr-chengaopa-trojan_325"
-      - "jsdelivr-chengaopa-trojan_330"
       - "jsdelivr-chengaopa-trojan_394"
       - "jsdelivr-chengaopa-vmess_408"
       - "jsdelivr-chengaopa-vmess_410"
@@ -3551,14 +3606,12 @@ proxy-groups:
       - "jsdelivr-chengaopa-vmess_417"
       - "jsdelivr-chengaopa-ss_420"
       - "jsdelivr-chengaopa-trojan_429"
-      - "jsdelivr-chengaopa-trojan_434"
       - "jsdelivr-chengaopa-trojan_439"
       - "jsdelivr-chengaopa-vless_46"
       - "jsdelivr-chengaopa-vless_63"
       - "jsdelivr-chengaopa-vless_64"
       - "jsdelivr-chengaopa-vless_65"
       - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-trojan_86"
       - "jsdelivr-chengaopa-vless_210"
 
   - name: Fallback
@@ -3794,11 +3847,21 @@ proxy-groups:
       - "anaer.github.io-vless_5"
       - "anaer.github.io-vless_6"
       - "anaer.github.io-vless_34"
+      - "github-peasoft-trojan_6"
+      - "github-peasoft-trojan_14"
+      - "github-peasoft-trojan_15"
+      - "github-peasoft-trojan_16"
+      - "github-peasoft-trojan_48"
+      - "github-peasoft-trojan_69"
+      - "github-peasoft-ss_80"
+      - "github-peasoft-vmess_82"
+      - "github-peasoft-trojan_83"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
       - "github-go4sharing-vmess_1"
+      - "sub.scpnb.top-vmess_1"
       - "xrayvip.com-ss_23"
       - "xrayvip.com-ss_24"
       - "jsdelivr-chengaopa-hysteria2_1"
@@ -3856,7 +3919,6 @@ proxy-groups:
       - "gitio-ss_294"
       - "gitio-ss_295"
       - "gitio-trojan_345"
-      - "gitio-trojan_366"
       - "gitio-ss_367"
       - "gitio-vmess_369"
       - "gitio-vmess_370"
@@ -3884,7 +3946,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-ss_268"
       - "jsdelivr-chengaopa-ss_269"
       - "jsdelivr-chengaopa-ss_270"
-      - "jsdelivr-chengaopa-trojan_280"
       - "jsdelivr-chengaopa-trojan_286"
       - "jsdelivr-chengaopa-trojan_288"
       - "jsdelivr-chengaopa-trojan_289"
@@ -3892,7 +3953,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-trojan_314"
       - "jsdelivr-chengaopa-trojan_323"
       - "jsdelivr-chengaopa-trojan_325"
-      - "jsdelivr-chengaopa-trojan_330"
       - "jsdelivr-chengaopa-trojan_394"
       - "jsdelivr-chengaopa-vmess_408"
       - "jsdelivr-chengaopa-vmess_410"
@@ -3902,14 +3962,12 @@ proxy-groups:
       - "jsdelivr-chengaopa-vmess_417"
       - "jsdelivr-chengaopa-ss_420"
       - "jsdelivr-chengaopa-trojan_429"
-      - "jsdelivr-chengaopa-trojan_434"
       - "jsdelivr-chengaopa-trojan_439"
       - "jsdelivr-chengaopa-vless_46"
       - "jsdelivr-chengaopa-vless_63"
       - "jsdelivr-chengaopa-vless_64"
       - "jsdelivr-chengaopa-vless_65"
       - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-trojan_86"
       - "jsdelivr-chengaopa-vless_210"
 
 rules:

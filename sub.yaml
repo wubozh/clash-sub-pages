@@ -1917,19 +1917,59 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "github-peasoft-trojan_66"
+  - name: "github-peasoft-trojan_28"
     type: "trojan"
-    server: "63182sh8-4d7b.aws-agent.net"
-    port: 11171
-    password: "AA885B42-133C-3828-FB69-E45105C06092"
-    sni: "m.ctrip.com"
+    server: "fancy-javelin.rooster465.autos"
+    port: 443
+    password: "UX82473651"
+    sni: "fancy-javelin.rooster465.autos"
 
-  - name: "github-peasoft-ss_67"
-    type: "ss"
-    server: "95.169.3.45"
-    port: 46005
+  - name: "github-peasoft-trojan_29"
+    type: "trojan"
+    server: "comic-poodle.rooster465.autos"
+    port: 443
+    password: "UX82473651"
+    sni: "comic-poodle.rooster465.autos"
+
+  - name: "github-peasoft-trojan_30"
+    type: "trojan"
+    server: "promoted-rattler.rooster465.autos"
+    port: 443
+    password: "UX82473651"
+    sni: "promoted-rattler.rooster465.autos"
+
+  - name: "github-peasoft-trojan_31"
+    type: "trojan"
+    server: "assuring-skink.rooster465.autos"
+    port: 443
+    password: "UX82473651"
+    sni: "assuring-skink.rooster465.autos"
+
+  - name: "github-peasoft-trojan_32"
+    type: "trojan"
+    server: "evolving-platypus.rooster465.autos"
+    port: 443
+    password: "UX82473651"
+    sni: "evolving-platypus.rooster465.autos"
+
+  - name: "github-peasoft-trojan_40"
+    type: "trojan"
+    server: "144.31.205.106"
+    port: 443
+    password: "humanity"
+    sni: "144.31.205.106"
+
+  - name: "github-peasoft-vmess_58"
+    type: "vmess"
+    server: "172.66.203.67"
+    port: 443
+    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
+    alterId: 0
     cipher: "auto"
-    password: "'123456'"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/ws"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -2000,16 +2040,6 @@ proxies:
     server: "www.shopify.com"
     port: 443
     uuid: "3aa71202-a099-49c1-99fc-6662f3335369"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "xrayvip.com-vmess_11"
-    type: "vmess"
-    server: "172.66.203.67"
-    port: 443
-    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
     alterId: 0
     cipher: "auto"
     tls: true
@@ -2108,6 +2138,13 @@ proxies:
     port: 443
     password: "humanity"
     sni: "92.42.99.143"
+
+  - name: "jsdelivr-chengaopa-trojan_145"
+    type: "trojan"
+    server: "63182sh8-4d7b.aws-agent.net"
+    port: 11171
+    password: "AA885B42-133C-3828-FB69-E45105C06092"
+    sni: "m.ctrip.com"
 
   - name: "jsdelivr-chengaopa-vless_146"
     type: "vless"
@@ -2905,8 +2942,13 @@ proxy-groups:
       - "github-ermaozi-vless_424"
       - "anaer.github.io-vless_25"
       - "anaer.github.io-vless_30"
-      - "github-peasoft-trojan_66"
-      - "github-peasoft-ss_67"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_31"
+      - "github-peasoft-trojan_32"
+      - "github-peasoft-trojan_40"
+      - "github-peasoft-vmess_58"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -2915,7 +2957,6 @@ proxy-groups:
       - "github-go4sharing-trojan_8"
       - "github-go4sharing-vmess_21"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-vmess_11"
       - "jsdelivr-chengaopa-vless_50"
       - "jsdelivr-chengaopa-vless_55"
       - "jsdelivr-chengaopa-vless_60"
@@ -2927,6 +2968,7 @@ proxy-groups:
       - "jsdelivr-chengaopa-trojan_110"
       - "jsdelivr-chengaopa-trojan_111"
       - "jsdelivr-chengaopa-trojan_117"
+      - "jsdelivr-chengaopa-trojan_145"
       - "jsdelivr-chengaopa-vless_146"
       - "gitio-trojan_11"
       - "gitio-vmess_12"
@@ -3227,8 +3269,13 @@ proxy-groups:
       - "github-ermaozi-vless_424"
       - "anaer.github.io-vless_25"
       - "anaer.github.io-vless_30"
-      - "github-peasoft-trojan_66"
-      - "github-peasoft-ss_67"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_31"
+      - "github-peasoft-trojan_32"
+      - "github-peasoft-trojan_40"
+      - "github-peasoft-vmess_58"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3237,7 +3284,6 @@ proxy-groups:
       - "github-go4sharing-trojan_8"
       - "github-go4sharing-vmess_21"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-vmess_11"
       - "jsdelivr-chengaopa-vless_50"
       - "jsdelivr-chengaopa-vless_55"
       - "jsdelivr-chengaopa-vless_60"
@@ -3249,6 +3295,7 @@ proxy-groups:
       - "jsdelivr-chengaopa-trojan_110"
       - "jsdelivr-chengaopa-trojan_111"
       - "jsdelivr-chengaopa-trojan_117"
+      - "jsdelivr-chengaopa-trojan_145"
       - "jsdelivr-chengaopa-vless_146"
       - "gitio-trojan_11"
       - "gitio-vmess_12"
@@ -3549,8 +3596,13 @@ proxy-groups:
       - "github-ermaozi-vless_424"
       - "anaer.github.io-vless_25"
       - "anaer.github.io-vless_30"
-      - "github-peasoft-trojan_66"
-      - "github-peasoft-ss_67"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_31"
+      - "github-peasoft-trojan_32"
+      - "github-peasoft-trojan_40"
+      - "github-peasoft-vmess_58"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3559,7 +3611,6 @@ proxy-groups:
       - "github-go4sharing-trojan_8"
       - "github-go4sharing-vmess_21"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-vmess_11"
       - "jsdelivr-chengaopa-vless_50"
       - "jsdelivr-chengaopa-vless_55"
       - "jsdelivr-chengaopa-vless_60"
@@ -3571,6 +3622,7 @@ proxy-groups:
       - "jsdelivr-chengaopa-trojan_110"
       - "jsdelivr-chengaopa-trojan_111"
       - "jsdelivr-chengaopa-trojan_117"
+      - "jsdelivr-chengaopa-trojan_145"
       - "jsdelivr-chengaopa-vless_146"
       - "gitio-trojan_11"
       - "gitio-vmess_12"

@@ -2154,12 +2154,1356 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "github-peasoft-ss_41"
-    type: "ss"
-    server: "195.133.5.194"
-    port: 18443
+  - name: "github-peasoft-trojan_19"
+    type: "trojan"
+    server: "47.250.84.25"
+    port: 443
+    password: "5931134d1cde66bf83a54acdfebe7ab2"
+    sni: "47.250.84.25"
+
+  - name: "github-peasoft-vmess_38"
+    type: "vmess"
+    server: "47.243.153.153"
+    port: 443
+    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
+    alterId: 0
     cipher: "auto"
-    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+
+  - name: "github-peasoft-trojan_39"
+    type: "trojan"
+    server: "vpn.liumr.top"
+    port: 443
+    password: "va3E77I9fZCnCVcGKkxBCfz5"
+    sni: "vpn.liumr.top"
+
+  - name: "v2clash-vless_1"
+    type: "vless"
+    server: "funagfrdfs.alixxplay.com"
+    port: 30892
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_2"
+    type: "vless"
+    server: "104.19.45.195"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?TELEGRAM-TOOTFFARANGIfp=chrome"
+
+  - name: "v2clash-vless_3"
+    type: "vless"
+    server: "203.88.117.227"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_4"
+    type: "vless"
+    server: "funagfrdfs.alixxplay.com"
+    port: 35544
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_5"
+    type: "vless"
+    server: "141.98.41.20"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "fp=unsafefp=chrome"
+
+  - name: "v2clash-vless_6"
+    type: "vless"
+    server: "203.88.117.190"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_7"
+    type: "vless"
+    server: "162.35.169.69"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_11"
+    type: "vless"
+    server: "104.17.139.37"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_13"
+    type: "vless"
+    server: "104.17.134.88"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_14"
+    type: "vless"
+    server: "141.98.41.80"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_17"
+    type: "vless"
+    server: "172.64.153.61"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdipfp=unsafe"
+
+  - name: "v2clash-ss_19"
+    type: "ss"
+    server: "202.50.253.54"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "v2clash-vless_23"
+    type: "vless"
+    server: "funagfrdfs.alixxplay.com"
+    port: 55688
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_24"
+    type: "vless"
+    server: "162.159.135.234"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_28"
+    type: "vless"
+    server: "162.159.140.116"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_37"
+    type: "vless"
+    server: "162.159.198.1"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_38"
+    type: "vless"
+    server: "104.16.66.12"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_39"
+    type: "vless"
+    server: "104.16.170.229"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_42"
+    type: "vless"
+    server: "104.18.41.191"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_43"
+    type: "vless"
+    server: "104.18.32.223"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_44"
+    type: "vless"
+    server: "104.18.34.102"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_45"
+    type: "vless"
+    server: "104.18.84.225"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_47"
+    type: "vless"
+    server: "104.27.55.4"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_48"
+    type: "vless"
+    server: "104.17.140.130"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_49"
+    type: "vless"
+    server: "104.24.79.205"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_50"
+    type: "vless"
+    server: "104.26.3.162"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_51"
+    type: "vless"
+    server: "104.16.137.145"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_53"
+    type: "vless"
+    server: "104.17.96.139"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_54"
+    type: "vless"
+    server: "104.17.103.33"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_55"
+    type: "vless"
+    server: "117.55.232.3"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_57"
+    type: "vless"
+    server: "162.159.128.253"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_58"
+    type: "vless"
+    server: "162.159.140.85"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_59"
+    type: "vless"
+    server: "179.253.243.166"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_61"
+    type: "vless"
+    server: "154.9.243.154"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_68"
+    type: "vless"
+    server: "104.17.148.22"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_71"
+    type: "vless"
+    server: "104.152.48.248"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vmess_74"
+    type: "vmess"
+    server: "eu3.998998.best"
+    port: 443
+    uuid: "5504eaa8-1395-402f-8e0e-75ecd762e627"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/aiaiai"
+
+  - name: "v2clash-vless_75"
+    type: "vless"
+    server: "104.17.69.244"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_77"
+    type: "vless"
+    server: "172.67.75.172"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_79"
+    type: "vless"
+    server: "104.17.29.46"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_82"
+    type: "vless"
+    server: "104.18.166.129"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_83"
+    type: "vless"
+    server: "104.18.151.172"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_86"
+    type: "vless"
+    server: "45.61.149.205"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_90"
+    type: "vless"
+    server: "rn.20066002.xyz"
+    port: 443
+    uuid: "444715e6-1c6a-4027-90df-fa01ac984669"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_92"
+    type: "vless"
+    server: "172.66.0.118"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_93"
+    type: "vless"
+    server: "162.159.137.204"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_94"
+    type: "vless"
+    server: "179.255.136.57"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_95"
+    type: "vless"
+    server: "193.134.209.165"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_98"
+    type: "vless"
+    server: "104.17.22.227"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_102"
+    type: "vless"
+    server: "13.140.29.253"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_103"
+    type: "vless"
+    server: "103.71.22.158"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_104"
+    type: "vless"
+    server: "156.229.163.237"
+    port: 10238
+    uuid: "f97f81df-edac-47b6-badb-316125e61bfb"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/@Marisa_kristi"
+
+  - name: "v2clash-vless_110"
+    type: "vless"
+    server: "103.161.179.36"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_111"
+    type: "vless"
+    server: "103.161.178.72"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_114"
+    type: "vless"
+    server: "172.67.94.180"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_115"
+    type: "vless"
+    server: "104.17.187.57"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_118"
+    type: "vless"
+    server: "104.20.6.134"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_119"
+    type: "vless"
+    server: "104.24.95.193"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_121"
+    type: "vless"
+    server: "172.64.155.209"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_124"
+    type: "vless"
+    server: "172.64.145.171"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_125"
+    type: "vless"
+    server: "104.18.39.39"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_126"
+    type: "vless"
+    server: "104.18.42.153"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_128"
+    type: "vless"
+    server: "104.18.44.146"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_131"
+    type: "vless"
+    server: "172.64.154.211"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_133"
+    type: "vless"
+    server: "104.18.39.203"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_134"
+    type: "vless"
+    server: "104.16.150.230"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_135"
+    type: "vless"
+    server: "104.17.138.66"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_137"
+    type: "vless"
+    server: "104.16.144.140"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_139"
+    type: "vless"
+    server: "104.18.255.167"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_142"
+    type: "vless"
+    server: "funagfrdfs.alixxplay.com"
+    port: 54528
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_146"
+    type: "vless"
+    server: "175.41.179.37"
+    port: 51262
+    uuid: "6c6ea474-0cf5-4a3d-bc81-aa2eeb6516d6"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/@Marisa_kristi"
+
+  - name: "v2clash-vless_149"
+    type: "vless"
+    server: "funagfrdfs.alixxplay.com"
+    port: 56415
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_152"
+    type: "vless"
+    server: "104.16.105.166"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_153"
+    type: "vless"
+    server: "104.17.130.193"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_155"
+    type: "vless"
+    server: "104.17.125.98"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_157"
+    type: "vless"
+    server: "139.100.226.187"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_159"
+    type: "vless"
+    server: "130.78.190.134"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_163"
+    type: "vless"
+    server: "104.17.145.43"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_164"
+    type: "vless"
+    server: "edt.mgqustc.top"
+    port: 443
+    uuid: "e0cb91fc-e65c-4abe-8ae9-308836cb7e43"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_166"
+    type: "vless"
+    server: "79.137.197.212"
+    port: 2105
+    uuid: "663c0d65-f2bc-43f3-b329-1a4e2b781d44"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/@Marisa_kristi"
+
+  - name: "v2clash-vless_167"
+    type: "vless"
+    server: "188.164.248.18"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_169"
+    type: "vless"
+    server: "103.218.173.218"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_170"
+    type: "vless"
+    server: "123.111.169.70"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_172"
+    type: "vless"
+    server: "funagfrdfs.alixxplay.com"
+    port: 46105
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_175"
+    type: "vless"
+    server: "60.130.209.253"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_176"
+    type: "vless"
+    server: "172.104.81.253"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_177"
+    type: "vless"
+    server: "16.76.68.65"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_178"
+    type: "vless"
+    server: "13.231.172.130"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_179"
+    type: "vless"
+    server: "13.115.139.162"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome"
+
+  - name: "v2clash-vless_180"
+    type: "vless"
+    server: "172.104.80.248"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_183"
+    type: "vless"
+    server: "52.196.107.77"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_184"
+    type: "vless"
+    server: "141.147.174.243"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_185"
+    type: "vless"
+    server: "45.192.243.63"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_186"
+    type: "vless"
+    server: "154.19.187.5"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome"
+
+  - name: "v2clash-vless_187"
+    type: "vless"
+    server: "45.95.212.215"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_188"
+    type: "vless"
+    server: "43.165.180.254"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_189"
+    type: "vless"
+    server: "95.182.115.48"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_194"
+    type: "vless"
+    server: "172.64.79.1"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_199"
+    type: "vless"
+    server: "104.18.33.121"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_202"
+    type: "vless"
+    server: "104.17.3.81"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560"
+
+  - name: "v2clash-vless_203"
+    type: "vless"
+    server: "132.243.165.215"
+    port: 2083
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_206"
+    type: "vless"
+    server: "104.16.147.109"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_210"
+    type: "vless"
+    server: "85.121.51.201"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_211"
+    type: "vless"
+    server: "103.97.201.61"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_212"
+    type: "vless"
+    server: "104.194.140.26"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_215"
+    type: "vless"
+    server: "57.129.130.34"
+    port: 52014
+    uuid: "53367702-4b8d-431a-a193-34d7d057a065"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/@Marisa_kristi"
+
+  - name: "v2clash-vless_216"
+    type: "vless"
+    server: "45.152.65.137"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-trojan_218"
+    type: "trojan"
+    server: "www.pleadcourt.org"
+    port: 443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+
+  - name: "v2clash-vless_219"
+    type: "vless"
+    server: "38.242.137.199"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_220"
+    type: "vless"
+    server: "144.31.181.177"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_221"
+    type: "vless"
+    server: "31.59.216.141"
+    port: 443
+    uuid: "c6cfcc53-9271-4ef7-88c5-5141621c8db1"
+    tls: true
+    network: "tcp"
+
+  - name: "v2clash-vless_223"
+    type: "vless"
+    server: "72.56.106.210"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_224"
+    type: "vless"
+    server: "178.105.133.160"
+    port: 4443
+    uuid: "fb0818b3-4031-4843-b5f7-1d75177a1758"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/@Marisa_kristi"
+
+  - name: "v2clash-vless_225"
+    type: "vless"
+    server: "2.28.42.209"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome"
+
+  - name: "v2clash-vless_228"
+    type: "vless"
+    server: "5.75.195.83"
+    port: 56879
+    uuid: "7b0f8733-03cc-472b-9c50-ed159b48ef59"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/@Marisa_kristi"
+
+  - name: "v2clash-vless_233"
+    type: "vless"
+    server: "103.161.178.205"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_235"
+    type: "vless"
+    server: "188.114.96.6"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_237"
+    type: "vless"
+    server: "104.18.20.69"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_238"
+    type: "vless"
+    server: "104.17.101.9"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_240"
+    type: "vless"
+    server: "104.17.174.166"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_241"
+    type: "vless"
+    server: "104.17.29.162"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome"
+
+  - name: "v2clash-vless_242"
+    type: "vless"
+    server: "104.18.36.142"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_243"
+    type: "vless"
+    server: "92.119.90.67"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-vless_244"
+    type: "vless"
+    server: "172.64.154.191"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_248"
+    type: "vless"
+    server: "104.17.143.128"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_249"
+    type: "vless"
+    server: "104.17.153.64"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_251"
+    type: "vless"
+    server: "104.17.218.124"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_254"
+    type: "vless"
+    server: "104.17.219.248"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_257"
+    type: "vless"
+    server: "103.161.178.215"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_264"
+    type: "vless"
+    server: "38.180.225.247"
+    port: 2053
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_265"
+    type: "vless"
+    server: "146.70.233.51"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+
+  - name: "v2clash-ss_269"
+    type: "ss"
+    server: "202.50.253.27"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "v2clash-vless_270"
+    type: "vless"
+    server: "150.241.89.233"
+    port: 8443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+
+  - name: "v2clash-vless_276"
+    type: "vless"
+    server: "13.140.29.45"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "v2clash-vless_277"
+    type: "vless"
+    server: "l415ng0o.himoy.space"
+    port: 443
+    uuid: "5131b5e9-2c3c-44a0-8f18-0641f3f21cac"
+    tls: true
+    network: "tcp"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -2230,26 +3574,12 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "xrayvip.com-ss_1"
-    type: "ss"
-    server: "202.50.253.54"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
   - name: "xrayvip.com-trojan_73"
     type: "trojan"
     server: "188.114.97.2"
     port: 443
     password: "humanity"
     sni: "wWw.Volumeroot.cOm."
-
-  - name: "xrayvip.com-ss_84"
-    type: "ss"
-    server: "202.50.253.27"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
   - name: "xrayvip.com-vmess_90"
     type: "vmess"
@@ -2270,187 +3600,6 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
-
-  - name: "jsdelivr-chengaopa-hysteria2_18"
-    type: "hysteria2"
-    server: "ir1.wufpel.ir"
-    port: 443
-    password: "L5h99fyPz7ER5yxTks4tjDjHQa5Sk96s"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-vless_38"
-    type: "vless"
-    server: "95.174.68.188"
-    port: 14430
-    uuid: "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-
-  - name: "jsdelivr-chengaopa-vless_49"
-    type: "vless"
-    server: "188.114.98.0"
-    port: 443
-    uuid: "e6df2095-a73c-4043-8693-8d5a03686870"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed"
-
-  - name: "jsdelivr-chengaopa-vless_52"
-    type: "vless"
-    server: "8.6.112.242"
-    port: 443
-    uuid: "64726966-0000-4000-8000-740000000000"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/drift?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
-
-  - name: "jsdelivr-chengaopa-vless_54"
-    type: "vless"
-    server: "cf.090227.xyz"
-    port: 443
-    uuid: "e6df2095-a73c-4043-8693-8d5a03686870"
-    tls: false
-    network: "tcp"
-    ws-opts:
-      path: "/cart/docs/www/proxyip=108.160.132.132"
-
-  - name: "jsdelivr-chengaopa-vless_63"
-    type: "vless"
-    server: "144.31.34.146"
-    port: 2096
-    uuid: "6e05822a-e9da-4135-a9db-71aa07a944af"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/mky-ws-4f19c8a7"
-
-  - name: "jsdelivr-chengaopa-vless_68"
-    type: "vless"
-    server: "forwarded.frnhk.xyz"
-    port: 46001
-    uuid: "235e318a-8bcb-4480-b256-7b65cc5d0b0a"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/uk1023"
-
-  - name: "jsdelivr-chengaopa-vless_76"
-    type: "vless"
-    server: "5.253.29.254"
-    port: 14430
-    uuid: "c7c27192-60a5-4ce1-b613-95270d82309d"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-
-  - name: "jsdelivr-chengaopa-vless_91"
-    type: "vless"
-    server: "94.143.231.146"
-    port: 443
-    uuid: "6e05822a-e9da-4135-a9db-71aa07a944af"
-    tls: false
-    network: "tcp"
-    ws-opts:
-      path: "/merky-connect/de6/"
-
-  - name: "jsdelivr-chengaopa-vless_93"
-    type: "vless"
-    server: "104.16.111.193"
-    port: 443
-    uuid: "3c52e091-6714-4915-949f-2149fe69951b"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/ws"
-
-  - name: "jsdelivr-chengaopa-trojan_101"
-    type: "trojan"
-    server: "de4.dedushka.top"
-    port: 443
-    password: "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA"
-    sni: "de4.dedushka.top"
-
-  - name: "jsdelivr-chengaopa-trojan_102"
-    type: "trojan"
-    server: "de10.dedushka.top"
-    port: 443
-    password: "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA"
-    sni: "de10.dedushka.top"
-
-  - name: "jsdelivr-chengaopa-trojan_122"
-    type: "trojan"
-    server: "46.62.204.134"
-    port: 443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-
-  - name: "jsdelivr-chengaopa-trojan_123"
-    type: "trojan"
-    server: "31.57.190.34"
-    port: 443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-
-  - name: "jsdelivr-chengaopa-trojan_128"
-    type: "trojan"
-    server: "blog.findlocaljobnetworkandbuildcommunityconnections.com"
-    port: 443
-    password: "dba20dcb635e430fa4d3bfc303a149d2"
-    sni: "blog.findlocaljobnetworkandbuildcommunityconnections.com"
-
-  - name: "jsdelivr-chengaopa-vless_139"
-    type: "vless"
-    server: "172.64.154.211"
-    port: 443
-    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-vless_149"
-    type: "vless"
-    server: "194.135.119.82"
-    port: 2053
-    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-
-  - name: "jsdelivr-chengaopa-vless_170"
-    type: "vless"
-    server: "177.1.187.183"
-    port: 443
-    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-
-  - name: "jsdelivr-chengaopa-vless_172"
-    type: "vless"
-    server: "162.159.128.253"
-    port: 443
-    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-trojan_173"
-    type: "trojan"
-    server: "172.67.71.122"
-    port: 443
-    password: "bpb-trojan"
-    sni: "6982410.xyz"
 
   - name: "gitio-vmess_20"
     type: "vmess"
@@ -2846,13 +3995,6 @@ proxies:
     password: "humanity"
     sni: "www.calmlunch.com"
 
-  - name: "gitio-trojan_332"
-    type: "trojan"
-    server: "47.250.84.25"
-    port: 443
-    password: "5931134d1cde66bf83a54acdfebe7ab2"
-    sni: "47.250.84.25"
-
   - name: "gitio-trojan_333"
     type: "trojan"
     server: "172.66.40.99"
@@ -2873,6 +4015,13 @@ proxies:
     port: 443
     password: "humanity"
     sni: "www.pleadcourt.org"
+
+  - name: "gitio-trojan_347"
+    type: "trojan"
+    server: "blog.findlocaljobnetworkandbuildcommunityconnections.com"
+    port: 443
+    password: "dba20dcb635e430fa4d3bfc303a149d2"
+    sni: "blog.findlocaljobnetworkandbuildcommunityconnections.com"
 
   - name: "gitio-ss_348"
     type: "ss"
@@ -3014,55 +4163,6 @@ proxies:
     port: 18443
     cipher: "aes-256-gcm"
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-
-  - name: "jsdelivr-chengaopa-ss_247"
-    type: "ss"
-    server: "158.173.24.73"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-
-  - name: "jsdelivr-chengaopa-ss_248"
-    type: "ss"
-    server: "149.102.132.184"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "g5h5jleTRSyO3Rk4"
-
-  - name: "jsdelivr-chengaopa-ss_266"
-    type: "ss"
-    server: "185.213.23.63"
-    port: 990
-    cipher: "chacha20-ietf-poly1305"
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  - name: "jsdelivr-chengaopa-ss_269"
-    type: "ss"
-    server: "70.34.212.124"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "AxIYWtskJWIIaefW"
-
-  - name: "jsdelivr-chengaopa-ss_280"
-    type: "ss"
-    server: "185.215.132.9"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "jsdelivr-chengaopa-trojan_316"
-    type: "trojan"
-    server: "92.42.99.143"
-    port: 443
-    password: "humanity"
-    sni: "www.volumeroot.com"
-
-  - name: "jsdelivr-chengaopa-trojan_323"
-    type: "trojan"
-    server: "resources.findlocaljobnetworkandbuildcommunityconnections.com"
-    port: 443
-    password: "f0eb8c92ce8946aaba856569cff1a16b"
-    sni: "resources.findlocaljobnetworkandbuildcommunityconnections.com"
 
 proxy-groups:
   - name: Proxy
@@ -3307,7 +4407,144 @@ proxy-groups:
       - "github-ermaozi-vless_297"
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vmess_36"
-      - "github-peasoft-ss_41"
+      - "github-peasoft-trojan_19"
+      - "github-peasoft-vmess_38"
+      - "github-peasoft-trojan_39"
+      - "v2clash-vless_1"
+      - "v2clash-vless_2"
+      - "v2clash-vless_3"
+      - "v2clash-vless_4"
+      - "v2clash-vless_5"
+      - "v2clash-vless_6"
+      - "v2clash-vless_7"
+      - "v2clash-vless_11"
+      - "v2clash-vless_13"
+      - "v2clash-vless_14"
+      - "v2clash-vless_17"
+      - "v2clash-ss_19"
+      - "v2clash-vless_23"
+      - "v2clash-vless_24"
+      - "v2clash-vless_28"
+      - "v2clash-vless_37"
+      - "v2clash-vless_38"
+      - "v2clash-vless_39"
+      - "v2clash-vless_42"
+      - "v2clash-vless_43"
+      - "v2clash-vless_44"
+      - "v2clash-vless_45"
+      - "v2clash-vless_47"
+      - "v2clash-vless_48"
+      - "v2clash-vless_49"
+      - "v2clash-vless_50"
+      - "v2clash-vless_51"
+      - "v2clash-vless_53"
+      - "v2clash-vless_54"
+      - "v2clash-vless_55"
+      - "v2clash-vless_57"
+      - "v2clash-vless_58"
+      - "v2clash-vless_59"
+      - "v2clash-vless_61"
+      - "v2clash-vless_68"
+      - "v2clash-vless_71"
+      - "v2clash-vmess_74"
+      - "v2clash-vless_75"
+      - "v2clash-vless_77"
+      - "v2clash-vless_79"
+      - "v2clash-vless_82"
+      - "v2clash-vless_83"
+      - "v2clash-vless_86"
+      - "v2clash-vless_90"
+      - "v2clash-vless_92"
+      - "v2clash-vless_93"
+      - "v2clash-vless_94"
+      - "v2clash-vless_95"
+      - "v2clash-vless_98"
+      - "v2clash-vless_102"
+      - "v2clash-vless_103"
+      - "v2clash-vless_104"
+      - "v2clash-vless_110"
+      - "v2clash-vless_111"
+      - "v2clash-vless_114"
+      - "v2clash-vless_115"
+      - "v2clash-vless_118"
+      - "v2clash-vless_119"
+      - "v2clash-vless_121"
+      - "v2clash-vless_124"
+      - "v2clash-vless_125"
+      - "v2clash-vless_126"
+      - "v2clash-vless_128"
+      - "v2clash-vless_131"
+      - "v2clash-vless_133"
+      - "v2clash-vless_134"
+      - "v2clash-vless_135"
+      - "v2clash-vless_137"
+      - "v2clash-vless_139"
+      - "v2clash-vless_142"
+      - "v2clash-vless_146"
+      - "v2clash-vless_149"
+      - "v2clash-vless_152"
+      - "v2clash-vless_153"
+      - "v2clash-vless_155"
+      - "v2clash-vless_157"
+      - "v2clash-vless_159"
+      - "v2clash-vless_163"
+      - "v2clash-vless_164"
+      - "v2clash-vless_166"
+      - "v2clash-vless_167"
+      - "v2clash-vless_169"
+      - "v2clash-vless_170"
+      - "v2clash-vless_172"
+      - "v2clash-vless_175"
+      - "v2clash-vless_176"
+      - "v2clash-vless_177"
+      - "v2clash-vless_178"
+      - "v2clash-vless_179"
+      - "v2clash-vless_180"
+      - "v2clash-vless_183"
+      - "v2clash-vless_184"
+      - "v2clash-vless_185"
+      - "v2clash-vless_186"
+      - "v2clash-vless_187"
+      - "v2clash-vless_188"
+      - "v2clash-vless_189"
+      - "v2clash-vless_194"
+      - "v2clash-vless_199"
+      - "v2clash-vless_202"
+      - "v2clash-vless_203"
+      - "v2clash-vless_206"
+      - "v2clash-vless_210"
+      - "v2clash-vless_211"
+      - "v2clash-vless_212"
+      - "v2clash-vless_215"
+      - "v2clash-vless_216"
+      - "v2clash-trojan_218"
+      - "v2clash-vless_219"
+      - "v2clash-vless_220"
+      - "v2clash-vless_221"
+      - "v2clash-vless_223"
+      - "v2clash-vless_224"
+      - "v2clash-vless_225"
+      - "v2clash-vless_228"
+      - "v2clash-vless_233"
+      - "v2clash-vless_235"
+      - "v2clash-vless_237"
+      - "v2clash-vless_238"
+      - "v2clash-vless_240"
+      - "v2clash-vless_241"
+      - "v2clash-vless_242"
+      - "v2clash-vless_243"
+      - "v2clash-vless_244"
+      - "v2clash-vless_248"
+      - "v2clash-vless_249"
+      - "v2clash-vless_251"
+      - "v2clash-vless_254"
+      - "v2clash-vless_257"
+      - "v2clash-vless_264"
+      - "v2clash-vless_265"
+      - "v2clash-ss_269"
+      - "v2clash-vless_270"
+      - "v2clash-vless_276"
+      - "v2clash-vless_277"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3315,31 +4552,9 @@ proxy-groups:
       - "github-go4sharing-ss_2"
       - "github-go4sharing-vmess_4"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-ss_1"
       - "xrayvip.com-trojan_73"
-      - "xrayvip.com-ss_84"
       - "xrayvip.com-vmess_90"
       - "xrayvip.com-vmess_123"
-      - "jsdelivr-chengaopa-hysteria2_18"
-      - "jsdelivr-chengaopa-vless_38"
-      - "jsdelivr-chengaopa-vless_49"
-      - "jsdelivr-chengaopa-vless_52"
-      - "jsdelivr-chengaopa-vless_54"
-      - "jsdelivr-chengaopa-vless_63"
-      - "jsdelivr-chengaopa-vless_68"
-      - "jsdelivr-chengaopa-vless_76"
-      - "jsdelivr-chengaopa-vless_91"
-      - "jsdelivr-chengaopa-vless_93"
-      - "jsdelivr-chengaopa-trojan_101"
-      - "jsdelivr-chengaopa-trojan_102"
-      - "jsdelivr-chengaopa-trojan_122"
-      - "jsdelivr-chengaopa-trojan_123"
-      - "jsdelivr-chengaopa-trojan_128"
-      - "jsdelivr-chengaopa-vless_139"
-      - "jsdelivr-chengaopa-vless_149"
-      - "jsdelivr-chengaopa-vless_170"
-      - "jsdelivr-chengaopa-vless_172"
-      - "jsdelivr-chengaopa-trojan_173"
       - "gitio-vmess_20"
       - "gitio-vmess_21"
       - "gitio-vmess_22"
@@ -3392,10 +4607,10 @@ proxy-groups:
       - "gitio-trojan_310"
       - "gitio-trojan_311"
       - "gitio-trojan_317"
-      - "gitio-trojan_332"
       - "gitio-trojan_333"
       - "gitio-trojan_335"
       - "gitio-trojan_336"
+      - "gitio-trojan_347"
       - "gitio-ss_348"
       - "gitio-vmess_350"
       - "gitio-vmess_351"
@@ -3411,13 +4626,6 @@ proxy-groups:
       - "gitio-vmess_361"
       - "gitio-trojan_372"
       - "gitio-ss_499"
-      - "jsdelivr-chengaopa-ss_247"
-      - "jsdelivr-chengaopa-ss_248"
-      - "jsdelivr-chengaopa-ss_266"
-      - "jsdelivr-chengaopa-ss_269"
-      - "jsdelivr-chengaopa-ss_280"
-      - "jsdelivr-chengaopa-trojan_316"
-      - "jsdelivr-chengaopa-trojan_323"
 
   - name: Auto
     type: url-test
@@ -3663,7 +4871,144 @@ proxy-groups:
       - "github-ermaozi-vless_297"
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vmess_36"
-      - "github-peasoft-ss_41"
+      - "github-peasoft-trojan_19"
+      - "github-peasoft-vmess_38"
+      - "github-peasoft-trojan_39"
+      - "v2clash-vless_1"
+      - "v2clash-vless_2"
+      - "v2clash-vless_3"
+      - "v2clash-vless_4"
+      - "v2clash-vless_5"
+      - "v2clash-vless_6"
+      - "v2clash-vless_7"
+      - "v2clash-vless_11"
+      - "v2clash-vless_13"
+      - "v2clash-vless_14"
+      - "v2clash-vless_17"
+      - "v2clash-ss_19"
+      - "v2clash-vless_23"
+      - "v2clash-vless_24"
+      - "v2clash-vless_28"
+      - "v2clash-vless_37"
+      - "v2clash-vless_38"
+      - "v2clash-vless_39"
+      - "v2clash-vless_42"
+      - "v2clash-vless_43"
+      - "v2clash-vless_44"
+      - "v2clash-vless_45"
+      - "v2clash-vless_47"
+      - "v2clash-vless_48"
+      - "v2clash-vless_49"
+      - "v2clash-vless_50"
+      - "v2clash-vless_51"
+      - "v2clash-vless_53"
+      - "v2clash-vless_54"
+      - "v2clash-vless_55"
+      - "v2clash-vless_57"
+      - "v2clash-vless_58"
+      - "v2clash-vless_59"
+      - "v2clash-vless_61"
+      - "v2clash-vless_68"
+      - "v2clash-vless_71"
+      - "v2clash-vmess_74"
+      - "v2clash-vless_75"
+      - "v2clash-vless_77"
+      - "v2clash-vless_79"
+      - "v2clash-vless_82"
+      - "v2clash-vless_83"
+      - "v2clash-vless_86"
+      - "v2clash-vless_90"
+      - "v2clash-vless_92"
+      - "v2clash-vless_93"
+      - "v2clash-vless_94"
+      - "v2clash-vless_95"
+      - "v2clash-vless_98"
+      - "v2clash-vless_102"
+      - "v2clash-vless_103"
+      - "v2clash-vless_104"
+      - "v2clash-vless_110"
+      - "v2clash-vless_111"
+      - "v2clash-vless_114"
+      - "v2clash-vless_115"
+      - "v2clash-vless_118"
+      - "v2clash-vless_119"
+      - "v2clash-vless_121"
+      - "v2clash-vless_124"
+      - "v2clash-vless_125"
+      - "v2clash-vless_126"
+      - "v2clash-vless_128"
+      - "v2clash-vless_131"
+      - "v2clash-vless_133"
+      - "v2clash-vless_134"
+      - "v2clash-vless_135"
+      - "v2clash-vless_137"
+      - "v2clash-vless_139"
+      - "v2clash-vless_142"
+      - "v2clash-vless_146"
+      - "v2clash-vless_149"
+      - "v2clash-vless_152"
+      - "v2clash-vless_153"
+      - "v2clash-vless_155"
+      - "v2clash-vless_157"
+      - "v2clash-vless_159"
+      - "v2clash-vless_163"
+      - "v2clash-vless_164"
+      - "v2clash-vless_166"
+      - "v2clash-vless_167"
+      - "v2clash-vless_169"
+      - "v2clash-vless_170"
+      - "v2clash-vless_172"
+      - "v2clash-vless_175"
+      - "v2clash-vless_176"
+      - "v2clash-vless_177"
+      - "v2clash-vless_178"
+      - "v2clash-vless_179"
+      - "v2clash-vless_180"
+      - "v2clash-vless_183"
+      - "v2clash-vless_184"
+      - "v2clash-vless_185"
+      - "v2clash-vless_186"
+      - "v2clash-vless_187"
+      - "v2clash-vless_188"
+      - "v2clash-vless_189"
+      - "v2clash-vless_194"
+      - "v2clash-vless_199"
+      - "v2clash-vless_202"
+      - "v2clash-vless_203"
+      - "v2clash-vless_206"
+      - "v2clash-vless_210"
+      - "v2clash-vless_211"
+      - "v2clash-vless_212"
+      - "v2clash-vless_215"
+      - "v2clash-vless_216"
+      - "v2clash-trojan_218"
+      - "v2clash-vless_219"
+      - "v2clash-vless_220"
+      - "v2clash-vless_221"
+      - "v2clash-vless_223"
+      - "v2clash-vless_224"
+      - "v2clash-vless_225"
+      - "v2clash-vless_228"
+      - "v2clash-vless_233"
+      - "v2clash-vless_235"
+      - "v2clash-vless_237"
+      - "v2clash-vless_238"
+      - "v2clash-vless_240"
+      - "v2clash-vless_241"
+      - "v2clash-vless_242"
+      - "v2clash-vless_243"
+      - "v2clash-vless_244"
+      - "v2clash-vless_248"
+      - "v2clash-vless_249"
+      - "v2clash-vless_251"
+      - "v2clash-vless_254"
+      - "v2clash-vless_257"
+      - "v2clash-vless_264"
+      - "v2clash-vless_265"
+      - "v2clash-ss_269"
+      - "v2clash-vless_270"
+      - "v2clash-vless_276"
+      - "v2clash-vless_277"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3671,31 +5016,9 @@ proxy-groups:
       - "github-go4sharing-ss_2"
       - "github-go4sharing-vmess_4"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-ss_1"
       - "xrayvip.com-trojan_73"
-      - "xrayvip.com-ss_84"
       - "xrayvip.com-vmess_90"
       - "xrayvip.com-vmess_123"
-      - "jsdelivr-chengaopa-hysteria2_18"
-      - "jsdelivr-chengaopa-vless_38"
-      - "jsdelivr-chengaopa-vless_49"
-      - "jsdelivr-chengaopa-vless_52"
-      - "jsdelivr-chengaopa-vless_54"
-      - "jsdelivr-chengaopa-vless_63"
-      - "jsdelivr-chengaopa-vless_68"
-      - "jsdelivr-chengaopa-vless_76"
-      - "jsdelivr-chengaopa-vless_91"
-      - "jsdelivr-chengaopa-vless_93"
-      - "jsdelivr-chengaopa-trojan_101"
-      - "jsdelivr-chengaopa-trojan_102"
-      - "jsdelivr-chengaopa-trojan_122"
-      - "jsdelivr-chengaopa-trojan_123"
-      - "jsdelivr-chengaopa-trojan_128"
-      - "jsdelivr-chengaopa-vless_139"
-      - "jsdelivr-chengaopa-vless_149"
-      - "jsdelivr-chengaopa-vless_170"
-      - "jsdelivr-chengaopa-vless_172"
-      - "jsdelivr-chengaopa-trojan_173"
       - "gitio-vmess_20"
       - "gitio-vmess_21"
       - "gitio-vmess_22"
@@ -3748,10 +5071,10 @@ proxy-groups:
       - "gitio-trojan_310"
       - "gitio-trojan_311"
       - "gitio-trojan_317"
-      - "gitio-trojan_332"
       - "gitio-trojan_333"
       - "gitio-trojan_335"
       - "gitio-trojan_336"
+      - "gitio-trojan_347"
       - "gitio-ss_348"
       - "gitio-vmess_350"
       - "gitio-vmess_351"
@@ -3767,13 +5090,6 @@ proxy-groups:
       - "gitio-vmess_361"
       - "gitio-trojan_372"
       - "gitio-ss_499"
-      - "jsdelivr-chengaopa-ss_247"
-      - "jsdelivr-chengaopa-ss_248"
-      - "jsdelivr-chengaopa-ss_266"
-      - "jsdelivr-chengaopa-ss_269"
-      - "jsdelivr-chengaopa-ss_280"
-      - "jsdelivr-chengaopa-trojan_316"
-      - "jsdelivr-chengaopa-trojan_323"
 
   - name: Fallback
     type: fallback
@@ -4019,7 +5335,144 @@ proxy-groups:
       - "github-ermaozi-vless_297"
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vmess_36"
-      - "github-peasoft-ss_41"
+      - "github-peasoft-trojan_19"
+      - "github-peasoft-vmess_38"
+      - "github-peasoft-trojan_39"
+      - "v2clash-vless_1"
+      - "v2clash-vless_2"
+      - "v2clash-vless_3"
+      - "v2clash-vless_4"
+      - "v2clash-vless_5"
+      - "v2clash-vless_6"
+      - "v2clash-vless_7"
+      - "v2clash-vless_11"
+      - "v2clash-vless_13"
+      - "v2clash-vless_14"
+      - "v2clash-vless_17"
+      - "v2clash-ss_19"
+      - "v2clash-vless_23"
+      - "v2clash-vless_24"
+      - "v2clash-vless_28"
+      - "v2clash-vless_37"
+      - "v2clash-vless_38"
+      - "v2clash-vless_39"
+      - "v2clash-vless_42"
+      - "v2clash-vless_43"
+      - "v2clash-vless_44"
+      - "v2clash-vless_45"
+      - "v2clash-vless_47"
+      - "v2clash-vless_48"
+      - "v2clash-vless_49"
+      - "v2clash-vless_50"
+      - "v2clash-vless_51"
+      - "v2clash-vless_53"
+      - "v2clash-vless_54"
+      - "v2clash-vless_55"
+      - "v2clash-vless_57"
+      - "v2clash-vless_58"
+      - "v2clash-vless_59"
+      - "v2clash-vless_61"
+      - "v2clash-vless_68"
+      - "v2clash-vless_71"
+      - "v2clash-vmess_74"
+      - "v2clash-vless_75"
+      - "v2clash-vless_77"
+      - "v2clash-vless_79"
+      - "v2clash-vless_82"
+      - "v2clash-vless_83"
+      - "v2clash-vless_86"
+      - "v2clash-vless_90"
+      - "v2clash-vless_92"
+      - "v2clash-vless_93"
+      - "v2clash-vless_94"
+      - "v2clash-vless_95"
+      - "v2clash-vless_98"
+      - "v2clash-vless_102"
+      - "v2clash-vless_103"
+      - "v2clash-vless_104"
+      - "v2clash-vless_110"
+      - "v2clash-vless_111"
+      - "v2clash-vless_114"
+      - "v2clash-vless_115"
+      - "v2clash-vless_118"
+      - "v2clash-vless_119"
+      - "v2clash-vless_121"
+      - "v2clash-vless_124"
+      - "v2clash-vless_125"
+      - "v2clash-vless_126"
+      - "v2clash-vless_128"
+      - "v2clash-vless_131"
+      - "v2clash-vless_133"
+      - "v2clash-vless_134"
+      - "v2clash-vless_135"
+      - "v2clash-vless_137"
+      - "v2clash-vless_139"
+      - "v2clash-vless_142"
+      - "v2clash-vless_146"
+      - "v2clash-vless_149"
+      - "v2clash-vless_152"
+      - "v2clash-vless_153"
+      - "v2clash-vless_155"
+      - "v2clash-vless_157"
+      - "v2clash-vless_159"
+      - "v2clash-vless_163"
+      - "v2clash-vless_164"
+      - "v2clash-vless_166"
+      - "v2clash-vless_167"
+      - "v2clash-vless_169"
+      - "v2clash-vless_170"
+      - "v2clash-vless_172"
+      - "v2clash-vless_175"
+      - "v2clash-vless_176"
+      - "v2clash-vless_177"
+      - "v2clash-vless_178"
+      - "v2clash-vless_179"
+      - "v2clash-vless_180"
+      - "v2clash-vless_183"
+      - "v2clash-vless_184"
+      - "v2clash-vless_185"
+      - "v2clash-vless_186"
+      - "v2clash-vless_187"
+      - "v2clash-vless_188"
+      - "v2clash-vless_189"
+      - "v2clash-vless_194"
+      - "v2clash-vless_199"
+      - "v2clash-vless_202"
+      - "v2clash-vless_203"
+      - "v2clash-vless_206"
+      - "v2clash-vless_210"
+      - "v2clash-vless_211"
+      - "v2clash-vless_212"
+      - "v2clash-vless_215"
+      - "v2clash-vless_216"
+      - "v2clash-trojan_218"
+      - "v2clash-vless_219"
+      - "v2clash-vless_220"
+      - "v2clash-vless_221"
+      - "v2clash-vless_223"
+      - "v2clash-vless_224"
+      - "v2clash-vless_225"
+      - "v2clash-vless_228"
+      - "v2clash-vless_233"
+      - "v2clash-vless_235"
+      - "v2clash-vless_237"
+      - "v2clash-vless_238"
+      - "v2clash-vless_240"
+      - "v2clash-vless_241"
+      - "v2clash-vless_242"
+      - "v2clash-vless_243"
+      - "v2clash-vless_244"
+      - "v2clash-vless_248"
+      - "v2clash-vless_249"
+      - "v2clash-vless_251"
+      - "v2clash-vless_254"
+      - "v2clash-vless_257"
+      - "v2clash-vless_264"
+      - "v2clash-vless_265"
+      - "v2clash-ss_269"
+      - "v2clash-vless_270"
+      - "v2clash-vless_276"
+      - "v2clash-vless_277"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -4027,31 +5480,9 @@ proxy-groups:
       - "github-go4sharing-ss_2"
       - "github-go4sharing-vmess_4"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-ss_1"
       - "xrayvip.com-trojan_73"
-      - "xrayvip.com-ss_84"
       - "xrayvip.com-vmess_90"
       - "xrayvip.com-vmess_123"
-      - "jsdelivr-chengaopa-hysteria2_18"
-      - "jsdelivr-chengaopa-vless_38"
-      - "jsdelivr-chengaopa-vless_49"
-      - "jsdelivr-chengaopa-vless_52"
-      - "jsdelivr-chengaopa-vless_54"
-      - "jsdelivr-chengaopa-vless_63"
-      - "jsdelivr-chengaopa-vless_68"
-      - "jsdelivr-chengaopa-vless_76"
-      - "jsdelivr-chengaopa-vless_91"
-      - "jsdelivr-chengaopa-vless_93"
-      - "jsdelivr-chengaopa-trojan_101"
-      - "jsdelivr-chengaopa-trojan_102"
-      - "jsdelivr-chengaopa-trojan_122"
-      - "jsdelivr-chengaopa-trojan_123"
-      - "jsdelivr-chengaopa-trojan_128"
-      - "jsdelivr-chengaopa-vless_139"
-      - "jsdelivr-chengaopa-vless_149"
-      - "jsdelivr-chengaopa-vless_170"
-      - "jsdelivr-chengaopa-vless_172"
-      - "jsdelivr-chengaopa-trojan_173"
       - "gitio-vmess_20"
       - "gitio-vmess_21"
       - "gitio-vmess_22"
@@ -4104,10 +5535,10 @@ proxy-groups:
       - "gitio-trojan_310"
       - "gitio-trojan_311"
       - "gitio-trojan_317"
-      - "gitio-trojan_332"
       - "gitio-trojan_333"
       - "gitio-trojan_335"
       - "gitio-trojan_336"
+      - "gitio-trojan_347"
       - "gitio-ss_348"
       - "gitio-vmess_350"
       - "gitio-vmess_351"
@@ -4123,13 +5554,6 @@ proxy-groups:
       - "gitio-vmess_361"
       - "gitio-trojan_372"
       - "gitio-ss_499"
-      - "jsdelivr-chengaopa-ss_247"
-      - "jsdelivr-chengaopa-ss_248"
-      - "jsdelivr-chengaopa-ss_266"
-      - "jsdelivr-chengaopa-ss_269"
-      - "jsdelivr-chengaopa-ss_280"
-      - "jsdelivr-chengaopa-trojan_316"
-      - "jsdelivr-chengaopa-trojan_323"
 
 rules:
   - GEOIP,CN,DIRECT

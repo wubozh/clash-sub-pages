@@ -1370,12 +1370,68 @@ proxies:
     ws-opts:
       path: "/"
 
+  - name: "github-peasoft-trojan_6"
+    type: "trojan"
+    server: "216.152.147.85"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "216.152.147.85"
+
+  - name: "github-peasoft-trojan_9"
+    type: "trojan"
+    server: "216.152.147.152"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "216.152.147.152"
+
+  - name: "github-peasoft-trojan_11"
+    type: "trojan"
+    server: "216.152.147.74"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "216.152.147.74"
+
+  - name: "github-peasoft-trojan_16"
+    type: "trojan"
+    server: "66.163.118.203"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "66.163.118.203"
+
+  - name: "github-peasoft-trojan_18"
+    type: "trojan"
+    server: "66.163.118.115"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "66.163.118.115"
+
   - name: "github-peasoft-ss_28"
     type: "ss"
-    server: "13.231.100.94"
-    port: 2377
+    server: "43.202.3.164"
+    port: 8443
     cipher: "auto"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
+
+  - name: "github-peasoft-trojan_29"
+    type: "trojan"
+    server: "173.234.15.84"
+    port: 48994
+    password: "Z5lvhmLqSc"
+    sni: "m.microsoft.com"
+
+  - name: "github-peasoft-trojan_30"
+    type: "trojan"
+    server: "matrix.phonicsindia.mobi"
+    port: 48994
+    password: "Z5lvhmLqSc"
+    sni: "m.microsoft.com"
+
+  - name: "github-peasoft-trojan_31"
+    type: "trojan"
+    server: "5.59.204.26"
+    port: 21443
+    password: "X00HagvwL8gQXNDAnsxsN8dv1_VdneEo"
+    sni: "fi1.nebulaguard.org"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -1579,7 +1635,16 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_19"
+  - name: "jsdelivr-chengaopa-hysteria2_10"
+    type: "hysteria2"
+    server: "212.34.137.105"
+    port: 443
+    password: "549766c3-fa5f-471e-8031-ffc1f8d5064f"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_23"
     type: "hysteria2"
     server: "179.61.138.145"
     port: 54759
@@ -1588,16 +1653,7 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_25"
-    type: "hysteria2"
-    server: "194.48.250.233"
-    port: 443
-    password: "a2c74ce7-5daa-4bee-a1eb-52863873b3c3"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-hysteria2_32"
+  - name: "jsdelivr-chengaopa-hysteria2_36"
     type: "hysteria2"
     server: "31.76.62.148"
     port: 4444
@@ -1606,252 +1662,11 @@ proxies:
       - "h3"
     udp: true
 
-  - name: "jsdelivr-chengaopa-hysteria2_33"
+  - name: "jsdelivr-chengaopa-hysteria2_37"
     type: "hysteria2"
     server: "bl1.nexfile.net"
     port: 4444
     password: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
-    alpn:
-      - "h3"
-    udp: true
-
-  - name: "jsdelivr-chengaopa-vless_45"
-    type: "vless"
-    server: "172.67.74.177"
-    port: 2083
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-vless_46"
-    type: "vless"
-    server: "8.35.211.73"
-    port: 2087
-    uuid: "9f534ac4-3c58-4a16-8b74-13dff09a0cf1"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/resource"
-
-  - name: "jsdelivr-chengaopa-vless_47"
-    type: "vless"
-    server: "64.110.79.66"
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-
-  - name: "jsdelivr-chengaopa-vless_51"
-    type: "vless"
-    server: "68.221.177.135"
-    port: 2083
-    uuid: "52a5a29f-c162-411a-8a37-a3f11b0dc537"
-    tls: false
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_53"
-    type: "vless"
-    server: "45.144.234.157"
-    port: 14430
-    uuid: "59b0d30e-9b29-4fda-a35c-b2901ec32db7"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-
-  - name: "jsdelivr-chengaopa-vless_54"
-    type: "vless"
-    server: "199.232.78.120"
-    port: 443
-    uuid: "14fcb437-5561-413c-9eff-55424855e7d7"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-vless_55"
-    type: "vless"
-    server: "89.187.7.4"
-    port: 2166
-    uuid: "e1862eef-e3f2-4e27-b0a5-ddf8df384af9"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/Telegram=@AmyraxVPN"
-
-  - name: "jsdelivr-chengaopa-vless_57"
-    type: "vless"
-    server: "node-uk.connectsuite.org"
-    port: 8443
-    uuid: "c08f0056-7a6d-4931-813b-aaa3cdd00aed"
-    tls: true
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_59"
-    type: "vless"
-    server: "85.90.197.159"
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-
-  - name: "jsdelivr-chengaopa-vless_61"
-    type: "vless"
-    server: "209.33.160.122"
-    port: 39098
-    uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
-    tls: false
-    network: "tcp"
-
-  - name: "jsdelivr-chengaopa-vless_64"
-    type: "vless"
-    server: "192.71.27.237"
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-vless_66"
-    type: "vless"
-    server: "191.44.112.170"
-    port: 443
-    uuid: "46d221fa-e9b4-748c-4eae-019a88e42991"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/tvpn-tor/is"
-
-  - name: "jsdelivr-chengaopa-vless_67"
-    type: "vless"
-    server: "46.250.254.187"
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-
-  - name: "jsdelivr-chengaopa-vless_68"
-    type: "vless"
-    server: "104.18.42.98"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/tyxyws"
-
-  - name: "jsdelivr-chengaopa-vless_73"
-    type: "vless"
-    server: "5.178.109.174"
-    port: 14430
-    uuid: "80de563a-cac8-40ea-8cb0-4cb082dd92f9"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-
-  - name: "jsdelivr-chengaopa-vless_74"
-    type: "vless"
-    server: "146.75.57.111"
-    port: 443
-    uuid: "64ce5faf-427b-4dd1-926c-6b7ced6b8c38"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-trojan_81"
-    type: "trojan"
-    server: "216.152.147.74"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "216.152.147.74"
-
-  - name: "jsdelivr-chengaopa-trojan_86"
-    type: "trojan"
-    server: "www.speedtest.org"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-
-  - name: "jsdelivr-chengaopa-trojan_94"
-    type: "trojan"
-    server: "66.163.118.203"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "66.163.118.203"
-
-  - name: "jsdelivr-chengaopa-vless_122"
-    type: "vless"
-    server: "167.179.90.137"
-    port: 443
-    uuid: "bf14dc50-e9f2-49fd-8642-620446edeafb"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-vless_150"
-    type: "vless"
-    server: "mortreze45678-production.up.railway.app"
-    port: 443
-    uuid: "12df41f8-c668-4f92-b56a-8e1ea4193b83"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/api/JWVPy1"
-
-  - name: "jsdelivr-chengaopa-vless_151"
-    type: "vless"
-    server: "3.168.217.188"
-    port: 443
-    uuid: "67cd3349-f789-4cbb-8b91-4b6b1654ce7c"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-vless_158"
-    type: "vless"
-    server: "support.zoom.us.vltj.qzz.io"
-    port: 443
-    uuid: "506e4a91-1d05-5683-b84c-2113f673cb19"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/id-pusat"
-
-  - name: "jsdelivr-chengaopa-ss_164"
-    type: "ss"
-    server: "57.131.4.13"
-    port: 8080
-    cipher: "auto"
-    password: "mx81glqbtlwuhcjo"
-
-  - name: "jsdelivr-chengaopa-vless_167"
-    type: "vless"
-    server: "141.193.213.21"
-    port: 2083
-    uuid: "e388c123-dd1b-462c-b0d7-fa6af6aa0296"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-
-  - name: "jsdelivr-chengaopa-hysteria2_168"
-    type: "hysteria2"
-    server: "56.10.136.212"
-    port: 443
-    password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
     alpn:
       - "h3"
     udp: true
@@ -2561,68 +2376,47 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
 
-  - name: "jsdelivr-chengaopa-ss_239"
+  - name: "jsdelivr-chengaopa-ss_230"
     type: "ss"
-    server: "51.79.49.116"
-    port: 8882
-    cipher: "aes-256-gcm"
-    password: "kDWvXYZoTBcGkC4"
+    server: "15.235.121.109"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "575hiopq2h28yao6"
 
-  - name: "jsdelivr-chengaopa-ss_283"
+  - name: "jsdelivr-chengaopa-ss_254"
     type: "ss"
-    server: "149.50.215.234"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    server: "185.194.191.35"
+    port: 1353
+    cipher: "chacha20-ietf-poly1305"
+    password: "byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB"
 
-  - name: "jsdelivr-chengaopa-ss_288"
+  - name: "jsdelivr-chengaopa-ss_267"
+    type: "ss"
+    server: "64.177.66.60"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "jfWoSVCVYXRmNBfC"
+
+  - name: "jsdelivr-chengaopa-ss_284"
     type: "ss"
     server: "149.22.87.240"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
 
-  - name: "jsdelivr-chengaopa-ss_292"
+  - name: "jsdelivr-chengaopa-ss_287"
     type: "ss"
-    server: "177.202.64.67"
-    port: 1080
-    cipher: "aes-256-gcm"
-    password: "FJo_V-KMvriDekN0CYkdNH0C"
+    server: "194.87.233.93"
+    port: 46190
+    cipher: "chacha20-ietf-poly1305"
+    password: "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
 
-  - name: "jsdelivr-chengaopa-ss_315"
-    type: "ss"
-    server: "mm.good2026.com"
-    port: 12961
-    cipher: "aes-128-gcm"
-    password: "2f0c7e37-2534-48dc-9615-d85ae800c41f"
-
-  - name: "jsdelivr-chengaopa-ss_367"
-    type: "ss"
-    server: "c17b957c5a76ec76.lebufflonfermegroup.us"
-    port: 35000
-    cipher: "aes-128-gcm"
-    password: "3411b0af-589e-40f3-b8d5-d2e04ce19fa9"
-
-  - name: "jsdelivr-chengaopa-ss_371"
-    type: "ss"
-    server: "c17b957c5a76ec76.lebufflonfermegroup.us"
-    port: 22089
-    cipher: "aes-256-gcm"
-    password: "3411b0af-589e-40f3-b8d5-d2e04ce19fa9"
-
-  - name: "jsdelivr-chengaopa-ss_462"
-    type: "ss"
-    server: "c17b957c5a76ec76.lebufflonfermegroup.us"
-    port: 35002
-    cipher: "aes-128-gcm"
-    password: "3411b0af-589e-40f3-b8d5-d2e04ce19fa9"
-
-  - name: "jsdelivr-chengaopa-trojan_480"
+  - name: "jsdelivr-chengaopa-trojan_434"
     type: "trojan"
-    server: "matrix.phonicsindia.mobi"
-    port: 48994
-    password: "Z5lvhmLqSc"
-    sni: "m.microsoft.com"
+    server: "199.68.156.221"
+    port: 2087
+    password: "QzVKeGlc2qYRxyzWb3xZFjHbqY2JmOfZ"
+    sni: "nexoastra.xnetaro.ir"
 
   - name: "jsdelivr-chengaopa-vless_50"
     type: "vless"
@@ -2634,7 +2428,7 @@ proxies:
     ws-opts:
       path: "/vless"
 
-  - name: "jsdelivr-chengaopa-vless_51-1"
+  - name: "jsdelivr-chengaopa-vless_51"
     type: "vless"
     server: "172.67.74.177"
     port: 443
@@ -2654,7 +2448,7 @@ proxies:
     ws-opts:
       path: "/fp=chromefp=chrome"
 
-  - name: "jsdelivr-chengaopa-vless_53-1"
+  - name: "jsdelivr-chengaopa-vless_53"
     type: "vless"
     server: "188.137.178.174"
     port: 8443
@@ -2664,7 +2458,7 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "jsdelivr-chengaopa-vless_54-1"
+  - name: "jsdelivr-chengaopa-vless_54"
     type: "vless"
     server: "zibanabz.jonsonvip.ir"
     port: 3939
@@ -2680,7 +2474,17 @@ proxies:
     tls: false
     network: "tcp"
 
-  - name: "jsdelivr-chengaopa-vless_73-1"
+  - name: "jsdelivr-chengaopa-vless_70"
+    type: "vless"
+    server: "192.71.27.237"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "jsdelivr-chengaopa-vless_73"
     type: "vless"
     server: "104.21.70.228"
     port: 443
@@ -2689,6 +2493,16 @@ proxies:
     network: "ws"
     ws-opts:
       path: "/tyxyws"
+
+  - name: "jsdelivr-chengaopa-vless_74"
+    type: "vless"
+    server: "46.250.254.187"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
 
   - name: "jsdelivr-chengaopa-vless_78"
     type: "vless"
@@ -2717,27 +2531,6 @@ proxies:
     network: "ws"
     ws-opts:
       path: "/"
-
-  - name: "jsdelivr-chengaopa-trojan_89"
-    type: "trojan"
-    server: "216.152.147.85"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "216.152.147.85"
-
-  - name: "jsdelivr-chengaopa-trojan_92"
-    type: "trojan"
-    server: "216.152.147.152"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "216.152.147.152"
-
-  - name: "jsdelivr-chengaopa-trojan_101"
-    type: "trojan"
-    server: "66.163.118.115"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "66.163.118.115"
 
 proxy-groups:
   - name: Proxy
@@ -2898,7 +2691,15 @@ proxy-groups:
       - "github-ermaozi-vless_253"
       - "github-ermaozi-vless_255"
       - "anaer.github.io-vless_1"
+      - "github-peasoft-trojan_6"
+      - "github-peasoft-trojan_9"
+      - "github-peasoft-trojan_11"
+      - "github-peasoft-trojan_16"
+      - "github-peasoft-trojan_18"
       - "github-peasoft-ss_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_31"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -2922,36 +2723,10 @@ proxy-groups:
       - "xrayvip.com-vmess_18"
       - "xrayvip.com-vmess_19"
       - "jsdelivr-chengaopa-hysteria2_3"
-      - "jsdelivr-chengaopa-hysteria2_19"
-      - "jsdelivr-chengaopa-hysteria2_25"
-      - "jsdelivr-chengaopa-hysteria2_32"
-      - "jsdelivr-chengaopa-hysteria2_33"
-      - "jsdelivr-chengaopa-vless_45"
-      - "jsdelivr-chengaopa-vless_46"
-      - "jsdelivr-chengaopa-vless_47"
-      - "jsdelivr-chengaopa-vless_51"
-      - "jsdelivr-chengaopa-vless_53"
-      - "jsdelivr-chengaopa-vless_54"
-      - "jsdelivr-chengaopa-vless_55"
-      - "jsdelivr-chengaopa-vless_57"
-      - "jsdelivr-chengaopa-vless_59"
-      - "jsdelivr-chengaopa-vless_61"
-      - "jsdelivr-chengaopa-vless_64"
-      - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-vless_67"
-      - "jsdelivr-chengaopa-vless_68"
-      - "jsdelivr-chengaopa-vless_73"
-      - "jsdelivr-chengaopa-vless_74"
-      - "jsdelivr-chengaopa-trojan_81"
-      - "jsdelivr-chengaopa-trojan_86"
-      - "jsdelivr-chengaopa-trojan_94"
-      - "jsdelivr-chengaopa-vless_122"
-      - "jsdelivr-chengaopa-vless_150"
-      - "jsdelivr-chengaopa-vless_151"
-      - "jsdelivr-chengaopa-vless_158"
-      - "jsdelivr-chengaopa-ss_164"
-      - "jsdelivr-chengaopa-vless_167"
-      - "jsdelivr-chengaopa-hysteria2_168"
+      - "jsdelivr-chengaopa-hysteria2_10"
+      - "jsdelivr-chengaopa-hysteria2_23"
+      - "jsdelivr-chengaopa-hysteria2_36"
+      - "jsdelivr-chengaopa-hysteria2_37"
       - "gitio-vmess_4"
       - "gitio-vmess_25"
       - "gitio-vmess_26"
@@ -3048,28 +2823,24 @@ proxy-groups:
       - "gitio-ss_479"
       - "gitio-trojan_483"
       - "gitio-ss_492"
-      - "jsdelivr-chengaopa-ss_239"
-      - "jsdelivr-chengaopa-ss_283"
-      - "jsdelivr-chengaopa-ss_288"
-      - "jsdelivr-chengaopa-ss_292"
-      - "jsdelivr-chengaopa-ss_315"
-      - "jsdelivr-chengaopa-ss_367"
-      - "jsdelivr-chengaopa-ss_371"
-      - "jsdelivr-chengaopa-ss_462"
-      - "jsdelivr-chengaopa-trojan_480"
+      - "jsdelivr-chengaopa-ss_230"
+      - "jsdelivr-chengaopa-ss_254"
+      - "jsdelivr-chengaopa-ss_267"
+      - "jsdelivr-chengaopa-ss_284"
+      - "jsdelivr-chengaopa-ss_287"
+      - "jsdelivr-chengaopa-trojan_434"
       - "jsdelivr-chengaopa-vless_50"
-      - "jsdelivr-chengaopa-vless_51-1"
+      - "jsdelivr-chengaopa-vless_51"
       - "jsdelivr-chengaopa-vless_52"
-      - "jsdelivr-chengaopa-vless_53-1"
-      - "jsdelivr-chengaopa-vless_54-1"
+      - "jsdelivr-chengaopa-vless_53"
+      - "jsdelivr-chengaopa-vless_54"
       - "jsdelivr-chengaopa-vless_56"
-      - "jsdelivr-chengaopa-vless_73-1"
+      - "jsdelivr-chengaopa-vless_70"
+      - "jsdelivr-chengaopa-vless_73"
+      - "jsdelivr-chengaopa-vless_74"
       - "jsdelivr-chengaopa-vless_78"
       - "jsdelivr-chengaopa-vless_81"
       - "jsdelivr-chengaopa-vless_82"
-      - "jsdelivr-chengaopa-trojan_89"
-      - "jsdelivr-chengaopa-trojan_92"
-      - "jsdelivr-chengaopa-trojan_101"
 
   - name: Auto
     type: url-test
@@ -3231,7 +3002,15 @@ proxy-groups:
       - "github-ermaozi-vless_253"
       - "github-ermaozi-vless_255"
       - "anaer.github.io-vless_1"
+      - "github-peasoft-trojan_6"
+      - "github-peasoft-trojan_9"
+      - "github-peasoft-trojan_11"
+      - "github-peasoft-trojan_16"
+      - "github-peasoft-trojan_18"
       - "github-peasoft-ss_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_31"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3255,36 +3034,10 @@ proxy-groups:
       - "xrayvip.com-vmess_18"
       - "xrayvip.com-vmess_19"
       - "jsdelivr-chengaopa-hysteria2_3"
-      - "jsdelivr-chengaopa-hysteria2_19"
-      - "jsdelivr-chengaopa-hysteria2_25"
-      - "jsdelivr-chengaopa-hysteria2_32"
-      - "jsdelivr-chengaopa-hysteria2_33"
-      - "jsdelivr-chengaopa-vless_45"
-      - "jsdelivr-chengaopa-vless_46"
-      - "jsdelivr-chengaopa-vless_47"
-      - "jsdelivr-chengaopa-vless_51"
-      - "jsdelivr-chengaopa-vless_53"
-      - "jsdelivr-chengaopa-vless_54"
-      - "jsdelivr-chengaopa-vless_55"
-      - "jsdelivr-chengaopa-vless_57"
-      - "jsdelivr-chengaopa-vless_59"
-      - "jsdelivr-chengaopa-vless_61"
-      - "jsdelivr-chengaopa-vless_64"
-      - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-vless_67"
-      - "jsdelivr-chengaopa-vless_68"
-      - "jsdelivr-chengaopa-vless_73"
-      - "jsdelivr-chengaopa-vless_74"
-      - "jsdelivr-chengaopa-trojan_81"
-      - "jsdelivr-chengaopa-trojan_86"
-      - "jsdelivr-chengaopa-trojan_94"
-      - "jsdelivr-chengaopa-vless_122"
-      - "jsdelivr-chengaopa-vless_150"
-      - "jsdelivr-chengaopa-vless_151"
-      - "jsdelivr-chengaopa-vless_158"
-      - "jsdelivr-chengaopa-ss_164"
-      - "jsdelivr-chengaopa-vless_167"
-      - "jsdelivr-chengaopa-hysteria2_168"
+      - "jsdelivr-chengaopa-hysteria2_10"
+      - "jsdelivr-chengaopa-hysteria2_23"
+      - "jsdelivr-chengaopa-hysteria2_36"
+      - "jsdelivr-chengaopa-hysteria2_37"
       - "gitio-vmess_4"
       - "gitio-vmess_25"
       - "gitio-vmess_26"
@@ -3381,28 +3134,24 @@ proxy-groups:
       - "gitio-ss_479"
       - "gitio-trojan_483"
       - "gitio-ss_492"
-      - "jsdelivr-chengaopa-ss_239"
-      - "jsdelivr-chengaopa-ss_283"
-      - "jsdelivr-chengaopa-ss_288"
-      - "jsdelivr-chengaopa-ss_292"
-      - "jsdelivr-chengaopa-ss_315"
-      - "jsdelivr-chengaopa-ss_367"
-      - "jsdelivr-chengaopa-ss_371"
-      - "jsdelivr-chengaopa-ss_462"
-      - "jsdelivr-chengaopa-trojan_480"
+      - "jsdelivr-chengaopa-ss_230"
+      - "jsdelivr-chengaopa-ss_254"
+      - "jsdelivr-chengaopa-ss_267"
+      - "jsdelivr-chengaopa-ss_284"
+      - "jsdelivr-chengaopa-ss_287"
+      - "jsdelivr-chengaopa-trojan_434"
       - "jsdelivr-chengaopa-vless_50"
-      - "jsdelivr-chengaopa-vless_51-1"
+      - "jsdelivr-chengaopa-vless_51"
       - "jsdelivr-chengaopa-vless_52"
-      - "jsdelivr-chengaopa-vless_53-1"
-      - "jsdelivr-chengaopa-vless_54-1"
+      - "jsdelivr-chengaopa-vless_53"
+      - "jsdelivr-chengaopa-vless_54"
       - "jsdelivr-chengaopa-vless_56"
-      - "jsdelivr-chengaopa-vless_73-1"
+      - "jsdelivr-chengaopa-vless_70"
+      - "jsdelivr-chengaopa-vless_73"
+      - "jsdelivr-chengaopa-vless_74"
       - "jsdelivr-chengaopa-vless_78"
       - "jsdelivr-chengaopa-vless_81"
       - "jsdelivr-chengaopa-vless_82"
-      - "jsdelivr-chengaopa-trojan_89"
-      - "jsdelivr-chengaopa-trojan_92"
-      - "jsdelivr-chengaopa-trojan_101"
 
   - name: Fallback
     type: fallback
@@ -3564,7 +3313,15 @@ proxy-groups:
       - "github-ermaozi-vless_253"
       - "github-ermaozi-vless_255"
       - "anaer.github.io-vless_1"
+      - "github-peasoft-trojan_6"
+      - "github-peasoft-trojan_9"
+      - "github-peasoft-trojan_11"
+      - "github-peasoft-trojan_16"
+      - "github-peasoft-trojan_18"
       - "github-peasoft-ss_28"
+      - "github-peasoft-trojan_29"
+      - "github-peasoft-trojan_30"
+      - "github-peasoft-trojan_31"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3588,36 +3345,10 @@ proxy-groups:
       - "xrayvip.com-vmess_18"
       - "xrayvip.com-vmess_19"
       - "jsdelivr-chengaopa-hysteria2_3"
-      - "jsdelivr-chengaopa-hysteria2_19"
-      - "jsdelivr-chengaopa-hysteria2_25"
-      - "jsdelivr-chengaopa-hysteria2_32"
-      - "jsdelivr-chengaopa-hysteria2_33"
-      - "jsdelivr-chengaopa-vless_45"
-      - "jsdelivr-chengaopa-vless_46"
-      - "jsdelivr-chengaopa-vless_47"
-      - "jsdelivr-chengaopa-vless_51"
-      - "jsdelivr-chengaopa-vless_53"
-      - "jsdelivr-chengaopa-vless_54"
-      - "jsdelivr-chengaopa-vless_55"
-      - "jsdelivr-chengaopa-vless_57"
-      - "jsdelivr-chengaopa-vless_59"
-      - "jsdelivr-chengaopa-vless_61"
-      - "jsdelivr-chengaopa-vless_64"
-      - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-vless_67"
-      - "jsdelivr-chengaopa-vless_68"
-      - "jsdelivr-chengaopa-vless_73"
-      - "jsdelivr-chengaopa-vless_74"
-      - "jsdelivr-chengaopa-trojan_81"
-      - "jsdelivr-chengaopa-trojan_86"
-      - "jsdelivr-chengaopa-trojan_94"
-      - "jsdelivr-chengaopa-vless_122"
-      - "jsdelivr-chengaopa-vless_150"
-      - "jsdelivr-chengaopa-vless_151"
-      - "jsdelivr-chengaopa-vless_158"
-      - "jsdelivr-chengaopa-ss_164"
-      - "jsdelivr-chengaopa-vless_167"
-      - "jsdelivr-chengaopa-hysteria2_168"
+      - "jsdelivr-chengaopa-hysteria2_10"
+      - "jsdelivr-chengaopa-hysteria2_23"
+      - "jsdelivr-chengaopa-hysteria2_36"
+      - "jsdelivr-chengaopa-hysteria2_37"
       - "gitio-vmess_4"
       - "gitio-vmess_25"
       - "gitio-vmess_26"
@@ -3714,28 +3445,24 @@ proxy-groups:
       - "gitio-ss_479"
       - "gitio-trojan_483"
       - "gitio-ss_492"
-      - "jsdelivr-chengaopa-ss_239"
-      - "jsdelivr-chengaopa-ss_283"
-      - "jsdelivr-chengaopa-ss_288"
-      - "jsdelivr-chengaopa-ss_292"
-      - "jsdelivr-chengaopa-ss_315"
-      - "jsdelivr-chengaopa-ss_367"
-      - "jsdelivr-chengaopa-ss_371"
-      - "jsdelivr-chengaopa-ss_462"
-      - "jsdelivr-chengaopa-trojan_480"
+      - "jsdelivr-chengaopa-ss_230"
+      - "jsdelivr-chengaopa-ss_254"
+      - "jsdelivr-chengaopa-ss_267"
+      - "jsdelivr-chengaopa-ss_284"
+      - "jsdelivr-chengaopa-ss_287"
+      - "jsdelivr-chengaopa-trojan_434"
       - "jsdelivr-chengaopa-vless_50"
-      - "jsdelivr-chengaopa-vless_51-1"
+      - "jsdelivr-chengaopa-vless_51"
       - "jsdelivr-chengaopa-vless_52"
-      - "jsdelivr-chengaopa-vless_53-1"
-      - "jsdelivr-chengaopa-vless_54-1"
+      - "jsdelivr-chengaopa-vless_53"
+      - "jsdelivr-chengaopa-vless_54"
       - "jsdelivr-chengaopa-vless_56"
-      - "jsdelivr-chengaopa-vless_73-1"
+      - "jsdelivr-chengaopa-vless_70"
+      - "jsdelivr-chengaopa-vless_73"
+      - "jsdelivr-chengaopa-vless_74"
       - "jsdelivr-chengaopa-vless_78"
       - "jsdelivr-chengaopa-vless_81"
       - "jsdelivr-chengaopa-vless_82"
-      - "jsdelivr-chengaopa-trojan_89"
-      - "jsdelivr-chengaopa-trojan_92"
-      - "jsdelivr-chengaopa-trojan_101"
 
 rules:
   - GEOIP,CN,DIRECT

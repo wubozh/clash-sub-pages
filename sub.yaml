@@ -1262,6 +1262,46 @@ proxies:
     ws-opts:
       path: "/"
 
+  - name: "github-peasoft-trojan_8"
+    type: "trojan"
+    server: "216.152.147.85"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "cdn.connectingpeoplewithgreatjobs.com"
+
+  - name: "github-peasoft-trojan_26"
+    type: "trojan"
+    server: "sclass-b1.catcat321.com"
+    port: 20028
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    sni: "hk.catxstar.com"
+
+  - name: "github-peasoft-trojan_27"
+    type: "trojan"
+    server: "167.82.76.27"
+    port: 443
+    password: "MiTiVPN"
+    sni: "ssl.fastly.com"
+
+  - name: "github-peasoft-trojan_28"
+    type: "trojan"
+    server: "v2jp.k1.ssnss.live"
+    port: 44184
+    password: "d050aca3-9df2-4461-90ec-92373c1d7636"
+    sni: "v2jp.k1.ssnss.live"
+
+  - name: "github-peasoft-vmess_30"
+    type: "vmess"
+    server: "JP032001.ssgreen.org"
+    port: 443
+    uuid: "16586ea9-a30d-4323-97f3-1907b27f439f"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/wes"
+
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
     server: "xt.ylks01.eu.org"
@@ -1302,53 +1342,60 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "github-go4sharing-ss_1"
+  - name: "github-go4sharing-ss_6"
+    type: "ss"
+    server: "13.140.86.73"
+    port: 6079
+    cipher: "chacha20-ietf-poly1305"
+    password: "VYSbsLYaCBSquKAq7Tc059Bppmhzs2Yw"
+
+  - name: "github-go4sharing-ss_20"
     type: "ss"
     server: "154.36.158.197"
     port: 8388
     cipher: "aes-256-gcm"
     password: "BeaUf9c0AEWH40Pu"
 
-  - name: "github-go4sharing-ss_2"
-    type: "ss"
-    server: "202.50.253.45"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "github-go4sharing-ss_3"
+  - name: "github-go4sharing-ss_21"
     type: "ss"
     server: "202.50.253.72"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "github-go4sharing-ss_4"
-    type: "ss"
-    server: "202.50.253.54"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "github-go4sharing-ss_5"
-    type: "ss"
-    server: "202.50.253.27"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "github-go4sharing-ss_6"
+  - name: "github-go4sharing-ss_22"
     type: "ss"
     server: "202.50.253.90"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "github-go4sharing-vmess_7"
+  - name: "github-go4sharing-ss_23"
+    type: "ss"
+    server: "202.50.253.36"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "github-go4sharing-ss_24"
+    type: "ss"
+    server: "202.50.253.63"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "github-go4sharing-ss_25"
+    type: "ss"
+    server: "202.50.253.81"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "github-go4sharing-vmess_26"
     type: "vmess"
     server: "39.108.113.127"
     port: 10086
-    uuid: "b0253c6c-0b96-4950-bde1-669f13bc1a01"
+    uuid: "d50cc563-0c03-4136-899f-85cbc0b02699"
     alterId: 0
     cipher: "auto"
     tls: false
@@ -1356,29 +1403,17 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "github-go4sharing-vmess_8"
+  - name: "github-go4sharing-vmess_27"
     type: "vmess"
-    server: "39.108.113.127"
-    port: 10086
-    uuid: "74e07df3-f82a-4791-987f-247c3c395866"
+    server: "grab-assistance-crawford-capital.trycloudflare.com"
+    port: 443
+    uuid: "2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea"
     alterId: 0
     cipher: "auto"
-    tls: false
+    tls: true
     network: "ws"
     ws-opts:
-      path: "/"
-
-  - name: "github-go4sharing-vmess_9"
-    type: "vmess"
-    server: "156.239.224.107"
-    port: 57278
-    uuid: "1270bed5-f908-4ecc-f1c8-de246033b186"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
+      path: "/2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm"
 
   - name: "sub.scpnb.top-vmess_1"
     type: "vmess"
@@ -1390,30 +1425,30 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "xrayvip.com-ss_2"
-    type: "ss"
-    server: "202.50.253.81"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "xrayvip.com-ss_3"
-    type: "ss"
-    server: "202.50.253.36"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "xrayvip.com-ss_4"
-    type: "ss"
-    server: "202.50.253.63"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
   - name: "xrayvip.com-ss_5"
     type: "ss"
     server: "202.50.253.99"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "xrayvip.com-ss_7"
+    type: "ss"
+    server: "202.50.253.45"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "xrayvip.com-ss_8"
+    type: "ss"
+    server: "202.50.253.27"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "xrayvip.com-ss_9"
+    type: "ss"
+    server: "202.50.253.54"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -1548,18 +1583,6 @@ proxies:
     ws-opts:
       path: "/"
 
-  - name: "jsdelivr-chengaopa-vmess_156"
-    type: "vmess"
-    server: "grab-assistance-crawford-capital.trycloudflare.com"
-    port: 443
-    uuid: "2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm"
-
   - name: "gitio-trojan_2"
     type: "trojan"
     server: "matrix.phonicsindia.mobi"
@@ -1576,13 +1599,6 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
-
-  - name: "gitio-trojan_8"
-    type: "trojan"
-    server: "sclass-b1.catcat321.com"
-    port: 20028
-    password: "d7563108-615c-4338-a7bd-77f359869a4a"
-    sni: "hk.catxstar.com"
 
   - name: "gitio-vmess_30"
     type: "vmess"
@@ -2370,24 +2386,29 @@ proxy-groups:
       - "github-ermaozi-vless_206"
       - "github-ermaozi-vless_207"
       - "anaer.github.io-vless_1"
+      - "github-peasoft-trojan_8"
+      - "github-peasoft-trojan_26"
+      - "github-peasoft-trojan_27"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-vmess_30"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-go4sharing-ss_1"
-      - "github-go4sharing-ss_2"
-      - "github-go4sharing-ss_3"
-      - "github-go4sharing-ss_4"
-      - "github-go4sharing-ss_5"
       - "github-go4sharing-ss_6"
-      - "github-go4sharing-vmess_7"
-      - "github-go4sharing-vmess_8"
-      - "github-go4sharing-vmess_9"
+      - "github-go4sharing-ss_20"
+      - "github-go4sharing-ss_21"
+      - "github-go4sharing-ss_22"
+      - "github-go4sharing-ss_23"
+      - "github-go4sharing-ss_24"
+      - "github-go4sharing-ss_25"
+      - "github-go4sharing-vmess_26"
+      - "github-go4sharing-vmess_27"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-ss_2"
-      - "xrayvip.com-ss_3"
-      - "xrayvip.com-ss_4"
       - "xrayvip.com-ss_5"
+      - "xrayvip.com-ss_7"
+      - "xrayvip.com-ss_8"
+      - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
       - "xrayvip.com-vmess_11"
       - "xrayvip.com-vmess_22"
@@ -2402,10 +2423,8 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_58"
       - "jsdelivr-chengaopa-vless_62"
       - "jsdelivr-chengaopa-vless_77"
-      - "jsdelivr-chengaopa-vmess_156"
       - "gitio-trojan_2"
       - "gitio-vmess_7"
-      - "gitio-trojan_8"
       - "gitio-vmess_30"
       - "gitio-vmess_31"
       - "gitio-vmess_32"
@@ -2645,24 +2664,29 @@ proxy-groups:
       - "github-ermaozi-vless_206"
       - "github-ermaozi-vless_207"
       - "anaer.github.io-vless_1"
+      - "github-peasoft-trojan_8"
+      - "github-peasoft-trojan_26"
+      - "github-peasoft-trojan_27"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-vmess_30"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-go4sharing-ss_1"
-      - "github-go4sharing-ss_2"
-      - "github-go4sharing-ss_3"
-      - "github-go4sharing-ss_4"
-      - "github-go4sharing-ss_5"
       - "github-go4sharing-ss_6"
-      - "github-go4sharing-vmess_7"
-      - "github-go4sharing-vmess_8"
-      - "github-go4sharing-vmess_9"
+      - "github-go4sharing-ss_20"
+      - "github-go4sharing-ss_21"
+      - "github-go4sharing-ss_22"
+      - "github-go4sharing-ss_23"
+      - "github-go4sharing-ss_24"
+      - "github-go4sharing-ss_25"
+      - "github-go4sharing-vmess_26"
+      - "github-go4sharing-vmess_27"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-ss_2"
-      - "xrayvip.com-ss_3"
-      - "xrayvip.com-ss_4"
       - "xrayvip.com-ss_5"
+      - "xrayvip.com-ss_7"
+      - "xrayvip.com-ss_8"
+      - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
       - "xrayvip.com-vmess_11"
       - "xrayvip.com-vmess_22"
@@ -2677,10 +2701,8 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_58"
       - "jsdelivr-chengaopa-vless_62"
       - "jsdelivr-chengaopa-vless_77"
-      - "jsdelivr-chengaopa-vmess_156"
       - "gitio-trojan_2"
       - "gitio-vmess_7"
-      - "gitio-trojan_8"
       - "gitio-vmess_30"
       - "gitio-vmess_31"
       - "gitio-vmess_32"
@@ -2920,24 +2942,29 @@ proxy-groups:
       - "github-ermaozi-vless_206"
       - "github-ermaozi-vless_207"
       - "anaer.github.io-vless_1"
+      - "github-peasoft-trojan_8"
+      - "github-peasoft-trojan_26"
+      - "github-peasoft-trojan_27"
+      - "github-peasoft-trojan_28"
+      - "github-peasoft-vmess_30"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
       - "github-learnhard-c-vmess_8"
-      - "github-go4sharing-ss_1"
-      - "github-go4sharing-ss_2"
-      - "github-go4sharing-ss_3"
-      - "github-go4sharing-ss_4"
-      - "github-go4sharing-ss_5"
       - "github-go4sharing-ss_6"
-      - "github-go4sharing-vmess_7"
-      - "github-go4sharing-vmess_8"
-      - "github-go4sharing-vmess_9"
+      - "github-go4sharing-ss_20"
+      - "github-go4sharing-ss_21"
+      - "github-go4sharing-ss_22"
+      - "github-go4sharing-ss_23"
+      - "github-go4sharing-ss_24"
+      - "github-go4sharing-ss_25"
+      - "github-go4sharing-vmess_26"
+      - "github-go4sharing-vmess_27"
       - "sub.scpnb.top-vmess_1"
-      - "xrayvip.com-ss_2"
-      - "xrayvip.com-ss_3"
-      - "xrayvip.com-ss_4"
       - "xrayvip.com-ss_5"
+      - "xrayvip.com-ss_7"
+      - "xrayvip.com-ss_8"
+      - "xrayvip.com-ss_9"
       - "xrayvip.com-ss_10"
       - "xrayvip.com-vmess_11"
       - "xrayvip.com-vmess_22"
@@ -2952,10 +2979,8 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_58"
       - "jsdelivr-chengaopa-vless_62"
       - "jsdelivr-chengaopa-vless_77"
-      - "jsdelivr-chengaopa-vmess_156"
       - "gitio-trojan_2"
       - "gitio-vmess_7"
-      - "gitio-trojan_8"
       - "gitio-vmess_30"
       - "gitio-vmess_31"
       - "gitio-vmess_32"

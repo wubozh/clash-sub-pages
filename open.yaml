@@ -1,40 +1,15 @@
 proxies:
-  - name: "github-ermaozi-vless_62"
+  - name: "github-ermaozi-vless_55"
     type: "vless"
-    server: "172.67.74.177"
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    tls: true
+    server: "www.true.th"
+    port: 80
+    uuid: "f4c5605a-8424-441e-b23d-d6384d012c28"
+    tls: false
     network: "ws"
     ws-opts:
       path: "/"
 
-  - name: "github-wenxig-ss_130"
-    type: "ss"
-    server: "www.ccgfw.top"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "6601fb90e9b3"
-
-  - name: "github-mfuu-vmess_3"
-    type: "vmess"
-    server: "t1.620720.xyz"
-    port: 8443
-    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: "ws"
-
-  - name: "github-ermaozi-vless_129"
-    type: "vless"
-    server: "23.155.44.105"
-    port: 443
-    uuid: "128ce9ab-63bc-48dc-92ca-1b5426a9eb46"
-    tls: true
-    network: "tcp"
-
-  - name: "xrayvip_com-vmess_21"
+  - name: "xrayvip_com-vmess_34"
     type: "vmess"
     server: "172.67.190.164"
     port: 443
@@ -43,6 +18,37 @@ proxies:
     cipher: "auto"
     tls: true
     network: "ws"
+
+  - name: "github-mfuu-ss_103"
+    type: "ss"
+    server: "bbb.whtjdasha.com"
+    port: 30169
+    cipher: "chacha20-ietf-poly1305"
+    password: "da737830-48a9-4988-864b-baed644fa2e4"
+
+  - name: "jsdelivr-chengaopa-vless_105"
+    type: "vless"
+    server: "172.67.217.241"
+    port: 443
+    uuid: "1c0250ec-2dbc-40be-bd18-90b5e812ceaa"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048"
+
+  - name: "github-peasoft-ss_27"
+    type: "ss"
+    server: "3.22.241.58"
+    port: 443
+    cipher: aes-256-gcm
+    password: "amazonskr05"
+
+  - name: "github-mfuu-ss_119"
+    type: "ss"
+    server: "bbb.whtjdasha.com"
+    port: 13368
+    cipher: "chacha20-ietf-poly1305"
+    password: "da737830-48a9-4988-864b-baed644fa2e4"
 
   - name: "github-freefq-vmess_10"
     type: "vmess"
@@ -54,23 +60,42 @@ proxies:
     tls: false
     network: "ws"
 
-  - name: "github-ermaozi-vless_150"
+  - name: "anaer_github_io-vless_4_1"
     type: "vless"
-    server: "194.60.228.97"
+    server: "185.197.193.137"
     port: 443
-    uuid: "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec"
-    tls: true
-    network: "tcp"
-
-  - name: "github-mfuu-vmess_28"
-    type: "vmess"
-    server: "cg1c14.waimaojd.com"
-    port: 443
-    uuid: "be8e3136-b874-4085-bd23-ec3699300490"
-    alterId: 0
-    cipher: "auto"
+    uuid: "313b84fa-b922-500f-9b65-acb67c040cc0"
     tls: true
     network: "ws"
+    ws-opts:
+      path: "/vless"
+
+  - name: "github-go4sharing-ss_9_1"
+    type: "ss"
+    server: "3.22.241.58"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+
+  - name: "jsdelivr-chengaopa-vless_106"
+    type: "vless"
+    server: "382218.xyz"
+    port: 443
+    uuid: "d801d4d9-111a-46e8-91fc-e2fb39ef2d22"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/ws"
+
+  - name: "mm_mibei77_com-vmess_20"
+    type: "vmess"
+    server: "v24.hdacd.com"
+    port: 30824
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "tcp"
 
   - name: "node_nodefree_me-vless_14"
     type: "vless"
@@ -80,24 +105,17 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "github-ermaozi-vless_101"
-    type: "vless"
-    server: "freev2.cloudflare.182682.xyz"
+  - name: "github-freefq-vmess_14"
+    type: "vmess"
+    server: "gov.uk"
     port: 443
-    uuid: "12d32e9b-d41f-4677-aa51-83e21d2837f2"
+    uuid: "77848824-93b7-4b89-ffd0-e91afff406ce"
+    alterId: 0
+    cipher: "auto"
     tls: true
     network: "ws"
-    ws-opts:
-      path: "/announcement?ed=2048"
 
-  - name: "gitio-ss_384"
-    type: "ss"
-    server: "47.85.201.22"
-    port: 443
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA="
-
-  - name: "github-ermaozi-vless_157"
+  - name: "github-ermaozi-vless_139"
     type: "vless"
     server: "104.171.135.229"
     port: 443
@@ -105,49 +123,7 @@ proxies:
     tls: true
     network: "tcp"
 
-  - name: "github-freefq-vmess_5"
-    type: "vmess"
-    server: "www.darkroom.lol"
-    port: 8080
-    uuid: "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-
-  - name: "github-go4sharing-ss_24_1"
-    type: "ss"
-    server: "202.50.253.63"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "github-ermaozi-trojan_91"
-    type: "trojan"
-    server: "v2jp.k1.ssnss.live"
-    port: 44184
-    password: "d050aca3-9df2-4461-90ec-92373c1d7636"
-    sni: "v2jp.k1.ssnss.live"
-
-  - name: "github-ermaozi-vless_149"
-    type: "vless"
-    server: "72.56.4.84"
-    port: 443
-    uuid: "Fluffy_VPN-zKZUa4Ie"
-    tls: true
-    network: "tcp"
-
-  - name: "anaer_github_io-vless_30"
-    type: "vless"
-    server: "64.226.95.244"
-    port: 2053
-    uuid: "948fac3c-42bf-41a6-a5f9-704d36ff0d8d"
-    tls: true
-    network: "ws"
-    ws-opts:
-      path: "/danfeng"
-
-  - name: "github-go4sharing-ss_22_1"
+  - name: "xrayvip_com-ss_11_1"
     type: "ss"
     server: "202.50.253.90"
     port: 19999
@@ -164,26 +140,44 @@ proxies:
     tls: true
     network: "ws"
 
-  - name: "gitio-ss_1"
-    type: "ss"
-    server: "47.254.175.2"
-    port: 443
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
-
-  - name: "github-ermaozi-vless_161"
+  - name: "github-ermaozi-vless_129"
     type: "vless"
-    server: "195.72.62.7"
+    server: "46.250.231.61"
+    port: 443
+    uuid: "0c492b73-98de-4ad2-bbe9-eb25661d17ac"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/?proxyip=proxyip.oracle.cmliussss.net"
+
+  - name: "github-ermaozi-vless_158"
+    type: "vless"
+    server: "23.129.180.171"
     port: 443
     uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
     tls: true
     network: "tcp"
 
-  - name: "github-ermaozi-vless_138"
+  - name: "xrayvip_com-ss_5_1"
+    type: "ss"
+    server: "202.50.253.63"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "github-ermaozi-vless_149"
     type: "vless"
-    server: "66.163.118.113"
+    server: "88.216.214.159"
     port: 443
-    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
+    uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
+    tls: true
+    network: "tcp"
+
+  - name: "github-ermaozi-vless_148"
+    type: "vless"
+    server: "195.72.62.7"
+    port: 443
+    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
     tls: true
     network: "tcp"
 
@@ -197,169 +191,171 @@ proxies:
     tls: false
     network: "ws"
 
+  - name: "github-ermaozi-trojan_80"
+    type: "trojan"
+    server: "sclass-b1.catcat321.com"
+    port: 20028
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    sni: "hk.catxstar.com"
+
+  - name: "github-ermaozi-vless_140"
+    type: "vless"
+    server: "196.196.148.76"
+    port: 443
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    tls: true
+    network: "tcp"
+
   - name: "xrayvip_com-ss_7_1"
     type: "ss"
-    server: "202.50.253.99"
+    server: "202.50.253.81"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "jsdelivr-chengaopa-ss_365"
-    type: "ss"
-    server: "dlc.deltapc.digital"
-    port: 11133
-    cipher: "xchacha20-ietf-poly1305"
-    password: "mDLpXyVaIwCQ5GjuekgBxYMtVT9Z/nkb3K2SXpwHCLU="
-
-  - name: "github-ermaozi-vless_135"
+  - name: "github-ermaozi-vless_114"
     type: "vless"
-    server: "159.194.210.102"
+    server: "31.58.213.31"
     port: 443
-    uuid: "ecf65acd-ea72-0002-be5f-cd23afb2722f"
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
     tls: true
     network: "tcp"
 
-  - name: "github-go4sharing-vmess_26"
-    type: "vmess"
-    server: "39.108.113.127"
-    port: 10086
-    uuid: "d50cc563-0c03-4136-899f-85cbc0b02699"
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    network: "ws"
-    ws-opts:
-      path: "/"
+  - name: "xrayvip_com-ss_4_1"
+    type: "ss"
+    server: "202.50.253.27"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "github-go4sharing-ss_23_1"
+  - name: "github-ermaozi-ss_132"
+    type: "ss"
+    server: "202.50.253.72"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "github-ermaozi-ss_131"
+    type: "ss"
+    server: "202.50.253.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "xrayvip_com-ss_8_1"
     type: "ss"
     server: "202.50.253.36"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "xrayvip_com-ss_2"
-    type: "ss"
-    server: "47.254.169.3"
-    port: 443
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
-
-  - name: "github-ermaozi-vless_137"
-    type: "vless"
-    server: "41.196.0.128"
-    port: 443
-    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
-    tls: true
-    network: "tcp"
-
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "github-ermaozi-vless_62"
-      - "github-wenxig-ss_130"
-      - "github-mfuu-vmess_3"
-      - "github-ermaozi-vless_129"
-      - "xrayvip_com-vmess_21"
+      - "github-ermaozi-vless_55"
+      - "xrayvip_com-vmess_34"
+      - "github-mfuu-ss_103"
+      - "jsdelivr-chengaopa-vless_105"
+      - "github-peasoft-ss_27"
+      - "github-mfuu-ss_119"
       - "github-freefq-vmess_10"
-      - "github-ermaozi-vless_150"
-      - "github-mfuu-vmess_28"
+      - "anaer_github_io-vless_4_1"
+      - "github-go4sharing-ss_9_1"
+      - "jsdelivr-chengaopa-vless_106"
+      - "mm_mibei77_com-vmess_20"
       - "node_nodefree_me-vless_14"
-      - "github-ermaozi-vless_101"
-      - "gitio-ss_384"
-      - "github-ermaozi-vless_157"
-      - "github-freefq-vmess_5"
-      - "github-go4sharing-ss_24_1"
-      - "github-ermaozi-trojan_91"
-      - "github-ermaozi-vless_149"
-      - "anaer_github_io-vless_30"
-      - "github-go4sharing-ss_22_1"
+      - "github-freefq-vmess_14"
+      - "github-ermaozi-vless_139"
+      - "xrayvip_com-ss_11_1"
       - "github-mfuu-vmess_20"
-      - "gitio-ss_1"
-      - "github-ermaozi-vless_161"
-      - "github-ermaozi-vless_138"
+      - "github-ermaozi-vless_129"
+      - "github-ermaozi-vless_158"
+      - "xrayvip_com-ss_5_1"
+      - "github-ermaozi-vless_149"
+      - "github-ermaozi-vless_148"
       - "github-learnhard-c-vmess_7"
+      - "github-ermaozi-trojan_80"
+      - "github-ermaozi-vless_140"
       - "xrayvip_com-ss_7_1"
-      - "jsdelivr-chengaopa-ss_365"
-      - "github-ermaozi-vless_135"
-      - "github-go4sharing-vmess_26"
-      - "github-go4sharing-ss_23_1"
-      - "xrayvip_com-ss_2"
-      - "github-ermaozi-vless_137"
+      - "github-ermaozi-vless_114"
+      - "xrayvip_com-ss_4_1"
+      - "github-ermaozi-ss_132"
+      - "github-ermaozi-ss_131"
+      - "xrayvip_com-ss_8_1"
 
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "github-ermaozi-vless_62"
-      - "github-wenxig-ss_130"
-      - "github-mfuu-vmess_3"
-      - "github-ermaozi-vless_129"
-      - "xrayvip_com-vmess_21"
+      - "github-ermaozi-vless_55"
+      - "xrayvip_com-vmess_34"
+      - "github-mfuu-ss_103"
+      - "jsdelivr-chengaopa-vless_105"
+      - "github-peasoft-ss_27"
+      - "github-mfuu-ss_119"
       - "github-freefq-vmess_10"
-      - "github-ermaozi-vless_150"
-      - "github-mfuu-vmess_28"
+      - "anaer_github_io-vless_4_1"
+      - "github-go4sharing-ss_9_1"
+      - "jsdelivr-chengaopa-vless_106"
+      - "mm_mibei77_com-vmess_20"
       - "node_nodefree_me-vless_14"
-      - "github-ermaozi-vless_101"
-      - "gitio-ss_384"
-      - "github-ermaozi-vless_157"
-      - "github-freefq-vmess_5"
-      - "github-go4sharing-ss_24_1"
-      - "github-ermaozi-trojan_91"
-      - "github-ermaozi-vless_149"
-      - "anaer_github_io-vless_30"
-      - "github-go4sharing-ss_22_1"
+      - "github-freefq-vmess_14"
+      - "github-ermaozi-vless_139"
+      - "xrayvip_com-ss_11_1"
       - "github-mfuu-vmess_20"
-      - "gitio-ss_1"
-      - "github-ermaozi-vless_161"
-      - "github-ermaozi-vless_138"
+      - "github-ermaozi-vless_129"
+      - "github-ermaozi-vless_158"
+      - "xrayvip_com-ss_5_1"
+      - "github-ermaozi-vless_149"
+      - "github-ermaozi-vless_148"
       - "github-learnhard-c-vmess_7"
+      - "github-ermaozi-trojan_80"
+      - "github-ermaozi-vless_140"
       - "xrayvip_com-ss_7_1"
-      - "jsdelivr-chengaopa-ss_365"
-      - "github-ermaozi-vless_135"
-      - "github-go4sharing-vmess_26"
-      - "github-go4sharing-ss_23_1"
-      - "xrayvip_com-ss_2"
-      - "github-ermaozi-vless_137"
+      - "github-ermaozi-vless_114"
+      - "xrayvip_com-ss_4_1"
+      - "github-ermaozi-ss_132"
+      - "github-ermaozi-ss_131"
+      - "xrayvip_com-ss_8_1"
 
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - "github-ermaozi-vless_62"
-      - "github-wenxig-ss_130"
-      - "github-mfuu-vmess_3"
-      - "github-ermaozi-vless_129"
-      - "xrayvip_com-vmess_21"
+      - "github-ermaozi-vless_55"
+      - "xrayvip_com-vmess_34"
+      - "github-mfuu-ss_103"
+      - "jsdelivr-chengaopa-vless_105"
+      - "github-peasoft-ss_27"
+      - "github-mfuu-ss_119"
       - "github-freefq-vmess_10"
-      - "github-ermaozi-vless_150"
-      - "github-mfuu-vmess_28"
+      - "anaer_github_io-vless_4_1"
+      - "github-go4sharing-ss_9_1"
+      - "jsdelivr-chengaopa-vless_106"
+      - "mm_mibei77_com-vmess_20"
       - "node_nodefree_me-vless_14"
-      - "github-ermaozi-vless_101"
-      - "gitio-ss_384"
-      - "github-ermaozi-vless_157"
-      - "github-freefq-vmess_5"
-      - "github-go4sharing-ss_24_1"
-      - "github-ermaozi-trojan_91"
-      - "github-ermaozi-vless_149"
-      - "anaer_github_io-vless_30"
-      - "github-go4sharing-ss_22_1"
+      - "github-freefq-vmess_14"
+      - "github-ermaozi-vless_139"
+      - "xrayvip_com-ss_11_1"
       - "github-mfuu-vmess_20"
-      - "gitio-ss_1"
-      - "github-ermaozi-vless_161"
-      - "github-ermaozi-vless_138"
+      - "github-ermaozi-vless_129"
+      - "github-ermaozi-vless_158"
+      - "xrayvip_com-ss_5_1"
+      - "github-ermaozi-vless_149"
+      - "github-ermaozi-vless_148"
       - "github-learnhard-c-vmess_7"
+      - "github-ermaozi-trojan_80"
+      - "github-ermaozi-vless_140"
       - "xrayvip_com-ss_7_1"
-      - "jsdelivr-chengaopa-ss_365"
-      - "github-ermaozi-vless_135"
-      - "github-go4sharing-vmess_26"
-      - "github-go4sharing-ss_23_1"
-      - "xrayvip_com-ss_2"
-      - "github-ermaozi-vless_137"
+      - "github-ermaozi-vless_114"
+      - "xrayvip_com-ss_4_1"
+      - "github-ermaozi-ss_132"
+      - "github-ermaozi-ss_131"
+      - "xrayvip_com-ss_8_1"
 
 rules:
   - GEOIP,CN,DIRECT

@@ -1186,19 +1186,31 @@ proxies:
     ws-opts:
       path: "/vless"
 
-  - name: "github-peasoft-ss_21"
-    type: "ss"
-    server: "89.58.16.116"
-    port: 2342
-    cipher: "auto"
-    password: "wuW04H6Tq10Zw7ZVOUg6j1"
+  - name: "github-peasoft-trojan_21"
+    type: "trojan"
+    server: "russia.com"
+    port: 443
+    password: "bpb-trojan"
+    sni: "kargar001.pages.dev"
 
-  - name: "github-peasoft-ss_22"
-    type: "ss"
-    server: "202.50.253.18"
-    port: 19999
+  - name: "github-peasoft-vmess_23"
+    type: "vmess"
+    server: "US032012.westmgreen.com"
+    port: 443
+    uuid: "5decdd8c-5790-4d16-9ce9-5cd7fb1934fc"
+    alterId: 0
     cipher: "auto"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/wes"
+
+  - name: "github-peasoft-trojan_25"
+    type: "trojan"
+    server: "104.17.22.231"
+    port: 443
+    password: "zhs000666"
+    sni: "666-4sd.pages.dev"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -2571,8 +2583,9 @@ proxy-groups:
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_2"
       - "anaer.github.io-vless_4"
-      - "github-peasoft-ss_21"
-      - "github-peasoft-ss_22"
+      - "github-peasoft-trojan_21"
+      - "github-peasoft-vmess_23"
+      - "github-peasoft-trojan_25"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -2878,8 +2891,9 @@ proxy-groups:
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_2"
       - "anaer.github.io-vless_4"
-      - "github-peasoft-ss_21"
-      - "github-peasoft-ss_22"
+      - "github-peasoft-trojan_21"
+      - "github-peasoft-vmess_23"
+      - "github-peasoft-trojan_25"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3185,8 +3199,9 @@ proxy-groups:
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_2"
       - "anaer.github.io-vless_4"
-      - "github-peasoft-ss_21"
-      - "github-peasoft-ss_22"
+      - "github-peasoft-trojan_21"
+      - "github-peasoft-vmess_23"
+      - "github-peasoft-trojan_25"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"

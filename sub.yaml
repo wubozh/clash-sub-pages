@@ -1404,12 +1404,38 @@ proxies:
     ws-opts:
       path: "/path/1733477783705"
 
-  - name: "github-peasoft-trojan_19"
+  - name: "github-peasoft-trojan_1"
     type: "trojan"
-    server: "xvxn1hkzf.mateflora.com"
-    port: 443
-    password: "57beeeb0-03fc-4fc9-94da-7604488a7134"
-    sni: "xvxn1hkzf.mateflora.com"
+    server: "sclass-00.catcat321.com"
+    port: 20123
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    sni: "hk.catxstar.com"
+
+  - name: "github-peasoft-vmess_17"
+    type: "vmess"
+    server: "planb.mojcn.com.linuxlh.xin"
+    port: 16622
+    uuid: "00736f0b-8715-45b7-888b-ced7aaa637bf"
+    alterId: 0
+    cipher: "auto"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "github-peasoft-trojan_18"
+    type: "trojan"
+    server: "ddrr2.tube-cat.com"
+    port: 59188
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    sni: "r.tw3.cat.bilibili.com"
+
+  - name: "github-peasoft-ss_19"
+    type: "ss"
+    server: "13.212.238.53"
+    port: 8443
+    cipher: "auto"
+    password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
 
   - name: "github-learnhard-c-vmess_5"
     type: "vmess"
@@ -2202,6 +2228,13 @@ proxies:
     password: "12012"
     sni: "ali-hk.b-gfw.cfd"
 
+  - name: "gitio-trojan_231"
+    type: "trojan"
+    server: "xvxn1hkzf.mateflora.com"
+    port: 443
+    password: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    sni: "xvxn1hkzf.mateflora.com"
+
   - name: "gitio-trojan_234"
     type: "trojan"
     server: "nu2rb.supertoolify.com"
@@ -2263,26 +2296,12 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
 
-  - name: "jsdelivr-chengaopa-ss_253"
+  - name: "jsdelivr-chengaopa-ss_190"
     type: "ss"
-    server: "121.54.188.7"
-    port: 26934
+    server: "140.82.56.38"
+    port: 8388
     cipher: "aes-256-gcm"
-    password: "vyrzxzt9yix5jocj"
-
-  - name: "jsdelivr-chengaopa-trojan_254"
-    type: "trojan"
-    server: "sclass-c1.catcat321.com"
-    port: 20051
-    password: "d9064589-74af-432a-9390-5d8a9da281bf"
-    sni: "hk.catxstar.com"
-
-  - name: "jsdelivr-chengaopa-ss_271"
-    type: "ss"
-    server: "103.232.93.17"
-    port: 8443
-    cipher: "2022-blake3-aes-128-gcm"
-    password: "qT1+kd0KB5v6sUmEyHdVJQ=="
+    password: "iOaIXNsQXVIxwmkY"
 
   - name: "jsdelivr-chengaopa-hysteria2_4"
     type: "hysteria2"
@@ -2367,13 +2386,6 @@ proxies:
     network: "ws"
     ws-opts:
       path: "/7b9977b2af9da85fa86adc065c362efe"
-
-  - name: "jsdelivr-chengaopa-trojan_71"
-    type: "trojan"
-    server: "sclass-00.catcat321.com"
-    port: 20123
-    password: "d9064589-74af-432a-9390-5d8a9da281bf"
-    sni: "hk.catxstar.com"
 
 proxy-groups:
   - name: Proxy
@@ -2536,7 +2548,10 @@ proxy-groups:
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_3"
       - "anaer.github.io-vmess_4"
-      - "github-peasoft-trojan_19"
+      - "github-peasoft-trojan_1"
+      - "github-peasoft-vmess_17"
+      - "github-peasoft-trojan_18"
+      - "github-peasoft-ss_19"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -2638,6 +2653,7 @@ proxy-groups:
       - "gitio-ss_211"
       - "gitio-ss_212"
       - "gitio-trojan_222"
+      - "gitio-trojan_231"
       - "gitio-trojan_234"
       - "gitio-vmess_343"
       - "gitio-vmess_344"
@@ -2645,9 +2661,7 @@ proxy-groups:
       - "gitio-vmess_357"
       - "gitio-vmess_359"
       - "gitio-ss_374"
-      - "jsdelivr-chengaopa-ss_253"
-      - "jsdelivr-chengaopa-trojan_254"
-      - "jsdelivr-chengaopa-ss_271"
+      - "jsdelivr-chengaopa-ss_190"
       - "jsdelivr-chengaopa-hysteria2_4"
       - "jsdelivr-chengaopa-hysteria2_6"
       - "jsdelivr-chengaopa-hysteria2_16"
@@ -2657,7 +2671,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_55"
       - "jsdelivr-chengaopa-vless_57"
       - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-trojan_71"
 
   - name: Auto
     type: url-test
@@ -2821,7 +2834,10 @@ proxy-groups:
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_3"
       - "anaer.github.io-vmess_4"
-      - "github-peasoft-trojan_19"
+      - "github-peasoft-trojan_1"
+      - "github-peasoft-vmess_17"
+      - "github-peasoft-trojan_18"
+      - "github-peasoft-ss_19"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -2923,6 +2939,7 @@ proxy-groups:
       - "gitio-ss_211"
       - "gitio-ss_212"
       - "gitio-trojan_222"
+      - "gitio-trojan_231"
       - "gitio-trojan_234"
       - "gitio-vmess_343"
       - "gitio-vmess_344"
@@ -2930,9 +2947,7 @@ proxy-groups:
       - "gitio-vmess_357"
       - "gitio-vmess_359"
       - "gitio-ss_374"
-      - "jsdelivr-chengaopa-ss_253"
-      - "jsdelivr-chengaopa-trojan_254"
-      - "jsdelivr-chengaopa-ss_271"
+      - "jsdelivr-chengaopa-ss_190"
       - "jsdelivr-chengaopa-hysteria2_4"
       - "jsdelivr-chengaopa-hysteria2_6"
       - "jsdelivr-chengaopa-hysteria2_16"
@@ -2942,7 +2957,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_55"
       - "jsdelivr-chengaopa-vless_57"
       - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-trojan_71"
 
   - name: Fallback
     type: fallback
@@ -3106,7 +3120,10 @@ proxy-groups:
       - "anaer.github.io-vless_1"
       - "anaer.github.io-vless_3"
       - "anaer.github.io-vmess_4"
-      - "github-peasoft-trojan_19"
+      - "github-peasoft-trojan_1"
+      - "github-peasoft-vmess_17"
+      - "github-peasoft-trojan_18"
+      - "github-peasoft-ss_19"
       - "github-learnhard-c-vmess_5"
       - "github-learnhard-c-vmess_6"
       - "github-learnhard-c-vmess_7"
@@ -3208,6 +3225,7 @@ proxy-groups:
       - "gitio-ss_211"
       - "gitio-ss_212"
       - "gitio-trojan_222"
+      - "gitio-trojan_231"
       - "gitio-trojan_234"
       - "gitio-vmess_343"
       - "gitio-vmess_344"
@@ -3215,9 +3233,7 @@ proxy-groups:
       - "gitio-vmess_357"
       - "gitio-vmess_359"
       - "gitio-ss_374"
-      - "jsdelivr-chengaopa-ss_253"
-      - "jsdelivr-chengaopa-trojan_254"
-      - "jsdelivr-chengaopa-ss_271"
+      - "jsdelivr-chengaopa-ss_190"
       - "jsdelivr-chengaopa-hysteria2_4"
       - "jsdelivr-chengaopa-hysteria2_6"
       - "jsdelivr-chengaopa-hysteria2_16"
@@ -3227,7 +3243,6 @@ proxy-groups:
       - "jsdelivr-chengaopa-vless_55"
       - "jsdelivr-chengaopa-vless_57"
       - "jsdelivr-chengaopa-vless_66"
-      - "jsdelivr-chengaopa-trojan_71"
 
 rules:
   - GEOIP,CN,DIRECT

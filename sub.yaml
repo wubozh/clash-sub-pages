@@ -2271,6 +2271,162 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "aqfNMqGyxRTHwXOy"
 
+  - name: "jsdelivr-chengaopa-hysteria2_3"
+    type: "hysteria2"
+    server: "135.126.21.107"
+    port: 443
+    password: "6ac6d17d-040c-4fab-940e-8f5d72c3fed6"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_10"
+    type: "hysteria2"
+    server: "77.93.89.197"
+    port: 443
+    password: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_15"
+    type: "hysteria2"
+    server: "3.35.174.64"
+    port: 443
+    password: "7e68e32f-8015-4f37-9082-70e8b0b58043"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_17"
+    type: "hysteria2"
+    server: "128.254.186.163"
+    port: 13337
+    password: "900c8c92-1979-4c7c-8f2f-63e87d53d8fe"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_19"
+    type: "hysteria2"
+    server: "128.254.186.213"
+    port: 13337
+    password: "900c8c92-1979-4c7c-8f2f-63e87d53d8fe"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_24"
+    type: "hysteria2"
+    server: "hysteria.udpgw.com"
+    port: 8443
+    password: "HowdyHysteria2023w0W"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_27"
+    type: "hysteria2"
+    server: "147.45.149.88"
+    port: 8443
+    password: "NL2026hy"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_37"
+    type: "hysteria2"
+    server: "13.143.189.105"
+    port: 4444
+    password: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_38"
+    type: "hysteria2"
+    server: "13.143.189.106"
+    port: 4444
+    password: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_39"
+    type: "hysteria2"
+    server: "13.143.189.142"
+    port: 4444
+    password: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_40"
+    type: "hysteria2"
+    server: "13.143.189.147"
+    port: 4444
+    password: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_41"
+    type: "hysteria2"
+    server: "13.143.189.149"
+    port: 4444
+    password: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_50"
+    type: "hysteria2"
+    server: "n42.neproxy.net"
+    port: 443
+    password: "lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-hysteria2_51"
+    type: "hysteria2"
+    server: "n49.neproxy.net"
+    port: 443
+    password: "lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf"
+    alpn:
+      - "h3"
+    udp: true
+
+  - name: "jsdelivr-chengaopa-vless_66-1"
+    type: "vless"
+    server: "ipfast.kingmna.com"
+    port: 443
+    uuid: "c6b0a7f0-4a4e-47aa-975a-35988278ab85"
+    tls: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+
+  - name: "jsdelivr-chengaopa-vless_67-1"
+    type: "vless"
+    server: "138.124.70.41"
+    port: 14430
+    uuid: "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/vless"
+
+  - name: "jsdelivr-chengaopa-vless_128"
+    type: "vless"
+    server: "185.16.110.62"
+    port: 2052
+    uuid: "85432578-96fd-4613-a255-e235a81cc94b"
+    tls: false
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2052"
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -2547,6 +2703,23 @@ proxy-groups:
       - "jsdelivr-chengaopa-ss_278"
       - "jsdelivr-chengaopa-ss_283"
       - "jsdelivr-chengaopa-ss_287"
+      - "jsdelivr-chengaopa-hysteria2_3"
+      - "jsdelivr-chengaopa-hysteria2_10"
+      - "jsdelivr-chengaopa-hysteria2_15"
+      - "jsdelivr-chengaopa-hysteria2_17"
+      - "jsdelivr-chengaopa-hysteria2_19"
+      - "jsdelivr-chengaopa-hysteria2_24"
+      - "jsdelivr-chengaopa-hysteria2_27"
+      - "jsdelivr-chengaopa-hysteria2_37"
+      - "jsdelivr-chengaopa-hysteria2_38"
+      - "jsdelivr-chengaopa-hysteria2_39"
+      - "jsdelivr-chengaopa-hysteria2_40"
+      - "jsdelivr-chengaopa-hysteria2_41"
+      - "jsdelivr-chengaopa-hysteria2_50"
+      - "jsdelivr-chengaopa-hysteria2_51"
+      - "jsdelivr-chengaopa-vless_66-1"
+      - "jsdelivr-chengaopa-vless_67-1"
+      - "jsdelivr-chengaopa-vless_128"
 
   - name: Auto
     type: url-test
@@ -2825,6 +2998,23 @@ proxy-groups:
       - "jsdelivr-chengaopa-ss_278"
       - "jsdelivr-chengaopa-ss_283"
       - "jsdelivr-chengaopa-ss_287"
+      - "jsdelivr-chengaopa-hysteria2_3"
+      - "jsdelivr-chengaopa-hysteria2_10"
+      - "jsdelivr-chengaopa-hysteria2_15"
+      - "jsdelivr-chengaopa-hysteria2_17"
+      - "jsdelivr-chengaopa-hysteria2_19"
+      - "jsdelivr-chengaopa-hysteria2_24"
+      - "jsdelivr-chengaopa-hysteria2_27"
+      - "jsdelivr-chengaopa-hysteria2_37"
+      - "jsdelivr-chengaopa-hysteria2_38"
+      - "jsdelivr-chengaopa-hysteria2_39"
+      - "jsdelivr-chengaopa-hysteria2_40"
+      - "jsdelivr-chengaopa-hysteria2_41"
+      - "jsdelivr-chengaopa-hysteria2_50"
+      - "jsdelivr-chengaopa-hysteria2_51"
+      - "jsdelivr-chengaopa-vless_66-1"
+      - "jsdelivr-chengaopa-vless_67-1"
+      - "jsdelivr-chengaopa-vless_128"
 
   - name: Fallback
     type: fallback
@@ -3103,6 +3293,23 @@ proxy-groups:
       - "jsdelivr-chengaopa-ss_278"
       - "jsdelivr-chengaopa-ss_283"
       - "jsdelivr-chengaopa-ss_287"
+      - "jsdelivr-chengaopa-hysteria2_3"
+      - "jsdelivr-chengaopa-hysteria2_10"
+      - "jsdelivr-chengaopa-hysteria2_15"
+      - "jsdelivr-chengaopa-hysteria2_17"
+      - "jsdelivr-chengaopa-hysteria2_19"
+      - "jsdelivr-chengaopa-hysteria2_24"
+      - "jsdelivr-chengaopa-hysteria2_27"
+      - "jsdelivr-chengaopa-hysteria2_37"
+      - "jsdelivr-chengaopa-hysteria2_38"
+      - "jsdelivr-chengaopa-hysteria2_39"
+      - "jsdelivr-chengaopa-hysteria2_40"
+      - "jsdelivr-chengaopa-hysteria2_41"
+      - "jsdelivr-chengaopa-hysteria2_50"
+      - "jsdelivr-chengaopa-hysteria2_51"
+      - "jsdelivr-chengaopa-vless_66-1"
+      - "jsdelivr-chengaopa-vless_67-1"
+      - "jsdelivr-chengaopa-vless_128"
 
 rules:
   - GEOIP,CN,DIRECT
